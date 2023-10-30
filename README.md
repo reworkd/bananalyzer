@@ -1,4 +1,4 @@
-![asd](./misc/banner.png)
+![Banner](public/banner.png)
 <p align="center">
   <em>🍌 Open source AI Agent evaluations for web tasks 🍌</em>
 </p>
@@ -14,17 +14,30 @@
 <a href="https://discord.gg/gcmNyAAFfV">📢 Discord</a>
 </p>
 
-# Bananalyzer
+----
+# Banana-lyzer
+### Introduction
 Open source AI Agent evaluation framework for web tasks with Playwright. Also has a banana theme because why not? 🍌
 Repo provides the code to statically host sites, the evaluations to test against, and a simple pytest wrapper for actually running the evaluations. Focus currently is on measuring timing and functional correctness.
 
+### Bananalyzer
 Why make our own evals Repo? Don't want to be coupled to existing non-web-specific evals. We also do not care for fuzzy matching answers. It is for direct answers only based on evaluating HTML content, current web page, and retrieved data.
 
 Issues is that web pages are slow and difficult to test. Curates a collection of sites that and evals for our current use cases. Today we focus on tasks involving multi-step page navigation and single page data retrieval.  
 
+### How does it work?
 
 
-# Arguments
+# Getting Started
+### Installation
+- `pip install ___`
+- Implement the ____ interface and make a banalyzer.py test file
+- Run `bananalyze ./tests/banalyzer.py`. By default it will run with the following arguments:
+```
+--headless --count 3 --live
+```
+
+### Arguments
 - `--headless` - Run Playwright headless mode
 - `--count` - Number of times to run each test
 - `--numproccesses` - Number of processes to run in parallel
@@ -35,32 +48,45 @@ Issues is that web pages are slow and difficult to test. Curates a collection of
 - `--id` - Only run tests for a specific test
 - `--live` Will run tests that require access to live websites
 
-# Getting Started
-- `pip install ___`
-- Implement the ____ interface and make a banalyzer.py test file
-- Run `bananalyze ./tests/banalyzer.py`. By default it will run with the following arguments:
+# Dataset
+### Model
 ```
---headless --count 3 --live
+{
+    "id": "string",
+    "commit-sha": "string",
+    
+}
 ```
+### Categories
+- Website
+- Category
+- Subcategory
 
-# Adding evaluations to existing sites
+
+### Extending available websites
 TODO
 
-# Adding new websites
+### Extending available evals
 TODO
 
-# Plans
-- [ ] Navigation evals
-- [ ] Data retrieval evals
-- [ ] Interface to implement for testing
-- [ ] Pytest wrapper
-- [ ] Lag emulation
+# Roadmap
+- [ ] Webserver serving static MHTML files
+- [ ] Agent interface required for running the tool
+- [ ] Pytest wrapper to enable CLI testing
+- [ ] 25 Data retrieval evals
+- [ ] Multi-step navigation evals
 - [ ] E2E tests requiring both navigation and data retrieval
+- [ ] Tests requiring pop-up closing
+- [ ] Lag emulation
 - [ ] Tests requiring sign-in
 - [ ] Tests requiring captcha solving
-- [ ] Tests requiring pop-up closing
 
 # Acknowledgements
-- Web Arena
-- Web Shop
-- Bananas
+### Web arena
+
+### Mind to web
+
+### Web shop
+
+### Bananas
+At some point we decided on a monkey theme.
