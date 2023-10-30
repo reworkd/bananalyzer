@@ -23,12 +23,20 @@ Repo provides the code to statically host sites, the evaluations to test against
 ### Bananalyzer
 Why make our own evals Repo? Don't want to be coupled to existing non-web-specific evals. We also do not care for fuzzy matching answers. It is for direct answers only based on evaluating HTML content, current web page, and retrieved data.
 
-Issues is that web pages are slow and difficult to test. Curates a collection of sites that and evals for our current use cases. Today we focus on tasks involving multi-step page navigation and single page data retrieval.  
+Issues is that web pages are slow and difficult to test. Curates a collection of sites that and evals for our current use cases. Today we focus on tasks involving multi-step page navigation and single page data retrieval.
+Care only about structured output through information directly from the websites. 
 
 ### How does it work?
-
+Banalyzer is a CLI tool that runs a set of evaluations against a set of websites. It will run each evaluation multiple times and output the results to a JSON file. The results can then be used to train an AI agent.
+The package is separated into two parts, a web server that serves websites
+We currently support the following types of websites: 
+- Local static sites:
+- Remote static sites: 
+- Remote dynamic sites: Typical consumer facing websites today. 
 
 # Getting Started
+Section outlines how to get started with using the hosted package in a local project
+
 ### Installation
 - `pip install ___`
 - Implement the ____ interface and make a banalyzer.py test file
@@ -47,6 +55,9 @@ Issues is that web pages are slow and difficult to test. Curates a collection of
 - `--group` - Only run tests for a specific group
 - `--id` - Only run tests for a specific test
 - `--live` Will run tests that require access to live websites
+
+# Contributing
+
 
 # Dataset
 ### Model
