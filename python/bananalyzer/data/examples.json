@@ -1,0 +1,23 @@
+[
+  {
+    "id": "c5e7ec4b-ad83-49a5-b056-a37ddf974a64",
+    "url": "https://www.mindstix.com/careers/machine-learning.html",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_title": "Machine Learning Engineer",
+      "roles_and_responsibilities": "Build outstanding domain-focused data solutions with internal teams, business analysts, and stakeholders.\nApply AI/ML practices and standards to develop robust and maintainable solutions.\nMotivated by a fast-paced, service-oriented environment and interacting directly with clients on new features for future product releases\nA natural problem-solver and intellectually curious across a breadth of industries and topics\nAcquainted in different aspects of Data Management like Data Strategy, Architecture, Governance, Data Quality, Integrity & Data Integration, and Model Deployment.\nStudy and transform data science prototypes.\nExtremely well-versed in designing/developing models and monitoring.",
+      "email": "careers@mindstix.com"
+    },
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "test": "test"
+        }
+      }
+    ]
+  }
+]
