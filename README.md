@@ -34,6 +34,16 @@ We currently support the following types of websites:
 - Remote static sites: 
 - Remote dynamic sites: Typical consumer facing websites today. 
 
+Note we use Async playwright
+
+### Generalizable domain
+Support for all website types. Issue with the web is that standard practices are so loose that there are an abundance of different underlying ways to represent a single individual website
+Open-domain. By allowing agents to interact with the
+web, we open up the world’s supply of websites as a rich
+source of learning environments and application domains.
+Since agents directly work with the UI, we can use existing
+web infrastructure without designing specialized APIs.
+
 # Getting Started
 Section outlines how to get started with using the hosted package in a local project
 
@@ -60,6 +70,7 @@ Section outlines how to get started with using the hosted package in a local pro
 
 
 # Dataset
+Want to make an open state/observation space
 ### Model
 ```
 {
@@ -82,9 +93,13 @@ TODO
 
 # Roadmap
 - [ ] Webserver serving static MHTML files
+- [ ] Webserver serving dynamic sites
 - [ ] Agent interface required for running the tool
 - [ ] Pytest wrapper to enable CLI testing
 - [ ] 25 Data retrieval evals
+- [ ] Translate WebArena evals
+- [ ] Translate Mind2Web evals
+- [ ] Better visualization/separation of categories and outputs
 - [ ] Multi-step navigation evals
 - [ ] E2E tests requiring both navigation and data retrieval
 - [ ] Tests requiring pop-up closing

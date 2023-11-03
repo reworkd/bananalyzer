@@ -7,7 +7,43 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+playwright = "^1.39.0"
+pydantic = "^2.4.2"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+pytest-asyncio = "^0.21.1"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-asyncio = "^0.21.1"
+pytest-mock = "^3.11.1"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.6.1"
+black = "^23.10.0"
+types-requests = "^2.31.0.10"
+pytest-asyncio = "^0.21.1"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["api"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+allow_subclassing_any = true
+allow_untyped_calls = true
+pretty = true
+show_error_codes = true
+implicit_reexport = true
+allow_untyped_decorators = true
+warn_unused_ignores = false
+warn_return_any = false
+namespace_packages = true
+files = "api"
+exclude = ["tests"]
 
 [build-system]
 requires = ["poetry-core"]
