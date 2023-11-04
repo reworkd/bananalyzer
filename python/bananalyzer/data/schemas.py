@@ -1,10 +1,13 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Literal, Union, Any, List
+from typing import Dict, Literal, Union, Any, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
+
+from bananalyzer.data.fetch_schemas import fetch_schemas
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
+    "click",  # Make a single click on a page
     "navigate",  # Travel to a new page
     "search",  # Search for the answer to a specific query
     "multiple",  # Perform multiple intents
@@ -53,6 +56,28 @@ class Example(BaseModel):
     goal: Union[str, Dict[str, Any]] = Field(
         description="The goal of the agent for this specific example"
     )
+    fetch_id: Optional[Literal["job_posting", "manufacturing_commerce"]] = Field(
+        default=None,
+        description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
+    )
     evals: List[Union[JSONEval]] = Field(
         "Various evaluations to test for within the example"
     )
+
+    @model_validator(mode="before")
+    def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+        goal_type = values.get("type")
+        if goal_type != "fetch":
+            return values
+
+        fetch_id = values.get("fetch_id")
+        if fetch_id is None:
+            print("test")
+            raise ValueError("fetch_id must be provided for fetch goal types")
+
+        goal = values.get("goal")
+        if goal is not None:
+            raise ValueError("goal must not be provided if fetch_id is provided")
+
+        values["goal"] = fetch_schemas[fetch_id]
+        return values
