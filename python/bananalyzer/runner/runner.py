@@ -32,7 +32,7 @@ def run_tests(tests: List[str]) -> int:
         # Write necessary imports at the top of the file
         f.write("import pytest\n")
         f.write("from bananalyzer.data.examples import get_example_by_url\n")
-        f.write("from bananalyzer.runner.agent_wrapper import AgentWrapper\n")
+        f.write("from bananalyzer.runner.agent_runner import AgentWrapper\n")
         f.write("from playwright.async_api import async_playwright\n\n")
 
         # Write each test to the file

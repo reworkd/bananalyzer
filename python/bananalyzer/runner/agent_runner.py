@@ -8,7 +8,7 @@ from bananalyzer.data.schemas import Example
 AgentResult = Union[Dict[str, Any], List[Dict[str, Any]], str]
 
 
-class AgentWrapper(ABC):
+class AgentRunner(ABC):
     """
     Wrapper class clients must implement to run an agent against the evaluations
     """

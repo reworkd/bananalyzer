@@ -1,10 +1,10 @@
 from playwright.async_api import BrowserContext
 
 from bananalyzer.data.schemas import Example
-from bananalyzer.runner.agent_wrapper import AgentResult, AgentWrapper
+from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
 
 
-class NullAgentWrapper(AgentWrapper):
+class NullAgentRunner(AgentRunner):
     """
     A test agent class that just returns an empty string
     """
