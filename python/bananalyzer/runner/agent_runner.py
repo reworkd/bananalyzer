@@ -14,7 +14,7 @@ class AgentRunner(ABC):
     """
 
     @abstractmethod
-    def run(
+    async def run(
         self,
         browser_context: BrowserContext,
         eval_context: Example,

@@ -9,9 +9,11 @@ class NullAgentRunner(AgentRunner):
     A test agent class that just returns an empty string
     """
 
-    def run(
+    async def run(
         self,
-        _: BrowserContext,
-        __: Example,
+        context: BrowserContext,
+        example: Example,
     ) -> AgentResult:
-        return ""
+        page = await context.new_page()
+        await page.goto(example.url)
+        return example.evals[0].expected
