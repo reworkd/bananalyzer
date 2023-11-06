@@ -5,6 +5,9 @@ description = ""
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+bananalyzer = "bananalyzer:main"
+
 [tool.poetry.dependencies]
 python = "^3.11"
 playwright = "^1.39.0"
