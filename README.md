@@ -17,16 +17,17 @@
 ----
 # Banana-lyzer
 ### Introduction
-Open source AI Agent evaluation framework for web tasks with Playwright. Also has a banana theme because why not? 🍌
-Repo provides the code to statically host sites, the evaluations to test against, and a simple pytest wrapper for actually running the evaluations. Focus currently is on measuring timing and functional correctness.
+Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright.
+We've created our own evals repo because:
+- Websites change overtime, are affected by latency, and may have anti bot protections. We needed a system that can reliably save and deploy historic/static snapshots of websites.  
+- Standard web practices are loose and there is an abundance of different underlying ways to represent a single individual website. For an agent to best generalize, we require building a diverse dataset of websites across industries and use-cases.
+- We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval across websites.  
+- There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
 
-### Bananalyzer
-Why make our own evals Repo? Don't want to be coupled to existing non-web-specific evals. We also do not care for fuzzy matching answers. It is for direct answers only based on evaluating HTML content, current web page, and retrieved data.
-
-Issues is that web pages are slow and difficult to test. Curates a collection of sites that and evals for our current use cases. Today we focus on tasks involving multi-step page navigation and single page data retrieval.
-Care only about structured output through information directly from the websites. 
+Though this repo is very much a work in progress, today we provide functionality to statically host website snapshots, a simple website snapshot generator, 20 basic examples to test against, and a pytest wrapper for actually running evaluations. 
 
 ### How does it work?
+We've chosen playwright due to it's existing usage in academia ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/)) and  
 Banalyzer is a CLI tool that runs a set of evaluations against a set of websites. It will run each evaluation multiple times and output the results to a JSON file. The results can then be used to train an AI agent.
 The package is separated into two parts, a web server that serves websites
 We currently support the following types of websites: 
@@ -36,35 +37,16 @@ We currently support the following types of websites:
 
 Note we use Async playwright
 
-### Generalizable domain
-Support for all website types. Issue with the web is that standard practices are so loose that there are an abundance of different underlying ways to represent a single individual website
-Open-domain. By allowing agents to interact with the
-web, we open up the world’s supply of websites as a rich
-source of learning environments and application domains.
-Since agents directly work with the UI, we can use existing
-web infrastructure without designing specialized APIs.
-
 # Getting Started
 Section outlines how to get started with using the hosted package in a local project
 
-### Installation
+### Local testing installation
 - `pip install ___`
-- Implement the ____ interface and make a banalyzer.py test file
-- Run `bananalyze ./tests/banalyzer.py`. By default it will run with the following arguments:
-```
---headless --count 3 --live
-```
+- Implement the `agent_runner.py` interface and make a banalyzer.py test file
+- Run `bananalyze ./tests/banalyzer.py` to run the test suite again
 
 ### Arguments
-- `--headless` - Run Playwright headless mode
-- `--count` - Number of times to run each test
-- `--numproccesses` - Number of processes to run in parallel
-- `--debug` - Run in debug mode
-- `--proxy` - Run with proxy
-- `--website` - Only run tests for a specific website
-- `--group` - Only run tests for a specific group
-- `--id` - Only run tests for a specific test
-- `--live` Will run tests that require access to live websites
+- `--headless`: Run Playwright headless mode
 
 # Contributing
 
@@ -85,34 +67,49 @@ Want to make an open state/observation space
 - Subcategory
 
 
-### Extending available websites
+### Creating a new evla
 TODO
 
 ### Extending available evals
 TODO
 
 # Roadmap
-- [ ] Webserver serving static MHTML files
-- [ ] Webserver serving dynamic sites
-- [ ] Agent interface required for running the tool
-- [ ] Pytest wrapper to enable CLI testing
-- [ ] 25 Data retrieval evals
+##### Launch
+- [x] Functions to serve local MHTML sites
+- [x] Agent interface required for running the tool
+- [ ] Pytest wrapper to enable CLI testing with additional arguments
+- [ ] Document a majority of the repo
+
+##### Features
+- [ ] Ability to save 
 - [ ] Translate WebArena evals
 - [ ] Translate Mind2Web evals
-- [ ] Better visualization/separation of categories and outputs
-- [ ] Multi-step navigation evals
-- [ ] E2E tests requiring both navigation and data retrieval
+- [ ] Lag and bot detection emulation
+- [ ] Updated test visualization with separation of categories and outputs
+
+
+##### Dataset updates
+- [ ] 15 additional data retrieval evals
+- [ ] 15 click evals
+- [ ] 15 navigation evals
+- [ ] Tests requiring multi-step navigation
+- [ ] Tests requiring both navigation and data retrieval
 - [ ] Tests requiring pop-up closing
-- [ ] Lag emulation
 - [ ] Tests requiring sign-in
 - [ ] Tests requiring captcha solving
 
-# Acknowledgements
-### Web arena
 
-### Mind to web
 
-### Web shop
 
-### Bananas
-At some point we decided on a monkey theme.
+
+# Citations
+```
+bibtex
+@misc{reworkd2023bananalyzer,
+  title        = {Bananalyzer},
+  author       = {Asim Shrestha and Adam Watkins and Rohan Pandey and Srijan Subedi},
+  year         = {2023},
+  howpublished = {GitHub},
+  url          = {https://github.com/reworkd/bananalyzer}
+}
+```

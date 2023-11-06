@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cli-test"
+version = "0.1.0"
+description = ""
+authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "cli_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bananalyzer = { path = "../python" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
