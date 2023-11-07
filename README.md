@@ -19,59 +19,32 @@
 ### Introduction
 Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright.
 We've created our own evals repo because:
-- Websites change overtime, are affected by latency, and may have anti bot protections. We needed a system that can reliably save and deploy historic/static snapshots of websites.  
+- Websites change overtime, are affected by latency, and may have anti bot protections. We need a system that can reliably save and deploy historic/static snapshots of websites.  
 - Standard web practices are loose and there is an abundance of different underlying ways to represent a single individual website. For an agent to best generalize, we require building a diverse dataset of websites across industries and use-cases.
 - We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval across websites.  
 - There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
 
-Though this repo is very much a work in progress, today we provide functionality to statically host website snapshots, a simple website snapshot generator, 20 basic examples to test against, and a pytest wrapper for actually running evaluations. 
-
 ### How does it work?
-We've chosen playwright due to it's existing usage in academia ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/)) and  
-Banalyzer is a CLI tool that runs a set of evaluations against a set of websites. It will run each evaluation multiple times and output the results to a JSON file. The results can then be used to train an AI agent.
+Banana-lyzer is a CLI tool that runs a set of evaluations against a set of websites. It will run each evaluation multiple times and output the results to a JSON file. The results can then be used to train an AI agent.
 The package is separated into two parts, a web server that serves websites
 We currently support the following types of websites: 
 - Local static sites:
 - Remote static sites: 
 - Remote dynamic sites: Typical consumer facing websites today. 
 
-Note we use Async playwright
+Note that this repo is very much a work in progress,
 
 # Getting Started
-Section outlines how to get started with using the hosted package in a local project
-
 ### Local testing installation
 - `pip install ___`
 - Implement the `agent_runner.py` interface and make a banalyzer.py test file
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite again
 
 ### Arguments
-- `--headless`: Run Playwright headless mode
+- `-h` or `--headless`: Run Playwright headless mode
 
-# Contributing
-
-
-# Dataset
-Want to make an open state/observation space
-### Model
-```
-{
-    "id": "string",
-    "commit-sha": "string",
-    
-}
-```
-### Categories
-- Website
-- Category
-- Subcategory
-
-
-### Creating a new evla
-TODO
-
-### Extending available evals
-TODO
+### Adding evaluations
+To add a snaps
 
 # Roadmap
 ##### Launch

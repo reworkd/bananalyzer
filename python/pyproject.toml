@@ -34,6 +34,9 @@ multi_line_output = 3
 src_paths = ["api"]
 
 [tool.mypy]
+plugins = [
+  "pydantic.mypy"
+]
 strict = true
 ignore_missing_imports = true
 allow_subclassing_any = true

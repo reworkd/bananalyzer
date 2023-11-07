@@ -11,14 +11,19 @@ from typing import Any
 from bananalyzer.data.examples import examples
 from bananalyzer.runner.agent_runner import AgentRunner
 from bananalyzer.runner.runner import run_tests, generate_test
+from bananalyzer.schema import Args
 
 
-def parse_file_path() -> str:
+def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a {file_name} file against the benchmark"
+        description=f"Run the agent inside a {file_name} file against the benchmark",
+        add_help=False,
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
+    parser.add_argument(
+        "-h", "--headless", action="store_true", help=f"Whether to run headless or not"
+    )
 
     args = parser.parse_args()
 
@@ -26,7 +31,10 @@ def parse_file_path() -> str:
     if file_name != file_name:
         raise RuntimeError(f"The provided file name must be {file_name}")
 
-    return args.path
+    return Args(
+        path=args.path,
+        headless=args.headless,
+    )
 
 
 def load_agent_from_path(file_path: str) -> Any:
@@ -34,7 +42,7 @@ def load_agent_from_path(file_path: str) -> Any:
     module_name = path.stem
 
     spec = importlib.util.spec_from_file_location(module_name, file_path)
-    if spec is None:
+    if spec is None or spec.loader is None:
         raise ImportError(f"Cannot load module from path {file_path}")
     module = importlib.util.module_from_spec(spec)
     sys.modules[module_name] = module
@@ -61,15 +69,15 @@ def main():
     Note your AgentRunner must be concurrency safe.
     """
     # Load the agent
-    file_path = parse_file_path()
-    agent = load_agent_from_path(file_path)
+    args = parse_args()
+    agent = load_agent_from_path(args.path)
     validate_agent_instance_available(agent)
 
     # Load the desired tests
-    tests = [generate_test(example) for example in examples]
+    tests = [generate_test(example, args.headless) for example in examples]
 
     # Run the tests
-    run_tests(tests, file_path)
+    run_tests(tests, args.path)
 
 
 if __name__ == "__main__":

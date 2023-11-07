@@ -4,18 +4,17 @@ import tempfile
 from typing import Callable, Awaitable, List
 
 import pytest
-
 from bananalyzer.data.schemas import Example
 
 Test = Callable[[], Awaitable[None]]
 
 
-def generate_test(example: Example) -> str:
+def generate_test(example: Example, headless: bool) -> str:
     return f"""
 @pytest.mark.asyncio
 async def test_{example.id.replace("-", "_")}() -> None:
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless={headless})
         context = await browser.new_context()
         example = get_example_by_url("{example.url}")
          
