@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-from bananalyzer.data.examples import get_example_by_url, get_examples_path
+from bananalyzer.data.examples import get_examples_path
 from bananalyzer.data.schemas import Example
 
 
@@ -29,7 +29,6 @@ class MHTMLWebsiteResponder(WebsiteResponder):
         self.data_path = data_path
 
     def get_url(self, example: Example) -> str:
-        example = get_example_by_url(example)
         mhtml_path = self.data_path / example.id / "index.mhtml"
         return f"file://{mhtml_path.as_posix()}"
 
@@ -43,7 +42,7 @@ class HostedWebsiteResponder(WebsiteResponder):
         return example.url
 
 
-def get_website_responder(example: Example):
+def get_website_responder(example: Example) -> WebsiteResponder:
     if example.source == "mhtml":
         return MHTMLWebsiteResponder(get_examples_path())
     elif example.source == "hosted":

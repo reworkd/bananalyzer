@@ -51,4 +51,4 @@ def fetch_page(url: Union[str, None] = None) -> str:
             status_code=400, detail="Unable to find an example with that URL"
         )
     responder = get_website_responder(example)
-    return responder.get_url(url)
+    return responder.get_url(example)

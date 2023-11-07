@@ -1,9 +1,10 @@
 # dynamic_test_runner.py
 import os
 import tempfile
-from typing import Callable, Awaitable, List
+from typing import Callable, Awaitable, List, IO
 
 import pytest
+
 from bananalyzer.data.schemas import Example
 
 Test = Callable[[], Awaitable[None]]
@@ -25,7 +26,7 @@ async def test_{example.id.replace("-", "_")}() -> None:
 """
 
 
-def write_load_agent_module(f, file_path: str) -> None:
+def write_load_agent_module(f: IO[str], file_path: str) -> None:
     f.write(
         f"""
 import importlib.util

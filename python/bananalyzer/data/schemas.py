@@ -61,8 +61,13 @@ class Example(BaseModel):
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
     )
     evals: List[Union[JSONEval]] = Field(
-        "Various evaluations to test for within the example"
+        description="Various evaluations to test for within the example"
     )
+
+    def get_static_url(self) -> str:
+        from bananalyzer.server import get_website_responder
+
+        return get_website_responder(self).get_url(self)
 
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:

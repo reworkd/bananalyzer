@@ -14,10 +14,31 @@ from bananalyzer.runner.runner import run_tests, generate_test
 from bananalyzer.schema import Args
 
 
+def print_intro() -> None:
+    # https://www.asciiart.eu/food-and-drinks/bananas
+    print(
+        """//\ 
+V  \ 
+ \  \_
+  \,'.`-.
+   |\ `. `.       
+   ( \  `. `-.                        _,.-:\ 
+    \ \   `.  `-._             __..--' ,-';/
+     \ `.   `-.   `-..___..---'   _.--' ,'/
+      `. `.    `-._        __..--'    ,' /
+        `. `-_     ``--..''       _.-' ,'
+          `-_ `-.___        __,--'   ,'
+             `-.__  `----'''    __.-'
+                  `--..____..--'
+"""
+    )
+    print("Bananalyzing... 🍌")
+
+
 def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a {file_name} file against the benchmark",
+        description=f"Run the agent inside a bananalyzer agent definition file against the benchmark",
         add_help=False,
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
@@ -59,7 +80,7 @@ def validate_agent_instance_available(agent: Any) -> None:
         raise TypeError("User defined agent is is not an instance of AgentRunner")
 
 
-def main():
+def main() -> None:
     """
     Load the agent from the provided path and run it against the benchmark
 
@@ -68,6 +89,7 @@ def main():
     Then we pass the path to the agent runner and let it load it within the pytest context.
     Note your AgentRunner must be concurrency safe.
     """
+    print_intro()
     # Load the agent
     args = parse_args()
     agent = load_agent_from_path(args.path)
