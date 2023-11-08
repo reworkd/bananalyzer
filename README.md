@@ -29,7 +29,7 @@ We've created our own evals repo because:
 ⚠️ Note that this repo is a work in progress. ⚠️
 
 Banana-lyzer is a CLI tool that runs a set of evaluations against a set of example websites.
-The examples are defined in [examples.py](https://github.com/reworkd/bananalyzer/blob/main/python/bananalyzer/data/examples.py) using a schema similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted from the page. 
+The examples are defined in [examples.py](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/examples.py) using a schema similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted from the page. 
 
 The CLI tool will sequentially run examples against a user defined agent by dynamically constructing a pytest test suite and executing it.
 As a user, you simply create a file that implements the `AgentRunner` interface and defines an instance of your AgentRunner in a variable called "agent".
