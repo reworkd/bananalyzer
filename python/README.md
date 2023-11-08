@@ -1,4 +1,4 @@
-![Banner](public/banner.png)
+![Banner](https://raw.githubusercontent.com/reworkd/bananalyzer/main/public/banner.png?token=GHSAT0AAAAAACIR3TH3CIZWTDGKHLZDUVJ2ZKK4GZQ)
 <p align="center">
   <em>🍌 Open source AI Agent evaluations for web tasks 🍌</em>
 </p>
