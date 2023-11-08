@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://agentgpt.reworkd.ai">🔗 Main site</a>
+<a href="https://reworkd.ai">🔗 Main site</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="https://twitter.com/reworkdai">🐦 Twitter</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
