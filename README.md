@@ -19,32 +19,26 @@
 ### Introduction
 Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright.
 We've created our own evals repo because:
-- Websites change overtime, are affected by latency, and may have anti bot protections. We need a system that can reliably save and deploy historic/static snapshots of websites.  
+- Websites change overtime, are affected by latency, and may have anti bot protections.
+- We need a system that can reliably save and deploy historic/static snapshots of websites.  
 - Standard web practices are loose and there is an abundance of different underlying ways to represent a single individual website. For an agent to best generalize, we require building a diverse dataset of websites across industries and use-cases.
 - We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval across websites.  
 - There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
 
 ### How does it work?
-Note that this repo is a work in progress.
+⚠️ Note that this repo is a work in progress. ⚠️
 
 Banana-lyzer is a CLI tool that runs a set of evaluations against a set of example websites.
-The examples are defined in `./python/bananalyzer/data/examples.py` using a schema similar to Mind2Web and WebArena.
-The examples store metadata like the agent goal and the expected agent output.
-We also store snapshots of urls via mhtml to ensure the page is not changed over time.
-The plan in the future is to translate existing datasets like Mind2Web and WebArena into this format.
-Note all examples today expect structured JSON output using data directly extracted from the page. 
-In the future we will support more complex evaluation methods and examples that require multiple steps to complete.
+The examples are defined in [examples.py](https://github.com/reworkd/bananalyzer/blob/main/python/bananalyzer/data/examples.py) using a schema similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted from the page. 
+
 The CLI tool will sequentially run examples against a user defined agent by dynamically constructing a pytest test suite and executing it.
 As a user, you simply create a file that implements the `AgentRunner` interface and defines an instance of your AgentRunner in a variable called "agent".
 AgentRunner exposes the example, and a playwright browser context to use.  
 
+In the future we will support more complex evaluation methods and examples that require multiple steps to complete. The plan is to translate existing datasets like Mind2Web and WebArena into this format.
 
 # Getting Started
 ### Local testing installation
-- `pip install ___`
-- Implement the `agent_runner.py` interface and make a banalyzer.py test file
-- Run `bananalyze ./tests/banalyzer.py` to run the test suite again
-
 - `pip install --dev bananalyzer`
 - Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an example file
 ```
@@ -81,6 +75,7 @@ The project has a basic FastAPI server to expose example data. You can run it wi
 poetry run uvicorn bananalyzer.server:app --reload
 ```
 Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
+
 #### Adding examples
 All current examples have been manually added through running the `fetch.ipynb` notebook at the root of this project.
 This notebook will load a site with Playwright and use the chrome developer API to save the page as an MHTML file.
