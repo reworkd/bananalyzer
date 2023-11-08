@@ -25,14 +25,19 @@ We've created our own evals repo because:
 - There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
 
 ### How does it work?
-Banana-lyzer is a CLI tool that runs a set of evaluations against a set of websites. It will run each evaluation multiple times and output the results to a JSON file. The results can then be used to train an AI agent.
-The package is separated into two parts, a web server that serves websites
-We currently support the following types of websites: 
-- Local static sites:
-- Remote static sites: 
-- Remote dynamic sites: Typical consumer facing websites today. 
+Note that this repo is a work in progress.
 
-Note that this repo is very much a work in progress,
+Banana-lyzer is a CLI tool that runs a set of evaluations against a set of example websites.
+The examples are defined in `./python/bananalyzer/data/examples.py` using a schema similar to Mind2Web and WebArena.
+The examples store metadata like the agent goal and the expected agent output.
+We also store snapshots of urls via mhtml to ensure the page is not changed over time.
+The plan in the future is to translate existing datasets like Mind2Web and WebArena into this format.
+Note all examples today expect structured JSON output using data directly extracted from the page. 
+In the future we will support more complex evaluation methods and examples that require multiple steps to complete.
+The CLI tool will sequentially run examples against a user defined agent by dynamically constructing a pytest test suite and executing it.
+As a user, you simply create a file that implements the `AgentRunner` interface and defines an instance of your AgentRunner in a variable called "agent".
+AgentRunner exposes the example, and a playwright browser context to use.  
+
 
 # Getting Started
 ### Local testing installation
@@ -40,21 +45,53 @@ Note that this repo is very much a work in progress,
 - Implement the `agent_runner.py` interface and make a banalyzer.py test file
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite again
 
-### Arguments
-- `-h` or `--headless`: Run Playwright headless mode
+```
+import asyncio
+from playwright.async_api import BrowserContext
+from bananalyzer.data.schemas import Example
+from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
 
-### Adding evaluations
-To add a snaps
+
+class NullAgentRunner(AgentRunner):
+    """
+    A test agent class that just returns an empty string
+    """
+
+    async def run(
+        self,
+        context: BrowserContext,
+        example: Example,
+    ) -> AgentResult:
+        page = await context.new_page()
+        await page.goto(example.get_static_url())   # example.url has the real url, example.get_static_url() returns the local mhtml file url
+        await asyncio.sleep(0.5)
+        return example.evals[0].expected    # Just return expected output directly so that tests pass
+```
+
+#### Arguments
+- `-h` or `--headless`: Run with Playwright headless mode
+
+### Contributing
+#### Running the server
+The project has a basic FastAPI server to expose example data. You can run it with the following command:
+```
+poetry run uvicorn bananalyzer.server:app --reload
+```
+Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
+#### Adding examples
+All current examples have been manually added through running the `fetch.ipynb` notebook at the root of this project.
+This notebook will load a site with Playwright and use the chrome developer API to save the page as an MHTML file.
 
 # Roadmap
 ##### Launch
 - [x] Functions to serve local MHTML sites
 - [x] Agent interface required for running the tool
-- [ ] Pytest wrapper to enable CLI testing with additional arguments
-- [ ] Document a majority of the repo
+- [x] Pytest wrapper to enable CLI testing with additional arguments
+- [x] Document a majority of the repo
 
 ##### Features
-- [ ] Ability to save 
+- [ ] Ability to add multiple site pages to examples
+- [ ] Ability to add in-page actions to examples
 - [ ] Translate WebArena evals
 - [ ] Translate Mind2Web evals
 - [ ] Lag and bot detection emulation
@@ -62,18 +99,14 @@ To add a snaps
 
 
 ##### Dataset updates
-- [ ] 15 additional data retrieval evals
-- [ ] 15 click evals
-- [ ] 15 navigation evals
+- [ ] 15 additional data retrieval examples
+- [ ] 15 click examples
+- [ ] 15 navigation examples
 - [ ] Tests requiring multi-step navigation
 - [ ] Tests requiring both navigation and data retrieval
 - [ ] Tests requiring pop-up closing
 - [ ] Tests requiring sign-in
 - [ ] Tests requiring captcha solving
-
-
-
-
 
 # Citations
 ```
