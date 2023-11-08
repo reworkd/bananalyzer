@@ -65,7 +65,7 @@ class Example(BaseModel):
     )
 
     def get_static_url(self) -> str:
-        from bananalyzer.server import get_website_responder
+        from bananalyzer.runner.website_responder import get_website_responder
 
         return get_website_responder(self).get_url(self)
 

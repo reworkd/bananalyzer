@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/reworkd/bananalyzer/main/public/banner.png?token=GHSAT0AAAAAACIR3TH3CIZWTDGKHLZDUVJ2ZKK4GZQ)
+![Banner](https://github.com/reworkd/bananalyzer/blob/main/public/banner.png?raw=true)
 <p align="center">
   <em>🍌 Open source AI Agent evaluations for web tasks 🍌</em>
 </p>
@@ -72,7 +72,8 @@ class NullAgentRunner(AgentRunner):
 #### Running the server
 The project has a basic FastAPI server to expose example data. You can run it with the following command:
 ```
-poetry run uvicorn bananalyzer.server:app --reload
+cd server
+poetry run uvicorn server:app --reload   
 ```
 Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
 

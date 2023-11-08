@@ -1,11 +1,12 @@
-import pytest
 from typing import Any
 
+import pytest
+
 from bananalyzer.data.schemas import Example
-from bananalyzer.server import get_website_responder
-from bananalyzer.server.website_responder import (
+from bananalyzer.runner.website_responder import (
     HostedWebsiteResponder,
     MHTMLWebsiteResponder,
+    get_website_responder,
 )
 
 
