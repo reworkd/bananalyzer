@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://agentgpt.reworkd.ai">🔗 Main site</a>
+<a href="https://reworkd.ai/">🔗 Main site</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="https://twitter.com/reworkdai">🐦 Twitter</a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -41,6 +41,10 @@ AgentRunner exposes the example, and a playwright browser context to use.
 
 # Getting Started
 ### Local testing installation
+- `pip install ___`
+- Implement the `agent_runner.py` interface and make a banalyzer.py test file
+- Run `bananalyze ./tests/banalyzer.py` to run the test suite again
+
 - `pip install --dev bananalyzer`
 - Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an example file
 ```
