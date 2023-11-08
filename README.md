@@ -15,6 +15,7 @@
 </p>
 
 ----
+
 # Banana-lyzer
 ### Introduction
 Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright (And has a banana theme because why not).
@@ -24,6 +25,8 @@ We've created our own evals repo because:
 - Standard web practices are loose and there is an abundance of different underlying ways to represent a single individual website. For an agent to best generalize, we require building a diverse dataset of websites across industries and use-cases.
 - We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval across websites.  
 - There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
+
+https://github.com/reworkd/bananalyzer/assets/50181239/4587615c-a5b4-472d-bca9-334594130af1
 
 ### How does it work?
 ⚠️ Note that this repo is a work in progress. ⚠️
