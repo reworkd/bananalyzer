@@ -41,10 +41,8 @@ AgentRunner exposes the example, and a playwright browser context to use.
 
 # Getting Started
 ### Local testing installation
-- `pip install ___`
-- Implement the `agent_runner.py` interface and make a banalyzer.py test file
-- Run `bananalyze ./tests/banalyzer.py` to run the test suite again
-
+- `pip install --dev bananalyzer`
+- Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an example file
 ```
 import asyncio
 from playwright.async_api import BrowserContext
@@ -67,6 +65,7 @@ class NullAgentRunner(AgentRunner):
         await asyncio.sleep(0.5)
         return example.evals[0].expected    # Just return expected output directly so that tests pass
 ```
+- Run `bananalyze ./tests/banalyzer.py` to run the test suite
 
 #### Arguments
 - `-h` or `--headless`: Run with Playwright headless mode
