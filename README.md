@@ -17,7 +17,7 @@
 ----
 # Banana-lyzer
 ### Introduction
-Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright.
+Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright (And has a banana theme because why not).
 We've created our own evals repo because:
 - Websites change overtime, are affected by latency, and may have anti bot protections.
 - We need a system that can reliably save and deploy historic/static snapshots of websites.  
