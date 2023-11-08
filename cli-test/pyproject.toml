@@ -8,7 +8,7 @@ packages = [{include = "cli_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-bananalyzer = { path = "../python" }
+bananalyzer = { path = "../" }
 
 
 [build-system]
