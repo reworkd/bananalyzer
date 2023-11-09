@@ -6,6 +6,14 @@ fetch_goals = {
 }
 
 fetch_schemas = {
+    "contact": {
+        "name": "string",
+        "website": "string",
+        "phone": "string",
+        "fax": "string",
+        "address": "string",
+        "type": "string",  # What kind of location / person is it? May not be available
+    },
     "job_posting": {
         "job_id": "string",
         "job_title": "string",
