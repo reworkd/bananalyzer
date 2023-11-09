@@ -56,7 +56,9 @@ class Example(BaseModel):
     goal: Union[str, Dict[str, Any]] = Field(
         description="The goal of the agent for this specific example"
     )
-    fetch_id: Optional[Literal["job_posting", "manufacturing_commerce"]] = Field(
+    fetch_id: Optional[
+        Literal["job_posting", "manufacturing_commerce", "contact"]
+    ] = Field(
         default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
     )
