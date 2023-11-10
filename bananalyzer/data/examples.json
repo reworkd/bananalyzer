@@ -689,13 +689,359 @@
             {
                 "type": "json_match",
                 "expected": {
-                    "name": "UofL Health – Jewish Hospital Outpatient Care Center",
+                    "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
                     "website": null,
                     "phone": "502-588-7690",
                     "fax": "502-540-1414",
                     "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
                     "type": "GI Motility Clinic"
                 }
+            }
+        ]
+    },
+    {
+        "id": "47b45f41-2b7e-4295-ac0c-93f02354cd93",
+        "url": "https://www.hawaiipacifichealth.org/locations/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/eleele-clinic/",
+                    "http://www.hawaiipacifichealth.org/kapiolani/locat\u2026amily-medicine-clinic-at-kapiolani-womens-center/",
+                    "http://www.hawaiipacifichealth.org/pali-momi/locat\u2026health-cancer-center-at-pali-momi-medical-center/",
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/kapaa-clinic/",
+                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-center/",
+                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-specialists-at-hale-pawaa/",
+                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-womens-center/",
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-medical-clinic/",
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-urgent-care/",
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/koloa-clinic/",
+                    "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-medical-center/",
+                    "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-outpatient-center/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahului-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026-medical-center-doctors-on-call-sheraton-waikiki/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026l-center-doctors-on-call-hilton-hawaiian-village/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-downtown-honolulu-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026aub-medical-center-first-insurance-center-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hawaii-kai-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hilo-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahala-clinic-urgent-care/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kailua-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kaneohe-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026straub-medical-center-kapolei-clinic-urgent-care/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-king-street-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-lanai-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-mililani-shopping-center-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026traub-medical-center-mililani-town-center-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pali-momi-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pearlridge-clinic/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026-center-physical-therapy-and-occupational-health/",
+                    "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-ward-village-clinic-urgent-care/",
+                    "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "97dc7166-7dcb-4c9f-941f-342996bf1ca8",
+        "url": "https://www.mountsinai.org/locations",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.mountsinai.org/locations/beth-israel",
+                    "https://www.mountsinai.org/locations/brooklyn",
+                    "https://www.mountsinai.org/locations/mount-sinai",
+                    "https://www.mountsinai.org/locations/morningside",
+                    "https://www.mountsinai.org/locations/queens",
+                    "https://www.southnassau.org/sn",
+                    "https://www.mountsinai.org/locations/west",
+                    "https://www.nyee.edu/",
+                    "https://www.mountsinai.org/locations/msd-faculty-practice",
+                    "https://www.mountsinai.org/locations/spine-hospital",
+                    "https://www.mountsinai.org/locations/downtown",
+                    "https://www.mountsinai.org/locations/kravis-childrens",
+                    "https://www.mountsinai.org/about/network",
+                    "https://www.mountsinai.org/locations/urgent-care",
+                    "https://www.mountsinai.org/locations/outpatient",
+                    "https://www.mountsinai.org/locations/union-square",
+                    "https://www.mountsinai.org/locations/chelsea",
+                    "https://www.mountsinai.org/locations/behavioral-health-center",
+                    "https://www.mountsinai.org/locations/harlem-health-center"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "29cc4cad-f85c-4d8f-952e-f41f7eb2bc73",
+        "url": "https://www.acuityhealthcare.net/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/atlantic-city/atlantic-city",
+                    "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/willingboro/willingboro",
+                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/morgantown/morgantown",
+                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/weirton/weirton",
+                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bb50f4e4-7d66-4ba6-b613-1065ea58a6fc",
+        "url": "https://www.adventisthealthcare.com/locations/results/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1e4d7ca6-5292-4857-aca6-bd0fff337435",
+        "url": "https://apprhs.org/our-locations/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://apprhs.org/arims/",
+                    "http://apprhs.org/apppulmonology",
+                    "https://apprhs.org/apprheumatology",
+                    "https://apprhs.org/appfamily",
+                    "https://apprhs.org/appgastro/",
+                    "https://apprhs.org/apportho/",
+                    "https://apprhs.org/baker/",
+                    "https://apprhs.org/booneurology/",
+                    "https://apprhs.org/davantclinic/",
+                    "https://apprhs.org/elkriver/",
+                    "https://apprhs.org/grandfatherclinic/",
+                    "https://apprhs.org/harmony/",
+                    "https://apprhs.org/jeffersonclinic/",
+                    "https://apprhs.org/tateclinic/",
+                    "https://apprhs.org/watauga-surgical/",
+                    "https://apprhs.org/wataugamedical/",
+                    "https://apprhs.org/heartcenter",
+                    "https://apprhs.org/heartcenter",
+                    "https://apprhs.org/rehabcenter/",
+                    "https://apprhs.org/sleepcenter",
+                    "https://apprhs.org/paul-h-broyhill-wellness-center",
+                    "https://apprhs.org/cancercenter/",
+                    "https://apprhs.org/breastcenter/",
+                    "https://apprhs.org/cannon/",
+                    "https://apprhs.org/rehabcenter/",
+                    "https://apprhs.org/appalachian-regional-behavioral-health/",
+                    "https://apprhs.org/https://apprhs.org/appalachian-regional-behavioral-health/"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c45a5a21-964c-422c-96a9-acbfdebc64bc",
+        "url": "https://www.archbold.org/locations/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.archbold.org/locations/archbold-ambulatory-care-center/",
+                    "https://www.archbold.org/locations/archbold-anti-coagulation-clinic/",
+                    "https://www.archbold.org/locations/archbold-brooks/",
+                    "https://www.archbold.org/locations/archbold-cancer-center/",
+                    "https://www.archbold.org/locations/archbold-corporate-care-center/",
+                    "https://www.archbold.org/locations/archbold-ent-allergy/",
+                    "https://www.archbold.org/locations/archbold-foundation/",
+                    "https://www.archbold.org/locations/archbold-gastroenterology/",
+                    "https://www.archbold.org/locations/archbold-grady/",
+                    "https://www.archbold.org/locations/archbold-grady-emergency-room/",
+                    "https://www.archbold.org/locations/archbold-home-health-services/",
+                    "https://www.archbold.org/locations/archbold-home-care/",
+                    "https://www.archbold.org/locations/archbold-hospice/",
+                    "https://www.archbold.org/locations/archbold-inpatient-rehabilitation/",
+                    "https://www.archbold.org/locations/archbold-internal-medicine-residency-clinic/",
+                    "https://www.archbold.org/locations/archbold-living-cairo/",
+                    "https://www.archbold.org/locations/archbold-living-camilla/",
+                    "https://www.archbold.org/locations/archbold-living-pelham/",
+                    "https://www.archbold.org/locations/archbold-living-thomasville/",
+                    "https://www.archbold.org/locations/archbold-memorial/",
+                    "https://www.archbold.org/locations/archbold-memorial-emergency-department/",
+                    "https://www.archbold.org/locations/archbold-mitchell/",
+                    "https://www.archbold.org/locations/archbold-neurology-neurosurgery/",
+                    "https://www.archbold.org/locations/archbold-northside/",
+                    "https://www.archbold.org/locations/archbold-pediatrics-camilla/",
+                    "https://www.archbold.org/locations/archbold-pinetree-pharmacy/",
+                    "https://www.archbold.org/locations/archbold-primary-care-cairo/",
+                    "https://www.archbold.org/locations/archbold-primary-care-camilla/",
+                    "https://www.archbold.org/locations/archbold-primary-care-pelham/",
+                    "https://www.archbold.org/locations/archbold-primary-care-thomasville/",
+                    "https://www.archbold.org/locations/archbold-pulmonology/",
+                    "https://www.archbold.org/locations/archbold-sleep-center/",
+                    "https://www.archbold.org/locations/archbold-south-georgia-surgical/",
+                    "https://www.archbold.org/locations/archbold-specialty-clinic-bainbridge/",
+                    "https://www.archbold.org/locations/archbold-specialty-clinic-cairo/",
+                    "https://www.archbold.org/locations/archbold-specialty-clinic-camilla/",
+                    "https://www.archbold.org/locations/archbold-specialty-clinic-quitman/",
+                    "https://www.archbold.org/locations/archbold-therapy-and-sports-medicine/",
+                    "https://www.archbold.org/locations/archbold-therapy-camilla/",
+                    "https://www.archbold.org/locations/archbold-therapy-quitman/",
+                    "https://www.archbold.org/locations/archbold-urgent-care/",
+                    "https://www.archbold.org/locations/archbold-urology/",
+                    "https://www.archbold.org/locations/archbold-womens-center/",
+                    "https://www.archbold.org/locations/archbold-wound-care/",
+                    "https://www.archbold.org/locations/cardiovascular-consultants-of-south-georgia-llc/",
+                    "https://www.archbold.org/locations/grady-general-hospital-outpatient-rehabilitation/",
+                    "https://www.archbold.org/locations/loudermilk-heart-vascular-center/",
+                    "https://www.archbold.org/locations/vita-surgery-vascular/"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f9e89327-3556-492d-963d-3765eebdbb1d",
+        "url": "https://www.arnothealth.org/hospitals",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.arnothealth.org/arnot-ogden-medical-center",
+                    "https://www.arnothealth.org/ira-davenport-memorial-hospital",
+                    "https://www.arnothealth.org/st-josephs-hospital"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3724f66f-9743-499c-a4b5-7b7f32d9e2a4",
+        "url": "https://www.astria.health/locations/",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.astria.health/locations/astria-ambulatory-surgical-center",
+                    "https://www.astria.health/locations/astria-health-audiology",
+                    "https://www.astria.health/locations/astria-health-center-euclid-ave-grandview",
+                    "https://www.astria.health/locations/astria-health-center-sunnyside-edison-dental",
+                    "https://www.astria.health/locations/astria-health-center-family-medicine-ahtanum-ridge-dr-union-gap",
+                    "https://www.astria.health/locations/astria-health-center-vintage-valley-pkwy-zillah",
+                    "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-obgyn",
+                    "https://www.astria.health/locations/astria-health-center-miller-ave-sunnyside-occupational-medicine",
+                    "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-orthopedics",
+                    "https://www.astria.health/locations/astria-health-center-803-lincoln-ave-sunnyside-pediatrics",
+                    "https://www.astria.health/locations/astria-health-center-second-st-grandview",
+                    "https://www.astria.health/locations/astria-health-center-2705-suite-c-lincoln-ave-sunnyside",
+                    "https://www.astria.health/locations/astria-health-center-chardonnay-ave-prosser",
+                    "https://www.astria.health/locations/astria-health-center-4th-ave-toppenish",
+                    "https://www.astria.health/locations/astria-health-\u2026ln-ave-sunnyside-family-medicine-endocrinology-ob",
+                    "https://www.astria.health/locations/astria-health-center-sunnyside-edison",
+                    "https://www.astria.health/locations/astria-health-center-sunnyside-rapid-care-and-multispecialty",
+                    "https://www.astria.health/locations/astria-sleep-medicine",
+                    "https://www.astria.health/locations/sleep-medicine-center",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-physical-therapy",
+                    "https://www.astria.health/locations/astria-home-health-sunnyside",
+                    "https://www.astria.health/locations/astria-home-health-yakima",
+                    "https://www.astria.health/locations/astria-plastic-surgery-center",
+                    "https://www.astria.health/locations/astria-health-center-2705-e-lincoln-ave-suite-c-sunnyside",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital",
+                    "https://www.astria.health/locations/sunnyside-hospital-wound-care",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-emergency",
+                    "https://www.astria.health/locations/astria-toppenish-hospital",
+                    "https://www.astria.health/locations/astria-toppenish-hospital-emergency",
+                    "https://www.astria.health/locations/astria-toppenish-hospital-behavioral-health-unit",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-breast-health-center",
+                    "https://www.astria.health/locations/cancer-care-prosser",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-cancer-center",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-family-birth-center",
+                    "https://www.astria.health/locations/astria-sunnyside-hospital-specialty-center-surgical-group"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3ee0e369-1cd7-41ac-940c-bee1afc1ef26",
+        "url": "https://www.atlantichealth.org/locations/hospitals.html",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": [
+                    "https://www.atlantichealth.org/locations/hospitals/morristown-medical-center.html",
+                    "https://www.atlantichealth.org/locations/hospitals/overlook-medical-center.html",
+                    "https://www.atlantichealth.org/locations/hospitals/newton-medical-center.html",
+                    "https://www.atlantichealth.org/locations/hospitals/chilton-medical-center.html",
+                    "https://www.atlantichealth.org/locations/hospitals/hackettstown-medical-center.html",
+                    "https://www.atlantichealth.org/locations/hospitals/goryeb-childrens-hospital.html",
+                    "https://www.atlanticrehabinstitute.com/"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ce4dede3-9fee-44ea-99a6-0137a9aa2db8",
+        "url": "https://www.swedish.org/locations?lookup=87af2959065c4704b21c5064dada6bfd&lookupvalue=Urgent%20Care&page=1&radius=&term=",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "links",
+        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": ["https://www.providence.org/our-services/urgent-car…*ZDkwZTI1NWYtMTRjMS00NzFiLTg1YmUtMGVmNzBiOGE0N2Rl", "https://www.providence.org/our-services/urgent-care/urgent-care-redmond", "https://www.providence.org/our-services/urgent-care/urgent-care-edmonds"]
             }
         ]
     }

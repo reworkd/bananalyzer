@@ -7,6 +7,7 @@ from bananalyzer.data.fetch_schemas import fetch_schemas
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
+    "links",  # Scrape all detail page links from a single page
     "click",  # Make a single click on a page
     "navigate",  # Travel to a new page
     "search",  # Search for the answer to a specific query
@@ -30,7 +31,7 @@ class Eval(BaseModel, ABC):
 
 class JSONEval(BaseModel):
     type: Literal["json_match"] = Field(default="json_match")
-    expected: Dict[str, Any]
+    expected: Union[Dict[str, Any], List[str]]
 
     def eval_action(self, _: str) -> bool:
         # We don't care about action level evaluations
