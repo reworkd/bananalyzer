@@ -1,7 +1,7 @@
 # dynamic_test_runner.py
 import os
 import tempfile
-from typing import Callable, Awaitable, List, IO
+from typing import IO, Awaitable, Callable, List
 
 import pytest
 from pydantic import BaseModel

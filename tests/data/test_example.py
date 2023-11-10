@@ -1,10 +1,10 @@
-from typing import Dict, Any, Optional
+from typing import Any, Dict, Optional
 
 import pytest
 from pydantic import ValidationError
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
-from bananalyzer.data.schemas import JSONEval, Example
+from bananalyzer.data.schemas import Example, JSONEval
 
 
 def test_json_eval() -> None:

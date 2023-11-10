@@ -1,6 +1,6 @@
 import asyncio
 import os
-from typing import List, Any
+from typing import Any, List
 
 from playwright.async_api import async_playwright
 

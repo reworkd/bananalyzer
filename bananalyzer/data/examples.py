@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Any, Dict, List
 
 from bananalyzer.data.schemas import Example
 

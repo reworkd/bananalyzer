@@ -11,7 +11,7 @@ from typing import Any
 from bananalyzer.data.examples import examples
 from bananalyzer.data.schemas import GoalType
 from bananalyzer.runner.agent_runner import AgentRunner
-from bananalyzer.runner.runner import run_tests, generate_test
+from bananalyzer.runner.runner import generate_test, run_tests
 from bananalyzer.schema import Args
 
 

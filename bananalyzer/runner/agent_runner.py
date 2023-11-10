@@ -1,5 +1,5 @@
-from abc import abstractmethod, ABC
-from typing import Dict, Union, Any, List
+from abc import ABC, abstractmethod
+from typing import Any, Dict, List, Union
 
 from playwright.async_api import BrowserContext
 

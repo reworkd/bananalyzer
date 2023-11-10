@@ -1,10 +1,10 @@
 import urllib.parse
-from typing import Union, List
+from typing import List, Union
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from bananalyzer.data.examples import get_all_example_urls, get_example_by_url, examples
+from bananalyzer.data.examples import examples, get_all_example_urls, get_example_by_url
 from bananalyzer.data.schemas import Example, GoalType
 from bananalyzer.runner.website_responder import get_website_responder
 
