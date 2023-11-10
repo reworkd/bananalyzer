@@ -40,6 +40,16 @@ AgentRunner exposes the example, and a playwright browser context to use.
 
 In the future we will support more complex evaluation methods and examples that require multiple steps to complete. The plan is to translate existing datasets like Mind2Web and WebArena into this format.
 
+
+### Test intents
+We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType` enum in schemas.py.
+
+- **Data retrieval**: The agent must retrieve a specific piece of data from the page. This is the most common test type.
+- **Links**: The agent must scrape all detail page links from a page.
+- **Click**: The agent must click a specific element on the page.
+- **Navigation**: The agent must navigate to a specific page.
+- **Multi-step**: The agent must complete multiple steps to retrieve a specific piece of data from the page.
+
 # Getting Started
 ### Local testing installation
 - `pip install --dev bananalyzer`
@@ -92,6 +102,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [x] Document a majority of the repo
 
 ##### Features
+- [ ] Additional CLI params to select for specific tests or test categories
 - [ ] Ability to add multiple site pages to examples
 - [ ] Ability to add in-page actions to examples
 - [ ] Translate WebArena evals
@@ -101,7 +112,8 @@ This notebook will load a site with Playwright and use the chrome developer API 
 
 
 ##### Dataset updates
-- [ ] 15 additional data retrieval examples
+- [x] 15 additional data retrieval examples
+- [ ] 15 additional link examples
 - [ ] 15 click examples
 - [ ] 15 navigation examples
 - [ ] Tests requiring multi-step navigation

@@ -52,7 +52,7 @@ class Example(BaseModel):
     domain: str = Field(description="Domain of the website")
     subdomain: str = Field(description="Subdomain of the website")
     type: GoalType = Field(
-        description="The high level type of goal the agent is aiming to do"
+        description="The high level goal intent the agent is aiming to do"
     )
     goal: Union[str, Dict[str, Any]] = Field(
         description="The goal of the agent for this specific example"

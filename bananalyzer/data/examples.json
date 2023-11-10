@@ -1,1048 +1,1052 @@
 [
-    {
-        "id": "c5e7ec4b-ad83-49a5-b056-a37ddf974a64",
-        "url": "https://www.mindstix.com/careers/machine-learning.html",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": null,
-                    "job_title": "Machine Learning Engineer",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": null,
-                    "job_description": "Mindstix is looking for a proficient Data Scientist with good Data Engineering and model development skills. You are a collaborative person who takes pleasure in finding solutions to issues that add to the bottom line. You appreciate technical work by hand and feel a sense of ownership. You require a keen eye for detail, work experience as a data scientist, and in-depth knowledge of widely used models and technologies for data science including creating machine learning models and retraining systems.",
-                    "roles_and_responsibilities": "Build outstanding domain-focused data solutions with internal teams, business analysts, and stakeholders.\nApply AI/ML practices and standards to develop robust and maintainable solutions.\nMotivated by a fast-paced, service-oriented environment and interacting directly with clients on new features for future product releases\nA natural problem-solver and intellectually curious across a breadth of industries and topics\nAcquainted in different aspects of Data Management like Data Strategy, Architecture, Governance, Data Quality, Integrity & Data Integration, and Model Deployment.\nStudy and transform data science prototypes.\nExtremely well-versed in designing/developing models and monitoring.",
-                    "qualifications": "Bachelor\u2019s or Master's degree in Computer Science, Information Technology, or allied streams.\n3+ years of hands-on experience in the data engineering domain with data science development.\nMust have experience with end-to-end data science project implementation on Azure or GCP.\nMust have Python, Tensorflow, and Keras for implementing complex models and end-to-end pipelines.\nGood with Matplotlib/Seaborn for creating good data visualizations for interpreting data\nGood with Pandas and NumPy for data-wrangling tasks\nSolid understanding of DS concepts such as Feature Engineering., Model development, model deployment, model monitoring, hyperparameter tuning\nExpertise in Tensorflow - Model Building, Feature Engineering, Model Deployment, and Monitoring.\nUnderstanding of Apache Spark, Airflow, Hudi, Iceberg, Nessie, NiFi, Luigi, and Arrow (Good to have)\nStrong foundations in computer science, data structures, algorithms, and programming logic.\nExcellent logical reasoning and data interpretation capability.\nAbility to interpret business requirements accurately.\nExposure to work with multicultural international customers.\nExperience in the Retail/ Supply Chain/ CPG/ ECommerce/Health Industry is a plus.",
-                    "preferred_qualifications": "You are a data enthusiast and problem solver.\nYou are a self-motivated and fast learner with a strong sense of ownership and drive.\nYou enjoy working in a fast-paced creative environment.\nYou appreciate great design, have a strong sense of aesthetics and have a keen eye for detail.\nYou thrive in a customer-centric environment with the ability to actively listen, empathize and collaborate with globally distributed teams.\nYou are a team player who desires to mentor and inspire others to do their best.\nYou love expressing ideas and articulating well with strong written and verbal English communication and presentation skills.\nYou are detail-oriented with an appreciation for craftsmanship.\nKeep abreast of developments in the field.",
-                    "benefits": "\nFlexible working environment.\nHealth Insurance Coverage.\nAccelarated Career Paths.\nGlobal customers.\nCompetitive compensation and perks.\nRewards and Recognition.\nSponsored certifications.\nMentorship by industry leaders.",
-                    "salary": null
-                }
-            }
+  {
+    "id": "c5e7ec4b-ad83-49a5-b056-a37ddf974a64",
+    "url": "https://www.mindstix.com/careers/machine-learning.html",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Machine Learning Engineer",
+          "job_category": null,
+          "date_posted": null,
+          "location": null,
+          "job_description": "Mindstix is looking for a proficient Data Scientist with good Data Engineering and model development skills. You are a collaborative person who takes pleasure in finding solutions to issues that add to the bottom line. You appreciate technical work by hand and feel a sense of ownership. You require a keen eye for detail, work experience as a data scientist, and in-depth knowledge of widely used models and technologies for data science including creating machine learning models and retraining systems.",
+          "roles_and_responsibilities": "Build outstanding domain-focused data solutions with internal teams, business analysts, and stakeholders.\nApply AI/ML practices and standards to develop robust and maintainable solutions.\nMotivated by a fast-paced, service-oriented environment and interacting directly with clients on new features for future product releases\nA natural problem-solver and intellectually curious across a breadth of industries and topics\nAcquainted in different aspects of Data Management like Data Strategy, Architecture, Governance, Data Quality, Integrity & Data Integration, and Model Deployment.\nStudy and transform data science prototypes.\nExtremely well-versed in designing/developing models and monitoring.",
+          "qualifications": "Bachelor\u2019s or Master's degree in Computer Science, Information Technology, or allied streams.\n3+ years of hands-on experience in the data engineering domain with data science development.\nMust have experience with end-to-end data science project implementation on Azure or GCP.\nMust have Python, Tensorflow, and Keras for implementing complex models and end-to-end pipelines.\nGood with Matplotlib/Seaborn for creating good data visualizations for interpreting data\nGood with Pandas and NumPy for data-wrangling tasks\nSolid understanding of DS concepts such as Feature Engineering., Model development, model deployment, model monitoring, hyperparameter tuning\nExpertise in Tensorflow - Model Building, Feature Engineering, Model Deployment, and Monitoring.\nUnderstanding of Apache Spark, Airflow, Hudi, Iceberg, Nessie, NiFi, Luigi, and Arrow (Good to have)\nStrong foundations in computer science, data structures, algorithms, and programming logic.\nExcellent logical reasoning and data interpretation capability.\nAbility to interpret business requirements accurately.\nExposure to work with multicultural international customers.\nExperience in the Retail/ Supply Chain/ CPG/ ECommerce/Health Industry is a plus.",
+          "preferred_qualifications": "You are a data enthusiast and problem solver.\nYou are a self-motivated and fast learner with a strong sense of ownership and drive.\nYou enjoy working in a fast-paced creative environment.\nYou appreciate great design, have a strong sense of aesthetics and have a keen eye for detail.\nYou thrive in a customer-centric environment with the ability to actively listen, empathize and collaborate with globally distributed teams.\nYou are a team player who desires to mentor and inspire others to do their best.\nYou love expressing ideas and articulating well with strong written and verbal English communication and presentation skills.\nYou are detail-oriented with an appreciation for craftsmanship.\nKeep abreast of developments in the field.",
+          "benefits": "\nFlexible working environment.\nHealth Insurance Coverage.\nAccelarated Career Paths.\nGlobal customers.\nCompetitive compensation and perks.\nRewards and Recognition.\nSponsored certifications.\nMentorship by industry leaders.",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "fd04f25a-f5a4-4cc4-a919-9eb4f30543d0",
+    "url": "https://www.infineon.com/cms/en/product/power/mosfet/silicon-carbide/modules/df14mr12w1m1hf_b67/",
+    "source": "mhtml",
+    "domain": "manufacturing",
+    "subdomain": "commerce",
+    "type": "fetch",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "expected": {
+            "mpn": "DF14MR12W1M1HFB67BPSA1",
+            "classifications": [
+              "ESS ; EV Charger ; Solar ; UPS"
+            ],
+            "description": "Configuration",
+            "specs": [
+              {
+                "label": "Dimensions (length)",
+                "value": "62.8 mm"
+              },
+              {
+                "label": "Dimensions (width)",
+                "value": "33.8 mm"
+              },
+              {
+                "label": "Features",
+                "value": "PressFIT"
+              },
+              {
+                "label": "Housing",
+                "value": "Easy 1B"
+              },
+              {
+                "label": "Qualification",
+                "value": "Industrial"
+              }
+            ],
+            "lifecycle_status": "active and preferred",
+            "packaging": "TRAY",
+            "moisture_sensitivity_level": "NA",
+            "leadfree": "no",
+            "rohs_status": "yes"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "8366209e-e5fb-4f64-85e0-79cd90985b59",
+    "url": "https://www.amazon.jobs/en/jobs/2482000/software-development-engineer-amazon-access",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "2482000",
+          "job_title": "Software Development Engineer, Amazon Access",
+          "job_category": null,
+          "date_posted": null,
+          "location": "USA, WA, Seattle",
+          "job_description": "At Amazon Access, we are committed to innovation, striving to create solutions that enhance the lives of underserved customer\nsegments. Currently, we are in the process of assembling a dedicated team to conceptualize, design, and implement a new benefits acceptance workflow solution. Integrated across Amazon Retail, this initiative will offer our customers greater flexibility in utilizing their benefits across Amazon businesses. For the initiative, we are looking for a Software Development Engineers (SDEs) who are passionate to solve complex, cross-functional problems and build a customer experience that improves and simplifies our customers\u2019 lives.\n\nYou will have the opportunity to impact the design, architecture, and implementation of our programs and work with and learn from teams across the company. You will strive for simplicity and flexibility in what you create. You will be the voice of the customer throughout your work. Customer experience, usability, and operational excellence will be your top priorities as you deliver quality solutions.",
+          "roles_and_responsibilities": "As Software Development Engineer, you will work in a high quality, creative, visionary software development team to build and innovate the technology platform that powers the program. You are great at designing, building, and innovating solutions that are simple and easy to maintain and scale. You will deliver components/features spanning the full software lifecycle including working backwards from customers, software design, implementation, testing, and deployment, operations, and documentation. You bring in a continuous design thought process of operational excellence. ",
+          "qualifications": "- 3+ years of non-internship professional software development experience\n- 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience programming with at least one software programming language",
+          "preferred_qualifications": "- 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n- Bachelor's degree in computer science or equivalent",
+          "benefits": null,
+          "salary": "$115,000 - $223,600"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6152ba56-e62b-42d1-beec-6ecac1dfec35",
+    "url": "https://openai.com/careers/software-engineer-fullstack",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Software Engineer, Fullstack",
+          "job_category": "Applied AI Engineering",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "We are looking for a self-starter engineer who loves building new products in an iterative and fast-moving environment. In this role, you will be bringing our large language models to millions of users around the world. Our users include everyday enthusiasts as well as professionals for ChatGPT, and everyone from hobbyists to large enterprises for the OpenAI API \u2014 you\u2019ll interface directly with users to develop the features they want most! You will also collaborate closely with the research teams that created the core models and work with them on continual improvement. You will be a key part of the effort to push these technologies forward, and onto the next 100x users.",
+          "roles_and_responsibilities": "Own the development of new customer-facing ChatGPT and OpenAI API features and product experiences end-to-end\nTalk to users to understand their problems and design solutions to address them\nWork with the research team to get relevant feedback and iterate on their latest models\nCollaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products\nOptimize applications for speed and scale",
+          "qualifications": "5+ years of relevant engineering experience at tech and product-driven companies\nProficiency with JavaScript, React, and other web technologies\nProficiency with some backend language (we use Python)\nSome experience with relational databases like Postgres/MySQL\nInterest in AI/ML (direct experience not required)\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines",
+          "preferred_qualifications": null,
+          "benefits": "Total compensation also includes generous equity and benefits.\n\nMedical, dental, and vision insurance for you and your family\nMental health and wellness support\n401(k) plan with 4% matching\nUnlimited time off and 18+ company holidays per year\nPaid parental leave (20 weeks) and family-planning support\nAnnual learning & development stipend ($1,500 per year)",
+          "salary": "$160,000 - $385,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d86e052f-3c14-4b4d-95e7-c26d59b771f7",
+    "url": "https://www.metacareers.com/jobs/271783205502889/",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "271783205502889",
+          "job_title": "Research Scientist - Generative AI",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Zurich, Switzerland",
+          "job_description": "Meta is seeking a Research Scientist to join our Generative AI organization. In this role, you will have the opportunity to make a significant impact on the field of image generation by developing novel models and algorithms that improve the speed and efficiency of generative AI systems. These models will have direct impact on Meta's family of apps with 2 billion plus users. You will also work on fundamental research and be able to publish high quality papers in top-tier computer vision conferences. At Meta, you work alongside and learn from top minds in the field and have access to uniquely available large scale resources. Join us for this exciting and rewarding role.",
+          "roles_and_responsibilities": "Research and develop novel computer vision models in Generative AI, with a focus on efficiency\nDeliver models to production with collaboration across Meta's family of apps\nCollaborate with other researchers and engineers across Meta to develop and deploy new models to production\nContribute to research publications and publish at top-tier venues",
+          "qualifications": "A PhD in Computer Vision or a relevant technical field\nUnderstanding of modern computer vision concepts like diffusion models, GANs, and LLMs\nFirst author publications in top-tier computer vision venues (CVPR, NeurIPS, ECCV, ICCV, SIGGRAPH, ICML...)\nFluency in Python and PyTorch",
+          "preferred_qualifications": "Demonstrated research experience via an internship, work experience, coding competitions, or widely used contributions in open source repositories (e.g. GitHub)\nIndustry experience deploying computer vision models to production\nExperience with optimizing model architectures and algorithms for CPU/GPU, mobile, and other types of specialized hardware\nTop-tier publications in Generative AI topics (diffusion models, LLMs...)",
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "4310caaa-bf1b-4704-9362-dbf5b961972d",
+    "url": "https://c3.ai/job-description/?gh_jid=6181786002",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "6181786002",
+          "job_title": "Front-End Engineer - UI Component Library",
+          "job_category": null,
+          "date_posted": null,
+          "location": "GUADALAJARA, MEXICO",
+          "job_description": null,
+          "roles_and_responsibilities": "Lead the development of new UI components to be used by fellow engineers.\nMaintain an ever-growing library of components to be used across different applications and industries.\nResearch and implement internal tools to increase the productivity of Engineering, UX, and PMs.\nProvide technical guidance and support for our UX and PM teams.",
+          "qualifications": "Bachelor of Science in Computer Science, Computer Engineering, or related fields.\nExperience working with client-side technologies including Javascript, Typescript, React/Redux.\nExperience with version control systems, including Git.\nPrior experience designing and implementing reusable UI components.\nExperience working as part of a cross-functional team of PM, UX, and Engineering. ",
+          "preferred_qualifications": "Prior experience developing a UI component library or design system for other engineers.\nProven experience with pixel-perfect execution of UI components.\nWorking knowledge of accessibility best practices.\nAbility to effectively articulate complex concepts to technical and non-technical audiences.\nExcellent analytical and troubleshooting skills.",
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ad142573-4dcb-4c1e-9a4d-6fa1fa818026",
+    "url": "https://jobs.careers.microsoft.com/global/en/job/1658879/Software-Engineering-II",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "1658879",
+          "job_title": "Software Engineering II",
+          "job_category": "Software Engineering",
+          "date_posted": "Nov 03, 2023",
+          "location": "Cambridge, Massachusetts, United States",
+          "job_description": "We are seeking a highly motivated and skilled Software Engineer II to join our Microsoft Intune Engineering Team. As a Software Engineer II on the Intune Engineering team, you will be at the forefront of developing solutions for device management, security, and modern workplace experiences. If you are passionate about building robust software, thrive in a collaborative environment, are excited to grow and learn on the job, and aspire to make an impact on how organizations securely manage their devices and data, this role is perfect for you. \n\n \n\nMicrosoft Intune is the industry leading cloud-based device configuration and security management platform. It empowers organizations to efficiently manage and secure millions of Windows, macOS, iOS, Android, and Linux devices, all from a single, centralized platform. Intune provides tools for configuring device settings, deploying applications, enforcing security policies, and ensuring compliance, all while enabling remote work and enhancing productivity.\u202f\u202f ",
+          "roles_and_responsibilities": "Join our supportive and collaborative team of engineers working on critical and strategic projects in Intune.\n\nWork on a global cloud security and compliance solution to manage and secure millions of devices.\nDevelop and deliver robust designs and code for both frontend experiences and backend services.\nDebug and optimize work across multiple clients, services and teams in a fast-paced agile environment.\nEmbrace a culture of collaboration, customer obsession, openness, curiosity, integrity, and innovation.\nBe a leader who brings clarity and technical direction to produce resilient engineering designs and drive them to execution.\nIncorporate feedback loops from customers, partners, and stakeholders across disciplines to every solution.\nOwn scenarios end-to-end that span beyond your own area to existing features.",
+          "qualifications": "Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\nOR equivalent experience.\n2+ years of professional experience designing, developing, testing, and shipping software.  \n2+ years technical abilities around design, coding, rapid prototyping, debugging, and problem solving.\u202f\u202f ",
+          "preferred_qualifications": "Bachelor's Degree in Computer Science, or related technical discipline AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\n\nOR equivalent experience.\n\n2+ years of experience in building Android applications. \nExperience with continuous integration/continuous deployment tools, including but not limited to, Azure DevOps. \nCoding, debugging, and problem-solving skills. \nDemonstrated desire and passion for meeting customer needs. \nPassion for contributing to the team culture. \nTrack record of learning and growing. ",
+          "benefits": "\uead4Industry leading healthcare\ue7beEducational resources\ue8ecDiscounts on products and services\ueafdSavings and investments\uf862Maternity and paternity leave\uea17Generous time away\ueb51Giving programs\uefd4Opportunities to network and connect",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "69a755f1-33db-4f77-9b8e-0e90cf7c7188",
+    "url": "https://vercel.com/careers/technical-consultant-us-4930025004",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "4930025004",
+          "job_title": "Technical Consultant",
+          "job_category": "Solution Engineering",
+          "date_posted": null,
+          "location": "Remote \n(United States)",
+          "job_description": "Vercel is looking for a Technical Consultant to assist our Enterprise customers with technical problems and questions when using Vercel products and services. Reporting to the Manager of Technical Consulting, the Technical Consultant will be responsible for informing and training clients in the product's proper use to enhance the customer experience and improve satisfaction.\n\nTechnical Consultants need to earn our customers' trust and understand technical problems quickly. You will play a major part in the post-sales process and Enterprise customer journey. Expertise in the technical elements of the product and clarity of instruction are important competencies in this position. Success in this role will be demonstrated through improvements in the retention of Enterprise customers by delivering key technical insights and evaluations to ensure success both at launch and scale.\n\nYou have a background in frontend development, enjoy technical writing, and have a passion for digging deep to find and resolve issues. You are excited about the opportunity to involve yourself with the technical evolution of both global brands and new start-ups.\n\nThe Technical Consultant will help establish our reputation as a company that is exceptional at helping its customers meet their goals throughout all parts of the customer journey while engineering solutions to constantly improve the customer experience.",
+          "roles_and_responsibilities": "Ensure that Enterprise customers are receiving and understanding the value of the platform.\n\nProvide product expertise and strategic consultation during the Enterprise customer journey.\n\nProvide training sessions to Enterprise customers.\n\nAttend onboarding and pre-production calls as a technical authority.\n\nKnow the Vercel platform and Next.js framework inside and out, learning daily.\n\nWork with other members of CS to provide assistance both internally and externally.\n\nDevelop close partnerships with the CSM team to understand customers' goals.\n\nWork with external engineering and infrastructure teams to convey product gaps and needs.\n\nEnsure customers have immediate concerns resolved but with a long-term outlook.\n\nSpecialize in a few product areas and own that within the team.\n\nImproving existing, and identifying new, internal documentation, processes and policies.\n\nAssist and coordinate with Customer Success Managers with Enterprise requests.",
+          "qualifications": "You lead by example and develop more junior members of the team.\n\nYou understand modern web architecture, frontend development, and serverless computing.\n\nYou are experienced with incident management and procedure.\n\nYou are comfortable working with a fully remote, globally distributed team.\n\nYou have a passion to deliver a customer experience second to none.\n\nAvailability to work within a weekend and on-call rotation.\n\n3+ years experience in a customer success, sales, or onboarding/implementation role at a SaaS company.\n\n5+ years experience with front-end web development using React in a production setting.",
+          "preferred_qualifications": "Have experience using Next.js.\n\nHave experience supporting backend runtime environments, especially Node.js.\n\nHave experience with CDNs and a good understanding of caching techniques.\n\nWork with monorepos and/or custom, complex CI/CD pipelines.\n\nThoroughly understand DNS and can explain this clearly to others.",
+          "benefits": "Stock options\n\nInclusive Healthcare Package\n\nFlexible working style - 100% remote, with teammates located throughout the globe\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills\n\nUnlimited PTO - 4 weeks recommended per year. Take time when you need it.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed",
+          "salary": "$135,000 - $186,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f8e6ac9d-584d-4321-9451-7ebe0af3b6cb",
+    "url": "https://www.ycombinator.com/careers?ashby_jid=05682b47-a5e2-4003-a9b8-b967cf45dd48",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "05682b47-a5e2-4003-a9b8-b967cf45dd48",
+          "job_title": "Product Engineer, Post Batch",
+          "job_category": "Software",
+          "date_posted": null,
+          "location": "San Francisco",
+          "job_description": "Y Combinator is best known for our accelerator batch program, which has helped companies like Airbnb, Stripe and Instacart get started. What is lesser known are the resources that YC provides after the batch -- our YC-only hiring platform (workatastartup.com), regular event planning for alumni founders, and internal software platform for helping founders stay in touch. Our scope keeps increasing, and we\u2019re now looking to bring on a Product Engineer to help us scale our impact even more.\n\nYou\u2019ll be working directly with two former YC founders/engineers (from Twilio, Twitter & Lyft), and a small software team full of kind people who are eager to help you get up-to-speed. You\u2019ll be relied upon not only to help us tackle our hefty roadmap, but to also explore how YC can leverage its unique structural advantages to help our founders hire great people and build their companies after the batch ends.",
+          "roles_and_responsibilities": "Design and build out new features in entirety. Our particular team focuses on helping founders post-batch. This is a range of features/products, with a focus on 1.) workatastartup.com (hiring) and 2.) internal software (helping YC stay in touch with founders and YC alumni).\n\nScope and prioritize items on our post-batch roadmap alongside YC partners and others on the YC software team.\n\nAnalyze usage and engagement from both founders, job-seekers and other users to understand what\u2019s working/not working, and make things continuously better.",
+          "qualifications": "YC was started by hackers, so we recognize good hackers when we see them. Much like when we read applications for startups, we're looking to work with people who generally impress us. If you've written some impressive software before, whether for yourself or a company, that's the best qualifier we have.\n\nThis is a good job for someone who is excited about startups and interested in learning more about them. You\u2019ve likely worked at or started a startup, or want to do so in the future.\n\nThe software team has a lot of individual responsibility and access to sensitive information, so we need to hire people we can trust. Your ability to make good trade-offs and exercise good judgement is particularly important to us.",
+          "preferred_qualifications": null,
+          "benefits": "Our full benefits package includes medical, vision, and dental plans, infertility benefit, STD/LTD, life insurance, commuter benefits, flexible spending account, health savings account, 401(k) + 4% matching, generous parental leave, paid holidays and flexible paid time off policy.",
+          "salary": "$160K - $200K"
+        }
+      }
+    ]
+  },
+  {
+    "id": "766abf53-e055-4e4d-ac42-531e74606846",
+    "url": "https://jobs.lever.co/Anthropic/2786d360-13e0-4ad2-bef1-a193cd6a1f67",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "2786d360-13e0-4ad2-bef1-a193cd6a1f67",
+          "job_title": "Prompt Engineering Manager",
+          "job_category": "Prompt Engineering",
+          "date_posted": null,
+          "location": "San Francisco, CA",
+          "job_description": "Anthropic\u2019s AI technology is amongst the most capable and safe in the world. However, large language models are a new type of intelligence, and the art of instructing them in a way that delivers the best results is still in its infancy \u2014 it\u2019s a hybrid between programming, instructing, and teaching. You will figure out the best methods of prompting our AI to accomplish a wide range of tasks, then document these methods to build up a library of tools and a set of tutorials that allows others to learn prompt engineering, as well as work with high value partners to directly solve their challenges.\n\nGiven that the field of prompt-engineering is arguably less than 2 years old, this position is a bit hard to hire for!  As a result, we ask that you share with us a specific prompt engineering project on LLMs that you\u2019re proud of in your application!  Ideally this project should show off a complex and clever prompting architecture or a systematic evaluation of an LLM\u2019s behavior.  ",
+          "roles_and_responsibilities": "Manage and mentor prompt engineers, providing both technical guidance and career development\nSet goals and reviews for your team, promoting growth and output\nStay on top of latest advancements in prompt engineering and adjust team direction accordingly.\nHelp set team best practices for how prompting research and development is done.\nManage the creation of a library of high quality prompts or prompt chains to accomplish a variety of tasks, with an easy guide to help users search for the one that meets their needs.\nAct as editor for a set of tutorials and interactive tools that teach the art of prompt engineering to our customers.\nWork with large enterprise customers on their prompting strategies.",
+          "qualifications": "Have experience managing high performance teams of engineers or scientists\nHave an organizational mindset and enjoy building teams from the ground up.\nHave excellent communication, collaboration, and coaching abilities.\nAre comfortable dealing with highly uncertain, ambiguous, and fast-moving environments.\nHave a creative hacker spirit and love solving puzzles.\nHave at least a high level familiarity with the architecture and operation of large language models.\nHave a firm grasp of programming in Python and experience with data structures/algorithms.\nThink holistically and can proactively identify the needs of an organization.\nMake ambiguous problems clear and identify core principles that can translate across scenarios.\nHave a passion for making powerful technology safe and societally beneficial.\nThink creatively about the risks and benefits of new technologies, and think beyond past checklists and playbooks.\nStay up-to-date and informed by taking an active interest in emerging research and industry trends.",
+          "preferred_qualifications": null,
+          "benefits": "- Optional equity donation matching at a 3:1 ratio, up to 50% of your equity grant.\n- Comprehensive health, dental, and vision insurance for you and all your dependents.\n- 401(k) plan with 4% matching.\n- 21 weeks of paid parental leave.\n- Unlimited PTO \u2013 most staff take between 4-6 weeks each year, sometimes more!\n- Stipends for education, home office improvements, commuting, and wellness.\n- Fertility benefits via Carrot.\n- Daily lunches and snacks in our office.\n- Relocation support for those moving to the Bay Area.",
+          "salary": "$320,000 - $520,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "9a10af79-08e2-4d73-a2a1-675bb97126bb",
+    "url": "https://boards.greenhouse.io/reddit/jobs/5245144",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5245144",
+          "job_title": "Engineering Manager, Service Foundation",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Toronto, Canada",
+          "job_description": "Reddit is a community of communities where people can dive into anything through experiences built around their interests, hobbies, and passions. Our mission is to bring community, belonging, and empowerment to everyone in the world. Reddit users submit, vote, and comment on content, stories, and discussions about the topics they care about the most. From pets to parenting, there\u2019s a community for everybody on Reddit and with over 50 million daily active users, it is home to the most open and authentic conversations on the internet. For more information, visit redditinc.com.\n\nThe Developer Experience team designs, develops, and support tools and processes that make common developer workflows efficient and reliable. \n\nSome Of Our Present And Future Challenges Include\n\nBuilding a strong cloud staging development story for the entire company.\nRe-envisioning our service frameworks and tooling integrations to increase developer efficiency, confidence, and service reliability.",
+          "roles_and_responsibilities": "Steer: Work with the team to select, scope, and drive high leverage projects that align with Reddit\u2019s goals.\nBuild: Build out your team to execute on a strategy and create more efficient, more reliable developer workflows.\nAmplify: Mentor your ICs and be a leader for the Developer Experience team.\nCollaborate: Work together with a variety of teams across Reddit Engineering.\nEvolve: Learn and improve your own technical and non-technical abilities.",
+          "qualifications": "3+ years with technical leadership over high performing engineering teams.\n3+ years experience working on developer tools, library development, API design.\n3+ years experience developing and managing teams focused in Go and Python\nStrong focus on user experience, usability, scalability, and quality. You are an undying advocate for the user, and you have a deep intuition for how people think and how they interact with software at scale.\nHigh empathy, excellent communication skills, and the ability to find compromise working across the entire engineering org.",
+          "preferred_qualifications": null,
+          "benefits": "Comprehensive Health benefits\nRetirement Savings plan with matching contributions\nWorkspace benefits for your home office\nPersonal & Professional development funds\nFamily Planning Support\nFlexible Vacation & Reddit Global Days Off",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "77d6efb9-2581-4f5f-a681-1b94696d9044",
+    "url": "https://ouryahoo.wd5.myworkdayjobs.com/careers/job/Taiwan---Remote/Backend-Engineer--Media_JR0023180",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": null,
+          "job_category": null,
+          "date_posted": null,
+          "location": null,
+          "job_description": null,
+          "roles_and_responsibilities": null,
+          "qualifications": null,
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "5db440aa-f155-4297-bae4-769c8c808acd",
+    "url": "https://jobs.apple.com/en-us/details/200517170/engineering-manager-camera-foundation?team=SFTWR",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "200517170",
+          "job_title": "Engineering Manager, Camera Foundation",
+          "job_category": "Software and Services",
+          "date_posted": "Nov 2, 2023",
+          "location": "Santa Clara Valley (Cupertino), California, United States",
+          "job_description": "If you consider yourself an engaging and highly-collaborative engineering lead with excellent communication skills, and are comfortable in a dynamic environment, we feel we have a rewarding opportunity for you. We need a strong engineering manager to drive the development and innovation of camera capture and processing pipelines while building and expanding a team of experienced engineers. In addition, you ideally have a background in media and have a good working understanding of the various media formats. In this role you will have the unique opportunity to drive high-impact customer-facing features as well as influence the direction of Apple\u2019s custom silicon designs \u2014 and to build the vertically-integrated software stack that connects them.",
+          "roles_and_responsibilities": null,
+          "qualifications": "You have 2+ years of experience leading/managing software engineering projects, and have full-cycle project planning and resource management experience.\nYou thrive in a collaborative environment and can clearly communicate while confidently driving multiple projects across many teams.\nYou have experience building and growing teams of experienced engineers.\nYou have 5+ years of multithreading software development experience.\nYou are proficient in Objective-C, or C/C++.\nYou own API design and maintenance.",
+          "preferred_qualifications": "- Development and debug experience on embedded mobile platforms.\n- Experience with Unix/Linux highly desired. Experience in OS X / Darwin is a major plus.\n- Familiarity with modern processor and SoC architectures.\n- Familiarity with H264/JVT, MPEG 4 as well as common media container formats.\n- Familiarity with A/V compression/decompression & synchronization technology.",
+          "benefits": null,
+          "salary": "$183,400 - $316,900"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cc29229c-30f6-4a03-a4b6-2755ed0cca14",
+    "url": "https://www.workatastartup.com/jobs/62396?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "62396",
+          "job_title": "Founding Product Designer at Mintlify (W22)",
+          "job_category": null,
+          "date_posted": null,
+          "location": "San Francisco, CA, US / Remote",
+          "job_description": "Join us in our mission to empower millions of developers. We\u2019re looking for self starters to join our fast moving founding team. In building a devtool, your empathy for developers naturally blends into product and GTM.\n\nOur platform reaches 4m+ developers every year and power the documentation of 1000+ companies. We're also the #1 most popular YC product used by other YC companies in the past four years.",
+          "roles_and_responsibilities": "Skills: Figma\nMintlify is looking for a founding product designer to help us build a world class product that improve the product and customer experience. As a head of design, you will be leading our efforts in designing a world class experience that impact millions of developers.",
+          "qualifications": "A collaborative team player who believes in the power of strong teams to drive change\nProficient in high-fidelity prototyping tools (Figma, motion design platform of choice)\nHave deep understanding of design systems and obsession with user experience\n5+ years of experience with product design\nSystems-thinker with the ability to think beyond the pixels and design",
+          "preferred_qualifications": null,
+          "benefits": "Not sold yet? Check out some benefits you\u2019ll have access to as well:\n\n\ud83e\udde7 Competitive compensation and equity\n\u2708\ufe0f Flexible work culture\n\ud83c\udf3b 20 days paid time off every year\n\ud83e\uddd1\u200d\u2695\ufe0f Health, dental, vision\n\ud83d\udcb8 401k or RRSP matching\n\ud83c\udf71 Free lunch and dinners\n\ud83d\udcbb $700/year work setup stipend\n\ud83d\udcaa $200/month wellness stipend\n\ud83c\udf34 Annual team offsite\n\ud83c\udf3f Unlimited free mints",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "6535b75f-be1e-4f68-aedd-f3ff167d98ca",
+    "url": "https://stripe.com/jobs/listing/account-executive-commercial/5403149",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5403149",
+          "job_title": "Account Executive, Commercial",
+          "job_category": "Sales",
+          "date_posted": null,
+          "location": null,
+          "job_description": "As a Commercial, Account Executive, you will play an instrumental role in fueling Stripe\u2019s growth through acquiring, growing and expanding under-penetrated mid-market accounts. In this role, you will help build out a new team and GTM motion at Stripe.",
+          "roles_and_responsibilities": "\nIdentify high-potential prospective users and use effective prospecting strategies to generate leads that drive revenue growth in your territory\nDevelop and implement scaled sales strategies for acquiring new customers and driving product adoption, net new product sales, and client retention at scale\nIdentify and understand users\u2019 pain points to propose Stripe solutions and own the full sales cycle, from business case development to close\nOwn contract renewals and lead commercial negotiations to increase and retain existing customer revenue and Stripe market share\nWork cross-functionally to solve user pain paints and improve our product\nYou will be required to work from the Chicago office three (3) days per week",
+          "qualifications": "3+ years of experience in a client-facing/sales role\nAbility to understand technical requirements and craft solutions across multiple product\nStrong operational acumen and ability to manage high volumes and high velocity work\nAbility and motivation to operate in a highly ambiguous and fast-paced environment\nSuperior verbal and written communication skills\nYou will be required to work from the Chicago office three (3) days per week",
+          "preferred_qualifications": "Prior experience in a sales and/or customer-facing role at a high growth technology company",
+          "benefits": null,
+          "salary": "$146,000 - $197,600"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0880ea91-7c5e-415c-9d2f-00457f110ee8",
+    "url": "https://careers.doordash.com/jobs/5462166",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5462166",
+          "job_title": "Electrical Engineer",
+          "job_category": null,
+          "date_posted": null,
+          "location": "San Francisco, CA",
+          "job_description": "In this role you will help build the next generation of robotic systems within DoorDash Labs from the ground up! You will work with an excellent engineering team to solve novel problems that will drastically change last mile logistics. We\u2019re a team of people who live and breathe building robots and complex electromechanical systems. We\u2019re unfazed by challenges or new problems and strive to build world class solutions. ",
+          "roles_and_responsibilities": "Be part of an exciting effort to develop and manufacture our new autonomous delivery robot platform\nWork with our Hardware Engineering and Technician teams to prepare for our launch.\nShip tangible product concepts that make a meaningful impact on a billion dollar business. \nPlay a key role in architecting and designing a wide range of electrical systems on our next generation delivery robots.\nHave a large impact in a small team, collaborating with every other team on the project with many disciplines and stakeholders.",
+          "qualifications": "A B.S., M.S., or PhD. in Electrical Engineering.\n5+ years of industry experience working in a similar role.\nExperience taking complex circuits from product definition through production.\nExperience with DC power management systems, especially in automotive applications.\nExperience with autonomous vehicle communication, networking and sensor systems.\nExperience with electric vehicle or mobile robotics safety systems.\nExperience designing and troubleshooting complex systems including debugging ground loops, localized noise mitigation, and multi-voltage power systems\nDesigned circuits in Altium Designer.\nA passion for building robots and autonomous vehicles.",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$185,500 \u2014 $250,500"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0a6346b8-2c83-48e9-adf0-c76792862594",
+    "url": "https://blog.perplexity.ai/careers/llm-teacher",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "LLM Teacher",
+          "job_category": "Engineering",
+          "date_posted": null,
+          "location": "San Francisco",
+          "job_description": "As an LLM Teacher, you will play a critical role in teaching our large language models how to behave, improving our models and thus product experience through data. You will work closely with the AI team to build high volume, high quality, and diverse datasets. You will use our in-house suite of data tools to achieve this, and have an active role in improving the next generation of AI tools. As an LLM Teacher at Perplexity, you will play a pivotal role in shaping the future of our answer engine.",
+          "roles_and_responsibilities": "Collaborate with AI researchers and engineers to curate diverse and high quality examples of intended model behavior\n\nUse and improve the next generation of LLM AI labeling interfaces\n\nVerify new models trained on the latest data improve performance. Data you create will be deployed in production environments, where millions of people worldwide will be impacted from your work\n\nWork on increasing the factual accuracy of generated content. Define and contribute to the development of our AI's ability to generate creative, human-like, and engaging content",
+          "qualifications": "Passion and curiosity for experimenting with cutting edge generative AI technologies\n\nVery strong attention to detail, quality focused, and the ability to stay organized\n\nAdaptable, proactively applies logic to different scenarios, and has experience with computers and other software\n\nEnjoys a fast-paced environment\n\nExcellent communication and collaboration skills\n\nNative English speaking abilities or equivalent\n\nYou stay up-to-date and informed by taking an active interest in emerging research and industry trends\n\nCollege level graduate at a minimum",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$30/hr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a266e560-aa88-49fe-b3c0-2731163b1921",
+    "url": "https://jobs.netflix.com/jobs/301592752",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "301592752",
+          "job_title": "PR Coordinator - Japan",
+          "job_category": "Publicity",
+          "date_posted": null,
+          "location": "Tokyo, Japan",
+          "job_description": "We are looking to hire a creative self-starter who loves, lives, and breathes entertainment, to be a PR Coordinator for the Japan PR team. Reporting to the PR Director, Japan, you will be part of a team of stunning storytellers working on impactful publicity and communications campaigns to drive conversations about our brand and upcoming titles. The role is also a key partner to the Content, Marketing, Policy, and Partnerships teams, as well the APAC and global PR teams. \n\nThis is a demanding and fast-moving position that requires a proactive and positive thinker, able to exercise good judgment and initiative. At Netflix, we don't have rules and regulations. We hire adults who act responsibly on the resources and freedom they are given to do their work, and we expect high performance in return. ",
+          "roles_and_responsibilities": "Manage overall Japan PR calendar including timelines of debuts and releases;\nSupport director in rolling out overall PR strategy that drives conversation\nAssist with cross-functional meeting arrangements, interpretation, and preparing presentations and reports to APAC\nAssist with announcements, executive appearances, issues management, media training and more;\nSupport innovative publicity campaigns for our Japan originals and our incredible slate of locally relevant shows from all around the world to drive our business in Japan\nWork with the regional teams to put in place a set of best practices that enable us to move quicker, bigger and better\nCreating presentations and documents using PowerPoint and Google Apps in English and Japanese\nMaintain flexibility and openness to take on additional projects as necessary or assigned",
+          "qualifications": "At least 3+ years of previous coordinator, project manager or team assistant experience preferred\nPrior entertainment studio, TV network, PR or agency experience preferred\nA great communicator - via email, by phone, in-person and simultaneously\nHave experience supporting and/or executing a publicity campaign by working well across disciplines\nBe able to manage multiple tasks simultaneously under deadline and thrive in high energy, fast-paced environment\nPossess a keen understanding of media and have relationships with press is a plus\nBe able and willing to operate in a global environment\nBe a clear and concise communicator in Japanese as well as in English\nPassionate about entertainment and a fan of series, film and pop culture in Japan \nPoised and mature, not scared to speak up or challenge\nA proactive and positive thinker and a contributor to the team\nKnowledge of Google Suite is preferred",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$30/hr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "db0872df-fd27-4fff-bce8-3513f8e1164d",
+    "url": "https://scale.com/careers/4314568005",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "4314568005",
+          "job_title": "Infrastructure Software Engineer, Public Sector",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Washington, DC",
+          "job_description": "Scale AI is seeking a highly skilled and motivated Infrastructure Software Engineer to join our dynamic Federal Engineering team. As a part of this team, you will play a critical role in delivering high-impact AI-powered mission solutions for government customers. Our scalable and high-performance platform forms the foundation for these solutions, and your expertise will be instrumental in designing and implementing systems that can handle billions of data points with exceptional performance.",
+          "roles_and_responsibilities": "Design and implement secure scalable backend systems for Federal customers, leveraging Scale's modern and cloud-native AI infrastructure.\nOwn services or systems and define their long-term health goals, while also improving the health of surrounding components\nImprove our high engineering standards, tooling, and process\nCollaborate with cross-functional teams to define and execute the vision for backend solutions, ensuring they meet the unique needs of government agencies operating in secure environments.\nParticipate actively in customer engagements, working closely with stakeholders to understand requirements and deliver innovative solutions.\nContribute to the platform roadmap and product strategy for Scale AI's Federal business, playing a key role in shaping the future direction of our offerings.",
+          "qualifications": "An active TS/SCI security clearance. This is a requirement and candidates will not be considered who do not hold this level of clearance\nFull Stack Development: Proficiency in both front-end and back-end development, including experience with modern web development frameworks, programming languages, and databases. Experience with developing & delivering software to air-grapped & isolated environments is a plus.\nCloud-Native Technologies: Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes) is required. Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience in developing and deploying applications in a cloud-native environment. \nSecurity Focused: Experience with Federal Compliance frameworks, and requirements(e.g, Cloud SRG, FedRAMP, STIG Benchmarks, etc). Experience developing software & technical solutions that meet strict security & regulatory compliance requirements.\nProblem Solving: Strong analytical and problem-solving skills to understand complex challenges and devise effective solutions. Ability to think critically, identify root causes, and propose innovative approaches to overcome technical obstacles.\nCollaboration and Communication: Excellent interpersonal and communication skills to effectively collaborate with cross-functional teams, stakeholders, and customers. Ability to clearly articulate technical concepts to non-technical audiences and foster a collaborative work environment.\nAdaptability and Learning Agility: Willingness to embrace new technologies, learn new skills, and adapt to evolving project requirements. Ability to quickly grasp and apply new concepts and stay up-to-date with emerging trends in software engineering.\nMust be able to support work 2-3 days a week at client sites within the St. Louis, MO or DC Metro area.",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$153,600 - $215,040"
+        }
+      }
+    ]
+  },
+  {
+    "id": "574db794-8055-4fe6-bd16-5f9ee6eccbb4",
+    "url": "https://bb.wd3.myworkdayjobs.com/en-US/BlackBerry/jobs/details/Territory-Account-Manager_20231252",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "20231252",
+          "job_title": "Territory Account Manager",
+          "job_category": null,
+          "date_posted": "Posted 10 Days Ago",
+          "location": "Seattle, Washington",
+          "job_description": null,
+          "roles_and_responsibilities": "Manage and expand new business in enterprise and mid-level accounts, selling across our entire BlackBerry product portfolio with focus in new product sales, targeting the enterprise market in assigned prospective territories.\nServe as the primary point of contact for major customer communication leading all aspects of additional interactions with BlackBerry/Alliance partner resources (e.g., support).\nDevelop, implement, and maintain concrete plans for how the account will achieve targets.\nArticulate the value of the BlackBerry portfolio to decision makers and expertly manage the complex sales cycle.\nNurture and develop relationships within the assigned territory and/or accounts, presenting to the C-suite the value of the BlackBerry Cylance portfolio.\nWork with the Partner and Marketing teams to define and support prospecting efforts within the assigned territory and/or accounts.\nGenerate appropriate sales development activity to ensure healthy pipeline management.\nAccurately forecast, maintaining excellent SFDC hygiene.\nConduct online webinars or in-person presentations to generate qualified leads.\nOptimally demonstrate programs, tools, processes, and events to drive and close the sale.\nTravel as needed.",
+          "qualifications": "Bachelor\u2019s degree or equivalent experience.\n3 years\u2019 min currently in a software product outside sales role \u2013 ideally in security.\n7 years\u2019 software sales experience or more.\nDriven, upbeat, the glass is half full, ready to build, sell and BE the face of the BlackBerry AI-powered unified endpoint security (UES) solution that fosters BlackBerry's leadership in AI!\nEnterprise SaaS sales experience in similar space/accounts with consistent track record in successfully selling endpoint or network security, with a proven track record of exceeding quota.\nRequires the ability to work independently with substantial latitude for action and decision while maintaining focus on achieving desired outcomes as part of a collaborative development effort.\nStrong communication, interpersonal, time management and organizational skills, in conjunction with experience calling on and presenting to C-Suite level contacts.",
+          "preferred_qualifications": null,
+          "benefits": "The BlackBerry Employee Benefits programs offer a wide range of benefits that support your physical, financial and personal well-being.  BlackBerry remains committed to offering affordable benefits including coverage for medical, dental, vision, life, disability insurance, 401(k), employee share purchase program and paid-time-off.",
+          "salary": "$113,750 - $162,500"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a4e1ac68-35bc-44a6-9e5f-53785df53bf2",
+    "url": "https://careers.roblox.com/jobs/4979622",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "3214",
+          "job_title": "Principal Software Engineer - Studio Scripting",
+          "job_category": "ENGINEERING",
+          "date_posted": null,
+          "location": "SAN MATEO, CA, UNITED STATES",
+          "job_description": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences\u2013 all created by our global community of developers and creators. \n\nAt Roblox, we\u2019re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We\u2019re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. \n\nA career at Roblox means you\u2019ll be working to shape the future of human interaction, solving unique technical challenges at scale, and helping to create safer, more civil shared experiences for everyone.",
+          "roles_and_responsibilities": "Own and deliver complex technical projects from the planning stage through initiatives.\nDesign and execute on the architecture and technical direction of multi-quarter features that will be the future of our application\nWork cross functionally, across teams and technology platforms\nMentor team members with team initiatives and advocates with stakeholders to move projects forward.\nDesign, develop, and implement technological practices, patterns, and strategies\nParticipate in building the world's best professional application for massively multiplayer game development\nReport into the Engineering Manager of Studio Scripting Team",
+          "qualifications": "Experience, 8+ years in developing and deploying complex software for massive cloud-based systems, with a Bachelor's degree in Computer Science, or a similar technical field\nHands-on with C++ and Boost libraries, multithreading and networking. Experience with QT/QML, MFC or other UI frameworks for desktop applications\nProficiencies in industry standards, best practices and design patterns\nFocus on writing clear, readable, testable, modular, and monitored code\nPassion for solving complex problems that are not solved easily\nCollaborative experience with team members an able to work cross functionally with others\nOrganizing and analytical skills",
+          "preferred_qualifications": null,
+          "benefits": "Industry-leading compensation package\nExcellent medical, dental, and vision coverage\nA rewarding 401k program\nFlexible vacation policy\nRoflex - Flexible and supportive work policy \nRoblox Admin badge for your avatar\nAt Roblox HQ: \nFree catered lunches five times a week and several fully stocked kitchens with unlimited snacks\nOnsite fitness center and fitness program credit\nAnnual CalTrain Go Pass",
+          "salary": "$283,780 \u2014 $331,640"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c0028644-9bfa-470e-9efd-d8473b42e313",
+    "url": "https://www.northside.com/locations/atlanta-ophthalmology-associates",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Atlanta Ophthalmology Associates",
+          "website": "https://aoaeye.com/",
+          "phone": "404-252-1194",
+          "fax": "404-252-1196",
+          "address": "5730 Glenridge Drive\nSuite 120\nAtlanta, GA 30328",
+          "type": "SPECIALTY CARE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "111ebd24-8617-48cb-b963-eb692bf1e53a",
+    "url": "https://www.baptistfirst.org/location/baptist-health-ent-partners",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Baptist Health ENT Partners",
+          "website": null,
+          "phone": "334-747-2273",
+          "fax": null,
+          "address": "2055 East South Blvd; Suite 908\n\nMontgomery, Alabama 36116",
+          "type": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "270c2ebd-96c0-4bab-a24c-2c38a2df20aa",
+    "url": "https://www.mymichigan.org/locations/profile/?id=2918&searchId=850eff7c-3b7f-ee11-a863-000d3a61151d&sort=11&page=4&pageSize=10",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "MyMichigan Medical Center Clare",
+          "website": null,
+          "phone": "(989) 633-5252",
+          "fax": null,
+          "address": "703 N. McEwan Street\nClare, MI 48617",
+          "type": "CT Scanning"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ed7b1cf6-5be4-40e7-ad00-89a67d1c8e40",
+    "url": "https://www.uchealth.com/en/locations/montgomery-building",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Montgomery Building",
+          "website": null,
+          "phone": "513-936-4510",
+          "fax": null,
+          "address": "9275 Montgomery Road\nCincinnati, OH 45242",
+          "type": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "5df3d301-09f0-4ece-946d-c24952069ab7",
+    "url": "https://uoflhealth.org/locations/gi-motility-clinic-gastroenterology/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
+          "website": null,
+          "phone": "502-588-7690",
+          "fax": "502-540-1414",
+          "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
+          "type": "GI Motility Clinic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "47b45f41-2b7e-4295-ac0c-93f02354cd93",
+    "url": "https://www.hawaiipacifichealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "http://www.hawaiipacifichealth.org/wilcox/locations/eleele-clinic/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locat\u2026amily-medicine-clinic-at-kapiolani-womens-center/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locat\u2026health-cancer-center-at-pali-momi-medical-center/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kapaa-clinic/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-center/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-specialists-at-hale-pawaa/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-womens-center/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-medical-clinic/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-urgent-care/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/koloa-clinic/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-medical-center/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-outpatient-center/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahului-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026-medical-center-doctors-on-call-sheraton-waikiki/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026l-center-doctors-on-call-hilton-hawaiian-village/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-downtown-honolulu-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026aub-medical-center-first-insurance-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hawaii-kai-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hilo-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahala-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kailua-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kaneohe-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026straub-medical-center-kapolei-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-king-street-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-lanai-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-mililani-shopping-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026traub-medical-center-mililani-town-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pali-momi-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pearlridge-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026-center-physical-therapy-and-occupational-health/",
+          "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-ward-village-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
         ]
-    },
-    {
-        "id": "fd04f25a-f5a4-4cc4-a919-9eb4f30543d0",
-        "url": "https://www.infineon.com/cms/en/product/power/mosfet/silicon-carbide/modules/df14mr12w1m1hf_b67/",
-        "source": "mhtml",
-        "domain": "manufacturing",
-        "subdomain": "commerce",
-        "type": "fetch",
-        "fetch_id": "manufacturing_commerce",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "expected": {
-                        "mpn": "DF14MR12W1M1HFB67BPSA1",
-                        "classifications": [
-                            "ESS ; EV Charger ; Solar ; UPS"
-                        ],
-                        "description": "Configuration",
-                        "specs": [
-                            {
-                                "label": "Dimensions (length)",
-                                "value": "62.8 mm"
-                            },
-                            {
-                                "label": "Dimensions (width)",
-                                "value": "33.8 mm"
-                            },
-                            {
-                                "label": "Features",
-                                "value": "PressFIT"
-                            },
-                            {
-                                "label": "Housing",
-                                "value": "Easy 1B"
-                            },
-                            {
-                                "label": "Qualification",
-                                "value": "Industrial"
-                            }
-                        ],
-                        "lifecycle_status": "active and preferred",
-                        "packaging": "TRAY",
-                        "moisture_sensitivity_level": "NA",
-                        "leadfree": "no",
-                        "rohs_status": "yes"
-                    }
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "97dc7166-7dcb-4c9f-941f-342996bf1ca8",
+    "url": "https://www.mountsinai.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.mountsinai.org/locations/beth-israel",
+          "https://www.mountsinai.org/locations/brooklyn",
+          "https://www.mountsinai.org/locations/mount-sinai",
+          "https://www.mountsinai.org/locations/morningside",
+          "https://www.mountsinai.org/locations/queens",
+          "https://www.southnassau.org/sn",
+          "https://www.mountsinai.org/locations/west",
+          "https://www.nyee.edu/",
+          "https://www.mountsinai.org/locations/msd-faculty-practice",
+          "https://www.mountsinai.org/locations/spine-hospital",
+          "https://www.mountsinai.org/locations/downtown",
+          "https://www.mountsinai.org/locations/kravis-childrens",
+          "https://www.mountsinai.org/about/network",
+          "https://www.mountsinai.org/locations/urgent-care",
+          "https://www.mountsinai.org/locations/outpatient",
+          "https://www.mountsinai.org/locations/union-square",
+          "https://www.mountsinai.org/locations/chelsea",
+          "https://www.mountsinai.org/locations/behavioral-health-center",
+          "https://www.mountsinai.org/locations/harlem-health-center"
         ]
-    },
-    {
-        "id": "8366209e-e5fb-4f64-85e0-79cd90985b59",
-        "url": "https://www.amazon.jobs/en/jobs/2482000/software-development-engineer-amazon-access",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "2482000",
-                    "job_title": "Software Development Engineer, Amazon Access",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "USA, WA, Seattle",
-                    "job_description": "At Amazon Access, we are committed to innovation, striving to create solutions that enhance the lives of underserved customer\nsegments. Currently, we are in the process of assembling a dedicated team to conceptualize, design, and implement a new benefits acceptance workflow solution. Integrated across Amazon Retail, this initiative will offer our customers greater flexibility in utilizing their benefits across Amazon businesses. For the initiative, we are looking for a Software Development Engineers (SDEs) who are passionate to solve complex, cross-functional problems and build a customer experience that improves and simplifies our customers\u2019 lives.\n\nYou will have the opportunity to impact the design, architecture, and implementation of our programs and work with and learn from teams across the company. You will strive for simplicity and flexibility in what you create. You will be the voice of the customer throughout your work. Customer experience, usability, and operational excellence will be your top priorities as you deliver quality solutions.",
-                    "roles_and_responsibilities": "As Software Development Engineer, you will work in a high quality, creative, visionary software development team to build and innovate the technology platform that powers the program. You are great at designing, building, and innovating solutions that are simple and easy to maintain and scale. You will deliver components/features spanning the full software lifecycle including working backwards from customers, software design, implementation, testing, and deployment, operations, and documentation. You bring in a continuous design thought process of operational excellence. ",
-                    "qualifications": "- 3+ years of non-internship professional software development experience\n- 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience programming with at least one software programming language",
-                    "preferred_qualifications": "- 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n- Bachelor's degree in computer science or equivalent",
-                    "benefits": null,
-                    "salary": "$115,000 - $223,600"
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "29cc4cad-f85c-4d8f-952e-f41f7eb2bc73",
+    "url": "https://www.acuityhealthcare.net/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/atlantic-city/atlantic-city",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/willingboro/willingboro",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/morgantown/morgantown",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/weirton/weirton",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling"
         ]
-    },
-    {
-        "id": "6152ba56-e62b-42d1-beec-6ecac1dfec35",
-        "url": "https://openai.com/careers/software-engineer-fullstack",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": null,
-                    "job_title": "Software Engineer, Fullstack",
-                    "job_category": "Applied AI Engineering",
-                    "date_posted": null,
-                    "location": "San Francisco, California, United States",
-                    "job_description": "We are looking for a self-starter engineer who loves building new products in an iterative and fast-moving environment. In this role, you will be bringing our large language models to millions of users around the world. Our users include everyday enthusiasts as well as professionals for ChatGPT, and everyone from hobbyists to large enterprises for the OpenAI API \u2014 you\u2019ll interface directly with users to develop the features they want most! You will also collaborate closely with the research teams that created the core models and work with them on continual improvement. You will be a key part of the effort to push these technologies forward, and onto the next 100x users.",
-                    "roles_and_responsibilities": "Own the development of new customer-facing ChatGPT and OpenAI API features and product experiences end-to-end\nTalk to users to understand their problems and design solutions to address them\nWork with the research team to get relevant feedback and iterate on their latest models\nCollaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products\nOptimize applications for speed and scale",
-                    "qualifications": "5+ years of relevant engineering experience at tech and product-driven companies\nProficiency with JavaScript, React, and other web technologies\nProficiency with some backend language (we use Python)\nSome experience with relational databases like Postgres/MySQL\nInterest in AI/ML (direct experience not required)\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines",
-                    "preferred_qualifications": null,
-                    "benefits": "Total compensation also includes generous equity and benefits.\n\nMedical, dental, and vision insurance for you and your family\nMental health and wellness support\n401(k) plan with 4% matching\nUnlimited time off and 18+ company holidays per year\nPaid parental leave (20 weeks) and family-planning support\nAnnual learning & development stipend ($1,500 per year)",
-                    "salary": "$160,000 - $385,000"
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "bb50f4e4-7d66-4ba6-b613-1065ea58a6fc",
+    "url": "https://www.adventisthealthcare.com/locations/results/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10"
         ]
-    },
-    {
-        "id": "d86e052f-3c14-4b4d-95e7-c26d59b771f7",
-        "url": "https://www.metacareers.com/jobs/271783205502889/",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "271783205502889",
-                    "job_title": "Research Scientist - Generative AI",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "Zurich, Switzerland",
-                    "job_description": "Meta is seeking a Research Scientist to join our Generative AI organization. In this role, you will have the opportunity to make a significant impact on the field of image generation by developing novel models and algorithms that improve the speed and efficiency of generative AI systems. These models will have direct impact on Meta's family of apps with 2 billion plus users. You will also work on fundamental research and be able to publish high quality papers in top-tier computer vision conferences. At Meta, you work alongside and learn from top minds in the field and have access to uniquely available large scale resources. Join us for this exciting and rewarding role.",
-                    "roles_and_responsibilities": "Research and develop novel computer vision models in Generative AI, with a focus on efficiency\nDeliver models to production with collaboration across Meta's family of apps\nCollaborate with other researchers and engineers across Meta to develop and deploy new models to production\nContribute to research publications and publish at top-tier venues",
-                    "qualifications": "A PhD in Computer Vision or a relevant technical field\nUnderstanding of modern computer vision concepts like diffusion models, GANs, and LLMs\nFirst author publications in top-tier computer vision venues (CVPR, NeurIPS, ECCV, ICCV, SIGGRAPH, ICML...)\nFluency in Python and PyTorch",
-                    "preferred_qualifications": "Demonstrated research experience via an internship, work experience, coding competitions, or widely used contributions in open source repositories (e.g. GitHub)\nIndustry experience deploying computer vision models to production\nExperience with optimizing model architectures and algorithms for CPU/GPU, mobile, and other types of specialized hardware\nTop-tier publications in Generative AI topics (diffusion models, LLMs...)",
-                    "benefits": null,
-                    "salary": null
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "1e4d7ca6-5292-4857-aca6-bd0fff337435",
+    "url": "https://apprhs.org/our-locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://apprhs.org/arims/",
+          "http://apprhs.org/apppulmonology",
+          "https://apprhs.org/apprheumatology",
+          "https://apprhs.org/appfamily",
+          "https://apprhs.org/appgastro/",
+          "https://apprhs.org/apportho/",
+          "https://apprhs.org/baker/",
+          "https://apprhs.org/booneurology/",
+          "https://apprhs.org/davantclinic/",
+          "https://apprhs.org/elkriver/",
+          "https://apprhs.org/grandfatherclinic/",
+          "https://apprhs.org/harmony/",
+          "https://apprhs.org/jeffersonclinic/",
+          "https://apprhs.org/tateclinic/",
+          "https://apprhs.org/watauga-surgical/",
+          "https://apprhs.org/wataugamedical/",
+          "https://apprhs.org/heartcenter",
+          "https://apprhs.org/heartcenter",
+          "https://apprhs.org/rehabcenter/",
+          "https://apprhs.org/sleepcenter",
+          "https://apprhs.org/paul-h-broyhill-wellness-center",
+          "https://apprhs.org/cancercenter/",
+          "https://apprhs.org/breastcenter/",
+          "https://apprhs.org/cannon/",
+          "https://apprhs.org/rehabcenter/",
+          "https://apprhs.org/appalachian-regional-behavioral-health/",
+          "https://apprhs.org/https://apprhs.org/appalachian-regional-behavioral-health/"
         ]
-    },
-    {
-        "id": "4310caaa-bf1b-4704-9362-dbf5b961972d",
-        "url": "https://c3.ai/job-description/?gh_jid=6181786002",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "6181786002",
-                    "job_title": "Front-End Engineer - UI Component Library",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "GUADALAJARA, MEXICO",
-                    "job_description": null,
-                    "roles_and_responsibilities": "Lead the development of new UI components to be used by fellow engineers.\nMaintain an ever-growing library of components to be used across different applications and industries.\nResearch and implement internal tools to increase the productivity of Engineering, UX, and PMs.\nProvide technical guidance and support for our UX and PM teams.",
-                    "qualifications": "Bachelor of Science in Computer Science, Computer Engineering, or related fields.\nExperience working with client-side technologies including Javascript, Typescript, React/Redux.\nExperience with version control systems, including Git.\nPrior experience designing and implementing reusable UI components.\nExperience working as part of a cross-functional team of PM, UX, and Engineering. ",
-                    "preferred_qualifications": "Prior experience developing a UI component library or design system for other engineers.\nProven experience with pixel-perfect execution of UI components.\nWorking knowledge of accessibility best practices.\nAbility to effectively articulate complex concepts to technical and non-technical audiences.\nExcellent analytical and troubleshooting skills.",
-                    "benefits": null,
-                    "salary": null
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "c45a5a21-964c-422c-96a9-acbfdebc64bc",
+    "url": "https://www.archbold.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.archbold.org/locations/archbold-ambulatory-care-center/",
+          "https://www.archbold.org/locations/archbold-anti-coagulation-clinic/",
+          "https://www.archbold.org/locations/archbold-brooks/",
+          "https://www.archbold.org/locations/archbold-cancer-center/",
+          "https://www.archbold.org/locations/archbold-corporate-care-center/",
+          "https://www.archbold.org/locations/archbold-ent-allergy/",
+          "https://www.archbold.org/locations/archbold-foundation/",
+          "https://www.archbold.org/locations/archbold-gastroenterology/",
+          "https://www.archbold.org/locations/archbold-grady/",
+          "https://www.archbold.org/locations/archbold-grady-emergency-room/",
+          "https://www.archbold.org/locations/archbold-home-health-services/",
+          "https://www.archbold.org/locations/archbold-home-care/",
+          "https://www.archbold.org/locations/archbold-hospice/",
+          "https://www.archbold.org/locations/archbold-inpatient-rehabilitation/",
+          "https://www.archbold.org/locations/archbold-internal-medicine-residency-clinic/",
+          "https://www.archbold.org/locations/archbold-living-cairo/",
+          "https://www.archbold.org/locations/archbold-living-camilla/",
+          "https://www.archbold.org/locations/archbold-living-pelham/",
+          "https://www.archbold.org/locations/archbold-living-thomasville/",
+          "https://www.archbold.org/locations/archbold-memorial/",
+          "https://www.archbold.org/locations/archbold-memorial-emergency-department/",
+          "https://www.archbold.org/locations/archbold-mitchell/",
+          "https://www.archbold.org/locations/archbold-neurology-neurosurgery/",
+          "https://www.archbold.org/locations/archbold-northside/",
+          "https://www.archbold.org/locations/archbold-pediatrics-camilla/",
+          "https://www.archbold.org/locations/archbold-pinetree-pharmacy/",
+          "https://www.archbold.org/locations/archbold-primary-care-cairo/",
+          "https://www.archbold.org/locations/archbold-primary-care-camilla/",
+          "https://www.archbold.org/locations/archbold-primary-care-pelham/",
+          "https://www.archbold.org/locations/archbold-primary-care-thomasville/",
+          "https://www.archbold.org/locations/archbold-pulmonology/",
+          "https://www.archbold.org/locations/archbold-sleep-center/",
+          "https://www.archbold.org/locations/archbold-south-georgia-surgical/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-bainbridge/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-cairo/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-camilla/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-quitman/",
+          "https://www.archbold.org/locations/archbold-therapy-and-sports-medicine/",
+          "https://www.archbold.org/locations/archbold-therapy-camilla/",
+          "https://www.archbold.org/locations/archbold-therapy-quitman/",
+          "https://www.archbold.org/locations/archbold-urgent-care/",
+          "https://www.archbold.org/locations/archbold-urology/",
+          "https://www.archbold.org/locations/archbold-womens-center/",
+          "https://www.archbold.org/locations/archbold-wound-care/",
+          "https://www.archbold.org/locations/cardiovascular-consultants-of-south-georgia-llc/",
+          "https://www.archbold.org/locations/grady-general-hospital-outpatient-rehabilitation/",
+          "https://www.archbold.org/locations/loudermilk-heart-vascular-center/",
+          "https://www.archbold.org/locations/vita-surgery-vascular/"
         ]
-    },
-    {
-        "id": "ad142573-4dcb-4c1e-9a4d-6fa1fa818026",
-        "url": "https://jobs.careers.microsoft.com/global/en/job/1658879/Software-Engineering-II",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "1658879",
-                    "job_title": "Software Engineering II",
-                    "job_category": "Software Engineering",
-                    "date_posted": "Nov 03, 2023",
-                    "location": "Cambridge, Massachusetts, United States",
-                    "job_description": "We are seeking a highly motivated and skilled Software Engineer II to join our Microsoft Intune Engineering Team. As a Software Engineer II on the Intune Engineering team, you will be at the forefront of developing solutions for device management, security, and modern workplace experiences. If you are passionate about building robust software, thrive in a collaborative environment, are excited to grow and learn on the job, and aspire to make an impact on how organizations securely manage their devices and data, this role is perfect for you. \n\n \n\nMicrosoft Intune is the industry leading cloud-based device configuration and security management platform. It empowers organizations to efficiently manage and secure millions of Windows, macOS, iOS, Android, and Linux devices, all from a single, centralized platform. Intune provides tools for configuring device settings, deploying applications, enforcing security policies, and ensuring compliance, all while enabling remote work and enhancing productivity.\u202f\u202f ",
-                    "roles_and_responsibilities": "Join our supportive and collaborative team of engineers working on critical and strategic projects in Intune.\n\nWork on a global cloud security and compliance solution to manage and secure millions of devices.\nDevelop and deliver robust designs and code for both frontend experiences and backend services.\nDebug and optimize work across multiple clients, services and teams in a fast-paced agile environment.\nEmbrace a culture of collaboration, customer obsession, openness, curiosity, integrity, and innovation.\nBe a leader who brings clarity and technical direction to produce resilient engineering designs and drive them to execution.\nIncorporate feedback loops from customers, partners, and stakeholders across disciplines to every solution.\nOwn scenarios end-to-end that span beyond your own area to existing features.",
-                    "qualifications": "Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\nOR equivalent experience.\n2+ years of professional experience designing, developing, testing, and shipping software.  \n2+ years technical abilities around design, coding, rapid prototyping, debugging, and problem solving.\u202f\u202f ",
-                    "preferred_qualifications": "Bachelor's Degree in Computer Science, or related technical discipline AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\n\nOR equivalent experience.\n\n2+ years of experience in building Android applications. \nExperience with continuous integration/continuous deployment tools, including but not limited to, Azure DevOps. \nCoding, debugging, and problem-solving skills. \nDemonstrated desire and passion for meeting customer needs. \nPassion for contributing to the team culture. \nTrack record of learning and growing. ",
-                    "benefits": "\uead4Industry leading healthcare\ue7beEducational resources\ue8ecDiscounts on products and services\ueafdSavings and investments\uf862Maternity and paternity leave\uea17Generous time away\ueb51Giving programs\uefd4Opportunities to network and connect",
-                    "salary": null
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "f9e89327-3556-492d-963d-3765eebdbb1d",
+    "url": "https://www.arnothealth.org/hospitals",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.arnothealth.org/arnot-ogden-medical-center",
+          "https://www.arnothealth.org/ira-davenport-memorial-hospital",
+          "https://www.arnothealth.org/st-josephs-hospital"
         ]
-    },
-    {
-        "id": "69a755f1-33db-4f77-9b8e-0e90cf7c7188",
-        "url": "https://vercel.com/careers/technical-consultant-us-4930025004",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "4930025004",
-                    "job_title": "Technical Consultant",
-                    "job_category": "Solution Engineering",
-                    "date_posted": null,
-                    "location": "Remote \n(United States)",
-                    "job_description": "Vercel is looking for a Technical Consultant to assist our Enterprise customers with technical problems and questions when using Vercel products and services. Reporting to the Manager of Technical Consulting, the Technical Consultant will be responsible for informing and training clients in the product's proper use to enhance the customer experience and improve satisfaction.\n\nTechnical Consultants need to earn our customers' trust and understand technical problems quickly. You will play a major part in the post-sales process and Enterprise customer journey. Expertise in the technical elements of the product and clarity of instruction are important competencies in this position. Success in this role will be demonstrated through improvements in the retention of Enterprise customers by delivering key technical insights and evaluations to ensure success both at launch and scale.\n\nYou have a background in frontend development, enjoy technical writing, and have a passion for digging deep to find and resolve issues. You are excited about the opportunity to involve yourself with the technical evolution of both global brands and new start-ups.\n\nThe Technical Consultant will help establish our reputation as a company that is exceptional at helping its customers meet their goals throughout all parts of the customer journey while engineering solutions to constantly improve the customer experience.",
-                    "roles_and_responsibilities": "Ensure that Enterprise customers are receiving and understanding the value of the platform.\n\nProvide product expertise and strategic consultation during the Enterprise customer journey.\n\nProvide training sessions to Enterprise customers.\n\nAttend onboarding and pre-production calls as a technical authority.\n\nKnow the Vercel platform and Next.js framework inside and out, learning daily.\n\nWork with other members of CS to provide assistance both internally and externally.\n\nDevelop close partnerships with the CSM team to understand customers' goals.\n\nWork with external engineering and infrastructure teams to convey product gaps and needs.\n\nEnsure customers have immediate concerns resolved but with a long-term outlook.\n\nSpecialize in a few product areas and own that within the team.\n\nImproving existing, and identifying new, internal documentation, processes and policies.\n\nAssist and coordinate with Customer Success Managers with Enterprise requests.",
-                    "qualifications": "You lead by example and develop more junior members of the team.\n\nYou understand modern web architecture, frontend development, and serverless computing.\n\nYou are experienced with incident management and procedure.\n\nYou are comfortable working with a fully remote, globally distributed team.\n\nYou have a passion to deliver a customer experience second to none.\n\nAvailability to work within a weekend and on-call rotation.\n\n3+ years experience in a customer success, sales, or onboarding/implementation role at a SaaS company.\n\n5+ years experience with front-end web development using React in a production setting.",
-                    "preferred_qualifications": "Have experience using Next.js.\n\nHave experience supporting backend runtime environments, especially Node.js.\n\nHave experience with CDNs and a good understanding of caching techniques.\n\nWork with monorepos and/or custom, complex CI/CD pipelines.\n\nThoroughly understand DNS and can explain this clearly to others.",
-                    "benefits": "Stock options\n\nInclusive Healthcare Package\n\nFlexible working style - 100% remote, with teammates located throughout the globe\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills\n\nUnlimited PTO - 4 weeks recommended per year. Take time when you need it.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed",
-                    "salary": "$135,000 - $186,000"
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "3724f66f-9743-499c-a4b5-7b7f32d9e2a4",
+    "url": "https://www.astria.health/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.astria.health/locations/astria-ambulatory-surgical-center",
+          "https://www.astria.health/locations/astria-health-audiology",
+          "https://www.astria.health/locations/astria-health-center-euclid-ave-grandview",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-edison-dental",
+          "https://www.astria.health/locations/astria-health-center-family-medicine-ahtanum-ridge-dr-union-gap",
+          "https://www.astria.health/locations/astria-health-center-vintage-valley-pkwy-zillah",
+          "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-obgyn",
+          "https://www.astria.health/locations/astria-health-center-miller-ave-sunnyside-occupational-medicine",
+          "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-orthopedics",
+          "https://www.astria.health/locations/astria-health-center-803-lincoln-ave-sunnyside-pediatrics",
+          "https://www.astria.health/locations/astria-health-center-second-st-grandview",
+          "https://www.astria.health/locations/astria-health-center-2705-suite-c-lincoln-ave-sunnyside",
+          "https://www.astria.health/locations/astria-health-center-chardonnay-ave-prosser",
+          "https://www.astria.health/locations/astria-health-center-4th-ave-toppenish",
+          "https://www.astria.health/locations/astria-health-\u2026ln-ave-sunnyside-family-medicine-endocrinology-ob",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-edison",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-rapid-care-and-multispecialty",
+          "https://www.astria.health/locations/astria-sleep-medicine",
+          "https://www.astria.health/locations/sleep-medicine-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-physical-therapy",
+          "https://www.astria.health/locations/astria-home-health-sunnyside",
+          "https://www.astria.health/locations/astria-home-health-yakima",
+          "https://www.astria.health/locations/astria-plastic-surgery-center",
+          "https://www.astria.health/locations/astria-health-center-2705-e-lincoln-ave-suite-c-sunnyside",
+          "https://www.astria.health/locations/astria-sunnyside-hospital",
+          "https://www.astria.health/locations/sunnyside-hospital-wound-care",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-emergency",
+          "https://www.astria.health/locations/astria-toppenish-hospital",
+          "https://www.astria.health/locations/astria-toppenish-hospital-emergency",
+          "https://www.astria.health/locations/astria-toppenish-hospital-behavioral-health-unit",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-breast-health-center",
+          "https://www.astria.health/locations/cancer-care-prosser",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-cancer-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-family-birth-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-specialty-center-surgical-group"
         ]
-    },
-    {
-        "id": "f8e6ac9d-584d-4321-9451-7ebe0af3b6cb",
-        "url": "https://www.ycombinator.com/careers?ashby_jid=05682b47-a5e2-4003-a9b8-b967cf45dd48",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "05682b47-a5e2-4003-a9b8-b967cf45dd48",
-                    "job_title": "Product Engineer, Post Batch",
-                    "job_category": "Software",
-                    "date_posted": null,
-                    "location": "San Francisco",
-                    "job_description": "Y Combinator is best known for our accelerator batch program, which has helped companies like Airbnb, Stripe and Instacart get started. What is lesser known are the resources that YC provides after the batch -- our YC-only hiring platform (workatastartup.com), regular event planning for alumni founders, and internal software platform for helping founders stay in touch. Our scope keeps increasing, and we\u2019re now looking to bring on a Product Engineer to help us scale our impact even more.\n\nYou\u2019ll be working directly with two former YC founders/engineers (from Twilio, Twitter & Lyft), and a small software team full of kind people who are eager to help you get up-to-speed. You\u2019ll be relied upon not only to help us tackle our hefty roadmap, but to also explore how YC can leverage its unique structural advantages to help our founders hire great people and build their companies after the batch ends.",
-                    "roles_and_responsibilities": "Design and build out new features in entirety. Our particular team focuses on helping founders post-batch. This is a range of features/products, with a focus on 1.) workatastartup.com (hiring) and 2.) internal software (helping YC stay in touch with founders and YC alumni).\n\nScope and prioritize items on our post-batch roadmap alongside YC partners and others on the YC software team.\n\nAnalyze usage and engagement from both founders, job-seekers and other users to understand what\u2019s working/not working, and make things continuously better.",
-                    "qualifications": "YC was started by hackers, so we recognize good hackers when we see them. Much like when we read applications for startups, we're looking to work with people who generally impress us. If you've written some impressive software before, whether for yourself or a company, that's the best qualifier we have.\n\nThis is a good job for someone who is excited about startups and interested in learning more about them. You\u2019ve likely worked at or started a startup, or want to do so in the future.\n\nThe software team has a lot of individual responsibility and access to sensitive information, so we need to hire people we can trust. Your ability to make good trade-offs and exercise good judgement is particularly important to us.",
-                    "preferred_qualifications": null,
-                    "benefits": "Our full benefits package includes medical, vision, and dental plans, infertility benefit, STD/LTD, life insurance, commuter benefits, flexible spending account, health savings account, 401(k) + 4% matching, generous parental leave, paid holidays and flexible paid time off policy.",
-                    "salary": "$160K - $200K"
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "3ee0e369-1cd7-41ac-940c-bee1afc1ef26",
+    "url": "https://www.atlantichealth.org/locations/hospitals.html",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.atlantichealth.org/locations/hospitals/morristown-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/overlook-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/newton-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/chilton-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/hackettstown-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/goryeb-childrens-hospital.html",
+          "https://www.atlanticrehabinstitute.com/"
         ]
-    },
-    {
-        "id": "766abf53-e055-4e4d-ac42-531e74606846",
-        "url": "https://jobs.lever.co/Anthropic/2786d360-13e0-4ad2-bef1-a193cd6a1f67",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "2786d360-13e0-4ad2-bef1-a193cd6a1f67",
-                    "job_title": "Prompt Engineering Manager",
-                    "job_category": "Prompt Engineering",
-                    "date_posted": null,
-                    "location": "San Francisco, CA",
-                    "job_description": "Anthropic\u2019s AI technology is amongst the most capable and safe in the world. However, large language models are a new type of intelligence, and the art of instructing them in a way that delivers the best results is still in its infancy \u2014 it\u2019s a hybrid between programming, instructing, and teaching. You will figure out the best methods of prompting our AI to accomplish a wide range of tasks, then document these methods to build up a library of tools and a set of tutorials that allows others to learn prompt engineering, as well as work with high value partners to directly solve their challenges.\n\nGiven that the field of prompt-engineering is arguably less than 2 years old, this position is a bit hard to hire for!  As a result, we ask that you share with us a specific prompt engineering project on LLMs that you\u2019re proud of in your application!  Ideally this project should show off a complex and clever prompting architecture or a systematic evaluation of an LLM\u2019s behavior.  ",
-                    "roles_and_responsibilities": "Manage and mentor prompt engineers, providing both technical guidance and career development\nSet goals and reviews for your team, promoting growth and output\nStay on top of latest advancements in prompt engineering and adjust team direction accordingly.\nHelp set team best practices for how prompting research and development is done.\nManage the creation of a library of high quality prompts or prompt chains to accomplish a variety of tasks, with an easy guide to help users search for the one that meets their needs.\nAct as editor for a set of tutorials and interactive tools that teach the art of prompt engineering to our customers.\nWork with large enterprise customers on their prompting strategies.",
-                    "qualifications": "Have experience managing high performance teams of engineers or scientists\nHave an organizational mindset and enjoy building teams from the ground up.\nHave excellent communication, collaboration, and coaching abilities.\nAre comfortable dealing with highly uncertain, ambiguous, and fast-moving environments.\nHave a creative hacker spirit and love solving puzzles.\nHave at least a high level familiarity with the architecture and operation of large language models.\nHave a firm grasp of programming in Python and experience with data structures/algorithms.\nThink holistically and can proactively identify the needs of an organization.\nMake ambiguous problems clear and identify core principles that can translate across scenarios.\nHave a passion for making powerful technology safe and societally beneficial.\nThink creatively about the risks and benefits of new technologies, and think beyond past checklists and playbooks.\nStay up-to-date and informed by taking an active interest in emerging research and industry trends.",
-                    "preferred_qualifications": null,
-                    "benefits": "- Optional equity donation matching at a 3:1 ratio, up to 50% of your equity grant.\n- Comprehensive health, dental, and vision insurance for you and all your dependents.\n- 401(k) plan with 4% matching.\n- 21 weeks of paid parental leave.\n- Unlimited PTO \u2013 most staff take between 4-6 weeks each year, sometimes more!\n- Stipends for education, home office improvements, commuting, and wellness.\n- Fertility benefits via Carrot.\n- Daily lunches and snacks in our office.\n- Relocation support for those moving to the Bay Area.",
-                    "salary": "$320,000 - $520,000"
-                }
-            }
+      }
+    ]
+  },
+  {
+    "id": "ce4dede3-9fee-44ea-99a6-0137a9aa2db8",
+    "url": "https://www.swedish.org/locations?lookup=87af2959065c4704b21c5064dada6bfd&lookupvalue=Urgent%20Care&page=1&radius=&term=",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.providence.org/our-services/urgent-care/urgent-care-factoria",
+          "https://www.providence.org/our-services/urgent-care/urgent-care-redmond",
+          "https://www.providence.org/our-services/urgent-care/urgent-care-edmonds"
         ]
-    },
-    {
-        "id": "9a10af79-08e2-4d73-a2a1-675bb97126bb",
-        "url": "https://boards.greenhouse.io/reddit/jobs/5245144",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "5245144",
-                    "job_title": "Engineering Manager, Service Foundation",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "Toronto, Canada",
-                    "job_description": "Reddit is a community of communities where people can dive into anything through experiences built around their interests, hobbies, and passions. Our mission is to bring community, belonging, and empowerment to everyone in the world. Reddit users submit, vote, and comment on content, stories, and discussions about the topics they care about the most. From pets to parenting, there\u2019s a community for everybody on Reddit and with over 50 million daily active users, it is home to the most open and authentic conversations on the internet. For more information, visit redditinc.com.\n\nThe Developer Experience team designs, develops, and support tools and processes that make common developer workflows efficient and reliable. \n\nSome Of Our Present And Future Challenges Include\n\nBuilding a strong cloud staging development story for the entire company.\nRe-envisioning our service frameworks and tooling integrations to increase developer efficiency, confidence, and service reliability.",
-                    "roles_and_responsibilities": "Steer: Work with the team to select, scope, and drive high leverage projects that align with Reddit\u2019s goals.\nBuild: Build out your team to execute on a strategy and create more efficient, more reliable developer workflows.\nAmplify: Mentor your ICs and be a leader for the Developer Experience team.\nCollaborate: Work together with a variety of teams across Reddit Engineering.\nEvolve: Learn and improve your own technical and non-technical abilities.",
-                    "qualifications": "3+ years with technical leadership over high performing engineering teams.\n3+ years experience working on developer tools, library development, API design.\n3+ years experience developing and managing teams focused in Go and Python\nStrong focus on user experience, usability, scalability, and quality. You are an undying advocate for the user, and you have a deep intuition for how people think and how they interact with software at scale.\nHigh empathy, excellent communication skills, and the ability to find compromise working across the entire engineering org.",
-                    "preferred_qualifications": null,
-                    "benefits": "Comprehensive Health benefits\nRetirement Savings plan with matching contributions\nWorkspace benefits for your home office\nPersonal & Professional development funds\nFamily Planning Support\nFlexible Vacation & Reddit Global Days Off",
-                    "salary": null
-                }
-            }
-        ]
-    },
-    {
-        "id": "77d6efb9-2581-4f5f-a681-1b94696d9044",
-        "url": "https://ouryahoo.wd5.myworkdayjobs.com/careers/job/Taiwan---Remote/Backend-Engineer--Media_JR0023180",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": null,
-                    "job_title": null,
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": null,
-                    "job_description": null,
-                    "roles_and_responsibilities": null,
-                    "qualifications": null,
-                    "preferred_qualifications": null,
-                    "benefits": null,
-                    "salary": null
-                }
-            }
-        ]
-    },
-    {
-        "id": "5db440aa-f155-4297-bae4-769c8c808acd",
-        "url": "https://jobs.apple.com/en-us/details/200517170/engineering-manager-camera-foundation?team=SFTWR",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "200517170",
-                    "job_title": "Engineering Manager, Camera Foundation",
-                    "job_category": "Software and Services",
-                    "date_posted": "Nov 2, 2023",
-                    "location": "Santa Clara Valley (Cupertino), California, United States",
-                    "job_description": "If you consider yourself an engaging and highly-collaborative engineering lead with excellent communication skills, and are comfortable in a dynamic environment, we feel we have a rewarding opportunity for you. We need a strong engineering manager to drive the development and innovation of camera capture and processing pipelines while building and expanding a team of experienced engineers. In addition, you ideally have a background in media and have a good working understanding of the various media formats. In this role you will have the unique opportunity to drive high-impact customer-facing features as well as influence the direction of Apple\u2019s custom silicon designs \u2014 and to build the vertically-integrated software stack that connects them.",
-                    "roles_and_responsibilities": null,
-                    "qualifications": "You have 2+ years of experience leading/managing software engineering projects, and have full-cycle project planning and resource management experience.\nYou thrive in a collaborative environment and can clearly communicate while confidently driving multiple projects across many teams.\nYou have experience building and growing teams of experienced engineers.\nYou have 5+ years of multithreading software development experience.\nYou are proficient in Objective-C, or C/C++.\nYou own API design and maintenance.",
-                    "preferred_qualifications": "- Development and debug experience on embedded mobile platforms.\n- Experience with Unix/Linux highly desired. Experience in OS X / Darwin is a major plus.\n- Familiarity with modern processor and SoC architectures.\n- Familiarity with H264/JVT, MPEG 4 as well as common media container formats.\n- Familiarity with A/V compression/decompression & synchronization technology.",
-                    "benefits": null,
-                    "salary": "$183,400 - $316,900"
-                }
-            }
-        ]
-    },
-    {
-        "id": "cc29229c-30f6-4a03-a4b6-2755ed0cca14",
-        "url": "https://www.workatastartup.com/jobs/62396?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "62396",
-                    "job_title": "Founding Product Designer at Mintlify (W22)",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "San Francisco, CA, US / Remote",
-                    "job_description": "Join us in our mission to empower millions of developers. We\u2019re looking for self starters to join our fast moving founding team. In building a devtool, your empathy for developers naturally blends into product and GTM.\n\nOur platform reaches 4m+ developers every year and power the documentation of 1000+ companies. We're also the #1 most popular YC product used by other YC companies in the past four years.",
-                    "roles_and_responsibilities": "Skills: Figma\nMintlify is looking for a founding product designer to help us build a world class product that improve the product and customer experience. As a head of design, you will be leading our efforts in designing a world class experience that impact millions of developers.",
-                    "qualifications": "A collaborative team player who believes in the power of strong teams to drive change\nProficient in high-fidelity prototyping tools (Figma, motion design platform of choice)\nHave deep understanding of design systems and obsession with user experience\n5+ years of experience with product design\nSystems-thinker with the ability to think beyond the pixels and design",
-                    "preferred_qualifications": null,
-                    "benefits": "Not sold yet? Check out some benefits you\u2019ll have access to as well:\n\n\ud83e\udde7 Competitive compensation and equity\n\u2708\ufe0f Flexible work culture\n\ud83c\udf3b 20 days paid time off every year\n\ud83e\uddd1\u200d\u2695\ufe0f Health, dental, vision\n\ud83d\udcb8 401k or RRSP matching\n\ud83c\udf71 Free lunch and dinners\n\ud83d\udcbb $700/year work setup stipend\n\ud83d\udcaa $200/month wellness stipend\n\ud83c\udf34 Annual team offsite\n\ud83c\udf3f Unlimited free mints",
-                    "salary": null
-                }
-            }
-        ]
-    },
-    {
-        "id": "6535b75f-be1e-4f68-aedd-f3ff167d98ca",
-        "url": "https://stripe.com/jobs/listing/account-executive-commercial/5403149",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "5403149",
-                    "job_title": "Account Executive, Commercial",
-                    "job_category": "Sales",
-                    "date_posted": null,
-                    "location": null,
-                    "job_description": "As a Commercial, Account Executive, you will play an instrumental role in fueling Stripe\u2019s growth through acquiring, growing and expanding under-penetrated mid-market accounts. In this role, you will help build out a new team and GTM motion at Stripe.",
-                    "roles_and_responsibilities": "\nIdentify high-potential prospective users and use effective prospecting strategies to generate leads that drive revenue growth in your territory\nDevelop and implement scaled sales strategies for acquiring new customers and driving product adoption, net new product sales, and client retention at scale\nIdentify and understand users\u2019 pain points to propose Stripe solutions and own the full sales cycle, from business case development to close\nOwn contract renewals and lead commercial negotiations to increase and retain existing customer revenue and Stripe market share\nWork cross-functionally to solve user pain paints and improve our product\nYou will be required to work from the Chicago office three (3) days per week",
-                    "qualifications": "3+ years of experience in a client-facing/sales role\nAbility to understand technical requirements and craft solutions across multiple product\nStrong operational acumen and ability to manage high volumes and high velocity work\nAbility and motivation to operate in a highly ambiguous and fast-paced environment\nSuperior verbal and written communication skills\nYou will be required to work from the Chicago office three (3) days per week",
-                    "preferred_qualifications": "Prior experience in a sales and/or customer-facing role at a high growth technology company",
-                    "benefits": null,
-                    "salary": "$146,000 - $197,600"
-                }
-            }
-        ]
-    },
-    {
-        "id": "0880ea91-7c5e-415c-9d2f-00457f110ee8",
-        "url": "https://careers.doordash.com/jobs/5462166",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "5462166",
-                    "job_title": "Electrical Engineer",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "San Francisco, CA",
-                    "job_description": "In this role you will help build the next generation of robotic systems within DoorDash Labs from the ground up! You will work with an excellent engineering team to solve novel problems that will drastically change last mile logistics. We\u2019re a team of people who live and breathe building robots and complex electromechanical systems. We\u2019re unfazed by challenges or new problems and strive to build world class solutions. ",
-                    "roles_and_responsibilities": "Be part of an exciting effort to develop and manufacture our new autonomous delivery robot platform\nWork with our Hardware Engineering and Technician teams to prepare for our launch.\nShip tangible product concepts that make a meaningful impact on a billion dollar business. \nPlay a key role in architecting and designing a wide range of electrical systems on our next generation delivery robots.\nHave a large impact in a small team, collaborating with every other team on the project with many disciplines and stakeholders.",
-                    "qualifications": "A B.S., M.S., or PhD. in Electrical Engineering.\n5+ years of industry experience working in a similar role.\nExperience taking complex circuits from product definition through production.\nExperience with DC power management systems, especially in automotive applications.\nExperience with autonomous vehicle communication, networking and sensor systems.\nExperience with electric vehicle or mobile robotics safety systems.\nExperience designing and troubleshooting complex systems including debugging ground loops, localized noise mitigation, and multi-voltage power systems\nDesigned circuits in Altium Designer.\nA passion for building robots and autonomous vehicles.",
-                    "preferred_qualifications": null,
-                    "benefits": null,
-                    "salary": "$185,500 \u2014 $250,500"
-                }
-            }
-        ]
-    },
-    {
-        "id": "0a6346b8-2c83-48e9-adf0-c76792862594",
-        "url": "https://blog.perplexity.ai/careers/llm-teacher",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": null,
-                    "job_title": "LLM Teacher",
-                    "job_category": "Engineering",
-                    "date_posted": null,
-                    "location": "San Francisco",
-                    "job_description": "As an LLM Teacher, you will play a critical role in teaching our large language models how to behave, improving our models and thus product experience through data. You will work closely with the AI team to build high volume, high quality, and diverse datasets. You will use our in-house suite of data tools to achieve this, and have an active role in improving the next generation of AI tools. As an LLM Teacher at Perplexity, you will play a pivotal role in shaping the future of our answer engine.",
-                    "roles_and_responsibilities": "Collaborate with AI researchers and engineers to curate diverse and high quality examples of intended model behavior\n\nUse and improve the next generation of LLM AI labeling interfaces\n\nVerify new models trained on the latest data improve performance. Data you create will be deployed in production environments, where millions of people worldwide will be impacted from your work\n\nWork on increasing the factual accuracy of generated content. Define and contribute to the development of our AI's ability to generate creative, human-like, and engaging content",
-                    "qualifications": "Passion and curiosity for experimenting with cutting edge generative AI technologies\n\nVery strong attention to detail, quality focused, and the ability to stay organized\n\nAdaptable, proactively applies logic to different scenarios, and has experience with computers and other software\n\nEnjoys a fast-paced environment\n\nExcellent communication and collaboration skills\n\nNative English speaking abilities or equivalent\n\nYou stay up-to-date and informed by taking an active interest in emerging research and industry trends\n\nCollege level graduate at a minimum",
-                    "preferred_qualifications": null,
-                    "benefits": null,
-                    "salary": "$30/hr"
-                }
-            }
-        ]
-    },
-    {
-        "id": "a266e560-aa88-49fe-b3c0-2731163b1921",
-        "url": "https://jobs.netflix.com/jobs/301592752",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "301592752",
-                    "job_title": "PR Coordinator - Japan",
-                    "job_category": "Publicity",
-                    "date_posted": null,
-                    "location": "Tokyo, Japan",
-                    "job_description": "We are looking to hire a creative self-starter who loves, lives, and breathes entertainment, to be a PR Coordinator for the Japan PR team. Reporting to the PR Director, Japan, you will be part of a team of stunning storytellers working on impactful publicity and communications campaigns to drive conversations about our brand and upcoming titles. The role is also a key partner to the Content, Marketing, Policy, and Partnerships teams, as well the APAC and global PR teams. \n\nThis is a demanding and fast-moving position that requires a proactive and positive thinker, able to exercise good judgment and initiative. At Netflix, we don't have rules and regulations. We hire adults who act responsibly on the resources and freedom they are given to do their work, and we expect high performance in return. ",
-                    "roles_and_responsibilities": "Manage overall Japan PR calendar including timelines of debuts and releases;\nSupport director in rolling out overall PR strategy that drives conversation\nAssist with cross-functional meeting arrangements, interpretation, and preparing presentations and reports to APAC\nAssist with announcements, executive appearances, issues management, media training and more;\nSupport innovative publicity campaigns for our Japan originals and our incredible slate of locally relevant shows from all around the world to drive our business in Japan\nWork with the regional teams to put in place a set of best practices that enable us to move quicker, bigger and better\nCreating presentations and documents using PowerPoint and Google Apps in English and Japanese\nMaintain flexibility and openness to take on additional projects as necessary or assigned",
-                    "qualifications": "At least 3+ years of previous coordinator, project manager or team assistant experience preferred\nPrior entertainment studio, TV network, PR or agency experience preferred\nA great communicator - via email, by phone, in-person and simultaneously\nHave experience supporting and/or executing a publicity campaign by working well across disciplines\nBe able to manage multiple tasks simultaneously under deadline and thrive in high energy, fast-paced environment\nPossess a keen understanding of media and have relationships with press is a plus\nBe able and willing to operate in a global environment\nBe a clear and concise communicator in Japanese as well as in English\nPassionate about entertainment and a fan of series, film and pop culture in Japan \nPoised and mature, not scared to speak up or challenge\nA proactive and positive thinker and a contributor to the team\nKnowledge of Google Suite is preferred",
-                    "preferred_qualifications": null,
-                    "benefits": null,
-                    "salary": "$30/hr"
-                }
-            }
-        ]
-    },
-    {
-        "id": "db0872df-fd27-4fff-bce8-3513f8e1164d",
-        "url": "https://scale.com/careers/4314568005",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "4314568005",
-                    "job_title": "Infrastructure Software Engineer, Public Sector",
-                    "job_category": null,
-                    "date_posted": null,
-                    "location": "Washington, DC",
-                    "job_description": "Scale AI is seeking a highly skilled and motivated Infrastructure Software Engineer to join our dynamic Federal Engineering team. As a part of this team, you will play a critical role in delivering high-impact AI-powered mission solutions for government customers. Our scalable and high-performance platform forms the foundation for these solutions, and your expertise will be instrumental in designing and implementing systems that can handle billions of data points with exceptional performance.",
-                    "roles_and_responsibilities": "Design and implement secure scalable backend systems for Federal customers, leveraging Scale's modern and cloud-native AI infrastructure.\nOwn services or systems and define their long-term health goals, while also improving the health of surrounding components\nImprove our high engineering standards, tooling, and process\nCollaborate with cross-functional teams to define and execute the vision for backend solutions, ensuring they meet the unique needs of government agencies operating in secure environments.\nParticipate actively in customer engagements, working closely with stakeholders to understand requirements and deliver innovative solutions.\nContribute to the platform roadmap and product strategy for Scale AI's Federal business, playing a key role in shaping the future direction of our offerings.",
-                    "qualifications": "An active TS/SCI security clearance. This is a requirement and candidates will not be considered who do not hold this level of clearance\nFull Stack Development: Proficiency in both front-end and back-end development, including experience with modern web development frameworks, programming languages, and databases. Experience with developing & delivering software to air-grapped & isolated environments is a plus.\nCloud-Native Technologies: Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes) is required. Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience in developing and deploying applications in a cloud-native environment. \nSecurity Focused: Experience with Federal Compliance frameworks, and requirements(e.g, Cloud SRG, FedRAMP, STIG Benchmarks, etc). Experience developing software & technical solutions that meet strict security & regulatory compliance requirements.\nProblem Solving: Strong analytical and problem-solving skills to understand complex challenges and devise effective solutions. Ability to think critically, identify root causes, and propose innovative approaches to overcome technical obstacles.\nCollaboration and Communication: Excellent interpersonal and communication skills to effectively collaborate with cross-functional teams, stakeholders, and customers. Ability to clearly articulate technical concepts to non-technical audiences and foster a collaborative work environment.\nAdaptability and Learning Agility: Willingness to embrace new technologies, learn new skills, and adapt to evolving project requirements. Ability to quickly grasp and apply new concepts and stay up-to-date with emerging trends in software engineering.\nMust be able to support work 2-3 days a week at client sites within the St. Louis, MO or DC Metro area.",
-                    "preferred_qualifications": null,
-                    "benefits": null,
-                    "salary": "$153,600 - $215,040"
-                }
-            }
-        ]
-    },
-    {
-        "id": "574db794-8055-4fe6-bd16-5f9ee6eccbb4",
-        "url": "https://bb.wd3.myworkdayjobs.com/en-US/BlackBerry/jobs/details/Territory-Account-Manager_20231252",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "20231252",
-                    "job_title": "Territory Account Manager",
-                    "job_category": null,
-                    "date_posted": "Posted 10 Days Ago",
-                    "location": "Seattle, Washington",
-                    "job_description": null,
-                    "roles_and_responsibilities": "Manage and expand new business in enterprise and mid-level accounts, selling across our entire BlackBerry product portfolio with focus in new product sales, targeting the enterprise market in assigned prospective territories.\nServe as the primary point of contact for major customer communication leading all aspects of additional interactions with BlackBerry/Alliance partner resources (e.g., support).\nDevelop, implement, and maintain concrete plans for how the account will achieve targets.\nArticulate the value of the BlackBerry portfolio to decision makers and expertly manage the complex sales cycle.\nNurture and develop relationships within the assigned territory and/or accounts, presenting to the C-suite the value of the BlackBerry Cylance portfolio.\nWork with the Partner and Marketing teams to define and support prospecting efforts within the assigned territory and/or accounts.\nGenerate appropriate sales development activity to ensure healthy pipeline management.\nAccurately forecast, maintaining excellent SFDC hygiene.\nConduct online webinars or in-person presentations to generate qualified leads.\nOptimally demonstrate programs, tools, processes, and events to drive and close the sale.\nTravel as needed.",
-                    "qualifications": "Bachelor\u2019s degree or equivalent experience.\n3 years\u2019 min currently in a software product outside sales role \u2013 ideally in security.\n7 years\u2019 software sales experience or more.\nDriven, upbeat, the glass is half full, ready to build, sell and BE the face of the BlackBerry AI-powered unified endpoint security (UES) solution that fosters BlackBerry's leadership in AI!\nEnterprise SaaS sales experience in similar space/accounts with consistent track record in successfully selling endpoint or network security, with a proven track record of exceeding quota.\nRequires the ability to work independently with substantial latitude for action and decision while maintaining focus on achieving desired outcomes as part of a collaborative development effort.\nStrong communication, interpersonal, time management and organizational skills, in conjunction with experience calling on and presenting to C-Suite level contacts.",
-                    "preferred_qualifications": null,
-                    "benefits": "The BlackBerry Employee Benefits programs offer a wide range of benefits that support your physical, financial and personal well-being.  BlackBerry remains committed to offering affordable benefits including coverage for medical, dental, vision, life, disability insurance, 401(k), employee share purchase program and paid-time-off.",
-                    "salary": "$113,750 - $162,500"
-                }
-            }
-        ]
-    },
-    {
-        "id": "a4e1ac68-35bc-44a6-9e5f-53785df53bf2",
-        "url": "https://careers.roblox.com/jobs/4979622",
-        "source": "mhtml",
-        "domain": "software",
-        "subdomain": "careers",
-        "type": "fetch",
-        "fetch_id": "job_posting",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "job_id": "3214",
-                    "job_title": "Principal Software Engineer - Studio Scripting",
-                    "job_category": "ENGINEERING",
-                    "date_posted": null,
-                    "location": "SAN MATEO, CA, UNITED STATES",
-                    "job_description": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences\u2013 all created by our global community of developers and creators. \n\nAt Roblox, we\u2019re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We\u2019re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. \n\nA career at Roblox means you\u2019ll be working to shape the future of human interaction, solving unique technical challenges at scale, and helping to create safer, more civil shared experiences for everyone.",
-                    "roles_and_responsibilities": "Own and deliver complex technical projects from the planning stage through initiatives.\nDesign and execute on the architecture and technical direction of multi-quarter features that will be the future of our application\nWork cross functionally, across teams and technology platforms\nMentor team members with team initiatives and advocates with stakeholders to move projects forward.\nDesign, develop, and implement technological practices, patterns, and strategies\nParticipate in building the world's best professional application for massively multiplayer game development\nReport into the Engineering Manager of Studio Scripting Team",
-                    "qualifications": "Experience, 8+ years in developing and deploying complex software for massive cloud-based systems, with a Bachelor's degree in Computer Science, or a similar technical field\nHands-on with C++ and Boost libraries, multithreading and networking. Experience with QT/QML, MFC or other UI frameworks for desktop applications\nProficiencies in industry standards, best practices and design patterns\nFocus on writing clear, readable, testable, modular, and monitored code\nPassion for solving complex problems that are not solved easily\nCollaborative experience with team members an able to work cross functionally with others\nOrganizing and analytical skills",
-                    "preferred_qualifications": null,
-                    "benefits": "Industry-leading compensation package\nExcellent medical, dental, and vision coverage\nA rewarding 401k program\nFlexible vacation policy\nRoflex - Flexible and supportive work policy \nRoblox Admin badge for your avatar\nAt Roblox HQ: \nFree catered lunches five times a week and several fully stocked kitchens with unlimited snacks\nOnsite fitness center and fitness program credit\nAnnual CalTrain Go Pass",
-                    "salary": "$283,780 \u2014 $331,640"
-                }
-            }
-        ]
-    },
-    {
-        "id": "c0028644-9bfa-470e-9efd-d8473b42e313",
-        "url": "https://www.northside.com/locations/atlanta-ophthalmology-associates",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "fetch",
-        "fetch_id": "contact",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "name": "Atlanta Ophthalmology Associates",
-                    "website": "https://aoaeye.com/",
-                    "phone": "404-252-1194",
-                    "fax": "404-252-1196",
-                    "address": "5730 Glenridge Drive\nSuite 120\nAtlanta, GA 30328",
-                    "type": "SPECIALTY CARE"
-                }
-            }
-        ]
-    },
-    {
-        "id": "111ebd24-8617-48cb-b963-eb692bf1e53a",
-        "url": "https://www.baptistfirst.org/location/baptist-health-ent-partners",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "fetch",
-        "fetch_id": "contact",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "name": "Baptist Health ENT Partners",
-                    "website": null,
-                    "phone": "334-747-2273",
-                    "fax": null,
-                    "address": "2055 East South Blvd; Suite 908\n\nMontgomery, Alabama 36116",
-                    "type": null
-                }
-            }
-        ]
-    },
-    {
-        "id": "270c2ebd-96c0-4bab-a24c-2c38a2df20aa",
-        "url": "https://www.mymichigan.org/locations/profile/?id=2918&searchId=850eff7c-3b7f-ee11-a863-000d3a61151d&sort=11&page=4&pageSize=10",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "fetch",
-        "fetch_id": "contact",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "name": "MyMichigan Medical Center Clare",
-                    "website": null,
-                    "phone": "(989) 633-5252",
-                    "fax": null,
-                    "address": "703 N. McEwan Street\nClare, MI 48617",
-                    "type": "CT Scanning"
-                }
-            }
-        ]
-    },
-    {
-        "id": "ed7b1cf6-5be4-40e7-ad00-89a67d1c8e40",
-        "url": "https://www.uchealth.com/en/locations/montgomery-building",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "fetch",
-        "fetch_id": "contact",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "name": "Montgomery Building",
-                    "website": null,
-                    "phone": "513-936-4510",
-                    "fax": null,
-                    "address": "9275 Montgomery Road\nCincinnati, OH 45242",
-                    "type": null
-                }
-            }
-        ]
-    },
-    {
-        "id": "5df3d301-09f0-4ece-946d-c24952069ab7",
-        "url": "https://uoflhealth.org/locations/gi-motility-clinic-gastroenterology/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "fetch",
-        "fetch_id": "contact",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": {
-                    "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
-                    "website": null,
-                    "phone": "502-588-7690",
-                    "fax": "502-540-1414",
-                    "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
-                    "type": "GI Motility Clinic"
-                }
-            }
-        ]
-    },
-    {
-        "id": "47b45f41-2b7e-4295-ac0c-93f02354cd93",
-        "url": "https://www.hawaiipacifichealth.org/locations/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/eleele-clinic/",
-                    "http://www.hawaiipacifichealth.org/kapiolani/locat\u2026amily-medicine-clinic-at-kapiolani-womens-center/",
-                    "http://www.hawaiipacifichealth.org/pali-momi/locat\u2026health-cancer-center-at-pali-momi-medical-center/",
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/kapaa-clinic/",
-                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-center/",
-                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-specialists-at-hale-pawaa/",
-                    "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-womens-center/",
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-medical-clinic/",
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-urgent-care/",
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/koloa-clinic/",
-                    "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-medical-center/",
-                    "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-outpatient-center/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahului-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026-medical-center-doctors-on-call-sheraton-waikiki/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026l-center-doctors-on-call-hilton-hawaiian-village/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-downtown-honolulu-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026aub-medical-center-first-insurance-center-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hawaii-kai-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hilo-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahala-clinic-urgent-care/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kailua-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kaneohe-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026straub-medical-center-kapolei-clinic-urgent-care/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-king-street-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-lanai-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-mililani-shopping-center-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026traub-medical-center-mililani-town-center-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pali-momi-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pearlridge-clinic/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026-center-physical-therapy-and-occupational-health/",
-                    "http://www.hawaiipacifichealth.org/straub/location\u2026b-medical-center-ward-village-clinic-urgent-care/",
-                    "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "97dc7166-7dcb-4c9f-941f-342996bf1ca8",
-        "url": "https://www.mountsinai.org/locations",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.mountsinai.org/locations/beth-israel",
-                    "https://www.mountsinai.org/locations/brooklyn",
-                    "https://www.mountsinai.org/locations/mount-sinai",
-                    "https://www.mountsinai.org/locations/morningside",
-                    "https://www.mountsinai.org/locations/queens",
-                    "https://www.southnassau.org/sn",
-                    "https://www.mountsinai.org/locations/west",
-                    "https://www.nyee.edu/",
-                    "https://www.mountsinai.org/locations/msd-faculty-practice",
-                    "https://www.mountsinai.org/locations/spine-hospital",
-                    "https://www.mountsinai.org/locations/downtown",
-                    "https://www.mountsinai.org/locations/kravis-childrens",
-                    "https://www.mountsinai.org/about/network",
-                    "https://www.mountsinai.org/locations/urgent-care",
-                    "https://www.mountsinai.org/locations/outpatient",
-                    "https://www.mountsinai.org/locations/union-square",
-                    "https://www.mountsinai.org/locations/chelsea",
-                    "https://www.mountsinai.org/locations/behavioral-health-center",
-                    "https://www.mountsinai.org/locations/harlem-health-center"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "29cc4cad-f85c-4d8f-952e-f41f7eb2bc73",
-        "url": "https://www.acuityhealthcare.net/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/atlantic-city/atlantic-city",
-                    "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/willingboro/willingboro",
-                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/morgantown/morgantown",
-                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/weirton/weirton",
-                    "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "bb50f4e4-7d66-4ba6-b613-1065ea58a6fc",
-        "url": "https://www.adventisthealthcare.com/locations/results/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-                    "https://www.adventisthealthcare.com/locations/prof\u2026ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "1e4d7ca6-5292-4857-aca6-bd0fff337435",
-        "url": "https://apprhs.org/our-locations/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://apprhs.org/arims/",
-                    "http://apprhs.org/apppulmonology",
-                    "https://apprhs.org/apprheumatology",
-                    "https://apprhs.org/appfamily",
-                    "https://apprhs.org/appgastro/",
-                    "https://apprhs.org/apportho/",
-                    "https://apprhs.org/baker/",
-                    "https://apprhs.org/booneurology/",
-                    "https://apprhs.org/davantclinic/",
-                    "https://apprhs.org/elkriver/",
-                    "https://apprhs.org/grandfatherclinic/",
-                    "https://apprhs.org/harmony/",
-                    "https://apprhs.org/jeffersonclinic/",
-                    "https://apprhs.org/tateclinic/",
-                    "https://apprhs.org/watauga-surgical/",
-                    "https://apprhs.org/wataugamedical/",
-                    "https://apprhs.org/heartcenter",
-                    "https://apprhs.org/heartcenter",
-                    "https://apprhs.org/rehabcenter/",
-                    "https://apprhs.org/sleepcenter",
-                    "https://apprhs.org/paul-h-broyhill-wellness-center",
-                    "https://apprhs.org/cancercenter/",
-                    "https://apprhs.org/breastcenter/",
-                    "https://apprhs.org/cannon/",
-                    "https://apprhs.org/rehabcenter/",
-                    "https://apprhs.org/appalachian-regional-behavioral-health/",
-                    "https://apprhs.org/https://apprhs.org/appalachian-regional-behavioral-health/"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "c45a5a21-964c-422c-96a9-acbfdebc64bc",
-        "url": "https://www.archbold.org/locations/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.archbold.org/locations/archbold-ambulatory-care-center/",
-                    "https://www.archbold.org/locations/archbold-anti-coagulation-clinic/",
-                    "https://www.archbold.org/locations/archbold-brooks/",
-                    "https://www.archbold.org/locations/archbold-cancer-center/",
-                    "https://www.archbold.org/locations/archbold-corporate-care-center/",
-                    "https://www.archbold.org/locations/archbold-ent-allergy/",
-                    "https://www.archbold.org/locations/archbold-foundation/",
-                    "https://www.archbold.org/locations/archbold-gastroenterology/",
-                    "https://www.archbold.org/locations/archbold-grady/",
-                    "https://www.archbold.org/locations/archbold-grady-emergency-room/",
-                    "https://www.archbold.org/locations/archbold-home-health-services/",
-                    "https://www.archbold.org/locations/archbold-home-care/",
-                    "https://www.archbold.org/locations/archbold-hospice/",
-                    "https://www.archbold.org/locations/archbold-inpatient-rehabilitation/",
-                    "https://www.archbold.org/locations/archbold-internal-medicine-residency-clinic/",
-                    "https://www.archbold.org/locations/archbold-living-cairo/",
-                    "https://www.archbold.org/locations/archbold-living-camilla/",
-                    "https://www.archbold.org/locations/archbold-living-pelham/",
-                    "https://www.archbold.org/locations/archbold-living-thomasville/",
-                    "https://www.archbold.org/locations/archbold-memorial/",
-                    "https://www.archbold.org/locations/archbold-memorial-emergency-department/",
-                    "https://www.archbold.org/locations/archbold-mitchell/",
-                    "https://www.archbold.org/locations/archbold-neurology-neurosurgery/",
-                    "https://www.archbold.org/locations/archbold-northside/",
-                    "https://www.archbold.org/locations/archbold-pediatrics-camilla/",
-                    "https://www.archbold.org/locations/archbold-pinetree-pharmacy/",
-                    "https://www.archbold.org/locations/archbold-primary-care-cairo/",
-                    "https://www.archbold.org/locations/archbold-primary-care-camilla/",
-                    "https://www.archbold.org/locations/archbold-primary-care-pelham/",
-                    "https://www.archbold.org/locations/archbold-primary-care-thomasville/",
-                    "https://www.archbold.org/locations/archbold-pulmonology/",
-                    "https://www.archbold.org/locations/archbold-sleep-center/",
-                    "https://www.archbold.org/locations/archbold-south-georgia-surgical/",
-                    "https://www.archbold.org/locations/archbold-specialty-clinic-bainbridge/",
-                    "https://www.archbold.org/locations/archbold-specialty-clinic-cairo/",
-                    "https://www.archbold.org/locations/archbold-specialty-clinic-camilla/",
-                    "https://www.archbold.org/locations/archbold-specialty-clinic-quitman/",
-                    "https://www.archbold.org/locations/archbold-therapy-and-sports-medicine/",
-                    "https://www.archbold.org/locations/archbold-therapy-camilla/",
-                    "https://www.archbold.org/locations/archbold-therapy-quitman/",
-                    "https://www.archbold.org/locations/archbold-urgent-care/",
-                    "https://www.archbold.org/locations/archbold-urology/",
-                    "https://www.archbold.org/locations/archbold-womens-center/",
-                    "https://www.archbold.org/locations/archbold-wound-care/",
-                    "https://www.archbold.org/locations/cardiovascular-consultants-of-south-georgia-llc/",
-                    "https://www.archbold.org/locations/grady-general-hospital-outpatient-rehabilitation/",
-                    "https://www.archbold.org/locations/loudermilk-heart-vascular-center/",
-                    "https://www.archbold.org/locations/vita-surgery-vascular/"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "f9e89327-3556-492d-963d-3765eebdbb1d",
-        "url": "https://www.arnothealth.org/hospitals",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.arnothealth.org/arnot-ogden-medical-center",
-                    "https://www.arnothealth.org/ira-davenport-memorial-hospital",
-                    "https://www.arnothealth.org/st-josephs-hospital"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "3724f66f-9743-499c-a4b5-7b7f32d9e2a4",
-        "url": "https://www.astria.health/locations/",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.astria.health/locations/astria-ambulatory-surgical-center",
-                    "https://www.astria.health/locations/astria-health-audiology",
-                    "https://www.astria.health/locations/astria-health-center-euclid-ave-grandview",
-                    "https://www.astria.health/locations/astria-health-center-sunnyside-edison-dental",
-                    "https://www.astria.health/locations/astria-health-center-family-medicine-ahtanum-ridge-dr-union-gap",
-                    "https://www.astria.health/locations/astria-health-center-vintage-valley-pkwy-zillah",
-                    "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-obgyn",
-                    "https://www.astria.health/locations/astria-health-center-miller-ave-sunnyside-occupational-medicine",
-                    "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-orthopedics",
-                    "https://www.astria.health/locations/astria-health-center-803-lincoln-ave-sunnyside-pediatrics",
-                    "https://www.astria.health/locations/astria-health-center-second-st-grandview",
-                    "https://www.astria.health/locations/astria-health-center-2705-suite-c-lincoln-ave-sunnyside",
-                    "https://www.astria.health/locations/astria-health-center-chardonnay-ave-prosser",
-                    "https://www.astria.health/locations/astria-health-center-4th-ave-toppenish",
-                    "https://www.astria.health/locations/astria-health-\u2026ln-ave-sunnyside-family-medicine-endocrinology-ob",
-                    "https://www.astria.health/locations/astria-health-center-sunnyside-edison",
-                    "https://www.astria.health/locations/astria-health-center-sunnyside-rapid-care-and-multispecialty",
-                    "https://www.astria.health/locations/astria-sleep-medicine",
-                    "https://www.astria.health/locations/sleep-medicine-center",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-physical-therapy",
-                    "https://www.astria.health/locations/astria-home-health-sunnyside",
-                    "https://www.astria.health/locations/astria-home-health-yakima",
-                    "https://www.astria.health/locations/astria-plastic-surgery-center",
-                    "https://www.astria.health/locations/astria-health-center-2705-e-lincoln-ave-suite-c-sunnyside",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital",
-                    "https://www.astria.health/locations/sunnyside-hospital-wound-care",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-emergency",
-                    "https://www.astria.health/locations/astria-toppenish-hospital",
-                    "https://www.astria.health/locations/astria-toppenish-hospital-emergency",
-                    "https://www.astria.health/locations/astria-toppenish-hospital-behavioral-health-unit",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-breast-health-center",
-                    "https://www.astria.health/locations/cancer-care-prosser",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-cancer-center",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-family-birth-center",
-                    "https://www.astria.health/locations/astria-sunnyside-hospital-specialty-center-surgical-group"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "3ee0e369-1cd7-41ac-940c-bee1afc1ef26",
-        "url": "https://www.atlantichealth.org/locations/hospitals.html",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": [
-                    "https://www.atlantichealth.org/locations/hospitals/morristown-medical-center.html",
-                    "https://www.atlantichealth.org/locations/hospitals/overlook-medical-center.html",
-                    "https://www.atlantichealth.org/locations/hospitals/newton-medical-center.html",
-                    "https://www.atlantichealth.org/locations/hospitals/chilton-medical-center.html",
-                    "https://www.atlantichealth.org/locations/hospitals/hackettstown-medical-center.html",
-                    "https://www.atlantichealth.org/locations/hospitals/goryeb-childrens-hospital.html",
-                    "https://www.atlanticrehabinstitute.com/"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "ce4dede3-9fee-44ea-99a6-0137a9aa2db8",
-        "url": "https://www.swedish.org/locations?lookup=87af2959065c4704b21c5064dada6bfd&lookupvalue=Urgent%20Care&page=1&radius=&term=",
-        "source": "mhtml",
-        "domain": "healthcare",
-        "subdomain": "contact",
-        "type": "links",
-        "goal": "Fetch all of the links to the detail pages of clinics on the current page",
-        "evals": [
-            {
-                "type": "json_match",
-                "expected": ["https://www.providence.org/our-services/urgent-car…*ZDkwZTI1NWYtMTRjMS00NzFiLTg1YmUtMGVmNzBiOGE0N2Rl", "https://www.providence.org/our-services/urgent-care/urgent-care-redmond", "https://www.providence.org/our-services/urgent-care/urgent-care-edmonds"]
-            }
-        ]
-    }
+      }
+    ]
+  }
 ]
