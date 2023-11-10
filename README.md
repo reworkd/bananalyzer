@@ -42,13 +42,10 @@ In the future we will support more complex evaluation methods and examples that 
 
 
 ### Test intents
-We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType` enum in schemas.py.
+We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType` enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
 
-- **Data retrieval**: The agent must retrieve a specific piece of data from the page. This is the most common test type.
-- **Links**: The agent must scrape all detail page links from a page.
-- **Click**: The agent must click a specific element on the page.
-- **Navigation**: The agent must navigate to a specific page.
-- **Multi-step**: The agent must complete multiple steps to retrieve a specific piece of data from the page.
+- **fetch**: The agent must retrieve specific JSON information from the page. This is the most common test type.
+- **links**: The agent must scrape all detail page links from a page. The agent must click a specific element on the page.
 
 # Getting Started
 ### Local testing installation
