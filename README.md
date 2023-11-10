@@ -76,8 +76,10 @@ class NullAgentRunner(AgentRunner):
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
 
 #### Arguments
+- `-h` or `--help`: Show help
 - `--headless`: Run with Playwright headless mode
-- `--i` or `--intent`: Only run tests of a particular intent
+- `-i` or `--intent`: Only run tests of a particular intent
+- `-id` or `--id`: Run a specific test by id
 
 ### Contributing
 #### Running the server

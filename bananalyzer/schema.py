@@ -9,3 +9,4 @@ class Args(BaseModel):
     path: str
     headless: bool
     intent: Optional[GoalType] = Field(default=None)
+    id: Optional[str] = Field(default=None)

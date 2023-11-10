@@ -52,6 +52,13 @@ def parse_args() -> Args:
         default=None,
         help="Filter tests by a particular intent",
     )
+    parser.add_argument(
+        "-id",
+        "--id",
+        type=str,
+        default=None,
+        help="Filter tests by id",
+    )
 
     args = parser.parse_args()
 
@@ -63,6 +70,7 @@ def parse_args() -> Args:
         path=args.path,
         headless=args.headless,
         intent=args.intent,
+        id=args.id,
     )
 
 
@@ -106,10 +114,22 @@ def main() -> int:
 
     # Filter examples based on args
     filtered_examples = examples[:]
+    if args.id:
+        filtered_examples = [
+            example for example in filtered_examples if example.id == args.id
+        ]
     if args.intent:
         filtered_examples = [
-            example for example in examples if example.type == args.intent
+            example for example in filtered_examples if example.type == args.intent
         ]
+
+    # Test we actually have tests to run
+    if len(filtered_examples) == 0:
+        print()
+        print("=======================================================================")
+        print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
+        print("=======================================================================")
+        return 0
 
     # Load the desired tests
     tests = [generate_test(example, args.headless) for example in filtered_examples]
