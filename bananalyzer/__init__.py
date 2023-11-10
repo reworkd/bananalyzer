@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from bananalyzer.data.examples import examples
+from bananalyzer.data.schemas import GoalType
 from bananalyzer.runner.agent_runner import AgentRunner
 from bananalyzer.runner.runner import run_tests, generate_test
 from bananalyzer.schema import Args
@@ -39,11 +40,17 @@ def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
         description=f"Run the agent inside a bananalyzer agent definition file against the benchmark",
-        add_help=False,
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
-        "-h", "--headless", action="store_true", help=f"Whether to run headless or not"
+        "--headless", action="store_true", help=f"Whether to run headless or not"
+    )
+    parser.add_argument(
+        "-i",
+        "--intent",
+        type=str,
+        default=None,
+        help="Filter tests by a particular intent",
     )
 
     args = parser.parse_args()
@@ -55,6 +62,7 @@ def parse_args() -> Args:
     return Args(
         path=args.path,
         headless=args.headless,
+        intent=args.intent,
     )
 
 
@@ -80,7 +88,7 @@ def validate_agent_instance_available(agent: Any) -> None:
         raise TypeError("User defined agent is is not an instance of AgentRunner")
 
 
-def main() -> None:
+def main() -> int:
     """
     Load the agent from the provided path and run it against the benchmark
 
@@ -90,16 +98,24 @@ def main() -> None:
     Note your AgentRunner must be concurrency safe.
     """
     print_intro()
+
     # Load the agent
     args = parse_args()
     agent = load_agent_from_path(args.path)
     validate_agent_instance_available(agent)
 
+    # Filter examples based on args
+    filtered_examples = examples[:]
+    if args.intent:
+        filtered_examples = [
+            example for example in examples if example.type == args.intent
+        ]
+
     # Load the desired tests
-    tests = [generate_test(example, args.headless) for example in examples]
+    tests = [generate_test(example, args.headless) for example in filtered_examples]
 
     # Run the tests
-    run_tests(tests, args.path)
+    return run_tests(tests, args.path)
 
 
 if __name__ == "__main__":

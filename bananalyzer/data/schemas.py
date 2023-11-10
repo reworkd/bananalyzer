@@ -80,7 +80,6 @@ class Example(BaseModel):
 
         fetch_id = values.get("fetch_id")
         if fetch_id is None:
-            print("test")
             raise ValueError("fetch_id must be provided for fetch goal types")
 
         goal = values.get("goal")

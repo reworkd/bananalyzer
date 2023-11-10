@@ -79,7 +79,8 @@ class NullAgentRunner(AgentRunner):
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
 
 #### Arguments
-- `-h` or `--headless`: Run with Playwright headless mode
+- `--headless`: Run with Playwright headless mode
+- `--i` or `--intent`: Only run tests of a particular intent
 
 ### Contributing
 #### Running the server
@@ -102,6 +103,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [x] Document a majority of the repo
 
 ##### Features
+- [x] CLI param to filter tests by intent
 - [ ] Additional CLI params to select for specific tests or test categories
 - [ ] Ability to add multiple site pages to examples
 - [ ] Ability to add in-page actions to examples
