@@ -1,6 +1,7 @@
 from typing import Any, Dict, Optional
 
 import pytest
+from _pytest.outcomes import Failed
 from pydantic import ValidationError
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
@@ -12,9 +13,10 @@ def test_json_eval() -> None:
 
     eval = JSONEval(expected=json)
 
-    assert eval.eval_results(json)
-    assert eval.eval_results({"two": "two", "one": "one"})
-    assert not eval.eval_results({"test": "test"})
+    eval.eval_results(json)
+    eval.eval_results({"two": "two", "one": "one"})
+    with pytest.raises(Failed):
+        eval.eval_results({"test": "test"})
 
 
 def create_default_example(

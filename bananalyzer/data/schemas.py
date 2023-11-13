@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Literal, Optional, Union
 
+import pytest
 from pydantic import BaseModel, Field, model_validator
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
@@ -37,8 +38,10 @@ class JSONEval(BaseModel):
         # We don't care about action level evaluations
         return True
 
-    def eval_results(self, result: Dict[str, Any]) -> bool:
-        return result == self.expected
+    def eval_results(self, result: Dict[str, Any]) -> None:
+        if result != self.expected:
+            diff_msg = f"Expected: {self.expected}\nActual: {result}"
+            pytest.fail(f"JSONEval mismatch:\n{diff_msg}")
 
 
 class ActionEval(BaseModel):
