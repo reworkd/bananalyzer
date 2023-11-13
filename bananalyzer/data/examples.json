@@ -1704,8 +1704,8 @@
     "source": "mhtml",
     "domain": "healthcare",
     "subdomain": "contact",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "contact",
     "evals": [
       {
         "type": "json_match",
