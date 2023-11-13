@@ -78,8 +78,9 @@ class NullAgentRunner(AgentRunner):
 #### Arguments
 - `-h` or `--help`: Show help
 - `--headless`: Run with Playwright headless mode
-- `-i` or `--intent`: Only run tests of a particular intent
 - `-id` or `--id`: Run a specific test by id
+- `-i` or `--intent`: Only run tests of a particular intent (fetch, links, etc)
+- `-d` or `--domain`: Only run tests of a particular domain (healthcare, manufacturing, software, etc)
 
 ### Contributing
 #### Running the server

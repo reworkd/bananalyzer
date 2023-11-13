@@ -46,6 +46,13 @@ def parse_args() -> Args:
         "--headless", action="store_true", help=f"Whether to run headless or not"
     )
     parser.add_argument(
+        "-id",
+        "--id",
+        type=str,
+        default=None,
+        help="Filter tests by id",
+    )
+    parser.add_argument(
         "-i",
         "--intent",
         type=str,
@@ -53,11 +60,11 @@ def parse_args() -> Args:
         help="Filter tests by a particular intent",
     )
     parser.add_argument(
-        "-id",
-        "--id",
+        "-d",
+        "--domain",
         type=str,
         default=None,
-        help="Filter tests by id",
+        help="Filter tests by a particular domain",
     )
 
     args = parser.parse_args()
@@ -71,6 +78,7 @@ def parse_args() -> Args:
         headless=args.headless,
         intent=args.intent,
         id=args.id,
+        domain=args.domain,
     )
 
 
@@ -121,6 +129,10 @@ def main() -> int:
     if args.intent:
         filtered_examples = [
             example for example in filtered_examples if example.type == args.intent
+        ]
+    if args.domain:
+        filtered_examples = [
+            example for example in filtered_examples if example.domain == args.domain
         ]
 
     # Test we actually have tests to run
