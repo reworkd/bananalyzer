@@ -13,6 +13,7 @@ python = "^3.11"
 playwright = "^1.39.0"
 pydantic = "^2.4.2"
 pytest-asyncio = "^0.21.1"
+deepdiff = "^6.7.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"

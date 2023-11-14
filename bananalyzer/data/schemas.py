@@ -1,7 +1,9 @@
+import json
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Literal, Optional, Union
 
 import pytest
+from deepdiff import DeepDiff
 from pydantic import BaseModel, Field, model_validator
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
@@ -39,9 +41,16 @@ class JSONEval(BaseModel):
         return True
 
     def eval_results(self, result: Dict[str, Any]) -> None:
-        if result != self.expected:
-            diff_msg = f"Expected: {self.expected}\nActual: {result}"
-            pytest.fail(f"JSONEval mismatch:\n{diff_msg}")
+        diff = DeepDiff(
+            self.expected, result, ignore_order=True, report_repetition=True
+        )
+        if diff:
+            # Pretty print both expected and actual results
+            pretty_expected = json.dumps(self.expected, indent=4)
+            pretty_actual = json.dumps(result, indent=4)
+
+            diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
+            pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
 
 
 class ActionEval(BaseModel):
