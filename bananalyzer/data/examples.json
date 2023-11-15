@@ -1105,6 +1105,15 @@
       {
         "type": "json_match",
         "expected": [
+          "https://www.catholichealthservices.org/location/st-anthonys-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-catherines-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-catherines-west-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-annes-nursing-center/",
+          "https://www.catholichealthservices.org/location/st-johns-nursing-center/",
+          "https://www.catholichealthservices.org/location/villa-maria-nursing-center/",
+          "https://www.catholichealthservices.org/location/villa-maria-west-skilled-nursing-facility/",
+          "https://www.catholichealthservices.org/location/st-joseph-residence/",
+          "https://www.catholichealthservices.org/location/st-annes-residence/",
           "https://www.catholichealthservices.org/location/home-health-services-of-miami-dade/",
           "https://www.catholichealthservices.org/location/home-health-services-of-broward/",
           "https://www.catholichealthservices.org/location/holy-cross-inpatient-care-center/",
