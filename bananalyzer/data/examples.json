@@ -2303,12 +2303,19 @@
         "evals": [
             {
                 "type": "json_match",
-                "expected": {}
+                "expected": {
+                    "name": "Brentwood Center Lab",
+                    "address": "350 John Muir Parkway Suite 160 Brentwood, CA, 94513",
+                    "phone": "(510) 204-1920",
+                    "fax": "(925) 513-1594",
+                    "type": null,
+                    "link": "https://www.sutterhealth.org/find-location/facility/brentwood-center-lab"
+                }
             }
         ]
     },
     {
-        "id": "b3608630-d001-4dde-aee7-b953293bba59",
+        "id": "bc7d1f13-811d-42a5-a3f7-49175675a54e",
         "url": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn",
         "source": "mhtml",
         "domain": "healthcare",
@@ -2318,13 +2325,20 @@
         "evals": [
             {
                 "type": "json_match",
-                "expected": {}
+                "expected": {
+                    "name": "A.B.W. St. Luke's Pediatrics - Bath",
+                    "address": "St. Luke's Health Center - Bath 6651 Silver Crest Road Suite 103 Bath, PA 18014",
+                    "phone": "484-526-7360",
+                    "fax": "833-822-5223",
+                    "type": null,
+                    "link": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn"
+                }
             }
         ]
     },
     {
-        "id": "46637802-f8eb-40a3-95f6-3838e5f59761",
-        "url": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn",
+        "id": "ca386162-ee75-485e-8f9d-13d488fc477a",
+        "url": "https://www.stlukesonline.org/communities-and-locations/facilities/clinics/st-lukes-clinic-lifestyle-medicine-twin-falls-addison-ave",
         "source": "mhtml",
         "domain": "healthcare",
         "subdomain": "contact",
@@ -2333,13 +2347,20 @@
         "evals": [
             {
                 "type": "json_match",
-                "expected": {}
+                "expected": {
+                    "name": "St. Luke's Clinic \u2013 Lifestyle Medicine: Twin Falls, Addison Ave.",
+                    "address": "2550 Addison Avenue E. Suite C Twin Falls, ID 83301",
+                    "phone": "(208) 814-7770",
+                    "fax": "(208) 814-7799",
+                    "type": null,
+                    "link": "https://www.stlukesonline.org/communities-and-locations/facilities/clinics/st-lukes-clinic-lifestyle-medicine-twin-falls-addison-ave"
+                }
             }
         ]
     },
     {
-        "id": "edda59c1-84bd-4a1f-a115-6296362d8d0e",
-        "url": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn",
+        "id": "c95632a7-31a8-4177-9361-d07bdd809a7a",
+        "url": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/",
         "source": "mhtml",
         "domain": "healthcare",
         "subdomain": "contact",
@@ -2348,7 +2369,36 @@
         "evals": [
             {
                 "type": "json_match",
-                "expected": {}
+                "expected": {
+                    "name": "St. Luke's Interventional Pain Management",
+                    "address": "St. Luke's Building A 1012 East Second Street 4th Floor Duluth, MN 55805",
+                    "phone": "218.249.7860",
+                    "fax": "218.249.6370",
+                    "type": null,
+                    "link": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/"
+                }
+            }
+        ]
+    },
+    {
+        "id": "a33c17c6-b2cd-433f-8972-09b969667866",
+        "url": "https://www.arnothealth.org/st-josephs-hospital",
+        "source": "mhtml",
+        "domain": "healthcare",
+        "subdomain": "contact",
+        "type": "fetch",
+        "fetch_id": "contact",
+        "evals": [
+            {
+                "type": "json_match",
+                "expected": {
+                    "name": "St. Joseph's Campus of Arnot Health",
+                    "address": "555 St. Joseph's Boulevard",
+                    "phone": "607-733-6541",
+                    "fax": null,
+                    "type": null,
+                    "link": "https://www.arnothealth.org/st-josephs-hospital"
+                }
             }
         ]
     }
