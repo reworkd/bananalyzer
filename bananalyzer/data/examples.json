@@ -761,7 +761,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -787,7 +787,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -830,7 +830,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -894,7 +894,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -913,7 +913,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -964,7 +964,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -987,7 +987,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1074,7 +1074,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1100,7 +1100,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1130,7 +1130,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1181,7 +1181,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1208,7 +1208,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1259,7 +1259,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1392,7 +1392,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1418,7 +1418,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1444,7 +1444,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
@@ -1524,7 +1524,7 @@
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
         "type": "json_match",
