@@ -1918,12 +1918,342 @@
       {
         "type": "json_match",
         "expected": {
-          "name": "Cardiac Catheterization Lab",
-          "address": "2451 University Hospital Dr. Mobile, AL 36617",
-          "phone": "(251) 471-7160",
-          "fax": "(251) 471-7019",
+          "name": "UofL Health - Hep C Center",
+          "address": "UofL Health - Jackson Street Outpatient Center 550 S. Jackson Street, 3rd Floor Louisville, KY 40202",
+          "phone": "502-561-5687",
+          "fax": null,
           "type": null,
-          "link": "https://www.usahealthsystem.com/locations/cardiac-catheterization-lab"
+          "link": "https://uoflhealth.org/locations/uofl-health-hep-c-center/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4d167753-d180-497d-8510-02ab26f3a0f7",
+    "url": "https://www.pennmedicine.org/for-patients-and-visitors/penn-medicine-locations/pennsylvania-hospital",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Pennsylvania Hospital",
+          "address": "800 Spruce Street Philadelphia, PA 19107",
+          "phone": "215-829-3000",
+          "fax": null,
+          "type": null,
+          "link": "https://www.pennmedicine.org/for-patients-and-visitors/penn-medicine-locations/pennsylvania-hospital"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d401233f-2d50-426f-bf77-004411a19d6d",
+    "url": "https://www.kansashealthsystem.com/locations/center-for-advanced-vascular-care-overland-park-ks",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Center for Advanced Vascular Care",
+          "address": "10700 Nall Avenue Level 3 Overland Park, KS 66211",
+          "phone": "913-588-1227",
+          "fax": null,
+          "type": null,
+          "link": "https://www.kansashealthsystem.com/locations/center-for-advanced-vascular-care-overland-park-ks"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e0ce7070-8cb3-416a-8090-7a6a186b4e8a",
+    "url": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-merrillville",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Comer Children's - Merrillville",
+          "address": "99 E. 86th Ave. Suite C Merrillville, IN 46410",
+          "phone": "773-702-6169",
+          "fax": null,
+          "type": null,
+          "link": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-merrillville"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e6067e2c-efd3-4ae4-a766-a1a846c678ad",
+    "url": "https://www.universityhealthkc.org/locations/university-health-oral-maxillofacial-surgery-clinic/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "University Health Oral and Maxillofacial Surgery Clinic",
+          "address": "2101 Charlotte Street Suite 350 Kansas City, MO, 64108",
+          "phone": "816.404.0500",
+          "fax": "816.404.9901",
+          "type": null,
+          "link": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-merrillville"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ede570fd-c859-47bc-8432-7d0e7a25139e",
+    "url": "https://www.unitypoint.org/locations/allen-womens-health",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Allen Women's Health",
+          "address": "233 Vold Drive Waterloo, IA 50703",
+          "phone": "319-235-5090",
+          "fax": null,
+          "type": null,
+          "link": "https://www.unitypoint.org/locations/allen-womens-health"
+        }
+      }
+    ]
+  },
+  {
+    "id": "238f430b-824a-46e9-8f2e-5fa08176a0e0",
+    "url": "https://www.nyuhs.org/location-search/adult-community-free-clinic-uhs-primary-care-binghamton",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Adult Community Free Clinic at UHS Primary Care Binghamton",
+          "address": "33 Mitchell Ave. Suite 102 Binghamton, NY 13903",
+          "phone": "607-762-3281",
+          "fax": "607-762-3295",
+          "type": null,
+          "link": "https://www.nyuhs.org/location-search/adult-community-free-clinic-uhs-primary-care-binghamton"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d0f2dd50-db96-475a-ae1f-57acba811fae",
+    "url": "https://uniongeneralhealthsystem.com/facility/hayesville-family-practice/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Hayesville Family Practice",
+          "address": "506 NC-69 Hayesville, NC 28904",
+          "phone": "828-389-2273",
+          "fax": "828-389-8291",
+          "type": null,
+          "link": "https://uniongeneralhealthsystem.com/facility/hayesville-family-practice/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ef217309-7c87-45f9-931c-fc662d55646a",
+    "url": "https://www.uabmedicine.org/locations/gardendale-primary-care/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Gardendale Primary Care",
+          "address": "960 Rocket Way Gardendale, AL 35071",
+          "phone": "205.631.3452",
+          "fax": null,
+          "type": null,
+          "link": "https://www.uabmedicine.org/locations/gardendale-primary-care/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6088d589-a01d-4360-a3e5-c22e7a9baed4",
+    "url": "https://towerhealth.org/locations/st-christophers-pediatric-associates-registered-dieticians",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Christopher's Pediatric Associates - Registered Dieticians",
+          "address": "100 Kings Way E Ste C Sewell, NJ 08080-2238",
+          "phone": "(856)582-0644",
+          "fax": "(856)582-0622",
+          "type": null,
+          "link": "https://towerhealth.org/locations/st-christophers-pediatric-associates-registered-dieticians"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0de6f7ca-3eba-45d9-990d-3255955c38e6",
+    "url": "https://www.tidelandshealth.org/locations/profile/myrtlebeachfamilymed/?searchId=bf5cebce-5983-ee11-a860-000d3a611816&sort=11&page=5&pageSize=10",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Tidelands Health Family Medicine at Myrtle Beach",
+          "address": "4301 Dick Pond Road Myrtle Beach, SC 29588",
+          "phone": "843-652-8100",
+          "fax": "843-652-8122",
+          "type": null,
+          "link": "https://www.tidelandshealth.org/locations/profile/myrtlebeachfamilymed/?searchId=bf5cebce-5983-ee11-a860-000d3a611816&sort=11&page=5&pageSize=10"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4cd7de7b-5cf9-48aa-b1c9-be1858eb0a26",
+    "url": "https://www.sutterhealth.org/find-location/facility/brentwood-center-lab",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Brentwood Center Lab",
+          "address": "350 John Muir Parkway Suite 160 Brentwood, CA, 94513",
+          "phone": "(510) 204-1920",
+          "fax": "(925) 513-1594",
+          "type": null,
+          "link": "https://www.sutterhealth.org/find-location/facility/brentwood-center-lab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bc7d1f13-811d-42a5-a3f7-49175675a54e",
+    "url": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "A.B.W. St. Luke's Pediatrics - Bath",
+          "address": "St. Luke's Health Center - Bath 6651 Silver Crest Road Suite 103 Bath, PA 18014",
+          "phone": "484-526-7360",
+          "fax": "833-822-5223",
+          "type": null,
+          "link": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ca386162-ee75-485e-8f9d-13d488fc477a",
+    "url": "https://www.stlukesonline.org/communities-and-locations/facilities/clinics/st-lukes-clinic-lifestyle-medicine-twin-falls-addison-ave",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Luke's Clinic \u2013 Lifestyle Medicine: Twin Falls, Addison Ave.",
+          "address": "2550 Addison Avenue E. Suite C Twin Falls, ID 83301",
+          "phone": "(208) 814-7770",
+          "fax": "(208) 814-7799",
+          "type": null,
+          "link": "https://www.stlukesonline.org/communities-and-locations/facilities/clinics/st-lukes-clinic-lifestyle-medicine-twin-falls-addison-ave"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c95632a7-31a8-4177-9361-d07bdd809a7a",
+    "url": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Luke's Interventional Pain Management",
+          "address": "St. Luke's Building A 1012 East Second Street 4th Floor Duluth, MN 55805",
+          "phone": "218.249.7860",
+          "fax": "218.249.6370",
+          "type": null,
+          "link": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a33c17c6-b2cd-433f-8972-09b969667866",
+    "url": "https://www.arnothealth.org/st-josephs-hospital",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Joseph's Campus of Arnot Health",
+          "address": "555 St. Joseph's Boulevard",
+          "phone": "607-733-6541",
+          "fax": null,
+          "type": null,
+          "link": "https://www.arnothealth.org/st-josephs-hospital"
         }
       }
     ]
