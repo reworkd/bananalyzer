@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 
 from pydantic import BaseModel, Field
 
@@ -16,4 +16,5 @@ class Args(BaseModel):
     id: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)
+    skip: List[str]
     pytest_args: PytestArgs

@@ -79,6 +79,13 @@ def parse_args() -> Args:
         default=None,
         help="Number of test workers to use. The default is 1",
     )
+    parser.add_argument(
+        "-skip",
+        "--skip",
+        type=lambda s: s.split(","),
+        default=[],
+        help="A list of ids to skip tests on, separated by commas",
+    )
 
     args = parser.parse_args()
 
@@ -92,6 +99,7 @@ def parse_args() -> Args:
         intent=args.intent,
         id=args.id,
         domain=args.domain,
+        skip=args.skip,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -150,6 +158,10 @@ def main() -> int:
     if args.domain:
         filtered_examples = [
             example for example in filtered_examples if example.domain == args.domain
+        ]
+    if args.skip:
+        filtered_examples = [
+            example for example in filtered_examples if example.id not in args.skip
         ]
 
     # Test we actually have tests to run
