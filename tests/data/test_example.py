@@ -5,18 +5,31 @@ from _pytest.outcomes import Failed
 from pydantic import ValidationError
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
-from bananalyzer.data.schemas import Example, JSONEval
+from bananalyzer.data.schemas import Eval, Example
 
 
-def test_json_eval() -> None:
+def test_json_eval(mocker: Any) -> None:
+    page = mocker.Mock()
     json = {"one": "one", "two": "two"}
 
-    eval = JSONEval(expected=json)
+    evaluation = Eval(type="json_match", expected=json)
 
-    eval.eval_results(json)
-    eval.eval_results({"two": "two", "one": "one"})
+    evaluation.eval_results(page, json)
+    evaluation.eval_results(page, {"two": "two", "one": "one"})
     with pytest.raises(Failed):
-        eval.eval_results({"test": "test"})
+        evaluation.eval_results(page, {"test": "test"})
+
+
+def test_url_eval(mocker: Any) -> None:
+    expected_url = "https://www.test.com"
+    page = mocker.Mock()
+    page.url = expected_url
+
+    Eval(type="end_url_match", expected=expected_url).eval_results(page, {})
+    with pytest.raises(Failed):
+        Eval(
+            type="end_url_match", expected="https://www.failure_case.com"
+        ).eval_results(page, {})
 
 
 def create_default_example(

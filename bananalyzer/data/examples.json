@@ -2261,14 +2261,14 @@
   {
     "id": "cb25b8d2-1ac6-43d5-930f-70edeccf34f9",
     "url": "https://www.hackensackmeridianhealth.org/en/location-search#sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.hackensackmeridianhealth.org/en/location-search#first=10&sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]"
       }
     ]
@@ -2276,14 +2276,14 @@
   {
     "id": "2ac79ff2-a923-49df-9e66-5ce7f9d5d0e4",
     "url": "https://www.uchicagomedicine.org/find-a-location?page=5&sortby=default",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.uchicagomedicine.org/find-a-location?page=6&sortby=default"
       }
     ]
@@ -2291,14 +2291,14 @@
   {
     "id": "d76159ad-f62a-49e1-9896-df5ef91dcb5f",
     "url": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=5",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=7"
       }
     ]
@@ -2306,14 +2306,14 @@
   {
     "id": "17c411ab-5586-4cd7-940c-514959796b4f",
     "url": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=4",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=6"
       }
     ]
@@ -2321,14 +2321,14 @@
   {
     "id": "6d85220a-b86e-4b85-96c8-0fb94447cf29",
     "url": "https://www.baptistfirst.org/find-a-location/?page=4&count=10",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.baptistfirst.org/find-a-location/?page=6&count=10"
       }
     ]
@@ -2336,14 +2336,14 @@
   {
     "id": "6b9054b1-c67c-46cc-bd67-7dfd29a9ebf1",
     "url": "https://www.mhs.net/locations?listPage=2",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.mhs.net/locations?listPage=4"
       }
     ]
@@ -2351,14 +2351,14 @@
   {
     "id": "a316a94d-7ad6-4385-a2e0-4b47e1f1a661",
     "url": "https://whs.org/locations-practices/search-results/",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://whs.org/locations-practices/search-results/?sf_paged=3"
       }
     ]
@@ -2366,14 +2366,14 @@
   {
     "id": "8fc4b97d-f823-4c31-b50f-ad42671fe2b1",
     "url": "https://www.shrinerschildrens.org/en/locations?listPage=1",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.shrinerschildrens.org/en/locations?listPage=4"
       }
     ]
@@ -2381,14 +2381,14 @@
   {
     "id": "b572a5e4-717b-41ab-86e3-ec41cac368b3",
     "url": "https://www.sih.net/locations?page=1&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.sih.net/locations?page=4&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list"
       }
     ]
@@ -2396,14 +2396,14 @@
   {
     "id": "b2a98bed-bce2-404a-9b6b-ff27d28a6c1f",
     "url": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=54&count=9",
-    "source": "url",
+    "source": "hosted",
     "domain": "healthcare",
     "subdomain": "contact",
     "type": "navigate",
     "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
     "evals": [
       {
-        "type": "url_eval",
+        "type": "end_url_match",
         "expected": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=58&count=9"
       }
     ]

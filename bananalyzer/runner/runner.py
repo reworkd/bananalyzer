@@ -29,7 +29,7 @@ async def test_{example.id.replace("-", "_")}() -> None:
         # The agent is imported into the global context prior to this call 
         result = await agent.run(context, example)
         for curr_eval in example.evals:
-            curr_eval.eval_results(result)
+            curr_eval.eval_results(p, result)
 """,
         example=example,
     )
