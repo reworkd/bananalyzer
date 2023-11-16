@@ -12,7 +12,7 @@ from bananalyzer.data.examples import examples
 from bananalyzer.data.schemas import GoalType
 from bananalyzer.runner.agent_runner import AgentRunner
 from bananalyzer.runner.runner import generate_test, run_tests
-from bananalyzer.schema import Args
+from bananalyzer.schema import Args, PytestArgs
 
 
 def print_intro() -> None:
@@ -72,6 +72,13 @@ def parse_args() -> Args:
         default=None,
         help="Filter tests by a particular domain",
     )
+    parser.add_argument(
+        "-n",
+        "--n",
+        type=str,
+        default=None,
+        help="Number of test workers to use. The default is 1",
+    )
 
     args = parser.parse_args()
 
@@ -85,7 +92,10 @@ def parse_args() -> Args:
         intent=args.intent,
         id=args.id,
         domain=args.domain,
-        s=args.s,
+        pytest_args=PytestArgs(
+            s=args.s,
+            n=args.n,
+        ),
     )
 
 
@@ -154,7 +164,7 @@ def main() -> int:
     tests = [generate_test(example, args.headless) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, args.path, args.s)
+    return run_tests(tests, args.path, args.pytest_args)
 
 
 if __name__ == "__main__":

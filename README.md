@@ -83,6 +83,7 @@ class NullAgentRunner(AgentRunner):
 - `-id` or `--id`: Run a specific test by id
 - `-i` or `--intent`: Only run tests of a particular intent (fetch, links, etc)
 - `-d` or `--domain`: Only run tests of a particular domain (healthcare, manufacturing, software, etc)
+- `-n` or `--n`: Number of test workers to use. The default is 1
 
 ### Contributing
 #### Running the server
