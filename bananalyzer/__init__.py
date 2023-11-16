@@ -46,6 +46,12 @@ def parse_args() -> Args:
         "--headless", action="store_true", help=f"Whether to run headless or not"
     )
     parser.add_argument(
+        "-s",
+        "--s",
+        action="store_true",
+        help="Shortcut for --capture=no in pytest. Will print stdout and stderr",
+    )
+    parser.add_argument(
         "-id",
         "--id",
         type=str,
@@ -79,6 +85,7 @@ def parse_args() -> Args:
         intent=args.intent,
         id=args.id,
         domain=args.domain,
+        s=args.s,
     )
 
 
@@ -147,7 +154,7 @@ def main() -> int:
     tests = [generate_test(example, args.headless) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, args.path)
+    return run_tests(tests, args.path, args.s)
 
 
 if __name__ == "__main__":
