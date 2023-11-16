@@ -1,68 +1,92 @@
 """
 Mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
 """
+
+from pydantic import BaseModel, Field
+
 fetch_goals = {
     "job_posting": "Return the provided information about the job posting. For salaries, provide the range as ${lower} - ${upper} if available, otherwise just provide ${salary}",
 }
 
-fetch_schemas = {
-    "contact": {
-        "name": "string",
-        "website": "string",
-        "phone": "string",
-        "fax": "string",
-        "address": "string",
-        "type": "string",  # What kind of location / person is it? May not be available
-    },
-    "job_posting": {
-        "job_id": "string",
-        "job_title": "string",
-        "job_category": "string",
-        "date_posted": "string",
-        "location": "string",
-        "job_description": "string",
-        "roles_and_responsibilities": "string",
-        "qualifications": "string",
-        "preferred_qualifications": "string",
-        "benefits": "string",
-        "salary": "string",
-    },
-    "manufacturing_commerce": {
-        "mpn": "string",
-        "alias_mpns": ["string"],
-        "manufacturer": "string",
-        "classifications": ["string"],
-        "description": "string",
-        "hero_image": "string",
-        "series": "string",
-        "lifecycle_status": "string",
-        "country_of_origin": "string",
-        "aecq_status": "string",
-        "reach_status": "string",
-        "rohs_status": "string",
-        "export_control_class_number": "string",
-        "packaging": "string",
-        "power_rating": "string",
-        "voltage_rating": "string",
-        "mount_type": "string",
-        "moisture_sensitivity_level": "string",
-        "tolerance": "string",
-        "inductance": "string",
-        "capacitance": "string",
-        "resistance": "string",
-        "min_operating_temperature": "string",
-        "max_operating_temperature": "string",
-        "leadfree": "string",
-        "termination_type": "string",
-        "num_terminations": "int",
-        "specs": [{"label": "string", "value": "string"}],
-        "product_change_notification_documents": [
-            {"url": "string", "filename": "string"}
-        ],
-        "reach_compliance_documents": [{"url": "string", "filename": "string"}],
-        "rohs_compliance_documents": [{"url": "string", "filename": "string"}],
-        "datasheets": [{"url": "string", "filename": "string"}],
-        "specsheets": [{"url": "string", "filename": "string"}],
-        "suggested_alternative_mpns": ["string"],
-    },
-}
+
+class ContactSchema(BaseModel):
+    name: str
+    website: str = Field(description="An external link to the website")
+    phone: str
+    fax: str = Field(description="Fax number")
+    address: str
+    type: str = Field(description="The type of clinic the location")
+
+
+class JobPostingSchema(BaseModel):
+    job_id: str
+    job_title: str
+    job_category: str
+    date_posted: str
+    location: str
+    job_description: str
+    roles_and_responsibilities: str
+    qualifications: str
+    preferred_qualifications: str
+    benefits: str
+    salary: str
+
+
+class Specification(BaseModel):
+    label: str
+    value: str
+
+
+class Document(BaseModel):
+    url: str
+    filename: str
+
+
+class ManufacturingCommerceSchema(BaseModel):
+    mpn: str
+    alias_mpns: list[str] = Field(description="Other MPNs that this part is known by")
+    manufacturer: str
+    classifications: list[str]
+    description: str
+    hero_image: str
+    series: str
+    lifecycle_status: str
+    country_of_origin: str
+    aecq_status: str
+    reach_status: str
+    rohs_status: str
+    export_control_class_number: str
+    packaging: str
+    power_rating: str
+    voltage_rating: str
+    mount_type: str
+    moisture_sensitivity_level: str
+    tolerance: str
+    inductance: str
+    capacitance: str
+    resistance: str
+    min_operating_temperature: str
+    max_operating_temperature: str
+    leadfree: str
+    termination_type: str
+    num_terminations: int
+    specs: list[Specification]
+    product_change_notification_documents: list[Document]
+    reach_compliance_documents: list[Document]
+    rohs_compliance_documents: list[Document]
+    datasheets: list[Document]
+    specsheets: list[Document]
+    suggested_alternative_mpns: list[str]
+
+
+def get_fetch_schema(fetch_id: str) -> BaseModel:
+    fetch_schemas = {
+        "contact": ContactSchema,
+        "job_posting": JobPostingSchema,
+        "manufacturing_commerce": ManufacturingCommerceSchema,
+    }
+
+    if fetch_id not in fetch_schemas:
+        raise ValueError(f"Invalid fetch_id: {fetch_id}")
+
+    return fetch_schemas[fetch_id]

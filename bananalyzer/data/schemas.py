@@ -6,7 +6,7 @@ import pytest
 from deepdiff import DeepDiff
 from pydantic import BaseModel, Field, model_validator
 
-from bananalyzer.data.fetch_schemas import fetch_schemas
+from bananalyzer.data.fetch_schemas import get_fetch_schema
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
@@ -98,5 +98,5 @@ class Example(BaseModel):
         if goal is not None:
             raise ValueError("goal must not be provided if fetch_id is provided")
 
-        values["goal"] = fetch_schemas[fetch_id]
+        values["goal"] = get_fetch_schema(fetch_id).model_json_schema()
         return values
