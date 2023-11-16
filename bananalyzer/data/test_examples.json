@@ -1,0 +1,372 @@
+[
+  {
+    "id": "83e3aff0-8447-4c67-9d4c-18ce8954585a",
+    "url": "https://www.mmchs.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "db2c9d7a-7c76-441a-a21b-c2bfe200407d",
+    "url": "https://www.mhsystem.org/ourlocations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "65e9b04a-7833-43f3-877d-ae27a02eed70",
+    "url": "https://www.mhs.net/locations?listPage=1",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "c6bee4be-3394-4867-b5a8-52d6e9901e62",
+    "url": "https://www.memorialcare.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "135502cc-bdaf-4f36-a2d5-4023a331aa6a",
+    "url": "https://www.mercy.net/search/location/?q=&locationType=&locationOfferings=&servicesOffered=&solrsort=&distance=25&page=1",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "36601c8a-255c-4f64-b723-3694d1c9dcc1",
+    "url": "https://www.methodisthealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "073862e2-e519-42cb-8cb0-d9e419a33a1b",
+    "url": "https://www.mymichigan.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "953ff6ad-d115-499f-9e51-bed7b638ad41",
+    "url": "https://www.duncanregional.com/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "08ca1fdd-a20e-4662-bbf1-58eedd4110a0",
+    "url": "https://lifepointhealth.net/duke-lifepoint-healthcare-partnership",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "5cc195cf-ac77-46ef-a9ac-f96887c8a50f",
+    "url": "https://www.dukehealth.org/locations?sc=30&view=list",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "e6067e2c-efd3-4ae4-a766-a1a846c678ad",
+    "url": "https://www.universityhealthkc.org/locations/university-health-oral-maxillofacial-surgery-clinic/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "University Health Oral and Maxillofacial Surgery Clinic",
+          "address": "2101 Charlotte Street Suite 350 Kansas City, MO, 64108",
+          "phone": "816.404.0500",
+          "fax": "816.404.9901",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ede570fd-c859-47bc-8432-7d0e7a25139e",
+    "url": "https://www.unitypoint.org/locations/allen-womens-health",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Allen Women's Health",
+          "address": "233 Vold Drive Waterloo, IA 50703",
+          "phone": "319-235-5090",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "238f430b-824a-46e9-8f2e-5fa08176a0e0",
+    "url": "https://www.nyuhs.org/location-search/adult-community-free-clinic-uhs-primary-care-binghamton",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Adult Community Free Clinic at UHS Primary Care Binghamton",
+          "address": "33 Mitchell Ave. Suite 102 Binghamton, NY 13903",
+          "phone": "607-762-3281",
+          "fax": "607-762-3295",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "d0f2dd50-db96-475a-ae1f-57acba811fae",
+    "url": "https://uniongeneralhealthsystem.com/facility/hayesville-family-practice/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Hayesville Family Practice",
+          "address": "506 NC-69 Hayesville, NC 28904",
+          "phone": "828-389-2273",
+          "fax": "828-389-8291",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ef217309-7c87-45f9-931c-fc662d55646a",
+    "url": "https://www.uabmedicine.org/locations/gardendale-primary-care/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Gardendale Primary Care",
+          "address": "960 Rocket Way Gardendale, AL 35071",
+          "phone": "205.631.3452",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "6088d589-a01d-4360-a3e5-c22e7a9baed4",
+    "url": "https://towerhealth.org/locations/st-christophers-pediatric-associates-registered-dieticians",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Christopher's Pediatric Associates - Registered Dieticians",
+          "address": "100 Kings Way E Ste C Sewell, NJ 08080-2238",
+          "phone": "(856)582-0644",
+          "fax": "(856)582-0622",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "0de6f7ca-3eba-45d9-990d-3255955c38e6",
+    "url": "https://www.tidelandshealth.org/locations/profile/myrtlebeachfamilymed/?searchId=bf5cebce-5983-ee11-a860-000d3a611816&sort=11&page=5&pageSize=10",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Tidelands Health Family Medicine at Myrtle Beach",
+          "address": "4301 Dick Pond Road Myrtle Beach, SC 29588",
+          "phone": "843-652-8100",
+          "fax": "843-652-8122",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "4cd7de7b-5cf9-48aa-b1c9-be1858eb0a26",
+    "url": "https://www.sutterhealth.org/find-location/facility/brentwood-center-lab",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Brentwood Center Lab",
+          "address": "350 John Muir Parkway Suite 160 Brentwood, CA, 94513",
+          "phone": "(510) 204-1920",
+          "fax": "(925) 513-1594",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "bc7d1f13-811d-42a5-a3f7-49175675a54e",
+    "url": "https://findalocation.slhn.org/practice/details/11251?theme=dir_sluhn",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "A.B.W. St. Luke's Pediatrics - Bath",
+          "address": "St. Luke's Health Center - Bath 6651 Silver Crest Road Suite 103 Bath, PA 18014",
+          "phone": "484-526-7360",
+          "fax": "833-822-5223",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ca386162-ee75-485e-8f9d-13d488fc477a",
+    "url": "https://www.stlukesonline.org/communities-and-locations/facilities/clinics/st-lukes-clinic-lifestyle-medicine-twin-falls-addison-ave",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Luke's Clinic \u2013 Lifestyle Medicine: Twin Falls, Addison Ave.",
+          "address": "2550 Addison Avenue E. Suite C Twin Falls, ID 83301",
+          "phone": "(208) 814-7770",
+          "fax": "(208) 814-7799",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  }
+]

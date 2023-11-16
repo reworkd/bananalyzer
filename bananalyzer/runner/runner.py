@@ -7,6 +7,7 @@ import pytest
 from pydantic import BaseModel
 
 from bananalyzer.data.schemas import Example
+from bananalyzer.schema import PytestArgs
 
 TestType = Callable[[], Awaitable[None]]
 
@@ -76,7 +77,7 @@ def create_test_file(
 
 
 def run_tests(
-    tests: List[BananalyzerTest], agent_file_path: str, no_capture: bool
+    tests: List[BananalyzerTest], agent_file_path: str, pytest_args: PytestArgs
 ) -> int:
     """
     Create temporary test files based on intent, run them, and then delete them
@@ -91,7 +92,12 @@ def run_tests(
     ]
 
     try:
-        return_code = pytest.main(test_file_names + (["-s"] if no_capture else []))
+        args = (
+            test_file_names
+            + (["-s"] if pytest_args.s else [])
+            + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
+        )
+        return_code = pytest.main(args)
     finally:
         for test_file_name in test_file_names:
             os.unlink(test_file_name)

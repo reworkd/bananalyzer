@@ -1,8 +1,13 @@
-from typing import Optional
+from typing import Optional, List
 
 from pydantic import BaseModel, Field
 
-from bananalyzer import GoalType
+from bananalyzer.data.schemas import GoalType
+
+
+class PytestArgs(BaseModel):
+    s: bool
+    n: Optional[int]
 
 
 class Args(BaseModel):
@@ -11,4 +16,5 @@ class Args(BaseModel):
     id: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)
-    s: bool
+    skip: List[str]
+    pytest_args: PytestArgs
