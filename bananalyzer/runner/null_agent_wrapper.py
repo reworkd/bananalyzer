@@ -17,6 +17,8 @@ class NullAgentRunner(AgentRunner):
         example: Example,
     ) -> AgentResult:
         page = await context.new_page()
+        print(f"Testing {example.get_static_url()}")
         await page.goto(example.get_static_url())
         await asyncio.sleep(0.5)
+        print(f"Done testing {example.get_static_url()}")
         return example.evals[0].expected  # type: ignore

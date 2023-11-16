@@ -75,7 +75,9 @@ def create_test_file(
     return f.name
 
 
-def run_tests(tests: List[BananalyzerTest], agent_file_path: str) -> int:
+def run_tests(
+    tests: List[BananalyzerTest], agent_file_path: str, no_capture: bool
+) -> int:
     """
     Create temporary test files based on intent, run them, and then delete them
     """
@@ -89,7 +91,7 @@ def run_tests(tests: List[BananalyzerTest], agent_file_path: str) -> int:
     ]
 
     try:
-        return_code = pytest.main(test_file_names)
+        return_code = pytest.main(test_file_names + (["-s"] if no_capture else []))
     finally:
         for test_file_name in test_file_names:
             os.unlink(test_file_name)
