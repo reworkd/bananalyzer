@@ -4,7 +4,7 @@ from typing import Any, List
 
 from playwright.async_api import async_playwright
 
-from bananalyzer import examples
+from bananalyzer import training_examples, test_examples
 from bananalyzer.data.schemas import Example
 
 """
@@ -47,5 +47,5 @@ async def setup_and_save(examples: List[Example]) -> None:
 
 
 if __name__ == "__main__":
-    print(examples)
-    asyncio.run(setup_and_save(examples))
+    print(training_examples + test_examples)
+    asyncio.run(setup_and_save(training_examples + test_examples))

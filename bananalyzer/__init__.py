@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from bananalyzer.data.examples import examples
+from bananalyzer.data.examples import training_examples, test_examples
 from bananalyzer.data.schemas import GoalType
 from bananalyzer.runner.agent_runner import AgentRunner
 from bananalyzer.runner.runner import generate_test, run_tests
@@ -86,6 +86,12 @@ def parse_args() -> Args:
         default=[],
         help="A list of ids to skip tests on, separated by commas",
     )
+    parser.add_argument(
+        "-t",
+        "--test",
+        action="store_true",
+        help="Use test set examples instead of training set examples",
+    )
 
     args = parser.parse_args()
 
@@ -100,6 +106,7 @@ def parse_args() -> Args:
         id=args.id,
         domain=args.domain,
         skip=args.skip,
+        test=args.test,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -146,7 +153,7 @@ def main() -> int:
     validate_agent_instance_available(agent)
 
     # Filter examples based on args
-    filtered_examples = examples[:]
+    filtered_examples = test_examples[:] if args.test else training_examples[:]
     if args.id:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id

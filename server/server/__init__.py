@@ -4,7 +4,11 @@ from typing import List, Union
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from bananalyzer.data.examples import examples, get_all_example_urls, get_example_by_url
+from bananalyzer.data.examples import (
+    training_examples,
+    get_all_example_urls,
+    get_example_by_url,
+)
 from bananalyzer.data.schemas import Example, GoalType
 from bananalyzer.runner.website_responder import get_website_responder
 
@@ -29,9 +33,9 @@ class ExampleMeta(BaseModel):
 @app.get("/examples")
 def fetch_all_examples() -> ExampleMeta:
     return ExampleMeta(
-        count=len(examples),
-        goal_types=list(set([example.type for example in examples])),
-        examples=examples,
+        count=len(training_examples),
+        goal_types=list(set([example.type for example in training_examples])),
+        examples=training_examples,
     )
 
 

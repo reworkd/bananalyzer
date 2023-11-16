@@ -85,6 +85,7 @@ class NullAgentRunner(AgentRunner):
 - `-d` or `--domain`: Only run tests of a particular domain (healthcare, manufacturing, software, etc)
 - `-n` or `--n`: Number of test workers to use. The default is 1
 - `-skip` or `--skip`: A list of ids to skip tests on, separated by commas
+- `-t` or `--test`: Run against the test set
 
 ### Contributing
 #### Running the server
