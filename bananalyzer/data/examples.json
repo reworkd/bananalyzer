@@ -2755,6 +2755,21 @@
     ]
   },
   {
+    "id": "8fc4b97d-f823-4c31-b50f-ad42671fe2b1",
+    "url": "https://www.shrinerschildrens.org/en/locations?listPage=1",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.shrinerschildrens.org/en/locations?listPage=4"
+      }
+    ]
+  },
+  {
     "id": "b572a5e4-717b-41ab-86e3-ec41cac368b3",
     "url": "https://www.sih.net/locations?page=1&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list",
     "source": "hosted",

@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Union
 
-from playwright.async_api import Page
+from playwright.async_api import BrowserContext
 
 from bananalyzer.data.schemas import Example
 
-AgentResult = Union[Dict[str, Any], List[Dict[str, Any]], List[str], str]
+AgentResult = Union[Dict[str, Any], List[Dict[str, Any]], str]
 
 
 class AgentRunner(ABC):
@@ -16,7 +16,7 @@ class AgentRunner(ABC):
     @abstractmethod
     async def run(
         self,
-        page: Page,
+        browser_context: BrowserContext,
         eval_context: Example,
     ) -> AgentResult:
         pass

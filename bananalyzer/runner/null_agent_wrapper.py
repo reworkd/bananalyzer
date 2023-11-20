@@ -1,6 +1,6 @@
 import asyncio
 
-from playwright.async_api import Page
+from playwright.async_api import BrowserContext
 
 from bananalyzer.data.schemas import Example
 from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
@@ -13,16 +13,12 @@ class NullAgentRunner(AgentRunner):
 
     async def run(
         self,
-        page: Page,
+        context: BrowserContext,
         example: Example,
     ) -> AgentResult:
+        page = await context.new_page()
         print(f"Testing {example.get_static_url()}")
         await page.goto(example.get_static_url())
         await asyncio.sleep(0.5)
         print(f"Done testing {example.get_static_url()}")
-
-        # Ensure page is correct
-        if example.evals[0].type == "end_url_match":
-            await page.goto(example.evals[0].expected)
-
-        return example.evals[0].expected
+        return example.evals[0].expected  # type: ignore
