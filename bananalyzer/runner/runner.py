@@ -5,8 +5,8 @@ from typing import IO, Awaitable, Callable, List
 
 import pytest
 from pydantic import BaseModel
+from static import Example
 
-from bananalyzer.data.schemas import Example
 from bananalyzer.schema import PytestArgs
 
 TestType = Callable[[], Awaitable[None]]

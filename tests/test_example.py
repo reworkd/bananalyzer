@@ -3,9 +3,9 @@ from typing import Any, Dict, Optional
 import pytest
 from _pytest.outcomes import Failed
 from pydantic import ValidationError
+from static import Eval, Example
 
-from bananalyzer.data.fetch_schemas import fetch_schemas
-from bananalyzer.data.schemas import Eval, Example
+from bananalyzer.data import fetch_schemas
 
 
 def test_json_eval(mocker: Any) -> None:

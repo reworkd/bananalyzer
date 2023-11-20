@@ -2,8 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Union
 
 from playwright.async_api import Page
-
-from bananalyzer.data.schemas import Example
+from static import Example
 
 AgentResult = Union[Dict[str, Any], List[Dict[str, Any]], List[str], str]
 
