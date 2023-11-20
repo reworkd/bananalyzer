@@ -24,3 +24,4 @@ class Args(BaseModel):
 class AgentRunnerClass(BaseModel):
     class_name: str
     class_path: str
+    class_def: ast.ClassDef

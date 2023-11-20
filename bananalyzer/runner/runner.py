@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 import pytest
 from pydantic import BaseModel
 
+from bananalyzer import AgentRunner
 from bananalyzer.data.schemas import Example
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
 
@@ -25,26 +26,17 @@ class TestGenerator:
     def generate_test(self, example: Example, headless: bool) -> BananalyzerTest:
         return BananalyzerTest(
             code=f"""
-import pytest_asyncio
-
-@pytest_asyncio.fixture
 @pytest.mark.asyncio
-async def context() -> None:
-    async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=False)
+async def {self._generate_name(example)}() -> None:
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless={headless})
         context = await browser.new_context()
-        yield context
-        await browser.close()
+        example = get_example_by_url("{example.url}")
 
-@pytest.mark.asyncio
-@pytest.mark.parametrize("context", [context], indirect=True)
-async def {self._generate_name(example)}(context) -> None:
-    example = get_example_by_url("{example.url}")
-
-    # The agent is imported into the global context prior to this call
-    result = await agent.run(context, example)
-    for curr_eval in example.evals:
-        curr_eval.eval_results(None, result)
+        # The agent is imported into the global context prior to this call
+        result = await agent.run(context, example)
+        for curr_eval in example.evals:
+            curr_eval.eval_results(p, result)
     """,
             example=example,
         )
