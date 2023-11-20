@@ -17,4 +17,5 @@ class Args(BaseModel):
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)
     skip: List[str]
+    type: Optional[str] = Field(default=None)
     pytest_args: PytestArgs

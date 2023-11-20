@@ -19,40 +19,63 @@
 ----
 
 # Banana-lyzer
+
 ### Introduction
-Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright (And has a banana theme because why not).
+
+Banana-lyzer is an open source AI Agent evaluation framework and dataset for **web tasks** with Playwright (And has a
+banana theme because why not).
 We've created our own evals repo because:
+
 - Websites change overtime, are affected by latency, and may have anti bot protections.
-- We need a system that can reliably save and deploy historic/static snapshots of websites.  
-- Standard web practices are loose and there is an abundance of different underlying ways to represent a single individual website. For an agent to best generalize, we require building a diverse dataset of websites across industries and use-cases.
-- We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval across websites.  
-- There exists valuable web task datasets and evaluations that we'd like to unify in a single repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
+- We need a system that can reliably save and deploy historic/static snapshots of websites.
+- Standard web practices are loose and there is an abundance of different underlying ways to represent a single
+  individual website. For an agent to best generalize, we require building a diverse dataset of websites across
+  industries and use-cases.
+- We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval
+  across websites.
+- There exists valuable web task datasets and evaluations that we'd like to unify in a single
+  repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
 
 https://github.com/reworkd/bananalyzer/assets/50181239/4587615c-a5b4-472d-bca9-334594130af1
 
 ### How does it work?
+
 ⚠️ Note that this repo is a work in progress. ⚠️
 
 Banana-lyzer is a CLI tool that runs a set of evaluations against a set of example websites.
-The examples are defined in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/examples.json) using a schema similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted from the page. 
+The examples are defined
+in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/examples.json) using a schema
+similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples
+store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure
+the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted
+from the page.
 
-The CLI tool will sequentially run examples against a user defined agent by dynamically constructing a pytest test suite and executing it.
-As a user, you simply create a file that implements the `AgentRunner` interface and defines an instance of your AgentRunner in a variable called "agent".
-AgentRunner exposes the example, and a playwright browser context to use.  
+The CLI tool will sequentially run examples against a user defined agent by dynamically constructing a pytest test suite
+and executing it.
+As a user, you simply create a file that implements the `AgentRunner` interface and defines an instance of your
+AgentRunner in a variable called "agent".
+AgentRunner exposes the example, and a playwright browser context to use.
 
-In the future we will support more complex evaluation methods and examples that require multiple steps to complete. The plan is to translate existing datasets like Mind2Web and WebArena into this format.
-
+In the future we will support more complex evaluation methods and examples that require multiple steps to complete. The
+plan is to translate existing datasets like Mind2Web and WebArena into this format.
 
 ### Test intents
-We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType` enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
+
+We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType`
+enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
 
 - **fetch**: The agent must retrieve specific JSON information from the page. This is the most common test type.
-- **links**: The agent must scrape all detail page links from a page. The agent must click a specific element on the page.
+- **links**: The agent must scrape all detail page links from a page. The agent must click a specific element on the
+  page.
 
 # Getting Started
+
 ### Local testing installation
+
 - `pip install --dev bananalyzer`
-- Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an example file
+- Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an
+  example file
+
 ```
 import asyncio
 from playwright.async_api import BrowserContext
@@ -75,9 +98,11 @@ class NullAgentRunner(AgentRunner):
         await asyncio.sleep(0.5)
         return example.evals[0].expected    # Just return expected output directly so that tests pass
 ```
+
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
 
 #### Arguments
+
 - `-h` or `--help`: Show help
 - `--headless`: Run with Playwright headless mode
 - `-id` or `--id`: Run a specific test by id
@@ -85,28 +110,37 @@ class NullAgentRunner(AgentRunner):
 - `-d` or `--domain`: Only run tests of a particular domain (healthcare, manufacturing, software, etc)
 - `-n` or `--n`: Number of test workers to use. The default is 1
 - `-skip` or `--skip`: A list of ids to skip tests on, separated by commas
+- `-t` or `--type`: Only run tests of a particular type (links, fetch, etc)
 
 ### Contributing
+
 #### Running the server
+
 The project has a basic FastAPI server to expose example data. You can run it with the following command:
+
 ```
 cd server
 poetry run uvicorn server:app --reload   
 ```
+
 Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
 
 #### Adding examples
+
 All current examples have been manually added through running the `fetch.ipynb` notebook at the root of this project.
 This notebook will load a site with Playwright and use the chrome developer API to save the page as an MHTML file.
 
 # Roadmap
+
 ##### Launch
+
 - [x] Functions to serve local MHTML sites
 - [x] Agent interface required for running the tool
 - [x] Pytest wrapper to enable CLI testing with additional arguments
 - [x] Document a majority of the repo
 
 ##### Features
+
 - [x] CLI param to filter tests by intent
 - [ ] Additional CLI params to select for specific tests or test categories
 - [ ] Ability to add multiple site pages to examples
@@ -116,8 +150,8 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [ ] Lag and bot detection emulation
 - [ ] Updated test visualization with separation of categories and outputs
 
-
 ##### Dataset updates
+
 - [x] 15 additional data retrieval examples
 - [ ] 15 additional link examples
 - [ ] 15 click examples
@@ -129,6 +163,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [ ] Tests requiring captcha solving
 
 # Citations
+
 ```
 bibtex
 @misc{reworkd2023bananalyzer,
