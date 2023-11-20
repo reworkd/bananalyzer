@@ -119,7 +119,6 @@ def find_decorated_scrapers(file_path: Path) -> List[AgentRunnerClass]:
                 AgentRunnerClass(
                     class_name=clazz.name,
                     class_path=str(file_path),
-                    class_def=clazz,
                 )
             )
 
