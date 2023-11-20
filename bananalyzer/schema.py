@@ -17,4 +17,5 @@ class Args(BaseModel):
     domain: Optional[str] = Field(default=None)
     skip: List[str]
     type: Optional[str] = Field(default=None)
+    download: bool
     pytest_args: PytestArgs

@@ -92,6 +92,12 @@ def parse_args() -> Args:
         default=[],
         help="Filter tests by a particular type",
     )
+    parser.add_argument(
+        "-d",
+        "--download",
+        action="store_true",
+        help="Re-download examples",
+    )
 
     args = parser.parse_args()
 
@@ -107,6 +113,7 @@ def parse_args() -> Args:
         domain=args.domain,
         skip=args.skip,
         type=args.type,
+        download=args.download,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -151,6 +158,8 @@ def main() -> int:
     args = parse_args()
     agent = load_agent_from_path(args.path)
     validate_agent_instance_available(agent)
+
+    # Download examples if they don't exist
 
     # Filter examples based on args
     filtered_examples = examples[:]
