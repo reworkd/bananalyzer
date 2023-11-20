@@ -76,6 +76,7 @@ class NullAgentRunner(AgentRunner):
         return example.evals[0].expected    # Just return expected output directly so that tests pass
 ```
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
+- You can also run `bananalyze .` to run all tests in the current directory
 
 #### Arguments
 - `-h` or `--help`: Show help
