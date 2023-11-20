@@ -1,8 +1,8 @@
 import asyncio
 
 from playwright.async_api import Page
-from static import Example
 
+from bananalyzer.data.schemas import Example
 from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
 
 

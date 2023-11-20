@@ -1,3 +1,4 @@
+import ast
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
@@ -19,3 +20,8 @@ class Args(BaseModel):
     type: Optional[str] = Field(default=None)
     download: bool
     pytest_args: PytestArgs
+
+
+class AgentRunnerClass(BaseModel):
+    class_name: str
+    class_path: str

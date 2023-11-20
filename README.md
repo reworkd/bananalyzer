@@ -100,6 +100,7 @@ class NullAgentRunner(AgentRunner):
 ```
 
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
+- You can also run `bananalyze .` to run all tests in the current directory
 
 #### Arguments
 
