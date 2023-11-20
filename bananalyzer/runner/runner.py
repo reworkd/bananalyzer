@@ -25,12 +25,13 @@ async def test_{example.id.replace("-", "_")}() -> None:
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
         context = await browser.new_context()
+        page = await context.new_page()
         example = get_example_by_url("{example.url}")
          
         # The agent is imported into the global context prior to this call 
-        result = await agent.run(context, example)
+        result = await agent.run(page, example)
         for curr_eval in example.evals:
-            curr_eval.eval_results(p, result)
+            curr_eval.eval_results(page, result)
 """,
         example=example,
     )
