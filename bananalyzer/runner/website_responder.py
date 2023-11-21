@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-from static import Example, get_examples_path
+from bananalyzer.data.schemas import Example
 
 
 class WebsiteResponder(ABC):

@@ -87,6 +87,19 @@ def parse_args() -> Args:
         default=[],
         help="A list of ids to skip tests on, separated by commas",
     )
+    parser.add_argument(
+        "-t",
+        "--type",
+        type=lambda s: s.split(","),
+        default=[],
+        help="Filter tests by a particular type",
+    )
+    parser.add_argument(
+        "-d",
+        "--download",
+        action="store_true",
+        help="Re-download examples",
+    )
 
     args = parser.parse_args()
 
@@ -101,6 +114,8 @@ def parse_args() -> Args:
         id=args.id,
         domain=args.domain,
         skip=args.skip,
+        type=args.type,
+        download=args.download,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -194,6 +209,10 @@ def main() -> int:
     if args.skip:
         filtered_examples = [
             example for example in filtered_examples if example.id not in args.skip
+        ]
+    if args.type:
+        filtered_examples = [
+            example for example in filtered_examples if example.type in args.type
         ]
 
     # Test we actually have tests to run

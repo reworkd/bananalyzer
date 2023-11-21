@@ -10,7 +10,6 @@ from pydantic import BaseModel
 from bananalyzer import AgentRunner
 from bananalyzer.data.schemas import Example
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
-from bananalyzer.schema import PytestArgs
 
 TestType = Callable[[], Awaitable[None]]
 
@@ -117,7 +116,7 @@ def run_tests(
             test_file_names
             + (["-s"] if pytest_args.s else [])
             + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
-            + ["-v"]    # Verbose outputs by default
+            + ["-v"]  # Verbose outputs by default
         )
         return_code = pytest.main(args)
     finally:

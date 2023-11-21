@@ -1,8 +1,8 @@
 from typing import Any
 
 import pytest
-from static import Example
 
+from bananalyzer.data.schemas import Example
 from bananalyzer.runner.website_responder import (
     HostedWebsiteResponder,
     MHTMLWebsiteResponder,

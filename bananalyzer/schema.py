@@ -1,8 +1,8 @@
-import ast
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
-from static import GoalType
+
+from bananalyzer.data.schemas import GoalType
 
 
 class PytestArgs(BaseModel):
