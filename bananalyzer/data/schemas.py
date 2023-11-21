@@ -18,6 +18,19 @@ GoalType = Literal[
 ]
 
 
+def format_new_lines(d: Dict[str, Any]) -> Dict[str, Any]:
+    """Recursively replace newlines in strings with spaces."""
+    new_dict: Dict[str, Any] = {}
+    for k, v in d.items():
+        if isinstance(v, dict):
+            new_dict[k] = format_new_lines(v)
+        elif isinstance(v, str):
+            new_dict[k] = v.replace("\n", " ")
+        else:
+            new_dict[k] = v
+    return new_dict
+
+
 class Eval(BaseModel):
     """
     Base class for all evals. Evals are used to determine if an action or result is correct
@@ -34,13 +47,28 @@ class Eval(BaseModel):
 
     def eval_results(self, page: Page, result: Dict[str, Any]) -> None:
         if self.type == "json_match":
+            assert isinstance(self.expected, dict)
+
+            # TODO: We should probably code gen to remove newlines or update test data to contain new lines
+            formatted_expected = format_new_lines(self.expected)
+            formatted_actual = format_new_lines(result)
+
+            # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
+            # Adding missing keys in actual with None if they are expected to be None
+            for key, value in formatted_expected.items():
+                if value is None and key not in formatted_actual:
+                    formatted_actual[key] = None
+
             diff = DeepDiff(
-                self.expected, result, ignore_order=True, report_repetition=True
+                formatted_expected,
+                formatted_actual,
+                ignore_order=True,
+                report_repetition=True,
             )
             if diff:
                 # Pretty print both expected and actual results
-                pretty_expected = json.dumps(self.expected, indent=4)
-                pretty_actual = json.dumps(result, indent=4)
+                pretty_expected = json.dumps(formatted_expected, indent=4)
+                pretty_actual = json.dumps(formatted_actual, indent=4)
 
                 diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
                 pytest.fail(f"JSONEval mismatch!\n{diff_msg}")

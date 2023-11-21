@@ -5,19 +5,89 @@ from _pytest.outcomes import Failed
 from pydantic import ValidationError
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
-from bananalyzer.data.schemas import Eval, Example
+from bananalyzer.data.schemas import Eval, Example, format_new_lines
+
+
+def test_format_new_lines() -> None:
+    assert {"1": "one two"} == format_new_lines({"1": "one\ntwo"})
+    assert {"1": "one two"} == format_new_lines({"1": "one two"})
+    assert {"1": "one  two"} == format_new_lines({"1": "one\n\ntwo"})
+    assert {"1": "one two", "2": "one two"} == format_new_lines(
+        {"1": "one\ntwo", "2": "one\ntwo"}
+    )
+    assert {"1": "one two", "2": "one two"} == format_new_lines(
+        {"1": "one two", "2": "one\ntwo"}
+    )
 
 
 def test_json_eval(mocker: Any) -> None:
     page = mocker.Mock()
-    json = {"one": "one", "two": "two"}
-
+    json = {"one": "one", "two": "two\ntwo"}
     evaluation = Eval(type="json_match", expected=json)
 
-    evaluation.eval_results(page, json)
-    evaluation.eval_results(page, {"two": "two", "one": "one"})
+    # Exact match
+    evaluation.eval_results(page, {"one": "one", "two": "two\ntwo"})
+
+    # Order doesn't matter
+    evaluation.eval_results(page, {"two": "two\ntwo", "one": "one"})
+
+    # New lines converted into spaces
+    evaluation.eval_results(page, {"two": "two two", "one": "one"})
+
+    # Different values fail
     with pytest.raises(Failed):
-        evaluation.eval_results(page, {"test": "test"})
+        evaluation.eval_results(page, {"one": "one", "two": "different"})
+
+    # Additional key-value pairs fail
+    with pytest.raises(Failed):
+        evaluation.eval_results(
+            page, {"one": "one", "two": "two\ntwo", "three": "three"}
+        )
+
+
+def test_json_eval_ignores___attributes(mocker: Any) -> None:
+    page = mocker.Mock()
+    expected = {"one": "one", "none": None}
+    evaluation = Eval(type="json_match", expected=expected)
+
+    #  __attributes ignored
+    __attributes_added = {
+        "one": "one",
+        "none": None,
+        "__url": "https://www.test.com",
+        "__zest": "test",
+        "__blah": None,
+    }
+    evaluation.eval_results(page, __attributes_added)
+
+    # Fail without __
+    url_added = {"one": "one", "none": None, "url": "https://www.test.com"}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, url_added)
+
+
+def test_json_eval_with_none_values(mocker: Any) -> None:
+    page = mocker.Mock()
+    expected = {"one": "one", "none": None}
+    evaluation = Eval(type="json_match", expected=expected)
+
+    # None attribute missing succeeds
+    none_attribute_missing = {"one": "one"}
+    evaluation.eval_results(page, none_attribute_missing)
+
+    # None attribute correctly set to None
+    actual_with_none = {"one": "one", "none": None}
+    evaluation.eval_results(page, actual_with_none)
+
+    # Key present with non None value fails
+    actual_incorrect_value = {"one": "one", "two": "Available"}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, actual_incorrect_value)
+
+    # Incorrect missing key fails
+    missing_key = {"two": None}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, missing_key)
 
 
 def test_url_eval(mocker: Any) -> None:
