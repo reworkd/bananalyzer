@@ -23,7 +23,6 @@ def test_format_new_lines() -> None:
 def test_json_eval(mocker: Any) -> None:
     page = mocker.Mock()
     json = {"one": "one", "two": "two\ntwo"}
-
     evaluation = Eval(type="json_match", expected=json)
 
     # Exact match
@@ -46,10 +45,30 @@ def test_json_eval(mocker: Any) -> None:
         )
 
 
+def test_json_eval_ignores___attributes(mocker: Any) -> None:
+    page = mocker.Mock()
+    expected = {"one": "one", "none": None}
+    evaluation = Eval(type="json_match", expected=expected)
+
+    #  __attributes ignored
+    __attributes_added = {
+        "one": "one",
+        "none": None,
+        "__url": "https://www.test.com",
+        "__zest": "test",
+        "__blah": None,
+    }
+    evaluation.eval_results(page, __attributes_added)
+
+    # Fail without __
+    url_added = {"one": "one", "none": None, "url": "https://www.test.com"}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, url_added)
+
+
 def test_json_eval_with_none_values(mocker: Any) -> None:
     page = mocker.Mock()
     expected = {"one": "one", "none": None}
-
     evaluation = Eval(type="json_match", expected=expected)
 
     # None attribute missing succeeds
