@@ -53,6 +53,12 @@ class Eval(BaseModel):
             formatted_expected = format_new_lines(self.expected)
             formatted_actual = format_new_lines(result)
 
+            # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
+            # Adding missing keys in actual with None if they are expected to be None
+            for key, value in formatted_expected.items():
+                if value is None and key not in formatted_actual:
+                    formatted_actual[key] = None
+
             diff = DeepDiff(
                 formatted_expected,
                 formatted_actual,

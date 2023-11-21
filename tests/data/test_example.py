@@ -46,6 +46,31 @@ def test_json_eval(mocker: Any) -> None:
         )
 
 
+def test_json_eval_with_none_values(mocker: Any) -> None:
+    page = mocker.Mock()
+    expected = {"one": "one", "none": None}
+
+    evaluation = Eval(type="json_match", expected=expected)
+
+    # None attribute missing succeeds
+    none_attribute_missing = {"one": "one"}
+    evaluation.eval_results(page, none_attribute_missing)
+
+    # None attribute correctly set to None
+    actual_with_none = {"one": "one", "none": None}
+    evaluation.eval_results(page, actual_with_none)
+
+    # Key present with non None value fails
+    actual_incorrect_value = {"one": "one", "two": "Available"}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, actual_incorrect_value)
+
+    # Incorrect missing key fails
+    missing_key = {"two": None}
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, missing_key)
+
+
 def test_url_eval(mocker: Any) -> None:
     expected_url = "https://www.test.com"
     page = mocker.Mock()
