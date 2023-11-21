@@ -206,12 +206,10 @@ def main() -> int:
 
     # Load the desired tests
     generator = TestGenerator()
-    tests = [
-        generator.generate_test(example, args.headless) for example in filtered_examples
-    ]
+    tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, agent, args.pytest_args)
+    return run_tests(tests, agent, args.pytest_args, args.headless)
 
 
 if __name__ == "__main__":
