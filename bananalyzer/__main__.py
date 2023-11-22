@@ -92,7 +92,7 @@ def parse_args() -> Args:
         "-q",
         "--quiet",
         action="store_true",
-        help="Will decrease the verbosity of pytest",
+        help="Will decrease the verbosity of pytest. By default we run with the `--v` pytest param.",
     )
     parser.add_argument(
         "--turbo",
