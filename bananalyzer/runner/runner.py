@@ -19,7 +19,6 @@ class BananalyzerTest(BaseModel):
 
 class TestGenerator:
     def __init__(self) -> None:
-        self._names: Dict[str, int] = {}
         self._classnames: Dict[str, int] = {}
 
     def generate_test(self, example: Example) -> BananalyzerTest:
@@ -47,7 +46,7 @@ class {self._generate_class_name(example)}:
             return f"""
     @pytest.mark.parametrize("key", {list(eval_.expected.keys())})
     async def test_match_field(self, key, result) -> None:
-        assert self.example.evals[{i}].expected[key] == result[key]
+        assert self.example.evals[{i}].expected.get(key, None) == result.get(key, None)
 
 """
         return f"""
@@ -55,17 +54,6 @@ class {self._generate_class_name(example)}:
         self.example.evals[{i}].eval_results(None, result)
 
 """
-
-    def _generate_name(self, example: Example) -> str:
-        domain = urlparse(example.url).netloc
-        domain = domain.replace(".", "_")
-        if domain.startswith("www_"):
-            domain = domain[4:]
-
-        key = f"{example.type}_{domain}"
-        self._names[key] = self._names.get(key, -1) + 1
-        suffix = "" if not self._names[key] else f"_{self._names[key]}"
-        return f"test_{key}{suffix}"
 
     def _generate_class_name(self, example: Example) -> str:
         domain = urlparse(example.url).netloc
