@@ -1,13 +1,12 @@
 import os
 import tempfile
-
 from typing import Awaitable, Callable, Dict, List
 from urllib.parse import urlparse
 
 import pytest
 from pydantic import BaseModel
 
-from bananalyzer.data.schemas import Example, Eval
+from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
 
 TestType = Callable[[], Awaitable[None]]
