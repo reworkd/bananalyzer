@@ -6,7 +6,7 @@ from bananalyzer.data.schemas import Eval
 from bananalyzer.runner.runner import BananalyzerTest
 
 
-class TestGenerator:
+class PytestTestGenerator:
     def __init__(self) -> None:
         self._classnames: Dict[str, int] = {}
 

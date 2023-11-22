@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import List
 
 from bananalyzer import AgentRunner, examples
-from bananalyzer.runner.generator import TestGenerator
+from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
 
@@ -222,7 +222,7 @@ def main() -> int:
         return 0
 
     # Load the desired tests
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests

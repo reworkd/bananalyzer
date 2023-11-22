@@ -1,10 +1,10 @@
 from bananalyzer import Example
 from bananalyzer.data.schemas import Eval
-from bananalyzer.runner.generator import TestGenerator
+from bananalyzer.runner.generator import PytestTestGenerator
 
 
 def test_generate_test_with_single_eval() -> None:
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     example = Example(
         id="1",
         url="https://www.test.com",
@@ -21,7 +21,7 @@ def test_generate_test_with_single_eval() -> None:
 
 
 def test_generate_test_with_multiple_evals() -> None:
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     example = Example(
         id="1",
         url="https://www.test.com",
@@ -42,7 +42,7 @@ def test_generate_test_with_multiple_evals() -> None:
 
 
 def test_generate_class_name_without_www() -> None:
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     example = Example(
         id="1",
         url="https://test.com",
@@ -59,7 +59,7 @@ def test_generate_class_name_without_www() -> None:
 
 
 def test_generate_class_name_with_www() -> None:
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     example = Example(
         id="1",
         url="https://www.test.com",
@@ -76,7 +76,7 @@ def test_generate_class_name_with_www() -> None:
 
 
 def test_generate_class_name_with_multiple_domains() -> None:
-    generator = TestGenerator()
+    generator = PytestTestGenerator()
     example1 = Example(
         id="1",
         url="https://test.com",
