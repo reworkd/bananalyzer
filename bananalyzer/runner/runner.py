@@ -154,8 +154,8 @@ def run_tests(
     tests: List[BananalyzerTest],
     runner: AgentRunnerClass,
     pytest_args: PytestArgs,
-    headless: bool,
-    turbo: bool,
+    headless: bool = False,
+    turbo: bool = False,
 ) -> int:
     """
     Create temporary test files based on intent, run them, and then delete them
