@@ -10,7 +10,8 @@ from pathlib import Path
 from typing import List
 
 from bananalyzer import AgentRunner, examples
-from bananalyzer.runner.runner import TestGenerator, run_tests
+from bananalyzer.runner.generator import TestGenerator
+from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
 
 
