@@ -112,7 +112,6 @@ def run_tests(
     ) as temp_dir:
         temp_path = Path(temp_dir)
 
-
         test_file_names = [
             create_test_file(
                 tests,
@@ -125,11 +124,13 @@ def run_tests(
             for tests in intent_separated_tests
         ]
 
+        report_path = cache_dir / f"{temp_path.stem}_report.html"
         args = (
             test_file_names
             + (["-s"] if pytest_args.s else [])
             + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
             + (["-q"] if pytest_args.q else ["-vvv"])
+            + [f"--html={str(report_path)}"]
         )
 
         return pytest.main(args)
