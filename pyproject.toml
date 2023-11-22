@@ -6,7 +6,7 @@ authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-bananalyze = "bananalyzer:main"
+bananalyze = "bananalyzer.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
