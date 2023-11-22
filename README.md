@@ -53,7 +53,7 @@ We have defined a set of test intents that an agent can be evaluated on. These i
 ### Local testing installation
 - `pip install --dev bananalyzer`
 - Implement the `agent_runner.py` interface and make a banalyzer.py test file (The name doesn't matter). Below is an example file
-```
+```python
 import asyncio
 from playwright.async_api import BrowserContext
 from bananalyzer.data.schemas import Example
