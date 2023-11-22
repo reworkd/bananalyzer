@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/reworkd/bananalyzer/blob/main/.github/assets/banner.png" height="300" alt="Monkey Looking at banana" />
+  <img src="https://raw.githubusercontent.com/reworkd/bananalyzer/main/.github/assets/banner.png" height="300" alt="Monkey Looking at banana" />
 </p>
 <p align="center">
   <em>🍌 Open source AI Agent evaluations for web tasks 🍌</em>
