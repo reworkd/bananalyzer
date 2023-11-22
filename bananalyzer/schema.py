@@ -15,7 +15,7 @@ class PytestArgs(BaseModel):
 class Args(BaseModel):
     path: str
     headless: bool
-    turbo: bool
+    single_browser_instance: bool
     id: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)

@@ -95,10 +95,11 @@ def parse_args() -> Args:
         help="Will decrease the verbosity of pytest. By default we run with the `--v` pytest param.",
     )
     parser.add_argument(
-        "--turbo",
+        "--single_browser_instance",
         action="store_true",
-        help="Will run tests in a single browser instance. This is faster but less "
-        "reliable",
+        help="Run tests in a single browser instance as opposed to creating a browser "
+        "instance per test. This is faster but less reliable as test contexts can "
+        "occasionally bleed into each other, causing tests to fail",
     )
 
     args = parser.parse_args()
@@ -114,7 +115,7 @@ def parse_args() -> Args:
         id=args.id,
         domain=args.domain,
         skip=args.skip,
-        turbo=args.turbo,
+        single_browser_instance=args.single_browser_instance,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -224,7 +225,9 @@ def main() -> int:
     tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, agent, args.pytest_args, args.headless, args.turbo)
+    return run_tests(
+        tests, agent, args.pytest_args, args.headless, args.single_browser_instance
+    )
 
 
 if __name__ == "__main__":
