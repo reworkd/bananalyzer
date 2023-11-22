@@ -1,14 +1,12 @@
-# dynamic_test_runner.py
-import asyncio
 import os
 import tempfile
-from typing import IO, Awaitable, Callable, Dict, List
+
+from typing import Awaitable, Callable, Dict, List
 from urllib.parse import urlparse
 
 import pytest
 from pydantic import BaseModel
 
-from bananalyzer import AgentRunner
 from bananalyzer.data.schemas import Example, Eval
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
 
@@ -76,8 +74,7 @@ class {self._generate_class_name(example)}:
         if domain.startswith("www_"):
             domain = domain[4:]
 
-        domain = domain.split("_")
-        domain = "".join([part.capitalize() for part in domain])
+        domain = "".join([part.capitalize() for part in domain.split("_")])
 
         key = f"{example.type.capitalize()}{domain}"
         self._classnames[key] = self._classnames.get(key, -1) + 1
