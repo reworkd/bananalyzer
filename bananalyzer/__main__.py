@@ -124,7 +124,6 @@ def parse_args() -> Args:
 
 
 def find_agents(file_path: Path) -> List[AgentRunnerClass]:
-    print(f"Finding agents in {file_path}")
     with open(file_path, "r") as source:
         node = ast.parse(source.read())
 
