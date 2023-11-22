@@ -40,7 +40,8 @@ V  \
 def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a bananalyzer agent definition file against the benchmark",
+        description=f"Run the agent inside a bananalyzer agent definition file "
+        f"against the benchmark",
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
@@ -87,6 +88,18 @@ def parse_args() -> Args:
         default=[],
         help="A list of ids to skip tests on, separated by commas",
     )
+    parser.add_argument(
+        "-q",
+        "--quiet",
+        action="store_true",
+        help="Will decrease the verbosity of pytest",
+    )
+    parser.add_argument(
+        "--turbo",
+        action="store_true",
+        help="Will run tests in a single browser instance. This is faster but less "
+        "reliable",
+    )
 
     args = parser.parse_args()
 
@@ -101,14 +114,17 @@ def parse_args() -> Args:
         id=args.id,
         domain=args.domain,
         skip=args.skip,
+        turbo=args.turbo,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
+            q=args.quiet,
         ),
     )
 
 
-def find_decorated_scrapers(file_path: Path) -> List[AgentRunnerClass]:
+def find_agents(file_path: Path) -> List[AgentRunnerClass]:
+    print(f"Finding agents in {file_path}")
     with open(file_path, "r") as source:
         node = ast.parse(source.read())
 
@@ -127,13 +143,13 @@ def find_decorated_scrapers(file_path: Path) -> List[AgentRunnerClass]:
 
 def load_agent_from_path(path: Path) -> AgentRunnerClass:
     if path.is_dir():
-        files = list(path.glob("**/*.py"))
+        files = [p for p in path.glob("**/*.py") if "venv" not in p.parts]
     else:
         files = [path]
 
     runners: List[AgentRunnerClass] = []
     for file in files:
-        runners.extend(find_decorated_scrapers(file))
+        runners.extend(find_agents(file))
 
     if len(runners) == 0:
         raise RuntimeError(f"Could not find any agent runners in {path}")
@@ -209,7 +225,7 @@ def main() -> int:
     tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, agent, args.pytest_args, args.headless)
+    return run_tests(tests, agent, args.pytest_args, args.headless, args.turbo)
 
 
 if __name__ == "__main__":

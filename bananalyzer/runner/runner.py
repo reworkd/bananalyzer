@@ -82,7 +82,11 @@ class {self._generate_class_name(example)}:
 
 
 def create_test_file(
-    tests: List[BananalyzerTest], prefix: str, runner: AgentRunnerClass, headless: bool
+    tests: List[BananalyzerTest],
+    prefix: str,
+    runner: AgentRunnerClass,
+    headless: bool,
+    turbo: bool,
 ) -> str:
     with tempfile.NamedTemporaryFile(
         mode="w+",
@@ -130,7 +134,7 @@ def agent():
     yield agent_
 
 
-@pytest_asyncio.fixture(scope="session")
+@pytest_asyncio.fixture(scope="{'session' if turbo else 'class'}")
 async def context():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
@@ -151,6 +155,7 @@ def run_tests(
     runner: AgentRunnerClass,
     pytest_args: PytestArgs,
     headless: bool,
+    turbo: bool,
 ) -> int:
     """
     Create temporary test files based on intent, run them, and then delete them
@@ -160,7 +165,9 @@ def run_tests(
         [test for test in tests if test.example.type == intent] for intent in intents
     ]
     test_file_names = [
-        create_test_file(tests, f"{tests[0].example.type}_intent_", runner, headless)
+        create_test_file(
+            tests, f"{tests[0].example.type}_intent_", runner, headless, turbo
+        )
         for tests in intent_separated_tests
     ]
 
@@ -169,7 +176,7 @@ def run_tests(
             test_file_names
             + (["-s"] if pytest_args.s else [])
             + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
-            + ["-v"]
+            + (["-q"] if pytest_args.q else ["-vvv"])
         )
         return_code = pytest.main(args)
     finally:
