@@ -1,4 +1,5 @@
 import json
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -33,6 +34,22 @@ def get_examples_path() -> Path:
         )
 
 
+def convert_to_crlf(file_path: Path) -> None:
+    """
+    Git automatically replaces CRLF endings with LF either on push or pull
+    This causes the MHTML to become invalid and result in a blank page
+    As a result, we must manually replace LF with CRLF
+    """
+    with open(file_path, "rb") as file:
+        lines = file.readlines()
+
+    with open(file_path, "wb") as file:
+        for line in lines:
+            if line.endswith(b"\n") and not line.endswith(b"\r\n"):
+                line = line.replace(b"\n", b"\r\n")
+            file.write(line)
+
+
 def download_examples() -> None:
     """
     Downloads the repo via git and places contents of the `/static` data directory in ~/.bananalyzer_data
@@ -60,7 +77,10 @@ def download_examples() -> None:
                 item.unlink()
 
         for item in data_folder_path.iterdir():
-            shutil.move(str(item), downloaded_examples_path)
+            target_path = shutil.move(str(item), downloaded_examples_path)
+            for root, dirs, files in os.walk(target_path):
+                for file in files:
+                    convert_to_crlf(Path(root) / file)
 
     finally:
         print("Cleaning up repo...")
