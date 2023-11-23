@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.5.1"
+version = "0.5.2"
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
 readme = "README.md"
@@ -15,7 +15,7 @@ pydantic = "^2.4.2"
 pytest-asyncio = "^0.21.1"
 deepdiff = "^6.7.0"
 pytest-xdist = "^3.4.0"
-black = {extras = ["jupyter"], version = "^23.11.0"}
+black = { extras = ["jupyter"], version = "^23.11.0" }
 pytest-html = "^4.1.1"
 
 [tool.poetry.group.test.dependencies]
@@ -26,7 +26,7 @@ pytest-cov = "^4.1.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.6.1"
-black = {extras = ["jupyter"], version = "^23.11.0"}
+black = { extras = ["jupyter"], version = "^23.11.0" }
 types-requests = "^2.31.0.10"
 pytest-asyncio = "^0.21.1"
 isort = "^5.12.0"
@@ -38,7 +38,7 @@ src_paths = ["bananalyzer", "tests"]
 
 [tool.mypy]
 plugins = [
-  "pydantic.mypy"
+    "pydantic.mypy"
 ]
 strict = true
 ignore_missing_imports = true
