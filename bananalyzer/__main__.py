@@ -9,10 +9,10 @@ import sys
 from pathlib import Path
 from typing import List
 
-from bananalyzer.runner.generator import PytestTestGenerator
-from bananalyzer.runner.runner import run_tests
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import get_training_examples
+from bananalyzer.runner.generator import PytestTestGenerator
+from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
 
 
@@ -106,15 +106,14 @@ def parse_args() -> Args:
     parser.add_argument(
         "-t",
         "--type",
-        type=lambda s: s.split(","),
-        default=[],
+        type=str,
+        default=None,
         help="Filter tests by a particular type",
     )
     parser.add_argument(
-        "-d",
         "--download",
         action="store_true",
-        help="Re-download examples",
+        help="Will re-download training and test examples",
     )
 
     args = parser.parse_args()

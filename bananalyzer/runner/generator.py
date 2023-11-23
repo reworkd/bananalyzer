@@ -22,8 +22,8 @@ class {self._generate_class_name(example)}:
 
 
     @pytest_asyncio.fixture(scope="class")
-    async def result(self, context, agent):
-        yield await agent.run(context, self.example)
+    async def result(self, page, agent):
+        yield await agent.run(page, self.example)
 
     {"".join(self._generate_eval_test(eval_, i) for i, eval_ in enumerate(example.evals))}
 """,
@@ -39,8 +39,8 @@ class {self._generate_class_name(example)}:
 
 """
         return f"""
-    async def test_{eval_.type}(self, result) -> None:
-        self.example.evals[{i}].eval_results(None, result)
+    async def test_{eval_.type}(self, page, result) -> None:
+        self.example.evals[{i}].eval_results(page, result)
 
 """
 
