@@ -145,7 +145,7 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": {}
+        "expected": []
       }
     ]
   },
