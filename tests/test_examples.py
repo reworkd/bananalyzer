@@ -49,7 +49,7 @@ def test_get_local_examples_path() -> None:
 
 def test_get_examples_path_failure(mocker: MockFixture) -> None:
     mocker.patch("pathlib.Path.exists", return_value=False)
-    
+
     with pytest.raises(FileNotFoundError):
         get_examples_path()
 

@@ -16,14 +16,12 @@ def are_examples_available(path: Path) -> bool:
     if not path.exists():
         return False
 
-    # Validate train and test set available
     return (path / train_examples_name).exists() and (
         path / test_examples_name
     ).exists()
 
 
 def get_examples_path() -> Path:
-    """Determine the path to the examples, preferring local if available."""
     if are_examples_available(local_examples_path):
         print("### Using local examples! ###")
         return local_examples_path
@@ -37,8 +35,7 @@ def get_examples_path() -> Path:
 
 def download_examples() -> None:
     """
-    Downloads the repo via git and places the data directory in ~/.bananalyzer_data
-    :return:
+    Downloads the repo via git and places contents of the `/static` data directory in ~/.bananalyzer_data
     """
     repo_url = "https://github.com/reworkd/bananalyzer.git"
     branch = "main"
@@ -86,13 +83,11 @@ def load_examples_at_path(path: Path, examples_json_file_name: str) -> List[Exam
 
 
 def get_training_examples() -> List[Example]:
-    examples_path = get_examples_path()
-    return load_examples_at_path(examples_path, train_examples_name)
+    return load_examples_at_path(get_examples_path(), train_examples_name)
 
 
 def get_test_examples() -> List[Example]:
-    examples_path = get_examples_path()
-    return load_examples_at_path(examples_path, test_examples_name)
+    return load_examples_at_path(get_examples_path(), test_examples_name)
 
 
 def get_all_examples() -> List[Example]:
