@@ -33,6 +33,19 @@ def get_examples_path() -> Path:
         )
 
 
+def convert_to_crlf(file_path):
+    """
+    Git automatically replaces CRLF endings with LF either on push or pull
+    This causes the MHTML to become invalid and result in a blank page
+    As a result, we must manually replace LF with CRLF
+    """
+    with open(file_path, 'rb+') as file:  # Open in read+write binary mode
+        content = file.read()
+        file.seek(0)  # Go back to the start of the file
+        file.write(content.replace(b'\n', b'\r\n'))
+        file.truncate()  # Truncate the file in case new content is shorter
+
+
 def download_examples() -> None:
     """
     Downloads the repo via git and places contents of the `/static` data directory in ~/.bananalyzer_data
@@ -60,7 +73,9 @@ def download_examples() -> None:
                 item.unlink()
 
         for item in data_folder_path.iterdir():
-            shutil.move(str(item), downloaded_examples_path)
+            target_path = shutil.move(str(item), downloaded_examples_path)
+            if Path(target_path).is_file():
+                convert_to_crlf(target_path)
 
     finally:
         print("Cleaning up repo...")
