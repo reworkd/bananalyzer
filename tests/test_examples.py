@@ -1,4 +1,6 @@
 import json
+import os
+import shutil
 from pathlib import Path
 from typing import List
 from unittest.mock import mock_open
@@ -7,6 +9,8 @@ import pytest
 from pytest_mock import MockFixture
 
 from bananalyzer.data.examples import (
+    download_examples,
+    downloaded_examples_path,
     get_all_examples,
     get_example_by_url,
     get_test_examples,
@@ -34,6 +38,20 @@ def test_load_examples_at_path_file_not_found(mocker: MockFixture) -> None:
     mocker.patch("builtins.open", side_effect=FileNotFoundError)
     with pytest.raises(FileNotFoundError):
         load_examples_at_path(Path("/fake/path"), "fake.json")
+
+
+@pytest.mark.skipif(
+    os.getenv("GITHUB_ACTIONS") == "true",
+    reason="Do not download 100MB dataset on GitHub Actions",
+)
+def test_download_examples():
+    if downloaded_examples_path.exists():
+        shutil.rmtree(downloaded_examples_path)
+
+    download_examples()
+
+    assert downloaded_examples_path.exists(), "Downloaded examples path does not exist."
+    assert any(downloaded_examples_path.iterdir()), "Downloaded examples path is empty."
 
 
 ##########################################################

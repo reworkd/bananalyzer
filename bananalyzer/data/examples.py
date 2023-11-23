@@ -1,4 +1,6 @@
 import json
+import shutil
+import subprocess
 from pathlib import Path
 from typing import List
 
@@ -28,7 +30,37 @@ def get_examples_path() -> Path:
 
 
 def download_examples() -> None:
-    pass
+    """
+    Downloads the repo via git and places the data directory in ~/.bananalyzer_data
+    :return:
+    """
+    repo_url = "https://github.com/reworkd/bananalyzer.git"
+    branch = "main"
+    data_folder_name = "static/"
+
+    try:
+        subprocess.run(
+            ["git", "clone", "-b", branch, repo_url, "repo_temp"], check=True
+        )
+
+        data_folder_path = Path("repo_temp") / data_folder_name
+        if not data_folder_path.exists():
+            raise FileNotFoundError(
+                f"The folder '{data_folder_name}' does not exist in the repository."
+            )
+
+        downloaded_examples_path.mkdir(parents=True, exist_ok=True)
+        for item in downloaded_examples_path.iterdir():
+            if item.is_dir():
+                shutil.rmtree(item)
+            else:
+                item.unlink()
+
+        for item in data_folder_path.iterdir():
+            shutil.move(str(item), downloaded_examples_path)
+
+    finally:
+        shutil.rmtree("repo_temp", ignore_errors=True)
 
 
 def load_examples_at_path(path: Path, examples_json_file_name: str) -> List[Example]:
