@@ -1,16 +1,16 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: https://www.mindstix.com/careers/machine-learning.html
 Subject: Mindstix Software Labs | Machine Learning Engineer
-Date: Tue, 7 Nov 2023 21:48:37 -0800
+Date: Thu, 23 Nov 2023 14:23:45 -0800
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----"
+	boundary="----MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----"
 
 
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/html
-Content-ID: <frame-16B67F1074048CA847A7CE5B950D5B0C@mhtml.blink>
+Content-ID: <frame-589705C53866527FC9FC7CB3E5E06066@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/careers/machine-learning.html
 
@@ -90,7 +90,7 @@ dWV9"></head>
       <!--  First Section  -->
       <div id=3D"section1" class=3D"section">
         <!-- Header -->
-        <div id=3D"navbar" class=3D"header-container">
+        <div id=3D"navbar" class=3D"header-container" style=3D"top: 0px;">
           <div id=3D"remove-top-bar" class=3D"top-bar remove-shadow">
             <!--  hamburger-only -->
             <a id=3D"header-section" href=3D"https://www.mindstix.com/" cla=
@@ -115,7 +115,7 @@ hide">
             </div>
             <div class=3D"navigation-link">
               <!--   -->
-              <div class=3D"top-bar">
+              <div class=3D"top-bar white-bg remove-shadow">
                 <a href=3D"https://www.mindstix.com/" class=3D"redirect-hom=
 e">
                   <div class=3D"icon align-middle logo"></div>
@@ -603,9 +603,9 @@ m/careers.html" target=3D"_blank">View More</a></div>
           </div>
           <div class=3D"career_related_jobs_carousel slick-initialized slic=
 k-slider"><div class=3D"slick-list draggable"><div class=3D"slick-track" st=
-yle=3D"opacity: 1; width: 1124px; transform: translate3d(0px, 0px, 0px);"><=
+yle=3D"opacity: 1; width: 1136px; transform: translate3d(0px, 0px, 0px);"><=
 div class=3D"slick-slide slick-current slick-active" data-slick-index=3D"0"=
- aria-hidden=3D"false" style=3D"width: 265px;"><div><div class=3D"carousel_=
+ aria-hidden=3D"false" style=3D"width: 268px;"><div><div class=3D"carousel_=
 tile" style=3D"width: 100%; display: inline-block;">
               <div class=3D"common_white_box_tile">
                 <a href=3D"https://www.mindstix.com/careers/devops-SRE-engi=
@@ -624,7 +624,7 @@ ps #CloudOps #CloudNative #Containers
                 </a>
               </div>
             </div></div></div><div class=3D"slick-slide slick-active" data-=
-slick-index=3D"1" aria-hidden=3D"false" style=3D"width: 265px;"><div><div c=
+slick-index=3D"1" aria-hidden=3D"false" style=3D"width: 268px;"><div><div c=
 lass=3D"carousel_tile" style=3D"width: 100%; display: inline-block;">
               <div class=3D"common_white_box_tile">
                 <a href=3D"https://www.mindstix.com/careers/enterprise-java=
@@ -642,7 +642,7 @@ services #Containers #CloudNative</div>
                 </a>
               </div>
             </div></div></div><div class=3D"slick-slide slick-active" data-=
-slick-index=3D"2" aria-hidden=3D"false" style=3D"width: 265px;"><div><div c=
+slick-index=3D"2" aria-hidden=3D"false" style=3D"width: 268px;"><div><div c=
 lass=3D"carousel_tile" style=3D"width: 100%; display: inline-block;">
               <div class=3D"common_white_box_tile">
                 <a href=3D"https://www.mindstix.com/careers/react-js-develo=
@@ -662,7 +662,7 @@ Frontend #ProgressiveWebApps
                 </a>
               </div>
             </div></div></div><div class=3D"slick-slide slick-active" data-=
-slick-index=3D"3" aria-hidden=3D"false" style=3D"width: 265px;"><div><div c=
+slick-index=3D"3" aria-hidden=3D"false" style=3D"width: 268px;"><div><div c=
 lass=3D"carousel_tile" style=3D"width: 100%; display: inline-block;">
               <div class=3D"common_white_box_tile">
                 <a href=3D"https://www.mindstix.com/careers/ios-developer.h=
@@ -734,8 +734,7 @@ chine-learning-bg.jpg" alt=3D"services">
 /span>
                 <div class=3D"typewriter-text-area">
                   <div class=3D"typewriter-text">
-                    <span data-chaffle=3D"en" id=3D"change-text">buiuwwctr<=
-/span>
+                    <span data-chaffle=3D"en" id=3D"change-text">b</span>
                   </div>
                 </div>
               </div>
@@ -924,7 +923,7 @@ Hospitality.
 
 
 </body></html>
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/bootstrap/bootstrap-grid.min.css
@@ -1446,7 +1445,7 @@ width: 100%; }
 }
 
 .bootstrap-wrapper .img-fluid { max-width: 100%; height: auto; }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/animate.min.css
@@ -2635,7 +2634,7 @@ ic-bezier(0.175, 0.885, 0.32, 1); }
 }
 
 .slideOutUp { animation-name: slideOutUp; }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/font.css
@@ -2656,7 +2655,7 @@ eight: 600; font-style: normal; }
 ld.woff2") format("woff2"), url("../fonts/Metropolis-ExtraBold.woff") forma=
 t("woff"), url("../fonts/Metropolis-ExtraBold.ttf") format("truetype"); fon=
 t-weight: 900; font-style: normal; }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/default.css
@@ -3027,7 +3026,7 @@ textarea { resize: none; padding: 5px 15px; }
 
 .leaen_more_btn { padding: 5px 10px; background-color: rgb(0, 0, 0); color:=
  rgb(255, 255, 255); border-radius: 4px; }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/slick.css
@@ -3075,7 +3074,7 @@ gin-left: auto; margin-right: auto; }
 lid transparent; }
 
 .slick-arrow.slick-hidden { display: none; }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/css/styles.css?ver=2
@@ -6318,7 +6317,7 @@ _name { font-size: 28px; }
 @supports (-moz-appearance: none) {
   .top-section { height: 100vh; }
 }
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/mindstix_logo_white.svg
@@ -6455,7 +6454,111 @@ c0.01,0.4-0.15,0.79-0.44,1.07
 	</g>
 </g>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.mindstix.com/images/logo.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"148.636" height=3D"29.99=
+9" viewBox=3D"0 0 148.636 29.999">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill-rule:evenodd}.cls-2{fill:#0d7af7}
+        </style>
+    </defs>
+    <g id=3D"Group_1769" data-name=3D"Group 1769" transform=3D"translate(-9=
+9 -70)">
+        <g id=3D"Group_363" data-name=3D"Group 363" transform=3D"translate(=
+99 70)">
+            <path id=3D"Path_418" d=3D"M-985.062-367.441a7.23 7.23 0 0 1 2.=
+7 3.034 10.174 10.174 0 0 1 .971 4.561v10.992a1.421 1.421 0 0 1-.4 1.05 1.4=
+14 1.414 0 0 1-1.047.4 1.48 1.48 0 0 1-1.066-.4 1.386 1.386 0 0 1-.419-1.05=
+v-10.992a6.281 6.281 0 0 0-1.39-4.294 4.607 4.607 0 0 0-3.636-1.584 5.049 5=
+.049 0 0 0-3.884 1.6 5.8 5.8 0 0 0-1.447 4.2v11.068a1.421 1.421 0 0 1-.4 1.=
+05 1.415 1.415 0 0 1-1.047.4 1.48 1.48 0 0 1-1.066-.4 1.386 1.386 0 0 1-.41=
+9-1.05v-10.992A6.281 6.281 0 0 0-999-364.14a4.607 4.607 0 0 0-3.636-1.584 5=
+.186 5.186 0 0 0-3.884 1.565 5.506 5.506 0 0 0-1.523 4.007v11.3a1.422 1.422=
+ 0 0 1-.4 1.05 1.415 1.415 0 0 1-1.047.4 1.481 1.481 0 0 1-1.066-.4 1.386 1=
+.386 0 0 1-.419-1.05v-17.938a1.45 1.45 0 0 1 .419-1.069 1.443 1.443 0 0 1 1=
+.066-.42 1.38 1.38 0 0 1 1.047.42 1.488 1.488 0 0 1 .4 1.069v.839a7.4 7.4 0=
+ 0 1 2.532-1.889 7.578 7.578 0 0 1 3.18-.668 7.482 7.482 0 0 1 3.77.954 7.0=
+79 7.079 0 0 1 2.666 2.672 7.73 7.73 0 0 1 2.875-2.672 8.253 8.253 0 0 1 3.=
+979-.954 7.422 7.422 0 0 1 3.979 1.069zm8.016-.644a1.434 1.434 0 0 1 1.066-=
+.425 1.372 1.372 0 0 1 1.047.425 1.512 1.512 0 0 1 .4 1.08v18.1a1.512 1.512=
+ 0 0 1-.4 1.08 1.372 1.372 0 0 1-1.047.424 1.434 1.434 0 0 1-1.066-.424 1.4=
+73 1.473 0 0 1-.419-1.08v-18.1a1.473 1.473 0 0 1 .419-1.08zm2.475-6.607a1.9=
+49 1.949 0 0 1 .609 1.489 2.027 2.027 0 0 1-.609 1.488 2.018 2.018 0 0 1-1.=
+485.611 1.956 1.956 0 0 1-1.466-.611 2.061 2.061 0 0 1-.59-1.488 1.949 1.94=
+9 0 0 1 .609-1.489 2.089 2.089 0 0 1 1.485-.573 2.041 2.041 0 0 1 1.447.573=
+zm18.906 7.328a8.2 8.2 0 0 1 3.37 3.34 10.653 10.653 0 0 1 1.219 5.248v9.92=
+3a1.4 1.4 0 0 1-.419 1.031 1.4 1.4 0 0 1-1.028.42 1.443 1.443 0 0 1-1.066-.=
+42 1.4 1.4 0 0 1-.419-1.031v-9.923a6.765 6.765 0 0 0-1.885-5.172 6.9 6.9 0 =
+0 0-4.931-1.775 7.659 7.659 0 0 0-3.37.725 5.946 5.946 0 0 0-2.38 2 4.92 4.=
+92 0 0 0-.876 2.843v11.3a1.421 1.421 0 0 1-.4 1.05 1.414 1.414 0 0 1-1.047.=
+4 1.48 1.48 0 0 1-1.066-.4 1.386 1.386 0 0 1-.419-1.05v-17.938a1.45 1.45 0 =
+0 1 .419-1.069 1.442 1.442 0 0 1 1.066-.42 1.379 1.379 0 0 1 1.047.42 1.487=
+ 1.487 0 0 1 .4 1.069v1.3a8.883 8.883 0 0 1 3.046-2.213 9.391 9.391 0 0 1 3=
+.884-.8 10.17 10.17 0 0 1 4.855 1.145zm29.607.534v8.969a10.766 10.766 0 0 1=
+-1.39 5.42 10.128 10.128 0 0 1-3.808 3.836 10.6 10.6 0 0 1-5.388 1.393 10.6=
+ 10.6 0 0 1-5.388-1.393 10.128 10.128 0 0 1-3.808-3.836 10.765 10.765 0 0 1=
+-1.39-5.42 10.9 10.9 0 0 1 1.352-5.4 10.057 10.057 0 0 1 3.694-3.817 10.046=
+ 10.046 0 0 1 5.236-1.393 9.821 9.821 0 0 1 4.532 1.05 9.422 9.422 0 0 1 3.=
+389 2.882v-11.183a1.45 1.45 0 0 1 .419-1.069 1.443 1.443 0 0 1 1.066-.42 1.=
+38 1.38 0 0 1 1.047.42 1.486 1.486 0 0 1 .4 1.069v8.549a1.155 1.155 0 0 1 .=
+038.343zm-6.664 15.9a7.563 7.563 0 0 0 2.761-2.862 8.215 8.215 0 0 0 1.009-=
+4.065 8.571 8.571 0 0 0-.038-.954.424.424 0 0 1-.038-.191 7.665 7.665 0 0 0=
+-2.494-4.885 7.371 7.371 0 0 0-5.122-1.908 7.693 7.693 0 0 0-3.941 1.03 7.3=
+8 7.38 0 0 0-2.78 2.844 8.215 8.215 0 0 0-1.009 4.065 8.216 8.216 0 0 0 1.0=
+09 4.065 7.518 7.518 0 0 0 2.78 2.862 7.584 7.584 0 0 0 3.941 1.05 7.484 7.=
+484 0 0 0 3.922-1.05zm22.429-16.679a7.7 7.7 0 0 1 3.008 2.385 1.736 1.736 0=
+ 0 1 .3.878 1.167 1.167 0 0 1-.609 1.031 1.221 1.221 0 0 1-.723.191 1.745 1=
+.745 0 0 1-1.333-.572 6.422 6.422 0 0 0-5.1-2.137 5.843 5.843 0 0 0-3.351.8=
+59 2.542 2.542 0 0 0-1.257 2.156 2.547 2.547 0 0 0 1.18 2.195 10.962 10.962=
+ 0 0 0 4.189 1.317q4.075.687 5.826 2.233a4.911 4.911 0 0 1 1.752 3.836 5.02=
+6 5.026 0 0 1-1.047 3.13 6.8 6.8 0 0 1-2.913 2.137 11.082 11.082 0 0 1-4.22=
+7.763 12.979 12.979 0 0 1-4.531-.8 8.792 8.792 0 0 1-3.5-2.252 1.4 1.4 0 0 =
+1-.381-.878 1.451 1.451 0 0 1 .609-1.145 1.562 1.562 0 0 1 .952-.343 1.4 1.=
+4 0 0 1 1.1.534 5.841 5.841 0 0 0 2.418 1.641 9.3 9.3 0 0 0 3.332.573 7.1 7=
+.1 0 0 0 4-.916 2.9 2.9 0 0 0 1.371-2.4 2.706 2.706 0 0 0-1.333-2.29 10.633=
+ 10.633 0 0 0-4.227-1.374 11.831 11.831 0 0 1-5.578-2.118 4.558 4.558 0 0 1=
+-1.847-3.645 4.979 4.979 0 0 1 2.152-4.313 9.08 9.08 0 0 1 5.388-1.527 10.3=
+87 10.387 0 0 1 4.379.859zm19.877 17.69a1.53 1.53 0 0 1 .381 1.069 1.345 1.=
+345 0 0 1-.457 1.031 1.624 1.624 0 0 1-1.142.42h-.8a6.821 6.821 0 0 1-3.618=
+-.973 6.81 6.81 0 0 1-2.494-2.634 7.8 7.8 0 0 1-.895-3.759l.152-11.335h-2.4=
+75a1.309 1.309 0 0 1-.971-.363 1.218 1.218 0 0 1-.362-.9 1.267 1.267 0 0 1 =
+.362-.935 1.31 1.31 0 0 1 .971-.362h2.475l-.152-7.061a1.486 1.486 0 0 1 .4-=
+1.069 1.38 1.38 0 0 1 1.047-.42 1.443 1.443 0 0 1 1.066.42 1.449 1.449 0 0 =
+1 .419 1.069l.152 7.061h4.3a1.311 1.311 0 0 1 .971.362 1.267 1.267 0 0 1 .3=
+62.935 1.218 1.218 0 0 1-.362.9 1.31 1.31 0 0 1-.971.363h-4.3l-.152 11.335a=
+4.52 4.52 0 0 0 1.142 3.187 3.808 3.808 0 0 0 2.932 1.24h1.028a1.274 1.274 =
+0 0 1 .99.42zm4.646-18.162a1.435 1.435 0 0 1 1.066-.425 1.372 1.372 0 0 1 1=
+.047.425 1.513 1.513 0 0 1 .4 1.08v18.1a1.513 1.513 0 0 1-.4 1.08 1.372 1.3=
+72 0 0 1-1.047.424 1.435 1.435 0 0 1-1.066-.424 1.474 1.474 0 0 1-.419-1.08=
+v-18.1a1.474 1.474 0 0 1 .419-1.08zm2.513-6.607a1.949 1.949 0 0 1 .609 1.48=
+9 2.027 2.027 0 0 1-.609 1.488 2.019 2.019 0 0 1-1.485.611 1.956 1.956 0 0 =
+1-1.466-.611 2.061 2.061 0 0 1-.59-1.488 1.949 1.949 0 0 1 .609-1.489 2.089=
+ 2.089 0 0 1 1.485-.573 2.042 2.042 0 0 1 1.447.573z" class=3D"cls-1" data-=
+name=3D"Path 418" transform=3D"translate(1010.975 377.212)"/>
+        </g>
+        <path id=3D"Path_419" d=3D"M-459.35-328.828l-6.283-8.073a1.378 1.37=
+8 0 0 1 .237-1.931 1.368 1.368 0 0 1 1.919.239l6.852 8.8a1.378 1.378 0 0 1 =
+.1 1.82l-7.259 9.162a1.368 1.368 0 0 1-1.922.222 1.378 1.378 0 0 1-.22-1.93=
+3l6.58-8.3z" class=3D"cls-2" data-name=3D"Path 419" transform=3D"translate(=
+696.332 418.29)"/>
+        <g id=3D"Group_364" data-name=3D"Group 364" transform=3D"translate(=
+240.354 79.167)">
+            <path id=3D"Path_420" d=3D"M-421.194-287.678l4.551 5.84a1.37 1.=
+37 0 0 1-.236 1.921 1.364 1.364 0 0 1-1.915-.233l-4.551-5.84a1.37 1.37 0 0 =
+1 .236-1.921 1.364 1.364 0 0 1 1.914.233z" class=3D"cls-1" data-name=3D"Pat=
+h 420" transform=3D"translate(423.636 300.458)"/>
+            <path id=3D"Path_421" d=3D"M-422.694-333.089l4.377-5.515a1.373 =
+1.373 0 0 1 1.929-.222 1.38 1.38 0 0 1 .22 1.937l-4.377 5.515a1.373 1.373 0=
+ 0 1-1.929.222 1.38 1.38 0 0 1-.22-1.937z" class=3D"cls-1" data-name=3D"Pat=
+h 421" transform=3D"translate(423.148 339.124)"/>
+        </g>
+    </g>
+</svg>=0A
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://www.mindstix.com/images/careers_bg_img/machine-learning-bg.jpg
@@ -18361,7 +18464,7 @@ A5cCv6aH/kH+hX9ND/yD/QqNFQfgMdjFLGo25pI43/WoNf00P/IP9CtCp0UVisdgorjDCv6WH/kH
 +hQgiQ6lUA/wKxWKxWKxWKxWKxWKxWKxWhX6NX9ND/yD/QrFYrFYrFYrFYrFYrFYrFYrFYrFYrQp
 /IgZrFYrFYrFY+JigijsYr+lh/5B/oULeEbIP9Ds/wD/2Q==
 
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/engg_and_tech_icon.svg
@@ -18454,7 +18557,7 @@ L20.8719 39.3206C20.8724 39.3201 20.8729 39.3196 20.8734 39.3191C21.373 38.=
 88C31.2803 33.0412 30.0164 33.7287 28.5937 33.9657V30.9209C28.9419 30.817 2=
 9.2419 30.6749 29.528 30.4865Z" fill=3D"#357BEF"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/flexible_icon.svg
@@ -18508,7 +18611,7 @@ Content-Location: https://www.mindstix.com/images/flexible_icon.svg
 .9321 13.4319 15.6671 13.2366 15.4718C13.0412 15.2764 12.7763 15.1667 12.5 =
 15.1667Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/health_icon.svg
@@ -18535,7 +18638,7 @@ C0.5625 14.3828 10.7696 18.6597 11.204 18.8379C11.2988 18.8769 11.3995 18.8=
 .2601C9.87292 16.5179 2.125 12.663 2.125 6.65625C2.125 3.23438 3.4901 1.708=
 33 6.55208 1.70833Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/accelarated_icon.svg
@@ -18579,7 +18682,7 @@ C10.0741 5.9297 10.1314 6.01713 10.2041 6.09086C10.2767 6.16459 10.3634 6.2=
 053 19.8572C2.61906 19.8572 2.1616 19.3987 2.1616 18.8125V15.6875C2.1616 15=
 .1013 2.61906 14.6428 3.2053 14.6428Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/competitive_icon.svg
@@ -18621,7 +18724,7 @@ ZM10.5 4.79167C11.0425 4.79167 11.3569 4.99526 11.6261 5.3654C11.8953 5.735=
 667C3.96819 14.1667 3.96771 14.1656 3.96719 14.1656H2.19005Z" fill=3D"black=
 "/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/revards_icon.svg
@@ -18678,7 +18781,7 @@ L5.27733 3.29639L6.70352 3.67073C6.83482 3.70515 6.97282 3.70477 7.10392 3.=
 V21.2173L9.51114 19.8084C8.90071 19.4015 8.09927 19.4015 7.48884 19.8084L5.=
 37499 21.2173V16.0487L6.66893 15.7089Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/sponsored_certifications.svg
@@ -18718,7 +18821,7 @@ Content-Location: https://www.mindstix.com/images/sponsored_certifications.svg
 9 28 30.7731 28 33C28 35.2269 26.2269 37 24 37C21.7731 37 20 35.2269 20 33C=
 20 30.7731 21.7731 29 24 29Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/global_customers.svg
@@ -18772,7 +18875,7 @@ Content-Location: https://www.mindstix.com/images/global_customers.svg
 278 42 24 42C22.1722 42 20.5374 41.5377 19.4688 40.8965C18.4001 40.2553 18 =
 39.5668 18 39V36.5C18 36.205 18.205 36 18.5 36Z" fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/mentorship_leaders.svg
@@ -18860,7 +18963,7 @@ C45 39.5032 44.6372 40.2031 43.6172 40.8536C42.5971 41.5042 40.9874 42.0021=
 33 39.5024 33 38.9493V37.0529C33 37.0068 33.0067 37.0001 33.0527 37.0001Z" =
 fill=3D"black"/>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/breaker_box_img.svg
@@ -18948,7 +19051,7 @@ hite" stroke-opacity=3D"0.7" stroke-width=3D"3"/>
 </clipPath>
 </defs>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB----
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.mindstix.com/images/right-arrow-bio.svg
@@ -18972,4 +19075,4 @@ ls-1" data-name=3D"Line 292" transform=3D"translate(355.5 1754.5)"/>
         </g>
     </g>
 </svg>=0A
-------MultipartBoundary--RnIYP513C6hZZAumRvrTB8ZVAvvaLJ5nDgSq4dN2EB------
+------MultipartBoundary--pGlbdlfZIFmPy5t6wrWIGz2vqJ2qF5x6ZlV1CN0gSW------

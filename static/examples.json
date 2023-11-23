@@ -405,33 +405,6 @@
     ]
   },
   {
-    "id": "0a6346b8-2c83-48e9-adf0-c76792862594",
-    "url": "https://blog.perplexity.ai/careers/llm-teacher",
-    "source": "mhtml",
-    "domain": "software",
-    "subdomain": "careers",
-    "type": "fetch",
-    "fetch_id": "job_posting",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": {
-          "job_id": null,
-          "job_title": "LLM Teacher",
-          "job_category": "Engineering",
-          "date_posted": null,
-          "location": "San Francisco",
-          "job_description": "As an LLM Teacher, you will play a critical role in teaching our large language models how to behave, improving our models and thus product experience through data. You will work closely with the AI team to build high volume, high quality, and diverse datasets. You will use our in-house suite of data tools to achieve this, and have an active role in improving the next generation of AI tools. As an LLM Teacher at Perplexity, you will play a pivotal role in shaping the future of our answer engine.",
-          "roles_and_responsibilities": "Collaborate with AI researchers and engineers to curate diverse and high quality examples of intended model behavior\n\nUse and improve the next generation of LLM AI labeling interfaces\n\nVerify new models trained on the latest data improve performance. Data you create will be deployed in production environments, where millions of people worldwide will be impacted from your work\n\nWork on increasing the factual accuracy of generated content. Define and contribute to the development of our AI's ability to generate creative, human-like, and engaging content",
-          "qualifications": "Passion and curiosity for experimenting with cutting edge generative AI technologies\n\nVery strong attention to detail, quality focused, and the ability to stay organized\n\nAdaptable, proactively applies logic to different scenarios, and has experience with computers and other software\n\nEnjoys a fast-paced environment\n\nExcellent communication and collaboration skills\n\nNative English speaking abilities or equivalent\n\nYou stay up-to-date and informed by taking an active interest in emerging research and industry trends\n\nCollege level graduate at a minimum",
-          "preferred_qualifications": null,
-          "benefits": null,
-          "salary": "$30/hr"
-        }
-      }
-    ]
-  },
-  {
     "id": "a266e560-aa88-49fe-b3c0-2731163b1921",
     "url": "https://jobs.netflix.com/jobs/301592752",
     "source": "mhtml",

@@ -1,22 +1,22 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: https://www.seielect.com/?stockcheck=ASR1JA330R
 Subject: Surface Mount Resistors | Axial Leaded Resistors | Wirewound Resistors | Stackpole Electronics, Inc.
-Date: Fri, 10 Nov 2023 23:27:40 -0000
+Date: Thu, 23 Nov 2023 14:28:53 -0800
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----"
+	boundary="----MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----"
 
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/html
-Content-ID: <frame-1696F839DE7A0BEB1CC9F5047DD50A22@mhtml.blink>
+Content-ID: <frame-589705C53866527FC9FC7CB3E5E06066@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/?stockcheck=ASR1JA330R
 
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
-"cid:css-b10728a7-f957-4ee0-8fc8-f259df037db9@mhtml.blink" />
+"cid:css-a4c3d07c-d24a-4483-b3b0-0df167a8fb0e@mhtml.blink" />
     <meta lang=3D"en">
     <title>Surface Mount Resistors | Axial Leaded Resistors | Wirewound Res=
 istors | Stackpole Electronics, Inc.</title>
@@ -491,7 +491,7 @@ right"><a><i class=3D"far fa-times-circle" style=3D"color:black;font-weight=
 </tr>
 <tr>
 <td align=3D"right">Lead Time</td>
-<td align=3D"center">1/12/2024</td>
+<td align=3D"center">1/26/2024</td>
 </tr>
 </tbody></table></div><div xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:xs=
 =3D"http://www.w3.org/2001/XMLSchema" id=3D"scfCustTable" style=3D"display:=
@@ -793,10 +793,10 @@ get=3D"_blank">
 
 
 </body></html>
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b10728a7-f957-4ee0-8fc8-f259df037db9@mhtml.blink
+Content-Location: cid:css-a4c3d07c-d24a-4483-b3b0-0df167a8fb0e@mhtml.blink
 
 @charset "utf-8";
 
@@ -823,7 +823,7 @@ font-size: 18px; line-height: 30px; font-weight: bolder; color: rgb(255, 25=
 
 .tagimage { height: 196px; width: 360px; display: inline-block; margin-top:=
  5px; margin-left: -10px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
@@ -1631,15 +1631,15 @@ d .form-control:valid ~ .valid-tooltip { display: block; }
 75em + 0.1875rem) top calc(0.375em + 0.1875rem); }
 
 .custom-select.is-valid, .was-validated .custom-select:valid { border-color=
-: rgb(40, 167, 69); padding-right: calc(((1em + 0.75rem) * 3) / 4 + 1.75rem=
-); background: url("data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/20=
-00/svg' viewBox=3D'0 0 4 5'%3e%3cpath fill=3D'%23343a40' d=3D'M2 0L0 2h4zm0=
- 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center / 8px 10px no-repeat, url("=
-data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=3D'0=
- 0 8 8'%3e%3cpath fill=3D'%2328a745' d=3D'M2.3 6.73L.6 4.53c-.4-1.04.46-1.4=
- 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e=
-%3c/svg%3e") right 1.75rem center / calc(0.75em + 0.375rem) calc(0.75em + 0=
-.375rem) no-repeat rgb(255, 255, 255); }
+: rgb(40, 167, 69); padding-right: calc(0.75em + 2.3125rem); background: ur=
+l("data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=
+=3D'0 0 4 5'%3e%3cpath fill=3D'%23343a40' d=3D'M2 0L0 2h4zm0 5L0 3h4z'/%3e%=
+3c/svg%3e") right 0.75rem center / 8px 10px no-repeat, url("data:image/svg+=
+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=3D'0 0 8 8'%3e%3cpa=
+th fill=3D'%2328a745' d=3D'M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4=
+ 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") ri=
+ght 1.75rem center / calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-rep=
+eat rgb(255, 255, 255); }
 
 .custom-select.is-valid:focus, .was-validated .custom-select:valid:focus { =
 border-color: rgb(40, 167, 69); box-shadow: rgba(40, 167, 69, 0.25) 0px 0px=
@@ -1730,16 +1730,16 @@ lid { padding-right: calc(1.5em + 0.75rem); background-position: right calc=
 (0.375em + 0.1875rem) top calc(0.375em + 0.1875rem); }
 
 .custom-select.is-invalid, .was-validated .custom-select:invalid { border-c=
-olor: rgb(220, 53, 69); padding-right: calc(((1em + 0.75rem) * 3) / 4 + 1.7=
-5rem); background: url("data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.or=
-g/2000/svg' viewBox=3D'0 0 4 5'%3e%3cpath fill=3D'%23343a40' d=3D'M2 0L0 2h=
-4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center / 8px 10px no-repeat, u=
-rl("data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' fill=3D'=
-%23dc3545' viewBox=3D'-2 -2 7 7'%3e%3cpath stroke=3D'%23dc3545' d=3D'M0 0l3=
- 3m0-3L0 3'/%3e%3ccircle r=3D'.5'/%3e%3ccircle cx=3D'3' r=3D'.5'/%3e%3ccirc=
-le cy=3D'3' r=3D'.5'/%3e%3ccircle cx=3D'3' cy=3D'3' r=3D'.5'/%3e%3c/svg%3E"=
-) right 1.75rem center / calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no=
--repeat rgb(255, 255, 255); }
+olor: rgb(220, 53, 69); padding-right: calc(0.75em + 2.3125rem); background=
+: url("data:image/svg+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' viewB=
+ox=3D'0 0 4 5'%3e%3cpath fill=3D'%23343a40' d=3D'M2 0L0 2h4zm0 5L0 3h4z'/%3=
+e%3c/svg%3e") right 0.75rem center / 8px 10px no-repeat, url("data:image/sv=
+g+xml,%3csvg xmlns=3D'http://www.w3.org/2000/svg' fill=3D'%23dc3545' viewBo=
+x=3D'-2 -2 7 7'%3e%3cpath stroke=3D'%23dc3545' d=3D'M0 0l3 3m0-3L0 3'/%3e%3=
+ccircle r=3D'.5'/%3e%3ccircle cx=3D'3' r=3D'.5'/%3e%3ccircle cy=3D'3' r=3D'=
+.5'/%3e%3ccircle cx=3D'3' cy=3D'3' r=3D'.5'/%3e%3c/svg%3E") right 1.75rem c=
+enter / calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat rgb(255, =
+255, 255); }
 
 .custom-select.is-invalid:focus, .was-validated .custom-select:invalid:focu=
 s { border-color: rgb(220, 53, 69); box-shadow: rgba(220, 53, 69, 0.25) 0px=
@@ -3718,7 +3718,7 @@ ay: block; content: ""; border-color: transparent; border-style: solid; }
 5rem; }
 
 .bs-popover-auto[x-placement^=3D"top"] > .arrow, .bs-popover-top > .arrow {=
- bottom: calc((0.5rem + 1px) * -1); }
+ bottom: calc(-0.5rem - 1px); }
 
 .bs-popover-auto[x-placement^=3D"top"] > .arrow::before, .bs-popover-top > =
 .arrow::before { bottom: 0px; border-width: 0.5rem 0.5rem 0px; border-top-c=
@@ -3732,8 +3732,8 @@ or: rgb(255, 255, 255); }
 0.5rem; }
 
 .bs-popover-auto[x-placement^=3D"right"] > .arrow, .bs-popover-right > .arr=
-ow { left: calc((0.5rem + 1px) * -1); width: 0.5rem; height: 1rem; margin: =
-0.3rem 0px; }
+ow { left: calc(-0.5rem - 1px); width: 0.5rem; height: 1rem; margin: 0.3rem=
+ 0px; }
 
 .bs-popover-auto[x-placement^=3D"right"] > .arrow::before, .bs-popover-righ=
 t > .arrow::before { left: 0px; border-width: 0.5rem 0.5rem 0.5rem 0px; bor=
@@ -3747,7 +3747,7 @@ r-right-color: rgb(255, 255, 255); }
  0.5rem; }
 
 .bs-popover-auto[x-placement^=3D"bottom"] > .arrow, .bs-popover-bottom > .a=
-rrow { top: calc((0.5rem + 1px) * -1); }
+rrow { top: calc(-0.5rem - 1px); }
 
 .bs-popover-auto[x-placement^=3D"bottom"] > .arrow::before, .bs-popover-bot=
 tom > .arrow::before { top: 0px; border-width: 0px 0.5rem 0.5rem; border-bo=
@@ -3766,8 +3766,8 @@ ottom: 1px solid rgb(247, 247, 247); }
 .5rem; }
 
 .bs-popover-auto[x-placement^=3D"left"] > .arrow, .bs-popover-left > .arrow=
- { right: calc((0.5rem + 1px) * -1); width: 0.5rem; height: 1rem; margin: 0=
-.3rem 0px; }
+ { right: calc(-0.5rem - 1px); width: 0.5rem; height: 1rem; margin: 0.3rem =
+0px; }
 
 .bs-popover-auto[x-placement^=3D"left"] > .arrow::before, .bs-popover-left =
 > .arrow::before { right: 0px; border-width: 0.5rem 0px 0.5rem 0.5rem; bord=
@@ -5155,7 +5155,7 @@ ead th { border-color: rgb(222, 226, 230); }
   .table .thead-dark th { color: inherit; border-color: rgb(222, 226, 230);=
  }
 }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/global.css
@@ -5424,7 +5424,7 @@ dius: 3px; background-color: rgb(248, 248, 248); }
 ding-right: 0px; padding-left: 0px; max-width: 50%; min-width: 250px; }
   .nav_open_blue { margin-right: 0px; width: 100%; padding-left: 5px; }
 }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/producttile.css
@@ -5509,7 +5509,7 @@ ca, Arial, sans-serif; font-size: 12px; font-weight: bold; color: rgb(0, 0,=
 ck; text-decoration: none; }
 
 .tile_button img { margin-right: 10px; float: left; margin-bottom: 20px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/parametrics.css
@@ -5756,7 +5756,7 @@ n-top: 10px; }
 icrosoft JhengHei", MingLiU, "Apple LiSung"; font-weight: normal; font-size=
 : 13px; line-height: 15px; color: rgb(85, 85, 85); display: inline-block; m=
 argin-top: 0px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/login.css
@@ -5857,7 +5857,7 @@ nt-size: 35px; font-weight: bold; }
 @media screen and (max-width: 768px) {
   .loginmodal-content { width: 95%; }
 }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/stockcheck.css
@@ -6182,7 +6182,7 @@ ngHei", MingLiU, "Apple LiSung"; font-size: 11px; line-height: 10px; color:=
 }
 
 .snd_border { border: 3px solid lightskyblue; border-radius: 20px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/CSS/dropdown.css
@@ -6203,7 +6203,7 @@ b(249, 249, 249); min-width: 160px; box-shadow: rgba(0, 0, 0, 0.2) 0px 8px =
   .dropdown { position: absolute; top: -80px; left: 80%; margin-left: 0px; =
 }
 }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css
@@ -6525,7 +6525,7 @@ inate { float: none; text-align: center; }
 ilter { float: none; text-align: center; }
   .dataTables_wrapper .dataTables_filter { margin-top: 0.5em; }
 }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://use.fontawesome.com/releases/v5.7.1/css/all.css
@@ -9354,7 +9354,7 @@ format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("=
 .fa, .far, .fas { font-family: "Font Awesome 5 Free"; }
 
 .fa, .fas { font-weight: 900; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/SEILogoFlat.png
@@ -10513,7 +10513,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAD//wB9Xl8VvIy7AAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/stackpolewebbanner.png
@@ -23206,7 +23206,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAQAA///CesfBFvPj6gAAAABJRU5ErkJggg==
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_parametric.png
@@ -23263,7 +23263,7 @@ MQL93TQPsrugE1+z1kzI7oA2NjVrLmRXQc/fy9BsyLagdMvM/0VfBX6lXHh7nujGiA/JUaQJoDUN
 jWybW21dIwvP8uSVCImSYcXuy5BX1bb3GNtbF0EyM9B79SftrsHo3QqmkKFQ7PDtjaJcodrKXfd+
 UOzZ7k2iPHSzfROzrspd9269qEUph5vKvwla1Fv/F/KvAAMAHDo0l4Iq/LIAAAAASUVORK5CYII=
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_prod_search.png
@@ -23310,7 +23310,7 @@ aN9D8ljebr6xBPTQN82o+LnL+SDNBaWAH9V0OE/gsRTUHECngFwO1FxATkottmXaiZJMVDcqcfz8
 XxbVk7fgWvtcF0pD3bUVrq0WClnp4pCVFLIK0zt8XVGUq0o4s+s+D9N7tl1JlIdutp9iXiEzu+7T
 XMiilCNt3r8JZuWq/wv5X4ABAEXodqE2M3rKAAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_spec_finter.png
@@ -23377,7 +23377,7 @@ fRgvMQSl6B1+ARImkPQy72M8s0cmhdYeMZdvH9qZkAeO3QkzJzFIuzXmh+jyKnxF5CKBPMMLksBQ
 1+u7PTth3DcntNbRTmnHwiqJ65coZzS/uUzpFr3D5k9Tlv8KCXtz+f/iHXTGgsW37rtE5PeDXJYA
 0oeEtP1+/b+Q/wkwAFoTJ9LjacfNAAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_cross_ref.png
@@ -23417,7 +23417,7 @@ Wn5UFA+mXme/VlPT8qMidTKg9rBWU5OEhBKiitg2qitno++CMgr741qZclvXzmb+TWAgDaSBNJAG
 0kAaSPu5UJ1tAZAzmkNOAzKrOWQWkDn27wlfHQ1cOct56j6pYW6CBw/bL9vV1XnqPq6RouCI1/ya
 wDVdfxfyV4ABAENwkItpBf9dAAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_stock_check.png
@@ -23701,7 +23701,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAA7QAAAMkAAAClAAAAqPetav4AAAAAAAAAAAEAAP//XHN7q20lzMYAAAAASUVORK5CYII=
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_counter_fit.png
@@ -23734,7 +23734,7 @@ CrNSYVhQ5Dq8k+vdFx/hbIviVQyPX3+h2EzQTPOg8uTff//h7M/ApP/+28/R0nXUk6OexO7JN8Pc
 j29BBQ9oMa8XrW16+f4bQ9eas+AC6MPXX/T05EnQot4oBsi67eEKwEtBVzBAVvgORwDy1wom6Kr7
 kGGYN0H+AS22/wcuXaGr7s2GUYyC/GGGspsABobrvhCAAAMAppaCc6Yj6BEAAAAASUVORK5CYII=
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css?family=Fira%20Sans
@@ -23776,7 +23776,7 @@ jLazX3dGTP.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308,=
 jLazX3dA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, =
 U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U=
 +20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css?family=Mitr
@@ -23804,7 +23804,7 @@ url("https://fonts.gstatic.com/s/mitr/v11/pxiLypw5ucZF-Tw4Mbr8f1s.woff2") f=
 ormat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, =
 U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2=
 191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/css/stockcheck.css
@@ -24129,7 +24129,7 @@ ngHei", MingLiU, "Apple LiSung"; font-size: 11px; line-height: 10px; color:=
 }
 
 .snd_border { border: 3px solid lightskyblue; border-radius: 20px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/css/pb.css
@@ -24229,7 +24229,7 @@ px; }
 .pb_char_table td { border-collapse: collapse; border-spacing: 2px 0px; mar=
 gin-right: 0px; margin-left: 20px; border-radius: 5px 5px 0px 0px; border: =
 1px solid rgb(240, 240, 240); padding: 5px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.seielect.com/css/typeahead.css
@@ -24271,7 +24271,7 @@ nd-color: rgb(0, 151, 207); }
 .tt-suggestion p { margin: 0px; }
 
 .gist { font-size: 14px; }
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/ASR_ASRM_icon.png
@@ -26067,7 +26067,7 @@ yH489vZ7bekOulG/d9SXntrvnej93kUY7AZfc87h3H7vNQbf9YX7vS/7nEOBfq/vuYKhFwAAAAAA
 AGDozfXjxz/i6fGXLD0/ykr5SdrViqzZ1v6ytxmNvR1l7I0ue6OUw7Dfke6we5BzCCZjOQ32/d55
 GMjFPJAv8+lFcw631e9dHu33roz93nl2ziHu97puX6jf5v8HAPSKS+7dcfyqAAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/Adobe_pdf_24x24.png
@@ -26096,7 +26096,7 @@ myO9+VYshKpx3qMWsanjPWynDsyIMRJjxMzKyfuYfvtoBT+UTD7O2+rEDJvMEx+lcy6JMcaPa7J4
 771zTncwze3ZstkkbeLL7QqwuLhICIELFy6MT548+ZfxeNyZJvpJLcYY6/V6a3V19T+7/ipmrAa0
 gSZUFfgUJkAJbAL9/wH8NBhIGrqhbAAAAABJRU5ErkJggg==
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/stpicon.png
@@ -26355,7 +26355,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAP//o/F2c7768BYAAAAASUVO
 RK5CYII=
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://sei.componentsearchengine.com/icon.php?mna=Stackpole%20Electronics%20Inc.&mpn=ASR1JA330R&lbl=1&lang=en-US&q3=1
@@ -26467,7 +26467,7 @@ opacity=3D'0' stroke=3D'#FFFFFF' stroke-width=3D'1'/>
 200' fill=3D'#'>3D Model</tspan>
 </text>
 </svg>
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK----
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.seielect.com/images/icon_info_12x12.png
@@ -26486,4 +26486,4 @@ y/T6/AwmGAoA/f3/AN/q+AAgFQbZUTEVNhMMCPIqHQwAAf///wDe8AAA3+frAPH2/BXX5flu7PT6
 KQcFAv4XDwTLFwf+iyMZEQACAgQANSQNAAH///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAABAAD//ziOxB0FU1uPAAAAAElFTkSuQmCC
 
-------MultipartBoundary--qhEKkfMHAHLdwMnyVS7ARyO9tvcm6UnDlIrLymsEbK------
+------MultipartBoundary--OJn7FZPUDFOIaTSH6mepkRA9kNRkAdt7EjDHeJUkO3------
