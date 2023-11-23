@@ -9,7 +9,8 @@ import sys
 from pathlib import Path
 from typing import List
 
-from bananalyzer import AgentRunner, examples
+from bananalyzer import AgentRunner
+from bananalyzer.data.examples import get_training_examples
 from bananalyzer.runner.runner import TestGenerator, run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
 
@@ -193,7 +194,7 @@ def main() -> int:
     print(f"Loaded agent {agent.class_name} from {agent.class_name}")
 
     # Filter examples based on args
-    filtered_examples = examples[:]
+    filtered_examples = get_training_examples()
     if args.id:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id

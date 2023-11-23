@@ -22,7 +22,9 @@ class NullAgentRunner(AgentRunner):
         print(f"Done testing {example.get_static_url()}")
 
         # Ensure page is correct
-        if example.evals[0].type == "end_url_match":
+        if example.evals[0].type == "end_url_match" and isinstance(
+            example.evals[0].expected, str
+        ):
             await page.goto(example.evals[0].expected)
 
         return example.evals[0].expected
