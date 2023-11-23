@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "c5e7ec4b-ad83-49a5-b056-a37ddf974a64",
+    "url": "https://www.mindstix.com/careers/machine-learning.html",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Machine Learning Engineer",
+          "job_category": null,
+          "date_posted": null,
+          "location": null,
+          "job_description": "Mindstix is looking for a proficient Data Scientist with good Data Engineering and model development skills. You are a collaborative person who takes pleasure in finding solutions to issues that add to the bottom line. You appreciate technical work by hand and feel a sense of ownership. You require a keen eye for detail, work experience as a data scientist, and in-depth knowledge of widely used models and technologies for data science including creating machine learning models and retraining systems.",
+          "roles_and_responsibilities": "Build outstanding domain-focused data solutions with internal teams, business analysts, and stakeholders.\nApply AI/ML practices and standards to develop robust and maintainable solutions.\nMotivated by a fast-paced, service-oriented environment and interacting directly with clients on new features for future product releases\nA natural problem-solver and intellectually curious across a breadth of industries and topics\nAcquainted in different aspects of Data Management like Data Strategy, Architecture, Governance, Data Quality, Integrity & Data Integration, and Model Deployment.\nStudy and transform data science prototypes.\nExtremely well-versed in designing/developing models and monitoring.",
+          "qualifications": "Bachelor\u2019s or Master's degree in Computer Science, Information Technology, or allied streams.\n3+ years of hands-on experience in the data engineering domain with data science development.\nMust have experience with end-to-end data science project implementation on Azure or GCP.\nMust have Python, Tensorflow, and Keras for implementing complex models and end-to-end pipelines.\nGood with Matplotlib/Seaborn for creating good data visualizations for interpreting data\nGood with Pandas and NumPy for data-wrangling tasks\nSolid understanding of DS concepts such as Feature Engineering., Model development, model deployment, model monitoring, hyperparameter tuning\nExpertise in Tensorflow - Model Building, Feature Engineering, Model Deployment, and Monitoring.\nUnderstanding of Apache Spark, Airflow, Hudi, Iceberg, Nessie, NiFi, Luigi, and Arrow (Good to have)\nStrong foundations in computer science, data structures, algorithms, and programming logic.\nExcellent logical reasoning and data interpretation capability.\nAbility to interpret business requirements accurately.\nExposure to work with multicultural international customers.\nExperience in the Retail/ Supply Chain/ CPG/ ECommerce/Health Industry is a plus.",
+          "preferred_qualifications": "You are a data enthusiast and problem solver.\nYou are a self-motivated and fast learner with a strong sense of ownership and drive.\nYou enjoy working in a fast-paced creative environment.\nYou appreciate great design, have a strong sense of aesthetics and have a keen eye for detail.\nYou thrive in a customer-centric environment with the ability to actively listen, empathize and collaborate with globally distributed teams.\nYou are a team player who desires to mentor and inspire others to do their best.\nYou love expressing ideas and articulating well with strong written and verbal English communication and presentation skills.\nYou are detail-oriented with an appreciation for craftsmanship.\nKeep abreast of developments in the field.",
+          "benefits": "\nFlexible working environment.\nHealth Insurance Coverage.\nAccelarated Career Paths.\nGlobal customers.\nCompetitive compensation and perks.\nRewards and Recognition.\nSponsored certifications.\nMentorship by industry leaders.",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "8366209e-e5fb-4f64-85e0-79cd90985b59",
+    "url": "https://www.amazon.jobs/en/jobs/2482000/software-development-engineer-amazon-access",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "2482000",
+          "job_title": "Software Development Engineer, Amazon Access",
+          "job_category": null,
+          "date_posted": null,
+          "location": "USA, WA, Seattle",
+          "job_description": "At Amazon Access, we are committed to innovation, striving to create solutions that enhance the lives of underserved customer\nsegments. Currently, we are in the process of assembling a dedicated team to conceptualize, design, and implement a new benefits acceptance workflow solution. Integrated across Amazon Retail, this initiative will offer our customers greater flexibility in utilizing their benefits across Amazon businesses. For the initiative, we are looking for a Software Development Engineers (SDEs) who are passionate to solve complex, cross-functional problems and build a customer experience that improves and simplifies our customers\u2019 lives.\n\nYou will have the opportunity to impact the design, architecture, and implementation of our programs and work with and learn from teams across the company. You will strive for simplicity and flexibility in what you create. You will be the voice of the customer throughout your work. Customer experience, usability, and operational excellence will be your top priorities as you deliver quality solutions.",
+          "roles_and_responsibilities": "As Software Development Engineer, you will work in a high quality, creative, visionary software development team to build and innovate the technology platform that powers the program. You are great at designing, building, and innovating solutions that are simple and easy to maintain and scale. You will deliver components/features spanning the full software lifecycle including working backwards from customers, software design, implementation, testing, and deployment, operations, and documentation. You bring in a continuous design thought process of operational excellence. ",
+          "qualifications": "- 3+ years of non-internship professional software development experience\n- 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience programming with at least one software programming language",
+          "preferred_qualifications": "- 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n- Bachelor's degree in computer science or equivalent",
+          "benefits": null,
+          "salary": "$115,000 - $223,600"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6152ba56-e62b-42d1-beec-6ecac1dfec35",
+    "url": "https://openai.com/careers/software-engineer-fullstack",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Software Engineer, Fullstack",
+          "job_category": "Applied AI Engineering",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "We are looking for a self-starter engineer who loves building new products in an iterative and fast-moving environment. In this role, you will be bringing our large language models to millions of users around the world. Our users include everyday enthusiasts as well as professionals for ChatGPT, and everyone from hobbyists to large enterprises for the OpenAI API \u2014 you\u2019ll interface directly with users to develop the features they want most! You will also collaborate closely with the research teams that created the core models and work with them on continual improvement. You will be a key part of the effort to push these technologies forward, and onto the next 100x users.",
+          "roles_and_responsibilities": "Own the development of new customer-facing ChatGPT and OpenAI API features and product experiences end-to-end\nTalk to users to understand their problems and design solutions to address them\nWork with the research team to get relevant feedback and iterate on their latest models\nCollaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products\nOptimize applications for speed and scale",
+          "qualifications": "5+ years of relevant engineering experience at tech and product-driven companies\nProficiency with JavaScript, React, and other web technologies\nProficiency with some backend language (we use Python)\nSome experience with relational databases like Postgres/MySQL\nInterest in AI/ML (direct experience not required)\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines",
+          "preferred_qualifications": null,
+          "benefits": "Total compensation also includes generous equity and benefits.\n\nMedical, dental, and vision insurance for you and your family\nMental health and wellness support\n401(k) plan with 4% matching\nUnlimited time off and 18+ company holidays per year\nPaid parental leave (20 weeks) and family-planning support\nAnnual learning & development stipend ($1,500 per year)",
+          "salary": "$160,000 - $385,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d86e052f-3c14-4b4d-95e7-c26d59b771f7",
+    "url": "https://www.metacareers.com/jobs/271783205502889/",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "271783205502889",
+          "job_title": "Research Scientist - Generative AI",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Zurich, Switzerland",
+          "job_description": "Meta is seeking a Research Scientist to join our Generative AI organization. In this role, you will have the opportunity to make a significant impact on the field of image generation by developing novel models and algorithms that improve the speed and efficiency of generative AI systems. These models will have direct impact on Meta's family of apps with 2 billion plus users. You will also work on fundamental research and be able to publish high quality papers in top-tier computer vision conferences. At Meta, you work alongside and learn from top minds in the field and have access to uniquely available large scale resources. Join us for this exciting and rewarding role.",
+          "roles_and_responsibilities": "Research and develop novel computer vision models in Generative AI, with a focus on efficiency\nDeliver models to production with collaboration across Meta's family of apps\nCollaborate with other researchers and engineers across Meta to develop and deploy new models to production\nContribute to research publications and publish at top-tier venues",
+          "qualifications": "A PhD in Computer Vision or a relevant technical field\nUnderstanding of modern computer vision concepts like diffusion models, GANs, and LLMs\nFirst author publications in top-tier computer vision venues (CVPR, NeurIPS, ECCV, ICCV, SIGGRAPH, ICML...)\nFluency in Python and PyTorch",
+          "preferred_qualifications": "Demonstrated research experience via an internship, work experience, coding competitions, or widely used contributions in open source repositories (e.g. GitHub)\nIndustry experience deploying computer vision models to production\nExperience with optimizing model architectures and algorithms for CPU/GPU, mobile, and other types of specialized hardware\nTop-tier publications in Generative AI topics (diffusion models, LLMs...)",
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "4310caaa-bf1b-4704-9362-dbf5b961972d",
+    "url": "https://c3.ai/job-description/?gh_jid=6181786002",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "6181786002",
+          "job_title": "Front-End Engineer - UI Component Library",
+          "job_category": null,
+          "date_posted": null,
+          "location": "GUADALAJARA, MEXICO",
+          "job_description": null,
+          "roles_and_responsibilities": "Lead the development of new UI components to be used by fellow engineers.\nMaintain an ever-growing library of components to be used across different applications and industries.\nResearch and implement internal tools to increase the productivity of Engineering, UX, and PMs.\nProvide technical guidance and support for our UX and PM teams.",
+          "qualifications": "Bachelor of Science in Computer Science, Computer Engineering, or related fields.\nExperience working with client-side technologies including Javascript, Typescript, React/Redux.\nExperience with version control systems, including Git.\nPrior experience designing and implementing reusable UI components.\nExperience working as part of a cross-functional team of PM, UX, and Engineering. ",
+          "preferred_qualifications": "Prior experience developing a UI component library or design system for other engineers.\nProven experience with pixel-perfect execution of UI components.\nWorking knowledge of accessibility best practices.\nAbility to effectively articulate complex concepts to technical and non-technical audiences.\nExcellent analytical and troubleshooting skills.",
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ad142573-4dcb-4c1e-9a4d-6fa1fa818026",
+    "url": "https://jobs.careers.microsoft.com/global/en/job/1658879/Software-Engineering-II",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "1658879",
+          "job_title": "Software Engineering II",
+          "job_category": "Software Engineering",
+          "date_posted": "Nov 03, 2023",
+          "location": "Cambridge, Massachusetts, United States",
+          "job_description": "We are seeking a highly motivated and skilled Software Engineer II to join our Microsoft Intune Engineering Team. As a Software Engineer II on the Intune Engineering team, you will be at the forefront of developing solutions for device management, security, and modern workplace experiences. If you are passionate about building robust software, thrive in a collaborative environment, are excited to grow and learn on the job, and aspire to make an impact on how organizations securely manage their devices and data, this role is perfect for you. \n\n \n\nMicrosoft Intune is the industry leading cloud-based device configuration and security management platform. It empowers organizations to efficiently manage and secure millions of Windows, macOS, iOS, Android, and Linux devices, all from a single, centralized platform. Intune provides tools for configuring device settings, deploying applications, enforcing security policies, and ensuring compliance, all while enabling remote work and enhancing productivity.\u202f\u202f ",
+          "roles_and_responsibilities": "Join our supportive and collaborative team of engineers working on critical and strategic projects in Intune.\n\nWork on a global cloud security and compliance solution to manage and secure millions of devices.\nDevelop and deliver robust designs and code for both frontend experiences and backend services.\nDebug and optimize work across multiple clients, services and teams in a fast-paced agile environment.\nEmbrace a culture of collaboration, customer obsession, openness, curiosity, integrity, and innovation.\nBe a leader who brings clarity and technical direction to produce resilient engineering designs and drive them to execution.\nIncorporate feedback loops from customers, partners, and stakeholders across disciplines to every solution.\nOwn scenarios end-to-end that span beyond your own area to existing features.",
+          "qualifications": "Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\nOR equivalent experience.\n2+ years of professional experience designing, developing, testing, and shipping software.  \n2+ years technical abilities around design, coding, rapid prototyping, debugging, and problem solving.\u202f\u202f ",
+          "preferred_qualifications": "Bachelor's Degree in Computer Science, or related technical discipline AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python\n\nOR equivalent experience.\n\n2+ years of experience in building Android applications. \nExperience with continuous integration/continuous deployment tools, including but not limited to, Azure DevOps. \nCoding, debugging, and problem-solving skills. \nDemonstrated desire and passion for meeting customer needs. \nPassion for contributing to the team culture. \nTrack record of learning and growing. ",
+          "benefits": "\uead4Industry leading healthcare\ue7beEducational resources\ue8ecDiscounts on products and services\ueafdSavings and investments\uf862Maternity and paternity leave\uea17Generous time away\ueb51Giving programs\uefd4Opportunities to network and connect",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "69a755f1-33db-4f77-9b8e-0e90cf7c7188",
+    "url": "https://vercel.com/careers/technical-consultant-us-4930025004",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "4930025004",
+          "job_title": "Technical Consultant",
+          "job_category": "Solution Engineering",
+          "date_posted": null,
+          "location": "Remote \n(United States)",
+          "job_description": "Vercel is looking for a Technical Consultant to assist our Enterprise customers with technical problems and questions when using Vercel products and services. Reporting to the Manager of Technical Consulting, the Technical Consultant will be responsible for informing and training clients in the product's proper use to enhance the customer experience and improve satisfaction.\n\nTechnical Consultants need to earn our customers' trust and understand technical problems quickly. You will play a major part in the post-sales process and Enterprise customer journey. Expertise in the technical elements of the product and clarity of instruction are important competencies in this position. Success in this role will be demonstrated through improvements in the retention of Enterprise customers by delivering key technical insights and evaluations to ensure success both at launch and scale.\n\nYou have a background in frontend development, enjoy technical writing, and have a passion for digging deep to find and resolve issues. You are excited about the opportunity to involve yourself with the technical evolution of both global brands and new start-ups.\n\nThe Technical Consultant will help establish our reputation as a company that is exceptional at helping its customers meet their goals throughout all parts of the customer journey while engineering solutions to constantly improve the customer experience.",
+          "roles_and_responsibilities": "Ensure that Enterprise customers are receiving and understanding the value of the platform.\n\nProvide product expertise and strategic consultation during the Enterprise customer journey.\n\nProvide training sessions to Enterprise customers.\n\nAttend onboarding and pre-production calls as a technical authority.\n\nKnow the Vercel platform and Next.js framework inside and out, learning daily.\n\nWork with other members of CS to provide assistance both internally and externally.\n\nDevelop close partnerships with the CSM team to understand customers' goals.\n\nWork with external engineering and infrastructure teams to convey product gaps and needs.\n\nEnsure customers have immediate concerns resolved but with a long-term outlook.\n\nSpecialize in a few product areas and own that within the team.\n\nImproving existing, and identifying new, internal documentation, processes and policies.\n\nAssist and coordinate with Customer Success Managers with Enterprise requests.",
+          "qualifications": "You lead by example and develop more junior members of the team.\n\nYou understand modern web architecture, frontend development, and serverless computing.\n\nYou are experienced with incident management and procedure.\n\nYou are comfortable working with a fully remote, globally distributed team.\n\nYou have a passion to deliver a customer experience second to none.\n\nAvailability to work within a weekend and on-call rotation.\n\n3+ years experience in a customer success, sales, or onboarding/implementation role at a SaaS company.\n\n5+ years experience with front-end web development using React in a production setting.",
+          "preferred_qualifications": "Have experience using Next.js.\n\nHave experience supporting backend runtime environments, especially Node.js.\n\nHave experience with CDNs and a good understanding of caching techniques.\n\nWork with monorepos and/or custom, complex CI/CD pipelines.\n\nThoroughly understand DNS and can explain this clearly to others.",
+          "benefits": "Stock options\n\nInclusive Healthcare Package\n\nFlexible working style - 100% remote, with teammates located throughout the globe\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills\n\nUnlimited PTO - 4 weeks recommended per year. Take time when you need it.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed",
+          "salary": "$135,000 - $186,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f8e6ac9d-584d-4321-9451-7ebe0af3b6cb",
+    "url": "https://www.ycombinator.com/careers?ashby_jid=05682b47-a5e2-4003-a9b8-b967cf45dd48",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "05682b47-a5e2-4003-a9b8-b967cf45dd48",
+          "job_title": "Product Engineer, Post Batch",
+          "job_category": "Software",
+          "date_posted": null,
+          "location": "San Francisco",
+          "job_description": "Y Combinator is best known for our accelerator batch program, which has helped companies like Airbnb, Stripe and Instacart get started. What is lesser known are the resources that YC provides after the batch -- our YC-only hiring platform (workatastartup.com), regular event planning for alumni founders, and internal software platform for helping founders stay in touch. Our scope keeps increasing, and we\u2019re now looking to bring on a Product Engineer to help us scale our impact even more.\n\nYou\u2019ll be working directly with two former YC founders/engineers (from Twilio, Twitter & Lyft), and a small software team full of kind people who are eager to help you get up-to-speed. You\u2019ll be relied upon not only to help us tackle our hefty roadmap, but to also explore how YC can leverage its unique structural advantages to help our founders hire great people and build their companies after the batch ends.",
+          "roles_and_responsibilities": "Design and build out new features in entirety. Our particular team focuses on helping founders post-batch. This is a range of features/products, with a focus on 1.) workatastartup.com (hiring) and 2.) internal software (helping YC stay in touch with founders and YC alumni).\n\nScope and prioritize items on our post-batch roadmap alongside YC partners and others on the YC software team.\n\nAnalyze usage and engagement from both founders, job-seekers and other users to understand what\u2019s working/not working, and make things continuously better.",
+          "qualifications": "YC was started by hackers, so we recognize good hackers when we see them. Much like when we read applications for startups, we're looking to work with people who generally impress us. If you've written some impressive software before, whether for yourself or a company, that's the best qualifier we have.\n\nThis is a good job for someone who is excited about startups and interested in learning more about them. You\u2019ve likely worked at or started a startup, or want to do so in the future.\n\nThe software team has a lot of individual responsibility and access to sensitive information, so we need to hire people we can trust. Your ability to make good trade-offs and exercise good judgement is particularly important to us.",
+          "preferred_qualifications": null,
+          "benefits": "Our full benefits package includes medical, vision, and dental plans, infertility benefit, STD/LTD, life insurance, commuter benefits, flexible spending account, health savings account, 401(k) + 4% matching, generous parental leave, paid holidays and flexible paid time off policy.",
+          "salary": "$160K - $200K"
+        }
+      }
+    ]
+  },
+  {
+    "id": "766abf53-e055-4e4d-ac42-531e74606846",
+    "url": "https://jobs.lever.co/Anthropic/2786d360-13e0-4ad2-bef1-a193cd6a1f67",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "2786d360-13e0-4ad2-bef1-a193cd6a1f67",
+          "job_title": "Prompt Engineering Manager",
+          "job_category": "Prompt Engineering",
+          "date_posted": null,
+          "location": "San Francisco, CA",
+          "job_description": "Anthropic\u2019s AI technology is amongst the most capable and safe in the world. However, large language models are a new type of intelligence, and the art of instructing them in a way that delivers the best results is still in its infancy \u2014 it\u2019s a hybrid between programming, instructing, and teaching. You will figure out the best methods of prompting our AI to accomplish a wide range of tasks, then document these methods to build up a library of tools and a set of tutorials that allows others to learn prompt engineering, as well as work with high value partners to directly solve their challenges.\n\nGiven that the field of prompt-engineering is arguably less than 2 years old, this position is a bit hard to hire for!  As a result, we ask that you share with us a specific prompt engineering project on LLMs that you\u2019re proud of in your application!  Ideally this project should show off a complex and clever prompting architecture or a systematic evaluation of an LLM\u2019s behavior.  ",
+          "roles_and_responsibilities": "Manage and mentor prompt engineers, providing both technical guidance and career development\nSet goals and reviews for your team, promoting growth and output\nStay on top of latest advancements in prompt engineering and adjust team direction accordingly.\nHelp set team best practices for how prompting research and development is done.\nManage the creation of a library of high quality prompts or prompt chains to accomplish a variety of tasks, with an easy guide to help users search for the one that meets their needs.\nAct as editor for a set of tutorials and interactive tools that teach the art of prompt engineering to our customers.\nWork with large enterprise customers on their prompting strategies.",
+          "qualifications": "Have experience managing high performance teams of engineers or scientists\nHave an organizational mindset and enjoy building teams from the ground up.\nHave excellent communication, collaboration, and coaching abilities.\nAre comfortable dealing with highly uncertain, ambiguous, and fast-moving environments.\nHave a creative hacker spirit and love solving puzzles.\nHave at least a high level familiarity with the architecture and operation of large language models.\nHave a firm grasp of programming in Python and experience with data structures/algorithms.\nThink holistically and can proactively identify the needs of an organization.\nMake ambiguous problems clear and identify core principles that can translate across scenarios.\nHave a passion for making powerful technology safe and societally beneficial.\nThink creatively about the risks and benefits of new technologies, and think beyond past checklists and playbooks.\nStay up-to-date and informed by taking an active interest in emerging research and industry trends.",
+          "preferred_qualifications": null,
+          "benefits": "- Optional equity donation matching at a 3:1 ratio, up to 50% of your equity grant.\n- Comprehensive health, dental, and vision insurance for you and all your dependents.\n- 401(k) plan with 4% matching.\n- 21 weeks of paid parental leave.\n- Unlimited PTO \u2013 most staff take between 4-6 weeks each year, sometimes more!\n- Stipends for education, home office improvements, commuting, and wellness.\n- Fertility benefits via Carrot.\n- Daily lunches and snacks in our office.\n- Relocation support for those moving to the Bay Area.",
+          "salary": "$320,000 - $520,000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "9a10af79-08e2-4d73-a2a1-675bb97126bb",
+    "url": "https://boards.greenhouse.io/reddit/jobs/5245144",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5245144",
+          "job_title": "Engineering Manager, Service Foundation",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Toronto, Canada",
+          "job_description": "Reddit is a community of communities where people can dive into anything through experiences built around their interests, hobbies, and passions. Our mission is to bring community, belonging, and empowerment to everyone in the world. Reddit users submit, vote, and comment on content, stories, and discussions about the topics they care about the most. From pets to parenting, there\u2019s a community for everybody on Reddit and with over 50 million daily active users, it is home to the most open and authentic conversations on the internet. For more information, visit redditinc.com.\n\nThe Developer Experience team designs, develops, and support tools and processes that make common developer workflows efficient and reliable. \n\nSome Of Our Present And Future Challenges Include\n\nBuilding a strong cloud staging development story for the entire company.\nRe-envisioning our service frameworks and tooling integrations to increase developer efficiency, confidence, and service reliability.",
+          "roles_and_responsibilities": "Steer: Work with the team to select, scope, and drive high leverage projects that align with Reddit\u2019s goals.\nBuild: Build out your team to execute on a strategy and create more efficient, more reliable developer workflows.\nAmplify: Mentor your ICs and be a leader for the Developer Experience team.\nCollaborate: Work together with a variety of teams across Reddit Engineering.\nEvolve: Learn and improve your own technical and non-technical abilities.",
+          "qualifications": "3+ years with technical leadership over high performing engineering teams.\n3+ years experience working on developer tools, library development, API design.\n3+ years experience developing and managing teams focused in Go and Python\nStrong focus on user experience, usability, scalability, and quality. You are an undying advocate for the user, and you have a deep intuition for how people think and how they interact with software at scale.\nHigh empathy, excellent communication skills, and the ability to find compromise working across the entire engineering org.",
+          "preferred_qualifications": null,
+          "benefits": "Comprehensive Health benefits\nRetirement Savings plan with matching contributions\nWorkspace benefits for your home office\nPersonal & Professional development funds\nFamily Planning Support\nFlexible Vacation & Reddit Global Days Off",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "77d6efb9-2581-4f5f-a681-1b94696d9044",
+    "url": "https://ouryahoo.wd5.myworkdayjobs.com/careers/job/Taiwan---Remote/Backend-Engineer--Media_JR0023180",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": null,
+          "job_category": null,
+          "date_posted": null,
+          "location": null,
+          "job_description": null,
+          "roles_and_responsibilities": null,
+          "qualifications": null,
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "5db440aa-f155-4297-bae4-769c8c808acd",
+    "url": "https://jobs.apple.com/en-us/details/200517170/engineering-manager-camera-foundation?team=SFTWR",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "200517170",
+          "job_title": "Engineering Manager, Camera Foundation",
+          "job_category": "Software and Services",
+          "date_posted": "Nov 2, 2023",
+          "location": "Santa Clara Valley (Cupertino), California, United States",
+          "job_description": "If you consider yourself an engaging and highly-collaborative engineering lead with excellent communication skills, and are comfortable in a dynamic environment, we feel we have a rewarding opportunity for you. We need a strong engineering manager to drive the development and innovation of camera capture and processing pipelines while building and expanding a team of experienced engineers. In addition, you ideally have a background in media and have a good working understanding of the various media formats. In this role you will have the unique opportunity to drive high-impact customer-facing features as well as influence the direction of Apple\u2019s custom silicon designs \u2014 and to build the vertically-integrated software stack that connects them.",
+          "roles_and_responsibilities": null,
+          "qualifications": "You have 2+ years of experience leading/managing software engineering projects, and have full-cycle project planning and resource management experience.\nYou thrive in a collaborative environment and can clearly communicate while confidently driving multiple projects across many teams.\nYou have experience building and growing teams of experienced engineers.\nYou have 5+ years of multithreading software development experience.\nYou are proficient in Objective-C, or C/C++.\nYou own API design and maintenance.",
+          "preferred_qualifications": "- Development and debug experience on embedded mobile platforms.\n- Experience with Unix/Linux highly desired. Experience in OS X / Darwin is a major plus.\n- Familiarity with modern processor and SoC architectures.\n- Familiarity with H264/JVT, MPEG 4 as well as common media container formats.\n- Familiarity with A/V compression/decompression & synchronization technology.",
+          "benefits": null,
+          "salary": "$183,400 - $316,900"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cc29229c-30f6-4a03-a4b6-2755ed0cca14",
+    "url": "https://www.workatastartup.com/jobs/62396?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "62396",
+          "job_title": "Founding Product Designer at Mintlify (W22)",
+          "job_category": null,
+          "date_posted": null,
+          "location": "San Francisco, CA, US / Remote",
+          "job_description": "Join us in our mission to empower millions of developers. We\u2019re looking for self starters to join our fast moving founding team. In building a devtool, your empathy for developers naturally blends into product and GTM.\n\nOur platform reaches 4m+ developers every year and power the documentation of 1000+ companies. We're also the #1 most popular YC product used by other YC companies in the past four years.",
+          "roles_and_responsibilities": "Skills: Figma\nMintlify is looking for a founding product designer to help us build a world class product that improve the product and customer experience. As a head of design, you will be leading our efforts in designing a world class experience that impact millions of developers.",
+          "qualifications": "A collaborative team player who believes in the power of strong teams to drive change\nProficient in high-fidelity prototyping tools (Figma, motion design platform of choice)\nHave deep understanding of design systems and obsession with user experience\n5+ years of experience with product design\nSystems-thinker with the ability to think beyond the pixels and design",
+          "preferred_qualifications": null,
+          "benefits": "Not sold yet? Check out some benefits you\u2019ll have access to as well:\n\n\ud83e\udde7 Competitive compensation and equity\n\u2708\ufe0f Flexible work culture\n\ud83c\udf3b 20 days paid time off every year\n\ud83e\uddd1\u200d\u2695\ufe0f Health, dental, vision\n\ud83d\udcb8 401k or RRSP matching\n\ud83c\udf71 Free lunch and dinners\n\ud83d\udcbb $700/year work setup stipend\n\ud83d\udcaa $200/month wellness stipend\n\ud83c\udf34 Annual team offsite\n\ud83c\udf3f Unlimited free mints",
+          "salary": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "6535b75f-be1e-4f68-aedd-f3ff167d98ca",
+    "url": "https://stripe.com/jobs/listing/account-executive-commercial/5403149",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5403149",
+          "job_title": "Account Executive, Commercial",
+          "job_category": "Sales",
+          "date_posted": null,
+          "location": null,
+          "job_description": "As a Commercial, Account Executive, you will play an instrumental role in fueling Stripe\u2019s growth through acquiring, growing and expanding under-penetrated mid-market accounts. In this role, you will help build out a new team and GTM motion at Stripe.",
+          "roles_and_responsibilities": "\nIdentify high-potential prospective users and use effective prospecting strategies to generate leads that drive revenue growth in your territory\nDevelop and implement scaled sales strategies for acquiring new customers and driving product adoption, net new product sales, and client retention at scale\nIdentify and understand users\u2019 pain points to propose Stripe solutions and own the full sales cycle, from business case development to close\nOwn contract renewals and lead commercial negotiations to increase and retain existing customer revenue and Stripe market share\nWork cross-functionally to solve user pain paints and improve our product\nYou will be required to work from the Chicago office three (3) days per week",
+          "qualifications": "3+ years of experience in a client-facing/sales role\nAbility to understand technical requirements and craft solutions across multiple product\nStrong operational acumen and ability to manage high volumes and high velocity work\nAbility and motivation to operate in a highly ambiguous and fast-paced environment\nSuperior verbal and written communication skills\nYou will be required to work from the Chicago office three (3) days per week",
+          "preferred_qualifications": "Prior experience in a sales and/or customer-facing role at a high growth technology company",
+          "benefits": null,
+          "salary": "$146,000 - $197,600"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0880ea91-7c5e-415c-9d2f-00457f110ee8",
+    "url": "https://careers.doordash.com/jobs/5462166",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "5462166",
+          "job_title": "Electrical Engineer",
+          "job_category": null,
+          "date_posted": null,
+          "location": "San Francisco, CA",
+          "job_description": "In this role you will help build the next generation of robotic systems within DoorDash Labs from the ground up! You will work with an excellent engineering team to solve novel problems that will drastically change last mile logistics. We\u2019re a team of people who live and breathe building robots and complex electromechanical systems. We\u2019re unfazed by challenges or new problems and strive to build world class solutions. ",
+          "roles_and_responsibilities": "Be part of an exciting effort to develop and manufacture our new autonomous delivery robot platform\nWork with our Hardware Engineering and Technician teams to prepare for our launch.\nShip tangible product concepts that make a meaningful impact on a billion dollar business. \nPlay a key role in architecting and designing a wide range of electrical systems on our next generation delivery robots.\nHave a large impact in a small team, collaborating with every other team on the project with many disciplines and stakeholders.",
+          "qualifications": "A B.S., M.S., or PhD. in Electrical Engineering.\n5+ years of industry experience working in a similar role.\nExperience taking complex circuits from product definition through production.\nExperience with DC power management systems, especially in automotive applications.\nExperience with autonomous vehicle communication, networking and sensor systems.\nExperience with electric vehicle or mobile robotics safety systems.\nExperience designing and troubleshooting complex systems including debugging ground loops, localized noise mitigation, and multi-voltage power systems\nDesigned circuits in Altium Designer.\nA passion for building robots and autonomous vehicles.",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$185,500 \u2014 $250,500"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0a6346b8-2c83-48e9-adf0-c76792862594",
+    "url": "https://blog.perplexity.ai/careers/llm-teacher",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "LLM Teacher",
+          "job_category": "Engineering",
+          "date_posted": null,
+          "location": "San Francisco",
+          "job_description": "As an LLM Teacher, you will play a critical role in teaching our large language models how to behave, improving our models and thus product experience through data. You will work closely with the AI team to build high volume, high quality, and diverse datasets. You will use our in-house suite of data tools to achieve this, and have an active role in improving the next generation of AI tools. As an LLM Teacher at Perplexity, you will play a pivotal role in shaping the future of our answer engine.",
+          "roles_and_responsibilities": "Collaborate with AI researchers and engineers to curate diverse and high quality examples of intended model behavior\n\nUse and improve the next generation of LLM AI labeling interfaces\n\nVerify new models trained on the latest data improve performance. Data you create will be deployed in production environments, where millions of people worldwide will be impacted from your work\n\nWork on increasing the factual accuracy of generated content. Define and contribute to the development of our AI's ability to generate creative, human-like, and engaging content",
+          "qualifications": "Passion and curiosity for experimenting with cutting edge generative AI technologies\n\nVery strong attention to detail, quality focused, and the ability to stay organized\n\nAdaptable, proactively applies logic to different scenarios, and has experience with computers and other software\n\nEnjoys a fast-paced environment\n\nExcellent communication and collaboration skills\n\nNative English speaking abilities or equivalent\n\nYou stay up-to-date and informed by taking an active interest in emerging research and industry trends\n\nCollege level graduate at a minimum",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$30/hr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a266e560-aa88-49fe-b3c0-2731163b1921",
+    "url": "https://jobs.netflix.com/jobs/301592752",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "301592752",
+          "job_title": "PR Coordinator - Japan",
+          "job_category": "Publicity",
+          "date_posted": null,
+          "location": "Tokyo, Japan",
+          "job_description": "We are looking to hire a creative self-starter who loves, lives, and breathes entertainment, to be a PR Coordinator for the Japan PR team. Reporting to the PR Director, Japan, you will be part of a team of stunning storytellers working on impactful publicity and communications campaigns to drive conversations about our brand and upcoming titles. The role is also a key partner to the Content, Marketing, Policy, and Partnerships teams, as well the APAC and global PR teams. \n\nThis is a demanding and fast-moving position that requires a proactive and positive thinker, able to exercise good judgment and initiative. At Netflix, we don't have rules and regulations. We hire adults who act responsibly on the resources and freedom they are given to do their work, and we expect high performance in return. ",
+          "roles_and_responsibilities": "Manage overall Japan PR calendar including timelines of debuts and releases;\nSupport director in rolling out overall PR strategy that drives conversation\nAssist with cross-functional meeting arrangements, interpretation, and preparing presentations and reports to APAC\nAssist with announcements, executive appearances, issues management, media training and more;\nSupport innovative publicity campaigns for our Japan originals and our incredible slate of locally relevant shows from all around the world to drive our business in Japan\nWork with the regional teams to put in place a set of best practices that enable us to move quicker, bigger and better\nCreating presentations and documents using PowerPoint and Google Apps in English and Japanese\nMaintain flexibility and openness to take on additional projects as necessary or assigned",
+          "qualifications": "At least 3+ years of previous coordinator, project manager or team assistant experience preferred\nPrior entertainment studio, TV network, PR or agency experience preferred\nA great communicator - via email, by phone, in-person and simultaneously\nHave experience supporting and/or executing a publicity campaign by working well across disciplines\nBe able to manage multiple tasks simultaneously under deadline and thrive in high energy, fast-paced environment\nPossess a keen understanding of media and have relationships with press is a plus\nBe able and willing to operate in a global environment\nBe a clear and concise communicator in Japanese as well as in English\nPassionate about entertainment and a fan of series, film and pop culture in Japan \nPoised and mature, not scared to speak up or challenge\nA proactive and positive thinker and a contributor to the team\nKnowledge of Google Suite is preferred",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$30/hr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "db0872df-fd27-4fff-bce8-3513f8e1164d",
+    "url": "https://scale.com/careers/4314568005",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "4314568005",
+          "job_title": "Infrastructure Software Engineer, Public Sector",
+          "job_category": null,
+          "date_posted": null,
+          "location": "Washington, DC",
+          "job_description": "Scale AI is seeking a highly skilled and motivated Infrastructure Software Engineer to join our dynamic Federal Engineering team. As a part of this team, you will play a critical role in delivering high-impact AI-powered mission solutions for government customers. Our scalable and high-performance platform forms the foundation for these solutions, and your expertise will be instrumental in designing and implementing systems that can handle billions of data points with exceptional performance.",
+          "roles_and_responsibilities": "Design and implement secure scalable backend systems for Federal customers, leveraging Scale's modern and cloud-native AI infrastructure.\nOwn services or systems and define their long-term health goals, while also improving the health of surrounding components\nImprove our high engineering standards, tooling, and process\nCollaborate with cross-functional teams to define and execute the vision for backend solutions, ensuring they meet the unique needs of government agencies operating in secure environments.\nParticipate actively in customer engagements, working closely with stakeholders to understand requirements and deliver innovative solutions.\nContribute to the platform roadmap and product strategy for Scale AI's Federal business, playing a key role in shaping the future direction of our offerings.",
+          "qualifications": "An active TS/SCI security clearance. This is a requirement and candidates will not be considered who do not hold this level of clearance\nFull Stack Development: Proficiency in both front-end and back-end development, including experience with modern web development frameworks, programming languages, and databases. Experience with developing & delivering software to air-grapped & isolated environments is a plus.\nCloud-Native Technologies: Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes) is required. Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience in developing and deploying applications in a cloud-native environment. \nSecurity Focused: Experience with Federal Compliance frameworks, and requirements(e.g, Cloud SRG, FedRAMP, STIG Benchmarks, etc). Experience developing software & technical solutions that meet strict security & regulatory compliance requirements.\nProblem Solving: Strong analytical and problem-solving skills to understand complex challenges and devise effective solutions. Ability to think critically, identify root causes, and propose innovative approaches to overcome technical obstacles.\nCollaboration and Communication: Excellent interpersonal and communication skills to effectively collaborate with cross-functional teams, stakeholders, and customers. Ability to clearly articulate technical concepts to non-technical audiences and foster a collaborative work environment.\nAdaptability and Learning Agility: Willingness to embrace new technologies, learn new skills, and adapt to evolving project requirements. Ability to quickly grasp and apply new concepts and stay up-to-date with emerging trends in software engineering.\nMust be able to support work 2-3 days a week at client sites within the St. Louis, MO or DC Metro area.",
+          "preferred_qualifications": null,
+          "benefits": null,
+          "salary": "$153,600 - $215,040"
+        }
+      }
+    ]
+  },
+  {
+    "id": "574db794-8055-4fe6-bd16-5f9ee6eccbb4",
+    "url": "https://bb.wd3.myworkdayjobs.com/en-US/BlackBerry/jobs/details/Territory-Account-Manager_20231252",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "20231252",
+          "job_title": "Territory Account Manager",
+          "job_category": null,
+          "date_posted": "Posted 10 Days Ago",
+          "location": "Seattle, Washington",
+          "job_description": null,
+          "roles_and_responsibilities": "Manage and expand new business in enterprise and mid-level accounts, selling across our entire BlackBerry product portfolio with focus in new product sales, targeting the enterprise market in assigned prospective territories.\nServe as the primary point of contact for major customer communication leading all aspects of additional interactions with BlackBerry/Alliance partner resources (e.g., support).\nDevelop, implement, and maintain concrete plans for how the account will achieve targets.\nArticulate the value of the BlackBerry portfolio to decision makers and expertly manage the complex sales cycle.\nNurture and develop relationships within the assigned territory and/or accounts, presenting to the C-suite the value of the BlackBerry Cylance portfolio.\nWork with the Partner and Marketing teams to define and support prospecting efforts within the assigned territory and/or accounts.\nGenerate appropriate sales development activity to ensure healthy pipeline management.\nAccurately forecast, maintaining excellent SFDC hygiene.\nConduct online webinars or in-person presentations to generate qualified leads.\nOptimally demonstrate programs, tools, processes, and events to drive and close the sale.\nTravel as needed.",
+          "qualifications": "Bachelor\u2019s degree or equivalent experience.\n3 years\u2019 min currently in a software product outside sales role \u2013 ideally in security.\n7 years\u2019 software sales experience or more.\nDriven, upbeat, the glass is half full, ready to build, sell and BE the face of the BlackBerry AI-powered unified endpoint security (UES) solution that fosters BlackBerry's leadership in AI!\nEnterprise SaaS sales experience in similar space/accounts with consistent track record in successfully selling endpoint or network security, with a proven track record of exceeding quota.\nRequires the ability to work independently with substantial latitude for action and decision while maintaining focus on achieving desired outcomes as part of a collaborative development effort.\nStrong communication, interpersonal, time management and organizational skills, in conjunction with experience calling on and presenting to C-Suite level contacts.",
+          "preferred_qualifications": null,
+          "benefits": "The BlackBerry Employee Benefits programs offer a wide range of benefits that support your physical, financial and personal well-being.  BlackBerry remains committed to offering affordable benefits including coverage for medical, dental, vision, life, disability insurance, 401(k), employee share purchase program and paid-time-off.",
+          "salary": "$113,750 - $162,500"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a4e1ac68-35bc-44a6-9e5f-53785df53bf2",
+    "url": "https://careers.roblox.com/jobs/4979622",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "fetch",
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "3214",
+          "job_title": "Principal Software Engineer - Studio Scripting",
+          "job_category": "ENGINEERING",
+          "date_posted": null,
+          "location": "SAN MATEO, CA, UNITED STATES",
+          "job_description": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences\u2013 all created by our global community of developers and creators. \n\nAt Roblox, we\u2019re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We\u2019re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. \n\nA career at Roblox means you\u2019ll be working to shape the future of human interaction, solving unique technical challenges at scale, and helping to create safer, more civil shared experiences for everyone.",
+          "roles_and_responsibilities": "Own and deliver complex technical projects from the planning stage through initiatives.\nDesign and execute on the architecture and technical direction of multi-quarter features that will be the future of our application\nWork cross functionally, across teams and technology platforms\nMentor team members with team initiatives and advocates with stakeholders to move projects forward.\nDesign, develop, and implement technological practices, patterns, and strategies\nParticipate in building the world's best professional application for massively multiplayer game development\nReport into the Engineering Manager of Studio Scripting Team",
+          "qualifications": "Experience, 8+ years in developing and deploying complex software for massive cloud-based systems, with a Bachelor's degree in Computer Science, or a similar technical field\nHands-on with C++ and Boost libraries, multithreading and networking. Experience with QT/QML, MFC or other UI frameworks for desktop applications\nProficiencies in industry standards, best practices and design patterns\nFocus on writing clear, readable, testable, modular, and monitored code\nPassion for solving complex problems that are not solved easily\nCollaborative experience with team members an able to work cross functionally with others\nOrganizing and analytical skills",
+          "preferred_qualifications": null,
+          "benefits": "Industry-leading compensation package\nExcellent medical, dental, and vision coverage\nA rewarding 401k program\nFlexible vacation policy\nRoflex - Flexible and supportive work policy \nRoblox Admin badge for your avatar\nAt Roblox HQ: \nFree catered lunches five times a week and several fully stocked kitchens with unlimited snacks\nOnsite fitness center and fitness program credit\nAnnual CalTrain Go Pass",
+          "salary": "$283,780 \u2014 $331,640"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c0028644-9bfa-470e-9efd-d8473b42e313",
+    "url": "https://www.northside.com/locations/atlanta-ophthalmology-associates",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Atlanta Ophthalmology Associates",
+          "website": "https://aoaeye.com/",
+          "phone": "404-252-1194",
+          "fax": "404-252-1196",
+          "address": "5730 Glenridge Drive\nSuite 120\nAtlanta, GA 30328",
+          "type": "SPECIALTY CARE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "111ebd24-8617-48cb-b963-eb692bf1e53a",
+    "url": "https://www.baptistfirst.org/location/baptist-health-ent-partners",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Baptist Health ENT Partners",
+          "website": null,
+          "phone": "334-747-2273",
+          "fax": null,
+          "address": "2055 East South Blvd; Suite 908\n\nMontgomery, Alabama 36116",
+          "type": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "270c2ebd-96c0-4bab-a24c-2c38a2df20aa",
+    "url": "https://www.mymichigan.org/locations/profile/?id=2918&searchId=850eff7c-3b7f-ee11-a863-000d3a61151d&sort=11&page=4&pageSize=10",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "MyMichigan Medical Center Clare",
+          "website": null,
+          "phone": "(989) 633-5252",
+          "fax": null,
+          "address": "703 N. McEwan Street\nClare, MI 48617",
+          "type": "CT Scanning"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ed7b1cf6-5be4-40e7-ad00-89a67d1c8e40",
+    "url": "https://www.uchealth.com/en/locations/montgomery-building",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Montgomery Building",
+          "website": null,
+          "phone": "513-936-4510",
+          "fax": null,
+          "address": "9275 Montgomery Road\nCincinnati, OH 45242",
+          "type": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "5df3d301-09f0-4ece-946d-c24952069ab7",
+    "url": "https://uoflhealth.org/locations/gi-motility-clinic-gastroenterology/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
+          "website": null,
+          "phone": "502-588-7690",
+          "fax": "502-540-1414",
+          "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
+          "type": "GI Motility Clinic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "18b0b51e-196c-4765-bd70-aecff53f7e4d",
+    "url": "https://www.garnethealth.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.garnethealth.org/locations/alcohol-substance-abuse-treatment-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/ambulatory-surgery-procedure-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/ambulatory-surgery-procedure-center-garnet-health-medical-center-catskills",
+          "https://www.garnethealth.org/locations/bone-joint-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/center-sleep-medicine-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/childrens-emergency-department-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/community-health-education-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/community-health-education-center-garnet-health-medical-center-catskills-callicoon",
+          "https://www.garnethealth.org/locations/community-health-education-center-garnet-health-medical-center-catskills-harris",
+          "https://www.garnethealth.org/locations/counseling-services-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/diabetes-self-management-training-center-garnet-health-medical-center-catskills-harris",
+          "https://www.garnethealth.org/locations/emergency-department-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/emergency-department-garnet-health-medical-center-catskills-callicoon-campus",
+          "https://www.garnethealth.org/locations/emergency-department-garnet-health-medical-center-catskills-harris-campus",
+          "https://www.garnethealth.org/locations/express-lab-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/family-birthing-center-garnet-health-medical-center-catskills",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-callicoon",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-goshen",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-harris",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-livingston-manor",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-middletown",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-monroe",
+          "https://www.garnethealth.org/locations/garnet-health-doctors-monticello",
+          "https://www.garnethealth.org/locations/garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/garnet-health-medical-center-catskills-callicoon-campus",
+          "https://www.garnethealth.org/locations/garnet-health-medical-center-catskills-harris-campus",
+          "https://www.garnethealth.org/locations/garnet-health-urgent-care-goshen",
+          "https://www.garnethealth.org/locations/garnet-health-urgent-care-middletown",
+          "https://www.garnethealth.org/locations/garnet-health-urgent-care-monticello",
+          "https://www.garnethealth.org/locations/hospitalist-office-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/hospitalist-office-garnet-health-medical-center-catskills-harris-campus",
+          "https://www.garnethealth.org/locations/laboratory-garnet-health-medical-center-catskills-harris",
+          "https://www.garnethealth.org/locations/neighborhood-rx-pharmacy-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/neonatal-intensive-care-unit-nicu-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/new-york-cancer-and-blood-specialists-newburgh-medical-oncology",
+          "https://www.garnethealth.org/locations/oncology-hematology-treatment-center-garnet-health-medical-center-catskills",
+          "https://www.garnethealth.org/locations/outpatient-rehabilitation-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/outpatient-rehabilitation-center-garnet-health-medical-center-catskills-callicoon",
+          "https://www.garnethealth.org/locations/outpatient-rehabilitation-center-garnet-health-medical-center-catskills-harris",
+          "https://www.garnethealth.org/locations/pediatric-care-unit-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/peter-frommer-md-heart-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/ray-w-moody-md-breast-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/rowley-family-birthing-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/spagnoli-family-cancer-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/stanley-s-dunkelman-md-diabetes-treatment-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/wound-healing-and-hyperbaric-center-garnet-health-medical-center",
+          "https://www.garnethealth.org/locations/wound-healing-and-hyperbaric-center-garnet-health-medical-center-catskills-harris"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "db3fb266-a2cc-41bd-8995-1bdf2dd647fc",
+    "url": "https://www.healthpartners.com/care/find/locations/?sort=name",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/amery-hospital-and-clinic/amery/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/amery-hospital-and-clinic/fitness-center/",
+          "https://www.healthpartners.com/care/find/location/hospitals/amery-hospital-and-clinic/amery/",
+          "https://www.healthpartners.com/care/find/location/centers/amery-hospital-and-clinic/amery/wound-healing-center/",
+          "https://www.healthpartners.com/care/find/location/centers/amery-hospital-and-clinic/amery/birth-center/",
+          "https://www.healthpartners.com/care/find/location/hospitals/amery-hospital-and-clinic/west-campus/",
+          "https://www.healthpartners.com/care/find/location/hospitals/regions/capitol-view-transitional-care-center/st-paul/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/amery-hospital-and-clinic/clear-lake/",
+          "https://www.healthpartners.com/care/find/location/clinics/healthpartners/oncology-hematology/coon-rapids/",
+          "https://www.healthpartners.com/care/find/location/centers/lakeview-hospital/stillwater/cancer-center/",
+          "https://www.healthpartners.com/care/find/location/clinics/park-nicollet/oncology-hematology/burnsville/",
+          "https://www.healthpartners.com/care/find/location/clinics/park-nicollet/oncology-hematology/maple-grove/",
+          "https://www.healthpartners.com/care/find/location/clinics/hutchinson-health-cancer-center/hutchinson/",
+          "https://www.healthpartners.com/care/find/location/hospitals/regions/st-paul/cancer-center/",
+          "https://www.healthpartners.com/care/find/location/centers/healthpartners/st-paul/center-international-health/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/healthpartners/apple-valley/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/healthpartners/arden-hills/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/healthpartners/bloomington/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/healthpartners/brooklyn-center/",
+          "https://www.healthpartners.com/care/find/location/primary-care-clinics/healthpartners/coon-rapids/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcad6730-1eb2-4df7-afb7-9b034afb2f04",
+    "url": "https://www.heywood.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.heywood.org/locations/heywood-hospital",
+          "https://www.heywood.org/locations/the-watkins-center-for-emergency-and-acute-care",
+          "https://www.heywood.org/locations/heywood-urgent-care",
+          "https://www.heywood.org/locations/athol-hospital",
+          "https://www.heywood.org/locations/tully-walk-in-care-center",
+          "https://www.heywood.org/locations/heywood-medical-group",
+          "https://www.heywood.org/locations/ashburnham-family-medicine",
+          "https://www.heywood.org/locations/athol-primary-care",
+          "https://www.heywood.org/locations/encompass-primary-care",
+          "https://www.heywood.org/locations/heywood-primary-care",
+          "https://www.heywood.org/locations/heywood-pediatrics",
+          "https://www.heywood.org/locations/heywood-rehab-center",
+          "https://www.heywood.org/locations/heywood-health-center-for-women",
+          "https://www.heywood.org/locations/summit-family-medicine",
+          "https://www.heywood.org/locations/the-murdock-health-center",
+          "https://www.heywood.org/locations/tully-family-medicine",
+          "https://www.heywood.org/locations/winchendon-health-center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "174b1151-ea9a-4745-bc88-8c56ffc23131",
+    "url": "https://www.hhc.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.hhc.org/locations/houston-healthcare-perry/",
+          "https://www.hhc.org/locations/houston-healthcare-warner-robins/",
+          "https://www.hhc.org/locations/roy-h-sonny-watson-health-pavilion/",
+          "https://www.hhc.org/locations/bonaire-med-stop-an-outpatient-department-of-hou/",
+          "https://www.hhc.org/locations/lake-joy-med-stop-an-outpatient-department-of-ho/",
+          "https://www.hhc.org/locations/pavilion-med-stop-an-outpatient-department-of-ho/",
+          "https://www.hhc.org/locations/cary-w-martin-conference-center/",
+          "https://www.hhc.org/locations/health-connections-cardiac-and-pulmonary-rehabil/",
+          "https://www.hhc.org/locations/houston-behavioral-health-associates/",
+          "https://www.hhc.org/locations/houston-ent-associates/",
+          "https://www.hhc.org/locations/houston-family-care-at-bonaire/",
+          "https://www.hhc.org/locations/houston-family-care-at-perry/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9aa944d7-257b-4451-9958-feddfb7bd250",
+    "url": "https://www.huntregional.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.huntregional.org/location/hunt-regional-emergency-medical-center-at-commerce/",
+          "https://www.huntregional.org/location/hunt-regional-emergency-medical-center-at-quinlan/",
+          "https://www.huntregional.org/location/hunt-regional-family-medicine-greenville/",
+          "https://www.huntregional.org/location/hunt-regional-family-medicine-royse-city/",
+          "https://www.huntregional.org/location/hunt-regional-lab-solutions/",
+          "https://www.huntregional.org/location/hunt-regional-medical-center-emergency-department/",
+          "https://www.huntregional.org/location/hunt-regional-medical-center-greenville/",
+          "https://www.huntregional.org/location/hunt-regional-medical-partners-family-practice-at-caddo-mills/",
+          "https://www.huntregional.org/location/hunt-regional-medical-partners-family-practice-at-emory/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18c29ec8-de1d-4015-aeb5-92129b9bba6c",
+    "url": "https://iuhealth.org/find-locations/results?query=&page=1",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://iuhealth.org/find-locations/iu-health-arnett-hospital",
+          "https://iuhealth.org/find-locations/iu-health-ball-memorial-hospital",
+          "https://iuhealth.org/find-locations/iu-health-bedford-hospital",
+          "https://iuhealth.org/find-locations/iu-health-bloomington-hospital",
+          "https://iuhealth.org/find-locations/iu-health-frankfort-hospital",
+          "https://iuhealth.org/find-locations/iu-health-jay-hospital",
+          "https://iuhealth.org/find-locations/iu-health-methodist-hospital",
+          "https://iuhealth.org/find-locations/iu-health-morgan",
+          "https://iuhealth.org/find-locations/iu-health-neuroscience-center",
+          "https://iuhealth.org/find-locations/iu-health-north-hospital",
+          "https://iuhealth.org/find-locations/iu-health-paoli-hospital",
+          "https://iuhealth.org/find-locations/iu-health-saxony-hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a10f13b0-e4f1-490a-9fa1-64082d15e087",
+    "url": "https://www.infirmaryhealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.infirmaryhealth.org/locations/cardiac-rehab-operation-bounceback-mobile-infirm/",
+          "https://www.infirmaryhealth.org/locations/cardiac-rehabilitation-north-baldwin-infirmary/",
+          "https://www.infirmaryhealth.org/locations/cardiac-rehabilitation-thomas-hospital/",
+          "https://www.infirmaryhealth.org/locations/cardio-thoracic-vascular-surgical-associates/",
+          "https://www.infirmaryhealth.org/locations/cardio-thoracic-vascular-surgical-associates-fai/",
+          "https://www.infirmaryhealth.org/locations/cardio-thoracic-vascular-surgical-associates-fol/",
+          "https://www.infirmaryhealth.org/locations/central-baldwin-physicians/",
+          "https://www.infirmaryhealth.org/locations/coastal-medical-group-east/",
+          "https://www.infirmaryhealth.org/locations/coastal-medical-group-foley/",
+          "https://www.infirmaryhealth.org/locations/coastal-medical-group-gulf-shores/",
+          "https://www.infirmaryhealth.org/locations/coastal-medical-group-neurology/",
+          "https://www.infirmaryhealth.org/locations/coastal-medical-group-west/",
+          "https://www.infirmaryhealth.org/locations/colony-rehabilitation-hospital/",
+          "https://www.infirmaryhealth.org/locations/daphne-surgery-center/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-bay-minette/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-daphne/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-grove-hill/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-hillcrest/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-mobile/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-monroeville/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-northside/",
+          "https://www.infirmaryhealth.org/locations/diagnostic-medical-clinic-thomasville/",
+          "https://www.infirmaryhealth.org/locations/e-a-roberts-alzheimers-center/",
+          "https://www.infirmaryhealth.org/locations/eastern-shore-family-practice/",
+          "https://www.infirmaryhealth.org/locations/thomas-ambulatory-surgery-center/",
+          "https://www.infirmaryhealth.org/locations/family-medical-of-mobile-semmes/",
+          "https://www.infirmaryhealth.org/locations/family-medical-of-mobile-west/",
+          "https://www.infirmaryhealth.org/locations/gulf-coast-gastroenterology/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-springhill/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-brewton/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-daphne/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-dauphin-st-/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-fairhope/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-foley/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-hillcrest/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-jackson/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-saraland/",
+          "https://www.infirmaryhealth.org/locations/gulf-orthopaedics-tillman-s-corner/",
+          "https://www.infirmaryhealth.org/locations/industrial-medical-clinic-northside/",
+          "https://www.infirmaryhealth.org/locations/industrial-wellness-rehab/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care-malbis/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care-north-baldwin-infirmary/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care-saraland/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care-thomas-hospital/",
+          "https://www.infirmaryhealth.org/locations/infirmary-cancer-care-thomas-hospital-radiation-/",
+          "https://www.infirmaryhealth.org/locations/infirmary-eastern-shore/",
+          "https://www.infirmaryhealth.org/locations/infirmary-health/",
+          "https://www.infirmaryhealth.org/locations/infirmary-imaging-hillcrest/",
+          "https://www.infirmaryhealth.org/locations/infirmary-imaging-i65/",
+          "https://www.infirmaryhealth.org/locations/infirmary-imaging-saraland/",
+          "https://www.infirmaryhealth.org/locations/infirmary-long-term-acute-care-hospital/",
+          "https://www.infirmaryhealth.org/locations/infirmary-medical-plaza/",
+          "https://www.infirmaryhealth.org/locations/infirmary-neurosurgery/",
+          "https://www.infirmaryhealth.org/locations/infirmary-occupational-health-daphne/",
+          "https://www.infirmaryhealth.org/locations/infirmary-occupational-health-water-street/",
+          "https://www.infirmaryhealth.org/locations/infirmary-pediatrics/",
+          "https://www.infirmaryhealth.org/locations/infirmary-surgical-specialists-daphne/",
+          "https://www.infirmaryhealth.org/locations/infirmary-surgical-specialists-fairhope/",
+          "https://www.infirmaryhealth.org/locations/infirmary-surgical-specialists-mobile/",
+          "https://www.infirmaryhealth.org/locations/infirmary-surgical-specialists-springhill-ave/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-daphne/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-downtowner/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-hillcrest/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-bay-minette/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-mobile/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-saraland/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-fairhope/",
+          "https://www.infirmaryhealth.org/locations/infirmary-therapy-services-tillman-s-corner/",
+          "https://www.infirmaryhealth.org/locations/infirmarys-center-for-wound-healing/",
+          "https://www.infirmaryhealth.org/locations/j-l-bedsole-rotary-rehabilitation-hospital/",
+          "https://www.infirmaryhealth.org/locations/malbis-medical-office-building/",
+          "https://www.infirmaryhealth.org/locations/mobile-bay-ob-gyn-center/",
+          "https://www.infirmaryhealth.org/locations/mobile-infirmary/",
+          "https://www.infirmaryhealth.org/locations/mobile-infirmary-emergency-saraland/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-family-medicine-obstetrics/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-fitness-center/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-infirmary/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-internal-medicine/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-pediatrics/",
+          "https://www.infirmaryhealth.org/locations/north-baldwin-primary-plus/",
+          "https://www.infirmaryhealth.org/locations/outpatient-laboratory-services-fairhope/",
+          "https://www.infirmaryhealth.org/locations/premier-womens-health/",
+          "https://www.infirmaryhealth.org/locations/premier-womens-health-atmore/",
+          "https://www.infirmaryhealth.org/locations/premier-womens-health-daphne/",
+          "https://www.infirmaryhealth.org/locations/prohealth-fitness-center/",
+          "https://www.infirmaryhealth.org/locations/rehabilitation-specialists/",
+          "https://www.infirmaryhealth.org/locations/the-breast-center-at-mobile-infirmary/",
+          "https://www.infirmaryhealth.org/locations/the-breast-center-at-thomas-hospital/",
+          "https://www.infirmaryhealth.org/locations/the-harbor/",
+          "https://www.infirmaryhealth.org/locations/thomas-fitness-center/",
+          "https://www.infirmaryhealth.org/locations/thomas-hospital/",
+          "https://www.infirmaryhealth.org/locations/thomas-hospital-emergency-malbis/",
+          "https://www.infirmaryhealth.org/locations/thomas-hospital-internal-medicine-clinic/",
+          "https://www.infirmaryhealth.org/locations/thomas-medical-center/",
+          "https://www.infirmaryhealth.org/locations/womens-health-alliance-of-mobile/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "97022d6c-f9d6-4481-85c8-2a9d9779e7b9",
+    "url": "https://www.legacyhealth.org/doctors-and-locations.aspx?Latitude=&Longitude=&SearchType=LOCATIONS&keyword=&ActiveLocationTypeFilter=&services=&ZipCode=&Radius=5&PageNumber=1&PatientAge=&Specialties=&Gender=&Locations=&IsLHPMember=&OpenWeekends=undefined&Open24Hours=undefined",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.legacyhealth.org/Doctors-and-Locations/other/carl-peterson-clinical-education-center",
+          "https://www.legacyhealth.org/Doctors-and-Locations/other/green-gables-guest-house",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/bridgeport",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/camas",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/cedar-hills",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/cornell",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/emanuel",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/eugene-crescent-avenue",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/firwood",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/good-sam",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/lake-oswego",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/meridian-park",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/mount-hood",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/newport",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/salmon-creek",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/silverton",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/st-helens",
+          "https://www.legacyhealth.org/Doctors-and-Locations/drug-testing/cornell",
+          "https://www.legacyhealth.org/Doctors-and-Locations/drug-testing/newport",
+          "https://www.legacyhealth.org/Doctors-and-Locations/drug-testing/tualatin",
+          "https://www.legacyhealth.org/Doctors-and-Locations/drug-testing/portland",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/tualatin",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/west-linn",
+          "https://www.legacyhealth.org/Doctors-and-Locations/laboratory/woodburn-health-center",
+          "https://www.legacyhealth.org/Doctors-and-Locations/urgent-care/gohealth-camas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "41147504-625d-45d5-9689-92218fdd32b5",
+    "url": "https://www.lifespan.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.lifespan.org/locations/norman-prince-spine-institute-providence",
+          "https://www.lifespan.org/locations/womens-health-services-rhode-island-hospital",
+          "https://www.lifespan.org/locations/acute-care-rehabilitation-hasbro-childrens-hospital",
+          "https://www.lifespan.org/locations/acute-care-rehabilitation-newport-hospital",
+          "https://www.lifespan.org/locations/acute-care-rehabilitation-rhode-island-hospital",
+          "https://www.lifespan.org/locations/acute-care-rehabilitation-miriam-hospital",
+          "https://www.lifespan.org/locations/adolescent-bariatric-surgery",
+          "https://www.lifespan.org/locations/adolescent-health-care-center-east-greenwich-ri",
+          "https://www.lifespan.org/locations/adolescent-health-care-center-providence-ri",
+          "https://www.lifespan.org/locations/adolescent-healthcare-center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c713976a-fd1d-4577-9956-c2a3ab295ead",
+    "url": "https://www.lcmchealth.org/our-locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.lcmchealth.org/touro/our-locations/amelia-health-center-cardiology-and-cardiovascul/",
+          "https://www.lcmchealth.org/our-locations/behavioral-health-center/",
+          "https://www.lcmchealth.org/touro/our-locations/bienville-health-center-primary-care-and-ob-gyn/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-breast-surgical-oncology/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-gyn-and-gynecological-onco/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-interventional-pulmonology/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-obgyn/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-primary-care/",
+          "https://www.lcmchealth.org/touro/our-locations/buckman-health-center-urology/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-lakeview/",
+          "https://www.lcmchealth.org/touro/our-locations/canal-health-center-cardiology/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-eye-care-metairie/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-metairie-emergency-room/",
+          "https://www.chnola.org/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-specialty-care-nap/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-carousel-houma-blv/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-lakeside-4845-vete/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-metairie-pediatric/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-napoleon-pediatric/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-ormond-destrehan/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-pelican-pediatrics/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-1-10-service-rd-/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-marrero/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-slidell/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-pediatrics-specialty-care-out/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-specialty-care-alexandria/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-specialty-care-baton-rouge/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-specialty-care-lafayette/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-specialty-care-lake-charles/",
+          "https://www.lcmchealth.org/our-locations/childrens-hospital-specialty-care-monroe/",
+          "https://www.lcmchealth.org/our-locations/children-s-hospital-new-orleans-pediatric-cardio/",
+          "https://www.lcmchealth.org/our-locations/children-s-hospital-pediatrics-pelican-pediatric/",
+          "https://www.lcmchealth.org/our-locations/children-s-hospital-pediatrics-rainbow-/",
+          "https://www.lcmchealth.org/our-locations/children-s-hospital-specialty-care-mississippi/",
+          "https://www.lcmchealth.org/touro/our-locations/diabetes-center/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-neurology/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-breast-care/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-cancer-center/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-cvt-surgery/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/emergency-department/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ems-department/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-abdominal-transp/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-delivery-center/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-maternal-fetal-m/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-neuroscience-cen/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-orthopedic-care/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-respiratory-care/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-transplant-and-c/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-general-hospital-wound-and-hyperb/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-cardiovascular-services-4224-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-cardiovascular-services-4200-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-pain-management/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/east-jefferson-primary-and-family-care/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-4315-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-3601-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/outpatient-rehabilitation-center/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-pulmonary-care-4228-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-pulmonary-care-4320-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-womens-care-metairie-suite-410a-410b/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-womens-care-4300-houma/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-laboratory-services/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-laboratory-services-ii/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-laboratory-services-iii/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-phlebotomy-lab-4200-houma-/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-phlebotomy-lab-4315-houma-blvd-/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-phlebotomy-lab-701-metairie-rd-/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-radiology-department/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/family-birth-place/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/geriatric-behavioral-health-unit/",
+          "https://www.lcmchealth.org/touro/our-locations/harrison-health-center-primary-care-and-obgyn/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/heart-failure-clinic-at-ejgh/",
+          "https://www.lcmchealth.org/our-locations/hispanic-health-center/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/inpatient-rehabilitation/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/inpatient-rehabilitation-center/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/internal-medicine-clinic/",
+          "https://www.lcmchealth.org/lakeside-hospital/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-lakeside-hospital-womens-imaging/",
+          "https://www.lcmchealth.org/lakeview-hospital/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-chalmette-urgent-care/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-clearview-urgent-care/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-covington-urgent-care/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-gretna-urgent-care/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lrpg-structural-cardiology/",
+          "https://www.lcmchealth.org/locations/location-details/?ID=22578",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-bay-st-louis-/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-bogalusa-/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-hammond-/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-lacombe-/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-slidell-cardio/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-lakeview-campu/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-imaging-center/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-kenner-urgent-care/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-lacombe-specia/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-lakeview-urgent-care/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-marrero-urgent-care/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lakeview-regional-physician-group-vascular-gener/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-neuroscience-institute/",
+          "https://www.lcmchealth.org/new-orleans-east-hospital/our-locations/pontchartrain-clinic/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-river-ridge/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-urgent-care-kenner/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-primary-care-old-metairie/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-primary-care-luling/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lcmc-health-primary-care-covington-/",
+          "https://www.lcmchealth.org/lakeview-hospital/our-locations/lcmc-health-primary-care-lakeview-circle-/",
+          "https://www.lcmchealth.org/our-locations/lcmc-health-uptown-urgent-care/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-womens-care-laplace/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/ej-women-s-care-kenner/",
+          "https://www.lcmchealth.org/touro/our-locations/macarthur-health-center-cancer-care-and-infusion/",
+          "https://www.lcmchealth.org/touro/our-locations/macarthur-health-center-obgyn-and-midwifery/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/multispecialty-clinic-at-university-square/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/multispecialty-clinic-metairie/",
+          "https://www.lcmchealth.org/new-orleans-east-hospital/our-locations/new-orleans-east-clinic-primary-care/",
+          "https://www.lcmchealth.org/touro/our-locations/new-orleans-east-clinic-obgyn/",
+          "https://www.lcmchealth.org/new-orleans-east-hospital/",
+          "https://www.lcmchealth.org/new-orleans-east-hospital/our-locations/new-orleans-east-clinic/",
+          "https://www.lcmchealth.org/touro/our-locations/north-broad-health-center-obgyn/",
+          "https://www.lcmchealth.org/touro/our-locations/old-metairie-health-center-obgyn/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-outpatient-laboratory/",
+          "https://www.lcmchealth.org/our-locations/outpatient-specialty-pharmacy/",
+          "https://www.lcmchealth.org/university-medical-center-new-orleans/locations/primary-care-center/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-gastroenterology-and-pulm/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-general-surgery-suite-618/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-general-surgery-suite-620/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-multi-specialty-suite-402/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-obgyn-and-midwifery-suite/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-obgyn-suite-206/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-primary-care/",
+          "https://www.lcmchealth.org/touro/our-locations/prytania-health-center-pulmonology/",
+          "https://www.lcmchealth.org/touro/our-locations/read-health-center-primary-care-and-obgyn/",
+          "https://www.lcmchealth.org/our-locations/ridgelake-health-center/",
+          "https://www.lcmchealth.org/touro/our-locations/ridgelake-health-center-3rd-floor-multi-specialt/",
+          "https://www.lcmchealth.org/touro/our-locations/ridgelake-health-center-4th-floor-cancer-care-an/",
+          "https://www.lcmchealth.org/our-locations/senior-care-and-primary-care-clinic/",
+          "https://www.lcmchealth.org/touro/our-locations/st-charles-health-center-primary-care/",
+          "https://www.lcmchealth.org/touro/our-locations/st-charles-health-center-touro-maternal-fetal-me/",
+          "https://www.lcmchealth.org/touro/our-locations/st-claude-health-center-primary-care-and-obgyn-a/",
+          "https://www.lcmchealth.org/east-jefferson-general-hospital/our-locations/the-wellness-center/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/the-womens-medical-center/",
+          "https://www.lcmchealth.org/touro/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-breast-care-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-cancer-care-and-infusion-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-covid-19-vaccine-clinic/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-infirmary-family-birth-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-infusion-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-maternal-fetal-medicine-clinic/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-outpatient-rehabilitation-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-physician-practices-cardiology/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-prytania-imaging-center/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-radiation-oncology/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-radiation-therapy/",
+          "https://www.lcmchealth.org/touro/our-locations/touro-wellness-center/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-abdominal-transplant-and-hepatology/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-bone-marrow-transplant-tulane-bmt-/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-cancer-center/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-cardiology-and-diabetes-education/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-healthy-mothers-clinic/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-institute-of-sports-medicine/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-lakeside-orthopaedic-clinic/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-lakeside-surgical-services/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-lung-center-pulmonary-immunology-allergy-/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-medical-center-multispecialty-clinic/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-medical-center-womens-imaging/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-multispecialty-endocrinology-infectious-d/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-multispecialty-clinic-downtown/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-multispecialty-clinic-northshore/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-multispecialty-downtown-primary-care-endo/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-neurosurgery-neurology-and-audiology/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-orthopedics/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-physical-therapy-metairie/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-pt-solutions-chalmette/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-pt-solutions-metairie/",
+          "https://www.lcmchealth.org/lakeside-hospital/our-locations/tulane-pulmonary-clinic/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-surgery/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-surgery-clinic-northshore/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-westbank-multi-specialty-clinic-new-orlea/",
+          "https://www.lcmchealth.org/tulane-medical-center/our-locations/tulane-womens-services/",
+          "https://www.lcmchealth.org/university-medical-center-new-orleans/locations/university-medical-center-ambulatory-care-buildi/",
+          "https://www.lcmchealth.org/university-medical-center-new-orleans/locations/university-medical-center-behavioral-health-cent/",
+          "https://www.lcmchealth.org/university-medical-center-new-orleans/",
+          "https://www.lcmchealth.org/university-medical-center-new-orleans/locations/university-medical-center-outpatient-surgery-cen/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-endocrinology-clinic-gretna/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-endocrinology-clinic-marrero/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-cancer-center-infu/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-cancer-center/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-cardiology-center/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-center-for-surgica/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-ear-nose-throat/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-family-birth-place/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/heart-clinic-of-louisiana-gretna/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/heart-clinic-of-louisiana-marrero/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-primary-care-lapal/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-womens-health-obst/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/primary-care-algiers/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-manhattan-clinic/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/lcmc-health-oakwood-health-center/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-medical-center-marrero-clinic/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-pulmonary-associates/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/west-jefferson-urology-specialists/",
+          "https://www.lcmchealth.org/touro/our-locations/woldenberg-village/",
+          "https://www.lcmchealth.org/west-jefferson-medical-center/our-locations/women-s-imaging-and-breast-care-center/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47b45f41-2b7e-4295-ac0c-93f02354cd93",
+    "url": "https://www.hawaiipacifichealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "http://www.hawaiipacifichealth.org/wilcox/locations/eleele-clinic/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/family-medicine-clinic-at-kapiolani-womens-center/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locations/hawaii-pacific-health-cancer-center-at-pali-momi-medical-center/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kapaa-clinic/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-center/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-medical-specialists-at-hale-pawaa/",
+          "http://www.hawaiipacifichealth.org/kapiolani/locations/kapiolani-womens-center/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-medical-clinic/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/kauai-urgent-care/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/koloa-clinic/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-medical-center/",
+          "http://www.hawaiipacifichealth.org/pali-momi/locations/pali-momi-outpatient-center/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahului-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-doctors-on-call-sheraton-waikiki/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-doctors-on-call-hilton-hawaiian-village/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-downtown-honolulu-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-first-insurance-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hawaii-kai-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-hilo-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahala-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kailua-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kaneohe-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kapolei-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-king-street-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-lanai-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-mililani-shopping-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-mililani-town-center-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pali-momi-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pearlridge-clinic/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-physical-therapy-and-occupational-health/",
+          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-ward-village-clinic-urgent-care/",
+          "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "97dc7166-7dcb-4c9f-941f-342996bf1ca8",
+    "url": "https://www.mountsinai.org/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.mountsinai.org/locations/beth-israel",
+          "https://www.mountsinai.org/locations/brooklyn",
+          "https://www.mountsinai.org/locations/mount-sinai",
+          "https://www.mountsinai.org/locations/morningside",
+          "https://www.mountsinai.org/locations/queens",
+          "https://www.southnassau.org/sn",
+          "https://www.mountsinai.org/locations/west",
+          "https://www.nyee.edu/",
+          "https://www.mountsinai.org/locations/msd-faculty-practice",
+          "https://www.mountsinai.org/locations/spine-hospital",
+          "https://www.mountsinai.org/locations/downtown",
+          "https://www.mountsinai.org/locations/kravis-childrens",
+          "https://www.mountsinai.org/about/network",
+          "https://www.mountsinai.org/locations/urgent-care",
+          "https://www.mountsinai.org/locations/outpatient",
+          "https://www.mountsinai.org/locations/union-square",
+          "https://www.mountsinai.org/locations/chelsea",
+          "https://www.mountsinai.org/locations/behavioral-health-center",
+          "https://www.mountsinai.org/locations/harlem-health-center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "29cc4cad-f85c-4d8f-952e-f41f7eb2bc73",
+    "url": "https://www.acuityhealthcare.net/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/atlantic-city/atlantic-city",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/nj/willingboro/willingboro",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/morgantown/morgantown",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/weirton/weirton",
+          "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bb50f4e4-7d66-4ba6-b613-1065ea58a6fc",
+    "url": "https://www.adventisthealthcare.com/locations/results/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.adventisthealthcare.com/locations/profile/?id=2667&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=3462&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2668&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2594&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=3358&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=1176&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2593&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2592&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2558&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2586&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e4d7ca6-5292-4857-aca6-bd0fff337435",
+    "url": "https://apprhs.org/our-locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://apprhs.org/arims/",
+          "http://apprhs.org/apppulmonology",
+          "https://apprhs.org/apprheumatology",
+          "https://apprhs.org/appfamily",
+          "https://apprhs.org/appgastro/",
+          "https://apprhs.org/apportho/",
+          "https://apprhs.org/baker/",
+          "https://apprhs.org/booneurology/",
+          "https://apprhs.org/davantclinic/",
+          "https://apprhs.org/elkriver/",
+          "https://apprhs.org/grandfatherclinic/",
+          "https://apprhs.org/harmony/",
+          "https://apprhs.org/jeffersonclinic/",
+          "https://apprhs.org/tateclinic/",
+          "https://apprhs.org/watauga-surgical/",
+          "https://apprhs.org/wataugamedical/",
+          "https://apprhs.org/heartcenter",
+          "https://apprhs.org/heartcenter",
+          "https://apprhs.org/rehabcenter/",
+          "https://apprhs.org/sleepcenter",
+          "https://apprhs.org/paul-h-broyhill-wellness-center",
+          "https://apprhs.org/cancercenter/",
+          "https://apprhs.org/breastcenter/",
+          "https://apprhs.org/cannon/",
+          "https://apprhs.org/rehabcenter/",
+          "https://apprhs.org/appalachian-regional-behavioral-health/",
+          "https://apprhs.org/https://apprhs.org/appalachian-regional-behavioral-health/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c45a5a21-964c-422c-96a9-acbfdebc64bc",
+    "url": "https://www.archbold.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.archbold.org/locations/archbold-ambulatory-care-center/",
+          "https://www.archbold.org/locations/archbold-anti-coagulation-clinic/",
+          "https://www.archbold.org/locations/archbold-brooks/",
+          "https://www.archbold.org/locations/archbold-cancer-center/",
+          "https://www.archbold.org/locations/archbold-corporate-care-center/",
+          "https://www.archbold.org/locations/archbold-ent-allergy/",
+          "https://www.archbold.org/locations/archbold-foundation/",
+          "https://www.archbold.org/locations/archbold-gastroenterology/",
+          "https://www.archbold.org/locations/archbold-grady/",
+          "https://www.archbold.org/locations/archbold-grady-emergency-room/",
+          "https://www.archbold.org/locations/archbold-home-health-services/",
+          "https://www.archbold.org/locations/archbold-home-care/",
+          "https://www.archbold.org/locations/archbold-hospice/",
+          "https://www.archbold.org/locations/archbold-inpatient-rehabilitation/",
+          "https://www.archbold.org/locations/archbold-internal-medicine-residency-clinic/",
+          "https://www.archbold.org/locations/archbold-living-cairo/",
+          "https://www.archbold.org/locations/archbold-living-camilla/",
+          "https://www.archbold.org/locations/archbold-living-pelham/",
+          "https://www.archbold.org/locations/archbold-living-thomasville/",
+          "https://www.archbold.org/locations/archbold-memorial/",
+          "https://www.archbold.org/locations/archbold-memorial-emergency-department/",
+          "https://www.archbold.org/locations/archbold-mitchell/",
+          "https://www.archbold.org/locations/archbold-neurology-neurosurgery/",
+          "https://www.archbold.org/locations/archbold-northside/",
+          "https://www.archbold.org/locations/archbold-pediatrics-camilla/",
+          "https://www.archbold.org/locations/archbold-pinetree-pharmacy/",
+          "https://www.archbold.org/locations/archbold-primary-care-cairo/",
+          "https://www.archbold.org/locations/archbold-primary-care-camilla/",
+          "https://www.archbold.org/locations/archbold-primary-care-pelham/",
+          "https://www.archbold.org/locations/archbold-primary-care-thomasville/",
+          "https://www.archbold.org/locations/archbold-pulmonology/",
+          "https://www.archbold.org/locations/archbold-sleep-center/",
+          "https://www.archbold.org/locations/archbold-south-georgia-surgical/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-bainbridge/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-cairo/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-camilla/",
+          "https://www.archbold.org/locations/archbold-specialty-clinic-quitman/",
+          "https://www.archbold.org/locations/archbold-therapy-and-sports-medicine/",
+          "https://www.archbold.org/locations/archbold-therapy-camilla/",
+          "https://www.archbold.org/locations/archbold-therapy-quitman/",
+          "https://www.archbold.org/locations/archbold-urgent-care/",
+          "https://www.archbold.org/locations/archbold-urology/",
+          "https://www.archbold.org/locations/archbold-womens-center/",
+          "https://www.archbold.org/locations/archbold-wound-care/",
+          "https://www.archbold.org/locations/cardiovascular-consultants-of-south-georgia-llc/",
+          "https://www.archbold.org/locations/grady-general-hospital-outpatient-rehabilitation/",
+          "https://www.archbold.org/locations/loudermilk-heart-vascular-center/",
+          "https://www.archbold.org/locations/vita-surgery-vascular/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f9e89327-3556-492d-963d-3765eebdbb1d",
+    "url": "https://www.arnothealth.org/hospitals",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.arnothealth.org/arnot-ogden-medical-center",
+          "https://www.arnothealth.org/ira-davenport-memorial-hospital",
+          "https://www.arnothealth.org/st-josephs-hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3724f66f-9743-499c-a4b5-7b7f32d9e2a4",
+    "url": "https://www.astria.health/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.astria.health/locations/astria-ambulatory-surgical-center",
+          "https://www.astria.health/locations/astria-health-audiology",
+          "https://www.astria.health/locations/astria-health-center-euclid-ave-grandview",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-edison-dental",
+          "https://www.astria.health/locations/astria-health-center-family-medicine-ahtanum-ridge-dr-union-gap",
+          "https://www.astria.health/locations/astria-health-center-vintage-valley-pkwy-zillah",
+          "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-obgyn",
+          "https://www.astria.health/locations/astria-health-center-miller-ave-sunnyside-occupational-medicine",
+          "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-orthopedics",
+          "https://www.astria.health/locations/astria-health-center-803-lincoln-ave-sunnyside-pediatrics",
+          "https://www.astria.health/locations/astria-health-center-second-st-grandview",
+          "https://www.astria.health/locations/astria-health-center-2705-suite-c-lincoln-ave-sunnyside",
+          "https://www.astria.health/locations/astria-health-center-chardonnay-ave-prosser",
+          "https://www.astria.health/locations/astria-health-center-4th-ave-toppenish",
+          "https://www.astria.health/locations/astria-health-center-lincoln-ave-sunnyside-family-medicine-endocrinology-ob",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-edison",
+          "https://www.astria.health/locations/astria-health-center-sunnyside-rapid-care-and-multispecialty",
+          "https://www.astria.health/locations/astria-sleep-medicine",
+          "https://www.astria.health/locations/sleep-medicine-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-physical-therapy",
+          "https://www.astria.health/locations/astria-home-health-sunnyside",
+          "https://www.astria.health/locations/astria-home-health-yakima",
+          "https://www.astria.health/locations/astria-plastic-surgery-center",
+          "https://www.astria.health/locations/astria-health-center-2705-e-lincoln-ave-suite-c-sunnyside",
+          "https://www.astria.health/locations/astria-sunnyside-hospital",
+          "https://www.astria.health/locations/sunnyside-hospital-wound-care",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-emergency",
+          "https://www.astria.health/locations/astria-toppenish-hospital",
+          "https://www.astria.health/locations/astria-toppenish-hospital-emergency",
+          "https://www.astria.health/locations/astria-toppenish-hospital-behavioral-health-unit",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-breast-health-center",
+          "https://www.astria.health/locations/cancer-care-prosser",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-cancer-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-family-birth-center",
+          "https://www.astria.health/locations/astria-sunnyside-hospital-specialty-center-surgical-group"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3ee0e369-1cd7-41ac-940c-bee1afc1ef26",
+    "url": "https://www.atlantichealth.org/locations/hospitals.html",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.atlantichealth.org/locations/hospitals/morristown-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/overlook-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/newton-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/chilton-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/hackettstown-medical-center.html",
+          "https://www.atlantichealth.org/locations/hospitals/goryeb-childrens-hospital.html",
+          "https://www.atlanticrehabinstitute.com/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ce4dede3-9fee-44ea-99a6-0137a9aa2db8",
+    "url": "https://www.swedish.org/locations?lookup=87af2959065c4704b21c5064dada6bfd&lookupvalue=Urgent%20Care&page=1&radius=&term=",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.providence.org/our-services/urgent-care/urgent-care-factoria",
+          "https://www.providence.org/our-services/urgent-care/urgent-care-redmond",
+          "https://www.providence.org/our-services/urgent-care/urgent-care-edmonds"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "998ed1f9-a3a8-4e85-9863-ccfa8d21d9a6",
+    "url": "https://www.seielect.com/?stockcheck=ASR1JA330R",
+    "source": "mhtml",
+    "domain": "manufacturing",
+    "subdomain": "commerce",
+    "type": "fetch",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "TODO": "Finish this"
+        }
+      }
+    ]
+  },
+  {
+    "id": "18f93ec4-086c-467c-a952-8565d8005742",
+    "url": "https://www.kemet.com/en/us/capacitors/ceramic/product/CGP5C472MHWDAA7301.html",
+    "source": "mhtml",
+    "domain": "manufacturing",
+    "subdomain": "commerce",
+    "type": "fetch",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "TODO": "Finish this"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cd1ba388-8732-49e0-a5b1-09691aad999d",
+    "url": "https://www.infineon.com/cms/en/product/power/mosfet/silicon-carbide/modules/df14mr12w1m1hf_b67/",
+    "source": "mhtml",
+    "domain": "manufacturing",
+    "subdomain": "commerce",
+    "type": "fetch",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "TODO": "Finish this"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ad8593d-547d-4591-b4d5-a7cc42feeed4",
+    "url": "https://www.nexperia.com/products/diodes/automotive-diodes/automotive-zener-diodes/BZX585-C6V8-Q.html",
+    "source": "mhtml",
+    "domain": "manufacturing",
+    "subdomain": "commerce",
+    "type": "fetch",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "TODO": "Finish this"
+        }
+      }
+    ]
+  },
+  {
+    "id": "974d2768-776c-4157-8e6d-aea8bb22f832",
+    "url": "https://www.capecodhealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.capecodhealth.org/locations/profile/?id=18&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=14&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=22&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=56&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=39&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=91&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=1015&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=87&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=33&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=42&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bdf05e0f-fe5f-4b0c-b750-a176d274d281",
+    "url": "https://www.catholichealthservices.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.catholichealthservices.org/location/st-anthonys-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-catherines-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-catherines-west-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/st-annes-nursing-center/",
+          "https://www.catholichealthservices.org/location/st-johns-nursing-center/",
+          "https://www.catholichealthservices.org/location/villa-maria-nursing-center/",
+          "https://www.catholichealthservices.org/location/villa-maria-west-skilled-nursing-facility/",
+          "https://www.catholichealthservices.org/location/st-joseph-residence/",
+          "https://www.catholichealthservices.org/location/st-annes-residence/",
+          "https://www.catholichealthservices.org/location/home-health-services-of-miami-dade/",
+          "https://www.catholichealthservices.org/location/home-health-services-of-broward/",
+          "https://www.catholichealthservices.org/location/holy-cross-inpatient-care-center/",
+          "https://www.catholichealthservices.org/location/catholic-hospice-inpatient-care-center-at-st-catherines-west-rehabilitation-hospital/",
+          "https://www.catholichealthservices.org/location/catholic-hospice-inpatient-care-center-at-st-annes-nursing-center/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8bf5db6d-3df6-464b-92b0-c0a04317feec",
+    "url": "https://www.mycmh.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.mycmh.org/locations/community-memorial-breast-center/",
+          "https://www.mycmh.org/locations/community-memorial-continuing-care-center/",
+          "https://www.mycmh.org/locations/community-memorial-gynecologic-oncology/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-ashwood-avenue/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-camarillo/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-east-main-street/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-fillmore/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-maricopa-highway/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-north-brent-street/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-oak-view/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-pirie-road/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-port-hueneme/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-santa-paula/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-santa-paula-suite-c/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-santa-rosa/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-saviers-road/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-vineyard-avenue/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-west-5th-street/",
+          "https://www.mycmh.org/locations/community-memorial-clinic-west-main-street/",
+          "https://www.mycmh.org/locations/community-memorial-hospital-ojai/",
+          "https://www.mycmh.org/locations/community-memorial-hospital-ventura/",
+          "https://www.mycmh.org/locations/community-memorial-new-parent-resource-center/",
+          "https://www.mycmh.org/locations/community-memorial-pediatrics/",
+          "https://www.mycmh.org/locations/community-memorial-pharmacy/",
+          "https://www.mycmh.org/locations/community-memorial-urgent-care-arneill-road/",
+          "https://www.mycmh.org/locations/community-memorial-urgent-care-east-main-street/",
+          "https://www.mycmh.org/locations/community-memorial-urgent-care-santa-paula/",
+          "https://www.mycmh.org/locations/community-memorial-urgent-care-saviers-road/",
+          "https://www.mycmh.org/locations/community-memorial-urology-urogynecology/",
+          "https://www.mycmh.org/locations/community-memorial-wellness-fitness-center/",
+          "https://www.mycmh.org/locations/community-memorial-wound-care-hyperbaric-medicin/",
+          "https://www.mycmh.org/locations/grossman-imaging-centers/",
+          "https://www.mycmh.org/locations/grossman-oxnard-gonzales/",
+          "https://www.mycmh.org/locations/grossman-ventura/",
+          "https://www.mycmh.org/locations/ojai-valley-hospital-foundation/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2a07987-e9da-434d-9190-07a2e74c9600",
+    "url": "https://dchsystem.com/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.dchsystem.com/locations/dch-regional-medical-center/",
+          "https://www.dchsystem.com/locations/northport-medical-center/",
+          "https://www.dchsystem.com/locations/fayette-medical-center/",
+          "https://www.dchsystem.com/locations/lewis-faye-manderson-cancer-center/",
+          "https://www.dchsystem.com/locations/spinecare-center/",
+          "https://www.dchsystem.com/locations/fmc-medical-clinic-millport/",
+          "https://www.dchsystem.com/locations/west-alabama-urology-associates/",
+          "https://www.dchsystem.com/locations/fmc-medical-clinic-fayette/",
+          "https://www.dchsystem.com/locations/berry-medical-clinic/",
+          "https://www.dchsystem.com/locations/west-alabama-vascular-endovascular-surgery/",
+          "https://www.dchsystem.com/locations/west-alabama-surgical-associates/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6d744ee4-bfb8-4061-badd-8ffa7e954e0f",
+    "url": "https://ernesthealth.com/our-hospitals/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://ernesthealth.com/portfolio-item/denver-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/green-bay-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-southern-california/",
+          "https://ernesthealth.com/portfolio-item/4069/",
+          "https://ernesthealth.com/portfolio-item/lexington-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/trustpoint-rehabilitation-hospital-of-lubbock/",
+          "https://ernesthealth.com/portfolio-item/spartanburg-rehabilitation-institute/",
+          "https://ernesthealth.com/portfolio-item/stockton-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/sacramento-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-the-northwest/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-northern-indiana/",
+          "https://ernesthealth.com/portfolio-item/northern-utah-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-northern-arizona/",
+          "https://ernesthealth.com/portfolio-item/laredo-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/weslaco-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/bakersfield-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/utah-valley-specialty-hospital/",
+          "https://ernesthealth.com/portfolio-item/south-texas-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-southern-new-mexico/",
+          "https://ernesthealth.com/portfolio-item/northern-idaho-advanced-care-hospital/",
+          "https://ernesthealth.com/portfolio-item/northern-colorado-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/northern-colorado-long-term-acute-hospital/",
+          "https://ernesthealth.com/portfolio-item/mountain-valley-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/mesquite-specialty-hospital/",
+          "https://ernesthealth.com/portfolio-item/mesquite-rehabilitation-institute/",
+          "https://ernesthealth.com/portfolio-item/laredo-specialty-hospital/",
+          "https://ernesthealth.com/portfolio-item/greenwood-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/elkhorn-valley-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/advanced-care-hospital-of-southern-new-mexico/",
+          "https://ernesthealth.com/portfolio-item/advanced-care-hospital-of-montana/",
+          "https://ernesthealth.com/portfolio-item/lafayette-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/rehabilitation-hospital-of-northwest-ohio/",
+          "https://ernesthealth.com/portfolio-item/corpus-christi-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/bloomington-regional-rehabilitation-hospital/",
+          "https://ernesthealth.com/portfolio-item/new-braunfels-regional-rehabilitation-hospital/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fe899480-b3d1-4c28-a91f-a7c63b05c940",
+    "url": "https://excelahealth.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.excelahealth.org/locations/blairsville-medical-park/",
+          "https://www.excelahealth.org/locations/advanced-pain-center-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/advanced-pain-center-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/advanced-pain-center-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/advanced-sleep-center-latrobe-hospital/",
+          "https://www.excelahealth.org/locations/advanced-sleep-center-medical-commons-five/",
+          "https://www.excelahealth.org/locations/wound-center-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/advanced-wound-center-medical-commons-one/",
+          "https://www.excelahealth.org/locations/advanced-lung-center-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/advanced-lung-center-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/advanced-lung-center-mountain-view-medical-park/",
+          "https://www.excelahealth.org/locations/blairsville-family-medicine-first-floor/",
+          "https://www.excelahealth.org/locations/blairsville-family-medicine-second-floor/",
+          "https://www.excelahealth.org/locations/cardiology-blairsville/",
+          "https://www.excelahealth.org/locations/cardiology-connellsville/",
+          "https://www.excelahealth.org/locations/cardiology-delmont/",
+          "https://www.excelahealth.org/locations/cardiology-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/cardiology-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/cardiology-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/cardiology-greensburg-medical-commons-one/",
+          "https://www.excelahealth.org/locations/cardiothoracic-surgery-medical-commons-three/",
+          "https://www.excelahealth.org/locations/excela-health-center-for-concussion-care/",
+          "https://www.excelahealth.org/locations/excela-health-center-for-pulmonary-and-sleep-dis2/",
+          "https://www.excelahealth.org/locations/excela-health-center-for-pulmonary-and-sleep-dis/",
+          "https://www.excelahealth.org/locations/excela-health-delmont-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-derry-family-medicine/",
+          "https://www.excelahealth.org/locations/diagnostic-associates-greensburg/",
+          "https://www.excelahealth.org/locations/diagnostic-associates-latrobe/",
+          "https://www.excelahealth.org/locations/electrophysiology-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/electrophysiology-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/electrophysiology-greensburg-medical-commons-thr/",
+          "https://www.excelahealth.org/locations/electrophysiology-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/excela-health-employment-center/",
+          "https://www.excelahealth.org/locations/ent-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/ent-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/ent-medical-commons-five/",
+          "https://www.excelahealth.org/locations/family-medicine-greensburg/",
+          "https://www.excelahealth.org/locations/family-medicine-latrobe/",
+          "https://www.excelahealth.org/locations/excela-health-family-medicine-connellsville/",
+          "https://www.excelahealth.org/locations/excela-health-family-medicine-residency-program/",
+          "https://www.excelahealth.org/locations/gastroenterology-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/gastroenterology-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/gastroenterology-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/gastroenterology-medical-commons-one/",
+          "https://www.excelahealth.org/locations/excela-health-greensburg-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-heart-failure-clinic/",
+          "https://www.excelahealth.org/locations/excela-health-jeannette-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-laurel-surgical-center/",
+          "https://www.excelahealth.org/locations/excela-health-ligonier-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-mount-pleasant-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-mountain-view-primary-care/",
+          "https://www.excelahealth.org/locations/excela-health-neurology/",
+          "https://www.excelahealth.org/locations/excela-health-neurosurgery/",
+          "https://www.excelahealth.org/locations/excela-health-new-alexandria-family-medicine/",
+          "https://www.excelahealth.org/locations/ob-gyn-delmont/",
+          "https://www.excelahealth.org/locations/ob-gyn-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/ob-gyn-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/ob-gyn-greensburg/",
+          "https://www.excelahealth.org/locations/ob-gyn-scottdale/",
+          "https://www.excelahealth.org/locations/orthopedics-blairsville/",
+          "https://www.excelahealth.org/locations/orthopedics-connellsville/",
+          "https://www.excelahealth.org/locations/orthopedics-delmont/",
+          "https://www.excelahealth.org/locations/orthopedics-donohoe/",
+          "https://www.excelahealth.org/locations/orthopedics-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/orthopedics-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/orthopedics-excela-square-at-ligonier/",
+          "https://www.excelahealth.org/locations/orthopedics-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/orthopedics-medical-commons-five/",
+          "https://www.excelahealth.org/locations/orthopedics-pellis/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-delmont/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-excela-square-at-ligonier/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-greensburg-pellis-road/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-medical-commons-two/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-youngwood/",
+          "https://www.excelahealth.org/locations/outpatient-rehab-blairsville/",
+          "https://www.excelahealth.org/locations/excela-health-primary-care-norwin/",
+          "https://www.excelahealth.org/locations/excela-square-frick-primary-care/",
+          "https://www.excelahealth.org/locations/quikdraw-blairsville/",
+          "https://www.excelahealth.org/locations/quikdraw-delmont/",
+          "https://www.excelahealth.org/locations/quikdraw-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/quikdraw-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/quikdraw-excela-square-at-ligonier/",
+          "https://www.excelahealth.org/locations/quikdraw-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/quikdraw-medical-commons-one/",
+          "https://www.excelahealth.org/locations/quikdraw-mountain-view-medical-park/",
+          "https://www.excelahealth.org/locations/excela-health-saltsburg-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-health-school-of-anesthesia/",
+          "https://www.excelahealth.org/locations/surgical-specialists-excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/surgical-specialists-excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/surgical-specialists-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/surgical-specialists-medical-commons-three/",
+          "https://www.excelahealth.org/locations/thoracic-surgery-excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/excela-health-vascular-surgery/",
+          "https://www.excelahealth.org/locations/excela-health-weight-management-center/",
+          "https://www.excelahealth.org/locations/excela-health-works-greensburg/",
+          "https://www.excelahealth.org/locations/excela-square-at-frick/",
+          "https://www.excelahealth.org/locations/excela-square-at-latrobe/",
+          "https://www.excelahealth.org/locations/excela-square-at-ligonier/",
+          "https://www.excelahealth.org/locations/excela-square-at-norwin/",
+          "https://www.excelahealth.org/locations/excela-square-frick-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-square-latrobe-family-medicine/",
+          "https://www.excelahealth.org/locations/excela-square-latrobe-pediatrics/",
+          "https://www.excelahealth.org/locations/excela-square-latrobe-primary-care/",
+          "https://www.excelahealth.org/locations/frick-hospital/",
+          "https://www.excelahealth.org/locations/greensburg-family-medicine/",
+          "https://www.excelahealth.org/locations/home-care-hospice/",
+          "https://www.excelahealth.org/locations/latrobe-area-hospital-charitable-foundation/",
+          "https://www.excelahealth.org/locations/latrobe-hospital/",
+          "https://www.excelahealth.org/locations/medcare-equipment-company/",
+          "https://www.excelahealth.org/locations/mountain-view-medical-park/",
+          "https://www.excelahealth.org/locations/ob-gyn-murrysville/",
+          "https://www.excelahealth.org/locations/the-square-at-connellsville/",
+          "https://www.excelahealth.org/locations/westmoreland-hospital/",
+          "https://www.excelahealth.org/locations/westmoreland-frick-hospital-foundation/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "62bca094-6cff-4cc5-8592-71d283babfa6",
+    "url": "https://www.frhs.org/locations/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.frhs.org/locations/profile/?id=99&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=100&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=111&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=94&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=110&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=32&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=70&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=19&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=29&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=38&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "361cdcca-41ed-4afd-b9fb-d7f98289d4fb",
+    "url": "https://www.flhealth.org/locations/location-search-results?SearchPattern=Contains&LocationDescendants=true",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.flhealth.org/locations/clyde-family-health-center",
+          "https://www.flhealth.org/locations/clyde-family-health-lab-draw-station",
+          "https://www.flhealth.org/locations/diagnostic-imagingradiology-department-at-soldiers-sailors-memorial-hospital",
+          "https://www.flhealth.org/locations/dundee-family-health-center",
+          "https://www.flhealth.org/locations/dundee-family-health-lab-draw-station",
+          "https://www.flhealth.org/locations/finger-lakes-gastroenterology",
+          "https://www.flhealth.org/locations/finger-lakes-health-college-of-nursing-health-sciences",
+          "https://www.flhealth.org/locations/finger-lakes-health-foundation",
+          "https://www.flhealth.org/locations/finger-lakes-health-human-resources",
+          "https://www.flhealth.org/locations/finger-lakes-podiatry-geneva"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d5df56b5-f0bd-4d69-8cb5-11edfbf4568e",
+    "url": "https://www.freemanhealth.com/all-locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.freemanhealth.com/location/freeman-hospital-west",
+          "https://www.freemanhealth.com/location/freeman-hospital-east",
+          "https://www.freemanhealth.com/location/freeman-neosho-hospital",
+          "https://www.freemanhealth.com/location/browning-internal-medicine",
+          "https://www.freemanhealth.com/location/carthage-neighborhood-care",
+          "https://www.freemanhealth.com/location/freeman-academic-internal-medicine",
+          "https://www.freemanhealth.com/location/freeman-acute-care-surgery",
+          "https://www.freemanhealth.com/location/freeman-advanced-surgical-practice",
+          "https://www.freemanhealth.com/location/freeman-carl-junction-family-medicine",
+          "https://www.freemanhealth.com/location/freeman-center-for-digestive-health",
+          "https://www.freemanhealth.com/location/freeman-center-for-geriatric-medicine",
+          "https://www.freemanhealth.com/location/freeman-childrens-clinic",
+          "https://www.freemanhealth.com/location/freeman-clinic-of-anderson",
+          "https://www.freemanhealth.com/location/freeman-clinic-of-baxter-springs",
+          "https://www.freemanhealth.com/location/freeman-clinic-of-carthage",
+          "https://www.freemanhealth.com/location/freeman-cornell-beshore-cancer-institute",
+          "https://www.freemanhealth.com/location/freeman-dermatology-and-skin-cancer-center",
+          "https://www.freemanhealth.com/location/freeman-diabetes-endocrine-institute",
+          "https://www.freemanhealth.com/location/freeman-ear-nose-throat-center",
+          "https://www.freemanhealth.com/location/freeman-family-medicine-associates",
+          "https://www.freemanhealth.com/location/freeman-family-practice",
+          "https://www.freemanhealth.com/location/freeman-gastroenterology",
+          "https://www.freemanhealth.com/location/freeman-general-vascular-surgical-group",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-girard",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-grove",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-mcintosh-circle",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-miami",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-parsons",
+          "https://www.freemanhealth.com/location/freeman-heartland-internal-medicine",
+          "https://www.freemanhealth.com/location/freeman-heart-vascular-institute-pittsburg",
+          "https://www.freemanhealth.com/location/freeman-infectious-diseases",
+          "https://www.freemanhealth.com/location/freeman-institute-for-pain-management",
+          "https://www.freemanhealth.com/location/freeman-internal-medicine-family-practice",
+          "https://www.freemanhealth.com/location/freeman-kidney-center",
+          "https://www.freemanhealth.com/location/freeman-lamar-family-care",
+          "https://www.freemanhealth.com/location/freeman-lung-institute",
+          "https://www.freemanhealth.com/location/freeman-neosho-physician-group",
+          "https://www.freemanhealth.com/location/freeman-physician-group-of-pittsburg-oncology-services",
+          "https://www.freemanhealth.com/location/freeman-neurospine",
+          "https://www.freemanhealth.com/location/freeman-neurology-headache-clinic",
+          "https://www.freemanhealth.com/location/freeman-obgyn-associates",
+          "https://www.freemanhealth.com/location/freeman-occumed",
+          "https://www.freemanhealth.com/location/freeman-orthopaedics-sports-medicine",
+          "https://www.freemanhealth.com/location/freeman-orthopaedics-sports-medicine-fort-scott",
+          "https://www.freemanhealth.com/location/freeman-orthopaedics-sports-medicine-pittsburg",
+          "https://www.freemanhealth.com/location/ozark-obstetrics-gynecology",
+          "https://www.freemanhealth.com/location/freeman-pediatric-care",
+          "https://www.freemanhealth.com/location/freeman-pediatric-partners",
+          "https://www.freemanhealth.com/location/freeman-perinatology-center",
+          "https://www.freemanhealth.com/location/freeman-primary-care",
+          "https://www.freemanhealth.com/location/freeman-radiology",
+          "https://www.freemanhealth.com/location/freeman-rehabilitation-sports-center",
+          "https://www.freemanhealth.com/location/freeman-seneca-family-medicine",
+          "https://www.freemanhealth.com/location/freeman-sleep-center",
+          "https://www.freemanhealth.com/location/freeman-southwest-internal-medicine",
+          "https://www.freemanhealth.com/location/freeman-specialty-clinic-of-pittsburg",
+          "https://www.freemanhealth.com/location/freeman-surgical-associates",
+          "https://www.freemanhealth.com/location/freeman-surgical-center-of-pittsburg",
+          "https://www.freemanhealth.com/location/freeman-urgent-care-joplin",
+          "https://www.freemanhealth.com/location/freeman-urgent-care-webb-city",
+          "https://www.freemanhealth.com/location/freeman-urology-associates",
+          "https://www.freemanhealth.com/location/freeman-womens-healthcare-associates",
+          "https://www.freemanhealth.com/location/freeman-wound-care-hyperbaric-medicine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4593517-4ff7-40dd-b100-e24b90c72819",
+    "url": "https://www.froedtert.com/locations",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "links",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.froedtert.com/locations/virtual-clinic",
+          "https://www.froedtert.com/locations/clinic/brookfield-heart-and-vascular-clinic",
+          "https://www.froedtert.com/locations/lab/brookfield-heart-and-vascular-clinic-lab",
+          "https://www.froedtert.com/locations/health-center/calhoun-health-center",
+          "https://www.froedtert.com/locations/lab/calhoun-health-center-lab",
+          "https://www.froedtert.com/locations/cancer-center/cancer-center-drexel-town-square-health-center",
+          "https://www.froedtert.com/locations/cancer-center/cancer-center-menomonee-falls-hospital",
+          "https://www.froedtert.com/locations/cancer-center/cancer-center-froedtert-pleasant-prairie-hospital",
+          "https://www.froedtert.com/locations/cancer-center/cancer-center-west-bend-hospital",
+          "https://www.froedtert.com/locations/cancer-center/cancer-center-moorland-reserve-health-center",
+          "https://www.froedtert.com/locations/lab/center-advanced-care-lab-froedtert-hospital",
+          "https://www.froedtert.com/locations/center-advanced-care-froedtert-hospital",
+          "https://www.froedtert.com/locations/cancer-center/clinical-cancer-center-froedtert-hospital",
+          "https://www.froedtert.com/locations/health-center/drexel-town-square-health-center",
+          "https://www.froedtert.com/locations/lab/drexel-town-square-health-center-lab",
+          "https://www.froedtert.com/locations/surgery-center/drexel-town-square-surgery-center",
+          "https://www.froedtert.com/locations/clinic/ent-clinic-somers-clinic",
+          "https://www.froedtert.com/locations/executive-health-program-froedtert-hospital",
+          "https://www.froedtert.com/locations/clinic/eye-institute",
+          "https://www.froedtert.com/locations/clinic/eye-specialists-glendale",
+          "https://www.froedtert.com/locations/clinic/eye-specialists-mt-pleasant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3692abd6-a2d1-4148-bd85-8993e9e2db81",
+    "url": "https://www.capecodhealth.org/locations/profile/cape-cod-surgery-center/?searchId=b8a9e746-eb81-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Cape Cod Surgery Center",
+          "address": "160 Falmouth Road Mashpee MA 02649",
+          "phone": "774-361-8700",
+          "fax": "774-521-3628",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "3b13610f-9bf2-44ad-b223-f5db5a6e259a",
+    "url": "https://whiteriverhealth.org/doctors/facilities/38/orthopaedics-batesville",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "White River Health Orthopaedics & Sports Medicine",
+          "address": "1690 Harrison Street Batesville, AR 72501",
+          "phone": "(870) 793-2371",
+          "fax": "(870) 793-7585",
+          "type": null,
+          "website": "https://batesvillebones.org/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4e974283-6ad8-4c6d-9788-0aff49ab0a57",
+    "url": "https://www.wth.org/locations/west-tennessee-interventional-pain-dyersburg/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "West Tennessee Interventional Pain (Dyersburg)",
+          "address": "420 Wilkinson Dr, Dyersburg, TN 38024, USA",
+          "phone": "(731) 288-3960",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "3c99030a-088b-42fc-bab6-84972afb65b5",
+    "url": "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Select Specialty Hospital - Wheeling",
+          "address": "500 Medical Park, 2nd Floor Wheeling, WV 26003",
+          "phone": "(304) 238-5750",
+          "fax": "(304) 797-6186",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "afc8133f-a641-46fe-bf93-5b98d8e6cea3",
+    "url": "https://whs.org/locations/childrens-therapy-center/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Children's Therapy Center",
+          "address": "289 North Avenue, Washington, PA 15301",
+          "phone": "(724) 942-6100",
+          "fax": "(724) 942-6104",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "17d5678f-05ac-4bd4-b52b-79e6a710f8f1",
+    "url": "https://www.wakemed.org/location/gastroenterology-north-raleigh",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Gastroenterology - North Raleigh",
+          "address": "10010 Falls of Neuse Road, Suite 203 Raleigh, North Carolina 27614",
+          "phone": "919-235-6440",
+          "fax": "919-350-7093",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "180a3e5f-1cd7-4073-bf02-3dc663a6d41e",
+    "url": "https://www.virtua.org/locations/surgicare-of-central-jersey",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "SURGICARE OF CENTRAL JERSEY",
+          "address": "40 Stirling Road, Suite 101 Watchung, NJ 07069",
+          "phone": "908-769-8000",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "5b3eb94e-3e5c-4c39-832c-48c25f38a8b8",
+    "url": "https://locations.ecuhealth.org/Details/46?Index=3&_gl=1*8joxuy*_ga*MTYyMTMxNzA4Mi4xNjk5NjYzOTgz*_ga_4RQPPRT99M*MTY5OTY2Mzk4My4xLjAuMTY5OTY2Mzk4My4wLjAuMA..",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "ECU Health Family Medicine - Chocowinity",
+          "address": "740 Bragaw Lane Chocowinity, NC  27817",
+          "phone": "(252) 946-9562",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "f6c00da0-3976-457b-982c-3efdea0ff7bb",
+    "url": "https://veritascollaborative.com/locations/north-carolina/durham-nc-adult-eating-disorder-treatment-center/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Veritas Collaborative Eating Disorder Treatment Center",
+          "address": "615 Douglas Street, Suite 500 Durham, NC 27705",
+          "phone": "919-767-0202",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "583c1f78-16aa-4eee-ae29-4277f4495ea1",
+    "url": "https://www.vcuhealth.org/locations/location-details?id=33",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Mayland Medical Center",
+          "address": "3470 Mayland Court Richmond,VA 23233",
+          "phone": "(804) 527-4540",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "88ac8af0-d461-4c7f-8498-d7d53d65e3c0",
+    "url": "https://search.vanderbilthealth.com/locations/vanderbilt-bill-wilkerson-center-franklin",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Vanderbilt Bill Wilkerson Center Franklin",
+          "address": "919 Murfreesboro Road, Franklin, TN 37064",
+          "phone": "(615) 936-5000",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "b81f0252-ecca-4dda-a7e1-dcdc48d0db2c",
+    "url": "https://www.valleyhealthlink.com/our-locations/valley-health-page-memorial-hospital-multispecia/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Valley Health Page Memorial Hospital Multispecialty Clinic",
+          "address": "125 Memorial Drive Luray, VA 22835",
+          "phone": "540-743-2282",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "c8ebee22-eeac-4479-9ca6-aebb1efc3a2f",
+    "url": "https://www.uwmedicine.org/locations/northwest-hospital",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "UW Medical Center - Northwest",
+          "address": "Main Hospital, 1550 N 115th St., Seattle, WA 98133",
+          "phone": "877.694.4677",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "9d2df10f-4f04-4968-8227-c8a12f74b63d",
+    "url": "https://www.uwhealth.org/locations/uw-health-specialty-clinic-sauk-prairie-270/optometry-clinic-1048",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Eye Care Clinic (Optometry)",
+          "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
+          "phone": "(608) 643-6060",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ae5045c0-b6c2-40a3-9dab-bfafadb1f1ed",
+    "url": "https://uvahealth.com/locations/UVA-Medical-Park-Zion-Crossroads-5597275",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "UVA Medical Park Zion Crossroads",
+          "address": "1015 Spring Creek Parkway Gordonsville, VA 22942",
+          "phone": "434.443.4821",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "f436cee3-06d1-472e-b98b-615905e41c52",
+    "url": "https://www.usahealthsystem.com/locations/cardiac-catheterization-lab",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Cardiac Catheterization Lab",
+          "address": "2451 University Hospital Dr. Mobile, AL 36617",
+          "phone": "(251) 471-7160",
+          "fax": "(251) 471-7019",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "0fe1cf15-d5fb-416c-9e1b-f5cae188d088",
+    "url": "https://uoflhealth.org/locations/uofl-health-hep-c-center/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "UofL Health - Hep C Center",
+          "address": "UofL Health - Jackson Street Outpatient Center 550 S. Jackson Street, 3rd Floor Louisville, KY 40202",
+          "phone": "502-561-5687",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "4d167753-d180-497d-8510-02ab26f3a0f7",
+    "url": "https://www.pennmedicine.org/for-patients-and-visitors/penn-medicine-locations/pennsylvania-hospital",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Pennsylvania Hospital",
+          "address": "800 Spruce Street Philadelphia, PA 19107",
+          "phone": "215-829-3000",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "d401233f-2d50-426f-bf77-004411a19d6d",
+    "url": "https://www.kansashealthsystem.com/locations/center-for-advanced-vascular-care-overland-park-ks",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Center for Advanced Vascular Care",
+          "address": "10700 Nall Avenue Level 3 Overland Park, KS 66211",
+          "phone": "913-588-1227",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "e0ce7070-8cb3-416a-8090-7a6a186b4e8a",
+    "url": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-merrillville",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Comer Children's - Merrillville",
+          "address": "99 E. 86th Ave. Suite C Merrillville, IN 46410",
+          "phone": "773-702-6169",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "c95632a7-31a8-4177-9361-d07bdd809a7a",
+    "url": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Luke's Interventional Pain Management",
+          "address": "St. Luke's Building A 1012 East Second Street 4th Floor Duluth, MN 55805",
+          "phone": "218.249.7860",
+          "fax": "218.249.6370",
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "a33c17c6-b2cd-433f-8972-09b969667866",
+    "url": "https://www.arnothealth.org/st-josephs-hospital",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "fetch",
+    "fetch_id": "contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "St. Joseph's Campus of Arnot Health",
+          "address": "555 St. Joseph's Boulevard",
+          "phone": "607-733-6541",
+          "fax": null,
+          "type": null,
+          "website": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "cb25b8d2-1ac6-43d5-930f-70edeccf34f9",
+    "url": "https://www.hackensackmeridianhealth.org/en/location-search#sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.hackensackmeridianhealth.org/en/location-search#first=10&sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]"
+      }
+    ]
+  },
+  {
+    "id": "2ac79ff2-a923-49df-9e66-5ce7f9d5d0e4",
+    "url": "https://www.uchicagomedicine.org/find-a-location?page=5&sortby=default",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.uchicagomedicine.org/find-a-location?page=6&sortby=default"
+      }
+    ]
+  },
+  {
+    "id": "d76159ad-f62a-49e1-9896-df5ef91dcb5f",
+    "url": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=5",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=7"
+      }
+    ]
+  },
+  {
+    "id": "17c411ab-5586-4cd7-940c-514959796b4f",
+    "url": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=4",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=6"
+      }
+    ]
+  },
+  {
+    "id": "6d85220a-b86e-4b85-96c8-0fb94447cf29",
+    "url": "https://www.baptistfirst.org/find-a-location/?page=4&count=10",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.baptistfirst.org/find-a-location/?page=6&count=10"
+      }
+    ]
+  },
+  {
+    "id": "6b9054b1-c67c-46cc-bd67-7dfd29a9ebf1",
+    "url": "https://www.mhs.net/locations?listPage=2",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.mhs.net/locations?listPage=4"
+      }
+    ]
+  },
+  {
+    "id": "a316a94d-7ad6-4385-a2e0-4b47e1f1a661",
+    "url": "https://whs.org/locations-practices/search-results/",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://whs.org/locations-practices/search-results/?sf_paged=3"
+      }
+    ]
+  },
+  {
+    "id": "8fc4b97d-f823-4c31-b50f-ad42671fe2b1",
+    "url": "https://www.shrinerschildrens.org/en/locations?listPage=1",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.shrinerschildrens.org/en/locations?listPage=4"
+      }
+    ]
+  },
+  {
+    "id": "b572a5e4-717b-41ab-86e3-ec41cac368b3",
+    "url": "https://www.sih.net/locations?page=1&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.sih.net/locations?page=4&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list"
+      }
+    ]
+  },
+  {
+    "id": "b2a98bed-bce2-404a-9b6b-ff27d28a6c1f",
+    "url": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=54&count=9",
+    "source": "hosted",
+    "domain": "healthcare",
+    "subdomain": "contact",
+    "type": "navigate",
+    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
+    "evals": [
+      {
+        "type": "end_url_match",
+        "expected": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=58&count=9"
+      }
+    ]
+  }
+]
