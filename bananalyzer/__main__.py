@@ -9,9 +9,10 @@ import sys
 from pathlib import Path
 from typing import List
 
+from bananalyzer.runner.generator import PytestTestGenerator
+from bananalyzer.runner.runner import run_tests
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import get_training_examples
-from bananalyzer.runner.runner import TestGenerator, run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
 
 
@@ -41,7 +42,8 @@ V  \
 def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a bananalyzer agent definition file against the benchmark",
+        description=f"Run the agent inside a bananalyzer agent definition file "
+        f"against the benchmark",
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
@@ -89,6 +91,19 @@ def parse_args() -> Args:
         help="A list of ids to skip tests on, separated by commas",
     )
     parser.add_argument(
+        "-q",
+        "--quiet",
+        action="store_true",
+        help="Will decrease the verbosity of pytest. By default we run with the `--v` pytest param.",
+    )
+    parser.add_argument(
+        "--single_browser_instance",
+        action="store_true",
+        help="Run tests in a single browser instance as opposed to creating a browser "
+        "instance per test. This is faster but less reliable as test contexts can "
+        "occasionally bleed into each other, causing tests to fail",
+    )
+    parser.add_argument(
         "-t",
         "--type",
         type=lambda s: s.split(","),
@@ -115,16 +130,18 @@ def parse_args() -> Args:
         id=args.id,
         domain=args.domain,
         skip=args.skip,
+        single_browser_instance=args.single_browser_instance,
         type=args.type,
         download=args.download,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
+            q=args.quiet,
         ),
     )
 
 
-def find_decorated_scrapers(file_path: Path) -> List[AgentRunnerClass]:
+def find_agents(file_path: Path) -> List[AgentRunnerClass]:
     with open(file_path, "r") as source:
         node = ast.parse(source.read())
 
@@ -143,13 +160,13 @@ def find_decorated_scrapers(file_path: Path) -> List[AgentRunnerClass]:
 
 def load_agent_from_path(path: Path) -> AgentRunnerClass:
     if path.is_dir():
-        files = list(path.glob("**/*.py"))
+        files = [p for p in path.glob("**/*.py") if "venv" not in p.parts]
     else:
         files = [path]
 
     runners: List[AgentRunnerClass] = []
     for file in files:
-        runners.extend(find_decorated_scrapers(file))
+        runners.extend(find_agents(file))
 
     if len(runners) == 0:
         raise RuntimeError(f"Could not find any agent runners in {path}")
@@ -225,13 +242,13 @@ def main() -> int:
         return 0
 
     # Load the desired tests
-    generator = TestGenerator()
-    tests = [
-        generator.generate_test(example, args.headless) for example in filtered_examples
-    ]
+    generator = PytestTestGenerator()
+    tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(tests, agent, args.pytest_args)
+    return run_tests(
+        tests, agent, args.pytest_args, args.headless, args.single_browser_instance
+    )
 
 
 if __name__ == "__main__":

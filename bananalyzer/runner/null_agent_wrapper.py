@@ -19,6 +19,7 @@ class NullAgentRunner(AgentRunner):
         print(f"Testing {example.get_static_url()}")
         await page.goto(example.get_static_url())
         await asyncio.sleep(0.5)
+
         print(f"Done testing {example.get_static_url()}")
 
         # Ensure page is correct
