@@ -3,6 +3,7 @@ from typing import Any, Dict, Optional
 import pytest
 from _pytest.outcomes import Failed
 from pydantic import ValidationError
+from pytest_mock import MockFixture
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
 from bananalyzer.data.schemas import Eval, Example, format_new_lines
@@ -20,7 +21,7 @@ def test_format_new_lines() -> None:
     )
 
 
-def test_json_eval(mocker: Any) -> None:
+def test_json_eval(mocker: MockFixture) -> None:
     page = mocker.Mock()
     json = {"one": "one", "two": "two\ntwo"}
     evaluation = Eval(type="json_match", expected=json)
@@ -45,7 +46,7 @@ def test_json_eval(mocker: Any) -> None:
         )
 
 
-def test_json_eval_ignores___attributes(mocker: Any) -> None:
+def test_json_eval_ignores___attributes(mocker: MockFixture) -> None:
     page = mocker.Mock()
     expected = {"one": "one", "none": None}
     evaluation = Eval(type="json_match", expected=expected)
@@ -66,7 +67,7 @@ def test_json_eval_ignores___attributes(mocker: Any) -> None:
         evaluation.eval_results(page, url_added)
 
 
-def test_json_eval_with_none_values(mocker: Any) -> None:
+def test_json_eval_with_none_values(mocker: MockFixture) -> None:
     page = mocker.Mock()
     expected = {"one": "one", "none": None}
     evaluation = Eval(type="json_match", expected=expected)
@@ -90,7 +91,7 @@ def test_json_eval_with_none_values(mocker: Any) -> None:
         evaluation.eval_results(page, missing_key)
 
 
-def test_url_eval(mocker: Any) -> None:
+def test_url_eval(mocker: MockFixture) -> None:
     expected_url = "https://www.test.com"
     page = mocker.Mock()
     page.url = expected_url
