@@ -23,10 +23,16 @@ def are_examples_available(path: Path) -> bool:
 
 
 def get_examples_path() -> Path:
+    """Determine the path to the examples, preferring local if available."""
     if are_examples_available(local_examples_path):
-        print("### Returning local examples ###")
+        print("### Using local examples! ###")
         return local_examples_path
-    return downloaded_examples_path
+    elif are_examples_available(downloaded_examples_path):
+        return downloaded_examples_path
+    else:
+        raise FileNotFoundError(
+            "No examples download. Re-run with `--download` to download example data via git."
+        )
 
 
 def download_examples() -> None:
@@ -60,6 +66,7 @@ def download_examples() -> None:
             shutil.move(str(item), downloaded_examples_path)
 
     finally:
+        print("Cleaning up repo...")
         shutil.rmtree("repo_temp", ignore_errors=True)
 
 

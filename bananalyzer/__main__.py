@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import List
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.examples import get_training_examples
+from bananalyzer.data.examples import download_examples, get_training_examples
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
@@ -208,6 +208,12 @@ def main() -> int:
     agent = load_agent_from_path(Path(args.path))
 
     print(f"Loaded agent {agent.class_name} from {agent.class_name}")
+
+    if args.download:
+        print("##################################################")
+        print("# Downloading examples, this may take a while... #")
+        print("##################################################")
+        download_examples()
 
     # Filter examples based on args
     filtered_examples = get_training_examples()
