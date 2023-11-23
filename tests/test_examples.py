@@ -13,9 +13,11 @@ from bananalyzer.data.examples import (
     downloaded_examples_path,
     get_all_examples,
     get_example_by_url,
+    get_examples_path,
     get_test_examples,
     get_training_examples,
     load_examples_at_path,
+    local_examples_path,
 )
 from bananalyzer.data.schemas import Example
 
@@ -40,11 +42,23 @@ def test_load_examples_at_path_file_not_found(mocker: MockFixture) -> None:
         load_examples_at_path(Path("/fake/path"), "fake.json")
 
 
+def test_get_local_examples_path() -> None:
+    # Running test in repo will default to local path
+    assert get_examples_path() == local_examples_path
+
+
+def test_get_examples_path_failure(mocker: MockFixture) -> None:
+    mocker.patch("pathlib.Path.exists", return_value=False)
+    
+    with pytest.raises(FileNotFoundError):
+        get_examples_path()
+
+
 @pytest.mark.skipif(
     os.getenv("GITHUB_ACTIONS") == "true",
     reason="Do not download 100MB dataset on GitHub Actions",
 )
-def test_download_examples():
+def test_download_examples() -> None:
     if downloaded_examples_path.exists():
         shutil.rmtree(downloaded_examples_path)
 
