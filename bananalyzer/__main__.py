@@ -10,7 +10,11 @@ from pathlib import Path
 from typing import List
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.examples import download_examples, get_training_examples
+from bananalyzer.data.examples import (
+    download_examples,
+    get_test_examples,
+    get_training_examples,
+)
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
@@ -43,7 +47,7 @@ def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
         description=f"Run the agent inside a bananalyzer agent definition file "
-        f"against the benchmark",
+                    f"against the benchmark",
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
@@ -100,11 +104,10 @@ def parse_args() -> Args:
         "--single_browser_instance",
         action="store_true",
         help="Run tests in a single browser instance as opposed to creating a browser "
-        "instance per test. This is faster but less reliable as test contexts can "
-        "occasionally bleed into each other, causing tests to fail",
+             "instance per test. This is faster but less reliable as test contexts can "
+             "occasionally bleed into each other, causing tests to fail",
     )
     parser.add_argument(
-        "-t",
         "--type",
         type=str,
         default=None,
@@ -114,6 +117,11 @@ def parse_args() -> Args:
         "--download",
         action="store_true",
         help="Will re-download training and test examples",
+    )
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="Use test set examples instead of training set examples",
     )
 
     args = parser.parse_args()
@@ -131,6 +139,7 @@ def parse_args() -> Args:
         skip=args.skip,
         single_browser_instance=args.single_browser_instance,
         type=args.type,
+        test=args.test,
         download=args.download,
         pytest_args=PytestArgs(
             s=args.s,
@@ -216,7 +225,7 @@ def main() -> int:
         download_examples()
 
     # Filter examples based on args
-    filtered_examples = get_training_examples()
+    filtered_examples = get_test_examples() if args.test else get_training_examples()
     if args.id:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id

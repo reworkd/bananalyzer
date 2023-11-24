@@ -21,6 +21,7 @@ class Args(BaseModel):
     skip: List[str]
     type: Optional[str] = Field(default=None)
     download: bool
+    test: bool
     pytest_args: PytestArgs
 
 
