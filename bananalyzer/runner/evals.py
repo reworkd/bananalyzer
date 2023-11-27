@@ -20,29 +20,26 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
 
 
 def validate_json_match(expected: Result, actual: Result) -> None:
-    assert isinstance(expected, dict)
+    if isinstance(expected, dict):
+        expected = format_new_lines(expected)
+        actual = format_new_lines(actual)
 
-    # TODO: We should probably code gen to remove newlines or update test data to contain new lines
-    formatted_expected = format_new_lines(expected)
-    formatted_actual = format_new_lines(actual)
-
-    # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
-    # Adding missing keys in actual with None if they are expected to be None
-    for key, value in formatted_expected.items():
-        if value is None and key not in formatted_actual:
-            formatted_actual[key] = None
+        # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
+        # Adding missing keys in actual with None if they are expected to be None
+        for key, value in expected.items():
+            if value is None and key not in actual:
+                actual[key] = None
 
     diff = DeepDiff(
-        formatted_expected,
-        formatted_actual,
+        expected,
+        actual,
         ignore_order=True,
         report_repetition=True,
     )
-
     if diff:
         # Pretty print both expected and actual results
-        pretty_expected = json.dumps(formatted_expected, indent=4)
-        pretty_actual = json.dumps(formatted_actual, indent=4)
+        pretty_expected = json.dumps(expected, indent=4)
+        pretty_actual = json.dumps(actual, indent=4)
 
         diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
         pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
