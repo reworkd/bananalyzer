@@ -1268,7 +1268,6 @@
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kahala-clinic-urgent-care/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kailua-clinic/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kaneohe-clinic/",
-          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-kapolei-clinic-urgent-care/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-king-street-clinic/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-lanai-clinic/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-mililani-shopping-center-clinic/",
@@ -1276,7 +1275,6 @@
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pali-momi-clinic/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-pearlridge-clinic/",
           "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-physical-therapy-and-occupational-health/",
-          "http://www.hawaiipacifichealth.org/straub/locations/straub-medical-center-ward-village-clinic-urgent-care/",
           "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
         ]
       }
@@ -1350,16 +1348,16 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.adventisthealthcare.com/locations/profile/?id=2667&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=3462&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2668&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2594&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=3358&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=1176&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2593&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2592&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2558&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10",
-          "https://www.adventisthealthcare.com/locations/profile/?id=2586&searchId=2c29b524-887f-ee11-a85e-000d3a611ea2&sort=13&page=1&pageSize=10"
+          "https://www.adventisthealthcare.com/locations/profile/?id=2667&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=3462&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2668&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2594&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=3358&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=1176&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2593&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2592&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=3435&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10",
+          "https://www.adventisthealthcare.com/locations/profile/?id=2557&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10"
         ]
       }
     ]
@@ -1663,16 +1661,16 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.capecodhealth.org/locations/profile/?id=18&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=14&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=22&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=56&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=39&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=91&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=1015&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=87&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=33&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.capecodhealth.org/locations/profile/?id=42&searchId=a6c4348c-e581-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10"
+          "https://www.capecodhealth.org/locations/profile/?id=18&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=14&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=22&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=56&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=39&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=91&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=1015&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=87&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=33&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.capecodhealth.org/locations/profile/?id=42&searchId=00d4ddb8-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10"
         ]
       }
     ]
@@ -1981,16 +1979,16 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.frhs.org/locations/profile/?id=99&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=100&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=111&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=94&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=110&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=32&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=70&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=19&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=29&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-          "https://www.frhs.org/locations/profile/?id=38&searchId=8873e7c9-e981-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10"
+          "https://www.frhs.org/locations/profile/?id=99&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=100&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=111&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=94&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=110&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=32&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=70&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=19&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=29&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10",
+          "https://www.frhs.org/locations/profile/?id=38&searchId=1d4672cb-4f8a-ee11-a868-000d3a611c21&sort=11&page=1&pageSize=10"
         ]
       }
     ]
@@ -2305,7 +2303,7 @@
         "type": "json_match",
         "expected": {
           "name": "ECU Health Family Medicine - Chocowinity",
-          "address": "740 Bragaw Lane Chocowinity, NC 27817",
+          "address": "740 Bragaw Lane Chocowinity, NC  27817",
           "phone": "(252) 946-9562",
           "fax": null,
           "type": null,
@@ -2459,8 +2457,8 @@
         "type": "json_match",
         "expected": {
           "name": "UVA Medical Park Zion Crossroads",
-          "address": "1015 Spring Creek Parkway Zion Crossroads, VA 22942",
-          "phone": "434.924.0000",
+          "address": "1015 Spring Creek Parkway Gordonsville, VA 22942",
+          "phone": "434.443.4821",
           "fax": null,
           "type": null,
           "website": null
