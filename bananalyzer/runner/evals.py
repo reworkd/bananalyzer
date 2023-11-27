@@ -6,21 +6,32 @@ import pytest
 from deepdiff import DeepDiff
 
 Result = Dict[str, Any]
-NON_ALPHANUMERIC_PATTERN = re.compile(r"[^a-zA-Z0-9]")
+NON_ALPHANUMERIC_REGEX = re.compile(r"[^a-zA-Z0-9]")
+
+
+def sanitize_string(input_str: str) -> str:
+    return NON_ALPHANUMERIC_REGEX.sub("", input_str).lower()
+
+
+def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
+    length_difference = abs(len(actual) - len(expected))
+    sanitized_actual = sanitize_string(actual)
+    sanitized_expected = sanitize_string(expected)
+
+    return sanitized_actual == sanitized_expected and length_difference <= tolerance
 
 
 def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     expected_value = expected.get(field, None)
     actual_value = actual.get(field, None)
 
-    sanitized_expected = (
-        sanitize_string(str(expected_value)) if expected_value is not None else None
-    )
-    sanitized_actual = (
-        sanitize_string(str(actual_value)) if actual_value is not None else None
+    matcher = (
+        is_string_similar
+        if isinstance(expected_value, str) and isinstance(actual_value, str)
+        else lambda x, y: x == y
     )
 
-    if sanitized_expected != sanitized_actual:
+    if not matcher(actual_value, expected_value):
         diff_msg = f"Actual: {actual_value}\nExpected: {expected_value}"
         pytest.fail(f"FieldEval mismatch!\n{diff_msg}")
 
@@ -58,13 +69,6 @@ def validate_end_url_match(expected: str, actual: str) -> None:
     if actual != expected:
         diff_msg = f"Actual URL:\t{actual}\nExpected URL:\t{expected}"
         pytest.fail(f"URLEval mismatch!\n{diff_msg}")
-
-
-def sanitize_string(input_str: str) -> str:
-    """Remove non-alphanumeric characters and convert to lowercase."""
-
-    sanitized = NON_ALPHANUMERIC_PATTERN.sub("", input_str)
-    return sanitized.lower()
 
 
 def format_new_lines(d: Result) -> Result:
