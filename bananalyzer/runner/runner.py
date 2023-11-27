@@ -72,11 +72,12 @@ def agent():
 
 
 @pytest_asyncio.fixture(scope="{'session' if single_browser_instance else 'class'}")
-async def context():
+async def page():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
         context = await browser.new_context()
-        yield context
+        page = await context.new_page()
+        yield page
         await browser.close()
 
 """

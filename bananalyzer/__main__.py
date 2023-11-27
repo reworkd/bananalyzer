@@ -9,7 +9,12 @@ import sys
 from pathlib import Path
 from typing import List
 
-from bananalyzer import AgentRunner, examples
+from bananalyzer import AgentRunner
+from bananalyzer.data.examples import (
+    download_examples,
+    get_test_examples,
+    get_training_examples,
+)
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
@@ -102,6 +107,22 @@ def parse_args() -> Args:
         "instance per test. This is faster but less reliable as test contexts can "
         "occasionally bleed into each other, causing tests to fail",
     )
+    parser.add_argument(
+        "--type",
+        type=str,
+        default=None,
+        help="Filter tests by a particular type",
+    )
+    parser.add_argument(
+        "--download",
+        action="store_true",
+        help="Will re-download training and test examples",
+    )
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="Use test set examples instead of training set examples",
+    )
 
     args = parser.parse_args()
 
@@ -117,6 +138,9 @@ def parse_args() -> Args:
         domain=args.domain,
         skip=args.skip,
         single_browser_instance=args.single_browser_instance,
+        type=args.type,
+        test=args.test,
+        download=args.download,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -194,8 +218,14 @@ def main() -> int:
 
     print(f"Loaded agent {agent.class_name} from {agent.class_name}")
 
+    if args.download:
+        print("##################################################")
+        print("# Downloading examples, this may take a while... #")
+        print("##################################################")
+        download_examples()
+
     # Filter examples based on args
-    filtered_examples = examples[:]
+    filtered_examples = get_test_examples() if args.test else get_training_examples()
     if args.id:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id
@@ -211,6 +241,10 @@ def main() -> int:
     if args.skip:
         filtered_examples = [
             example for example in filtered_examples if example.id not in args.skip
+        ]
+    if args.type:
+        filtered_examples = [
+            example for example in filtered_examples if example.type in args.type
         ]
 
     # Test we actually have tests to run
