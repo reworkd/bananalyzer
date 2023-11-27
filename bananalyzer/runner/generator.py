@@ -35,7 +35,7 @@ class {self._generate_class_name(example)}:
             return f"""
     @pytest.mark.parametrize("key", {list(eval_.expected.keys())})
     async def test_match_field(self, key, result) -> None:
-        assert self.example.evals[{i}].expected.get(key, None) == result.get(key, None)
+        assert self.example.evals[{i}].eval_results(None, result, field=key)
 
 """
         return f"""
