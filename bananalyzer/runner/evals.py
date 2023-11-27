@@ -14,11 +14,28 @@ def sanitize_string(input_str: str) -> str:
 
 
 def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
-    length_difference = abs(len(actual) - len(expected))
     sanitized_actual = sanitize_string(actual)
     sanitized_expected = sanitize_string(expected)
 
-    return sanitized_actual == sanitized_expected and length_difference <= tolerance
+    # Check if alphanumeric content matches
+    if sanitized_actual != sanitized_expected:
+        return False
+
+    non_alnum_actual = ''.join(char for char in actual if not char.isalnum())
+    non_alnum_expected = ''.join(char for char in expected if not char.isalnum())
+
+    # Compare the sequence of non-alphanumeric characters with a tolerance for
+    # additional/missing characters
+    diff_count = 0
+    for char1, char2 in zip(non_alnum_actual, non_alnum_expected):
+        if char1 != char2:
+            diff_count += 1
+
+    # Account for length difference if one sequence is longer than the other
+    length_diff = abs(len(non_alnum_actual) - len(non_alnum_expected))
+    diff_count += length_diff
+
+    return diff_count <= tolerance
 
 
 def validate_field_match(expected: Result, actual: Result, field: str) -> None:

@@ -49,6 +49,9 @@ def test_sanitize_string(input_str, expected):
         ("", "", 2, True),
         ("a", "a-", 1, True),
         ("b", "b--", 1, False),
+        ("c+", "c-", 0, False),
+        ("d---", "d+++", 1, False),
+        ("++e+++", "---e--", 0, False),
     ],
 )
 def test_is_string_similar(actual, expected, tolerance, expected_result):
