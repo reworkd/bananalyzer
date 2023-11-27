@@ -1,12 +1,14 @@
-import json
 from typing import Any, Dict, List, Literal, Optional, Union
 
-import pytest
-from deepdiff import DeepDiff
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
+from bananalyzer.runner.evals import (
+    validate_end_url_match,
+    validate_field_match,
+    validate_json_match,
+)
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
@@ -16,19 +18,6 @@ GoalType = Literal[
     "search",  # Search for the answer to a specific query
     "multiple",  # Perform multiple intents
 ]
-
-
-def format_new_lines(d: Dict[str, Any]) -> Dict[str, Any]:
-    """Recursively replace newlines in strings with spaces."""
-    new_dict: Dict[str, Any] = {}
-    for k, v in d.items():
-        if isinstance(v, dict):
-            new_dict[k] = format_new_lines(v)
-        elif isinstance(v, str):
-            new_dict[k] = v.replace("\n", " ")
-        else:
-            new_dict[k] = v
-    return new_dict
 
 
 class Eval(BaseModel):
@@ -46,39 +35,22 @@ class Eval(BaseModel):
         raise NotImplementedError("eval_action not implemented")
 
     def eval_results(
-        self, page: Page, result: Union[List[str], Dict[str, Any]]
+        self, page: Page, result: Dict[str, Any], field: Optional[str] = None
     ) -> None:
-        if self.type == "json_match":
-            # TODO: We should probably code gen to remove newlines or update test data to contain new lines
-            if isinstance(self.expected, dict):
-                assert isinstance(result, dict)
-                self.expected = format_new_lines(self.expected)
-                result = format_new_lines(result)
+        if (
+            self.type == "json_match"
+            and field is not None
+            and type(self.expected) is dict
+        ):
+            return validate_field_match(self.expected, result, field)
 
-                # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
-                # Adding missing keys in actual with None if they are expected to be None
-                for key, value in self.expected.items():
-                    if value is None and key not in result:
-                        result[key] = None
+        if self.type == "json_match" and type(self.expected) is dict:
+            return validate_json_match(self.expected, result)
 
-            diff = DeepDiff(
-                self.expected,
-                result,
-                ignore_order=True,
-                report_repetition=True,
-            )
-            if diff:
-                # Pretty print both expected and actual results
-                pretty_expected = json.dumps(self.expected, indent=4)
-                pretty_actual = json.dumps(result, indent=4)
+        if self.type == "end_url_match" and type(self.expected) is str:
+            return validate_end_url_match(self.expected, page.url)
 
-                diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
-                pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
-
-        elif self.type == "end_url_match":
-            if page.url != self.expected:
-                diff_msg = f"Actual URL:\t{page.url}\nExpected URL:\t{self.expected}"
-                pytest.fail(f"URLEval mismatch!\n{diff_msg}")
+        raise NotImplementedError("No evaluation type implemented")
 
 
 class Example(BaseModel):

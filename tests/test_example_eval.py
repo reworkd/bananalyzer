@@ -6,7 +6,8 @@ from pydantic import ValidationError
 from pytest_mock import MockFixture
 
 from bananalyzer.data.fetch_schemas import fetch_schemas
-from bananalyzer.data.schemas import Eval, Example, format_new_lines
+from bananalyzer.data.schemas import Eval, Example
+from bananalyzer.runner.evals import format_new_lines
 
 
 def test_format_new_lines() -> None:
