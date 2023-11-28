@@ -109,4 +109,3 @@ class BananalyzerPytestPlugin:
                 record_property(key, accessor())
             except Exception:
                 pass
-
