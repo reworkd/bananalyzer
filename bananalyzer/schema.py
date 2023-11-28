@@ -1,14 +1,30 @@
-from typing import Optional
+from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
-from bananalyzer import GoalType
+from bananalyzer.data.schemas import GoalType
+
+
+class PytestArgs(BaseModel):
+    s: bool
+    n: Optional[int]
+    q: bool
 
 
 class Args(BaseModel):
     path: str
     headless: bool
+    single_browser_instance: bool
     id: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)
-    s: bool
+    skip: List[str]
+    type: Optional[str] = Field(default=None)
+    download: bool
+    test: bool
+    pytest_args: PytestArgs
+
+
+class AgentRunnerClass(BaseModel):
+    class_name: str
+    class_path: str

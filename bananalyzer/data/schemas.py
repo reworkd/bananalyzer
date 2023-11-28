@@ -1,11 +1,14 @@
-import json
-from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Literal, Optional, Union
 
-import pytest
-from deepdiff import DeepDiff
+from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
+from bananalyzer.data.fetch_schemas import fetch_schemas
+from bananalyzer.runner.evals import (
+    validate_end_url_match,
+    validate_field_match,
+    validate_json_match,
+)
 from bananalyzer.data.fetch_schemas import get_fetch_schema
 
 GoalType = Literal[
@@ -18,49 +21,45 @@ GoalType = Literal[
 ]
 
 
-class Eval(BaseModel, ABC):
+class Eval(BaseModel):
     """
     Base class for all evals. Evals are used to determine if an action or result is correct
     """
 
-    @abstractmethod
+    type: Literal["json_match", "end_url_match"] = "json_match"
+    expected: Union[Dict[str, Any], List[str], str]
+
     def eval_action(self, action: str) -> bool:
+        """
+        We don't care for action level evals at the moment
+        """
         raise NotImplementedError("eval_action not implemented")
 
-    @abstractmethod
-    def eval_result(self, result: str) -> bool:
-        raise NotImplementedError("eval_result not implemented")
+    def eval_results(
+        self, page: Page, result: Dict[str, Any], field: Optional[str] = None
+    ) -> None:
+        if (
+            self.type == "json_match"
+            and field is not None
+            and type(self.expected) is dict
+        ):
+            return validate_field_match(self.expected, result, field)
 
+        if self.type == "json_match" and type(self.expected) is dict:
+            return validate_json_match(self.expected, result)
 
-class JSONEval(BaseModel):
-    type: Literal["json_match"] = Field(default="json_match")
-    expected: Union[Dict[str, Any], List[str]]
+        if self.type == "end_url_match" and type(self.expected) is str:
+            return validate_end_url_match(self.expected, page.url)
 
-    def eval_action(self, _: str) -> bool:
-        # We don't care about action level evaluations
-        return True
-
-    def eval_results(self, result: Dict[str, Any]) -> None:
-        diff = DeepDiff(
-            self.expected, result, ignore_order=True, report_repetition=True
-        )
-        if diff:
-            # Pretty print both expected and actual results
-            pretty_expected = json.dumps(self.expected, indent=4)
-            pretty_actual = json.dumps(result, indent=4)
-
-            diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
-            pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
-
-
-class ActionEval(BaseModel):
-    actions: Dict[str, str]
+        raise NotImplementedError("No evaluation type implemented")
 
 
 class Example(BaseModel):
     id: str
     url: str
-    source: Literal["mhtml", "hosted"] = Field(description="Source of the website")
+    source: Literal["mhtml", "hosted", "url"] = Field(
+        description="Source of the website"
+    )
     domain: str = Field(description="Domain of the website")
     subdomain: str = Field(description="Subdomain of the website")
     type: GoalType = Field(
@@ -75,7 +74,7 @@ class Example(BaseModel):
         default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
     )
-    evals: List[Union[JSONEval]] = Field(
+    evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
     )
 
