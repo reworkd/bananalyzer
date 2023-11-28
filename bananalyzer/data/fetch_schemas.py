@@ -1,13 +1,10 @@
-"""
-Mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
-"""
 from typing import Dict, Type
 
 from pydantic import BaseModel, Field
 
-fetch_goals = {
-    "job_posting": "Return the provided information about the job posting. For salaries, provide the range as ${lower} - ${upper} if available, otherwise just provide ${salary}",
-}
+"""
+This file contains mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
+"""
 
 
 class ContactSchema(BaseModel):
