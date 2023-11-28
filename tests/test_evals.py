@@ -52,6 +52,10 @@ def test_sanitize_string(input_str, expected):
         ("c+", "c-", 0, False),
         ("d---", "d+++", 1, False),
         ("++e+++", "---e--", 0, False),
+        ("615 Douglas Street, Suite 500 Durham, NC 27705",
+         "615 Douglas Street, Suite 500, Durham, NC 27705", 2, True),
+        ("615 Douglas Street, \n\n'Suite 500 Durham', NC 27-705",
+         "615 Douglas Street, Suite 500, Durham, NC 27705", 2, True),
     ],
 )
 def test_is_string_similar(actual, expected, tolerance, expected_result):
