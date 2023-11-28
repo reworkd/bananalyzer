@@ -1,8 +1,7 @@
 import json
 import re
-
-from typing import Any, Callable, Dict
 from difflib import SequenceMatcher
+from typing import Any, Callable, Dict
 
 import pytest
 from deepdiff import DeepDiff
@@ -95,7 +94,6 @@ def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
         return True
 
     return SequenceMatcher(None, non_alnum_actual, non_alnum_expected).ratio() >= 0.7
-
 
 
 def get_matcher(expected_value: Any, actual_value: Any) -> Callable[[Any, Any], bool]:
