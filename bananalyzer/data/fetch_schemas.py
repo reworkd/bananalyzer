@@ -9,9 +9,6 @@ This file contains mapping of fetch_id to fetch schema to avoid duplicate schema
 
 class ContactSchema(BaseModel):
     name: str
-    website: str = Field(
-        description="An external link to the website if the website provides a link"
-    )
     phone: str
     fax: str = Field(description="Fax number of the location")
     address: str
