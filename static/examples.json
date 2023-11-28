@@ -2303,7 +2303,7 @@
         "type": "json_match",
         "expected": {
           "name": "ECU Health Family Medicine - Chocowinity",
-          "address": "740 Bragaw Lane Chocowinity, NC  27817",
+          "address": "740 Bragaw Lane Chocowinity, NC 27817",
           "phone": "(252) 946-9562",
           "fax": null,
           "type": null,
@@ -2457,8 +2457,8 @@
         "type": "json_match",
         "expected": {
           "name": "UVA Medical Park Zion Crossroads",
-          "address": "1015 Spring Creek Parkway Gordonsville, VA 22942",
-          "phone": "434.443.4821",
+          "address": "1015 Spring Creek Parkway Zion Crossroads, VA 22942",
+          "phone": "434.924.0000",
           "fax": null,
           "type": null,
           "website": null
