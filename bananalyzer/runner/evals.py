@@ -84,7 +84,7 @@ def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
     return SequenceMatcher(None, actual, expected).ratio() >= 0.8
 
 
-def native_count_differences(actual: str, expected: str):
+def native_count_differences(actual: str, expected: str) -> int:
     non_alnum_actual = "".join(char for char in actual if not char.isalnum())
     non_alnum_expected = "".join(char for char in expected if not char.isalnum())
     # Compare the sequence of non-alphanumeric characters with a tolerance for
