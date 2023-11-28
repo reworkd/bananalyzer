@@ -98,10 +98,15 @@ class BananalyzerPytestPlugin:
         terminalreporter.write_line("Summary:")
         terminalreporter.write_line(tabulate(table_data.items(), tablefmt="psql"))
 
+    # noinspection PyBroadException
     @pytest.fixture(autouse=True)
     def add_user_properties(self, record_property, request) -> None:  # type: ignore
-        for key, value in {
-            "field": request.node.callspec.params.get("key", ""),
-            "class": request.cls.__name__,
+        for key, accessor in {
+            "field": lambda *_: request.node.callspec.params.get("key"),
+            "class": lambda *_: request.cls.__name__,
         }.items():
-            record_property(key, value)
+            try:
+                record_property(key, accessor())
+            except Exception:
+                pass
+
