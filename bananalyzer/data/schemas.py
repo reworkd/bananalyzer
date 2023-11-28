@@ -3,13 +3,12 @@ from typing import Any, Dict, List, Literal, Optional, Union
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
-from bananalyzer.data.fetch_schemas import fetch_schemas
+from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.runner.evals import (
     validate_end_url_match,
     validate_field_match,
     validate_json_match,
 )
-from bananalyzer.data.fetch_schemas import get_fetch_schema
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
@@ -83,7 +82,7 @@ class Example(BaseModel):
 
         return get_website_responder(self).get_url(self)
 
-    @model_validator(mode="before")
+    @model_validator(mode="before")  z
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         goal_type = values.get("type")
         if goal_type != "fetch":

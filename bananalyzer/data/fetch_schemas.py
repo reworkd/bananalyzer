@@ -11,11 +11,11 @@ fetch_goals = {
 
 class ContactSchema(BaseModel):
     name: str
-    website: str = Field(description="An external link to the website")
+    website: str = Field(description="An external link to the website if the website provides a link")
     phone: str
-    fax: str = Field(description="Fax number")
+    fax: str = Field(description="Fax number of the location")
     address: str
-    type: str = Field(description="The type of clinic the location")
+    type: str = Field(description="The type of clinic the location: Hospital, Clinic, etc.")
 
 
 class JobPostingSchema(BaseModel):
