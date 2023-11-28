@@ -149,5 +149,5 @@ def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
 def test_fetch_with_fetch_id_and_no_goal_sets_default_goal() -> None:
     example_data = create_default_example({"fetch_id": "contact", "goal": None})
     example = Example(**example_data)
-    print(get_fetch_schema("contact").model_json_schema())
-    assert example.goal == get_fetch_schema("contact").model_json_schema()
+    print(get_fetch_schema("contact").model_fields)
+    assert example.goal == get_fetch_schema("contact").model_fields

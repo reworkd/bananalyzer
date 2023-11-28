@@ -96,5 +96,5 @@ class Example(BaseModel):
         if goal is not None:
             raise ValueError("goal must not be provided if fetch_id is provided")
 
-        values["goal"] = get_fetch_schema(fetch_id).model_json_schema()
+        values["goal"] = get_fetch_schema(fetch_id).model_fields
         return values
