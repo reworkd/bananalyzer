@@ -1,8 +1,8 @@
 import json
 import re
 
-from typing import Any, Callable, Dict
 from difflib import SequenceMatcher
+from typing import Any, Callable, Dict
 
 import pytest
 from deepdiff import DeepDiff
