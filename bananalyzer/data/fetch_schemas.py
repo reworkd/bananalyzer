@@ -1,6 +1,7 @@
 """
 Mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
 """
+from typing import Dict, Type
 
 from pydantic import BaseModel, Field
 
@@ -11,11 +12,15 @@ fetch_goals = {
 
 class ContactSchema(BaseModel):
     name: str
-    website: str = Field(description="An external link to the website if the website provides a link")
+    website: str = Field(
+        description="An external link to the website if the website provides a link"
+    )
     phone: str
     fax: str = Field(description="Fax number of the location")
     address: str
-    type: str = Field(description="The type of clinic the location: Hospital, Clinic, etc.")
+    type: str = Field(
+        description="The type of clinic the location: Hospital, Clinic, etc."
+    )
 
 
 class JobPostingSchema(BaseModel):
@@ -79,8 +84,8 @@ class ManufacturingCommerceSchema(BaseModel):
     suggested_alternative_mpns: list[str]
 
 
-def get_fetch_schema(fetch_id: str) -> BaseModel:
-    fetch_schemas = {
+def get_fetch_schema(fetch_id: str) -> Type[BaseModel]:
+    fetch_schemas: Dict[str, Type[BaseModel]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,

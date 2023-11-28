@@ -82,7 +82,7 @@ class Example(BaseModel):
 
         return get_website_responder(self).get_url(self)
 
-    @model_validator(mode="before")  z
+    @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         goal_type = values.get("type")
         if goal_type != "fetch":
