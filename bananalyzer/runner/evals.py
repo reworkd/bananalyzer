@@ -12,6 +12,10 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     expected_value = expected.get(field, None)
     actual_value = actual.get(field, None)
 
+    # Treat empty string as none
+    if actual_value is "":
+        actual_value = None
+
     matcher = get_matcher(expected_value, actual_value)
     if not matcher(actual_value, expected_value):
         pytest.fail(f"{expected_value} != {actual_value}")
