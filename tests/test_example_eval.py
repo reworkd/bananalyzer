@@ -5,7 +5,7 @@ from _pytest.outcomes import Failed
 from pydantic import ValidationError
 from pytest_mock import MockFixture
 
-from bananalyzer.data.fetch_schemas import fetch_schemas
+from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
 
@@ -147,6 +147,7 @@ def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
 
 
 def test_fetch_with_fetch_id_and_no_goal_sets_default_goal() -> None:
-    example_data = create_default_example({"fetch_id": "job_posting", "goal": None})
+    example_data = create_default_example({"fetch_id": "contact", "goal": None})
     example = Example(**example_data)
-    assert example.goal == fetch_schemas["job_posting"]
+    print(get_fetch_schema("contact").model_json_schema())
+    assert example.goal == get_fetch_schema("contact").model_json_schema()
