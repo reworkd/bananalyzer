@@ -1,5 +1,4 @@
 import json
-import re
 from difflib import SequenceMatcher
 from typing import Any, Callable, Dict
 
@@ -7,7 +6,6 @@ import pytest
 from deepdiff import DeepDiff
 
 Result = Dict[str, Any]
-NON_ALPHANUMERIC_REGEX = re.compile(r"[^a-zA-Z0-9]")
 
 
 def validate_field_match(expected: Result, actual: Result, field: str) -> None:
@@ -65,10 +63,13 @@ def format_new_lines(d: Result) -> Result:
 
 
 def sanitize_string(input_str: str) -> str:
-    return NON_ALPHANUMERIC_REGEX.sub("", input_str).lower()
+    return "".join(char for char in input_str if char.isalnum()).lower()
 
 
 def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
+    if tolerance == 0:
+        return actual == expected
+
     sanitized_actual = sanitize_string(actual)
     sanitized_expected = sanitize_string(expected)
 
@@ -76,24 +77,26 @@ def is_string_similar(actual: str, expected: str, tolerance: int = 2) -> bool:
     if sanitized_actual != sanitized_expected:
         return False
 
+    diff_count = native_count_differences(actual, expected)
+    if diff_count <= tolerance:
+        return True
+
+    return SequenceMatcher(None, actual, expected).ratio() >= 0.8
+
+
+def native_count_differences(actual: str, expected: str):
     non_alnum_actual = "".join(char for char in actual if not char.isalnum())
     non_alnum_expected = "".join(char for char in expected if not char.isalnum())
-
     # Compare the sequence of non-alphanumeric characters with a tolerance for
     # additional/missing characters
     diff_count = 0
     for char1, char2 in zip(non_alnum_actual, non_alnum_expected):
         if char1 != char2:
             diff_count += 1
-
     # Account for length difference if one sequence is longer than the other
     length_diff = abs(len(non_alnum_actual) - len(non_alnum_expected))
     diff_count += length_diff
-
-    if diff_count <= tolerance:
-        return True
-
-    return SequenceMatcher(None, non_alnum_actual, non_alnum_expected).ratio() >= 0.7
+    return diff_count
 
 
 def get_matcher(expected_value: Any, actual_value: Any) -> Callable[[Any, Any], bool]:

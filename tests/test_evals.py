@@ -64,6 +64,12 @@ def test_sanitize_string(input_str, expected):
             2,
             True,
         ),
+        (
+            "160 Falmouth Road Mashpee MA 02649",
+            "160 Falmouth Road, Mashpee, MA 02649",
+            2,
+            True,
+        ),
     ],
 )
 def test_is_string_similar(actual, expected, tolerance, expected_result):
@@ -87,7 +93,7 @@ def test_validate_field_match_pass(expected, actual, field):
     "expected, actual, field",
     [
         ({"field": "example"}, {"field": "example 123"}, "field"),
-        ({"field": "short string"}, {"field": "short string!!!"}, "field"),
+        ({"field": "short's string"}, {"field": "~~~~~~shorts string!!!"}, "field"),
         ({"field": [1, 2, 3]}, {"field": [1, 2]}, "field"),
     ],
 )
