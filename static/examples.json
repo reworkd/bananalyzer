@@ -3092,8 +3092,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3119,8 +3119,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3146,8 +3146,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3173,8 +3173,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3200,7 +3200,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "goal": "Fetch all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -3227,8 +3228,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3254,8 +3255,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3281,8 +3282,8 @@
     "source": "mhtml",
     "domain": "software",
     "subdomain": "careers",
-    "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "type": "fetch",
+    "fetch_id": "job_posting",
     "evals": [
       {
         "type": "json_match",
