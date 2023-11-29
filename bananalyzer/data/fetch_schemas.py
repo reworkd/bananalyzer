@@ -89,7 +89,7 @@ class ManufacturingCommerceSchema(BaseModel):
 
 
 class ForumSchema(BaseModel):
-    auther: str
+    author: str
     title: str
     post_date: str
     content: str
