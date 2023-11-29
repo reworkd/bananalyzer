@@ -1,4 +1,4 @@
-from typing import Dict, Type
+from typing import Dict, Optional, Type
 
 from pydantic import BaseModel, Field
 
@@ -17,13 +17,13 @@ class ContactSchema(BaseModel):
     phone: str = Field(
         description="phone number of the location (only include the number but retain its formatting)",
     )
-    fax: str = Field(
+    fax: Optional[str] = Field(
         description="fax number of the location (only include the number but retain its formatting)",
-        required=False,
+        default=None,
     )
-    type: str = Field(
+    type: Optional[str] = Field(
         description="the type of location: Neurosurgery, MRI Services, etc. (not all locations will have a type available on the page)",
-        required=False,
+        default=None,
     )
 
 
