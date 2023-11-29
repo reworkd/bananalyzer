@@ -81,11 +81,23 @@ class ManufacturingCommerceSchema(BaseModel):
     suggested_alternative_mpns: list[str]
 
 
+class ForumSchema(BaseModel):
+    auther: str
+    title: str
+    post_date: str
+    content: str
+    up_votes: int
+    down_votes: int
+    views: int
+    num_comments: int
+
+
 def get_fetch_schema(fetch_id: str) -> Type[BaseModel]:
     fetch_schemas: Dict[str, Type[BaseModel]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,
+        "forum": ForumSchema,
     }
 
     if fetch_id not in fetch_schemas:

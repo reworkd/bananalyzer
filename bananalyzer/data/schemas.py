@@ -68,7 +68,7 @@ class Example(BaseModel):
         description="The goal of the agent for this specific example"
     )
     fetch_id: Optional[
-        Literal["job_posting", "manufacturing_commerce", "contact"]
+        Literal["job_posting", "manufacturing_commerce", "contact", "forum"]
     ] = Field(
         default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
