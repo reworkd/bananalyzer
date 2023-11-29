@@ -12,7 +12,7 @@ from bananalyzer.runner.evals import (
 
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
-    "links",  # Scrape all detail page links from a single page
+    "links",  # Scrape all detail page links from a single listing page
     "click",  # Make a single click on a page
     "navigate",  # Travel to a new page
     "search",  # Search for the answer to a specific query
@@ -68,7 +68,7 @@ class Example(BaseModel):
         description="The goal of the agent for this specific example"
     )
     fetch_id: Optional[
-        Literal["job_posting", "manufacturing_commerce", "contact"]
+        Literal["job_posting", "manufacturing_commerce", "contact", "forum"]
     ] = Field(
         default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",

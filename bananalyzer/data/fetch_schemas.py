@@ -1,4 +1,4 @@
-from typing import Dict, Type
+from typing import Dict, Optional, Type
 
 from pydantic import BaseModel, Field
 
@@ -8,12 +8,22 @@ This file contains mapping of fetch_id to fetch schema to avoid duplicate schema
 
 
 class ContactSchema(BaseModel):
-    name: str
-    phone: str
-    fax: str = Field(description="Fax number of the location")
-    address: str
-    type: str = Field(
-        description="The type of clinic the location: Hospital, Clinic, etc."
+    name: str = Field(
+        description="name of the location (not the hospital system name) *precisely* as it is written on the page (do not edit it, add text, or combine names)"
+    )
+    address: str = Field(
+        description="complete address of the location including street, city, state, and ZIP",
+    )
+    phone: str = Field(
+        description="phone number of the location (only include the number but retain its formatting)",
+    )
+    fax: Optional[str] = Field(
+        description="fax number of the location (only include the number but retain its formatting)",
+        default=None,
+    )
+    type: Optional[str] = Field(
+        description="the type of location: Neurosurgery, MRI Services, etc. (not all locations will have a type available on the page)",
+        default=None,
     )
 
 
@@ -78,11 +88,23 @@ class ManufacturingCommerceSchema(BaseModel):
     suggested_alternative_mpns: list[str]
 
 
+class ForumSchema(BaseModel):
+    auther: str
+    title: str
+    post_date: str
+    content: str
+    up_votes: int
+    down_votes: int
+    views: int
+    num_comments: int
+
+
 def get_fetch_schema(fetch_id: str) -> Type[BaseModel]:
     fetch_schemas: Dict[str, Type[BaseModel]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,
+        "forum": ForumSchema,
     }
 
     if fetch_id not in fetch_schemas:
