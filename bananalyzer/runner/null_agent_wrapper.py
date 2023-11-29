@@ -1,5 +1,6 @@
 import asyncio
 from random import random
+from typing import Any, cast
 
 from playwright.async_api import Page
 
@@ -11,6 +12,8 @@ class NullAgentRunner(AgentRunner):
     """
     A test agent class that just returns an empty string
     """
+
+    RANDOM_FAILURE_RATE = 0  # You can change this to 0.5 to see random failures
 
     async def run(
         self,
@@ -29,4 +32,9 @@ class NullAgentRunner(AgentRunner):
         ):
             await page.goto(example.evals[0].expected)
 
-        return example.evals[0].expected
+        copy = cast(dict[str, Any], example.evals[0].expected).copy()
+        for key, value in copy.items():
+            if random() < self.RANDOM_FAILURE_RATE:
+                copy[key] = "random"
+
+        return copy
