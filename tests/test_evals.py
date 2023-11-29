@@ -83,6 +83,7 @@ def test_is_string_similar(actual, expected, tolerance, expected_result):
         ({"field": "test"}, {"field": "test!!"}, "field"),
         ({"field": 123}, {"field": 123}, "field"),
         ({"field": [1, 2, 3]}, {"field": [1, 2, 3]}, "field"),
+        ({"field": None}, {"field": ""}, "field"),  # None == ""
     ],
 )
 def test_validate_field_match_pass(expected, actual, field):

@@ -30,6 +30,8 @@ def print_field_data(
         perfect = is_perfect and "✅" or "❌"
         table_data.append([field, passed, failed, percentage, perfect])
 
+    table_data.sort(key=lambda row: row[3], reverse=True)  # type: ignore
+
     # Calculate the percentage for the total row
     total_percentage = (
         f"{total_passed / (total_passed + total_failed) * 100:.2f}%"
