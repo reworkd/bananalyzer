@@ -1,4 +1,5 @@
 import asyncio
+from random import random
 
 from playwright.async_api import Page
 
@@ -18,7 +19,7 @@ class NullAgentRunner(AgentRunner):
     ) -> AgentResult:
         print(f"Testing {example.get_static_url()}")
         await page.goto(example.get_static_url())
-        await asyncio.sleep(0.5)
+        await asyncio.sleep(0.2)
 
         print(f"Done testing {example.get_static_url()}")
 

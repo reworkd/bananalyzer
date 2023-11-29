@@ -7,6 +7,7 @@ import pytest
 from pydantic import BaseModel
 
 from bananalyzer.data.schemas import Example
+from bananalyzer.hooks import BananalyzerPytestPlugin
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
 
 TestType = Callable[[], Awaitable[None]]
@@ -132,4 +133,4 @@ def run_tests(
             + [f"--html={str(report_path)}"]
         )
 
-        return pytest.main(args)
+        return pytest.main(args, plugins=[(BananalyzerPytestPlugin())])
