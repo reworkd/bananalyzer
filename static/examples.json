@@ -2742,5 +2742,348 @@
         "expected": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=58&count=9"
       }
     ]
+  },
+  {
+    "id": "798be63a-06df-494e-a1b1-a021bec4882e",
+    "url": "https://community.openai.com/t/how-to-address-a-gpt-in-its-instructions/513763",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "luona.dev",
+          "title": "How to address a GPT in its instructions:",
+          "post_date": "Nov 19",
+          "content": "I conducted an experiment to figure out how to best address GPTs in their instructions. I gave it 5 different instruction about the meaning of a made up word in a fantasy language and then asked it about it. I addressed it with \u201cYou\u201d, \u201cI\u201d, \u201cThe assistant\u201d, \u201cThe GPT\u201d and \u201c{name of the GPT}\u201d. I tested each of the 120 permutations 6 times. This is what I found out: You is by far the strongest way of addressing a GPT. In over 50% of the cases, the GPT answered with the knowledge associated to \u201cyou\u201d. The last instruction is by far the most convincing instruction, with the last info being returned 50% of the time. Here you can find a detailed write-up of the experiment 74.",
+          "views": 449,
+          "up_votes": 12,
+          "num_comments": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "6adb9aad-6d42-4366-a6a9-f5ae958889d7",
+    "url": "https://twitter.com/asimdotshrestha/status/1728466080811909126",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Asim Shrestha",
+          "title": null,
+          "post_date": "9:30 AM \u00b7 Nov 25, 2023",
+          "content": "SF is not ready for this boye",
+          "views": 2506,
+          "up_votes": 23,
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "75ce3f5e-1dd4-42bf-8620-44a6b5bc0f78",
+    "url": "https://news.ycombinator.com/item?id=38434914",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "furiousteabag",
+          "title": "Learnings from fine-tuning LLM on my Telegram messages",
+          "post_date": "10 hours ago",
+          "content": null,
+          "up_votes": 150,
+          "num_comments": 43
+        }
+      }
+    ]
+  },
+  {
+    "id": "1d7f793c-5c51-487a-86e7-dd68a478b16a",
+    "url": "https://www.gamespot.com/forums/system-wars-314159282/so-robocop-game-is-not-bad-33610315/",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Ghosts4ever",
+          "title": "So Robocop game is not bad.",
+          "post_date": "1 month ago",
+          "content": "Theres demo here. some of them played it say its good. I have not played demo yet will play soon.",
+          "up_votes": null,
+          "num_comments": 53
+        }
+      }
+    ]
+  },
+  {
+    "id": "7bc386a7-0d5b-45dc-ab10-8189451379a6",
+    "url": "https://stackoverflow.com/questions/77529741/custom-jscript-event-alway-returns-undefined-in-ga4-gtm-debug-any-ideas",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Stephen Reece",
+          "title": "Custom Jscript Event ALWAY returns 'undefined' in GA4/GTM/Debug - any ideas",
+          "post_date": "5 days ago",
+          "content": "I have tried multiple different scripts ranging from simply \"hello world\" prints to more complex ones in GA4/GTM Custom Javascript Events. I had a jscript developer look at it as is stumped so was wondering if theres any hints or tips or ideas? Current example is to try and build a script that grabs the pageloadtime for example function() { if (window.performance && window.performance.getEntriesByType) { var entries = window.performance.getEntriesByType(\"navigation\"); if (entries.length > 0) { var navTiming = entries[0]; var pageLoadTime = navTiming.loadEventEnd - navTiming.startTime; return Math.round(((pageLoadTime / 1000) + Number.EPSILON) * 100) / 100; } } } however when I test in preview... the response is always the sane \"undefined\". As the devs also stumped is there something in ga4 config or something in GA that perhaps I need to do? ps... the tag is linked to the trigger and i've even opened up the trigger to fire on all pages all the time...no joy. really appreciate any advice... ps.. ive also used about 5 different scripts so i'm sure its not the script but something either blocked or not switched on but console works fine with \"window.performance.timing.loadEventEnd - window.performance.timing.navigationStart\" multiple different scripts ranging from \"hello world\" prints to the pageload one included above... Ive looked at console and tested (it works)..... looked at GTM preview (\"undefined\" response\").... Network collect looks fine.... no obvious 404 or failures in network console notices no obvious blocking of jscript but it feels like this is the issue as no script works.",
+          "up_votes": 0,
+          "views": "19 times",
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "9e1761b8-e5bd-4e96-b47e-8ff11bfadbc0",
+    "url": "https://www.tripadvisor.com/ShowTopic-g28926-i29-k14574554-6_Weeks_in_California_and_Vegas-California.html",
+    "source": "mhtml",
+    "domain": "travel",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "SteveyMac",
+          "title": "6 Weeks in California and Vegas",
+          "post_date": "Oct 31, 2023, 10:11 PM",
+          "content": "In 2022, we spent 3 months touring around the USA and we are planning a return to the States in mid August to end of September 2024, for a 6 week road trip through California and Vegas, as this was my wife's favourite part of the trip and as it's her 50th on our return she gets to make the call :) In '22 we first entered CA from Arizona via Route 66 dropping off at Anaheim and San Diego before flying to NOLA, and eventually flew back into Vegas from South Dekota for the final leg of our journey before heading back into into CA via Death Valley, Monmouth Lakes, Tioga Pass, Yosemite NP , San Fransisco, Monterey, Big Sur, San Simeon, Santa Barbra and finally LA. I'm trying to put together a trip which involves places we didn't see on our last journey or doing things in the bigger cities that we didn't do last time. Landing in LAX, where pick up a car, the initial route I have put together is as follows: Santa Monica - 3 nights (including an organised side trip to Malibu). This stop is mainly to get over jet lag a bit as I made the big mistake of hitting the road straight from the airport last time and I won\u2019t make the same mistake, but also the last time we were in Santa Monica/Venice we were dressed in our traveling clothing just waiting around for our flight home and we were pretty sad as our 13 week trip was ending so we want to give the area more attention. Santa Barbara - 4 nights (We spent 2 nights here in '22 and it was my wife's favourite place of our entire trip. Planning a different itinerary from before) San Luis Obispo - 2 nights (first time here) stopping at Ventura beach on the way up the PCH to SLO and Morro bay for side trip. Luckily we will be in SLO on a Thursday for the market :) Carmel 2 nights - (only spent a few hours here last time at the end of 17 mile drive, we stayed in Monterey before) I don't plan on doing big sur as I have already done it. Santa Cruz 1 night (first time here) San Francisco 3 nights (spent 4 nights here last time so we have done the major tourist attractions. Will spend more time exploring the districts this time) Mendocino - 2 nights (first time here) for a chance to explore the coast north of SF as we didn't go this far North last time in CA Healdsburg -1 night (first time here) Napa 2 nights. (first time here). Many more options for organised tours of wineries from Napa so I can do a day trip and leave the car behind to avoid any DUI charges :) Sacremento 1 night (first time here) This is mainly to break up the journey so would happily substitute Three rivers 3 nights for SEKI (first time here) Vegas 4 nights (don't judge - we both loved it here even though we don't gamble :) ) Joshua Tree 1 night (first time) Palm Springs 1 night (first time) - or should we do 2 nights in Palm springs and side trip to JTNP? San Diego 4 nights - will be second time here but my wife was stuck in bed for most of our last visit here with the dreaded covid! Booked a day trip to Mexico Baja coast (Tijuana, Rosarito, Puerto Nuevo) to mix it up a bit Anaheim 3 nights via coast road up to Laguna beach first to finish the pacific coast road. (Yes back to Disney for a couple of days - we're both big kids at heart!) LA 5 nights - still so much of LA that we didn't see last time we were here, skipping what we did last time (Thankfully we won't be staying in Hollywood this time - booked up a Sonder Hotel in Beverly hills!) I would appreciate any thoughts, advise or any suggested changes to the trip. Any advise is always greatly appreciated. I have previously posted this in the Road Trip Forum but the guys there suggested I post here too so apologies for anyone who has already seen this post. I am aware of the heat in the desert areas but I come from Western Australia and work in remote parts of WA so I am aware of what is required for driving in the heat. Wineries are not too important as I come from an Area close by to some of the best vinyards in Australia but I thought I couldn't travel north of San Fransisco without visiting Napa Valley",
+          "up_votes": null,
+          "views": null,
+          "num_comments": 19
+        }
+      }
+    ]
+  },
+  {
+    "id": "4a7dac8a-ff74-4e36-8edf-41ebaa30790d",
+    "url": "https://www.warriorforum.com/social-media/1447913-p-g-takes-first-step-into-metaverse-beautysphere.html?utm_source=internal&utm_medium=discussion-list&utm_campaign=feed&utm_term=title",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "https://warriorforum.com/",
+          "title": "P&G takes first step into the metaverse with BeautySphere",
+          "post_date": "2 years ago",
+          "content": "A new article on Marketing Dive reports that P&G Beauty took its first step into the metaverse with the Consumer Electronic Show (CES) debut of a virtual storytelling world called BeautySphere. BeautySphere can be accessed from any desktop computer and allows consumers to interact with the company's portfolio of brands through live and simulated content, livestream panel discussions and a gamified challenge. While it launched with livestream panels during CES, BeautySphere will persist after the trade show. As it joins other brands in the metaverse, P&G is using BeautySphere to educate consumers about Responsible Beauty, a purpose-driven platform focused on sustainability, safety, transparency, quality and performance, and equality, inclusion and well-being. P&G's BeautySphere is the CPG giant's first foray into the metaverse, where it joins other major marketers seeking to establish a foothold on a nascent virtual landscape that's seen increased interest from digital-first consumers who have adopted non-fungible tokens (NFTs) and related technologies. For the marketer of beauty brands including Olay and Old Spice, the virtual world is a way to engage with consumers who are increasingly difficult to reach through traditional marketing channels in more meaningful ways. The focus of BeautySphere is P&G's purpose-driven Responsible Beauty platform, allowing the company to boost another marketing priority while it dips its toes in the metaverse, a concept that -- like NFTs -- is still proving its utility to consumers. Participants will be able to virtually visit the Royal Botanic Gardens, Kew to learn how P&G partners with the scientific organization for work around its Herbal Essences bio:renew products. Participants who complete the Herbal Essences program can help plant a real tree in Veracruz, Mexico, as part of reforestation efforts, helping P&G to bridge purpose-driven efforts in the virtual and real worlds. Along with livestream panels tied to this week's CES featuring P&G researchers, metaverse expert Cathy Hackl and Twitch streamer Kelsey Impicciche, BeautySphere will include a range of live and simulated content, including a gamified challenge that could make the experience stickier with consumers.",
+          "up_votes": 1,
+          "views": null,
+          "num_comments": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "01d6fabd-adaf-4a4e-9990-0db26ea206ed",
+    "url": "https://forums.premed101.com/topic/53408-what-counts-as-full-courseload/",
+    "source": "mhtml",
+    "domain": "education",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "jdr44",
+          "title": "What counts as full courseload?",
+          "post_date": "July 28, 2011",
+          "content": "Hi Guys, 1) How many classes/credits per term is considered \"fulltime\" ? 2) How do you think being Unclassified for 1 term (Jan 2012) - completing 12 prerequisite credits would look ... if I am planning on being accepted to a degree in May 2012? Just put those credits towards my new degree? Do you think this would hurt me ... Anyone accepted been in a similar situation? Thanks so much :) from ubc website: \"Generally, we do not recommend repeating courses to improve your overall GPA. Students who enroll in unclassified, non-degree programs for the sole purpose of improving their academic qualifications are advised that only a small proportion of such candidates gain admission.\"",
+          "up_votes": null,
+          "views": null,
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "17c261ff-3f04-4fcf-bccd-90df4d043e61",
+    "url": "https://forums.redflagdeals.com/1366-vs-1150-a-1388015/",
+    "source": "mhtml",
+    "domain": "e-commerce",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "eagleservice",
+          "title": "1366 vs 1150?",
+          "post_date": "Sep 28th, 2013 4:33 pm",
+          "content": "Ok so i just got this i7 950 cpu given to me as the motherboard was inoperable im rmaing the motherboard what would be faster a newer 1150 or this is this faster then core i5?",
+          "up_votes": null,
+          "views": null,
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "d0164f97-f6a3-403f-acbb-a9784194ef17",
+    "url": "https://www.f150forum.com/f69/9-28-17-build-date-395413/",
+    "source": "mhtml",
+    "domain": "automotive",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Silver-Bolt",
+          "title": "9/28/17 build date.",
+          "post_date": "09-26-2017, 03:34 PM",
+          "content": "Just got my VIN, build date, and window sticker. Ordered on 8/31. Didn't expect it this early. I was guessing I wouldn't see it until January at the earliest. Now it's looking like the end of October/ early Nov. White Screw, 802A, Second row heated seats, tailgate step, and applique delete. No graphics or sunroof.",
+          "up_votes": null,
+          "views": null,
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "ad07bc26-794c-4264-8122-2aae31c383ef",
+    "url": "https://patient.info/forums/discuss/tingling-in-my-hands-and-cheeks-with-a-sore-throat-and-red-dots-on-roof-of-mouth-and-sores-on-cheeks-739597",
+    "source": "mhtml",
+    "domain": "healthcare",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "john48478",
+          "title": "Tingling in my hands and cheeks with a sore throat and red dots on roof of mouth and sores on cheeks",
+          "post_date": "Posted 3 years ago,",
+          "content": "this has all lasted 11 weeks with a cough anyone have any ideas??",
+          "up_votes": 0,
+          "views": null,
+          "num_comments": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "47a75c05-fc65-4a7c-b98c-d9438a5f8988",
+    "url": "https://www.teamblind.com/post/Stop-f-around-start-your-own-company-hkcNxAgX",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "3ewq",
+          "title": "Stop f** around & start your own company",
+          "post_date": "5d",
+          "content": "I've been looking for about 2 months now and to be honest the job market is horrendous, I'm sure you've seen the sob stories so I'll spare ya the details. Anyway, stop allocating 70% of your time leetcoding it's game over, AI has won, the way you stand out in this economy are three things: - start your own AI or general company - get your masters or phd in AI - or otherwise your god level in system level programming (mastered rust, c++, or go) There's no point accept the L and dive into to these three or face the consequence. Companies are expecting PHD level candidates with remarkable talents. Specialization that be will irrelevant in five years time: - frontend - backend - UI/UX -PM - devops Refresh y Combinator you'll see they're investing millions to automate this already. TC $0 (laid off) last oct YOE: 4 Role: Software engineer (frontend) Rant post",
+          "up_votes": 36,
+          "views": null,
+          "num_comments": 72
+        }
+      }
+    ]
+  },
+  {
+    "id": "03a77421-5216-4862-bc1d-02a8012d36cd",
+    "url": "https://community.adobe.com/t5/photoshop-elements-discussions/restore-catalog-from-sd-cards/m-p/13612011#M88645",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Jim28618690ppdu",
+          "title": "restore catalog from sd cards",
+          "post_date": "Feb 27, 2023",
+          "content": "Can i use SD Card data to restore originals in Elements 7?\n\n",
+          "up_votes": 0,
+          "views": 519,
+          "num_comments": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "854eb702-93f1-42c2-8d07-16d7b776cc38",
+    "url": "https://community.startupnation.com/discussion/14445/what-is-the-best-way-to-get-funding-for-your-start-up-or-idea",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Rebecca James ",
+          "title": "What is the best way to get funding for your start-up or idea?\n",
+          "post_date": "July 2018",
+          "content": "I want to look for additional platforms that can help me fund my start-up? We are at a fairly early stage of our business at the moment and have received an initial round of funding. We have currently had a lot of success from WorldLabs (www.worldlabs.org) and Innovate UK (www.gov.uk/government/organisations/innovate-uk), but want to start to explore additional channels for funding. Does anyone know any other platforms that can be beneficial?",
+          "up_votes": null,
+          "views": null,
+          "num_comments": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "a72534ac-79ea-4e94-9a76-2928ae2342b8",
+    "url": "https://www.indiehackers.com/post/generating-200k-monthly-revenue-with-an-online-photo-editor-ad36e6538e",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "forum",
+    "type": "fetch",
+    "fetch_id": "forum",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "author": "Leo Askan",
+          "title": "Generating $200K monthly revenue with an online photo editor",
+          "post_date": "November 26, 2023",
+          "content": "Ivan is the founder of Photopea – an online photo editor – generating $200K /month with 3 million unique visitors monthly in his 10th year. He started his project as a hobby and then started to earn money. -- Here is the short form of interview and for more details, check our website. https://saastrappers.com/interviews/ivan-kutskir-photopea/ -- Question: Can you give us some information about your background? Answer: I was born in Ukraine and moved to Czechia with my parents when I was 11. When I turned 18, I came to Prague to study at the university. Question: What did you study in the university? Answer: My major was in computer science. Question: And at that time, I guess you were busy with flash games and other stuff, right? Answer: Yes, that’s correct. I actually started making flash games even before going to university. I began playing with flash around when I was 15. Question: Is it something related to your family, or was it your interest? Answer: It was more of a personal interest. My two cousins, who are three years older than me, had a computer. I got really excited about it, which led me to want my own computer. I got my first computer around 2013 or 14. When I got it, I immediately started learning things like how to make websites. It was the beginning of the internet era here in Czechia, and we had limited internet access initially. Question: You were coding and developing flash games, and you started to earn money from those games, right? Answer: Yes, that’s right. When I was in high school, around 15 or 16 years old, I began connecting with people who needed Flash games or animations. I started making some money before university by doing these freelance projects. Question: What led you to focus on Photopea after flash games? Answer: Well, during my high school years, Flash was owned by Macromedia, later bought by Adobe. I used Adobe Photoshop back then and was quite proficient with it. While I continued making some flash games for money during my first years at the university, my main focus was on my studies. However, I got really excited about the web technologies emerging around then, like the Google Chrome browser, web games without Flash, web GL, and other new web technologies. I saw that web-based applications could be much more performant than they were five years ago with Internet Explorer. So, I transitioned from making Flash games to developing JavaScript games and monetized them with ads. Question: You found the missing feature of Adobe and decided to create your own Photoshop service, right? Answer: Yes, exactly. As I was working on these games and other projects, I came up with the idea to make a web-based viewer for PSD files. I wasn’t aiming to create an editor at first; I just wanted a platform where one could open a PSD file, and the JavaScript would process and analyze the file to provide a preview of its content, like showing how many layers are there. Question: Adobe didn’t offer any features like this at the time, right? Answer: Correct. Back then, if you wanted to open a PSD file, you had to buy Photoshop. There was no other way. You could open PSD files in GIMP, but it would open them without any styles or adjustment layers, so it wasn’t accurate. Question: Do you have any advice for bootstrappers? Answer: One crucial piece of advice is to genuinely enjoy what you are doing. Your project should be something you’re passionate about, almost like a hobby. If you’re excited about your work, it will feel less like a task and more like something you’re eager to spend time on. For me, working on Photopea was akin to playing an instrument; it was something I did for enjoyment, not just as a job. When starting out, don’t be intimidated by the idea of entering a crowded market or tackling complex tasks. Begin by focusing on the core, essential features of your product, the ones that are most important and useful. These don’t have to be numerous or complicated; even a simplified version of an existing product can be valuable if it addresses specific needs effectively. For example, I focused on essential features in Photopea that were either poorly implemented or missing in other software. It’s also important to recognize that you don’t need to have everything figured out from the start. You can develop your product gradually. Start with the most important features and build from there. This approach reduces the risk of feeling overwhelmed and allows you to adapt and respond to user feedback. -- For more details, check our website. https://saastrappers.com/interviews/ivan-kutskir-photopea/ --",
+          "up_votes": 4,
+          "views": null,
+          "num_comments": 1
+        }
+      }
+    ]
   }
 ]
