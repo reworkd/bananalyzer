@@ -2742,5 +2742,221 @@
         "expected": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=58&count=9"
       }
     ]
+  },
+  {
+    "id": "1534f6a2-81ed-48ff-b118-a4d752dae524",
+    "url": "https://openai.com/careers/ai-policy-counsel",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "AI Policy Counsel",
+          "job_category": "Legal",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "We\u2019re seeking an AI Policy Counsel to help navigate the increasing AI legislative and regulatory landscape in the US and abroad. We\u2019re looking for a legal self-starter who is comfortable jumping into a broad range of AI regulatory issues that will help shape AI policy going forward and for which there is little precedent. This role reports to our Associate General Counsel of AI Policy. This role is based in our San Francisco, CA HQ or remotely in Washington, DC. For San Francisco HQ, we use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.",
+          "roles_and_responsibilities": "Analyze legislative and regulatory proposals concerning AI to understand their impact on OpenAI and the broader AI community. Draft white papers, comments, and other materials to articulate OpenAI\u2019s position on various policy and regulatory matters. Provide strategic policy analysis and advice to the Global Affairs team and other internal stakeholders. Engage with external stakeholders, including regulatory authorities and industry groups, to advocate for favorable policy frameworks. Monitor and keep the team updated on emerging policy issues related to AI.",
+          "qualifications": "5-9 years of legal and policy experience. A combination of an in-house technology company, government, or law firm experience. Strong background in technology policy, including AI. Experience creating clear and concise writing, distilling complex concepts into simple, explainable, and persuasive ideas. Experience analyzing complex legislation. Experience engaging with regulators and/or policymakers. International policy experience, particularly in the EU and UK.",
+          "preferred_qualifications": null,
+          "benefits": "Medical, dental, and vision insurance for you and your family Mental health and wellness support 401(k) plan with 4% matching Unlimited time off and 18+ company holidays per year Paid parental leave (20 weeks) and family-planning support Annual learning & development stipend ($1,500 per year)",
+          "salary": "$250,000\u2014$250,000 USD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fb3e1776-3a8a-41da-b077-bff601723a70",
+    "url": "https://openai.com/careers/data-infrastructure-engineer",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Data Infrastructure Engineer",
+          "job_category": "Applied AI Engineering",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "The Applied Data Platform team designs, builds, and operates the foundational data infrastructure that enables products and teams at OpenAI. You are comfortable with work such as scaling Kubernetes services, debugging Kafka consumer lag, diagnosing distributed kv store failures, designing a system to retrieve image vectors with low latency. You are well versed with infrastructure tooling such as Terraform, worked with Kubernetes, and have the SRE skill sets. This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.",
+          "roles_and_responsibilities": "Design, build, and maintain data infrastructure systems such as distributed compute, data orchestration, distributed storage, streaming infrastructure while ensuring scalability, reliability, and security Ensure our data platform can scale reliably to the next several orders of magnitude Accelerate company productivity by empowering your fellow engineers & teammates with excellent data tooling and systems, providing a best in case experience Bring new features and capabilities to the world by partnering with product engineers, trust & safety and other teams to build the technical foundations Like all other teams, we are responsible for the reliability of the systems we build. This includes an on-call rotation to respond to critical incidents as needed",
+          "qualifications": "Have 4+ years in data infrastructure engineering OR Have 4+ years in infrastructure engineering with a strong interest in data Take pride in building and operating scalable, reliable, secure systems Are comfortable with ambiguity and rapid change Have a voracious and intrinsic desire to learn and fill in missing skills\u2014and an equally strong talent for sharing learnings clearly and concisely with others",
+          "preferred_qualifications": null,
+          "benefits": "Medical, dental, and vision insurance for you and your family Mental health and wellness support 401(k) plan with 4% matching Unlimited time off and 18+ company holidays per year Paid parental leave (20 weeks) and family-planning support Annual learning & development stipend ($1,500 per year)",
+          "salary": "$200,000\u2014$385,000 USD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "7614e6a7-7d69-4f59-879a-4288ca319bee",
+    "url": "https://openai.com/careers/engineering-manager-fine-tuning-api",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Engineering Manager \u2013 Fine Tuning API",
+          "job_category": "Applied AI Engineering",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "We are looking for an experienced engineering manager to support our Fine Tuning API team \u2013 the team that enables our API developers to customize their models via fine-tuning. This is a unique team that spans both research and applied AI tech stacks. You will work closely with our research team to bring the core technology that trained GPT-4 into the hands of all of our API developers. You will also collaborate with our product teams to build a world-class model customization experience for our API developers. Above all, you will be responsible for ensuring the safe deployment of a product that can push the performance of our models to new heights.",
+          "roles_and_responsibilities": "Manage, build out, and mentor a team of high performing software and research engineers. Work with our product team to craft both the technical and product vision for the future of our fine tuning API. Collaborate closely with research teams to push to the boundaries of what is possible with large language model customization. Create a diverse, equitable, and inclusive culture that makes all feel welcome while enabling radical candor and the challenging of group think",
+          "qualifications": "Have 3+ years of experience managing high performing and diverse software engineering teams, and 6+ years of experience working with production software systems. Have prior experience working with training and inference of large language models, especially in production environments. Have familiarity with the latest AI research and working knowledge of how these systems are efficiently implemented Own problems end-to-end, and are willing to pick up whatever knowledge you're missing to get the job done Have the ability to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines",
+          "preferred_qualifications": null,
+          "benefits": "Medical, dental, and vision insurance for you and your family Mental health and wellness support 401(k) plan with 4% matching Unlimited time off and 18+ company holidays per year Paid parental leave (20 weeks) and family-planning support Annual learning & development stipend ($1,500 per year)",
+          "salary": "$300,000\u2014$450,000 USD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0f8d967e-07a9-450a-b6b9-c60ad4c07ec7",
+    "url": "https://openai.com/careers/head-of-commercial-legal",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": null,
+          "job_title": "Head of Commercial Legal",
+          "job_category": "Legal",
+          "date_posted": null,
+          "location": "San Francisco, California, United States",
+          "job_description": "OpenAI's Commercial and Go To Market initiatives have experienced significant growth, and we are now looking to expand our team with a seasoned legal leader. With expertise in large-scale B2B operations, the individual in this high-impact role will lead our commercial legal function, fostering excellence within OpenAI and the broader AI industry. You will manage our growing commercial legal team and report to our Global Head of Product, Privacy and Commercial Counsel. This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.",
+          "roles_and_responsibilities": "Lead & Scale: Build, manage, and motivate our commercial legal team to meet GTM growth, vendor, and procurement goals. Identify Strategic Partnerships: Enhance our ability to negotiate and form pivotal strategic partnerships. Be Hands-on: Engage personally in intricate deals, working collaboratively with various company functions. Define Success Metrics: Craft and fine-tune metrics to gauge team success, reporting, and adapting to shifts in the commercial landscape.",
+          "qualifications": "15+ years of legal experience in in-house and law firm roles A reputation for being a motivational and supportive leader of high-impact teams Successfully scaling tech enterprise/B2B focused Legal teams History of growing and leading teams managing strategic partnership/licensing negotiations Partnered closely with cross-functional teams, including Go To Market, Finance, Product, Security and more. JD degree from an accredited law school and membership in at least one state bar.",
+          "preferred_qualifications": null,
+          "benefits": "Medical, dental, and vision insurance for you and your family Mental health and wellness support 401(k) plan with 4% matching Unlimited time off and 18+ company holidays per year Paid parental leave (20 weeks) and family-planning support Annual learning & development stipend ($1,500 per year)",
+          "salary": "$365,000\u2014$365,000 USD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ab4689a7-cf62-473d-bfa0-5d8aa1b78d87",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=11789141_en&title=Director%20of%20Medicare%20Claims",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "11789141",
+          "job_title": "Director of Medicare Claims\n",
+          "job_category": null,
+          "date_posted": null,
+          "location": "CT - Hartford, GA - Atlanta, IL - Chicago, MA - Boston, MI - Detroit, NC - Charlotte, NC - Raleigh, NJ - Florham Park, NY - New York City, OH - Cincinnati, OH - Cleveland, OH - Columbus, PA - Philadelphia, PA - Pittsburgh, TN - Louisville\n",
+          "job_description": "Accenture is a leading global professional services company that helps the world’s leading businesses, governments and other organizations build their digital core, optimize their operations, accelerate revenue growth and enhance citizen services—creating tangible value at speed and scale. We are a talent and innovation led company with 738,000 people serving clients in more than 120 countries.\n\nTechnology is at the core of change today, and we are one of the world’s leaders in helping drive that change, with strong ecosystem relationships. We combine our strength in technology with unmatched industry experience, functional expertise and global delivery capability. We are uniquely able to deliver tangible outcomes because of our broad range of services, solutions and assets across Strategy & Consulting, Technology, Operations, Industry X and Accenture Song.\n\nThese capabilities, together with our culture of shared success and commitment to creating 360° value, enable us to help our clients succeed and build trusted, lasting relationships. We measure our success by the 360° value we create for our clients, each other, our shareholders, partners and communities.\n\n",
+          "roles_and_responsibilities": "As the Director of Medicare Claims, you will be responsible for leading and managing the Medicare claims department. You will ensure the accurate and timely processing of claims, compliance with regulations, and the implementation of strategies to optimize claims operations and efficiency.\n\nKey Responsibilities\n\nLeadership and Strategy\n\nDevelop and execute strategies to optimize Medicare claims processing, ensuring alignment with company goals and objectives.\n\nLead, mentor, and manage a team of claims professionals to maintain high standards of service and accuracy in claims processing.\n\nClaims Processing and Compliance\n\nOversee the accurate and timely processing of Medicare claims, ensuring compliance with all regulations, guidelines, and policies.\n\nImplement and maintain efficient workflows to maximize accuracy and productivity in claims processing.\n\nProcess Improvement\n\nMonitor and evaluate Auto Adjudication levels and make recommendations to the Config teams to improvement the fallout.\n\nEvaluate current claims processing procedures and identify opportunities for improvement to streamline operations.\n\nImplement best practices and innovative solutions to enhance claims processing efficiency and accuracy.\n\nReporting and Analysis\n\nDevelop and maintain key performance indicators KPIs to measure claims processing performance, providing regular reports to executive leadership.\n\nAnalyze claims data to identify trends, patterns, and potential issues, making recommendations for improvement.\n\nStakeholder Management\n\nFoster and maintain relationships with internal stakeholders, such as other departments, to align claims processing strategies with overall business objectives.\n\nCollaborate with external stakeholders, including regulatory bodies and insurers, to ensure compliance and effective claims management.\n\n",
+          "qualifications": "Basic Qualifications\n\nMinimum of 8 years of experience in healthcare claims management, specifically in Medicare\n\nMinimum of 3 years in a managerial or leadership role\n\n",
+          "preferred_qualifications": "Preferred Qualifications\n\nBachelors degree in Healthcare Administration, Business, or a related field\n\nMasters degree\n\nIn depth knowledge of Medicare claims regulations, policies, and procedures.\n\nStrong leadership skills with the ability to manage and inspire a team.\n\nExcellent analytical, problem solving, and decision making abilities.\n\nEffective communication and interpersonal skills.\n\n",
+          "benefits": null,
+          "salary": "California                                          $161,200 to $369,800\n\nColorado                                           $161,200 to $319,500\n\nNew York                                          $149,300 to $369,800\n\nWashington                                      $171,700 to $340,200\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d2bffe5e-ccda-4ec7-bbab-4827da462bf9",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00186436_en&title=MES%20PharmaSuite%20Engineer",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "R00186436",
+          "job_title": "MES PharmaSuite Engineer",
+          "job_category": null,
+          "date_posted": null,
+          "location": "AR - Bentonville, AZ - Phoenix, CA - Irvine, CA - Los Angeles, CA - Mountain View, CA - Sacramento, CA - San Diego, CA - San Francisco, CA - Walnut Creek, CO - Broomfield, CT - Hartford, FL - Miami, FL - St. Petersburg, GA - Atlanta, IA - Des Moines, IL - Chicago, IN - Carmel, KS - Overland Park, MA - Boston, MI - Detroit, MN - Minneapolis, MO - St. Louis, NC - Charlotte, NC - Raleigh, NJ - Florham Park, NY - New York City, OH - Cincinnati, OH - Cleveland, OH - Columbus, OK - Oklahoma City, OR - Beaverton, PA - Philadelphia, PA - Pittsburgh, TN - Nashville, TX - Austin, TX - Houston, TX - Irving, VA - Arlington, VA - Herndon, WA - Seattle, WI - Milwaukee",
+          "job_description": "We are Industry X:  We embed innovation, intelligence and sustainability in the way the world makes things and the things it makes. Industry X enables leaders to act quickly and confidently as they pivot to the future. We define Industry X as digital reinvention of manufacturing / engineering and believe that smart, sustainable, connected digital products and assets are about to create hyper-personalized industrial experiences, completely new levels of operational efficiency, transparency and traceability, tangible impact on sustainability and brand-new sources of revenue growth. Known for our ability to execute at speed, we help clients determine clear, actionable paths to competitive agility by bringing them new thinking on business and technology.",
+          "roles_and_responsibilities": "Lead in the design, development, documentation, and implementation of Manufacturing Execution Systems (MES) Design/Author/Develop/Configure Electronic Batch Records (EBR) Implement MES solutions and integrate with ERP and control equipment Documentation of MES configuration and validation of EBRs Provide organisation oversight for complex systems involving the development of MES Work closely with business management and users to strategically define the needs and design solutions that add value Partner with business clients and delivery teams to determine appropriate solutions Direct the activities of team in the above tasks Document and analyze the information needs of the business and ensure appropriate solutions are delivered Gather user requirements in relation to controlling and recording manufacturing activities Respond to requests for client proposals Manage and develop client relationships Global System Implementation Manage medium-small teams and/or projects",
+          "qualifications": "Minimum of 1 year of experience with PharmaSuite MES solutions in a highly automated Life Sciences manufacturing environment Knowledge of FDA and GMP guidelines Bachelor\u2019s Degree or equivalent (minimum 3 years work experience). If Associate\u2019s Degree, must have equivalent minimum 6 years work experience",
+          "preferred_qualifications": "Strong written and oral communication skills Ability to work in a team-oriented, collaborative environment Ability to facilitate meetings and follow up with resulting action items Understanding of Life Sciences validation processes Working knowledge of software Development Life Cycle (SDLC) and support methodologies",
+          "benefits": null,
+          "salary": "California                                          $54,500 to $145,100\n\nColorado                                           $54,500 to $125,400\n\nNew York                                          $50,500 to $145,100\n\nWashington                                      $58,100 to $133,500"
+        }
+      }
+    ]
+  },
+  {
+    "id": "75d8750c-7042-4079-b782-1448475d724e",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=11770326_en&title=Payroll%20Operations%20Manager",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "11770326",
+          "job_title": "Payroll Operations Manager",
+          "job_category": null,
+          "date_posted": null,
+          "location": "TX - HOUSTON ",
+          "job_description": "The Payroll Operations Manager is expected to manage day to day payroll operations, support new and existing pay programs, support vendor relationships, drive process standardizations, automations and controls for efficiency and effectiveness. This role will manage Advocacy and Payroll Tax Accounting Teams for the North America, UK & Ireland Payrolls for 6,000+ client employees operating biweekly and monthly pay frequencies. Manage teams that work remotely and in Houston Shared Services.  Establish and maintain business relationships with senior stakeholders and collaborate with other corporate and field teams including HR, Compensation, Legal, Tax, Treasury, Finance, Audit, Compliance, and HRIT. Should be open to work in different time zones to support global team operations.",
+          "roles_and_responsibilities": "Manage Advocacy and Payroll Tax Accounting Teams to provide accurate and timely payroll processing while ensuring the integrity of financial accounting systems. Develop the team members to deliver Service Level Goals and Key Performance Indicators Continuously measure and monitor the effectiveness of the functions and implement improvements as necessary. Drive consistent processes and coordinate efforts toward process standardization. Drive controls and operational excellence including compliance with all policies and procedures but not limited to, SOX oversight and controls and compliance programs. Collaborate with other HR Shared Service leaders on projects and process improvements. Establish partnerships with internal services and third-party vendors to ensure effective service delivery. Provide coaching and development opportunities for team members.",
+          "qualifications": "Minimum of 7 years of experience in a Payroll Shared Services environment Minimum of 4 years of experience in Payroll Supervisory Management",
+          "preferred_qualifications": "Knowledge using Workday Payroll for North America & UK Experience working with payroll vendors & platform technologies e.g., Workday CPP Preferred Bachelor's degree US Payroll, Tax & Accounting Payroll Operations Experience Vendor/Supplier Management Strong oral and written communication skills Excellent customer service skills Operational Excellence experience",
+          "benefits": null,
+          "salary": "California                                      $93,400 to $167,100\n\nColorado                                       $93,400 to $144,400\n\nNew York                                       $86,500 to $167,100\n\nWashington                                  $99,500 to $153,800"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e99a7fb9-360e-4949-9d04-73b655502d3d",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00185110_en&title=T%26D%20Grid%20Operations%20Consultant",
+    "source": "mhtml",
+    "domain": "software",
+    "subdomain": "careers",
+    "type": "links",
+    "goal": "Fetch all of the links to the detail pages of clinics on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "R00185110",
+          "job_title": "T&D Grid Operations Consultant",
+          "job_category": null,
+          "date_posted": null,
+          "location": "AZ - Phoenix, CA - Los Angeles, CA - San Francisco, CO - Broomfield, CT - Hartford, GA - Atlanta, MA - Boston, MI - Detroit, MN - Minneapolis, NC - Charlotte, NJ - Florham Park, NY - New York City, OH - Cincinnati, OH - Cleveland, OH - Columbus, PA - Philadelphia, PA - Pittsburgh, TX - Houston, TX - Irving, VA - Arlington, WA - Seattle",
+          "job_description": "Our Utility Industry, Transmission & Distribution Practice is powering the progress to a safe, connected, and sustainable planet. Every day, we work with the largest electric, gas, and water utilities to deliver innovative solutions and help them become more efficient, reliable, environmentally friendly and safer places to work. We co-create the future with our clients at Accenture Innovation Hubs around the world and work alongside our clients to bring the future to life in the core of our client's operations. We are the marketplace leader in modernizing the Transmission and Distribution network, making it more resilient, secure and flexible to include new distributed energy resources. Our utility clients are looking for bold solutions in the era of rapidly changing technology, policy and workforce innovations. Are you the leader who wants to reinvent Utilities' Transmission and Distribution and empower our clients to create a clean, sustainable and connected world? Join a team of industry practitioners with global footprint and local camaraderie.  Visit our site to learn more about Accenture Strategy & Consulting Utilities Practice.\n\n",
+          "roles_and_responsibilities": "You Are:\nA skilled utility industry practitioner with the know how to help clients meet the challenges of digitization.  You have the experience, creativity, and analytical power to design and implement the next generation of real-time grid management (SCADA/EMS/ADMS/DERMS) solutions: your bread and butter are the utility processes underlying the real time grid management selection, implementation, and maintenance.  You are not afraid to imagine next-gen solutions powered by artificial intelligence and automation. In fact, every day you are looking for opportunities to challenge the status quo and you are not satisfied with step change. You are a connector, working on project teams to support building complex solutions. You understand that co-location with clients and teams is critical to innovation, and you are ready to partner at client sites.\n\n\nThe Work:\n\nUnderstand client challenges and articulate the value of transformation in terms of business outcomes\n\nWork with utilities to design and implement real-time grid management systems (e.g. ADMS, EMS, SCADA and DERMS)\n\nBe a guide and mentor to analysts and senior analysts\n\nConstantly learn and bring new technologies and innovative grid management solutions to our clients\n\nChampion people on your team to succeed professionally and personally\n\nFoster trusted advisor relationships with clients from strategy to technology; from Program Leaders to the front line; for business and IT\n\nIntegrate business data to discover new insight and enable evidence-based business decisions.\n\nAbility to travel up to 100%\n\n",
+          "qualifications": "Basic Qualifications\n\nMinimum 3 years of experience in electric utilities industry\n\nMinimum 3 years of functional experience working with real-time grid management (SCADA/EMS/ADMS/DERMS) \n\nMinimum 3 years of experience in utilities real-time grid management\n\nBachelor’s degree\n\n",
+          "preferred_qualifications": "Professional Skill Requirements\n\nProven success in contributing to a team-oriented environment\n\nProven ability to work creatively and analytically in a problem-solving environment\n\nDesire to work in an information systems environment\n\nExcellent leadership, communication (written and oral) and interpersonal skills\n\n",
+          "benefits": null,
+          "salary": "California                                      $63,200 to $188,600\n\nColorado                                       $63,200 to $163,000\n\nNew York                                       $58,500 to $188,600\n\nWashington                                  $67,300 to $173,500"
+        }
+      }
+    ]
   }
 ]
