@@ -18,6 +18,7 @@ class Args(BaseModel):
     id: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     domain: Optional[str] = Field(default=None)
+    subdomain: Optional[str] = Field(default=None)
     skip: List[str]
     type: Optional[str] = Field(default=None)
     download: bool

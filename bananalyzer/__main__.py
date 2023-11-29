@@ -81,6 +81,12 @@ def parse_args() -> Args:
         help="Filter tests by a particular domain",
     )
     parser.add_argument(
+        "--subdomain",
+        type=str,
+        default=None,
+        help="Filter tests by a particular domain",
+    )
+    parser.add_argument(
         "-n",
         "--n",
         type=str,
@@ -136,6 +142,7 @@ def parse_args() -> Args:
         intent=args.intent,
         id=args.id,
         domain=args.domain,
+        subdomain=args.subdomain,
         skip=args.skip,
         single_browser_instance=args.single_browser_instance,
         type=args.type,
@@ -245,6 +252,12 @@ def main() -> int:
     if args.type:
         filtered_examples = [
             example for example in filtered_examples if example.type in args.type
+        ]
+    if args.subdomain:
+        filtered_examples = [
+            example
+            for example in filtered_examples
+            if example.subdomain in args.subdomain
         ]
 
     # Test we actually have tests to run
