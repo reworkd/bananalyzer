@@ -16,8 +16,7 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     if actual_value is "":
         actual_value = None
 
-    matcher = get_matcher(expected_value, actual_value)
-    if not matcher(actual_value, expected_value):
+    if not check_match(expected_value, actual_value):
         pytest.fail(f"{expected_value} != {actual_value}")
 
 
@@ -103,8 +102,8 @@ def native_count_differences(actual: str, expected: str) -> int:
     return diff_count
 
 
-def get_matcher(expected_value: Any, actual_value: Any) -> Callable[[Any, Any], bool]:
+def check_match(expected_value: Any, actual_value: Any) -> bool:
     if isinstance(expected_value, str) and isinstance(actual_value, str):
-        return is_string_similar
+        return is_string_similar(expected_value, actual_value)
     else:
-        return lambda x, y: x == y
+        return expected_value == actual_value
