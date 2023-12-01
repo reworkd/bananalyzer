@@ -13,7 +13,7 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     actual_value = actual.get(field, None)
 
     # Treat empty string as none
-    if actual_value is "":
+    if actual_value == "":
         actual_value = None
 
     if not check_match(expected_value, actual_value):
