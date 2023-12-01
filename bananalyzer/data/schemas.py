@@ -59,8 +59,8 @@ class Example(BaseModel):
     source: Literal["mhtml", "hosted", "url"] = Field(
         description="Source of the website"
     )
-    domain: str = Field(description="Domain of the website")
-    subdomain: str = Field(description="Subdomain of the website")
+    category: str = Field(description="Category of the website")
+    subcategory: str = Field(description="Subcategory of the website")
     type: GoalType = Field(
         description="The high level goal intent the agent is aiming to do"
     )

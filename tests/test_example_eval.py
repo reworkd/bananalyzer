@@ -111,8 +111,8 @@ def create_default_example(
         "id": "1",
         "url": "url",
         "source": "mhtml",
-        "domain": "domain",
-        "subdomain": "subdomain",
+        "category": "category",
+        "subcategory": "subcategory",
         "type": "fetch",
         "evals": [],
         "fetch_id": None,  # Set as None by default

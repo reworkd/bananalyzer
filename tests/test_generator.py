@@ -9,8 +9,8 @@ def test_generate_test_with_single_eval() -> None:
         id="1",
         url="https://www.test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[Eval(type="json_match", expected={"key": "value"})],
         fetch_id="job_posting",
@@ -26,8 +26,8 @@ def test_generate_test_with_multiple_evals() -> None:
         id="1",
         url="https://www.test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[
             Eval(type="json_match", expected={"key": "value"}),
@@ -47,8 +47,8 @@ def test_generate_class_name_without_www() -> None:
         id="1",
         url="https://test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[],
         fetch_id="job_posting",
@@ -64,8 +64,8 @@ def test_generate_class_name_with_www() -> None:
         id="1",
         url="https://www.test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[],
         fetch_id="job_posting",
@@ -75,14 +75,14 @@ def test_generate_class_name_with_www() -> None:
     assert class_name == "TestFetchTestCom"
 
 
-def test_generate_class_name_with_multiple_domains() -> None:
+def test_generate_class_name_with_multiple_categorys() -> None:
     generator = PytestTestGenerator()
     example1 = Example(
         id="1",
         url="https://test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[],
         fetch_id="job_posting",
@@ -92,8 +92,8 @@ def test_generate_class_name_with_multiple_domains() -> None:
         id="2",
         url="https://test.com",
         source="mhtml",
-        domain="test",
-        subdomain="www",
+        category="test",
+        subcategory="www",
         type="fetch",
         evals=[],
         fetch_id="job_posting",
