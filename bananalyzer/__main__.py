@@ -8,6 +8,7 @@ import os
 import sys
 from pathlib import Path
 from typing import List
+from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
@@ -67,6 +68,13 @@ def parse_args() -> Args:
         help="Filter tests by id",
     )
     parser.add_argument(
+        "-d",
+        "--domain",
+        type=str,
+        default=None,
+        help="Filter tests by a particular URL domain",
+    )
+    parser.add_argument(
         "-i",
         "--intent",
         type=str,
@@ -74,17 +82,17 @@ def parse_args() -> Args:
         help="Filter tests by a particular intent",
     )
     parser.add_argument(
-        "-d",
-        "--domain",
+        "-c",
+        "--category",
         type=str,
         default=None,
-        help="Filter tests by a particular domain",
+        help="Filter tests by a particular category",
     )
     parser.add_argument(
-        "--subdomain",
+        "--subcategory",
         type=str,
         default=None,
-        help="Filter tests by a particular domain",
+        help="Filter tests by a particular category",
     )
     parser.add_argument(
         "-n",
@@ -142,7 +150,8 @@ def parse_args() -> Args:
         intent=args.intent,
         id=args.id,
         domain=args.domain,
-        subdomain=args.subdomain,
+        category=args.category,
+        subcategory=args.subcategory,
         skip=args.skip,
         single_browser_instance=args.single_browser_instance,
         type=args.type,
@@ -243,7 +252,15 @@ def main() -> int:
         ]
     if args.domain:
         filtered_examples = [
-            example for example in filtered_examples if example.domain == args.domain
+            example
+            for example in filtered_examples
+            if ".".join(urlparse(example.url).netloc.split(".")[-2:]) == args.domain
+        ]
+    if args.category:
+        filtered_examples = [
+            example
+            for example in filtered_examples
+            if example.category == args.category
         ]
     if args.skip:
         filtered_examples = [
@@ -253,11 +270,11 @@ def main() -> int:
         filtered_examples = [
             example for example in filtered_examples if example.type in args.type
         ]
-    if args.subdomain:
+    if args.subcategory:
         filtered_examples = [
             example
             for example in filtered_examples
-            if example.subdomain in args.subdomain
+            if example.subcategory in args.subcategory
         ]
 
     # Test we actually have tests to run

@@ -28,9 +28,9 @@ def example():
     return Example(
         id="test",
         url="https://example.com",
-        subdomain="test",
+        subcategory="test",
         type="links",
-        domain="test",
+        category="test",
         goal="links",
         source="hosted",
         evals=[],
