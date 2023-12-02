@@ -143,7 +143,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 ##### Features
 
 - [x] CLI param to filter tests by intent
-- [ ] Additional CLI params to select for specific tests or test categories
+- [x] Additional CLI params to select for specific tests or test categories
 - [ ] Ability to add multiple site pages to examples
 - [ ] Ability to add in-page actions to examples
 - [ ] Translate WebArena evals
@@ -154,7 +154,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 ##### Dataset updates
 
 - [x] 15 additional data retrieval examples
-- [ ] 15 additional link examples
+- [x] 15 additional link examples
 - [ ] 15 click examples
 - [ ] 15 navigation examples
 - [ ] Tests requiring multi-step navigation
