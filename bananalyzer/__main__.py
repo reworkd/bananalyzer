@@ -8,6 +8,7 @@ import os
 import sys
 from pathlib import Path
 from typing import List
+from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
@@ -65,6 +66,13 @@ def parse_args() -> Args:
         type=str,
         default=None,
         help="Filter tests by id",
+    )
+    parser.add_argument(
+        "-d",
+        "--domain",
+        type=str,
+        default=None,
+        help="Filter tests by a particular URL domain",
     )
     parser.add_argument(
         "-i",
@@ -141,6 +149,7 @@ def parse_args() -> Args:
         headless=args.headless,
         intent=args.intent,
         id=args.id,
+        domain=args.domain,
         category=args.category,
         subcategory=args.subcategory,
         skip=args.skip,
@@ -241,9 +250,17 @@ def main() -> int:
         filtered_examples = [
             example for example in filtered_examples if example.type == args.intent
         ]
+    if args.domain:
+        filtered_examples = [
+            example
+            for example in filtered_examples
+            if ".".join(urlparse(example.url).netloc.split(".")[-2:]) == args.domain
+        ]
     if args.category:
         filtered_examples = [
-            example for example in filtered_examples if example.category == args.category
+            example
+            for example in filtered_examples
+            if example.category == args.category
         ]
     if args.skip:
         filtered_examples = [

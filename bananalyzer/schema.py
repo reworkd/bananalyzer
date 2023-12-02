@@ -16,6 +16,7 @@ class Args(BaseModel):
     headless: bool
     single_browser_instance: bool
     id: Optional[str] = Field(default=None)
+    domain: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     category: Optional[str] = Field(default=None)
     subcategory: Optional[str] = Field(default=None)
