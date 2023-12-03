@@ -1,6 +1,7 @@
 import { db } from "~/server/db";
 import { Card, Grid, Metric, Tab, TabGroup, TabList, TabPanel, TabPanels, Text, Title } from "@tremor/react";
 import TestSuitesTable from "~/app/_components/test-suites-table";
+import TestSuiteChart from "~/app/_components/chart";
 
 export default async function Home() {
   // const hello = await api.post.hello.query({ text: "from tRPC" });
@@ -30,7 +31,7 @@ export default async function Home() {
             </Grid>
             <div className="mt-6">
               <Card>
-                <div className="h-80" />
+                <TestSuiteChart />
               </Card>
             </div>
           </TabPanel>
