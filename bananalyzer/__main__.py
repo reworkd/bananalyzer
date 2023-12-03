@@ -246,6 +246,7 @@ def main() -> int:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id
         ]
+
     if args.intent:
         filtered_examples = [
             example for example in filtered_examples if example.type == args.intent
