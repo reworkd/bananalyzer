@@ -233,10 +233,14 @@ def main() -> int:
 
     # Filter examples based on args
     filtered_examples = get_test_examples() if args.test else get_training_examples()
-    if args.id:
-        filtered_examples = [
-            example for example in filtered_examples if example.id == args.id
+    filtered_examples = [
+        example for example in filtered_examples if example.id in [
+            "8366209e-e5fb-4f64-85e0-79cd90985b59",
+            "c5e7ec4b-ad83-49a5-b056-a37ddf974a64",
+            "7bc386a7-0d5b-45dc-ab10-8189451379a6"
         ]
+    ]
+
     if args.intent:
         filtered_examples = [
             example for example in filtered_examples if example.type == args.intent
