@@ -13,7 +13,7 @@ class NullAgentRunner(AgentRunner):
     A test agent class that just returns an empty string
     """
 
-    RANDOM_FAILURE_RATE = 0.12  # You can change this to 0.5 to see random failures
+    RANDOM_FAILURE_RATE = 0  # You can change this to 0.5 to see random failures
 
     async def run(
         self,
