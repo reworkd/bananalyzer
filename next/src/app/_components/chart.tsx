@@ -1,49 +1,24 @@
 import { AreaChart, Card, Title } from "@tremor/react";
-
-const chartdata = [
-  {
-    date: "Jan 22",
-    SemiAnalysis: 2890,
-    "The Pragmatic Engineer": 2338,
-  },
-  {
-    date: "Feb 22",
-    SemiAnalysis: 2756,
-    "The Pragmatic Engineer": 2103,
-  },
-  {
-    date: "Mar 22",
-    SemiAnalysis: 3322,
-    "The Pragmatic Engineer": 2194,
-  },
-  {
-    date: "Apr 22",
-    SemiAnalysis: 3470,
-    "The Pragmatic Engineer": 2108,
-  },
-  {
-    date: "May 22",
-    SemiAnalysis: 3475,
-    "The Pragmatic Engineer": 1812,
-  },
-  {
-    date: "Jun 22",
-    SemiAnalysis: 3129,
-    "The Pragmatic Engineer": 1726,
-  },
-];
+import { db } from "~/server/db";
 
 export default async function() {
+  const testSuites = await db.testSuite.findMany();
+  const data = testSuites.map((t) => ({
+    date: new Date(t.createdAt).toLocaleDateString(),
+    "Failures": t.failures,
+    "Errors": t.errors,
+    "Successes": t.tests - t.failures - t.errors,
+  }));
 
   return (
     <Card>
-      <Title>Newsletter revenue over time (USD)</Title>
+      <Title>Bananalyses over time</Title>
       <AreaChart
         className="h-72 mt-4"
-        data={chartdata}
+        data={data}
         index="date"
-        categories={["SemiAnalysis", "The Pragmatic Engineer"]}
-        colors={["indigo", "cyan"]}
+        categories={["Successes", "Failures", "Errors"]}
+        colors={["green", "red", "rose"]}
       />
     </Card>
   );

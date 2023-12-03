@@ -19,20 +19,12 @@ export default async function Home() {
         <TabPanels>
           <TabPanel>
             <Grid numItemsMd={2} numItemsLg={3} className="gap-6 mt-6">
-              <Card>
-                {/* Placeholder to set height */}
-                <div className="h-28" />
-              </Card>
+              <NumUsersCard />
               <NumTestsCard />
-              <Card>
-                {/* Placeholder to set height */}
-                <div className="h-28" />
-              </Card>
+              <NumTestsSuitesCard />
             </Grid>
             <div className="mt-6">
-              <Card>
-                <TestSuiteChart />
-              </Card>
+              <TestSuiteChart />
             </div>
           </TabPanel>
           <TabPanel>
@@ -46,12 +38,36 @@ export default async function Home() {
   );
 }
 
-async function NumTestsCard() {
-  const numTests = await db.testSuite.count();
+async function NumUsersCard() {
+  const numUsers = await db.user.count()
+
+  return (
+    <Card>
+      <Text>Monkeys (Users)</Text>
+      <Metric>{numUsers}</Metric>
+    </Card>
+  );
+}
+
+async function NumTestsSuitesCard() {
+  const numTestSuites = await db.testSuite.count();
 
   return (
     <Card>
       <Text>Tests suites run</Text>
+      <Metric>{numTestSuites}</Metric>
+    </Card>
+  );
+}
+
+async function NumTestsCard() {
+  // Count an attribute of a model
+  const testSuites = await db.testSuite.findMany()
+  const numTests = testSuites.reduce((acc, curr) => acc + curr.tests, 0)
+
+  return (
+    <Card>
+      <Text>Tests tests run</Text>
       <Metric>{numTests}</Metric>
     </Card>
   );
