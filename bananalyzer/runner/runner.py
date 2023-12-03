@@ -1,7 +1,7 @@
 import os
 import tempfile
 from pathlib import Path
-from typing import Awaitable, Callable, List
+from typing import Awaitable, Callable, List, Tuple
 
 import pytest
 from pydantic import BaseModel
@@ -95,7 +95,7 @@ def run_tests(
     pytest_args: PytestArgs,
     headless: bool = False,
     single_browser_instance: bool = False,
-) -> int:
+) -> Tuple[int, Path]:
     """
     Create temporary test files based on intent, run them, and then delete them
     """
@@ -133,4 +133,4 @@ def run_tests(
             + [f"--junitxml={str(report_path)}"]
         )
 
-        return pytest.main(args, plugins=[(BananalyzerPytestPlugin())])
+        return pytest.main(args, plugins=[(BananalyzerPytestPlugin())]), report_path

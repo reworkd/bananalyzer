@@ -1,9 +1,7 @@
-import {z} from "zod";
+import { z } from "zod";
 
-import {createTRPCRouter, publicProcedure,} from "~/server/api/trpc";
-import {TestSuiteSchema} from "~/schemas";
-
-
+import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import { TestSuiteSchema } from "~/schemas";
 
 export const evalRouter = createTRPCRouter({
   create: publicProcedure
@@ -18,9 +16,9 @@ export const evalRouter = createTRPCRouter({
           errors: input.errors,
           time: input.time,
           hostname: input.hostname,
-          createdById: "clpofluzg0000m7vjkmz7dxvv",
-        }
-      })
+          createdById: input.userId,
+        },
+      });
 
       for (const test of input.testCases) {
         const testCase = await ctx.db.testCase.create({
@@ -31,8 +29,8 @@ export const evalRouter = createTRPCRouter({
             time: test.time,
             status: test.status,
             message: test.message,
-          }
-        })
+          },
+        });
 
         for (const property of test.properties) {
           await ctx.db.testCaseProperty.create({
@@ -40,11 +38,11 @@ export const evalRouter = createTRPCRouter({
               testCaseId: testCase.id,
               name: property.name,
               value: property.value,
-            }
-          })
+            },
+          });
         }
       }
 
-
-    // return suite
-})});
+      // return suite
+    }),
+});
