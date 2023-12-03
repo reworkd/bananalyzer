@@ -1,5 +1,6 @@
 import { db } from "~/server/db";
 import { Card, Grid, Metric, Tab, TabGroup, TabList, TabPanel, TabPanels, Text, Title } from "@tremor/react";
+import TestSuitesTable from "~/app/_components/test-suites-table";
 
 export default async function Home() {
   // const hello = await api.post.hello.query({ text: "from tRPC" });
@@ -7,7 +8,6 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen p-10">
-      <SuiteGrid />
       <Title className="font-medium text-2xl">Bananalytics 🍌</Title>
       <Text>Full stack Banalyses observability</Text>
       <TabGroup className="mt-6">
@@ -22,10 +22,7 @@ export default async function Home() {
                 {/* Placeholder to set height */}
                 <div className="h-28" />
               </Card>
-              <Card>
-                <Text>Tests run</Text>
-                <Metric>10</Metric>
-              </Card>
+              <NumTestsCard />
               <Card>
                 {/* Placeholder to set height */}
                 <div className="h-28" />
@@ -39,9 +36,7 @@ export default async function Home() {
           </TabPanel>
           <TabPanel>
             <div className="mt-6">
-              <Card>
-                <div className="h-96" />
-              </Card>
+              <TestSuitesTable />
             </div>
           </TabPanel>
         </TabPanels>
@@ -50,30 +45,13 @@ export default async function Home() {
   );
 }
 
-async function SuiteGrid() {
-  "use server";
-
-  const suites = await db.testSuite.findMany();
+async function NumTestsCard() {
+  const numTests = await db.testSuite.count();
 
   return (
-    <>
-      {/*<LineChart*/}
-      {/*    className="mt-6"*/}
-      {/*    data={chartdata}*/}
-      {/*    index="year"*/}
-      {/*    categories={["Export Growth Rate", "Import Growth Rate"]}*/}
-      {/*    colors={["emerald", "gray"]}*/}
-      {/*    // valueFormatter={valueFormatter}*/}
-      {/*    yAxisWidth={40}*/}
-      {/*/>*/}
-
-      <div className="grid grid-cols-3">
-        {suites.map((suite) => (
-          <div key={suite.id}>
-            <div>{suite.name}</div>
-          </div>
-        ))}
-      </div>
-    </>
+    <Card>
+      <Text>Tests suites run</Text>
+      <Metric>{numTests}</Metric>
+    </Card>
   );
 }
