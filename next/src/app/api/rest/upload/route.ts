@@ -45,15 +45,19 @@ export async function POST(req: Request) {
         classname: testcase.classname,
         time: testcase.time,
         status: "passed", // TODO: testcase.status,
-        // @ts-ignore
-        properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
-      }}
-    )}
-  }
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-expect-error
+        properties: (testcase?.properties ?? []) as {
+          name: string;
+          value: string;
+        }[],
+      };
+    }),
+  };
 
   const result = await TestSuiteSchema.safeParseAsync(testSuite);
   if (!result.success) {
-    return NextResponse.json(result.error, {
+    NextResponse.json(result.error, {
       status: 422,
     });
   }
