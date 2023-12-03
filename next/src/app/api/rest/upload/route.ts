@@ -1,27 +1,25 @@
-import {type NextApiRequest} from "next";
-import {createTRPCContext} from "~/server/api/trpc";
-import {appRouter} from "~/server/api/root";
-import {NextResponse} from "next/server";
-import {parse, TestSuites} from 'junit2json'
+import { createTRPCContext } from "~/server/api/trpc";
+import { appRouter } from "~/server/api/root";
+import { NextResponse } from "next/server";
+import { parse, type TestSuites } from 'junit2json'
 import fs from 'fs/promises';
-import {TestSuiteSchema} from "~/schemas";
+import { TestSuiteSchema } from "~/schemas";
 
 const PATH
   = '/Users/awtkns/PycharmProjects/bananalyzer/.banana_cache/tmpha02dk07_report.html';
 
-const handler = async (req: NextApiRequest) => {
+const handler = async (req: Request) => {
 
   const xmlData = await fs.readFile(PATH, 'utf8');
 
 
-
   // Create context and caller
   const headers = Object.entries(req.headers).reduce((acc, [key, value]) => {
-  if (typeof value === "string") {
-    acc.append(key, value);
-  }
-  return acc;
-}, new Headers());
+    if (typeof value === "string") {
+      acc.append(key, value);
+    }
+    return acc;
+  }, new Headers());
 
   const ctx = await createTRPCContext({
     headers: headers,
@@ -50,7 +48,7 @@ const handler = async (req: NextApiRequest) => {
         classname: testcase.classname,
         time: testcase.time,
         status: "passed", // TODO: testcase.status,
-        properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
+        // TODO: Fix this line properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
       });
     })
   }

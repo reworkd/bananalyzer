@@ -1,5 +1,5 @@
 import { db } from "~/server/db";
-import { Card, Grid, Tab, TabGroup, TabList, TabPanel, TabPanels, Text, Title } from "@tremor/react";
+import { Card, Grid, Metric, Tab, TabGroup, TabList, TabPanel, TabPanels, Text, Title } from "@tremor/react";
 
 export default async function Home() {
   // const hello = await api.post.hello.query({ text: "from tRPC" });
@@ -23,8 +23,8 @@ export default async function Home() {
                 <div className="h-28" />
               </Card>
               <Card>
-                {/* Placeholder to set height */}
-                <div className="h-28" />
+                <Text>Tests run</Text>
+                <Metric>10</Metric>
               </Card>
               <Card>
                 {/* Placeholder to set height */}
