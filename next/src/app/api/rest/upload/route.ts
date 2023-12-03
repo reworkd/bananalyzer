@@ -57,11 +57,12 @@ export async function POST(req: Request) {
 
   const result = await TestSuiteSchema.safeParseAsync(testSuite);
   if (!result.success) {
-    NextResponse.json(result.error, {
+    return NextResponse.json(result.error, {
       status: 422,
     });
+  } else {
+    await caller.evaluations.create(result.data);
   }
 
-  await caller.evaluations.create(result.data);
   return NextResponse.json("ok");
 }
