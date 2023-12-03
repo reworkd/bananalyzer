@@ -10,6 +10,8 @@ from pathlib import Path
 from typing import List
 from urllib.parse import urlparse
 
+import requests
+
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
     download_examples,
@@ -291,10 +293,35 @@ def main() -> int:
     tests = [generator.generate_test(example) for example in filtered_examples]
 
     # Run the tests
-    return run_tests(
+    exit_code, report_path = run_tests(
         tests, agent, args.pytest_args, args.headless, args.single_browser_instance
     )
 
+    with open(report_path, "r") as fp:
+        res = requests.post(
+            "http://localhost:3000/api/rest/upload",
+            headers={
+                "Authorization": f"Bearer",
+                "Content-Type": "text/plain",
+            },
+            data=fp.read(),
+        )
+        res.raise_for_status()
+
+
+
+    return exit_code
+
 
 if __name__ == "__main__":
-    main()
+    with open("/Users/awtkns/PycharmProjects/bananalyzer/.banana_cache/tmp81wthtxa_report.html", "r") as fp:
+        res = requests.post(
+            "http://localhost:3000/api/rest/upload",
+            headers={
+                "Authorization": f"Bearer",
+                "Content-Type": "application/text",
+            },
+            data=fp.read(),
+        )
+        res.raise_for_status()
+    # main()

@@ -48,7 +48,7 @@ def test_addition() -> None:
 """,
     )
 
-    exit_code = run_tests([passing_test], runner, pytest_args)
+    exit_code, *_ = run_tests([passing_test], runner, pytest_args)
     assert exit_code == ExitCode.OK
 
 
@@ -65,5 +65,5 @@ def test_exception() -> None:
         code=exception_test,
     )
 
-    exit_code = run_tests([exception_test], runner, pytest_args)
+    exit_code, *_ = run_tests([exception_test], runner, pytest_args)
     assert exit_code == ExitCode.TESTS_FAILED

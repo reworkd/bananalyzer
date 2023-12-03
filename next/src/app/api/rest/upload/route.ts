@@ -1,39 +1,36 @@
 import { createTRPCContext } from "~/server/api/trpc";
 import { appRouter } from "~/server/api/root";
 import { NextResponse } from "next/server";
-import { parse, type TestSuites } from 'junit2json'
-import fs from 'fs/promises';
+import { parse, type TestSuites } from "junit2json";
 import { TestSuiteSchema } from "~/schemas";
+import { headers } from "next/headers";
 
-const PATH
-  = '/Users/awtkns/PycharmProjects/bananalyzer/.banana_cache/tmpha02dk07_report.html';
+export async function POST(req: Request) {
+  const test_report = await req.text();
 
-const handler = async (req: Request) => {
+  let userToken = headers().get("Authorization");
 
-  const xmlData = await fs.readFile(PATH, 'utf8');
-
-
-  // Create context and caller
-  const headers = Object.entries(req.headers).reduce((acc, [key, value]) => {
-    if (typeof value === "string") {
-      acc.append(key, value);
-    }
-    return acc;
-  }, new Headers());
+  if (!userToken) {
+    return NextResponse.json("Unauthorized", {
+      status: 403,
+    });
+  }
+  userToken = userToken.replace("Bearer ", "");
 
   const ctx = await createTRPCContext({
-    headers: headers,
+    headers: headers(),
   });
 
   const caller = appRouter.createCaller(ctx);
-  const x = await parse(xmlData) as TestSuites;
+  const x = (await parse(test_report)) as TestSuites;
 
   const suite = x?.testsuite?.[0];
   if (!suite) {
-    return
+    return;
   }
 
   const testSuite = {
+    userId: userToken,
     name: suite.name,
     tests: suite.tests,
     failures: suite.failures,
@@ -42,13 +39,13 @@ const handler = async (req: Request) => {
     time: suite.time,
     timestamp: suite.timestamp,
     hostname: suite.hostname,
-    testCases: (suite.testcase ?? []).map(testcase => {
-      return ({
+    testCases: (suite.testcase ?? []).map((testcase) => {
+      return {
         name: testcase.name,
         classname: testcase.classname,
         time: testcase.time,
         status: "passed", // TODO: testcase.status,
-        // TODO: Fix this line properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
+        properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
       });
     })
   }
@@ -56,13 +53,10 @@ const handler = async (req: Request) => {
   const result = await TestSuiteSchema.safeParseAsync(testSuite);
   if (!result.success) {
     return NextResponse.json(result.error, {
-      status: 422
+      status: 422,
     });
-
   }
 
-  await caller.evaluations.create(result.data)
+  await caller.evaluations.create(result.data);
   return NextResponse.json("ok");
-};
-
-export { handler as GET };
+}
