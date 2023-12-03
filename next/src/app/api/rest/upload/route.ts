@@ -45,9 +45,10 @@ export async function POST(req: Request) {
         classname: testcase.classname,
         time: testcase.time,
         status: "passed", // TODO: testcase.status,
+        // @ts-ignore
         properties: ((testcase?.properties ?? []) as { name: string, value: string }[])
-      });
-    })
+      }}
+    )}
   }
 
   const result = await TestSuiteSchema.safeParseAsync(testSuite);
