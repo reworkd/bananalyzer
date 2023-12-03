@@ -1,17 +1,51 @@
-import { CreatePost } from "~/app/_components/create-post";
-import { getServerAuthSession } from "~/server/auth";
-import { api } from "~/trpc/server";
 import { db } from "~/server/db";
-import { LineChart } from "@tremor/react";
+import { Card, Grid, Tab, TabGroup, TabList, TabPanel, TabPanels, Text, Title } from "@tremor/react";
 
 export default async function Home() {
   // const hello = await api.post.hello.query({ text: "from tRPC" });
   // const session = await getServerAuthSession();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1>Bananalytics</h1>
+    <main className="min-h-screen p-10">
       <SuiteGrid />
+      <Title className="font-medium text-2xl">Bananalytics 🍌</Title>
+      <Text>Full stack Banalyses observability</Text>
+      <TabGroup className="mt-6">
+        <TabList>
+          <Tab>Dashboard</Tab>
+          <Tab>Runs</Tab>
+        </TabList>
+        <TabPanels>
+          <TabPanel>
+            <Grid numItemsMd={2} numItemsLg={3} className="gap-6 mt-6">
+              <Card>
+                {/* Placeholder to set height */}
+                <div className="h-28" />
+              </Card>
+              <Card>
+                {/* Placeholder to set height */}
+                <div className="h-28" />
+              </Card>
+              <Card>
+                {/* Placeholder to set height */}
+                <div className="h-28" />
+              </Card>
+            </Grid>
+            <div className="mt-6">
+              <Card>
+                <div className="h-80" />
+              </Card>
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="mt-6">
+              <Card>
+                <div className="h-96" />
+              </Card>
+            </div>
+          </TabPanel>
+        </TabPanels>
+      </TabGroup>
     </main>
   );
 }
