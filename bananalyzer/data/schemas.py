@@ -26,7 +26,7 @@ class Eval(BaseModel):
     """
 
     type: Literal["json_match", "end_url_match"] = "json_match"
-    expected: Union[Dict[str, Any], List[str], str]
+    expected: Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
 
     def eval_action(self, action: str) -> bool:
         """
@@ -44,7 +44,7 @@ class Eval(BaseModel):
         ):
             return validate_field_match(self.expected, result, field)
 
-        if self.type == "json_match" and type(self.expected) is dict:
+        if self.type == "json_match" and type(self.expected) is dict or type(self.expected) is list:
             return validate_json_match(self.expected, result)
 
         if self.type == "end_url_match" and type(self.expected) is str:

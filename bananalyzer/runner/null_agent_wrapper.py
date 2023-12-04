@@ -32,6 +32,9 @@ class NullAgentRunner(AgentRunner):
         ):
             await page.goto(example.evals[0].expected)
 
+        if example.type == "links":
+            return example.evals[0].expected
+
         copy = cast(dict[str, Any], example.evals[0].expected).copy()
         for key, value in copy.items():
             if random() < self.RANDOM_FAILURE_RATE:
