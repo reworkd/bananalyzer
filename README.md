@@ -65,8 +65,9 @@ We have defined a set of test intents that an agent can be evaluated on. These i
 enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
 
 - **fetch**: The agent must retrieve specific JSON information from the page. This is the most common test type.
-- **links**: The agent must scrape all detail page links from a page. The agent must click a specific element on the
-  page.
+- **links**: The agent must scrape all detail page links from a page
+- **links_fetch**: The agent must scrape all detail page links from a page and additionally extract JSON information
+  for each link
 
 # Getting Started
 
@@ -94,9 +95,10 @@ class NullAgentRunner(AgentRunner):
         example: Example,
     ) -> AgentResult:
         page = await context.new_page()
-        await page.goto(example.get_static_url())   # example.url has the real url, example.get_static_url() returns the local mhtml file url
+        await page.goto(
+            example.get_static_url())  # example.url has the real url, example.get_static_url() returns the local mhtml file url
         await asyncio.sleep(0.5)
-        return example.evals[0].expected    # Just return expected output directly so that tests pass
+        return example.evals[0].expected  # Just return expected output directly so that tests pass
 ```
 
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite

@@ -13,6 +13,7 @@ from bananalyzer.runner.evals import (
 GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
     "links",  # Scrape all detail page links from a single listing page
+    "links_fetch",  # Scrape all detail page links from a single listing page along with JSON information
     "click",  # Make a single click on a page
     "navigate",  # Travel to a new page
     "search",  # Search for the answer to a specific query

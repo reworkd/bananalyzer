@@ -3308,7 +3308,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3336,7 +3336,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3364,7 +3364,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3400,7 +3400,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3452,7 +3452,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3473,10 +3473,6 @@
           {
             "name": "Class Licensing & Registration (Amendment) Regulations,2016",
             "url": "https://moitt.gov.pk/SiteImage/Misc/files/Class-Licensing-registration-regulation-2016-adm.pdf"
-          },
-          {
-            "name": "No name",
-            "url": "No URL"
           },
           {
             "name": "Telecom Consumers Protection (Amendment) Regulations, 2012",
@@ -3528,7 +3524,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3564,7 +3560,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3672,7 +3668,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3872,7 +3868,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -3968,7 +3964,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -4048,7 +4044,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
