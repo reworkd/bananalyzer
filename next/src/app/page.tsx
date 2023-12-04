@@ -17,19 +17,19 @@ import Link from "next/link";
 import TestSuiteChart from "~/app/_components/chart";
 
 export default async function Home() {
-  // const hello = await api.post.hello.query({ text: "from tRPC" });
   const session = await getServerAuthSession();
 
   return (
     <main className="min-h-screen p-10">
-      <Title className="text-2xl font-medium">Bananalytics 🍌</Title>
-      <Text>Full stack Banalyses observability</Text>
-      <Link
-        href={session ? "/api/auth/signout" : "/api/auth/signin"}
-        className="rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
-      >
-        {session ? "Sign out" : "Sign in"}
-      </Link>
+      <div className="flex flex-row items-center justify-center">
+        <div className="flex-grow">
+          <Title className="text-2xl font-medium">Bananalytics 🍌</Title>
+          <Text>Full stack Banalyses observability</Text>
+        </div>
+        <Link href={session ? "/api/auth/signout" : "/api/auth/signin"}>
+          {session ? "Sign out" : "Sign in"}
+        </Link>
+      </div>
       <TabGroup className="mt-6">
         <TabList>
           <Tab>Dashboard</Tab>
@@ -58,7 +58,7 @@ export default async function Home() {
 }
 
 async function NumUsersCard() {
-  const numUsers = await db.user.count()
+  const numUsers = await db.user.count();
 
   return (
     <Card>
@@ -81,8 +81,8 @@ async function NumTestsSuitesCard() {
 
 async function NumTestsCard() {
   // Count an attribute of a model
-  const testSuites = await db.testSuite.findMany()
-  const numTests = testSuites.reduce((acc, curr) => acc + curr.tests, 0)
+  const testSuites = await db.testSuite.findMany();
+  const numTests = testSuites.reduce((acc, curr) => acc + curr.tests, 0);
 
   return (
     <Card>

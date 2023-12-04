@@ -139,6 +139,12 @@ def parse_args() -> Args:
         action="store_true",
         help="Use test set examples instead of training set examples",
     )
+    parser.add_argument(
+        "--token",
+        type=str,
+        default=None,
+        help="The token to use when uploading results to the dashboard",
+    )
 
     args = parser.parse_args()
 
@@ -159,6 +165,7 @@ def parse_args() -> Args:
         type=args.type,
         test=args.test,
         download=args.download,
+        token=args.token,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
@@ -244,6 +251,7 @@ def main() -> int:
 
     # Filter examples based on args
     filtered_examples = get_test_examples() if args.test else get_training_examples()
+
     if args.id:
         filtered_examples = [
             example for example in filtered_examples if example.id == args.id
@@ -297,31 +305,20 @@ def main() -> int:
         tests, agent, args.pytest_args, args.headless, args.single_browser_instance
     )
 
-    with open(report_path, "r") as fp:
-        res = requests.post(
-            "http://localhost:3000/api/rest/upload",
-            headers={
-                "Authorization": f"Bearer",
-                "Content-Type": "text/plain",
-            },
-            data=fp.read(),
-        )
-        res.raise_for_status()
+    if args.token:
+        with open(report_path, "r") as fp:
+            res = requests.post(
+                "http://localhost:3000/api/rest/upload",
+                headers={
+                    "Authorization": f"Bearer {args.token}",
+                    "Content-Type": "text/plain",
+                },
+                data=fp.read(),
+            )
+            res.raise_for_status()
 
-
-
-    return exit_code
+        return exit_code
 
 
 if __name__ == "__main__":
-    with open("/Users/awtkns/PycharmProjects/bananalyzer/.banana_cache/tmp81wthtxa_report.html", "r") as fp:
-        res = requests.post(
-            "http://localhost:3000/api/rest/upload",
-            headers={
-                "Authorization": f"Bearer",
-                "Content-Type": "application/text",
-            },
-            data=fp.read(),
-        )
-        res.raise_for_status()
-    # main()
+    main()

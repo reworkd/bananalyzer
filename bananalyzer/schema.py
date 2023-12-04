@@ -24,6 +24,7 @@ class Args(BaseModel):
     type: Optional[str] = Field(default=None)
     download: bool
     test: bool
+    token: Optional[str] = Field(default=None)
     pytest_args: PytestArgs
 
 
