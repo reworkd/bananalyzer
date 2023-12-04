@@ -3294,11 +3294,827 @@
           "location": "AZ - Phoenix, CA - Los Angeles, CA - San Francisco, CO - Broomfield, CT - Hartford, GA - Atlanta, MA - Boston, MI - Detroit, MN - Minneapolis, NC - Charlotte, NJ - Florham Park, NY - New York City, OH - Cincinnati, OH - Cleveland, OH - Columbus, PA - Philadelphia, PA - Pittsburgh, TX - Houston, TX - Irving, VA - Arlington, WA - Seattle",
           "job_description": "Our Utility Industry, Transmission & Distribution Practice is powering the progress to a safe, connected, and sustainable planet. Every day, we work with the largest electric, gas, and water utilities to deliver innovative solutions and help them become more efficient, reliable, environmentally friendly and safer places to work. We co-create the future with our clients at Accenture Innovation Hubs around the world and work alongside our clients to bring the future to life in the core of our client's operations. We are the marketplace leader in modernizing the Transmission and Distribution network, making it more resilient, secure and flexible to include new distributed energy resources. Our utility clients are looking for bold solutions in the era of rapidly changing technology, policy and workforce innovations. Are you the leader who wants to reinvent Utilities' Transmission and Distribution and empower our clients to create a clean, sustainable and connected world? Join a team of industry practitioners with global footprint and local camaraderie.  Visit our site to learn more about Accenture Strategy & Consulting Utilities Practice.\n\n",
           "roles_and_responsibilities": "You Are:\nA skilled utility industry practitioner with the know how to help clients meet the challenges of digitization.  You have the experience, creativity, and analytical power to design and implement the next generation of real-time grid management (SCADA/EMS/ADMS/DERMS) solutions: your bread and butter are the utility processes underlying the real time grid management selection, implementation, and maintenance.  You are not afraid to imagine next-gen solutions powered by artificial intelligence and automation. In fact, every day you are looking for opportunities to challenge the status quo and you are not satisfied with step change. You are a connector, working on project teams to support building complex solutions. You understand that co-location with clients and teams is critical to innovation, and you are ready to partner at client sites.\n\n\nThe Work:\n\nUnderstand client challenges and articulate the value of transformation in terms of business outcomes\n\nWork with utilities to design and implement real-time grid management systems (e.g. ADMS, EMS, SCADA and DERMS)\n\nBe a guide and mentor to analysts and senior analysts\n\nConstantly learn and bring new technologies and innovative grid management solutions to our clients\n\nChampion people on your team to succeed professionally and personally\n\nFoster trusted advisor relationships with clients from strategy to technology; from Program Leaders to the front line; for business and IT\n\nIntegrate business data to discover new insight and enable evidence-based business decisions.\n\nAbility to travel up to 100%\n\n",
-          "qualifications": "Basic Qualifications\n\nMinimum 3 years of experience in electric utilities industry\n\nMinimum 3 years of functional experience working with real-time grid management (SCADA/EMS/ADMS/DERMS) \n\nMinimum 3 years of experience in utilities real-time grid management\n\nBachelor’s degree\n\n",
+          "qualifications": "Basic Qualifications\n\nMinimum 3 years of experience in electric utilities industry\n\nMinimum 3 years of functional experience working with real-time grid management (SCADA/EMS/ADMS/DERMS) \n\nMinimum 3 years of experience in utilities real-time grid management\n\nBachelor\u2019s degree\n\n",
           "preferred_qualifications": "Professional Skill Requirements\n\nProven success in contributing to a team-oriented environment\n\nProven ability to work creatively and analytically in a problem-solving environment\n\nDesire to work in an information systems environment\n\nExcellent leadership, communication (written and oral) and interpersonal skills\n\n",
           "benefits": null,
           "salary": "California                                      $63,200 to $188,600\n\nColorado                                       $63,200 to $163,000\n\nNew York                                       $58,500 to $188,600\n\nWashington                                  $67,300 to $173,500"
         }
+      }
+    ]
+  },
+  {
+    "id": "2d12563a-feef-4049-9e56-73e6aed55dfb",
+    "url": "https://www.trc.gov.jo/Pages/viewpage?pageID=188",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Regulation Nr. (61) of 2010 Regulation on Scholarships and Grants for Delegates",
+            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/regulation_nr._(61)_of_2010_regulation_on_scholarships_and_grants_for_delegates.pdf"
+          },
+          {
+            "name": "Regulation Nr. (54) of 2010 Regulation on the Attestation of Academic Certificates and Documents issued by Higher Education Institutions",
+            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/regulation_nr._(54)_of_2010_regulation_on_the_attestation_of_academic_certificates_and_documents_issued_by_higher_education_institutions.pdf"
+          },
+          {
+            "name": "Financial Directives on the Equalization of non Jordanian Certificates and the Attestation of Academic Certificates and Documents Issued by Higher Education Institutions Nr. (1) of 2010",
+            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/financial_directives_on_the_equalization_of_non_jordanian_certificates.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "46d1069c-b509-4379-8a8b-8eed873f04e0",
+    "url": "https://carc.gov.jo/en/rules/19",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Amendment Civil Aviation Law (15) of the year 2021",
+            "url": "https://carc.gov.jo/sites/default/files/2021-06/15-2021.pdf"
+          },
+          {
+            "name": "Civil Aviation Law (41) of the year 2007",
+            "url": "https://carc.gov.jo/sites/default/files/2022-09/law412007.pdf"
+          },
+          {
+            "name": "Amendment Civil Aviation Law (8) of the year 2018",
+            "url": "https://carc.gov.jo/sites/default/files/2021-04/Law412007-.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "81286df4-9769-47b1-87e5-26213158e2df",
+    "url": "https://www.pc.gov.pk/web/ordinance",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "PUBLIC PRIVATE PARTNERSHIP AUTHORITY (P3A) AMENDMENT ORDINANCE,2020",
+            "url": "https://pc.gov.pk/uploads/ordinance/P3A_ordinance.pdf"
+          },
+          {
+            "name": "CHINA PAKISTAN ECONOMIC COORIDOR(CPEC) AUTHORITY ORDINANCE,2019",
+            "url": "https://pc.gov.pk/uploads/ordinance/Ordinance.pdf"
+          },
+          {
+            "name": "RESOLUTION OF 1996 FOR ESTABLISHMENT OF PAKISTAN PLANNING & MANAGEMENT INSTITUTE",
+            "url": "https://www.pc.gov.pk/web/ordinance#"
+          },
+          {
+            "name": "RESOLUTION OF ESTABLISHMENT OF JAWAID AZFAR COMPUTER CENTER",
+            "url": "https://www.pc.gov.pk/web/ordinance#"
+          },
+          {
+            "name": "RESOLUTION OF 2013 FOR REVAMPING OF PLANNING COMMISSION",
+            "url": "https://pc.gov.pk/uploads/downloads/resolution.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a9e86456-905b-4db8-a2c6-92024869254d",
+    "url": "https://pemra.gov.pk/regulations.php",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "TAM Regulations 2018",
+            "url": "https://pemra.gov.pk/uploads/regulations/TAM_Regulations_2018.pdf"
+          },
+          {
+            "name": "Television Broadcast Station Operations Regulation 2012",
+            "url": "https://pemra.gov.pk/uploads/regulations/Television_Broadcast_Station_Operations_Regulations_2012.pdf"
+          },
+          {
+            "name": "Television Broadcast Station Operations Regulations 2012 as amended up to 2022",
+            "url": "https://pemra.gov.pk/uploads/regulations/TBSO-R-2012-2022.pdf"
+          },
+          {
+            "name": "Radio Broadcast Station Operations Regulation 2012",
+            "url": "https://pemra.gov.pk/uploads/regulations/Radio_Broadcast_Station_Operations_Regulation_2012.pdf"
+          },
+          {
+            "name": "Radio Broadcast Station Operations Regulations 2012 as amended up to 2022",
+            "url": "https://pemra.gov.pk/uploads/regulations/RBSP-R-2012-2022.pdf"
+          },
+          {
+            "name": "Distribution Service Operations Regulations 2011",
+            "url": "https://pemra.gov.pk/uploads/regulations/Distribution_Service_Operations_Regulations_2011.pdf"
+          },
+          {
+            "name": "Distribution Service Operations Regulations 2011 as amended up to 2022",
+            "url": "https://pemra.gov.pk/uploads/regulations/DSO-R-2011-2022.pdf"
+          },
+          {
+            "name": "Distribution Service Operations Regulations 2011, as amended up to 2022 by Amending the \"R\" Category Cable TV License Fee/Annual Renewal Fee (As set out in Schedule-A), Subscribers Fee for Cable TV (As set out in Schedule-B) and Subscription Fee for Cable TV (As set out in Schedule-C)",
+            "url": "https://pemra.gov.pk/uploads/regulations/Distribution_Service_Regulation_Amended2022.pdf"
+          },
+          {
+            "name": "PEMRA (Appeal and Review) Regulations 2008 (Repealed)",
+            "url": "https://pemra.gov.pk/uploads/regulations/PEMRA_Appeal_and_Review_Regulations_2008_Repealed.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a04ef9cc-cc51-4d28-88ad-8e153f6fbe9b",
+    "url": "https://moitt.gov.pk/Detail/Y2VjM2U3YzMtM2I0YS00Nzc2LThmZTAtMzNhMGY2OTZjZmI3",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Access Promotion (Amendment) Regulations, 2016",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/apc_amendment_reg_251116(1).pdf"
+          },
+          {
+            "name": "Telecom Consumer Protection (Amendment) Regulations,2016",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Telecom-Consumer-protection-2016Regulation-adm.pdf"
+          },
+          {
+            "name": "Regulations for Technical Implementation of Mobile Banking, 2016",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/MBanking1652016.pdf"
+          },
+          {
+            "name": "Class Licensing & Registration (Amendment) Regulations,2016",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Class-Licensing-registration-regulation-2016-adm.pdf"
+          },
+          {
+            "name": "No name",
+            "url": "No URL"
+          },
+          {
+            "name": "Telecom Consumers Protection (Amendment) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/telecom_consumer_protect_regulation_2012.pdf"
+          },
+          {
+            "name": "Subscriber Antecedents Verification (2nd Amendment) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/subs_antecedents_Verification%20(2nd%20Amendment)%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Cellular Mobile Network Quality of Service (Amendment) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/cellular_Quality%20of%20Service%20(Amendment)%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Pakistan Telecommunication Authority (Functions & Powers) (Amendment) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/PTA_func_powers_(Amendment)%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Telecommunication and Terminal Equipment Installer Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Telecommunication-Terminal%20Equipment%20Installer%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Subscribers Antecedents Verification (Amendment) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/subscriber_Antecedents%20Verification%20(Amendment)%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Mobile Virtual Network Operation (MVNO) Regulations, 2012",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Mobile%20Virtual%20Network%20Operation%20(MVNO)%20Regulations-2012.pdf"
+          },
+          {
+            "name": "Telecom Consumer Protection (Amendment) Regulations, 2011",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Telecom%20Consumer%20Protection%20(Amendment)%20Regulations-2011.pdf"
+          },
+          {
+            "name": "Numbering Allocation and Administration Regulations, 2011",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Numbering%20Allocation%20and%20Administration%20Regulations-2011.pdf"
+          },
+          {
+            "name": "Cellular Mobile Quality of Service Regulations, 2011",
+            "url": "https://moitt.gov.pk/SiteImage/Misc/files/Cellular%20Mobile%20Quality%20of%20Service%20Regulations-2011.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52cafd36-198d-443f-9c7e-482970896695",
+    "url": "http://www.dsbd.gov.za/gazetted-notices",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Draft SMMEs and Co-operatives Funding Policy",
+            "url": "http://www.dsbd.gov.za/sites/default/files/legislation/Draft%20SMMEs%20and%20Co-operatives%20Funding%20Policy.pdf"
+          },
+          {
+            "title": "National Integrated Small Enterprise Development (NISED) Strategic Framework (Masterplan)",
+            "url": "http://www.dsbd.gov.za/sites/default/files/legislation/Government_Gazette_0.pdf"
+          },
+          {
+            "title": "National Integrated Small Enterprise Development (NISED) Masterplan",
+            "url": "http://www.dsbd.gov.za/sites/default/files/legislation/NISED%20Masterplan_%20Fact%20Sheet_Edit%20%282%29%20%282022%20May%29.pdf"
+          },
+          {
+            "title": "Revised Shedule 1 of the National Definition of Small Enterprise in South Africa",
+            "url": "http://www.dsbd.gov.za/sites/default/files/legislation/423041gon399.pdf"
+          },
+          {
+            "title": "National Small Enterprise Amendment Bill, 2020",
+            "url": "http://www.dsbd.gov.za/sites/default/files/legislation/NSEA-Bill2020-gg-43981-notice.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4c8292a-079c-4e49-bca1-cf7c9da205ec",
+    "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Default.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Amendments to Money Laundering and Terrorist Financing Control Regulations, 2002, In Terms of Financial Intelligence Centre Act, 2001  (Gazette 47302)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/47302%2014-10%20NationalGovernment%20CTR%20Notice.pdf"
+          },
+          {
+            "title": "Publication of Government Gazette Required in Terms of Section 15(1) of the Division of Revenue Act, 2022(Act no. 5 of 2022)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/2022%20DoRA%20section%2015(1)%20Gazette.pdf"
+          },
+          {
+            "title": "Government Notice: Financial Sector Regulations, 2018: Disestablishment of Transitional Management Committee of Financial Sector Conduct Authority in Terms of Regulation 3(1)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/45007_18-8_NatTreasury%20(1).pdf"
+          },
+          {
+            "title": "Government Notice: Determination of Limit on  Amount of Remuneration for  Purposes of Determination of Contribution in Terms of Section 6 of the Unemployment Insurance COntributions Act",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/44641_28-05_NationalTreasury.pdf"
+          },
+          {
+            "title": "Notice in Terms of Paragraph (b)(x)(cc) of the Proviso to Definition of \"Retirement Annuity Fund\"",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/44640_28-05_NationalTreasury.pdf"
+          },
+          {
+            "title": "Gazette - Draft Amendments to Regulation 28",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Gazette%20-%20Draft%20Amendments%20to%20Regulation%2028.pdf"
+          },
+          {
+            "title": "Government Notice - Second draft conduct of financial institutions bill, 2020: Publication for public comment",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/43741_29-09_NatTreasury.pdf"
+          },
+          {
+            "title": "Local Government: Municipal Finance Management Act, 2003: Exemption from Act",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Government%20Gazette%20No.%2043582.pdf"
+          },
+          {
+            "title": "Determination of Rate of Levy for 2018 Tax Period and Payment Date In Terms of Section 3 of Merchant Shipping (International Oil Pollution Compensation Fund) Contributions Act, 2013",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/43528_17-07_NationalGovernment.pdf"
+          },
+          {
+            "title": "Notice in respect of formula for purposes of determination of amount for purposes of paragraph (b) of the definition of living annuity",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Notice%20in%20respect%20of%20formula%20for%20purposes%20of%20determination%20of%20amount%20for%20purposes%20of%20paragraph%20(b)%20of%20the%20definition%20of%20living%20annuity.pdf"
+          },
+          {
+            "title": "Notice in respect of amount of value of assets that may be paid in lumpsum for purposes of paragraph (c) of definition of living annuity",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Notice%20in%20respect%20of%20amount%20of%20value%20of%20assets%20that%20may%20be%20paid%20in%20lumpsum%20for%20purposes%20of%20paragraph%20(c)%20of%20definition%20of%20living%20annuity.pdf"
+          },
+          {
+            "title": "Notice of Commencement for the Financial Sector Regulation Act",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/42677_30-8_NatTreasury.pdf"
+          },
+          {
+            "title": "Financial Sector Regulation Act, 2017: Correction of General Notice 142 of 2019",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/42454_10-5_NationalTreasury.pdf"
+          },
+          {
+            "title": "Amendments to the Regulations in terms of the Financial Sector Regulation Act  Amendment of Schedule 2 of the South African Reserve Bank Act",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/42359_29-3_NatTreasury.pdf"
+          },
+          {
+            "title": "Financial Sector Regulation Act, 2017: Correction of General Notice 142 of 2019",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/42454_10-5_NationalTreasury.pdf"
+          },
+          {
+            "title": "Commencement of certain provisions of the Financial Intelligence Centre Amendment Act, 2017",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/42360_29-3_NatTreasury.pdf"
+          },
+          {
+            "title": "Notice in Terms of Section 12T of Income Tax Act, 1962, in Respect of Person or Entity that may Administer Financial Instrument or Policy as Tax Free Investment",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/GPW%20Notice%20Tax%20Free%20Investemtnt%20-%2040757_31-3_NatTreas.pdf"
+          },
+          {
+            "title": "Government Gazette No. 39770: Publication of National Treasury's Language Policy",
+            "url": "https://www.treasury.gov.za/comm_media/press/2016/2016030401%20-%20Publication%20of%20National%20Treasurys%20Language%20Policy.pdf"
+          },
+          {
+            "title": "Income Tax Act (58/1962): Regulations in terms of Section 12T(8) (Gazette 39765)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/39765_1-3_NatTreas.pdf"
+          },
+          {
+            "title": "Regulations in terms of section 12T(8) of the Income Tax Act, 1962, on the requirements for tax free investment",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/54-16%20Amendment%20to%20Regulations%20in%20terms%20of%20section%2012T%2018%20February%202016.pdf"
+          },
+          {
+            "title": "Invitation for comment on draft amendment to MFMA: Supply Chain Management Regulations (Gazette 39460)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/39460_27-11_NatTreasury.CV01.pdf"
+          },
+          {
+            "title": "Income Tax Act (58/1962): Notice in terms of section 12T of the Income Tax Act, 1962: In respect of persons or entities that may administer financial Instruments or policies as tax free investments (Gazette 38508)",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/38508_25-2_NationalTreasCV01.pdf"
+          },
+          {
+            "title": "Notice - Determination of rate of levy imposed in terms of the Merchant Shipping (International Oil Pollution Compensation Fund) Contributions Act, 2013",
+            "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Notice%20-%20Government%20Gazette%20No.%2042391.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11332f64-75ff-42d1-a301-60aa68f9dfef",
+    "url": "https://www.sars.gov.za/legal-counsel/secondary-legislation/public-notices/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Amendment to Third Party Notice to Submit Returns for periods commencing on or after 1 March 2023, as published in Government Gazette No. 48867 dated 30 June 2023.",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-06-notice-4051-gg-49646-amendment-to-third-party-notice-to-submit-returns-for-periods-on-or-after-1-march-2023-in-gg-48867-of-30-june-2023-10-nov-2023/"
+          },
+          {
+            "title": "Returns of information to be submitted by third parties in terms of section 26",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-05-notice-3631-gg-48867-third-party-notice-to-submit-returns-for-periods-commencing-on-or-after-1-march-2023-30-june-2023/"
+          },
+          {
+            "title": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2023 tax year",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-04-notice-3540-gg-48788-notice-to-furnish-returns-2023-14-june-2023/"
+          },
+          {
+            "title": "Rules promulgated under section 103 prescribing the \u2013",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-03-notice-3146-gg-48188-new-dispute-resolution-rules-promulgated-under-s-103-10-march-2023/"
+          },
+          {
+            "title": "Notice of address of service specified by the Commissioner in terms of section 11(5) with regard to any notice or process by which legal proceedings are instituted.",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-02-notice-3136-gg-48187-address-of-service-wrt-notice-by-which-legal-proceedings-instituted-10-march-2023/"
+          },
+          {
+            "title": "Notice of addresses at which a document, notice or request is to be delivered or made for purposes of rule 2(1)(c)(ii) and rule 3(1) read together with rule 2(c)(iii) of the rules promulgated in terms of section 103",
+            "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-01-notice-3135-gg-48187-address-at-which-notice-to-be-delivered-ito-rule-23-of-dr-rules-10-march-2023/"
+          },
+          {
+            "title": "Public notice in terms of section 23(f) with regard to changes in particulars",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2022-02-notice-2200-gg-46598-vat-vendor-requirement-to-update-vat-registration-status-following-drc-regulation-24-june-2022/"
+          },
+          {
+            "title": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2022 tax year",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2022-01-notice-2130-gg-46471-notice-to-furnish-returns-2022-3-june-2022/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2) that are subject to a fixed amount penalty",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-08-notice-1531-gg-45540-incidences-of-non-compliance-26-november-2021/"
+          },
+          {
+            "title": "Notice in terms of section 25(7) extending the date for for certain persons to submit income tax returns for the 2021 tax year to 2 December 2021",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-07-notice-1530-gg-45539-extending-date-for-certain-persons-to-submit-returns-26-november-2021/"
+          },
+          {
+            "title": "Publication of explanatory summary of the Tax Administration Laws Amendment Bill, 2021",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-06-notice-1488-gg-45437-explanatory-summary-of-the-talab-2021-8-november-2021/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2)",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-05-notice-1461-gg-45396-incidences-of-non-compliance-by-a-person-in-terms-of-section-2102-29-october-2021/"
+          },
+          {
+            "title": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2021 tax year",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-04-notice-419-gg-44571-notice-to-submit-returns-2021-14-may-2021/"
+          },
+          {
+            "title": "Public notice, published in terms of section 25(7) of the Tax Administration Act, 2011, extending the deadline to file Country-by-Country Report returns by persons as specified in the notice.",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2020-02-extension-of-deadline-to-file-country-by-country-returns-12-november-2020/"
+          },
+          {
+            "title": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of 2019 income tax returns",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2019-01-notice-342-gg-42545-28-june-2019/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2) of the Tax Administration Act, 2011, that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act.",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-05-notice-1372-gg-42100-14-december-2018/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2) of the Tax Administration Act, 2011, that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act.",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-04-notice-1175-gg-41996-26-october-2018/"
+          },
+          {
+            "title": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of 2018 income tax returns",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-03-notice-600-gg-41704-15-june-2018/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2), that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-02-notice-480-gg-41621-11-may-2018/"
+          },
+          {
+            "title": "Public notice in terms of section 25(7), extension of deadline to 28 February 2018, to file returns\u00a0under Notice 1117 published in Government Gazette 41186 of 20 October 2017",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2017-03-notice-1380-gg-41308-8-december-2017/"
+          },
+          {
+            "title": "Public notice published in terms of section 25, requiring the submission of Country-by-Country Report, Master file and Local file returns by persons as specified in the notice",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2017-02-notice-1117-gg-41186-20-october-2017/"
+          },
+          {
+            "title": "Income Tax Act, 1962, Unemployment Insurance Contributions Act, 2002, and Skills Development Levies Act, 1999",
+            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-15-notice-340-gg-40772-07-april-2017-date-upon-which-the-employer-must-render-a-return-emp501/"
+          },
+          {
+            "title": "Incidences of non-compliance by a person in terms of section 210(2), that are subject to a fixed amount penalty in accordance with sections 210(1) and 211",
+            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-02-notice-193-gg-40660-3-march-2017-incidences-of-non-compliance-subject-to-a-fixed-amount-penalty/"
+          },
+          {
+            "title": "Returns to be submitted by third parties in terms of section\u00a026",
+            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-01-notice-192-gg-40660-3-march-2017-returns-to-be-submitted-by-third-parties/"
+          },
+          {
+            "title": "Duty to keep records, books of account or documents in terms of section\u00a029",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-05-notice-1334-gg-40375-28-october-2016/"
+          },
+          {
+            "title": "Additional considerations in terms of section 80(2) according to which an application for a binding private ruling or a binding class ruling may be rejected",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-04-notice-748-gg-40088-24-june-2016/"
+          },
+          {
+            "title": "Method of payment of tax prescribed in terms of section 162(2)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-03-notice-437-gg-39922-15-april-2016/"
+          },
+          {
+            "title": "Reportable and excluded arrangements for purposes of sections 35(2) and 36(4)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-02-notice-140-gg-39650-3-february-2016/"
+          },
+          {
+            "title": "National Treasury\u00a0\u2013 Notice fixing the amount of the threshold for the amount of tax in dispute for purposes of an appeal to the Tax Board in terms ofsection\u00a0109(1)(a)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-05-notice-1196-gg-39490-17-december-2015/"
+          },
+          {
+            "title": "Incidences of non-compliance under section 210(2) that are subject to a fixed amount penalty in accordance with sections 210(1) and 211",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-04-notice-597-gg-38983-10-july-2015/"
+          },
+          {
+            "title": "Reportable and excluded arrangement for purposes of sections 25(2) and 36(4)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-02-notice-212-gg-38569-16-march-2015/"
+          },
+          {
+            "title": "Rules for electronic communication promulgated under section 255(1)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-06-notice-644-gg-37940-25-august-2014/"
+          },
+          {
+            "title": "Returns to be submitted by third parties in terms of section 26",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-04-notice-509-gg-37778-27-june-2014/"
+          },
+          {
+            "title": "Duty to keep the records, books of account or documents in terms of section 29 and in the form prescribed in terms of section 30",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-03-notice-508-gg-37778-27-june-2014/"
+          },
+          {
+            "title": "Method of payment of tax in terms of section 162(2) \u2013 cheque payments amount limited to R50\u00a0000",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-02-notice-415-gg-37690-30-may-2014/"
+          },
+          {
+            "title": "Method of payment prescribed in terms ofsection\u00a0162(2) for taxes assessed in terms of the Income Tax Act, 1962, payments of value-added tax in terms of the Value-Added Tax Act, 1991 and payments of employees\u2019 tax in terms of Schedule 4 of the Income Tax Act, 1962",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-09-notice-764-gg-36921-21-october-2013/"
+          },
+          {
+            "title": "Appointment and Reappointment of chairpersons of the Tax Board in terms of s.111 for the hearing of tax appeals",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-08-notice-637-gg-36790-27-august-2013/"
+          },
+          {
+            "title": "Income Tax 2013:\u00a0 Notice to furnish returns for the 2013 year of assessment",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-07-notice-451-gg-36603-28-june-2013/"
+          },
+          {
+            "title": "Returns to be submitted by companies that have issued share warrants to bearer in terms of the Companies Act, 1926 or the Companies Act, 1973, and still have such share warrants in issue \u2013 SWB001 returns to be submitted.",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-05-notice-421-gg-36565-14-june-2013/"
+          },
+          {
+            "title": "Returns to be submitted by third parties in terms of section 26 for 2013 and following years",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-04-notice-420-gg-36565-14-june-2013/"
+          },
+          {
+            "title": "Returns of information to be submitted by third parties in terms of section 26",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-03-notice-260-gg-36346-5-april-2013/"
+          },
+          {
+            "title": "Additional considerations in terms of section 80(2) according to which an application for a binding private ruling or a binding class ruling may be rejected",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-02-notice-103-gg-36119-8-february-2013/"
+          },
+          {
+            "title": "Incidences on non-compliance by a person in terms of section 210(2)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-04-notice-790-gg-35733-1-october-2012/"
+          },
+          {
+            "title": "Distance above which a person may decline to attend an interview in terms of section 47(4)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-03-notice-789-gg-35733-1-october-2012/"
+          },
+          {
+            "title": "Form and manner of a report to a taxpayer on the stage of completing of an audit of section 42(1)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-02-notice-788-gg-35733-1-october-2012/"
+          },
+          {
+            "title": "Electronic form of record-keeping in terms of section\u00a030(1)(b)",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-01-notice-787-gg-35733-1-october-2012/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e01032c3-8880-4e29-990e-554d5b56a870",
+    "url": "https://www.ncc.gov.ng/licensing-regulation/legal/determinations",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Determination of Mobile (Voice) Termination Rate for Special Numbering Services",
+            "url": "https://www.ncc.gov.ng/accessible/documents/1056-determination-of-mobile-voice-termination-rate-for-special-numbering-services"
+          },
+          {
+            "title": "Determination of Mobile International Termination Rate for Voice Services 2022 (Amended)",
+            "url": "https://www.ncc.gov.ng/accessible/documents/1048-determination-of-mobile-international-termination-rate-for-voice-services-2022-amended"
+          },
+          {
+            "title": "Consultation Paper on Determination of Capital Structure for Licensees in the Communications Sector in Nigeria",
+            "url": "https://www.ncc.gov.ng/accessible/documents/970-consultation-paper-on-determination-of-capital-structure-for-licensees-in-the-communications-sector-in-nigeria"
+          },
+          {
+            "title": "Determination of USSD Pricing (Amended)",
+            "url": "https://www.ncc.gov.ng/accessible/documents/910-determination-of-ussd-pricing-amended"
+          },
+          {
+            "title": "Determination on Accounting Separation For The Nigerian Telecommmunications Industry",
+            "url": "https://www.ncc.gov.ng/accessible/documents/908-determination-on-accounting-separation-for-the-nigerian-telecommmunications-industry"
+          },
+          {
+            "title": "Determination of Mobile Voice Termination Rate (2018)",
+            "url": "https://www.ncc.gov.ng/accessible/documents/805-determination-of-mobile-voice-termination-rate-2018"
+          },
+          {
+            "title": "Paper on Dominance - Zoom",
+            "url": "https://www.ncc.gov.ng/accessible/documents/433-paper-on-dominance-zoom"
+          },
+          {
+            "title": "Paper on Dominance - Zain",
+            "url": "https://www.ncc.gov.ng/accessible/documents/432-paper-on-dominance-zain"
+          },
+          {
+            "title": "Paper on Dominance - Smile",
+            "url": "https://www.ncc.gov.ng/accessible/documents/431-paper-on-dominance-smile"
+          },
+          {
+            "title": "Paper on Dominance - MTN Reply",
+            "url": "https://www.ncc.gov.ng/accessible/documents/430-paper-on-dominance-mtn-reply"
+          },
+          {
+            "title": "Paper on Dominance - MTN",
+            "url": "https://www.ncc.gov.ng/accessible/documents/429-paper-on-dominance-mtn"
+          },
+          {
+            "title": "Paper on Dominance - Globacom",
+            "url": "https://www.ncc.gov.ng/accessible/documents/428-paper-on-dominance-globacom"
+          },
+          {
+            "title": "Paper on Dominance - LM Ericsson (Nigeria) Limited",
+            "url": "https://www.ncc.gov.ng/accessible/documents/427-paper-on-dominance-lm-ericsson-nigeria-limited"
+          },
+          {
+            "title": "Consultation Paper on Dominance in Selected Communications Markets",
+            "url": "https://www.ncc.gov.ng/accessible/documents/426-consultation-paper-on-dominance-in-selected-communications-markets"
+          },
+          {
+            "title": "Determination of Dominance in Selected Communications Markets in Nigeria",
+            "url": "https://www.ncc.gov.ng/accessible/documents/365-determination-of-dominance-in-selected-communications-markets-in-nigeria"
+          },
+          {
+            "title": "Determination Of Voice Interconnection Rates 2013",
+            "url": "https://www.ncc.gov.ng/accessible/documents/355-determination-of-voice-interconnection-rates-2013"
+          },
+          {
+            "title": "Determination Of Voice & SMS Interconnection Rates 2009",
+            "url": "https://www.ncc.gov.ng/accessible/documents/282-determination-of-voice-sms-interconnection-rates-2009"
+          },
+          {
+            "title": "Determination of Interconnection Rate (2006)",
+            "url": "https://www.ncc.gov.ng/accessible/documents/281-determination-of-interconnection-rate-2006"
+          },
+          {
+            "title": "Determination of Dominance in Selected Markets in Nigeria",
+            "url": "https://www.ncc.gov.ng/accessible/documents/280-determination-of-dominance-in-selected-markets-in-nigeria"
+          },
+          {
+            "title": "Landmark Decisions and Judgments involving the Commission",
+            "url": "https://www.ncc.gov.ng/accessible/documents/279-landmark-decisions-and-judgments-involving-the-commission"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "79be8341-ea51-441f-ace8-21804bf0258d",
+    "url": "https://www.ynanp.gr/el/gia-ton-polith/nomo8esia/nomothesia-dieuthynse-pontoporou-nautilipontoporou-nautilias2/dpn-nomoi-pd/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "\u03a6\u0395\u039a \u0391 11 / 2000",
+            "url": "https://www.ynanp.gr/media/documents/document_FQFYStb.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 32 / 1958",
+            "url": "https://www.ynanp.gr/media/documents/document_AMA9wrN.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 261 / 1973",
+            "url": "https://www.ynanp.gr/media/documents/document_iFjgVQG.pdf"
+          },
+          {
+            "title": "\u0394\u03b9\u03bc\u03b5\u03c1\u03b5\u03af\u03c2 \u039d\u03b1\u03c5\u03c4\u03b9\u03bb\u03b9\u03b1\u03ba\u03ad\u03c2 \u03a3\u03c5\u03bc\u03c6\u03c9\u03bd\u03af\u03b5\u03c2",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/22/%CE%A0%CE%91%CE%A1%CE%91%CE%A1%CE%A4%CE%97%CE%9C%CE%91_%CE%99_%CE%9C%CE%91%CE%A1%CE%A4%CE%99%CE%9F%CE%A3_2021.doc"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 192 / 1979",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/%CE%9D._959_79_%CE%A6%CE%95%CE%9A_192_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 101/ 1990",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/%CE%9D.1892_90_%CE%A6%CE%95%CE%9A_101_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 27/ 2002",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/%CE%9D._2987_2002_%CE%A6%CE%95%CE%9A_27_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 82/ 1968",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/01_%CE%91.%CE%9D._378_1968_%CE%A6%CE%95%CE%9A_82_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 77/ 1975",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/02_%CE%9D._27_1975_%CE%A6%CE%95%CE%9A_77_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 144/ 1978",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/03_%CE%9D._814_1978_%CE%A6%CE%95%CE%9A_144_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 142/ 1994",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/04_%CE%9D._2234_1994_%CE%A6%CE%95%CE%9A_142_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 154/ 1997",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/05_N._2515-1997_%CE%A6%CE%95%CE%9A_154_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 312/ 2005",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/06_N._3427_2005_%CE%A6%CE%95%CE%9A_312_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 40/ 2009",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/07_%CE%9D._3752_2009_%CE%A6%CE%95%CE%9A_40_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 102/ 2013",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/08_%CE%9D._4150_2013_%CE%A6%CE%95%CE%9A_102_%CE%91.pdf"
+          },
+          {
+            "title": "\u03a6\u0395\u039a \u0391 201/ 2019",
+            "url": "https://www.ynanp.gr/media/documents/2021/03/19/09_%CE%9D._4646_2019_%CE%A6%CE%95%CE%9A_201_%CE%91.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4d5244e-4e95-4720-900f-f809c8df320b",
+    "url": "https://www.sca.gov.ae/en/regulations/crs-guidance.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Communication from SCA Regarding Implementation of Foreign Account Tax Compliance Act (FATCA)",
+            "url": "http://www.sca.gov.ae/assets/32ff3f50/pmo_63_fatca.aspx"
+          },
+          {
+            "title": "Intergovernmental Agreement between the U.S and the UAE ​​",
+            "url": "https://home.treasury.gov/system/files/131/FATCA-Agreement-UAE-6-17-2015.pdf"
+          },
+          {
+            "title": "Cabinet of Minesters Reolution No. (63) of 2022",
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/09/FATCA-Cabinet-Minesters-Reolution-No-63.pdf"
+          },
+          {
+            "title": "Flowchart for identification of FATCA reporting financial institutions",
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/Flowchart-for-FATCA.pdf"
+          },
+          {
+            "title": "FATCA Frequently Asked Questions (“FAQs”)",
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/FATCA-FAQ-ENGLISH.pdf"
+          },
+          {
+            "title": "Cabinet Resolution No.93 of 2021 Implementing Certain Provisions of the Multilateral Administrative Agreement for Automatic Exchange of Information",
+            "url": "https://mof.gov.ae/wp-content/uploads/2023/05/Cabinet-Resolution-No.93-of-2021-Implementing-Certain-Provisions-of-the-Multilateral-Administrative-Agreement-for-Automatic-Exchange-of-Information.pdf"
+          },
+          {
+            "title": "Circular on CRS Undocumented Accounts",
+            "url": "http://www.sca.gov.ae/assets/ec10da35/circular-on-crs-undocumented-accounts.aspx"
+          },
+          {
+            "title": "Circular on What Should be Included in CRS Reporting",
+            "url": "http://www.sca.gov.ae/assets/df8dfda4/circular-on-what-should-be-included-in-crs-reporting.aspx"
+          },
+          {
+            "title": "Circular on Residence by Investment and Citizenship by Investment Schemes",
+            "url": "http://www.sca.gov.ae/assets/4bcaaed5/circular-on-residence-by-investment-and-citizenship-by-investment-schemes.aspx"
+          },
+          {
+            "title": "Guidance Notes for the Common Reporting Standard CRS",
+            "url": "http://www.sca.gov.ae/assets/bfbc6f02/guidance-notes-for-the-common-reporting-standard-crs.aspx"
+          },
+          {
+            "title": "Flowchart for identification of CRS reporting financial institutions",
+            "url": "http://www.sca.gov.ae/assets/b9757e77/flowchart-for-identification-of-crs-reporting-financial-institutions-2.aspx"
+          },
+          {
+            "title": "UAE CRS FAQS",
+            "url": "http://www.sca.gov.ae/assets/defa4722/uae-crs-faqs.aspx"
+          },
+          {
+            "title": "OECD CRS FAQs",
+            "url": "http://www.sca.gov.ae/assets/e666b9d2/oecd-crs-faqs.aspx"
+          },
+          {
+            "title": "CRS List of Participating Jurisdictions",
+            "url": "http://www.sca.gov.ae/assets/986c6ad2/crs-list-of-participating-jurisdictions.aspx"
+          },
+          {
+            "title": "Satisfactory Practices and Unsatisfactory Practices",
+            "url": "http://www.sca.gov.ae/assets/16f4c53/satisfactory-practices-and-unsatisfactory-practices.aspx"
+          }
+        ]
       }
     ]
   }
