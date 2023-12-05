@@ -135,6 +135,20 @@ def test_fetch_without_fetch_id_exception() -> None:
         Example(**example_data)
 
 
+def test_fetch_with_goal_and_no_fetch_id() -> None:
+    goal = {'test': 'test'}
+    example_data = create_default_example({"goal": goal})
+    example = Example(**example_data)
+    assert example.goal == goal
+
+
+def test_fetch_with_non_dictionary_goal() -> None:
+    goal = "THIS SHOULD BE FINE"
+    example_data = create_default_example({"goal": goal})
+    example = Example(**example_data)
+    assert example.goal == goal
+
+
 def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
     example_data = create_default_example(
         {

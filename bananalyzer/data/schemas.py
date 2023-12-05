@@ -90,12 +90,16 @@ class Example(BaseModel):
             return values
 
         fetch_id = values.get("fetch_id")
-        if fetch_id is None:
-            raise ValueError("fetch_id must be provided for fetch goal types")
-
         goal = values.get("goal")
+
+        if fetch_id is not None and goal is not None:
+            raise ValueError("fetch_id and goal cannot both be provided")
+
+        if fetch_id is None and goal is None:
+            raise ValueError("fetch_id must be provided if goal is not provided")
+
         if goal is not None:
-            raise ValueError("goal must not be provided if fetch_id is provided")
+            return values
 
         values["goal"] = get_fetch_schema(fetch_id).model_fields
         return values
