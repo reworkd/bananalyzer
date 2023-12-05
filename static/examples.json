@@ -6837,12 +6837,44 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "قانون الثروة المعدنية",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629",
             "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.pdf"
           },
           {
-            "name": "اللائحة التنفيذية لقانون الثروة المعدنية",
+            "name": "\u0627\u0644\u0644\u0627\u0626\u062d\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a\u0629 \u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629",
             "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06613871-5393-47cd-89c9-51282dde0f41",
+    "url": "https://www.mem.gov.ma/pages/notesetcirculaires.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Circulaire",
+            "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/8/CIrculaire.pdf"
+          },
+          {
+            "name": "Note de Madame La Ministre",
+            "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/7/NotedeMadameLaMinistre.pdf"
+          },
+          {
+            "name": "Arrêté n ° 2021.21",
+            "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/4/ArreteN2021.21.pdf.pdf"
+          },
+          {
+            "name": "Avis et demande",
+            "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/1/Avis%20et%20Demande.pdf"
           }
         ]
       }
