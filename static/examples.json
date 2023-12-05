@@ -3315,16 +3315,40 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Regulation Nr. (61) of 2010 Regulation on Scholarships and Grants for Delegates",
-            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/regulation_nr._(61)_of_2010_regulation_on_scholarships_and_grants_for_delegates.pdf"
+            "name": "قانون الاتصالات وتعديلاته رقم (13) لعام (1995)",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA%20%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87-0.pdf"
           },
           {
-            "name": "Regulation Nr. (54) of 2010 Regulation on the Attestation of Academic Certificates and Documents issued by Higher Education Institutions",
-            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/regulation_nr._(54)_of_2010_regulation_on_the_attestation_of_academic_certificates_and_documents_issued_by_higher_education_institutions.pdf"
+            "name": "نظام ترخيص مشغلي البريد الخاص وتعديلاته",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%86%D8%B8%D8%A7%D9%85%20%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%20%D9%85%D8%B4%D8%BA%D9%84%D9%8A%20%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%20%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87.pdf"
           },
           {
-            "name": "Financial Directives on the Equalization of non Jordanian Certificates and the Attestation of Academic Certificates and Documents Issued by Higher Education Institutions Nr. (1) of 2010",
-            "url": "https://mohe.gov.jo/ebv4.0/root_storage/en/eb_list_page/financial_directives_on_the_equalization_of_non_jordanian_certificates.pdf"
+            "name": "نظام ترخيص واعتماد جهات التوثيق الالكتروني رقم (11) لسنة (2014) وتعديلاته",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%86%D8%B8%D8%A7%D9%85%20%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%20%D9%88%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF%20%D8%AC%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%88%D8%AB%D9%8A%D9%82%20%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D8%B1%D9%82%D9%85%20(11)%20%D9%84%D8%B3%D9%86%D8%A9%20(2014)%20%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87.pdf"
+          },
+          {
+            "name": "قانون الخدمات البريدية رقم (34) لسنة (2007)",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF%D9%8A%D8%A9%20%D8%B1%D9%82%D9%85%20(34)%20%D9%84%D8%B3%D9%86%D8%A9%20(2007).pdf"
+          },
+          {
+            "name": "قانون المنافسة وتعديلاته رقم (33) لسنة (2004)",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9%20%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87%20%D8%B1%D9%82%D9%85%20(33)%20%D9%84%D8%B3%D9%86%D8%A9%20(2004).pdf"
+          },
+          {
+            "name": "قانون توظيف موارد تكنولوجيا المعلومات في المؤسسات الحكومية المؤقت رقم (81) لسنة (2003)",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/Law1.pdf"
+          },
+          {
+            "name": "قانون المعاملات الالكترونية رقم (15) لسنة (2015)",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9%20%D8%B1%D9%82%D9%85%20(%2015%20)%20%D9%84%D8%B3%D9%86%D8%A9%202015.pdf"
+          },
+          {
+            "name": "قانون الجرائم الالكترونية",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/Electronic-crime-Law.pdf"
+          },
+          {
+            "name": "قانون توظيف موارد تكنولوجيا المعلومات في المؤسسات الحكومية",
+            "url": "https://www.trc.gov.jo/EchoBusV3.0/SystemAssets/Employment-of-Information-Technology-Resources-in-government-Institutes.pdf.pdf"
           }
         ]
       }
