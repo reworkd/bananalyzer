@@ -6831,7 +6831,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name/title of the actual document, not simply link text. Note this may be in an element other than the link\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
