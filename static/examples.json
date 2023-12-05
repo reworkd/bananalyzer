@@ -3499,6 +3499,10 @@
             "url": "https://moitt.gov.pk/SiteImage/Misc/files/Class-Licensing-registration-regulation-2016-adm.pdf"
           },
           {
+            "name": "No name",
+            "url": "No URL"
+          },
+          {
             "name": "Telecom Consumers Protection (Amendment) Regulations, 2012",
             "url": "https://moitt.gov.pk/SiteImage/Misc/files/telecom_consumer_protect_regulation_2012.pdf"
           },
@@ -5007,6 +5011,1598 @@
             "url": "https://medium.com/@biz?source=home---------19------------------0----------",
             "title": "Five. Hundred. Million. Dollars.",
             "author": "Biz Stone"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "id": "7c46eb72-4688-4779-b6a1-85b580505c07",
+    "url": "https://pemra.gov.pk/newsall.php",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Show cause notice issued to ARY News on Airing Racist/Hateful Remarks",
+            "href": "uploads/news/Notice_to_ARY_News.pdf"
+          },
+          {
+            "title": "PEMRA suspended the transmission of ARY News and Bol News for three days",
+            "href": "uploads/news/PR-Bol_ARY.pdf"
+          },
+          {
+            "title": "174th Meeting of PEMRA Authority",
+            "href": "uploads/news/PR_174th_Authority_Meeting.pdf"
+          },
+          {
+            "title": "171st Meeting of PEMRA Authority",
+            "href": "uploads/news/PR_171_Meeting.pdf"
+          },
+          {
+            "title": "PEMRA warns TV channels on airing malicious content against state institutions (Army and Judiciary)",
+            "href": "uploads/news/warning_content_against_State_Institutions.pdf"
+          },
+          {
+            "title": "PEMRA COC Lahore Member",
+            "href": "uploads/news/PR-COC_Lahore_Member.pdf"
+          },
+          {
+            "title": "Annual Gross Advertisement Revenue",
+            "href": "uploads/news/PR-AGAR.pdf"
+          },
+          {
+            "title": "6th Meeting of JIRC",
+            "href": "uploads/news/Meeting_of_JIRC.pdf"
+          },
+          {
+            "title": "Chairman PEMRA visited Regional Office Quetta",
+            "href": "uploads/news/Chairman_visited_Quetta.pdf"
+          },
+          {
+            "title": "Chairman PEMRA visited Faisalabad region, he was briefed about operational activities against illegal Indain Channels/Content.",
+            "href": "uploads/news/chairman_visit_fsd.pdf"
+          },
+          {
+            "title": "PEMRA employees made hostage by 24 News Staffers",
+            "href": "uploads/news/PEMRA_Employees_Made_Hostage.pdf"
+          },
+          {
+            "title": "PEMRA suspends transmission of 24 News",
+            "href": "uploads/news/Suspension_of_24_News_transmission.pdf"
+          },
+          {
+            "title": "PEMRA Cancelled License of Sohni Dharti",
+            "href": "uploads/news/Sohni_Dharti_License_Cancelled.pdf"
+          },
+          {
+            "title": "PEMRA suspends NEO TV licence with immediate effect on illegal transmission of News and Current Affairs content",
+            "href": "uploads/news/PR_Neo_Suspension.pdf"
+          },
+          {
+            "title": "PEMRA directs Neo TV to immediately stop illegal transmission of News and Current Affairs content revert to its original programming of Entertainment",
+            "href": "uploads/news/PR_Neo.pdf"
+          },
+          {
+            "title": "PEMRA imposed fine of Rs. 1 Million on Dawn News for airing fake news pertaining to demise of British Prime Minister.",
+            "href": "uploads/news/PR_Dawn.pdf"
+          },
+          {
+            "title": "Observance & Implementation of Disability Quota",
+            "href": "uploads/announcments/Disability_Quota.pdf"
+          },
+          {
+            "title": "Directives on Live Coverage",
+            "href": "uploads/news/Directives_on_Live_Coverage.pdf"
+          },
+          {
+            "title": "Directives \u2013 Discussion on Sub-Judice Matters",
+            "href": "uploads/news/Directives_Discussion_on_Sub-Judice_Matters.pdf"
+          },
+          {
+            "title": "Directives - Adherence of Electronic Media Code of Conduct 2015",
+            "href": "uploads/news/Directives_Adherence_of_Electronic_Media_Code_of_Conduct_2015.pdf"
+          },
+          {
+            "title": "Prohibition order on Live Speech of Imran Khan",
+            "href": "uploads/news/Prohibition_order_IK_live_speech.pdf"
+          },
+          {
+            "title": "Directives \u2013 To Stop Propaganda, Misinformation & Disinformation against state institutions",
+            "href": "uploads/news/Directives_to_stop_propaganda_misinformation_Disinformation_against_state_institutions.pdf"
+          },
+          {
+            "title": "PEMRA issues directives for private electronic media to refrain from airing content against state institutions",
+            "href": "uploads/news/Directives_Aspersions_against_State_Institutions.pdf"
+          },
+          {
+            "title": "PEMRA issues directives on media coverage / reporting on Coronavirus (Covid-19)",
+            "href": "uploads/news/Directives_Media_Reporiting_CoronaVirus.pdf"
+          },
+          {
+            "title": "Prohibition of TVC Power Full.",
+            "href": "uploads/news/Prohibition_of_TVC_Power_Full.pdf"
+          },
+          {
+            "title": "Report on Fake News aired during 1st to 30th April 2020.",
+            "href": "uploads/news/Report_on_Fake_News_Aired_During_the_period_1st_to_30th_April_2020.pdf"
+          },
+          {
+            "title": "In the wake of Coronavirus (Covid-19) pandemic, PEMRA issues directives for its licensees on Ramadan Transmission.",
+            "href": "uploads/news/Ramadan_Directives_2020.pdf"
+          },
+          {
+            "title": "Report on Fake News aired during 14th to 28th February 2020.",
+            "href": "uploads/news/Report_on_Fake_News_Aired_During_the_period_14th_to_28th_February_2020.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5105d321-4c6c-4dd0-871f-20a223987279",
+    "url": "https://www.education.gov.za/Resources/Legislation/GovernmentNotices.aspx",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Government Gazette No. 49491, 12 October 2023",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=HbX0gPnUgEI%3d&tabid=188&portalid=0&mid=12374"
+          },
+          {
+            "title": "Government Gazette No. 45877",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=11xaJYmieeg%3d&tabid=188&portalid=0&mid=10054"
+          },
+          {
+            "title": "Government Gazette: No 45771",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=o9NDGwjUueE%3d&tabid=188&portalid=0&mid=10054"
+          },
+          {
+            "title": "Draft Basic Education Laws Amendment Bill 2021",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1KSKcXwAXsQ%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Memorandum on the objects of the BELA Bill 2021",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=_VkPB_Q-Fto%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Call for nominations of persons to serve as members on the Sixth Umalusi Council",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ve5CocQh1xY%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Amendment of regulations regarding the reopening of schools and COVID-19 management measures (22/10)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=UuleUHs96HY%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Amendment of regulations regarding the reopening of schools and COVID-19 management measures (27/05)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=iKfsTH9Ibf4%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Amendment of regulations regarding the reopening of schools and COVID-19 management measures (27/03)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=90AebpWULdY%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Amendment to National Policy pertaining to the Programme and Promotion Requirements of the NCS",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=qL0oeee5jVM%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Extension of School Governing Bodies elections period and assumption of duty for newly elected SGBs",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=XGxB5M4DDDc%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Regulations regarding the reopening of schools and COVID-19 management measures",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=FHRSgM7J8ak%3d&tabid=188&portalid=0&mid=9490"
+          },
+          {
+            "title": "Government Gazette No. 43715, 15 September 2020",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=8xRO0_nkipM%3d&tabid=188&portalid=0&mid=9253"
+          },
+          {
+            "title": "Government Gazette No. 42445, 06 May 2019",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Qxx4NHbsNu8%3d&tabid=188&portalid=0&mid=8644"
+          },
+          {
+            "title": "Government Notice No. 42829, 08 November 2019",
+            "url": "https://www.education.gov.za/LinkClick.aspx?link=2478&tabid=188&portalid=0&mid=8644"
+          },
+          {
+            "title": "Government Notice No. 42100, 14 December 2018",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=TvzvwRq5__o%3d&tabid=188&portalid=0&mid=8114"
+          },
+          {
+            "title": "Government Notice No. 41321, 15 December 2017: SASA",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ugNmFH4uxDM%3d&tabid=188&portalid=0&mid=6189"
+          },
+          {
+            "title": "Government Notice No. 40667, 04 March 2017",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=YBb7AgCHEFA%3d&tabid=188&portalid=0&mid=6189"
+          },
+          {
+            "title": "Government Notice No. 41321, 15 December 2017: NEPA",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=QKrGzdy_4j8%3d&tabid=188&portalid=0&mid=6189"
+          },
+          {
+            "title": "Government Notice No. 39634, 29 January 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1XM4HH-m9vM%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No. 39684, 12 February 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=dVoVR9joMwc%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No. 39690, 12 February 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fPqy_1wKMy4%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No. 39775, 04 March 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fRoUaqdir3E%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No. 40375, 08 November 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=4uESXzuiG1I%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No. 40472, 02 December 2016",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=qCwYLrByt8I%3d&tabid=188&portalid=0&mid=6188"
+          },
+          {
+            "title": "Government Notice No: 38408, 21 January 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=KJa6oQ5aPmg%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38397, 16 January 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ABTfvr8kdfo%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38589, 21 April 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ylyjDB6Fbxo%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38590, 21 April 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=mOx0Bxciyb0%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38771, 05 June 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ptnoGIfqGH4%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38810, 05 June 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1VHBKraBrQg%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38820, 05 June 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=59q6cwkkDU8%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice: 38330, 30 January 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=hc-V48hseeE%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38995, 17 July 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=WXZEK4u_5qI%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39006, 20 July 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=oTTdg1rKxGI%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39038, 31 July 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Z553M090Uv4%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39399, 13 November 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ad7hd5xkiWI%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39405, 13 November 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=hB3POsvvkCY%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39406, 13 November 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=mHIu5eKkv4Q%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 39435, 20 November 2015",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=-PddsAIjxWQ%3d&tabid=188&portalid=0&mid=1768"
+          },
+          {
+            "title": "Government Notice No: 38356, 19 December 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1YHByzaKI1c%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38249, 27 November 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=hQiMcyjUfms%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38226, 19 November 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=TIRK_prUN-M%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38225, 19 November 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ajxzfC3Nbjo%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38223, 21 November 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=DOEaWkwsMr4%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38146, 4 November 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=DTnriebelaQ%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38144, 31 October 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Eddg8IuFsGQ%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 38144, 29 October 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ChTRydFlwdU%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37991, 10 October 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=CFyydASn4-4%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37976, 4 September 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=h0kx0aCiB0o%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37910, 13 August 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=HUUn29Pfm9A%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37902, 11 October 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=nT-RpxII_Ak%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37901, 11 October 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=XEArbZ6OESo%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37846, 18 July 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=G3p-N4a-wIw%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37840, 18 July 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=42FS5fnFu8c%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37754, 18 June 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=cE_kIzISbrU%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37753, 18 June 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ATKmoIS8IyE%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37738, 17 June 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=e6-0O5X-Vmc%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37680, 23 May 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=LYiVsKeJBAM%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37652, 16 May 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=QOvKVlBtU4A%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37651, 16 May 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=7Kw4om9rjt4%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37628, 12 May 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=cyMimnanzMw%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37568, 17 April 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=yh2qThyO9Bw%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37552, 11 April 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=-R8CYaefWKg%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37428, 11 March 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=SJ58jorZ-v4%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37230, 17 January 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=VOjSfVdJoyM%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37231, 17 January 2014",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=d5e0JHIabSA%3d&tabid=188&portalid=0&mid=1752"
+          },
+          {
+            "title": "Government Notice No: 37072, 27 November 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=VL6gbZdC-w8%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 37013, 11 November 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=gy_UjV_nmc8%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 37012, 11 November 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fD2tSUSTu60%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 37003, 5 November 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=67x2IXx2kyE%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36939, 16 October 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Y36tkwaO5YI%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36841, 13 September 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=-dPGeH85gMY%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36837, 12 September 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fJ-PEDF6AmU%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36818, 5 September 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=cgJwDYBX_ew%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36752, 15 August 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=0C8Uk1MWO2w%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36751, 15 August 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=nlzHfgKJ7Ss%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36719, 2 August 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=CKWo7TnfpWA%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36677, 18 July 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=PXyBMG67laY%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36465, 17 May 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=RMECajDePxA%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36403, 23 April 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=OIOLshmY8Lk%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36386, 19 April 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=3JRoBpT6fUQ%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36298, 28 March 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=cG9KyA9Z-QQ%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36264, 19 April 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Djz6UqVU7B4%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36222, 8 March 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=yPNpuN8PorY%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36191, 26 February 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=DMJ8SKTX8o0%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36135, 4 February 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=t3cquhY2CQk%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36088, 22 January 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=06ToJJCOgRY%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36062, 8 January 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=tQgrxd4NFCY%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 37081, 29 November 2013",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=6WiwJTxwoqg%3d&tabid=188&portalid=0&mid=1756"
+          },
+          {
+            "title": "Government Notice No: 36042, 28 December 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=0lour170et4%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 36041, 28 December 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=OvpJkPyVaSY%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35929, 3 December 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fwIY-HHdaso%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35898, 22 November 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=rH_PXxj0dZo%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35897, 22 November 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZQxLy1LDIro%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35896, 21 November 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=TX3nNivVpyE%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35856, 6 November 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=N9EnM3yrnY0%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35830, 29 October 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Axrlg98Csqo%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35829, 29 October 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=3ZJ4ODy2FEQ%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35770, 9 October 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=QM4UTH19Qxk%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35631, 28 August 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Ni2i6Cj9H0Y%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35630, 28 August 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Ni2i6Cj9H0Y%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35617, 27 August 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=jcfnsCbxpFk%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35601, 17 August 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=8FeC4fF806E%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35600, 17 August 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=FpO5Y0xgv5Y%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35542, 25 July 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=C4ul4OUTpWA%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35541, 25 July 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=HSHRHuvZo74%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35527, 17 July 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=0yr2dgEszas%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35526, 17 July 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=GXwHvxFcNtI%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35496, 6 July 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=fh1zv2V4HWM%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35458, 20 June 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=B1oasEBpwYg%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35429, 7 June 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=iI9NUa3oEek%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "Government Notice No: 35428, 7 June 2012",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1WC0f9ePxaA%3d&tabid=188&portalid=0&mid=1759"
+          },
+          {
+            "title": "",
+            "url": ""
+          },
+          {
+            "title": "National Norms and Standards for Funding Adult Learning Centres (NSF ALC) GG30576, 14 December 2007",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=_BpX0wndCdY%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "The Higher Education Qualifications Framework Higher Education Act, 1997 (Act No. 101 of 1997)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=SBVkU-1KV2Q%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Policy Framework for Teacher Education and Development in South Africa (GG29832)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=kbVITvJjUU8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Addendum to the FET policy document, NCS on the National Framework regarding learners with special needs,",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=gAxUGCms6OM%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: Requirements for administration of surveys (Gazette 29757, Notice 388)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=jbZ-AfnhScM%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Addendum FET policy NCS National Protocol for Grades R - 12, (Gazette 29467, Notice 1267)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=f6a2tQS1nxA%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Investigation into Durban University of Technology (Gazette 29315, Notice 1055)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZiGLA9QMYGQ%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "NEP Act and SA Schools Act: Approval of Maritime Economics and Nautical Science as additional subject to be",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=hrEdAjYccgM%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Employment of Educators Act: Implementation of Policy and Procedure on Incapacity Leave and Ill-Health",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=-Z29avkZrjI%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "General and Further Education and Training Quality Assurance Act: Second Umaluzi Council for General",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=RuOh2FTjS30%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: Amended national norms and standards for school funding (Gazette 29179, Notice",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=6AyRj8cMwv8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: National norms and standards for school funding (Gazette 29178, Notice 868)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ROAnY49-1vA%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Employment of Educators Act: Introduction of employee-initiated severance package (Gazette 29056, Notice",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=dc1248DTsLM%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Employment of Educators Act: Improvement in conditions of service: Annual cost-of-living adjustment for",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=p8TFDGk0WeU%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Further Education and Training Act: Registration of private further education and training institutions: End of",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1iSJ58rfDxc%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act and SA Schools Act: Approval of Modern Greek as additional subject to be listed in",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=k4zSy2IdjsY%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act and South African Schools Act: Addendum Special Needs",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=P0qKI6Z5mXw%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Statute: University of South Africa (Gazette 28464, Notice 108)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=P1NKHFqIKCw%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Durban Institute of Technology: Change of name to Durban University of Technology",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZiGLA9QMYGQ%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Norms and Standards for School Funding (GG27014, Notice 1357)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=9DiDOH1U2k8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Information Policy (GG26766, Notice 1950)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=mz6fWX1XQ8M%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Funding of Public Higher Education",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=DOLqnGt3kMA%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Regulations for the registration of Private Further Education and Training Institutions (GG25642, Notice 1602)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Y7SRoO1CEqo%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: National Norms and Standards for School Funding - revision (Gazette 24245, Notice 0020)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=gnAqPqROMQ8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "General and FET Quality Assurance Act: Regulations for issuing of certificates by General and Further Education and Training Quality Assurance Council",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=_veKbz9DHbs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "General and FET Quality Assurance Act: Regulations for issuing of Certificates by General and Further Education and Training Quality Assurance Council",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=8uBHCCtFcHo%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: National Policy regarding Further Education and Training Programmes: Approval of the Language Standardisation Document",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Jab2MgFIWN8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Employment of Educators: Terms and Conditions of Employment of Educators (GG22594, Notice 774)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=FRZmVQgxOs4%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: Policy on Whole School Evaluation",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=j-mEfJ3mhk0%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SAQA: Focused Study of the development of the National Qualifications Framework (NQF) with the aim of Streamlining its Implementation (GG22471, Notice",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=pmMDOab5qgI%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Implementation of the National Plan for Higher Education (GG22329, Notice 466)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=umHqDeAFo4A%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Change of name of the University of the Orange Free State to University of the Free State (GG22081, Notice 160)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=lCI32_rHJt8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Declaration of Colleges of Education as Subdivisions of Universities and Technikons (GG21913, Notice 1383)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=c6HKj9LCMQg%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Announcement of intention to accredit the Council on Higher Education as an Education and Training Quality Assurance Body (GG21888, Notice 4656)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=eJ62cMsIJ14%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Committee of Principals - Requirements and conditions for Matriculation Endorsement and the issuing of Certificates of Exemption",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=2WiWMFu8hJc%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Education Act: Statute of the Medical University of Southern Africa (GG21753, Notice 1153)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=r8bb9Njemlc%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SA School Act: Transfer of funds and other moveable assets of State to Public Shools (Gazette 20669, Notice 1423)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=tKgI60FnSc4%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: Policy for the Registration of Learners for Home Education (Gazette 20659, Notice 1411)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=JUaBfZYB3-E%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: National Policy on HIV/AIDS in public schools (Gazette 20372, Notice 1926)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=9aYGEBg0Rhc%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy: National Policy on HIV/AIDS, for learners and educators in public schools, and students and educators in Further Education",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=71ayz6Sy4t8%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Report by Acting Judge Eberhard Bertelsmann regarding the investigations into certain irregularities which allegedly occurred during the Senior Certif",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1Hq9ReGpQTY%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy: Publication of the Report of the Ministerial Committee on the investigation into the Senior Certificate Examination for Pub",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=29GUJguYdg0%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: Admission Policy for ordinary public schools (GG19377, Notice 2432)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Do00xCZGzTs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SA School Act: Age requirements for admission to an ordinary public school (Notice 2433)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=8IBDByu7adc%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SA School Act: Norms and Standards for funding of public schools (GG19347, Notice 2362)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZYYtOiXHTeE%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SA School Act: School fees at public schools - Exemption of parents from payment of school fees regulations (GG19347, Notice 1293)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=LK2dmusQOjs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: Exemption of Parents from the Payment of School Fees (GG19347, Notice 1293)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=LK2dmusQOjs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: Exemption of parents from the payment of School Fees Regulations ( Notice 1293 of 1998)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=LK2dmusQOjs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act and National Education Policy Act: National Norms and Standards for School Funding (Gazette 19347, Notice 2362)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZYYtOiXHTeE%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "National Education Policy Act: Regulations to provide for the establishment, composition and functioning of National Board for Further Education and T",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=X8Q2r0qLAAQ%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "South African Schools Act: Age requirements for admission to an ordinary public school",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=agT14fK5e5w%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "SA School Act: Adopting a code of conduct for learners (GG18900, Notice 776)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=o4NCgvg_nEs%3d&tabid=188&portalid=0&mid=498"
+          },
+          {
+            "title": "Higher Eduaction Act: Termination of Provisioning of Higher Education by Non-registered Private Higher Education Institutions (Notice 1356)",
+            "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=JjbyP0XMPJs%3d&tabid=188&portalid=0&mid=498"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b8350bd1-e085-46ce-8d35-c028cd1c8b2b",
+    "url": "https://www.saps.gov.za/resource_centre/acts/acts.php",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Critical Infrastructure Protection Act, 2019 (Act |No. 8 of 2019)",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/CIP-Act-8-of-2019-English.pdf"
+          },
+          {
+            "title": "Criminal Law (Forensic Procedure) Amendment Act",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/criminal_law_forensic_procedure_amendment_act_2013_act_no_37_of_2013.pdf"
+          },
+          {
+            "title": "Forensic DNA Regulations, 2015",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/dna_regulation_2017.pdf"
+          },
+          {
+            "title": "Criminal Law (Forensic Procedures) Amendment Act, 2010 (Act No 6 of 2010)",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/fingerprint_act_2017.pdf"
+          },
+          {
+            "title": "Acts supplied by JUTA",
+            "href": "https://www.saps.gov.za/resource_centre/acts/juta_acts.php"
+          },
+          {
+            "title": "link to .pdf file",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/fifa2010_a11_2006.pdf"
+          },
+          {
+            "title": "South African Police Service amendment act",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/act_57_of_2008.pdf"
+          },
+          {
+            "title": "Commencement",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/commencement_act_57_of_2008.pdf"
+          },
+          {
+            "title": "Promotion of Access to Information Act, 2000 (Act No. 2 of 2000)",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/promotion_of_access_act2_2000.pdf"
+          },
+          {
+            "title": "Films and publications act",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act.pdf"
+          },
+          {
+            "title": "Amendments: Child Pornography Offences",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act_child_pornography.pdf"
+          },
+          {
+            "title": "Protection of Constitutional Democracy Against Terrorist and Related Activities Act",
+            "href": "https://www.saps.gov.za/resource_centre/acts/terrorism.php"
+          },
+          {
+            "title": "Liquor Legislation, Act 59 of 2003",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/liquor_act3.pdf"
+          },
+          {
+            "title": "Sexual Offences, Act 32 of 2007",
+            "href": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
+          },
+          {
+            "title": "Sexual Offences, Act 32 of 2007",
+            "href": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
+          },
+          {
+            "title": "Public Service Act 1994",
+            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/1994a0103proc.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a82d4f15-8eba-4416-b4c3-b13d63473405",
+    "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "NERC Ruling on TCN's Appilcation for Review of Supplementary TEM Order",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Ruling-on-TCNs-Appilcation-for-Review-of-Supplementary-TEM-Order/"
+          },
+          {
+            "title": "NERC Decision on the Case Between A&P Food and Exusia",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Decision-on-the-Case-Between-A-and-P-Food-and-Exusia/"
+          },
+          {
+            "title": "Abuja Electricity Distribution Company_Electrocution Decision",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Abuja-Electricity-Distribution-Company_Electrocution-Decision/"
+          },
+          {
+            "title": "Petadis Enterprises & HFP Properties Ltd_Decision",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Petadis-Enterprises--and--HFP-Properties-Ltd_Decision/"
+          },
+          {
+            "title": "Ruling on NICON Town Management Company PLC",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-on-NICON-Town-Management-Company-PLC/"
+          },
+          {
+            "title": "Ruling On Crown Estate Petition",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-On-Crown-Estate-Petition/"
+          },
+          {
+            "title": "LASG vs PHCN NERC Ruling on Respondents Objection to its Jurisdiction.pdf",
+            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/LASG-vs-PHCN-NERC-Ruling-on-Respondents-Objection-to-its-Jurisdiction.pdf/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c16e0a60-eed3-4bb5-afe2-443377eb098c",
+    "url": "https://www.treasury.go.ke/regulations/",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "National Government & County Governments (Amendments) 2023",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2023/03/National-Government-County-Governments-Amendments-2023.pdf"
+          },
+          {
+            "title": "Published PIM Regulations: Legal Notice No. 54/2022",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2023/03/Published-PIM-Regulations.pdf"
+          },
+          {
+            "title": "PFM \u2013 (Financial Inclusion Fund) Regulation, 2022",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2022/11/PFM-Financial-Inclusion-Fund-Regulations.pdf"
+          },
+          {
+            "title": "Amendments to PFM NG Regulations 2015",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Amendments-to-PFM-NG-Regulations-2015.pdf"
+          },
+          {
+            "title": "Legal Notice No 155 \u2013 The Public Finance Management Act",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Legal-Notice-No-155-The-Public-Finance-Management-Act.pdf"
+          },
+          {
+            "title": "PFM Biashara Kenya Fund Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-Biashara-Kenya-Fund-Regulations-2020.pdf"
+          },
+          {
+            "title": "PFM Uwezo FundRevocation Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-Uwezo-FundRevocation-Regulations-2020.pdf"
+          },
+          {
+            "title": "PFM Youth Enterprise Development Fund Revocation Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-Youth-Enterprise-Development-Fund-Revocation-Regulations-2020.pdf"
+          },
+          {
+            "title": "Public Finance Management Women Enterprise Fund Revocation Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Public-Finance-Management-Women-Enterprise-Fund-Revocation-Regulations-2020.pdf"
+          },
+          {
+            "title": "Public Notice on Biashara Kenya Fund Regulations 2020 15.05.2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Public-Notice-on-Biashara-Kenya-Fund-Regulations-2020-15.05.2020.pdf"
+          },
+          {
+            "title": "Regulatory Impact Statement on the Biashara Kenya Fund Regulations",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Regulatory-Impact-Statement-on-the-Biashara-Kenya-Fund-Regulations.pdf"
+          },
+          {
+            "title": "Template for Receiving Comments-Biashara Fund Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Template-for-Receiving-Comments-Biashara-Fund-Regulations-2020-1.docx"
+          },
+          {
+            "title": "PFM Credit Guarantee Scheme Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-Credit-Guarantee-Scheme-Regulations-2020.pdf"
+          },
+          {
+            "title": "Public Notice for Comments on PFM Credit Guarantee Scheme Regulations",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Public-Notice-for-Comments-on-PFM-Credit-Guarantee-Scheme-Regulations.pdf"
+          },
+          {
+            "title": "Regulatory Impact Assessment of the PFM Credit Guarantee Scheme Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/REGULA1.pdf"
+          },
+          {
+            "title": "LEGAL NOTICE \u2013 PFM EQUALIZATION FUND REGULATIONS BILL 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/LEGAL-NOTICE-PFM-EQUALIZATION-FUND-REGULATIONS-BILL-2020.pdf"
+          },
+          {
+            "title": "PUBLIC NOTICE \u2013 PFM EQUALIZATION FUND REGULATIONS BILL 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PUBLIC-NOTICE-PFM-EQUALIZATION-FUND-REGULATIONS-BILL-2020.pdf"
+          },
+          {
+            "title": "Template for Receiving Comments \u2013 PFM Equalisation Fund Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Template-for-Receiving-Comments-PFM-Equalisation-Fund-Regulations-2020.docx"
+          },
+          {
+            "title": "NTF REGS \u2013 April 2020 DRAFT",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/NTF-REGS-April-2020-DRAFT.pdf"
+          },
+          {
+            "title": "REGULATORY IMPACT STATEMENT ON THE NATIONAL TOLL FUND REGULATIONS",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/REGULATORY-IMPACT-STATEMENT-ON-THE-NATIONAL-TOLL-FUND-REGULATIONS.pdf"
+          },
+          {
+            "title": "Draft PFM Social Assistance Fund Regulations 2019",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Draft-PFM-Social-Assistance-Fund-Regulations-2019.pdf"
+          },
+          {
+            "title": "Public Notice _ Social Assistance Regulations 2019",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Public-Notice-_-Social-Assistance-Regulations-2019.pdf"
+          },
+          {
+            "title": "Template for Receiving Comments-Social Assitance Fund Regulations",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Template-for-Receiving-Comments-Social-Assitance-Fund-Regulations-1.pdf"
+          },
+          {
+            "title": "PFM CHERRY REVOLVING FUND REGULATIONS 2019",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-CHERRY-REVOLVING-FUND-REGULATIONS-2019.pdf"
+          },
+          {
+            "title": "Public Notice _ Coffee Cherry Advance Fund Regulations 2019",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Public-Notice-_-Coffee-Cherry-Advance-Fund-Regulations-2019.pdf"
+          },
+          {
+            "title": "Template for Receiving Comments 16.01.2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Template-for-Receiving-Comments-16.01.2020-1.doc"
+          },
+          {
+            "title": "Explanatory Memorandum on Covid-19 ER Fund Regulations 2020",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/EXPLAN1.pdf"
+          },
+          {
+            "title": "PFM COVID-19 Regulations 2020 Final Regulations",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/PFM-COVID-19-Regulations-2020-Final-Regulations.pdf"
+          },
+          {
+            "title": "Draft_Public_Finance Management Biashara Kenya Fund Regulations 2018",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Draft_Public_Finance-Management-Biashara-Kenya-Fund-Regulations-2018.pdf"
+          },
+          {
+            "title": "Revised National Government Affirmative Action Fund Regulations, 2016",
+            "url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Revised-National-Government-Affirmative-Action-Fund-Regulations-2016.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7c7e20e0-0a85-4c16-9f9b-dae127169cf4",
+    "url": "https://www.mef.gov.it/ministero/ruolo/normativa/decreti-min-intermin-dir.html",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "href": "https://www.mef.gov.it/ministero/ruolo/normativa/FIRMA-OLOGRAFA-PROVVEDIMENTO-FIRMATO-IN-DATA-22.12.2022_Redatto.pdf",
+            "ariaLabel": "Decreto ministeriale del 22 dicembre 2022 - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/04/16/22A02490/sg",
+            "ariaLabel": "Decreto interministeriale del 6 aprile 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/04/14/22A01964/sg",
+            "ariaLabel": "Decreto ministeriale del 21 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/21/22A01931/sg",
+            "ariaLabel": "Decreto interministeriale del 18 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/22/22A01817/sg",
+            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 14 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/16/22A01549/sg",
+            "ariaLabel": "Decreto ministeriale dell\u2019 11 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2022/02/19/22A01205/sg",
+            "ariaLabel": "Decreto direttoriale del 9 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/Decreto-interministeriale-n.-1-del-13-gennaio-2022_.pdf",
+            "ariaLabel": "Decreto interministeriale n. 1 del 13 gennaio 2022 - sostegno al reddito in favore dei dipendenti delle imprese adibite alla pesca marittima \u2013 annualit\u00e0 2021 - PDF, 626 KB - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/bozza_dm_comitato_scientifico_transizione_4.0_9_nov_2021_draft.doc.pdf_b....pdf",
+            "ariaLabel": "Decreto ministeriale del 23 novembre 2021 - PDF, 2 MB - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id=%7b580A546B-5F97-47F1-BDB2-F55524471E3B%7d",
+            "ariaLabel": "Decreto ministeriale del 30 settembre 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-04-06&atto.codiceRedazionale=21A02060&elenco30giorni=false",
+            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 2 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/30/21A01843/sg",
+            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 22 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/25/21A01809/sg",
+            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 18 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/19/21A01649/SG",
+            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 8 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/11/21A01498/sg",
+            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 4 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/10/21G00033/sg",
+            "ariaLabel": "Decreto del 3 febbraio 2021, n. 26 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-20&atto.codiceRedazionale=21A01023&elenco30giorni=false",
+            "ariaLabel": "Decreto 10 febbraio 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/15/21A00160/sg",
+            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/18/21A01557/sg",
+            "ariaLabel": "Decreto ministeriale del 22 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/04/21A01268/sg",
+            "ariaLabel": "Decreto ministeriale del 23 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/02/12/21A00596/sg",
+            "ariaLabel": "Decreto ministeriale del 31 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-01&atto.codiceRedazionale=21A00501&elenco30giorni=false",
+            "ariaLabel": "Decreto ministeriale del 28 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-01-14&atto.codiceRedazionale=21A00143&elenco30giorni=false",
+            "ariaLabel": "Decreto ministeriale del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/19/21A00183/sg",
+            "ariaLabel": "Decreto ministeriale del 7 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/14/21A00082/sg",
+            "ariaLabel": "Decreto ministeriale del 28 agosto 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+          },
+          {
+            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/testo-decreto-interministeriale.pdf",
+            "ariaLabel": "Decreto interministeriale per la disciplina degli interventi di acquisizione di quote di capitale ai sensi dell\u2019articolo 34, ultimo periodo, del D.L. n. 104/2020 (conv. dalla L. n. 126/2020) - PDF, 3 MB - Apertura in nuova scheda"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37a6d131-ff57-4fc3-b08e-f148b40e273d",
+    "url": "https://www.ministeroturismo.gov.it/del-ministero/",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Organizzazione del Ministero del Turismo e costituzione di Enit S.p.A",
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-22;44"
+          },
+          {
+            "title": "Costituzione della Direzione Generale per l\u2019attuazione delle riforme e la realizzazione degli investimenti",
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-02-24;13"
+          },
+          {
+            "title": "Regolamento interno per l\u2019adozione del lavoro agile adottato il 5 agosto 2022 (prot. 10185/22) dal Segretario Generale",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/09/regolamento-lavoro-agile-con-proposte-OOSS-e-RSU-def-signed.pdf"
+          },
+          {
+            "title": "Accordo individuale per lo svolgimento dell\u2019attivit\u00e0 lavorativa in modalit\u00e0 agile (format)",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/09/All.-1-Accordo-individuale-per-lo-svolgimento-dellattivita-lavorativa-in-modalita-agile.pdf"
+          },
+          {
+            "title": "Scheda di monitoraggio dell\u2019attivit\u00e0 lavorativa svolta in modalit\u00e0 agile (format)",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/09/All.-2-SCHEDA-DI-MONITORAGGIO-DELLATTIVITA-LAVORATIVA-SVOLTA-IN-MODALITA-AGILE.pdf"
+          },
+          {
+            "title": "Informativa sui rischi generali e sui rischi specifici per il lavoratore che svolge la prestazione in modalit\u00e0 agile ai sensi dell\u2019art. 22, comma 1, della legge 22 maggio 2017, n. 81",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/09/All.-3-INFORMATIVA-SUI-RISCHI-GENERALI-E-SUI-RISCHI-SPECIFICI-PER-IL-LAVORATORE-CHE-SVOLGE-LA-PRESTAZIONE-IN-MODALITA-AGILE.pdf"
+          },
+          {
+            "title": "Norme di comportamento nell\u2019utilizzo delle dotazioni informatiche per i dipendenti in lavoro agile del Ministero del turismo",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/09/All.-4-Norme-di-comportamento-nellutilizzo-delle-dotazioni-informatiche-per-i-dipendenti-in-lavoro-agile-del-MiTur.pdf"
+          },
+          {
+            "title": "Decreto del Ministro del Turismo recante modificazioni al decreto del Ministro del turismo del 15 luglio 2021, n. 1206",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/05/DM-modifica-attribuzioni_prot.-5735_signed-003.pdf"
+          },
+          {
+            "title": "Istituzione dell\u2019Unit\u00e0 di missione per il PNRR del Ministero del Turismo",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/11/D.I.-n.-1745-del-24.09.2021-Unita-di-missione-PNRR.pdf"
+          },
+          {
+            "title": "\u201cIndividuazione e attribuzione degli Uffici di livello dirigenziale non generale del Ministero del Turismo, in attuazione dell\u2019art. 19, comma 1, del Decreto del Presidente del Consiglio dei Ministri 20 maggio 2021\u201d",
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-08-14&atto.codiceRedazionale=21A04852"
+          },
+          {
+            "title": "\u201cRegolamento di organizzazione del Ministero del turismo, degli Uffici di diretta collaborazione e dell\u2019Organismo indipendente di valutazione della performance\u201d",
+            "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-07-09&atto.codiceRedazionale=21G00112&atto.articolo.numero=0&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=10&qId=&tabID=0.6192441316668833&title=lbl.dettaglioAtto"
+          },
+          {
+            "title": "Istituzione del Ministero del Turismo",
+            "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-03-01&atto.codiceRedazionale=21G00028&atto.articolo.numero=0&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=10&qId=&tabID=0.6192441316668833&title=lbl.dettaglioAtto"
+          },
+          {
+            "title": "Direttiva generale per l\u2019azione amministrativa \u2013 anno 2023 emanata dal Ministro del Turismo il 22 febbraio 2023 (prot. n. 3582/23)",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2023/02/Direttiva-azione-amministrativa-2023_signed.pdf"
+          },
+          {
+            "title": "Decreto di gestione unificata, prot. n. 1562 del 26/01/2023",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2023/02/Decreto-gestione-unificata-2023-All.-1-e-All.-2_signed.pdf"
+          },
+          {
+            "title": "Direttiva generale per l\u2019azione amministrativa \u2013 anno 2022 emanata dal Ministro del Turismo il 14 aprile 2022",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/05/direttiva-amministrativa-anno-2022_signed.pdf"
+          },
+          {
+            "title": "Disciplina delle procedure comparative per il conferimento degli incarichi di lavoro autonomo",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/11/DM-INCARICHI-EX-ART.7C.6-DLGS165-2001_prot.pdf"
+          },
+          {
+            "title": "\u201cDisposizioni urgenti sull\u2019impiego di certificazioni verdi in ambito lavorativo pubblico cos\u00ec come previsto dal decreto-legge 21 settembre 2021, n. 127 recante \u201cMisure urgenti per assicurare lo svolgimento in sicurezza del lavoro pubblico e privato mediante l\u2019estensione dell\u2019ambito applicativo della certificazione verde COVID-19 e il rafforzamento del sistema di screening\u201d \u2013 chiarimenti e modalit\u00e0 operative inerenti all\u2019impiego della certificazione verde COVID-19 nei luoghi di lavoro e relativi controlli\u201d",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/Circolare-n.-1-S.-G.-664-del-13-10-2021-1.pdf"
+          },
+          {
+            "title": "All. 1",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/All.-1-Circolare-n.-1-SG-664-del-13-10-2021.pdf"
+          },
+          {
+            "title": "All. 2",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/All.-2-Circolare-n.-1-SG-664-del-13-10-2021.pdf"
+          },
+          {
+            "title": "\u201cModalit\u00e0 di realizzazione e di gestione della banca dati delle strutture ricettive e degli immobili destinati alle locazione brevi di cui all\u2019articolo 13-quater del decreto-legge 30 aprile 2019, n. 34, convertito con modificazioni, dalla legge 28 giugno 2019, n. 58\u201d",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/09/DM-1782_Banca-Dati-1.pdf"
+          },
+          {
+            "title": "Indirizzi operativi sulle modalit\u00e0 di partecipazione e di intervento a iniziative e a eventi in ambiti di competenza del Ministero del Turismo\u201d",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/09/Indirizzi-operativi-sulle-modalita-di-partecipazione-e-di-intervento-ad-iniziative-e-ad-eventi-in-ambiti-di-competenza-del-Ministero-del-Turismo.pdf"
+          },
+          {
+            "title": "Istituzione e compiti del Comitato permanente per la promozione del turismo",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/09/Decreto-Ministeriale-del-23-giugno-2021-istituzione-Comitato-permanente-di-promozione-del-turismo-in-Italia.pdf"
+          },
+          {
+            "title": "\u201cDirettiva recante i criteri e le modalit\u00e0 per il conferimento degli incarichi dirigenziali del Ministero del turismo\u201d",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/08/DM-prot.-n.743-del-11-giugno-2021-per-il-conferimento-degli-incarichi-dirigenziali.pdf"
+          },
+          {
+            "title": "Linee guida editoriali per la gestione del portale istituzionale",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/linee-guida-editoriali.pdf"
+          },
+          {
+            "title": "procedura per patrocini",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2023/12/vademecum-patrocini.pdf"
+          },
+          {
+            "title": "segreteria.capogabinetto@ministeroturismo.gov.it",
+            "url": "mailto:segreteria.capogabinetto@ministeroturismo.gov.it"
+          },
+          {
+            "title": "ufficiogabinetto@pec.ministeroturismo.gov.it",
+            "url": "mailto:ufficiogabinetto@pec.ministeroturismo.gov.it"
+          },
+          {
+            "title": "format per la richiesta di concessione del Patrocinio",
+            "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2022/03/fac-simile-di-domanda-patrocinio.rtf"
+          },
+          {
+            "title": "Atti generali",
+            "url": "https://www.ministeroturismo.gov.it/atti-generali/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1181febe-214c-44a6-a046-8326ca87e992",
+    "url": "https://ypen.gov.gr/diacheirisi-apovliton/astika-lymata/nomothesia/",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "\u039f\u03b4\u03b7\u03b3\u03af\u03b1 91/271/\u0395\u039f\u039a",
+            "url": "https://ypen.gov.gr/wp-content/uploads/legacy/Files/Ydatikoi%20Poroi/Diaxeirisi%20Lymaton/Odigia%2091%20271%20EOK.pdf"
+          },
+          {
+            "title": "\u0395\u03bd\u03b1\u03c1\u03bc\u03cc\u03bd\u03b9\u03c3\u03b7 \u2013 \u039a\u03a5\u0391 5673/400/1997 (\u0392 192)",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEWFzYWFtEvQndtvSoClrL8V8YeS8scMDB5MXD0LzQTLf7MGgcO23N88knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuY_D7SfA7dHFCm_YcihohiC2Syd02u2LYbfEKQehUa__"
+          },
+          {
+            "title": "\u039a\u03a5\u0391 19661/1982/1999 (\u0392 1811)",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wE56mFqysdfkXdtvSoClrL8RZsdmVE36E8tiDow6HlTE-JInJ48_97uHrMts-zFzeyCiBSQOpYnTy36MacmUFCx2ppFvBej56Mmc8Qdb8ZfRJqZnsIAdk8Lv_e6czmhEembNmZCMxLMtc-L6AhGgt5xyY87bcVxrHE_22g7ZVwcTMTiyDwhIzVC"
+          },
+          {
+            "title": "\u039a\u03a5\u0391 48392/939/2002 (\u0392 405)",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wHghqNAYvmYB3dtvSoClrL8FjrEFo56B8R5MXD0LzQTLf7MGgcO23N88knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuSP0i81XrMGuakNN2lmxPOwl1-liS-Jrh5TP3iM42xZI"
+          },
+          {
+            "title": "\u039a\u03bf\u03b9\u03bd\u03ae \u03a5\u03c0\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03ae \u0391\u03c0\u03cc\u03c6\u03b1\u03c3\u03b7 145116/2011",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFYAFdDx4L2G3dtvSoClrL8PG0CFuU2E_Z5MXD0LzQTLf7MGgcO23N88knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuTnJnzkcVCattVM_TgCfQRE9DDp8QsWPq9A54co2n5dI"
+          },
+          {
+            "title": "\u0395\u03b3\u03ba\u03cd\u03ba\u03bb\u03b9\u03bf\u03c2 145447",
+            "url": "https://diavgeia.gov.gr/doc/4%CE%913%CE%A50-4"
+          },
+          {
+            "title": "\u0395\u03b3\u03ba\u03cd\u03ba\u03bb\u03b9\u03bf\u03c2 1589",
+            "url": "https://diavgeia.gov.gr/doc/45%CE%92%CE%9C0-%CE%A08%CE%92"
+          },
+          {
+            "title": "\u039a\u03a5\u0391 191002/2013",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEaosRGzKxO6XdtvSoClrL8VcYaROL9Gu_NZ8op6Z_wSuJInJ48_97uHrMts-zFzeyCiBSQOpYnTy36MacmUFCx2ppFvBej56Mmc8Qdb8ZfRJqZnsIAdk8Lv_e6czmhEembNmZCMxLMtQC_kq-TuDU2OG8eYLFlfGd8bU7YWj2OmH3ONQnrdO73"
+          },
+          {
+            "title": "\u03b4\u03b7\u03b3\u03af\u03b1 \u03a0\u03bb\u03b1\u03af\u03c3\u03b9\u03bf \u03b3\u03b9\u03b1 \u03c4\u03b1 \u039d\u03b5\u03c1\u03ac 60/2000/\u0395\u039a",
+            "url": "https://ypen.gov.gr/wp-content/uploads/legacy/Files/Ydatikoi%20Poroi/Odhgia%20Plaisio/Odigia%20Plaisio.pdf"
+          },
+          {
+            "title": "\u039d\u03cc\u03bc\u03bf\u03c2 3199/2003-\u0395\u03bd\u03b1\u03c1\u03bc\u03cc\u03bd\u03b9\u03c3\u03b7 \u039f\u03b4\u03b7\u03b3\u03af\u03b1\u03c2 2000/60/\u0395\u039a",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFalhF2BrTT7HdtvSoClrL8dYsGInScHpZ5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIuY2tCCNwQct3yW5zhcUGjzJGhxunL7D6E5gO_kwbvVvz"
+          },
+          {
+            "title": "\u03a0\u03c1\u03bf\u03b5\u03b4\u03c1\u03b9\u03ba\u03cc \u0394\u03b9\u03ac\u03c4\u03b1\u03b3\u03bc\u03b1 51/2007",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFNA1ry4K61p3dtvSoClrL8KAgm1VVW05ztIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijOJVoc3Iw30weTUnxvH19qC8plNrbZAmNExjEs3VLbOF"
+          },
+          {
+            "title": "A General Approach for Pricing Regulation for Urban Water Services",
+            "url": "https://ypen.gov.gr/wp-content/uploads/legacy/Files/Ydatikoi%20Poroi/Odhgia%20Plaisio/A%20General%20Approach%20for%20Pricing%20Regulation%20for%20Urban%20Water%20Services.pdf"
+          },
+          {
+            "title": "\u0388\u03b3\u03ba\u03c1\u03b9\u03c3\u03b7 \u0393\u03b5\u03bd\u03b9\u03ba\u03ce\u03bd \u039a\u03b1\u03bd\u03cc\u03bd\u03c9\u03bd \u039a\u03bf\u03c3\u03c4\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03a4\u03b9\u03bc\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b7\u03c2 \u03a5\u03c0\u03b7\u03c1\u03b5\u03c3\u03b9\u03ce\u03bd \u038e\u03b4\u03b1\u03c4\u03bf\u03c2",
+            "url": "http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEsrjP0JAlxBXdtvSoClrL8r_t-tPq24FQtiDow6HlTE-JInJ48_97uHrMts-zFzeyCiBSQOpYnTy36MacmUFCx2ppFvBej56Mmc8Qdb8ZfRJqZnsIAdk8Lv_e6czmhEembNmZCMxLMtYV2aAxBunsMpUVrLKklPsXvjR_ZYxBF2RwfP_RcMhsE"
+          },
+          {
+            "title": "\u0395\u03c5\u03c1\u03c9\u03c0\u03b1\u03ca\u03ba\u03ae \u0395\u03c0\u03b9\u03c4\u03c1\u03bf\u03c0\u03ae \u2013 \u039a\u03bf\u03b9\u03bd\u03bf\u03c4\u03b9\u03ba\u03ae \u039f\u03b4\u03b7\u03b3\u03af\u03b1 \u03c0\u03b5\u03c1\u03af \u0391\u03c3\u03c4\u03b9\u03ba\u03ce\u03bd \u039b\u03c5\u03bc\u03ac\u03c4\u03c9\u03bd",
+            "url": "http://ec.europa.eu/environment/water/water-urbanwaste/index_en.html"
+          },
+          {
+            "title": "\u039a\u03ad\u03bd\u03c4\u03c1\u03bf \u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03af\u03b1\u03c2 \u039b\u03c5\u03bc\u03ac\u03c4\u03c9\u03bd \u03a8\u03c5\u03c4\u03c4\u03ac\u03bb\u03b5\u03b9\u03b1\u03c2",
+            "url": "http://www.eydap.gr/index.asp?a_id=205"
+          },
+          {
+            "title": "\u0391\u03c0\u03bf\u03c7\u03ad\u03c4\u03b5\u03c5\u03c3\u03b7 \u03ba\u03b1\u03b9 \u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03af\u03b1 \u039b\u03c5\u03bc\u03ac\u03c4\u03c9\u03bd \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7\u03c2",
+            "url": "http://www.eyath.gr/swift.jsp?CMCCode=06010402&extLang="
+          },
+          {
+            "title": "\u0394\u03b9\u03b5\u03b8\u03bd\u03ae\u03c2 \u0388\u03bd\u03c9\u03c3\u03b7 \u03a5\u03b4\u03ac\u03c4\u03c9\u03bd (International Water Association-IWA)",
+            "url": "https://iwa-network.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "289b7d7e-c374-4856-8e09-7a1fdf388382",
+    "url": "https://www.yme.gr/metafores/odikoi-metaforeis/nomothesia-odikou-metaforea",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Regulation (EC) no.  1071/2009",
+            "link": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1071-20220221"
+          },
+          {
+            "title": "Circular B4/55881/5940/2011 (ADA:45621-PGX)",
+            "link": "https://diavgeia.gov.gr/doc/45621-%CE%A0%CE%93%CE%9E?inline=true"
+          },
+          {
+            "title": "Circular B/oc. 6707/509/2012 (AD: B\u00d3Z\u03981-FKK)",
+            "link": "https://diavgeia.gov.gr/doc/%CE%92%CE%9F%CE%96%CE%981-%CE%A6%CE%9A%CE%9A?inline=true"
+          },
+          {
+            "title": "B6/36080/13818/2017 (B'3749)",
+            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20170203749"
+          },
+          {
+            "title": "B6/221571/2021 (B' 3876)",
+            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203876"
+          },
+          {
+            "title": "B6/223206/2021 kya (B' 3994)",
+            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203994"
+          },
+          {
+            "title": "Circular 196438/2022 (AD: \u03a3\u03996\u039d465\u03a5\u03a5\u03a5\u03a5-\u03a5\u03a5\u03a5)",
+            "link": "https://diavgeia.gov.gr/doc/%CE%A8%CE%996%CE%9D465%CE%A7%CE%98%CE%9E-%CE%98%CE%A5%CE%9E?inline=true"
+          },
+          {
+            "title": "Circular B6/59476/5835/2011 (AD: 4A9A1-D)",
+            "link": "https://diavgeia.gov.gr/doc/4%CE%919%CE%911-%CE%94?inline=true"
+          },
+          {
+            "title": "Regulation (EC) 1072/2009",
+            "link": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1072-20220221"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d9a539e7-d764-4cca-a300-1c1847bd470a",
+    "url": "https://www.difc.ae/business/laws-and-regulations/legal-database",
+    "source": "mhtml",
+    "domain": "government",
+    "subdomain": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Arbitration Law DIFC Law no. 1 of 2008",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/arbitration-law-difc-law-no1-2008"
+          },
+          {
+            "title": "Common Reporting Standard Law DIFC Law No. 2 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/common-reporting-standard-law-difc-law-no-2-2018"
+          },
+          {
+            "title": "Companies Law DIFC Law No. 5 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/companies-law-difc-law-no-5-2018"
+          },
+          {
+            "title": "Contract Law DIFC Law No. 6 of 2004",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/contract-law-difc-law-no-6-2004"
+          },
+          {
+            "title": "Court Law DIFC Law No. 10 of 2004",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/court-law-difc-law-no10-2004"
+          },
+          {
+            "title": "Data Protection Law DIFC Law No. 5 of 2020",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+          },
+          {
+            "title": "Electronic Transactions Law DIFC Law No. 2 of 2017",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+          },
+          {
+            "title": "Employment Law DIFC Law No. 2 of 2019",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/employment-law-difc-law-no-2-of-2019"
+          },
+          {
+            "title": "Foundations Law DIFC Law No. 3 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/foundations-law-difc-law-no-3-2018"
+          },
+          {
+            "title": "General Partnership Law DIFC Law No. 11 of 2004",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/general-partnership-law-difc-law-no-11-2004"
+          },
+          {
+            "title": "Implied Terms in Contracts and Unfair Terms Law DIFC Law No. 6 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/implied-terms-contracts-and-unfair-terms-law-difc-law-no-6-2005"
+          },
+          {
+            "title": "Insolvency Law DIFC Law No. 1 of 2019",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/insolvency-law-difc-law-no-1-2019"
+          },
+          {
+            "title": "Intellectual Property Law DIFC Law No. 4 of 2019",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/intellectual-property-law-difc-law-no-4-2019"
+          },
+          {
+            "title": "Law of Damages and Remedies DIFC Law No. 7 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-damages-and-remedies-difc-law-no-7-2005"
+          },
+          {
+            "title": "Law of Obligations DIFC Law No. 5 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-obligations-difc-law-no-5-2005"
+          },
+          {
+            "title": "Law of Security DIFC Law No. 8 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-security-difc-law-no-8-2005"
+          },
+          {
+            "title": "Law on the Application of Civil and Commercial Laws in the DIFC DIFC Law No. 3 of 2004",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-application-civil-and-commercial-laws-difc-difc-law-no-3-2004"
+          },
+          {
+            "title": "Law relating to Application of DIFC Laws DIFC Law No. 10 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-relating-application-difc-laws-difc-law-no-10-2005"
+          },
+          {
+            "title": "Leasing Law DIFC Law No. 1 of 2020",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/leasing-law-difc-law-no-1-2020"
+          },
+          {
+            "title": "Limited Liability Partnership Law DIFC Law No. 5 of 2004",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-liability-partnership-law-difc-law-no-5-2004"
+          },
+          {
+            "title": "Limited Partnership Law DIFC Law No. 4 of 2006",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-partnership-law-difc-law-no-4-2006"
+          },
+          {
+            "title": "Netting Law DIFC Law No. 2 of 2014",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/netting-law-difc-law-no-2-2014"
+          },
+          {
+            "title": "Non Profit Incorporated Organisations Law DIFC Law No. 6 of 2012",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/non-profit-incorporated-organisations-law-difc-law-no-6-2012"
+          },
+          {
+            "title": "Operating Law - DIFC Law No. 7 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/operating-law-difc-law-no-7-2018"
+          },
+          {
+            "title": "Payment System Settlement Finality Law DIFC Law No. 1 of 2009",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/payment-system-settlement-finality-law-difc-law-no-1-2009"
+          },
+          {
+            "title": "Personal Property Law DIFC Law No. 9 of 2005",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/personal-property-law-difc-law-no-9-2005"
+          },
+          {
+            "title": "Real Property Law DIFC Law No. 10 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/real-property-law-difc-law-no-10-2018"
+          },
+          {
+            "title": "Strata Title Law DIFC Law No. 5 of 2007",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/strata-title-law-difc-law-no-5-2007"
+          },
+          {
+            "title": "Trust Law DIFC Law No. 4 of 2018",
+            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/trust-law-difc-law-no-4-2018"
           }
         ]
       }
