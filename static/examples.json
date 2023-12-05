@@ -5016,12 +5016,12 @@
       }
     ]
   },
-   {
+  {
     "id": "7c46eb72-4688-4779-b6a1-85b580505c07",
     "url": "https://pemra.gov.pk/newsall.php",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -5148,8 +5148,8 @@
     "id": "5105d321-4c6c-4dd0-871f-20a223987279",
     "url": "https://www.education.gov.za/Resources/Legislation/GovernmentNotices.aspx",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -5832,8 +5832,8 @@
     "id": "b8350bd1-e085-46ce-8d35-c028cd1c8b2b",
     "url": "https://www.saps.gov.za/resource_centre/acts/acts.php",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -5912,8 +5912,8 @@
     "id": "a82d4f15-8eba-4416-b4c3-b13d63473405",
     "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -5956,8 +5956,8 @@
     "id": "c16e0a60-eed3-4bb5-afe2-443377eb098c",
     "url": "https://www.treasury.go.ke/regulations/",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -6092,8 +6092,8 @@
     "id": "7c7e20e0-0a85-4c16-9f9b-dae127169cf4",
     "url": "https://www.mef.gov.it/ministero/ruolo/normativa/decreti-min-intermin-dir.html",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -6212,8 +6212,8 @@
     "id": "37a6d131-ff57-4fc3-b08e-f148b40e273d",
     "url": "https://www.ministeroturismo.gov.it/del-ministero/",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -6344,8 +6344,8 @@
     "id": "1181febe-214c-44a6-a046-8326ca87e992",
     "url": "https://ypen.gov.gr/diacheirisi-apovliton/astika-lymata/nomothesia/",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -6428,8 +6428,8 @@
     "id": "289b7d7e-c374-4856-8e09-7a1fdf388382",
     "url": "https://www.yme.gr/metafores/odikoi-metaforeis/nomothesia-odikou-metaforea",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
@@ -6480,8 +6480,8 @@
     "id": "d9a539e7-d764-4cca-a300-1c1847bd470a",
     "url": "https://www.difc.ae/business/laws-and-regulations/legal-database",
     "source": "mhtml",
-    "domain": "government",
-    "subdomain": "download",
+    "category": "government",
+    "subcategory": "download",
     "type": "links",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
