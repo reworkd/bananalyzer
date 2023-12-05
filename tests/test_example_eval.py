@@ -136,7 +136,7 @@ def test_fetch_without_fetch_id_exception() -> None:
 
 
 def test_fetch_with_goal_and_no_fetch_id() -> None:
-    goal = {'test': 'test'}
+    goal = {"test": "test"}
     example_data = create_default_example({"goal": goal})
     example = Example(**example_data)
     assert example.goal == goal
