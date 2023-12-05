@@ -5023,122 +5023,122 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Show cause notice issued to ARY News on Airing Racist/Hateful Remarks",
-            "href": "uploads/news/Notice_to_ARY_News.pdf"
+            "url": "uploads/news/Notice_to_ARY_News.pdf"
           },
           {
             "title": "PEMRA suspended the transmission of ARY News and Bol News for three days",
-            "href": "uploads/news/PR-Bol_ARY.pdf"
+            "url": "uploads/news/PR-Bol_ARY.pdf"
           },
           {
             "title": "174th Meeting of PEMRA Authority",
-            "href": "uploads/news/PR_174th_Authority_Meeting.pdf"
+            "url": "uploads/news/PR_174th_Authority_Meeting.pdf"
           },
           {
             "title": "171st Meeting of PEMRA Authority",
-            "href": "uploads/news/PR_171_Meeting.pdf"
+            "url": "uploads/news/PR_171_Meeting.pdf"
           },
           {
             "title": "PEMRA warns TV channels on airing malicious content against state institutions (Army and Judiciary)",
-            "href": "uploads/news/warning_content_against_State_Institutions.pdf"
+            "url": "uploads/news/warning_content_against_State_Institutions.pdf"
           },
           {
             "title": "PEMRA COC Lahore Member",
-            "href": "uploads/news/PR-COC_Lahore_Member.pdf"
+            "url": "uploads/news/PR-COC_Lahore_Member.pdf"
           },
           {
             "title": "Annual Gross Advertisement Revenue",
-            "href": "uploads/news/PR-AGAR.pdf"
+            "url": "uploads/news/PR-AGAR.pdf"
           },
           {
             "title": "6th Meeting of JIRC",
-            "href": "uploads/news/Meeting_of_JIRC.pdf"
+            "url": "uploads/news/Meeting_of_JIRC.pdf"
           },
           {
             "title": "Chairman PEMRA visited Regional Office Quetta",
-            "href": "uploads/news/Chairman_visited_Quetta.pdf"
+            "url": "uploads/news/Chairman_visited_Quetta.pdf"
           },
           {
             "title": "Chairman PEMRA visited Faisalabad region, he was briefed about operational activities against illegal Indain Channels/Content.",
-            "href": "uploads/news/chairman_visit_fsd.pdf"
+            "url": "uploads/news/chairman_visit_fsd.pdf"
           },
           {
             "title": "PEMRA employees made hostage by 24 News Staffers",
-            "href": "uploads/news/PEMRA_Employees_Made_Hostage.pdf"
+            "url": "uploads/news/PEMRA_Employees_Made_Hostage.pdf"
           },
           {
             "title": "PEMRA suspends transmission of 24 News",
-            "href": "uploads/news/Suspension_of_24_News_transmission.pdf"
+            "url": "uploads/news/Suspension_of_24_News_transmission.pdf"
           },
           {
             "title": "PEMRA Cancelled License of Sohni Dharti",
-            "href": "uploads/news/Sohni_Dharti_License_Cancelled.pdf"
+            "url": "uploads/news/Sohni_Dharti_License_Cancelled.pdf"
           },
           {
             "title": "PEMRA suspends NEO TV licence with immediate effect on illegal transmission of News and Current Affairs content",
-            "href": "uploads/news/PR_Neo_Suspension.pdf"
+            "url": "uploads/news/PR_Neo_Suspension.pdf"
           },
           {
             "title": "PEMRA directs Neo TV to immediately stop illegal transmission of News and Current Affairs content revert to its original programming of Entertainment",
-            "href": "uploads/news/PR_Neo.pdf"
+            "url": "uploads/news/PR_Neo.pdf"
           },
           {
             "title": "PEMRA imposed fine of Rs. 1 Million on Dawn News for airing fake news pertaining to demise of British Prime Minister.",
-            "href": "uploads/news/PR_Dawn.pdf"
+            "url": "uploads/news/PR_Dawn.pdf"
           },
           {
             "title": "Observance & Implementation of Disability Quota",
-            "href": "uploads/announcments/Disability_Quota.pdf"
+            "url": "uploads/announcments/Disability_Quota.pdf"
           },
           {
             "title": "Directives on Live Coverage",
-            "href": "uploads/news/Directives_on_Live_Coverage.pdf"
+            "url": "uploads/news/Directives_on_Live_Coverage.pdf"
           },
           {
             "title": "Directives \u2013 Discussion on Sub-Judice Matters",
-            "href": "uploads/news/Directives_Discussion_on_Sub-Judice_Matters.pdf"
+            "url": "uploads/news/Directives_Discussion_on_Sub-Judice_Matters.pdf"
           },
           {
             "title": "Directives - Adherence of Electronic Media Code of Conduct 2015",
-            "href": "uploads/news/Directives_Adherence_of_Electronic_Media_Code_of_Conduct_2015.pdf"
+            "url": "uploads/news/Directives_Adherence_of_Electronic_Media_Code_of_Conduct_2015.pdf"
           },
           {
             "title": "Prohibition order on Live Speech of Imran Khan",
-            "href": "uploads/news/Prohibition_order_IK_live_speech.pdf"
+            "url": "uploads/news/Prohibition_order_IK_live_speech.pdf"
           },
           {
             "title": "Directives \u2013 To Stop Propaganda, Misinformation & Disinformation against state institutions",
-            "href": "uploads/news/Directives_to_stop_propaganda_misinformation_Disinformation_against_state_institutions.pdf"
+            "url": "uploads/news/Directives_to_stop_propaganda_misinformation_Disinformation_against_state_institutions.pdf"
           },
           {
             "title": "PEMRA issues directives for private electronic media to refrain from airing content against state institutions",
-            "href": "uploads/news/Directives_Aspersions_against_State_Institutions.pdf"
+            "url": "uploads/news/Directives_Aspersions_against_State_Institutions.pdf"
           },
           {
             "title": "PEMRA issues directives on media coverage / reporting on Coronavirus (Covid-19)",
-            "href": "uploads/news/Directives_Media_Reporiting_CoronaVirus.pdf"
+            "url": "uploads/news/Directives_Media_Reporiting_CoronaVirus.pdf"
           },
           {
             "title": "Prohibition of TVC Power Full.",
-            "href": "uploads/news/Prohibition_of_TVC_Power_Full.pdf"
+            "url": "uploads/news/Prohibition_of_TVC_Power_Full.pdf"
           },
           {
             "title": "Report on Fake News aired during 1st to 30th April 2020.",
-            "href": "uploads/news/Report_on_Fake_News_Aired_During_the_period_1st_to_30th_April_2020.pdf"
+            "url": "uploads/news/Report_on_Fake_News_Aired_During_the_period_1st_to_30th_April_2020.pdf"
           },
           {
             "title": "In the wake of Coronavirus (Covid-19) pandemic, PEMRA issues directives for its licensees on Ramadan Transmission.",
-            "href": "uploads/news/Ramadan_Directives_2020.pdf"
+            "url": "uploads/news/Ramadan_Directives_2020.pdf"
           },
           {
             "title": "Report on Fake News aired during 14th to 28th February 2020.",
-            "href": "uploads/news/Report_on_Fake_News_Aired_During_the_period_14th_to_28th_February_2020.pdf"
+            "url": "uploads/news/Report_on_Fake_News_Aired_During_the_period_14th_to_28th_February_2020.pdf"
           }
         ]
       }
@@ -5151,7 +5151,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -5831,74 +5831,74 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Critical Infrastructure Protection Act, 2019 (Act |No. 8 of 2019)",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/CIP-Act-8-of-2019-English.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/CIP-Act-8-of-2019-English.pdf"
           },
           {
             "title": "Criminal Law (Forensic Procedure) Amendment Act",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/criminal_law_forensic_procedure_amendment_act_2013_act_no_37_of_2013.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/criminal_law_forensic_procedure_amendment_act_2013_act_no_37_of_2013.pdf"
           },
           {
             "title": "Forensic DNA Regulations, 2015",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/dna_regulation_2017.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/dna_regulation_2017.pdf"
           },
           {
             "title": "Criminal Law (Forensic Procedures) Amendment Act, 2010 (Act No 6 of 2010)",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/fingerprint_act_2017.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/fingerprint_act_2017.pdf"
           },
           {
             "title": "Acts supplied by JUTA",
-            "href": "https://www.saps.gov.za/resource_centre/acts/juta_acts.php"
+            "url": "https://www.saps.gov.za/resource_centre/acts/juta_acts.php"
           },
           {
             "title": "link to .pdf file",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/fifa2010_a11_2006.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/fifa2010_a11_2006.pdf"
           },
           {
             "title": "South African Police Service amendment act",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/act_57_of_2008.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/act_57_of_2008.pdf"
           },
           {
             "title": "Commencement",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/commencement_act_57_of_2008.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/saps/commencement_act_57_of_2008.pdf"
           },
           {
             "title": "Promotion of Access to Information Act, 2000 (Act No. 2 of 2000)",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/promotion_of_access_act2_2000.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/promotion_of_access_act2_2000.pdf"
           },
           {
             "title": "Films and publications act",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act.pdf"
           },
           {
             "title": "Amendments: Child Pornography Offences",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act_child_pornography.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/films_publications_act_child_pornography.pdf"
           },
           {
             "title": "Protection of Constitutional Democracy Against Terrorist and Related Activities Act",
-            "href": "https://www.saps.gov.za/resource_centre/acts/terrorism.php"
+            "url": "https://www.saps.gov.za/resource_centre/acts/terrorism.php"
           },
           {
             "title": "Liquor Legislation, Act 59 of 2003",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/liquor_act3.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/liquor_act3.pdf"
           },
           {
             "title": "Sexual Offences, Act 32 of 2007",
-            "href": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
+            "url": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
           },
           {
             "title": "Sexual Offences, Act 32 of 2007",
-            "href": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
+            "url": "https://www.saps.gov.za/resource_centre/acts/sexual_affences-act.php"
           },
           {
             "title": "Public Service Act 1994",
-            "href": "https://www.saps.gov.za/resource_centre/acts/downloads/1994a0103proc.pdf"
+            "url": "https://www.saps.gov.za/resource_centre/acts/downloads/1994a0103proc.pdf"
           }
         ]
       }
@@ -5911,38 +5911,38 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "NERC Ruling on TCN's Appilcation for Review of Supplementary TEM Order",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Ruling-on-TCNs-Appilcation-for-Review-of-Supplementary-TEM-Order/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Ruling-on-TCNs-Appilcation-for-Review-of-Supplementary-TEM-Order/"
           },
           {
             "title": "NERC Decision on the Case Between A&P Food and Exusia",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Decision-on-the-Case-Between-A-and-P-Food-and-Exusia/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/NERC-Decision-on-the-Case-Between-A-and-P-Food-and-Exusia/"
           },
           {
             "title": "Abuja Electricity Distribution Company_Electrocution Decision",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Abuja-Electricity-Distribution-Company_Electrocution-Decision/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Abuja-Electricity-Distribution-Company_Electrocution-Decision/"
           },
           {
             "title": "Petadis Enterprises & HFP Properties Ltd_Decision",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Petadis-Enterprises--and--HFP-Properties-Ltd_Decision/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Petadis-Enterprises--and--HFP-Properties-Ltd_Decision/"
           },
           {
             "title": "Ruling on NICON Town Management Company PLC",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-on-NICON-Town-Management-Company-PLC/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-on-NICON-Town-Management-Company-PLC/"
           },
           {
             "title": "Ruling On Crown Estate Petition",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-On-Crown-Estate-Petition/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/Ruling-On-Crown-Estate-Petition/"
           },
           {
             "title": "LASG vs PHCN NERC Ruling on Respondents Objection to its Jurisdiction.pdf",
-            "link": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/LASG-vs-PHCN-NERC-Ruling-on-Respondents-Objection-to-its-Jurisdiction.pdf/"
+            "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings/LASG-vs-PHCN-NERC-Ruling-on-Respondents-Objection-to-its-Jurisdiction.pdf/"
           }
         ]
       }
@@ -5955,7 +5955,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -6091,114 +6091,114 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
-            "href": "https://www.mef.gov.it/ministero/ruolo/normativa/FIRMA-OLOGRAFA-PROVVEDIMENTO-FIRMATO-IN-DATA-22.12.2022_Redatto.pdf",
-            "ariaLabel": "Decreto ministeriale del 22 dicembre 2022 - Apertura in nuova scheda"
+            "url": "https://www.mef.gov.it/ministero/ruolo/normativa/FIRMA-OLOGRAFA-PROVVEDIMENTO-FIRMATO-IN-DATA-22.12.2022_Redatto.pdf",
+            "title": "Decreto ministeriale del 22 dicembre 2022 - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/04/16/22A02490/sg",
-            "ariaLabel": "Decreto interministeriale del 6 aprile 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/04/16/22A02490/sg",
+            "title": "Decreto interministeriale del 6 aprile 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/04/14/22A01964/sg",
-            "ariaLabel": "Decreto ministeriale del 21 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/04/14/22A01964/sg",
+            "title": "Decreto ministeriale del 21 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/21/22A01931/sg",
-            "ariaLabel": "Decreto interministeriale del 18 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/03/21/22A01931/sg",
+            "title": "Decreto interministeriale del 18 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/22/22A01817/sg",
-            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 14 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/03/22/22A01817/sg",
+            "title": "Decreto del Ragioniere Generale dello Stato del 14 marzo 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/03/16/22A01549/sg",
-            "ariaLabel": "Decreto ministeriale dell\u2019 11 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/03/16/22A01549/sg",
+            "title": "Decreto ministeriale dell\u2019 11 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2022/02/19/22A01205/sg",
-            "ariaLabel": "Decreto direttoriale del 9 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2022/02/19/22A01205/sg",
+            "title": "Decreto direttoriale del 9 febbraio 2022 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/Decreto-interministeriale-n.-1-del-13-gennaio-2022_.pdf",
-            "ariaLabel": "Decreto interministeriale n. 1 del 13 gennaio 2022 - sostegno al reddito in favore dei dipendenti delle imprese adibite alla pesca marittima \u2013 annualit\u00e0 2021 - PDF, 626 KB - Apertura in nuova scheda"
+            "url": "https://www.mef.gov.it/pubblicita_legale/documenti/Decreto-interministeriale-n.-1-del-13-gennaio-2022_.pdf",
+            "title": "Decreto interministeriale n. 1 del 13 gennaio 2022 - sostegno al reddito in favore dei dipendenti delle imprese adibite alla pesca marittima \u2013 annualit\u00e0 2021 - PDF, 626 KB - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/bozza_dm_comitato_scientifico_transizione_4.0_9_nov_2021_draft.doc.pdf_b....pdf",
-            "ariaLabel": "Decreto ministeriale del 23 novembre 2021 - PDF, 2 MB - Apertura in nuova scheda"
+            "url": "https://www.mef.gov.it/pubblicita_legale/documenti/bozza_dm_comitato_scientifico_transizione_4.0_9_nov_2021_draft.doc.pdf_b....pdf",
+            "title": "Decreto ministeriale del 23 novembre 2021 - PDF, 2 MB - Apertura in nuova scheda"
           },
           {
-            "href": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id=%7b580A546B-5F97-47F1-BDB2-F55524471E3B%7d",
-            "ariaLabel": "Decreto ministeriale del 30 settembre 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id=%7b580A546B-5F97-47F1-BDB2-F55524471E3B%7d",
+            "title": "Decreto ministeriale del 30 settembre 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-04-06&atto.codiceRedazionale=21A02060&elenco30giorni=false",
-            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 2 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-04-06&atto.codiceRedazionale=21A02060&elenco30giorni=false",
+            "title": "Decreto del Direttore Generale del Tesoro del 2 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/30/21A01843/sg",
-            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 22 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/30/21A01843/sg",
+            "title": "Decreto del Direttore Generale del Tesoro del 22 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/25/21A01809/sg",
-            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 18 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/25/21A01809/sg",
+            "title": "Decreto del Ragioniere Generale dello Stato del 18 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/19/21A01649/SG",
-            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 8 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/19/21A01649/SG",
+            "title": "Decreto del Direttore Generale del Tesoro del 8 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/11/21A01498/sg",
-            "ariaLabel": "Decreto del Direttore Generale del Tesoro del 4 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/11/21A01498/sg",
+            "title": "Decreto del Direttore Generale del Tesoro del 4 marzo 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/10/21G00033/sg",
-            "ariaLabel": "Decreto del 3 febbraio 2021, n. 26 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/10/21G00033/sg",
+            "title": "Decreto del 3 febbraio 2021, n. 26 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-20&atto.codiceRedazionale=21A01023&elenco30giorni=false",
-            "ariaLabel": "Decreto 10 febbraio 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-20&atto.codiceRedazionale=21A01023&elenco30giorni=false",
+            "title": "Decreto 10 febbraio 2021 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/15/21A00160/sg",
-            "ariaLabel": "Decreto del Ragioniere Generale dello Stato del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/01/15/21A00160/sg",
+            "title": "Decreto del Ragioniere Generale dello Stato del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/18/21A01557/sg",
-            "ariaLabel": "Decreto ministeriale del 22 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/18/21A01557/sg",
+            "title": "Decreto ministeriale del 22 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/03/04/21A01268/sg",
-            "ariaLabel": "Decreto ministeriale del 23 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/03/04/21A01268/sg",
+            "title": "Decreto ministeriale del 23 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/02/12/21A00596/sg",
-            "ariaLabel": "Decreto ministeriale del 31 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/02/12/21A00596/sg",
+            "title": "Decreto ministeriale del 31 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-01&atto.codiceRedazionale=21A00501&elenco30giorni=false",
-            "ariaLabel": "Decreto ministeriale del 28 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-02-01&atto.codiceRedazionale=21A00501&elenco30giorni=false",
+            "title": "Decreto ministeriale del 28 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-01-14&atto.codiceRedazionale=21A00143&elenco30giorni=false",
-            "ariaLabel": "Decreto ministeriale del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-01-14&atto.codiceRedazionale=21A00143&elenco30giorni=false",
+            "title": "Decreto ministeriale del 30 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/19/21A00183/sg",
-            "ariaLabel": "Decreto ministeriale del 7 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/01/19/21A00183/sg",
+            "title": "Decreto ministeriale del 7 dicembre 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.gazzettaufficiale.it/eli/id/2021/01/14/21A00082/sg",
-            "ariaLabel": "Decreto ministeriale del 28 agosto 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
+            "url": "https://www.gazzettaufficiale.it/eli/id/2021/01/14/21A00082/sg",
+            "title": "Decreto ministeriale del 28 agosto 2020 - Collegamento a sito esterno - Apertura in nuova scheda"
           },
           {
-            "href": "https://www.mef.gov.it/pubblicita_legale/documenti/testo-decreto-interministeriale.pdf",
-            "ariaLabel": "Decreto interministeriale per la disciplina degli interventi di acquisizione di quote di capitale ai sensi dell\u2019articolo 34, ultimo periodo, del D.L. n. 104/2020 (conv. dalla L. n. 126/2020) - PDF, 3 MB - Apertura in nuova scheda"
+            "url": "https://www.mef.gov.it/pubblicita_legale/documenti/testo-decreto-interministeriale.pdf",
+            "title": "Decreto interministeriale per la disciplina degli interventi di acquisizione di quote di capitale ai sensi dell\u2019articolo 34, ultimo periodo, del D.L. n. 104/2020 (conv. dalla L. n. 126/2020) - PDF, 3 MB - Apertura in nuova scheda"
           }
         ]
       }
@@ -6211,7 +6211,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -6343,7 +6343,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -6427,46 +6427,46 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Regulation (EC) no.  1071/2009",
-            "link": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1071-20220221"
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1071-20220221"
           },
           {
             "title": "Circular B4/55881/5940/2011 (ADA:45621-PGX)",
-            "link": "https://diavgeia.gov.gr/doc/45621-%CE%A0%CE%93%CE%9E?inline=true"
+            "url": "https://diavgeia.gov.gr/doc/45621-%CE%A0%CE%93%CE%9E?inline=true"
           },
           {
             "title": "Circular B/oc. 6707/509/2012 (AD: B\u00d3Z\u03981-FKK)",
-            "link": "https://diavgeia.gov.gr/doc/%CE%92%CE%9F%CE%96%CE%981-%CE%A6%CE%9A%CE%9A?inline=true"
+            "url": "https://diavgeia.gov.gr/doc/%CE%92%CE%9F%CE%96%CE%981-%CE%A6%CE%9A%CE%9A?inline=true"
           },
           {
             "title": "B6/36080/13818/2017 (B'3749)",
-            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20170203749"
+            "url": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20170203749"
           },
           {
             "title": "B6/221571/2021 (B' 3876)",
-            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203876"
+            "url": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203876"
           },
           {
             "title": "B6/223206/2021 kya (B' 3994)",
-            "link": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203994"
+            "url": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20210203994"
           },
           {
             "title": "Circular 196438/2022 (AD: \u03a3\u03996\u039d465\u03a5\u03a5\u03a5\u03a5-\u03a5\u03a5\u03a5)",
-            "link": "https://diavgeia.gov.gr/doc/%CE%A8%CE%996%CE%9D465%CE%A7%CE%98%CE%9E-%CE%98%CE%A5%CE%9E?inline=true"
+            "url": "https://diavgeia.gov.gr/doc/%CE%A8%CE%996%CE%9D465%CE%A7%CE%98%CE%9E-%CE%98%CE%A5%CE%9E?inline=true"
           },
           {
             "title": "Circular B6/59476/5835/2011 (AD: 4A9A1-D)",
-            "link": "https://diavgeia.gov.gr/doc/4%CE%919%CE%911-%CE%94?inline=true"
+            "url": "https://diavgeia.gov.gr/doc/4%CE%919%CE%911-%CE%94?inline=true"
           },
           {
             "title": "Regulation (EC) 1072/2009",
-            "link": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1072-20220221"
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/PDF/?uri=CELEX:02009R1072-20220221"
           }
         ]
       }
@@ -6479,126 +6479,126 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Arbitration Law DIFC Law no. 1 of 2008",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/arbitration-law-difc-law-no1-2008"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/arbitration-law-difc-law-no1-2008"
           },
           {
             "title": "Common Reporting Standard Law DIFC Law No. 2 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/common-reporting-standard-law-difc-law-no-2-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/common-reporting-standard-law-difc-law-no-2-2018"
           },
           {
             "title": "Companies Law DIFC Law No. 5 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/companies-law-difc-law-no-5-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/companies-law-difc-law-no-5-2018"
           },
           {
             "title": "Contract Law DIFC Law No. 6 of 2004",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/contract-law-difc-law-no-6-2004"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/contract-law-difc-law-no-6-2004"
           },
           {
             "title": "Court Law DIFC Law No. 10 of 2004",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/court-law-difc-law-no10-2004"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/court-law-difc-law-no10-2004"
           },
           {
             "title": "Data Protection Law DIFC Law No. 5 of 2020",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
           },
           {
             "title": "Electronic Transactions Law DIFC Law No. 2 of 2017",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
           },
           {
             "title": "Employment Law DIFC Law No. 2 of 2019",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/employment-law-difc-law-no-2-of-2019"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/employment-law-difc-law-no-2-of-2019"
           },
           {
             "title": "Foundations Law DIFC Law No. 3 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/foundations-law-difc-law-no-3-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/foundations-law-difc-law-no-3-2018"
           },
           {
             "title": "General Partnership Law DIFC Law No. 11 of 2004",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/general-partnership-law-difc-law-no-11-2004"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/general-partnership-law-difc-law-no-11-2004"
           },
           {
             "title": "Implied Terms in Contracts and Unfair Terms Law DIFC Law No. 6 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/implied-terms-contracts-and-unfair-terms-law-difc-law-no-6-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/implied-terms-contracts-and-unfair-terms-law-difc-law-no-6-2005"
           },
           {
             "title": "Insolvency Law DIFC Law No. 1 of 2019",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/insolvency-law-difc-law-no-1-2019"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/insolvency-law-difc-law-no-1-2019"
           },
           {
             "title": "Intellectual Property Law DIFC Law No. 4 of 2019",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/intellectual-property-law-difc-law-no-4-2019"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/intellectual-property-law-difc-law-no-4-2019"
           },
           {
             "title": "Law of Damages and Remedies DIFC Law No. 7 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-damages-and-remedies-difc-law-no-7-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-damages-and-remedies-difc-law-no-7-2005"
           },
           {
             "title": "Law of Obligations DIFC Law No. 5 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-obligations-difc-law-no-5-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-obligations-difc-law-no-5-2005"
           },
           {
             "title": "Law of Security DIFC Law No. 8 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-security-difc-law-no-8-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-security-difc-law-no-8-2005"
           },
           {
             "title": "Law on the Application of Civil and Commercial Laws in the DIFC DIFC Law No. 3 of 2004",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-application-civil-and-commercial-laws-difc-difc-law-no-3-2004"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-application-civil-and-commercial-laws-difc-difc-law-no-3-2004"
           },
           {
             "title": "Law relating to Application of DIFC Laws DIFC Law No. 10 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-relating-application-difc-laws-difc-law-no-10-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-relating-application-difc-laws-difc-law-no-10-2005"
           },
           {
             "title": "Leasing Law DIFC Law No. 1 of 2020",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/leasing-law-difc-law-no-1-2020"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/leasing-law-difc-law-no-1-2020"
           },
           {
             "title": "Limited Liability Partnership Law DIFC Law No. 5 of 2004",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-liability-partnership-law-difc-law-no-5-2004"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-liability-partnership-law-difc-law-no-5-2004"
           },
           {
             "title": "Limited Partnership Law DIFC Law No. 4 of 2006",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-partnership-law-difc-law-no-4-2006"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-partnership-law-difc-law-no-4-2006"
           },
           {
             "title": "Netting Law DIFC Law No. 2 of 2014",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/netting-law-difc-law-no-2-2014"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/netting-law-difc-law-no-2-2014"
           },
           {
             "title": "Non Profit Incorporated Organisations Law DIFC Law No. 6 of 2012",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/non-profit-incorporated-organisations-law-difc-law-no-6-2012"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/non-profit-incorporated-organisations-law-difc-law-no-6-2012"
           },
           {
             "title": "Operating Law - DIFC Law No. 7 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/operating-law-difc-law-no-7-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/operating-law-difc-law-no-7-2018"
           },
           {
             "title": "Payment System Settlement Finality Law DIFC Law No. 1 of 2009",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/payment-system-settlement-finality-law-difc-law-no-1-2009"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/payment-system-settlement-finality-law-difc-law-no-1-2009"
           },
           {
             "title": "Personal Property Law DIFC Law No. 9 of 2005",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/personal-property-law-difc-law-no-9-2005"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/personal-property-law-difc-law-no-9-2005"
           },
           {
             "title": "Real Property Law DIFC Law No. 10 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/real-property-law-difc-law-no-10-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/real-property-law-difc-law-no-10-2018"
           },
           {
             "title": "Strata Title Law DIFC Law No. 5 of 2007",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/strata-title-law-difc-law-no-5-2007"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/strata-title-law-difc-law-no-5-2007"
           },
           {
             "title": "Trust Law DIFC Law No. 4 of 2018",
-            "link": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/trust-law-difc-law-no-4-2018"
+            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/trust-law-difc-law-no-4-2018"
           }
         ]
       }
