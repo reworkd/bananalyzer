@@ -5022,7 +5022,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -5150,7 +5150,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -5609,10 +5609,6 @@
             "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=1WC0f9ePxaA%3d&tabid=188&portalid=0&mid=1759"
           },
           {
-            "title": "",
-            "url": ""
-          },
-          {
             "title": "National Norms and Standards for Funding Adult Learning Centres (NSF ALC) GG30576, 14 December 2007",
             "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=_BpX0wndCdY%3d&tabid=188&portalid=0&mid=498"
           },
@@ -5834,7 +5830,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -5914,7 +5910,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -5958,7 +5954,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -6094,7 +6090,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -6214,7 +6210,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -6346,7 +6342,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -6430,7 +6426,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
@@ -6482,7 +6478,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "download",
-    "type": "links",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to the pdf documents on the current page",
     "evals": [
       {
