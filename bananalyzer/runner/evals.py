@@ -1,9 +1,11 @@
 import json
 from difflib import SequenceMatcher
-from typing import Any, Callable, Dict
+from typing import Any, Dict
 
 import pytest
 from deepdiff import DeepDiff
+
+from bananalyzer.data.schemas import AllowedJSON
 
 Result = Dict[str, Any]
 
@@ -20,8 +22,8 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
         pytest.fail(f"{expected_value} != {actual_value}")
 
 
-def validate_json_match(expected: Result, actual: Result) -> None:
-    if isinstance(expected, dict):
+def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
+    if isinstance(expected, Dict) and isinstance(actual, Dict):
         expected = format_new_lines(expected)
         actual = format_new_lines(actual)
 
