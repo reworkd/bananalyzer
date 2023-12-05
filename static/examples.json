@@ -6929,7 +6929,7 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "نظام رسوم الطيران المدني رقم (106) لسنة 2018",
+            "name": "\u0646\u0638\u0627\u0645 \u0631\u0633\u0648\u0645 \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0627\u0644\u0645\u062f\u0646\u064a \u0631\u0642\u0645 (106) \u0644\u0633\u0646\u0629 2018",
             "url": "https://carc.gov.jo/sites/default/files/2022-10/nzam-rswm-altyran-almdny.pdf"
           },
           {
@@ -6937,12 +6937,1540 @@
             "url": "https://carc.gov.jo/sites/default/files/2022-05/advanced-passenger-information-for-the-year-2020.pdf"
           },
           {
-            "name": "النظام المالي لهيئة تنظيم الطيران المدني.",
+            "name": "\u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0627\u0644\u064a \u0644\u0647\u064a\u0626\u0629 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0627\u0644\u0645\u062f\u0646\u064a.",
             "url": "https://carc.gov.jo/sites/default/files/2021-06/071028financial.pdf"
           },
           {
             "name": "Early Passenger Inquiry System No. 7 of 2020",
             "url": "https://carc.gov.jo/sites/default/files/2021-04/BYLAWNO7OF2020ADVANCEDPASSENGERINFORMATION-arabic.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "90721e15-35b6-4d81-a7c5-c98296079db1",
+    "url": "https://www.dhcc.ae/regulations/all",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Cabinet Resolution No 53 of 2021 Concerning the Administration Penalties (English)",
+            "url": "https://www.dhcc.ae/gallery/Cabinet%20Resolution%20No%2053%20of%202021%20Concerning%20the%20Administration%20Penalties.pdf"
+          },
+          {
+            "name": "Resolution No. 9 of 2003 Establishing Dubai Healthcare City",
+            "url": "https://www.dhcc.ae/gallery/lawno9-2003[1].pdf"
+          },
+          {
+            "name": "Law No. (9) 0f 2011 Concerning Dubai Healthcare City",
+            "url": "https://www.dhcc.ae/gallery/LawNo7.pdf"
+          },
+          {
+            "name": "Resolution No. (27) of 2015",
+            "url": "https://www.dhcc.ae/gallery/CabinetResolutionNo27of2015-AdministrativePenaltiesonViolatingtheConditionsoftheLicenses[1]9.pdf"
+          },
+          {
+            "name": "Updated Cabinet Resolution No. 74 of 2020 regarding the terrorist listings system and the implementation of Security Council resolutions related to prevention and suppression (English)",
+            "url": "https://www.dhcc.ae/gallery/CABINETDECISIONNO74[1]20.pdf"
+          },
+          {
+            "name": "1 of 2018 - Concerning Permitted Activities and Licensing Categories for Dubai Healthcare City",
+            "url": "https://www.dhcc.ae/gallery/DHCCRuleNo1of2018[1]1.pdf"
+          },
+          {
+            "name": "2 of 2016 - Violations Schedule Related to the Hygiene and Maintenance Standards for Properties and Public Areas",
+            "url": "https://www.dhcc.ae/gallery/ViolationsScheduleRelatedtotheHygieneandMaintenanceStandardsforPropertiesandPublicAreas[1]2.pdf"
+          },
+          {
+            "name": "3 of 2018 - Violations and Penalties Schedule for Commercial and Clinical Activities",
+            "url": "https://www.dhcc.ae/gallery/DHCC-RuleNo3-ViolationsandPenaltiesforClinicalandCommercialActivities[1]3.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Visa Policy - Business...",
+            "url": "https://www.dhcc.ae/gallery/DHCRVisaPolicy-BusinessPartner.pdf"
+          },
+          {
+            "name": "Labor Dispute Process Map",
+            "url": "https://www.dhcc.ae/gallery/LaborDisputeProcessMap.pdf"
+          },
+          {
+            "name": "Anti-Money Laundering and...",
+            "url": "https://www.dhcc.ae/gallery/DHCAAnti-MoneyLaunderingPolicy.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Commercial Permit...",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Commercial%20Permit%20Policy%20and%20Procedure.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE Contractors Policy...",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Contractors%20Policy%20Dov%20Rv%20FV.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE Food Safety Policy",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Food%20Safety%20Policy.pdf"
+          },
+          {
+            "name": "Healtd, Safety &...",
+            "url": "https://www.dhcc.ae/gallery/HSE%20Dept%20Policy.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Biological Spill...",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Biological%20Spill%20Policy%20and%20Procedure.pdf"
+          },
+          {
+            "name": "Incident Reporting Policy...",
+            "url": "https://www.dhcc.ae/gallery/Incident%20Reporting%20Policy%20and%20Procedure.pdf"
+          },
+          {
+            "name": "Risk Management Policy",
+            "url": "https://www.dhcc.ae/gallery/Risk%20Management%20Policy.pdf"
+          },
+          {
+            "name": "First Aid Policy",
+            "url": "https://www.dhcc.ae/gallery/First%20Aid%20Policy.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE No Smoking Policy",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20No%20Smoking%20Policy.pdf"
+          },
+          {
+            "name": "Labor Disputes Management",
+            "url": "https://www.dhcc.ae/gallery/Labor%20Disputes%20Management%20Policy%20and%20Procedure.pdf"
+          },
+          {
+            "name": "DHCC - Development Guideline Phase 1",
+            "url": "https://www.dhcc.ae/gallery/dhcc-ph-i-development-guidelines-4thed.pdf"
+          },
+          {
+            "name": "DHCC - Development Guideline Phase 2",
+            "url": "https://www.dhcc.ae/gallery/dhcc-ph-ii-development-guidelines-4thed.pdf"
+          },
+          {
+            "name": "Master Community Declaration - Dubai Healthcare City (Phase 2)",
+            "url": "https://www.dhcc.ae/gallery/Master%20Community%20Declaration%20-%20Dubai%20Healthcare%20City%20(Phase%201)-Publishing.pdf"
+          },
+          {
+            "name": "Master Community Declaration - Dubai Healthcare City (Phase 1)",
+            "url": "https://www.dhcc.ae/gallery/Master%20Community%20Declaration%20-%20Dubai%20Healthcare%20City%20(Phase%202)-Publishing.pdf"
+          },
+          {
+            "name": "Ultimate Beneficiary Ownership Guidance",
+            "url": "https://www.dhcc.ae/gallery/UBO-DHCA.pdf"
+          },
+          {
+            "name": "Medical Equipment Management",
+            "url": "https://www.dhcc.ae/gallery/Medical%20Equipment%20Management-1.pdf"
+          },
+          {
+            "name": "Outpatient Complementary and Alternative Medicine (CAM) Services",
+            "url": "https://www.dhcc.ae/gallery/Outpatient%20Complementary%20and%20Alternative%20Medicine%20(CAM)%20Services-1.pdf"
+          },
+          {
+            "name": "Healthcare Professional License Renewal Guideline",
+            "url": "https://www.dhcc.ae/gallery/Healthcare%20Professional%20License%20Renewal%20Guideline.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Licensure Requirements for Physicians and Dentists Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/Licensure%20Requirements%20for%20Physicians%20and%20Dentists.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Standards for Licensed Nursing Professionals",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Standards%20for%20Licensed%20Nursing%20Professionals.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Allied Health Professionals Scope of Practice",
+            "url": "https://www.dhcc.ae/gallery/Allied%20Health%20Professionals%20Scope%20of%20Practice.pdf"
+          },
+          {
+            "name": "Licensure Requirements for Allied Health Professionals Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/Licensure%20Requirements%20for%20Allied%20Health%20Professionals%20Guidance%20for%20Applicants.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Licensure Requirements for Faculty Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Licensure%20Requirements%20for%20Faculty%20Guidance%20for%20Applicants.pdf"
+          },
+          {
+            "name": "CONDUCTING APPROVED CPD TRAINING COURSES THROUGH ONLINE OR E-LEARNING",
+            "url": "https://www.dhcc.ae/gallery/CONDUCTING%20APPROVED%20CPD%20TRAINING%20COURSES%20THROUGH%20ONLINE%20OR%20E-LEARNING.pdf"
+          },
+          {
+            "name": "COVID19_HomeIsolationGuidelines_v15",
+            "url": "https://www.dhcc.ae/gallery/COVID19_HomeIsolationGuidelines_v15.pdf"
+          },
+          {
+            "name": "Quarantine and Isolation Guideline_Issue2_V6",
+            "url": "https://www.dhcc.ae/gallery/Quarantine%20and%20Isolation%20Guideline_Issue2_V6.pdf"
+          },
+          {
+            "name": "COVID19_PatientPathwayVisual_v7",
+            "url": "https://www.dhcc.ae/gallery/COVID19_PatientPathwayVisual_v7.pdf"
+          },
+          {
+            "name": "COVID19_PatientPathway_v16",
+            "url": "https://www.dhcc.ae/gallery/COVID19_PatientPathway_v16.pdf"
+          },
+          {
+            "name": "ZAWEL Guidelines",
+            "url": "https://www.dhcc.ae/gallery/ZAWEL%20Guidelines.pdf"
+          },
+          {
+            "name": "Sharps Management Guideline",
+            "url": "https://www.dhcc.ae/gallery/Sharps%20Management%20Guideline.pdf"
+          },
+          {
+            "name": "Hand Hygiene Guidelines",
+            "url": "https://www.dhcc.ae/gallery/Hand%20Hygiene%20Guidelines.pdf"
+          },
+          {
+            "name": "Standard Precautions Guidelines",
+            "url": "https://www.dhcc.ae/gallery/Standard%20Precautions%20Guidelines.pdf"
+          },
+          {
+            "name": "Standards for Platelet Rich Plasma (PRP) Services",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Platelet%20Rich%20Plasma%20(PRP)%20Services.pdf"
+          },
+          {
+            "name": "Identification and Management of Emergency Services in Outpatient Care Settings",
+            "url": "https://www.dhcc.ae/gallery/Identification%20and%20Management%20of%20Emergency%20Services%20in%20Outpatient%20Care%20Settings.pdf"
+          },
+          {
+            "name": "DHCA HSE Infection Control and Preparedness Plan for COVID19",
+            "url": "https://www.dhcc.ae/gallery/DHCA%20HSE%20Infection%20Control%20and%20Preparedness%20Plan%20for%20COVID19.pdf"
+          },
+          {
+            "name": "Dental Services Standards",
+            "url": "https://www.dhcc.ae/gallery/Dental%20Services%20Standards.pdf"
+          },
+          {
+            "name": "Standards for Chemotherapy Services",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Chemotherapy%20Services.pdf"
+          },
+          {
+            "name": "Guideline to prepare Business Plan for DHCC Clinical Facilities",
+            "url": "https://www.dhcc.ae/gallery/Guideline%20to%20prepare%20Business%20Plan%20for%20DHCC%20Clinical%20Facilities.pdf"
+          },
+          {
+            "name": "Clinical Program Guide for DHCC Clinical Facilities",
+            "url": "https://www.dhcc.ae/gallery/Clinical%20Program%20Guide%20for%20DHCC%20Clinical%20Facilities.pdf"
+          },
+          {
+            "name": "Licensure Requirements for Trainee Professionals- Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/Licensure%20Requirements%20for%20Trainee%20Professionals-%20Guidance%20for%20Applicants.pdf"
+          },
+          {
+            "name": "Licensing Exam Guide for Healthcare",
+            "url": "https://www.dhcc.ae/gallery/DHCA%20Licensing%20Exam%20Guide%20for%20Professionals.pdf"
+          },
+          {
+            "name": "Licensure Requirements for Nursing Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/Nursing%20Licensure%20Requirements.pdf"
+          },
+          {
+            "name": "Standards for Procedural Sedation and Analgesia",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Procedural%20Sedation%20and%20Analgesia.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Requirements for Short-Term Physician Licensure",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Requirements%20for%20Short-Term%20Physician%20Licensure.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Pharmacy Standards",
+            "url": "https://www.dhcc.ae/gallery/Pharmacy%20Standards.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Standards for Non-Surgical Cosmetic Procedures",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Non-Surgical%20Cosmetic%20Procedures.pdf"
+          },
+          {
+            "name": "Standards for Licensed Home Healthcare Services",
+            "url": "https://www.dhcc.ae/gallery/Standard%20for%20License%20Home%20Healthcare%20Services.pdf"
+          },
+          {
+            "name": "Standards for Outpatient Surgical Clinics",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Outpatient%20Surgical%20Clinics.pdf"
+          },
+          {
+            "name": "Standard for Outpatient Clinical Services",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Outpatient%20Clinical%20Services.pdf"
+          },
+          {
+            "name": "Standards for Renal Dialysis Services",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Renal%20Dialysis.pdf"
+          },
+          {
+            "name": "Standards for Sleep Medicine",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Sleep%20medicine.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Licensing Requirements for General Aesthetic Medicine v2",
+            "url": "https://www.dhcc.ae/gallery/327.%20DHCR%20Licensing%20Requirements%20for%20General%20Aesthetic%20Medicine%20v2.pdf"
+          },
+          {
+            "name": "General Licensing Requirements for Healthcare Professionals- Guideline",
+            "url": "https://www.dhcc.ae/gallery/General%20Licensing%20Requirements%20for%20Healthcare%20Professionals-%20Guideline.pdf"
+          },
+          {
+            "name": "Life Support DHCA - Regulations Policy and Guideline.pdf",
+            "url": "https://www.dhcc.ae/gallery/Life%20Support%20DHCR%20Policy%20and%20Guideline-1.pdf"
+          },
+          {
+            "name": "DHCC Hair Transplant Service Standard.pdf",
+            "url": "https://www.dhcc.ae/gallery/DHCC%20Hair%20Transplant%20Service%20Standard.pdf"
+          },
+          {
+            "name": "Standards for Clinical Laboratory Services.pdf",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Clinical%20Laboratory%20Services.pdf"
+          },
+          {
+            "name": "Health, Safety and Environment Manual Handing Guideline.pdf",
+            "url": "https://www.dhcc.ae/gallery/Health,%20Safety%20and%20Environment%20Manual%20Handing%20Guideline.pdf"
+          },
+          {
+            "name": "Health and Safety Community Guidelines.pdf",
+            "url": "https://www.dhcc.ae/gallery/Health%20and%20Safety%20Community%20Guidelines.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Waste Management Guideline",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Waste%20Guideline.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Hazard Material Guideline",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Hazard%20Material%20Guideline.pdf"
+          },
+          {
+            "name": "Hands-On Non Credit Training.pdf",
+            "url": "https://www.dhcc.ae/gallery/Hands-On%20Non%20Credit%20Training.pdf"
+          },
+          {
+            "name": "Continuing Professional Development Standard",
+            "url": "https://www.dhcc.ae/gallery/Continuing%20Professional%20Development%20Standard.pdf"
+          },
+          {
+            "name": "HSE FAQ No Smoking Policy",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20FAQ_No%20Smoking%20Policy_2018.pdf"
+          },
+          {
+            "name": "Standards for Complementary and Alternative Medicine",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Complimentary%20and%20Alternative%20Medicine%20%20(CAM)%20Standards%20SD-HCO-001-01.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE Fire and Life Safety Preparedness Guidelines for the Document",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Fire%20Life%20Safety%20Preparedness%20Guidelines.pdf"
+          },
+          {
+            "name": "Research Permit Guide for Operators",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20ResearchPermitGuide%20for%20Operators.pdf"
+          },
+          {
+            "name": "Research Permit Guide for Operators",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20%20Research%20Permit%20Operators%20Guide.pdf"
+          },
+          {
+            "name": "Approved Practice Setting Standards",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Approved%20Practice%20Setting%20Standards.pdf"
+          },
+          {
+            "name": "SOP - Isssuance of New Non Clinical Operating permit.pdf",
+            "url": "https://www.dhcc.ae/gallery/SOP%20-%20Isssuance%20of%20New%20Non%20Clinical%20Operating%20permit.pdf"
+          },
+          {
+            "name": "Standards for Medical Clinical Director for Healthcare Operators",
+            "url": "https://www.dhcc.ae/gallery/Standards%20for%20Medical%20Clinical%20Director%20for%20Healthcare%20Operators.pdf"
+          },
+          {
+            "name": "Violations Schedule Related to the Hygiene and Maintenance Standards for Properties and Public Areas",
+            "url": "https://www.dhcc.ae/gallery/3-%20Violations%20Schedule%20Related%20to%20the%20Hygiene%20and%20Maintenance%20Standards%20for%20Properties%20and%20Public%20Areas.pdf"
+          },
+          {
+            "name": "Licensure Requirements for Complementary & Alternative Medicine (CAM) Professionals Guidance for Applicants",
+            "url": "https://www.dhcc.ae/gallery/CAM%20licensure%20Guidelines.pdf"
+          },
+          {
+            "name": "Ramadan Permit Guidelines",
+            "url": "https://www.dhcc.ae/gallery/Ramadan%20Permit%20Guidelines.pdf"
+          },
+          {
+            "name": "Ramadan permit step by step guide",
+            "url": "https://www.dhcc.ae/gallery/Ramadan%20permit%20step%20by%20step%20guide.pdf"
+          },
+          {
+            "name": "Quick Reference Guide-Research in DHCC",
+            "url": "https://www.dhcc.ae/gallery/Quick%20Reference%20Guide-Research%20in%20DHCC.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Education Permit Operators Guide",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20EducationPermit%20Operators%20Guide.pdf"
+          },
+          {
+            "name": "DHCA - Regulations Definitions and Abbreviations",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Definitions%20and%20Abbreviations.pdf"
+          },
+          {
+            "name": "DHCA - Regulations GSO Client Handbook",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20GSO%20Client%20Handbook.pdf"
+          },
+          {
+            "name": "ROC Client Handbook",
+            "url": "https://www.dhcc.ae/gallery/ROC%20Client%20Handbook.pdf"
+          },
+          {
+            "name": "Nominee Shareholding working paper",
+            "url": "https://www.dhcc.ae/gallery/Nominee%20Shareholding%20working%20paper.pdf"
+          },
+          {
+            "name": "Safety update of a pharmaceutical product Tetralysal 300mg Hard Capsules",
+            "url": "https://www.dhcc.ae/gallery/Tetralysal%20300mg%20Hard%20Capsules%20%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%20%D8%B9%D9%84%D9%89%20%D9%85%D9%86%D8%AA%D8%AC%20%D8%B7%D8%A8%D9%8A-1.pdf"
+          },
+          {
+            "name": "Labelling update regarding the use of non-steroidal anti-inflammatory drugs (NSAIDs) beyond 20 weeks of pregnancy",
+            "url": "https://www.dhcc.ae/gallery/(NSAIDs)%20beyond%2020%20weeks%20of%20pregnancy%20%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-1.pdf"
+          },
+          {
+            "name": "Recall & change shelf life date on the Pharmaceutical Product label Xiidra (Lifitegrast) 5% Ophthalmic solution",
+            "url": "https://www.dhcc.ae/gallery/Xiidra%20(Lifitegrast)%205%20%20%D8%B3%D8%AD%D8%A8%20%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%20%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%20%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1%20%D8%B9%D9%84%D9%89%20%D9%85%D9%84%D8%B5%D9%82%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A-1.pdf"
+          },
+          {
+            "name": "Medical device Voluntary recall from the manufacturer basixALPHA™ Inflation Device",
+            "url": "https://www.dhcc.ae/gallery/basixALPHA%E2%84%A2%20Inflation%20Device%20%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D9%84%D9%88%D8%B3%D9%8A%D9%84%D8%A9%20%D8%B7%D8%A8%D9%8A%D8%A9-1.pdf"
+          },
+          {
+            "name": "Lifting the Suspension of the Product Amlopress (Amlodipine) 5mg Capsules",
+            "url": "https://www.dhcc.ae/gallery/Amlopress%20(Amlodipine)%205mg%20Capsules%20%D8%B1%D9%81%D8%B9%20%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%201.pdf"
+          },
+          {
+            "name": "قرار وزاري رقم 99 لسنة 2021في شأن اجراءات و ضوابط اصطحاب المنتجات الطبية مع المسافرين القادمين إلى الدولة",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%20%D9%88%20%D8%B1%D9%82%D9%85%2099%20%D9%84%D8%B3%D9%86%D8%A9%202021%20%D9%82%D8%B1%D8%A7%D8%B1%20%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D8%A7%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA%20%D9%88%D8%B6%D9%88%D8%A7%D8%A8%D8%B7%20%D8%A7%D8%B5%D8%B7%D8%AD%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9%20%D9%85%D8%B9%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1%D9%8A%D9%86%20%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D9%8A%D9%86%20%D8%A7%D9%84%D9%89%20%20%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9.pdf"
+          },
+          {
+            "name": "Batch Recall of Medical Device (Jelonet 5x5cm)",
+            "url": "https://www.dhcc.ae/gallery/Batch%20Recall%20of%20Medical%20Device%20(Jelonet%205x5cm).pdf"
+          },
+          {
+            "name": "Safety Alerts for Medical Device for CPAP and Bi-Level PAP Devices",
+            "url": "https://www.dhcc.ae/gallery/Safety%20Alerts%20for%20Medical%20Device%20for%20CPAP%20and%20Bi-Level%20PAP%20Devices.pdf"
+          },
+          {
+            "name": "Safety Alerts for Medical Device of (LeadCareII, LeadCare Plus and LeadCare Ultra Blood Lead Tests)",
+            "url": "https://www.dhcc.ae/gallery/Safety%20Alerts%20for%20Medical%20Device%20of%20(LeadCareII,%20LeadCare%20Plus%20and%20LeadCare%20Ultra%20Blood%20Lead%20Tests).pdf"
+          },
+          {
+            "name": "cobas u pack تقارير السلامة-1",
+            "url": "https://www.dhcc.ae/gallery/cobas%20u%20pack%20%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-1.pdf"
+          },
+          {
+            "name": "Dialysis Access and Adult Chest Tube Tray and Fistula On Off Kit and Fistula (On Off All in One bag) تقارير السلامة لوسيلة طبية-",
+            "url": "https://www.dhcc.ae/gallery/Dialysis%20Access%20and%20Adult%20Chest%20Tube%20Tray%20and%20Fistula%20On%20Off%20Kit%20and%20Fistula%20(On%20Off%20All%20in%20One%20bag)%20%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D9%84%D9%88%D8%B3%D9%8A%D9%84%D8%A9%20%D8%B7%D8%A8%D9%8A%D8%A9-.pdf"
+          },
+          {
+            "name": "IMBRUVICAتحذير - 1- 1",
+            "url": "https://www.dhcc.ae/gallery/IMBRUVICA%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%20-%201-%201.pdf"
+          },
+          {
+            "name": "Salburamol - Medpharma 6952 تعميم اداري - تحذير على المادة الدوائية",
+            "url": "https://www.dhcc.ae/gallery/Salburamol%20-%20Medpharma%206952%20%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A%20-%20%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A6%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "تعميم - Saizen® 8 mg ml سحب تشغيلتين",
+            "url": "https://www.dhcc.ae/gallery/%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20-%20Saizen%C2%AE%208%20mg%20ml%20%D8%B3%D8%AD%D8%A8%20%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D8%AA%D9%8A%D9%86.pdf"
+          },
+          {
+            "name": "تقارير السلامة للوسائل الطبية - سحب تشغيله من المنتج الطبي - Vertebroplasty needle kit-1",
+            "url": "https://www.dhcc.ae/gallery/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9%20%D9%84%D9%84%D9%88%D8%B3%D8%A7%D8%A6%D9%84%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9%20-%20%D8%B3%D8%AD%D8%A8%20%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%87%20%D9%85%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%20-%20Vertebroplasty%20needle%20kit-1.pdf"
+          },
+          {
+            "name": "Baxter Renal Care Products Lots Recall - تعميم خارجي",
+            "url": "https://www.dhcc.ae/gallery/Baxter%20Renal%20Care%20Products%20Lots%20Recall%20-%20%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A.pdf"
+          },
+          {
+            "name": "تعميم خارجي - سحب وتعليق Omiz Plus 20 40mg Capsule",
+            "url": "https://www.dhcc.ae/gallery/%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%20-%20%D8%B3%D8%AD%D8%A8%20%D9%88%D8%AA%D8%B9%D9%84%D9%8A%D9%82%20Omiz%20Plus%2020%2040mg%20Capsule.pdf"
+          },
+          {
+            "name": "تعميم خارجي - محاليل العدسات اللاصقة",
+            "url": "https://www.dhcc.ae/gallery/%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%20-%20%D9%85%D8%AD%D8%A7%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B9%D8%AF%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D9%84%D8%A7%D8%B5%D9%82%D8%A9.pdf"
+          },
+          {
+            "name": "تعميم رقم 1176 لسنة 2021 آلية الحصول على الموافقة التسويقية لاستيراد وصرف المنتجات الطبية التي تحتوي على زيت القنب CBD OIL",
+            "url": "https://www.dhcc.ae/gallery/%D8%AA%D8%B9%D9%85%D9%8A%D9%85%20%D8%B1%D9%82%D9%85%201176%20%D9%84%D8%B3%D9%86%D8%A9%202021%20%D8%A2%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82%D9%8A%D8%A9%20%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF%20%D9%88%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AA%D9%8A%20%D8%AA%D8%AD%D8%AA%D9%88%D9%8A%20%D8%B9%D9%84%D9%89%20%D8%B2%D9%8A%D8%AA%20%D8%A7%D9%84%D9%82%D9%86%D8%A8%20CBD%20OIL.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (83) لسنة 2020 بشأن النظام الإمارتي لمنتجات الحماية الصحية الشخصية",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(83)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%AA%D9%8A%20%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "قرار وزاري رقم (14) لسنة 2021",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(14)%20%D9%84%D8%B3%D9%86%D8%A9%202021.pdf"
+          },
+          {
+            "name": "القرار الوزاري رقم (380) لسنة 2020 في شأن قائمة معدات الوقاية الشخصية المستخدمة للوقاية من فيروس كوفيد19",
+            "url": "https://www.dhcc.ae/gallery/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(380)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D9%82%D8%A7%D8%A6%D9%85%D8%A9%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%88%D9%82%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D8%A9%20%D9%84%D9%84%D9%88%D9%82%D8%A7%D9%8A%D8%A9%20%D9%85%D9%86%20%D9%81%D9%8A%D8%B1%D9%88%D8%B3%20%D9%83%D9%88%D9%81%D9%8A%D8%AF19.pdf"
+          },
+          {
+            "name": "قانون اتحادي رقم (13) لسنة 2020 بشان الصحة العامة",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%20%D8%B1%D9%82%D9%85%20(13)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A7%D9%86%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9.pdf"
+          },
+          {
+            "name": "القرا2020ر الوزاري رقم (382) لسنة",
+            "url": "https://www.dhcc.ae/gallery/%D8%A7%D9%84%D9%82%D8%B1%D8%A72020%D8%B1%20%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(382)%20%D9%84%D8%B3%D9%86%D8%A9.pdf"
+          },
+          {
+            "name": "اصدار قرار الوزاري رقم (364) لسنة 2020 بشأن تشكيل لجنة خاصة بالسلائف الكيميائية",
+            "url": "https://www.dhcc.ae/gallery/%D8%A7%D8%B5%D8%AF%D8%A7%D8%B1%20%D9%82%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(364)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%AA%D8%B4%D9%83%D9%8A%D9%84%20%D9%84%D8%AC%D9%86%D8%A9%20%D8%AE%D8%A7%D8%B5%D8%A9%20%D8%A8%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%A6%D9%81%20%D8%A7%D9%84%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A6%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "Nonsteroidal Anti Inflammatory Drugs (NSAIDs) Drug Safety Communication",
+            "url": "https://www.dhcc.ae/gallery/Nonsteroidal%20Anti%20Inflammatory%20Drugs%20(NSAIDs)%20Drug%20Safety%20Communication.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم 67 لسنة 2020",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%2067%20%D9%84%D8%B3%D9%86%D8%A9%202020.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (58) لسنة 2020 بشأن تنظيم إجراءات المستفيد الحقيقي",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(58)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D9%8A.pdf"
+          },
+          {
+            "name": "Cabinet Resolution 58-2020 Regulating Beneficial Owner procedures",
+            "url": "https://www.dhcc.ae/gallery/Cabinet%20Resolution%2058-2020%20Regulating%20Beneficial%20Owner%20procedures.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم 63 لسنة 2020 (003)",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%2063%20%D9%84%D8%B3%D9%86%D8%A9%202020%20(003).pdf"
+          },
+          {
+            "name": "م قرار مجلس الوزراء رقم (64) لسنة 2020",
+            "url": "https://www.dhcc.ae/gallery/%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(64)%20%D9%84%D8%B3%D9%86%D8%A9%202020.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (59) لسنة 2020 في شأن تتبع ورصد الأدوية",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(59)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D8%AA%D8%AA%D8%A8%D8%B9%20%D9%88%D8%B1%D8%B5%D8%AF%20%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "قرار الوزاري رقم (321) لسنة 2020",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(321)%20%D9%84%D8%B3%D9%86%D8%A9%202020.pdf"
+          },
+          {
+            "name": "ق و 271 لسنة 2020 اعتماد دليل الأمن البيولوجي في المختبرات المرفق بالقرار",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%20%D9%88%20271%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%A3%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A8%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B1%D9%81%D9%82%20%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1.pdf"
+          },
+          {
+            "name": "25 - june دليل الأمن البيولوجي - النسخة النهائية",
+            "url": "https://www.dhcc.ae/gallery/25%20-%20june%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%A3%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A%20-%20%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9%20%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "ق و 253 لسنة 2020 ضوابط وقواعد وصف وصرف بعض الأدوية المراقبة 1",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%20%D9%88%20253%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%B6%D9%88%D8%A7%D8%A8%D8%B7%20%D9%88%D9%82%D9%88%D8%A7%D8%B9%D8%AF%20%D9%88%D8%B5%D9%81%20%D9%88%D8%B5%D8%B1%D9%81%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9%20%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9%201.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (32) لسنة 2020 بشأن اللائحة التنفيذية للقانون الاتحادي رقم (2) لسنة 2019 في شأن استخدام تقنية المعلومات والاتصالات في المجالات الصحية",
+            "url": "https://www.dhcc.ae/gallery/%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%20%D8%B1%D9%82%D9%85%20(2)%20%D9%84%D8%B3%D9%86%D8%A9%202019%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%20%D8%AA%D9%82%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم 28 لسنة 2020 في شأن السجل الوطني للسرطان",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%2028%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D8%B3%D8%AC%D9%84%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%20%D9%84%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86.pdf"
+          },
+          {
+            "name": "Dubai Health Authority_Management of Stable COVID-19 Cases",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Health%20Authority_Management%20of%20Stable%20COVID-19%20Cases.pdf"
+          },
+          {
+            "name": "القرار الوزاري رقم (242) لسنة 2020",
+            "url": "https://www.dhcc.ae/gallery/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%20%D8%B1%D9%82%D9%85%20(242)%20%D9%84%D8%B3%D9%86%D8%A9%202020.pdf"
+          },
+          {
+            "name": "Dubai Municipality Provisional Guidelines for Food Establishments in Dubai 24 April",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality_Provisional%20Guidelines%20for%20Food%20Establishments%20in%20Dubai_24%20April.pdf"
+          },
+          {
+            "name": "Dubai Municipality Circular Food Establishments Partial Reopening Phase 23 April",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality_Circular_Food%20Establishments%20Partial%20Reopening%20Phase%20_23%20April.pdf"
+          },
+          {
+            "name": "National Guidelines for Clinical Management and Treatment of COVID-19_v3.1_English",
+            "url": "https://www.dhcc.ae/gallery/National%20Guidelines%20for%20Clinical%20Management%20and%20Treatment%20of%20COVID-19_v3.1_English.pdf"
+          },
+          {
+            "name": "National Guidelines for Clinical Management and Treatment of COVID-19_v3_English",
+            "url": "https://www.dhcc.ae/gallery/National%20Guidelines%20for%20Clinical%20Management%20and%20Treatment%20of%20COVID-19_v3_English.pdf"
+          },
+          {
+            "name": "Circular_DHA_Emergency Cases referred by DCAS to Private Hospitals",
+            "url": "https://www.dhcc.ae/gallery/Circular_DHA_Emergency%20Cases%20referred%20by%20DCAS%20to%20Private%20Hospitals.pdf"
+          },
+          {
+            "name": "Ministry of Economy Circular on Anti Money Laundering Enforcement",
+            "url": "https://www.dhcc.ae/gallery/Ministry%20of%20Economy%20Circular%20on%20Anti%20Money%20Laundering%20Enforcement.pdf"
+          },
+          {
+            "name": "National Guidelines_Process Map_COVID-19",
+            "url": "https://www.dhcc.ae/gallery/National%20Guidelines_Process%20Map_COVID-19.pdf"
+          },
+          {
+            "name": "National Guidelines for Clinical Management and Treatment of COVID-19_v2_English",
+            "url": "https://www.dhcc.ae/gallery/National%20Guidelines%20for%20Clinical%20Management%20and%20Treatment%20of%20COVID-19_v2_English.pdf"
+          },
+          {
+            "name": "قرارمجلس الوزراء (15)لسنة 2020 في شأن نظام الفحص الطبي لحديثي الولادة",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20(15)%D9%84%D8%B3%D9%86%D8%A9%202020%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%81%D8%AD%D8%B5%20%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%20%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D9%8A%20%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9.pdf"
+          },
+          {
+            "name": "UAE Public Prosecution Attorney General Decision (No. 38 of 2020)",
+            "url": "https://www.dhcc.ae/gallery/UAE%20Public%20Prosecution%20Attorney%20General%20Decision%20(No.%2038%20of%202020).pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (25) لسنة 2020 بشأن اللائحة التنفيذية في شأن تنظيم نقل و زراعة الأعضاء و الأنسجة البشرية.pdf",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(25)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%B4%D8%A3%D9%86%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D9%86%D9%82%D9%84%20%D9%88%20%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%88%20%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (24) لسنة 2020 بشأن نشر و تبادل المعلومات الصحية الخاصة بالأمراض السارية و الأوبئة.pdf",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(24)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%B4%D8%A3%D9%86%20%D9%86%D8%B4%D8%B1%20%D9%88%20%D8%AA%D8%A8%D8%A7%D8%AF%D9%84%20%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B3%D8%A7%D8%B1%D9%8A%D8%A9%20%D9%88%20%D8%A7%D9%84%D8%A3%D9%88%D8%A8%D8%A6%D8%A9.pdf"
+          },
+          {
+            "name": "Updated Case Definition for COVID-19 as of 30 March",
+            "url": "https://www.dhcc.ae/gallery/Updated%20Case%20Definition%20for%20COVID-19%20as%20of%2030%20March.pdf"
+          },
+          {
+            "name": "Circular_DHA Volunteering Initiative Be a Volunteer with Health Heroes",
+            "url": "https://www.dhcc.ae/gallery/Circular_DHA%20Volunteering%20Initiative%20Be%20a%20Volunteer%20with%20Health%20Heroes.pdf"
+          },
+          {
+            "name": "Circular_DHA Volunteering Initiative_Registration Steps",
+            "url": "https://www.dhcc.ae/gallery/Circular_DHA%20Volunteering%20Initiative_Registration%20Steps.pdf"
+          },
+          {
+            "name": "MOHAP_Ministerial Resolution No. 230 of 2020 for HCPs to work in all health authorities Arabic",
+            "url": "https://www.dhcc.ae/gallery/MOHAP_Ministerial%20Resolution%20No.%20230%20of%202020%20for%20HCPs%20to%20work%20in%20all%20health%20authorities_Arabic.pdf"
+          },
+          {
+            "name": "Chronic Patients Access to Medications",
+            "url": "https://www.dhcc.ae/gallery/Chronic%20Patients%20Access%20to%20Medications.pdf"
+          },
+          {
+            "name": "Precautions taken for Covid 19 for Goverment and Private Pharmacies",
+            "url": "https://www.dhcc.ae/gallery/Precautions%20taken%20for%20Covid%2019%20for%20Goverment%20and%20Private%20Pharmacies.pdf"
+          },
+          {
+            "name": "Patient Access to Controlled Medications",
+            "url": "https://www.dhcc.ae/gallery/Patient%20Access%20to%20Controlled%20Medications.pdf"
+          },
+          {
+            "name": "PD 02-2020 V2",
+            "url": "https://www.dhcc.ae/gallery/PD%2002-2020%20V2.pdf"
+          },
+          {
+            "name": "Circular 1222",
+            "url": "https://www.dhcc.ae/gallery/Circular%201222.pdf"
+          },
+          {
+            "name": "SCD TO POM LIST 20-01-2020",
+            "url": "https://www.dhcc.ae/gallery/SCD%20TO%20POM%20LIST%2020-01-2020.pdf"
+          },
+          {
+            "name": "ق و رقم 1019 لسنة 2019 اعادة تصنيف الأدوية شبه المراقبة",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%20%D9%88%20%D8%B1%D9%82%D9%85%201019%20%D9%84%D8%B3%D9%86%D8%A9%202019%20%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%AA%D8%B5%D9%86%D9%8A%D9%81%20%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9%20%D8%B4%D8%A8%D9%87%20%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9.pdf"
+          },
+          {
+            "name": "Dubai Municipality_Provisional Guidelines related to Food Safety Management in Dubai_Arabic",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality_Provisional%20Guidelines%20related%20to%20Food%20Safety%20Management%20in%20Dubai_Arabic.pdf"
+          },
+          {
+            "name": "National Guidelines for Clinical Management and Treatment of COVID-19_English",
+            "url": "https://www.dhcc.ae/gallery/National%20Guidelines%20for%20Clinical%20Management%20and%20Treatment%20of%20COVID-19_English.pdf"
+          },
+          {
+            "name": "Dubai Municipality_Temporarily Closure of Restaurants and Cafes in Dubai_billingual",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality_Temporarily%20Closure%20of%20Restaurants%20and%20Cafes%20in%20Dubai_billingual.pdf"
+          },
+          {
+            "name": "Dubai Municipality_Provisional Guidelines related to Food Safety Management in Dubai_English",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality_Provisional%20Guidelines%20related%20to%20Food%20Safety%20Management%20in%20Dubai_English.pdf"
+          },
+          {
+            "name": "Guidelines for Management of 2019-nCoV",
+            "url": "https://www.dhcc.ae/gallery/Guidelines%20for%20Management%20of%202019-nCoV.PDF"
+          },
+          {
+            "name": "Dubai Health Authority_Elective & Non-urgent Surgical Procedures",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Health%20Authority_Elective%20and%20Non-urgent%20Surgical%20Procedures.pdf"
+          },
+          {
+            "name": "Dubai Municipality Circular_Food Establishments",
+            "url": "https://www.dhcc.ae/gallery/Dubai%20Municipality%20Circular_Food%20Establishments.pdf"
+          },
+          {
+            "name": "قرار مجلس الوزراء رقم (6) لسنة 2020 باعتماد ضوابط عمل مراكز تخزين دم حبل السرة والخلايا الجذعية",
+            "url": "https://www.dhcc.ae/gallery/%D9%82%D8%B1%D8%A7%D8%B1%20%D9%85%D8%AC%D9%84%D8%B3%20%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1%20%D8%B1%D9%82%D9%85%20(6)%20%D9%84%D8%B3%D9%86%D8%A9%202020%20%D8%A8%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF%20%D8%B6%D9%88%D8%A7%D8%A8%D8%B7%20%D8%B9%D9%85%D9%84%20%D9%85%D8%B1%D8%A7%D9%83%D8%B2%20%D8%AA%D8%AE%D8%B2%D9%8A%D9%86%20%D8%AF%D9%85%20%D8%AD%D8%A8%D9%84%20%D8%A7%D9%84%D8%B3%D8%B1%D8%A9%20%D9%88%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AC%D8%B0%D8%B9%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "SCD TO POM LIST 22-01-2020",
+            "url": "https://www.dhcc.ae/gallery/SCD%20TO%20POM%20LIST%2022-01-2020.pdf"
+          },
+          {
+            "name": "circular attachments",
+            "url": "https://www.dhcc.ae/gallery/circular%20attachments.pdf"
+          },
+          {
+            "name": "Pathway of Noval Coronavirus suspected case - DHA",
+            "url": "https://www.dhcc.ae/gallery/Pathway%20of%20Noval%20Coronavirus%20suspected%20case%20-%20DHA.PDF"
+          },
+          {
+            "name": "External Circular - Novel Coronavirus 2019",
+            "url": "https://www.dhcc.ae/gallery/External%20Circular%20-%20Novel%20Coronavirus%202019%20-%20alert.pdf"
+          },
+          {
+            "name": "Isoniazid",
+            "url": "https://www.dhcc.ae/gallery/Isoniazid.pdf"
+          },
+          {
+            "name": "Neuroveen Respitrol Thyroveev and Compulsin Hellolife",
+            "url": "https://www.dhcc.ae/gallery/Neuroveen%20%20Respitrol%20Thyroveev%20and%20Compulsin%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Hellolife.pdf"
+          },
+          {
+            "name": "[Untitled]",
+            "url": "https://www.dhcc.ae/gallery/[Untitled].pdf"
+          },
+          {
+            "name": "SGL T2 Inhibitors for Diabetes",
+            "url": "https://www.dhcc.ae/gallery/SGL%20T2%20Inhibitors%20for%20Diabetes.pdf"
+          },
+          {
+            "name": "Probasics Brand ZZZ Mask SG Full face CPAP Mask Compass Health",
+            "url": "https://www.dhcc.ae/gallery/Probasics%20Brand%20ZZZ%20Mask%20SG%20Full%20face%20CPAP%20Mask%20Compass%20Health%20(1).pdf"
+          },
+          {
+            "name": "Neuroveen Respitrol Thyroveev and Compulsin Hellolife",
+            "url": "https://www.dhcc.ae/gallery/Neuroveen%20Respitrol%20Thyroveev%20and%20Compulsin%20Hellolife%20(1).pdf"
+          },
+          {
+            "name": "Durex Real Feel Synthetic Latex",
+            "url": "https://www.dhcc.ae/gallery/Durex%20Real%20Feel%20Synthetic%20Latex.pdf"
+          },
+          {
+            "name": "Biotin and Vitamin B7",
+            "url": "https://www.dhcc.ae/gallery/Biotin%20and%20Vitamin%20B7.pdf"
+          },
+          {
+            "name": "Homeopathic Spray Weight-Living Well Remedies",
+            "url": "https://www.dhcc.ae/gallery/Homeopathic%20Spray%20Weight-Living%20Well%20Remedies.pdf"
+          },
+          {
+            "name": "Nature Plus Vitamin A 10000 IU",
+            "url": "https://www.dhcc.ae/gallery/Nature%20Plus%20Vitamin%20A%2010000%20IU%20(1).pdf"
+          },
+          {
+            "name": "Womens Nature Bounty your life multi with Vit D3 1000IU",
+            "url": "https://www.dhcc.ae/gallery/Womens%20Nature%20Bounty%20your%20life%20multi%20with%20Vit%20D3%201000IU.pdf"
+          },
+          {
+            "name": "AMS Colla caps high strength hydrolsed collagen with vitamin C tablet",
+            "url": "https://www.dhcc.ae/gallery/AMS%20Colla%20caps%20high%20strength%20hydrolsed%20collagen%20with%20vitamin%20C%20tablet%20(1).pdf"
+          },
+          {
+            "name": "Big penis male sexual stimulat",
+            "url": "https://www.dhcc.ae/gallery/Big%20penis%20male%20sexual%20stimulat%20(1).pdf"
+          },
+          {
+            "name": "Tiger King Traditional Chinesemedicine",
+            "url": "https://www.dhcc.ae/gallery/Tiger%20King%20Traditional%20Chinesemedicine%20(1).pdf"
+          },
+          {
+            "name": "Vitamin B12 1000 ug Natures aid",
+            "url": "https://www.dhcc.ae/gallery/Vitamin%20B12%201000%20ug%20Natures%20aid%20(1).pdf"
+          },
+          {
+            "name": "Chineses Products 3800mgx2",
+            "url": "https://www.dhcc.ae/gallery/Chineses%20Products%203800mgx2%20(1).pdf"
+          },
+          {
+            "name": "Austrlia imported Australia Instinct",
+            "url": "https://www.dhcc.ae/gallery/Austrlia%20imported%20Australia%20Instinct%20(1).pdf"
+          },
+          {
+            "name": "My Favorite Mutiple Energizer Multivitamin Tablets",
+            "url": "https://www.dhcc.ae/gallery/My%20Favorite%20Mutiple%20Energizer%20Multivitamin%20Tablets%20(1).pdf"
+          },
+          {
+            "name": "Wellness all Natural sugar and Caffeine free memory support",
+            "url": "https://www.dhcc.ae/gallery/Wellness%20all%20Natural%20sugar%20and%20Caffeine%20free%20memory%20support%20(1).pdf"
+          },
+          {
+            "name": "Country Life Selenium",
+            "url": "https://www.dhcc.ae/gallery/Country%20Life%20Selenium%20(1).pdf"
+          },
+          {
+            "name": "Black Cohosh Natures Plus Herbel Actives",
+            "url": "https://www.dhcc.ae/gallery/Black%20Cohosh%20Natures%20Plus%20Herbel%20Actives%20(1).pdf"
+          },
+          {
+            "name": "Ginseng Kianpi Pil Capsules",
+            "url": "https://www.dhcc.ae/gallery/Ginseng%20Kianpi%20Pil%20Capsules%20(1).pdf"
+          },
+          {
+            "name": "Ginseng for reinforcing kidney tablet",
+            "url": "https://www.dhcc.ae/gallery/Ginseng%20for%20reinforcing%20kidney%20tablet%20(1).pdf"
+          },
+          {
+            "name": "Carlson Norwegian",
+            "url": "https://www.dhcc.ae/gallery/Carlson%20Norwegian%20(1).pdf"
+          },
+          {
+            "name": "American Technique Paiyouji Pack",
+            "url": "https://www.dhcc.ae/gallery/American%20Technique%20Paiyouji%20Pack%20(1).pdf"
+          },
+          {
+            "name": "Super Slimming Herb",
+            "url": "https://www.dhcc.ae/gallery/Super%20Slimming%20Herb%20(1).pdf"
+          },
+          {
+            "name": "Aztec Indian Healing Clay Deep",
+            "url": "https://www.dhcc.ae/gallery/Aztec%20Indian%20Healing%20Clay%20Deep%20(1).pdf"
+          },
+          {
+            "name": "Botanical Beverage HEDSOL Solution",
+            "url": "https://www.dhcc.ae/gallery/Botanical%20Beverage%20HEDSOL%20Solution%20(1).pdf"
+          },
+          {
+            "name": "Fortijuce Nutricia High Energy Orange Flavour",
+            "url": "https://www.dhcc.ae/gallery/Fortijuce%20Nutricia%20High%20Energy%20Orange%20Flavour%20(1).pdf"
+          },
+          {
+            "name": "Optrimax Jelly",
+            "url": "https://www.dhcc.ae/gallery/Optrimax%20Jelly.pdf"
+          },
+          {
+            "name": "Trans Vaginal Mesh",
+            "url": "https://www.dhcc.ae/gallery/Trans%20Vaginal%20Mesh.pdf"
+          },
+          {
+            "name": "Atezolizumab",
+            "url": "https://www.dhcc.ae/gallery/Atezolizumab.pdf"
+          },
+          {
+            "name": "Valsartan Hetero Labs Ltd",
+            "url": "https://www.dhcc.ae/gallery/Valsartan%20Hetero%20Labs%20Ltd.pdf"
+          },
+          {
+            "name": "MAGIC CHOCLATE",
+            "url": "https://www.dhcc.ae/gallery/MAGIC%20CHOCLATE.pdf"
+          },
+          {
+            "name": "GLYNASE 5mg Tablet",
+            "url": "https://www.dhcc.ae/gallery/GLYNASE%205mg%20Tablet.pdf"
+          },
+          {
+            "name": "Mebzol 100mg Tablets",
+            "url": "https://www.dhcc.ae/gallery/Mebzol%20100mg%20Tablets.pdf"
+          },
+          {
+            "name": "Fluoroquinolones",
+            "url": "https://www.dhcc.ae/gallery/Fluoroquinolones.pdf"
+          },
+          {
+            "name": "V M PLUS CAPSULE",
+            "url": "https://www.dhcc.ae/gallery/V%20M%20PLUS%20CAPSULE.pdf"
+          },
+          {
+            "name": "TONGAT ALI POWER CAPSULES",
+            "url": "https://www.dhcc.ae/gallery/TONGAT%20ALI%20POWER%20CAPSULES.pdf"
+          },
+          {
+            "name": "PENA TROPIN CAPSULES",
+            "url": "https://www.dhcc.ae/gallery/PENA%20TROPIN%20CAPSULES.pdf"
+          },
+          {
+            "name": "Hamer Ginseng and Coffee Candy",
+            "url": "https://www.dhcc.ae/gallery/Hamer%20Ginseng%20and%20Coffee%20Candy.pdf"
+          },
+          {
+            "name": "Aneeza Saffron Cream",
+            "url": "https://www.dhcc.ae/gallery/Aneeza%20Saffron%20Cream.pdf"
+          },
+          {
+            "name": "5150 Workout supplement",
+            "url": "https://www.dhcc.ae/gallery/5150%20Workout%20supplement.pdf"
+          },
+          {
+            "name": "X- Again Platinum",
+            "url": "https://www.dhcc.ae/gallery/X-%20Again%20Platinum.pdf"
+          },
+          {
+            "name": "Valsartan Zhejiang Huabai Pharmaceutical",
+            "url": "https://www.dhcc.ae/gallery/Valsartan%20Zhejiang%20Huabai%20Pharmaceutical.pdf"
+          },
+          {
+            "name": "Triple Maximum Thunder Bull.111",
+            "url": "https://www.dhcc.ae/gallery/Triple%20Maximum%20Thunder%20Bull.111.pdf"
+          },
+          {
+            "name": "Stamina9.111",
+            "url": "https://www.dhcc.ae/gallery/Stamina9.111.pdf"
+          },
+          {
+            "name": "Savage Cuts",
+            "url": "https://www.dhcc.ae/gallery/Savage%20Cuts.pdf"
+          },
+          {
+            "name": "SARM CENTER GW- 1516 Andarine",
+            "url": "https://www.dhcc.ae/gallery/SARM%20CENTER%20GW-%201516%20Andarine.pdf"
+          },
+          {
+            "name": "Psychotic Workout Supplement",
+            "url": "https://www.dhcc.ae/gallery/Psychotic%20Workout%20Supplement.pdf"
+          },
+          {
+            "name": "Plasmajet Workout supplement",
+            "url": "https://www.dhcc.ae/gallery/Plasmajet%20Workout%20supplement.pdf"
+          },
+          {
+            "name": "Pink Pussycat",
+            "url": "https://www.dhcc.ae/gallery/Pink%20Pussycat.pdf"
+          },
+          {
+            "name": "Nutrakey Yohimbine HCI",
+            "url": "https://www.dhcc.ae/gallery/Nutrakey%20Yohimbine%20HCI.pdf"
+          },
+          {
+            "name": "Nuclear Workout supplement",
+            "url": "https://www.dhcc.ae/gallery/Nuclear%20Workout%20supplement.pdf"
+          },
+          {
+            "name": "Machete Pills",
+            "url": "https://www.dhcc.ae/gallery/Machete%20Pills%20(1).pdf"
+          },
+          {
+            "name": "Lipo6 Black",
+            "url": "https://www.dhcc.ae/gallery/Lipo6%20Black.pdf"
+          },
+          {
+            "name": "HorsePower.111",
+            "url": "https://www.dhcc.ae/gallery/HorsePower.111.pdf"
+          },
+          {
+            "name": "Goree Beauty Cream With Lycopene",
+            "url": "https://www.dhcc.ae/gallery/Goree%20Beauty%20Cream%20With%20Lycopene.pdf"
+          },
+          {
+            "name": "Gold Lion",
+            "url": "https://www.dhcc.ae/gallery/Gold%20Lion.pdf"
+          },
+          {
+            "name": "Fluffy Unicorn",
+            "url": "https://www.dhcc.ae/gallery/Fluffy%20Unicorn.pdf"
+          },
+          {
+            "name": "Bravo for Him.111",
+            "url": "https://www.dhcc.ae/gallery/Bravo%20for%20Him.111.pdf"
+          },
+          {
+            "name": "Animal Test Workout supplment",
+            "url": "https://www.dhcc.ae/gallery/Animal%20Test%20Workout%20supplment.pdf"
+          },
+          {
+            "name": "Promatrix Yohim - B Active",
+            "url": "https://www.dhcc.ae/gallery/Promatrix%20Yohim%20-%20B%20Active.pdf"
+          },
+          {
+            "name": "I am God Workout supplement",
+            "url": "https://www.dhcc.ae/gallery/I%20am%20God%20Workout%20supplement.pdf"
+          },
+          {
+            "name": "dolutegravir",
+            "url": "https://www.dhcc.ae/gallery/dolutegravir.pdf"
+          },
+          {
+            "name": "JM103 andJM105 Jaundice Meters Draeger Medical Systems",
+            "url": "https://www.dhcc.ae/gallery/JM103%20andJM105%20Jaundice%20Meters%20Draeger%20Medical%20Systems.pdf"
+          },
+          {
+            "name": "Accu-Check Aviva, Accu-Check Performa and Accu-Check Inform II Test Strips - Roche Diabetes Care",
+            "url": "https://www.dhcc.ae/gallery/Accu-Check%20Aviva,%20Accu-Check%20Performa%20and%20Accu-Check%20Inform%20II%20Test%20Strips%20-%20Roche%20Diabetes%20Care.pdf"
+          },
+          {
+            "name": "EIF-000256 - Various Arrow Products - Arrow International CO Telefelx Medical",
+            "url": "https://www.dhcc.ae/gallery/EIF-000256%20-%20Various%20Arrow%20Products%20-%20Arrow%20International%20CO%20Telefelx%20Medical.pdf"
+          },
+          {
+            "name": "Co-Tritace 5-12.5 mg Tablet - Sanofi",
+            "url": "https://www.dhcc.ae/gallery/Co-Tritace%205-12.5%20mg%20Tablet%20-%20Sanofi.pdf"
+          },
+          {
+            "name": "Coral AMT Neck Trials Sugrical Instruments - DePuv Synthes",
+            "url": "https://www.dhcc.ae/gallery/Coral%20AMT%20Neck%20Trials%20Sugrical%20Instruments%20-%20DePuv%20Synthes.pdf"
+          },
+          {
+            "name": "Claradone Ointment - Modern Pharmaceutical",
+            "url": "https://www.dhcc.ae/gallery/Claradone%20Ointment%20-%20Modern%20Pharmaceutical.pdf"
+          },
+          {
+            "name": "announcement on Nipah outbreak in Kerala state of india",
+            "url": "https://www.dhcc.ae/gallery/announcement%20on%20Nipah%20outbreak%20in%20Kerala%20state%20of%20india.pdf"
+          },
+          {
+            "name": "Roche Diabetes Care",
+            "url": "https://www.dhcc.ae/gallery/Roche%20Diabetes%20Care.pdf"
+          },
+          {
+            "name": "Keytruda pembrolizumab tecentrig atlzolizumap",
+            "url": "https://www.dhcc.ae/gallery/Kevtruda%20%208373.pdf"
+          },
+          {
+            "name": "Harmonic ACE+ Shears with Adaptive Tissues Technonlogy 23 CM and 36 CM Ethicon by Johnsom and Johnson",
+            "url": "https://www.dhcc.ae/gallery/Harmonic%20Ace.pdf"
+          },
+          {
+            "name": "Falgyl 200 and 400",
+            "url": "https://www.dhcc.ae/gallery/Falgyl%20200%20and%20400.pdf"
+          },
+          {
+            "name": "MindFrame Capture LP Revascularization Device",
+            "url": "https://www.dhcc.ae/gallery/MindFrame%20Capture%20LP%20Revascularization%20Device.pdf"
+          },
+          {
+            "name": "AuroMedics Pharma-Ampicillin and Sulbactam for Injection USP",
+            "url": "https://www.dhcc.ae/gallery/AuroMedics%20Pharma-Ampicillin%20and%20Sulbactam%20for%20Injection%20USP.pdf"
+          },
+          {
+            "name": "Piperacillin and Tazobactam for Injection, USP3.375 g Vials AuroMedics Pharma",
+            "url": "https://www.dhcc.ae/gallery/Piperacillin%20and%20Tazobactam%20for%20Injection,%20USP3.375%20g%20Vials%20AuroMedics%20Pharma.pdf"
+          },
+          {
+            "name": "7K and Poseidon 4500 Shoreside Enterprise",
+            "url": "https://www.dhcc.ae/gallery/7K%20and%20Poseidon%204500%20Shoreside%20Enterprise.pdf"
+          },
+          {
+            "name": "HSE Waste Disposal Alert",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Waste%20Disposal%20Alert_2018.pdf"
+          },
+          {
+            "name": "Bella All Natural.1",
+            "url": "https://www.dhcc.ae/gallery/Bella%20All%20Natural.1.pdf"
+          },
+          {
+            "name": "3M Gulf ltd11",
+            "url": "https://www.dhcc.ae/gallery/3M%20Gulf%20ltd11.pdf"
+          },
+          {
+            "name": "SHEDFAT.1",
+            "url": "https://www.dhcc.ae/gallery/SHEDFAT.1.pdf"
+          },
+          {
+            "name": "HSE Adverse Weather",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Adverse%20Weather_2018.pdf"
+          },
+          {
+            "name": "MAJESTIC HERBAL",
+            "url": "https://www.dhcc.ae/gallery/MAJESTIC%20HERBAL.pdf"
+          },
+          {
+            "name": "Golden Bull Don Viga",
+            "url": "https://www.dhcc.ae/gallery/Golden%20Bull%20Don%20Viga.pdf"
+          },
+          {
+            "name": "Yalan Cream- Slimming Body Capsule Plus- Hao Meng Specific Wipe off Flec",
+            "url": "https://www.dhcc.ae/gallery/Yalan%20Cream-%20Slimming%20Body%20Capsule%20Plus-%20Hao%20Meng%20Specific%20Wipe%20off%20Flec.pdf"
+          },
+          {
+            "name": "Philips Volcano1",
+            "url": "https://www.dhcc.ae/gallery/Philips%20Volcano1.pdf"
+          },
+          {
+            "name": "Rawinnip1",
+            "url": "https://www.dhcc.ae/gallery/Rawinnip1.pdf"
+          },
+          {
+            "name": "Becton.pd1",
+            "url": "https://www.dhcc.ae/gallery/Becton.pd1.pdf"
+          },
+          {
+            "name": "Controlled and Semi Controlled",
+            "url": "https://www.dhcc.ae/gallery/Controlled%20and%20Semi%20Controlled.pdf"
+          },
+          {
+            "name": "Alaris Eternal Syringe Pump and Asena Eternsl Syring Pump",
+            "url": "https://www.dhcc.ae/gallery/Alaris%20Eternal%20Syringe%20Pump%20and%20Asena%20Eternsl%20Syring%20Pump.pdf"
+          },
+          {
+            "name": "BLINCYTO",
+            "url": "https://www.dhcc.ae/gallery/BLINCYTO.pdf"
+          },
+          {
+            "name": "BD MAX",
+            "url": "https://www.dhcc.ae/gallery/BD%20MAX.pdf"
+          },
+          {
+            "name": "Whitening products",
+            "url": "https://www.dhcc.ae/gallery/Whitening%20products.pdf"
+          },
+          {
+            "name": "Paracetol",
+            "url": "https://www.dhcc.ae/gallery/Paracetol.pdf"
+          },
+          {
+            "name": "MOM Hip replacement",
+            "url": "https://www.dhcc.ae/gallery/MOM%20Hip%20replacement.pdf"
+          },
+          {
+            "name": "Carestation Anethesia systems",
+            "url": "https://www.dhcc.ae/gallery/Carestation%20Anethesia%20systems.pdf"
+          },
+          {
+            "name": "Sherb Detox Capsule",
+            "url": "https://www.dhcc.ae/gallery/Sherb%20Detox%20Capsule.pdf"
+          },
+          {
+            "name": "Dermovate",
+            "url": "https://www.dhcc.ae/gallery/Dermovate.pdf"
+          },
+          {
+            "name": "Sevoflurane",
+            "url": "https://www.dhcc.ae/gallery/Sevoflurane.pdf"
+          },
+          {
+            "name": "Keytruda",
+            "url": "https://www.dhcc.ae/gallery/Keytruda.pdf"
+          },
+          {
+            "name": "Intra-Aortic Balloon Pumps",
+            "url": "https://www.dhcc.ae/gallery/Intra-Aortic%20Balloon%20Pumps.pdf"
+          },
+          {
+            "name": "Hospira",
+            "url": "https://www.dhcc.ae/gallery/Hospira.pdf"
+          },
+          {
+            "name": "Diabetes Infusion Sets",
+            "url": "https://www.dhcc.ae/gallery/Diabetes%20Infusion%20Sets.pdf"
+          },
+          {
+            "name": "Launch of new online service for DCCA Standard Structural Inspection requests",
+            "url": "https://www.dhcc.ae/gallery/DCCA-Circular-257-Launch-of-new-online-service-for-DCCA-Standard-Structural-Inspection-requests.pdf"
+          },
+          {
+            "name": "Amgen2",
+            "url": "https://www.dhcc.ae/gallery/Amgen2.pdf"
+          },
+          {
+            "name": "Amgen",
+            "url": "https://www.dhcc.ae/gallery/Amgen.pdf"
+          },
+          {
+            "name": "Requirement of Contractor Pre-Qualification Certificate",
+            "url": "https://www.dhcc.ae/gallery/Circular-253-Requirement-of-Contractor-Pre-Qualification-Certificate-2.pdf"
+          },
+          {
+            "name": "DHCA - Regulations-Notice-MOH-Circulars-Recall-of-Nine-Products",
+            "url": "https://www.dhcc.ae/gallery/DHCR-Notice-MOH-Circulars-Recall-of-Nine-Products.pdf"
+          },
+          {
+            "name": "Lactlis International",
+            "url": "https://www.dhcc.ae/gallery/Lactlis%20International.pdf"
+          },
+          {
+            "name": "Updated Building Code for Guardrails for Accessible elevated areas and Openable Windows",
+            "url": "https://www.dhcc.ae/gallery/Circular-239-Septemer-29-2016-Updated-Building-Code-for-Guardrails-for-Accessible-elevated-areas-and-Openable-Windows.pdf"
+          },
+          {
+            "name": "RERA NOC Submission",
+            "url": "https://www.dhcc.ae/gallery/RERA%20NOC%20Submission.pdf"
+          },
+          {
+            "name": "Circular - Ramadan (DHCC)",
+            "url": "https://www.dhcc.ae/gallery/Circular%20-%20Ramadan%20(DHCC).pdf"
+          },
+          {
+            "name": "Soil report review request",
+            "url": "https://www.dhcc.ae/gallery/circular-179-may-2-2011-soil-report-review-request.pdf"
+          },
+          {
+            "name": "Usage of payvement and road verge",
+            "url": "https://www.dhcc.ae/gallery/circular-176-usage-of-pavements-and-road-verge-Edited-2.pdf"
+          },
+          {
+            "name": "Submission timing and structural inspections",
+            "url": "https://www.dhcc.ae/gallery/circular-169-july-8-2010-submission-timing-and-structural-inspections.pdf"
+          },
+          {
+            "name": "Site plan",
+            "url": "https://www.dhcc.ae/gallery/circular-168-july-4-2010-site-plan.pdf"
+          },
+          {
+            "name": "External appearance of the building",
+            "url": "https://www.dhcc.ae/gallery/Circular-165-External-appearance-of-the-Bldg.pdf"
+          },
+          {
+            "name": "Revised application form",
+            "url": "https://www.dhcc.ae/gallery/circular-163-march-15-2010-revised-forms.pdf"
+          },
+          {
+            "name": "CD labelling for all submissions",
+            "url": "https://www.dhcc.ae/gallery/circular-164-march-11-2010-cd-labeling.pdf"
+          },
+          {
+            "name": "Health, safety and enviroment passport training system for subcontrcators",
+            "url": "https://www.dhcc.ae/gallery/circular-162-january-24-2010-hse-passport-training-system-for-subcontractors-Edited.pdf"
+          },
+          {
+            "name": "Third party lifting equipment inspection bodies",
+            "url": "https://www.dhcc.ae/gallery/circular-161-january-17-2010-third-party-lifting-equipment-inspection-bodies-Edited.pdf"
+          },
+          {
+            "name": "dewatering noc application process",
+            "url": "https://www.dhcc.ae/gallery/circular-157-november-5-2009-dewatering-noc-application-process-Edited.pdf"
+          },
+          {
+            "name": "Approval of subcontractors working under our jurisdiction",
+            "url": "https://www.dhcc.ae/gallery/circular-156-november-3-2009-approval-of-subcontractors-working-under-our-jurisdiction-Edited.pdf"
+          },
+          {
+            "name": "Temporary construction permit",
+            "url": "https://www.dhcc.ae/gallery/circular-155-august-9-2009-temporary-construction-permit-Edited.pdf"
+          },
+          {
+            "name": "Registration process- revised",
+            "url": "https://www.dhcc.ae/gallery/circular-154-august-3-2009-registration-process-revised.pdf"
+          },
+          {
+            "name": "Building permit renewal process",
+            "url": "https://www.dhcc.ae/gallery/circular-152-july-5-2009-building-permit-renewal-process.pdf"
+          },
+          {
+            "name": "collection of documents from the customer service",
+            "url": "https://www.dhcc.ae/gallery/circular-150-june-23-2009-collection-of-documents-from-the-customer-service.pdf"
+          },
+          {
+            "name": "Enforcement of Health, safety and enviroment passport training system",
+            "url": "https://www.dhcc.ae/gallery/circular-149-june-23-2009-hse-passport-training-system-Edited.pdf"
+          },
+          {
+            "name": "fire fighting centrelized and liquified petroelum gas sysetm",
+            "url": "https://www.dhcc.ae/gallery/circular-143-april-23-2009-fire-fighting-and-centralised-liquefied-petroleum-gas-systems-Edited.pdf"
+          },
+          {
+            "name": "Warning-Lights-on-high-rise-buildings-and-cranes",
+            "url": "https://www.dhcc.ae/gallery/Circular-144-HSE-Warning-Lights-on-high-rise-buildings-and-cranes.pdf"
+          },
+          {
+            "name": "Catering services at project sites",
+            "url": "https://www.dhcc.ae/gallery/circular-140-march-29-2009-catering-services-at-project-sites-Edited-1.pdf"
+          },
+          {
+            "name": "sub contractor and suppliers management",
+            "url": "https://www.dhcc.ae/gallery/Circular-138-Subcontractor-Supplier-Management.pdf"
+          },
+          {
+            "name": "revised completion certificate application",
+            "url": "https://www.dhcc.ae/gallery/circular-137-march-22-2009-revised-building-completion-certificate-application.pdf"
+          },
+          {
+            "name": "Health, safety and enviroment passport system",
+            "url": "https://www.dhcc.ae/gallery/circular-135-march-11-2009-hse-passport-system-Edited.pdf"
+          },
+          {
+            "name": "damages of infrastructural work- rectifying process",
+            "url": "https://www.dhcc.ae/gallery/circular-133-february-8-2009-damage-to-infrastructure-works-rectification-process-Edited-1.pdf"
+          },
+          {
+            "name": "Suspension of projects/sites works",
+            "url": "https://www.dhcc.ae/gallery/circular-129-january-25-2009-suspension-of-projects-site-works.pdf"
+          },
+          {
+            "name": "Project Health, safety and enviroment plan",
+            "url": "https://www.dhcc.ae/gallery/circular-128-january-12-2009-hse-plan-Edited-1.pdf"
+          },
+          {
+            "name": "smoking prohibition at project site",
+            "url": "https://www.dhcc.ae/gallery/circular-127january-12-2009-hse-smoking-prohibition-at-project-site-Edited-1.pdf"
+          },
+          {
+            "name": "Health,Safety and Environment Passport System",
+            "url": "https://www.dhcc.ae/gallery/circular-126-january-07-2009-hse-passport-system-Edited1.pdf"
+          },
+          {
+            "name": "Renewal of Temporary Site Accommodation and Canteen",
+            "url": "https://www.dhcc.ae/gallery/Circular-124-HSE-Renewal-of-temporary-site-accommodation-canteen.pdf"
+          },
+          {
+            "name": "Zoning Authority HSE Applications",
+            "url": "https://www.dhcc.ae/gallery/circular-123-december-25-2008-hse-zoning-authority-hse-applications-Edited.pdf"
+          },
+          {
+            "name": "Temporary driver site license for moving equipment",
+            "url": "https://www.dhcc.ae/gallery/circular-119-october-23-2008-hse-temporary-driver-site-license-for-moving-equipment-Edited.pdf"
+          },
+          {
+            "name": "Fire preventation at construction sites at basement area",
+            "url": "https://www.dhcc.ae/gallery/Circular-118-HSE-Firee-prevention-at-construction-sties-in-basement-area.pdf"
+          },
+          {
+            "name": "Area calculation standard",
+            "url": "https://www.dhcc.ae/gallery/Circular-114-Area-calculation-standards-Edited.pdf"
+          },
+          {
+            "name": "Traffic impact study",
+            "url": "https://www.dhcc.ae/gallery/Circular-116-TIS-1-Edited.pdf"
+          },
+          {
+            "name": "Increasing greenary within the zoning authority jurisdixtion",
+            "url": "https://www.dhcc.ae/gallery/Circular-112-Increase-Greenary-Landscaping-within-Zoning-Authority-Jurisdiction-Edited.pdf"
+          },
+          {
+            "name": "Tower crane safety requirments",
+            "url": "https://www.dhcc.ae/gallery/circular-110-july-20-2008-tower-crane-safety-requirements-Edited.pdf"
+          },
+          {
+            "name": "Health, safety and enviroment enforcement system- email address",
+            "url": "https://www.dhcc.ae/gallery/circular-108-july-7-2008-zoning-authority-hse-e-mail-address-Edited.pdf"
+          },
+          {
+            "name": "Health, safety and enviroment enforcement system",
+            "url": "https://www.dhcc.ae/gallery/circular-107-july-1-2008-hse-enforcement-system-Edited-1.pdf"
+          },
+          {
+            "name": "healthcare city Phase 1&2 hoarding detailes",
+            "url": "https://www.dhcc.ae/gallery/013-Hoarding-details-for-DHCC-1-2.pdf"
+          },
+          {
+            "name": "Building permit renewal",
+            "url": "https://www.dhcc.ae/gallery/circular-march-12-2008-building-permit-renewal.pdf"
+          },
+          {
+            "name": "consultant/contractor site superintendence",
+            "url": "https://www.dhcc.ae/gallery/circular-december-12-2007-consultant-contractor-site-superintendence-1.pdf"
+          },
+          {
+            "name": "fly dipping of excavated materials",
+            "url": "https://www.dhcc.ae/gallery/1877-Fly-tipping-of-excavated-material-other-site-materials.pdf"
+          },
+          {
+            "name": "Re-demarcation before casting of ground floor",
+            "url": "https://www.dhcc.ae/gallery/circular-september-11-2007-re-demarcation-before-casting-of-ground-floor-2007.pdf"
+          },
+          {
+            "name": "Fly tipping of excavated materials other site materials",
+            "url": "https://www.dhcc.ae/gallery/circular-june-14-2007-fly-tipping-of-excavated-materials-other-site-materials-2007-Edited.pdf"
+          },
+          {
+            "name": "competency with third party certificate",
+            "url": "https://www.dhcc.ae/gallery/circular-april-15-2007-competency-with-third-party-certificate-Edited.pdf"
+          },
+          {
+            "name": "Non compliance with regulations occupying the building prior to obtaining completion certificate",
+            "url": "https://www.dhcc.ae/gallery/non-compliance-with-regulations-occupying-hte-building-prior-to-obtaining-completion-certificate-1.pdf"
+          },
+          {
+            "name": "Personal fall arrest system",
+            "url": "https://www.dhcc.ae/gallery/circular-march-29-2007-personal-fall-arrest-system-Edited.pdf"
+          },
+          {
+            "name": "Fire prevention at high rise building",
+            "url": "https://www.dhcc.ae/gallery/circular-january-29-2007-fire-prevention-at-high-rise-building-2007-Edited.pdf"
+          },
+          {
+            "name": "Safety officer",
+            "url": "https://www.dhcc.ae/gallery/circular-november-30-2006-safety-officer-2006-Edited.pdf"
+          },
+          {
+            "name": "Dial a service for structural inspection",
+            "url": "https://www.dhcc.ae/gallery/circular-november-23-2006-dial-a-service-for-structural-inspection.pdf"
+          },
+          {
+            "name": "Consultant's HSE roles and responsibilities",
+            "url": "https://www.dhcc.ae/gallery/circular-october-19-2006-consultants-hse-roles-and-responsibilities-2006-Edited.pdf"
+          },
+          {
+            "name": "sign board (on tower crane) at dubai healthcare city",
+            "url": "https://www.dhcc.ae/gallery/circular-march-16-2006-dhcc-signboard-2006-Edited.pdf"
+          },
+          {
+            "name": "Infection prevention and control during health care when novel coronavir",
+            "url": "https://www.dhcc.ae/gallery/Infection%20prevention%20and%20control%20during%20health%20care%20when%20novel%20coronavir.pdf"
+          },
+          {
+            "name": "Surveillance case definitions for human infection with novel coronavirus",
+            "url": "https://www.dhcc.ae/gallery/Surveillance%20case%20definitions%20for%20human%20infection%20with%20novel%20coronavirus.pdf"
+          },
+          {
+            "name": "Laboratory testing of human suspected cases of novel",
+            "url": "https://www.dhcc.ae/gallery/Laboratory%20testing%20of%20human%20suspected%20cases%20of%20novel.pdf"
+          },
+          {
+            "name": "اجراءات التحكم في حالات حمى القرم الكونجو النزفية خلال موسم عيد الاضحى",
+            "url": "https://www.dhcc.ae/gallery/%D8%A7%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85%20%D9%81%D9%8A%20%D8%AD%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AD%D9%85%D9%89%20%D8%A7%D9%84%D9%82%D8%B1%D9%85%20%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%AC%D9%88%20%D8%A7%D9%84%D9%86%D8%B2%D9%81%D9%8A%D8%A9%20%D8%AE%D9%84%D8%A7%D9%84%20%D9%85%D9%88%D8%B3%D9%85%20%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B6%D8%AD%D9%89.pdf"
+          },
+          {
+            "name": "viral heamorhagic fever VHF circular الحميات النزفية تعميم",
+            "url": "https://www.dhcc.ae/gallery/viral%20heamorhagic%20fever%20VHF%20circular%20%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D8%B2%D9%81%D9%8A%D8%A9%20%D8%AA%D8%B9%D9%85%D9%8A%D9%85.pdf"
+          },
+          {
+            "name": "Allergan Textured Implants and Tissue Expanders",
+            "url": "https://www.dhcc.ae/gallery/Allergan%20Textured%20Implants%20and%20Tissue%20Expanders.pdf"
+          },
+          {
+            "name": "Fluroquinolone",
+            "url": "https://www.dhcc.ae/gallery/Fluroquinolone.pdf"
+          },
+          {
+            "name": "Coaguchek XS PT Test Strips",
+            "url": "https://www.dhcc.ae/gallery/Coaguchek%20XS%20PT%20Test%20Strips.pdf"
+          },
+          {
+            "name": "Standardized Critical Care Cases Notification and UAE Organ Brain Death Diagnosis Protocol",
+            "url": "https://www.dhcc.ae/gallery/Standardized%20Critical%20Care%20Cases%20Notification%20and%20UAE%20Organ%20Brain%20Death%20Diagnosis%20Protocol.pdf"
+          },
+          {
+            "name": "Leflocad 500mg 2412",
+            "url": "https://www.dhcc.ae/gallery/Leflocad%20500mg%202412.pdf"
+          },
+          {
+            "name": "Taxotere 20mg",
+            "url": "https://www.dhcc.ae/gallery/Taxotere%2020mg.pdf"
+          },
+          {
+            "name": "Dubai universal design code for people of determination",
+            "url": "https://www.dhcc.ae/gallery/DCCACircular-272-Dubai%20universal%20design%20code%20for%20people%20of%20determination.pdf"
+          },
+          {
+            "name": "Accesibility code for the built environment in the creative clusters",
+            "url": "https://www.dhcc.ae/gallery/DCCACircular-241-Accesibility%20code%20for%20the%20built%20environment%20in%20the%20creative%20clusters.pdf"
+          },
+          {
+            "name": "Health and safety measures in construction sites in advers weather conditions",
+            "url": "https://www.dhcc.ae/gallery/Circular268-1-%20health%20and%20safety.pdf"
+          },
+          {
+            "name": "Elements required for inclusion in all project HSE plans",
+            "url": "https://www.dhcc.ae/gallery/List-of-elements-of-HSE-Plan-ks-V2-Formatting.pdf"
+          },
+          {
+            "name": "Health, safety and enviroment plans",
+            "url": "https://www.dhcc.ae/gallery/HSE-231.pdf"
+          },
+          {
+            "name": "World health and safety day 2018",
+            "url": "https://www.dhcc.ae/gallery/Circular270.pdf"
+          },
+          {
+            "name": "Project safety officer approval application",
+            "url": "https://www.dhcc.ae/gallery/Circular269-2.pdf"
+          },
+          {
+            "name": "Varivax (Varicella) Lot Number M049746 - Merch SharpAndDohme corporation",
+            "url": "https://www.dhcc.ae/gallery/Varivax%20(Varicella)%20Lot%20Number%20M049746%20-%20Merch%20SharpAndDohme%20corporation.pdf"
+          },
+          {
+            "name": "Peptac 150MG Tablet",
+            "url": "https://www.dhcc.ae/gallery/Peptac%20150MG%20Tablet.pdf"
+          },
+          {
+            "name": "saizen powder",
+            "url": "https://www.dhcc.ae/gallery/saizen%20powder.pdf"
+          },
+          {
+            "name": "Opium",
+            "url": "https://www.dhcc.ae/gallery/Opium.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE - Sharps Management Education Material",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20-%20Sharps%20Management%20Education%20Material.pdf"
+          },
+          {
+            "name": "HSE Housekeeping and Waste Alert",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Housekeeping%20and%20Waste%20Alert.pdf"
+          },
+          {
+            "name": "HSE Fire and Life Safety Alert",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Fire%20and%20Life%20Safety%20Alert.pdf"
+          },
+          {
+            "name": "HSE Adverse Weather",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Adverse%20Weather_2018.pdf"
+          },
+          {
+            "name": "Clinical Facility Licensing service application",
+            "url": "https://www.dhcc.ae/gallery/Clinical%20Facility%20Licensing%20service%20application%20form.pdf"
+          },
+          {
+            "name": "DHCA - Financial Statement Template",
+            "url": "https://www.dhcc.ae/gallery/DHCA%20-%20Financial%20Statement%20Template.docx"
+          },
+          {
+            "name": "Professional Letter Request Form",
+            "url": "https://www.dhcc.ae/gallery/Professional%20Letter%20Request%20Form.docx"
+          },
+          {
+            "name": "DHCA - Regulations SpEcial Letter Request",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20Special%20Letter%20Request%20Form.docx"
+          },
+          {
+            "name": "DHCC outpatient clinic Sentinel event REPORTING Form",
+            "url": "https://www.dhcc.ae/gallery/Sentinel%20Event%20Form.docx"
+          },
+          {
+            "name": "Non Conformity Log - Form--.docx",
+            "url": "https://www.dhcc.ae/gallery/Non%20Conformity%20Log%20-%20Form--.docx"
+          },
+          {
+            "name": "Appendix 1- Pharmacy Quality Standard.pdf",
+            "url": "https://www.dhcc.ae/gallery/Appendix%201-%20Pharmacy%20Quality%20Standard.pdf"
+          },
+          {
+            "name": "Appendix 2- Pharmacy Quality Assessment Survey Scoring Rules.pdf",
+            "url": "https://www.dhcc.ae/gallery/Appendix%202-%20Pharmacy%20Quality%20Assessment%20Survey%20Scoring%20Rules.pdf"
+          },
+          {
+            "name": "AH scope of practice- COMMENT FORM.docx",
+            "url": "https://www.dhcc.ae/gallery/AH%20scope%20of%20practice-%20COMMENT%20FORM.docx"
+          },
+          {
+            "name": "Authorization Letter.pdf",
+            "url": "https://www.dhcc.ae/gallery/Authorization%20Letter.pdf"
+          },
+          {
+            "name": "HSE Fire PEEP Questionnaire.pdf",
+            "url": "https://www.dhcc.ae/gallery/HSE%20Fire%20PEEP%20Questionnaire.pdf"
+          },
+          {
+            "name": "Post Construction Compliance Checklist",
+            "url": "https://www.dhcc.ae/gallery/Post-Construction-Compliance-Checklist.pdf"
+          },
+          {
+            "name": "Compliance-Record-Folder-Checklist-for-Consultants-Contractors.pdf",
+            "url": "https://www.dhcc.ae/gallery/Compliance-Record-Folder-Checklist-for-Consultants-Contractors.pdf"
+          },
+          {
+            "name": "Withdrawal of Absconder Form.pdf",
+            "url": "https://www.dhcc.ae/gallery/Withdrawal%20of%20Absconder%20Form.pdf"
+          },
+          {
+            "name": "Food poisoning report form-public.docx",
+            "url": "https://www.dhcc.ae/gallery/Food%20poisoning%20report%20form-public.docx"
+          },
+          {
+            "name": "Food born illness investigation form.docx",
+            "url": "https://www.dhcc.ae/gallery/Food%20born%20illness%20investigation%20form.docx"
+          },
+          {
+            "name": "Final Settlement Form.pdf",
+            "url": "https://www.dhcc.ae/gallery/Final%20Settlement%20Form.pdf"
+          },
+          {
+            "name": "DHCC Excellence Awards - Entry Form.docx",
+            "url": "https://www.dhcc.ae/gallery/DHCC%20Excellence%20Awards%20-%20Entry%20Form.docx"
+          },
+          {
+            "name": "Declaration of Absconder Form.pdf",
+            "url": "https://www.dhcc.ae/gallery/Declaration%20of%20Absconder%20Form.pdf"
+          },
+          {
+            "name": "DHCA - Regulations HSE Incident Form.pdf",
+            "url": "https://www.dhcc.ae/gallery/DHCR%20HSE%20Incident%20Form.pdf"
           }
         ]
       }
