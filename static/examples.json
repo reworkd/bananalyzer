@@ -6893,24 +6893,56 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "La circulaire du Wali de Bank Al-Maghrib n° 1/W/2023 complétant la circulaire n°20/G/2006 relative au capital minimum ou la dotation minimum des établissements de crédit",
+            "name": "La circulaire du Wali de Bank Al-Maghrib n\u00b0 1/W/2023 compl\u00e9tant la circulaire n\u00b020/G/2006 relative au capital minimum ou la dotation minimum des \u00e9tablissements de cr\u00e9dit",
             "url": "https://www.bkam.ma/fr/content/download/778624/8690523/1:W:2023%20-%20Ciculaire%20n%C2%B0%201.pdf"
           },
           {
-            "name": "La circulaire du Wali de Bank Al-Maghrib n° 2/W/2023 relative aux conditions spécifiques applicable aux institutions de microfinance agréées en tant qu'établissement de crédit",
+            "name": "La circulaire du Wali de Bank Al-Maghrib n\u00b0 2/W/2023 relative aux conditions sp\u00e9cifiques applicable aux institutions de microfinance agr\u00e9\u00e9es en tant qu'\u00e9tablissement de cr\u00e9dit",
             "url": "https://www.bkam.ma/fr/content/download/778625/8690525/2:W:2023%20-%20Circulaire%20n%C2%B0%202.pdf"
           },
           {
-            "name": "La circulaire du Wali de Bank Al-Maghrib n° 3/W/2023 fixant les conditions et modalités d’application de l’article 9 de la loi n° 50-20 relative à la microfinance",
+            "name": "La circulaire du Wali de Bank Al-Maghrib n\u00b0 3/W/2023 fixant les conditions et modalit\u00e9s d\u2019application de l\u2019article 9 de la loi n\u00b0 50-20 relative \u00e0 la microfinance",
             "url": "https://www.bkam.ma/fr/content/download/778626/8690527/3:W:2023%20-%20Circulaire%20n%C2%B0%203.pdf"
           },
           {
-            "name": "La circulaire du Wali de Bank Al-Maghrib n° 4/W/2023 modifiant la circulaire n°3/W/2018 fixant les conditions spécifiques d’application aux associations de microfinance de certaines dispositions de la loi bancaire n°103-12 relative aux établissements de crédit et organismes assimilés",
+            "name": "La circulaire du Wali de Bank Al-Maghrib n\u00b0 4/W/2023 modifiant la circulaire n\u00b03/W/2018 fixant les conditions sp\u00e9cifiques d\u2019application aux associations de microfinance de certaines dispositions de la loi bancaire n\u00b0103-12 relative aux \u00e9tablissements de cr\u00e9dit et organismes assimil\u00e9s",
             "url": "https://www.bkam.ma/fr/content/download/778627/8690529/4:W:2023%20-%20Circulaire%20n%C2%B0%204.pdf"
           },
           {
-            "name": "La circulaire du Wali de Bank Al-Maghrib n° 5/W/2023 relative à la classification des créances détenues par les institutions de microfinance agréées en tant qu'établissement de crédit et à leur couverture par les provisions",
+            "name": "La circulaire du Wali de Bank Al-Maghrib n\u00b0 5/W/2023 relative \u00e0 la classification des cr\u00e9ances d\u00e9tenues par les institutions de microfinance agr\u00e9\u00e9es en tant qu'\u00e9tablissement de cr\u00e9dit et \u00e0 leur couverture par les provisions",
             "url": "https://www.bkam.ma/fr/content/download/778628/8690531/5:W:2023%20-%20Circulaire%20n%C2%B0%205.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9a018abb-2554-41d9-8431-2d1512c8f0de",
+    "url": "https://carc.gov.jo/en/rules/20",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "نظام رسوم الطيران المدني رقم (106) لسنة 2018",
+            "url": "https://carc.gov.jo/sites/default/files/2022-10/nzam-rswm-altyran-almdny.pdf"
+          },
+          {
+            "name": "Advanced Passenger Information for the year 2020",
+            "url": "https://carc.gov.jo/sites/default/files/2022-05/advanced-passenger-information-for-the-year-2020.pdf"
+          },
+          {
+            "name": "النظام المالي لهيئة تنظيم الطيران المدني.",
+            "url": "https://carc.gov.jo/sites/default/files/2021-06/071028financial.pdf"
+          },
+          {
+            "name": "Early Passenger Inquiry System No. 7 of 2020",
+            "url": "https://carc.gov.jo/sites/default/files/2021-04/BYLAWNO7OF2020ADVANCEDPASSENGERINFORMATION-arabic.pdf"
           }
         ]
       }
