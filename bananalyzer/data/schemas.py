@@ -20,6 +20,8 @@ GoalType = Literal[
     "multiple",  # Perform multiple intents
 ]
 
+AllowedJSON = Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
+
 
 class Eval(BaseModel):
     """
@@ -27,7 +29,7 @@ class Eval(BaseModel):
     """
 
     type: Literal["json_match", "end_url_match"] = "json_match"
-    expected: Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
+    expected: AllowedJSON
 
     def eval_action(self, action: str) -> bool:
         """
@@ -45,13 +47,20 @@ class Eval(BaseModel):
         ):
             return validate_field_match(self.expected, result, field)
 
-        if self.type == "json_match" and type(self.expected) is dict or type(self.expected) is list:
+        if (
+            self.type == "json_match"
+            and type(self.expected) is dict
+            or type(self.expected) is list
+        ):
             return validate_json_match(self.expected, result)
 
         if self.type == "end_url_match" and type(self.expected) is str:
             return validate_end_url_match(self.expected, page.url)
 
         raise NotImplementedError("No evaluation type implemented")
+
+
+FetchId = Literal["job_posting", "manufacturing_commerce", "contact", "forum"]
 
 
 class Example(BaseModel):
@@ -68,9 +77,7 @@ class Example(BaseModel):
     goal: Union[str, Dict[str, Any]] = Field(
         description="The goal of the agent for this specific example"
     )
-    fetch_id: Optional[
-        Literal["job_posting", "manufacturing_commerce", "contact", "forum"]
-    ] = Field(
+    fetch_id: Optional[FetchId] = Field(
         default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
     )
@@ -89,17 +96,17 @@ class Example(BaseModel):
         if goal_type != "fetch":
             return values
 
-        fetch_id = values.get("fetch_id")
+        fetch_id: Optional[FetchId] = values.get("fetch_id")
         goal = values.get("goal")
 
         if fetch_id is not None and goal is not None:
             raise ValueError("fetch_id and goal cannot both be provided")
 
-        if fetch_id is None and goal is None:
-            raise ValueError("fetch_id must be provided if goal is not provided")
-
-        if goal is not None:
+        if fetch_id is None and goal is not None:
             return values
+
+        if fetch_id is None:
+            raise ValueError("fetch_id must be provided if goal is not provided")
 
         values["goal"] = get_fetch_schema(fetch_id).model_fields
         return values
