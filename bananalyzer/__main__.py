@@ -317,7 +317,7 @@ def main() -> int:
             )
             res.raise_for_status()
 
-        return exit_code
+    return exit_code
 
 
 if __name__ == "__main__":
