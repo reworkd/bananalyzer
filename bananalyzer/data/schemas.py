@@ -8,6 +8,7 @@ from bananalyzer.runner.evals import (
     validate_end_url_match,
     validate_field_match,
     validate_json_match,
+    AllowedJSON,
 )
 
 GoalType = Literal[
@@ -19,8 +20,6 @@ GoalType = Literal[
     "search",  # Search for the answer to a specific query
     "multiple",  # Perform multiple intents
 ]
-
-AllowedJSON = Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
 
 
 class Eval(BaseModel):

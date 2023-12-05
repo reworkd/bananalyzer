@@ -1,11 +1,11 @@
 import json
 from difflib import SequenceMatcher
-from typing import Any, Dict
+from typing import Any, Dict, List, Union
 
 import pytest
 from deepdiff import DeepDiff
 
-from bananalyzer.data.schemas import AllowedJSON
+AllowedJSON = Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
 
 Result = Dict[str, Any]
 
