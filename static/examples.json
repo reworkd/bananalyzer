@@ -6869,12 +6869,48 @@
             "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/7/NotedeMadameLaMinistre.pdf"
           },
           {
-            "name": "Arrêté n ° 2021.21",
+            "name": "Arr\u00eat\u00e9 n \u00b0 2021.21",
             "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/4/ArreteN2021.21.pdf.pdf"
           },
           {
             "name": "Avis et demande",
             "url": "https://www.mem.gov.ma/Lists/Lst_Notes_Circulaires/Attachments/1/Avis%20et%20Demande.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76cfc5d1-5fd8-4d33-b78a-4bad590f7920",
+    "url": "https://www.bkam.ma/fr/Trouvez-l-information-concernant/Reglementation/Institution-de-microfinance-imf",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "La circulaire du Wali de Bank Al-Maghrib n° 1/W/2023 complétant la circulaire n°20/G/2006 relative au capital minimum ou la dotation minimum des établissements de crédit",
+            "url": "https://www.bkam.ma/fr/content/download/778624/8690523/1:W:2023%20-%20Ciculaire%20n%C2%B0%201.pdf"
+          },
+          {
+            "name": "La circulaire du Wali de Bank Al-Maghrib n° 2/W/2023 relative aux conditions spécifiques applicable aux institutions de microfinance agréées en tant qu'établissement de crédit",
+            "url": "https://www.bkam.ma/fr/content/download/778625/8690525/2:W:2023%20-%20Circulaire%20n%C2%B0%202.pdf"
+          },
+          {
+            "name": "La circulaire du Wali de Bank Al-Maghrib n° 3/W/2023 fixant les conditions et modalités d’application de l’article 9 de la loi n° 50-20 relative à la microfinance",
+            "url": "https://www.bkam.ma/fr/content/download/778626/8690527/3:W:2023%20-%20Circulaire%20n%C2%B0%203.pdf"
+          },
+          {
+            "name": "La circulaire du Wali de Bank Al-Maghrib n° 4/W/2023 modifiant la circulaire n°3/W/2018 fixant les conditions spécifiques d’application aux associations de microfinance de certaines dispositions de la loi bancaire n°103-12 relative aux établissements de crédit et organismes assimilés",
+            "url": "https://www.bkam.ma/fr/content/download/778627/8690529/4:W:2023%20-%20Circulaire%20n%C2%B0%204.pdf"
+          },
+          {
+            "name": "La circulaire du Wali de Bank Al-Maghrib n° 5/W/2023 relative à la classification des créances détenues par les institutions de microfinance agréées en tant qu'établissement de crédit et à leur couverture par les provisions",
+            "url": "https://www.bkam.ma/fr/content/download/778628/8690531/5:W:2023%20-%20Circulaire%20n%C2%B0%205.pdf"
           }
         ]
       }
