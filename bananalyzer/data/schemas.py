@@ -5,10 +5,10 @@ from pydantic import BaseModel, Field, model_validator
 
 from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.runner.evals import (
+    AllowedJSON,
     validate_end_url_match,
     validate_field_match,
     validate_json_match,
-    AllowedJSON,
 )
 
 GoalType = Literal[

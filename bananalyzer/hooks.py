@@ -69,6 +69,8 @@ class BananalyzerPytestPlugin:
             + terminalreporter.stats.get("failed", [])
             + terminalreporter.stats.get("error", [])
         ):
+            if not hasattr(test_result, "user_properties"):
+                continue
             for key, value in test_result.user_properties:
                 result_property = results.setdefault(key, {})
                 result_property_value = result_property.setdefault(value, {})
@@ -104,8 +106,8 @@ class BananalyzerPytestPlugin:
     @pytest.fixture(autouse=True)
     def add_user_properties(self, record_property, request) -> None:  # type: ignore
         for key, accessor in {
-            "field": lambda *_: request.node.callspec.params.get("key"),
             "class": lambda *_: request.cls.__name__,
+            "field": lambda *_: request.node.callspec.params.get("key"),
         }.items():
             try:
                 record_property(key, accessor())

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.6.15"
+version = "0.6.17"
 
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
@@ -13,7 +13,7 @@ bananalyze = "bananalyzer.__main__:main"
 python = "^3.11"
 playwright = "^1.39.0"
 pydantic = "^2.4.2"
-pytest-asyncio = "^0.23.2"
+pytest-asyncio = "^0.21.1"
 deepdiff = "^6.7.0"
 pytest-xdist = "^3.4.0"
 black = { extras = ["jupyter"], version = "^23.11.0" }
@@ -23,7 +23,6 @@ requests = "^2.31.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"
-pytest-asyncio = "^0.21.1"
 pytest-mock = "^3.11.1"
 pytest-cov = "^4.1.0"
 
@@ -31,7 +30,6 @@ pytest-cov = "^4.1.0"
 mypy = "^1.6.1"
 black = { extras = ["jupyter"], version = "^23.11.0" }
 types-requests = "^2.31.0.10"
-pytest-asyncio = "^0.21.1"
 isort = "^5.12.0"
 types-tabulate = "^0.9.0.3"
 

@@ -31,8 +31,9 @@ class NullAgentRunner(AgentRunner):
             example.evals[0].expected, str
         ):
             await page.goto(example.evals[0].expected)
+            return example.evals[0].expected
 
-        if example.type == "links":
+        if example.type == "links" or example.type == "links_fetch":
             return example.evals[0].expected
 
         copy = cast(dict[str, Any], example.evals[0].expected).copy()

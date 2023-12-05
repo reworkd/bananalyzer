@@ -3309,7 +3309,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3337,7 +3337,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3365,7 +3365,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3401,7 +3401,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3453,7 +3453,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3525,7 +3525,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3561,7 +3561,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3669,7 +3669,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3869,7 +3869,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -3965,7 +3965,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -4045,7 +4045,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the pdf documents on the current page",
+    "goal": "Fetch all of the links to the pdf documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
@@ -4149,7 +4149,7 @@
     "category": "education",
     "subcategory": "details",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, courseCode: string, url: string}",
+    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string, url: string}",
     "evals": [
       {
         "type": "json_match",
@@ -4157,523 +4157,523 @@
           {
             "title": "Social Issues and Communication Strategies in Computing Science",
             "units": "3",
-            "courseCode": "CMPT 105W",
+            "course_code": "CMPT 105W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming I",
             "units": "3",
-            "courseCode": "CMPT 120",
+            "course_code": "CMPT 120",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming II",
             "units": "3",
-            "courseCode": "CMPT 125",
+            "course_code": "CMPT 125",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Computing",
             "units": "3",
-            "courseCode": "CMPT 210",
+            "course_code": "CMPT 210",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Programming",
             "units": "3",
-            "courseCode": "CMPT 225",
+            "course_code": "CMPT 225",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Software Engineering",
             "units": "3",
-            "courseCode": "CMPT 276",
+            "course_code": "CMPT 276",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Systems",
             "units": "4",
-            "courseCode": "CMPT 295",
+            "course_code": "CMPT 295",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Discrete Mathematics I",
             "units": "3",
-            "courseCode": "MACM 101",
+            "course_code": "MACM 101",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Statistics for Computing Science",
             "units": "3",
-            "courseCode": "STAT 271",
+            "course_code": "STAT 271",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I with Review",
             "units": "4",
-            "courseCode": "MATH 150",
+            "course_code": "MATH 150",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I",
             "units": "3",
-            "courseCode": "MATH 151",
+            "course_code": "MATH 151",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences I",
             "units": "3",
-            "courseCode": "MATH 154",
+            "course_code": "MATH 154",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I for the Social Sciences",
             "units": "3",
-            "courseCode": "MATH 157",
+            "course_code": "MATH 157",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II",
             "units": "3",
-            "courseCode": "MATH 152",
+            "course_code": "MATH 152",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences II",
             "units": "3",
-            "courseCode": "MATH 155",
+            "course_code": "MATH 155",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II for the Social Sciences",
             "units": "3",
-            "courseCode": "MATH 158",
+            "course_code": "MATH 158",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Linear Algebra",
             "units": "3",
-            "courseCode": "MATH 232",
+            "course_code": "MATH 232",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra I: Linear Algebra",
             "units": "3",
-            "courseCode": "MATH 240",
+            "course_code": "MATH 240",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Professional Responsibility and Technical Writing",
             "units": "3",
-            "courseCode": "CMPT 376W",
+            "course_code": "CMPT 376W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
             "units": "3",
-            "courseCode": "CMPT 300",
+            "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
             "units": "3",
-            "courseCode": "CMPT 307",
+            "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
             "units": "3",
-            "courseCode": "MACM 316",
+            "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Artificial Intelligence",
             "units": "3",
-            "courseCode": "CMPT 310",
+            "course_code": "CMPT 310",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Biomedical Computing",
             "units": "3",
-            "courseCode": "CMPT 340",
+            "course_code": "CMPT 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Machine Learning",
             "units": "3",
-            "courseCode": "CMPT 410",
+            "course_code": "CMPT 410",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Knowledge Representation",
             "units": "3",
-            "courseCode": "CMPT 411",
+            "course_code": "CMPT 411",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Linguistics",
             "units": "3",
-            "courseCode": "CMPT 413",
+            "course_code": "CMPT 413",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Intelligent Systems",
             "units": "3",
-            "courseCode": "CMPT 417",
+            "course_code": "CMPT 417",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Artificial Intelligence",
             "units": "3",
-            "courseCode": "CMPT 419",
+            "course_code": "CMPT 419",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Deep Learning",
             "units": "3",
-            "courseCode": "CMPT 420",
+            "course_code": "CMPT 420",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Visual Computing",
             "units": "3",
-            "courseCode": "CMPT 361",
+            "course_code": "CMPT 361",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "User Interface Design",
             "units": "3",
-            "courseCode": "CMPT 363",
+            "course_code": "CMPT 363",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Multimedia Systems",
             "units": "3",
-            "courseCode": "CMPT 365",
+            "course_code": "CMPT 365",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Vision",
             "units": "3",
-            "courseCode": "CMPT 412",
+            "course_code": "CMPT 412",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Photography and Image Manipulation",
             "units": "3",
-            "courseCode": "CMPT 461",
+            "course_code": "CMPT 461",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Geometric Modelling in Computer Graphics",
             "units": "3",
-            "courseCode": "CMPT 464",
+            "course_code": "CMPT 464",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Animation",
             "units": "3",
-            "courseCode": "CMPT 466",
+            "course_code": "CMPT 466",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Visualization",
             "units": "3",
-            "courseCode": "CMPT 467",
+            "course_code": "CMPT 467",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Graphics",
             "units": "3",
-            "courseCode": "CMPT 469",
+            "course_code": "CMPT 469",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
             "units": "3",
-            "courseCode": "CMPT 300",
+            "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Simulation and Modelling",
             "units": "3",
-            "courseCode": "CMPT 305",
+            "course_code": "CMPT 305",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Communications and Networking",
             "units": "3",
-            "courseCode": "CMPT 371",
+            "course_code": "CMPT 371",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Principles of Compiler Design",
             "units": "3",
-            "courseCode": "CMPT 379",
+            "course_code": "CMPT 379",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "System Security and Privacy",
             "units": "3",
-            "courseCode": "CMPT 403",
+            "course_code": "CMPT 403",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Distributed Systems",
             "units": "3",
-            "courseCode": "CMPT 431",
+            "course_code": "CMPT 431",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Embedded Systems",
             "units": "3",
-            "courseCode": "CMPT 433",
+            "course_code": "CMPT 433",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Architecture",
             "units": "3",
-            "courseCode": "CMPT 450",
+            "course_code": "CMPT 450",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Networking II",
             "units": "3",
-            "courseCode": "CMPT 471",
+            "course_code": "CMPT 471",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Systems",
             "units": "3",
-            "courseCode": "CMPT 479",
+            "course_code": "CMPT 479",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Hardware",
             "units": "3",
-            "courseCode": "CMPT 499",
+            "course_code": "CMPT 499",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Data Science",
             "units": "3",
-            "courseCode": "CMPT 353",
+            "course_code": "CMPT 353",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems I",
             "units": "3",
-            "courseCode": "CMPT 354",
+            "course_code": "CMPT 354",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mobile Applications Programming and Design",
             "units": "3",
-            "courseCode": "CMPT 362",
+            "course_code": "CMPT 362",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web II - Server-side Development",
             "units": "3",
-            "courseCode": "CMPT 372",
+            "course_code": "CMPT 372",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Biology",
             "units": "3",
-            "courseCode": "CMPT 441",
+            "course_code": "CMPT 441",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems II",
             "units": "3",
-            "courseCode": "CMPT 454",
+            "course_code": "CMPT 454",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Information Retrieval and Web Search",
             "units": "3",
-            "courseCode": "CMPT 456",
+            "course_code": "CMPT 456",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Database Systems",
             "units": "3",
-            "courseCode": "CMPT 459",
+            "course_code": "CMPT 459",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web Systems Architecture",
             "units": "3",
-            "courseCode": "CMPT 474",
+            "course_code": "CMPT 474",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Development Methods",
             "units": "3",
-            "courseCode": "CMPT 373",
+            "course_code": "CMPT 373",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Comparative Programming Languages",
             "units": "3",
-            "courseCode": "CMPT 383",
+            "course_code": "CMPT 383",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Symbolic Computing",
             "units": "3",
-            "courseCode": "CMPT 384",
+            "course_code": "CMPT 384",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Testing, Reliability and Security",
             "units": "3",
-            "courseCode": "CMPT 473",
+            "course_code": "CMPT 473",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Requirements Engineering",
             "units": "3",
-            "courseCode": "CMPT 475",
+            "course_code": "CMPT 475",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Verification",
             "units": "3",
-            "courseCode": "CMPT 477",
+            "course_code": "CMPT 477",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Programming Languages",
             "units": "3",
-            "courseCode": "CMPT 489",
+            "course_code": "CMPT 489",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
             "units": "3",
-            "courseCode": "CMPT 307",
+            "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computability and Complexity",
             "units": "3",
-            "courseCode": "CMPT 308",
+            "course_code": "CMPT 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography and Cryptographic Protocols",
             "units": "3",
-            "courseCode": "CMPT 404",
+            "course_code": "CMPT 404",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Design and Analysis of Computing Algorithms",
             "units": "3",
-            "courseCode": "CMPT 405",
+            "course_code": "CMPT 405",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Geometry",
             "units": "3",
-            "courseCode": "CMPT 406",
+            "course_code": "CMPT 406",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Complexity",
             "units": "3",
-            "courseCode": "CMPT 407",
+            "course_code": "CMPT 407",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Theoretical Computing Science",
             "units": "3",
-            "courseCode": "CMPT 409",
+            "course_code": "CMPT 409",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Quantum Algorithms",
             "units": "3",
-            "courseCode": "CMPT 476",
+            "course_code": "CMPT 476",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Languages and Automata with Applications",
             "units": "3",
-            "courseCode": "MACM 300",
+            "course_code": "MACM 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
             "units": "3",
-            "courseCode": "MACM 316",
+            "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Algebra",
             "units": "3",
-            "courseCode": "MACM 401",
+            "course_code": "MACM 401",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography",
             "units": "3",
-            "courseCode": "MACM 442",
+            "course_code": "MACM 442",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Linear Optimization",
             "units": "3",
-            "courseCode": "MATH 308",
+            "course_code": "MATH 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra II: Rings and Fields",
             "units": "3",
-            "courseCode": "MATH 340",
+            "course_code": "MATH 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Discrete Mathematics",
             "units": "3",
-            "courseCode": "MATH 343",
+            "course_code": "MATH 343",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Science",
             "units": "3",
-            "courseCode": "CMPT 318",
+            "course_code": "CMPT 318",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
             "units": "3",
-            "courseCode": "CMPT 415",
+            "course_code": "CMPT 415",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
             "units": "3",
-            "courseCode": "CMPT 416",
+            "course_code": "CMPT 416",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Directed Studies",
             "units": "3",
-            "courseCode": "CMPT 496",
+            "course_code": "CMPT 496",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Dual Degree Program Capstone Project",
             "units": "6",
-            "courseCode": "CMPT 497",
+            "course_code": "CMPT 497",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Honours Research Project",
             "units": "6",
-            "courseCode": "CMPT 498",
+            "course_code": "CMPT 498",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           }
         ]
@@ -4765,7 +4765,7 @@
             },
             {
               "author": "psgit",
-              "message": "@asim-shrestha great idea \uD83D\uDC4D\n\nI did some initial analysis and it appears that AutoGPT uses Langchain in chain.ts to communicate with OpenAI. Since Langchain appears to offer support for other LLMs (see e.g. https://github.com/hwchase17/langchain/tree/master/langchain/llms) then a possible solution might be to parameterize the LLM(s) in chain.ts. Specific settings would have to be provided for supported LLM(s)."
+              "message": "@asim-shrestha great idea \ud83d\udc4d\n\nI did some initial analysis and it appears that AutoGPT uses Langchain in chain.ts to communicate with OpenAI. Since Langchain appears to offer support for other LLMs (see e.g. https://github.com/hwchase17/langchain/tree/master/langchain/llms) then a possible solution might be to parameterize the LLM(s) in chain.ts. Specific settings would have to be provided for supported LLM(s)."
             },
             {
               "author": "asim-shrestha",
@@ -4773,6 +4773,218 @@
             }
           ]
         }
+      }
+    ]
+  },
+  {
+    "id": "edf9a51f-d6ac-4c44-84bf-489ce113633a",
+    "url": "https://rpandey.tech/",
+    "source": "mhtml",
+    "category": "personal",
+    "subcategory": "unstructured",
+    "type": "links",
+    "goal": "Fetch all of the experiences in the page and return it in the following schema: {\"experiences\": [{\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}]}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "experiences": [
+            {
+              "title": "Reworkd (YC S23)",
+              "description": "As Founding Research Engineer, I develop AI agents that automate business workflows.",
+              "url": "https://reworkd.ai/",
+              "image_url": "https://rpandey.tech/static/consulting/reworkd.png"
+            },
+            {
+              "title": "Ousia",
+              "description": "SEO content writers have to deeply research their topic to know what to write about. Ousia automates research.",
+              "url": "https://ousia.ai/",
+              "image_url": "https://rpandey.tech/static/consulting/ousia.png"
+            },
+            {
+              "title": "Carnegie Mellon University \u2014 MultiComp",
+              "description": "Vision-Language Models drastically fail to represent & align compositional structure (e.g. \"mug in grass\" vs \"grass in mug\").",
+              "url": "https://rpandey.tech/static/consulting/cacr.png",
+              "image_url": "https://rpandey.tech/static/consulting/cacr.png"
+            },
+            {
+              "title": "Microsoft AI",
+              "description": "The AI Platform group at Microsoft builds infrastructure for enterprise-scale machine learning lifecycles on Azure.",
+              "url": "https://www.microsoft.com/en-us/ai/ai-platform",
+              "image_url": "https://rpandey.tech/static/consulting/azureml.jpeg"
+            },
+            {
+              "title": "Carnegie Mellon University \u2014 NeuLab",
+              "description": "Are large language models just learning co-occurence statistics, or can they capture compositional relations as encoded by semantic formalisms?",
+              "url": "https://rpandey.tech/static/consulting/neulab.jpeg",
+              "image_url": "https://rpandey.tech/static/consulting/neulab.jpeg"
+            },
+            {
+              "title": "Vizerto",
+              "description": "Vizerto is a digital sales assistant that makes domain-specific knowledge easily available to B2B sellers.",
+              "url": "https://vizerto.com/",
+              "image_url": "https://rpandey.tech/static/consulting/vizerto.gif"
+            },
+            {
+              "title": "Language & Dialogue Systems Lab",
+              "description": "Our conversational socialbot interacted with thousands of Amazon Alexa users every day, maintaining the top average user rating for 2 months straight against teams from Stanford, USC, and more.",
+              "url": "https://arxiv.org/abs/2111.02519",
+              "image_url": "https://rpandey.tech/static/consulting/athena.png"
+            },
+            {
+              "title": "SapientX",
+              "description": "SapientX builds white label intelligent voice assistants for cars, phones, fridges, and stores.",
+              "url": "https://sapientx.com/",
+              "image_url": "https://rpandey.tech/static/consulting/sapientx.png"
+            },
+            {
+              "title": "Language, Logic, & Cognition Lab",
+              "description": "Can deep reinforcement learning model how humans learn to parse syntax trees from experience?",
+              "url": "https://openreview.net/forum?id=X0V7WmYAyOM",
+              "image_url": "https://rpandey.tech/static/consulting/laloco.png"
+            },
+            {
+              "title": "Wordcab",
+              "description": "Wordcab summarizes business meetings using the latest in abstractive neural summarization tech.",
+              "url": "https://wordcab.com/",
+              "image_url": "https://rpandey.tech/static/consulting/wordcab.png"
+            },
+            {
+              "title": "Intheon",
+              "description": "Intheon builds neural data processing infrastructure used by labs across the world to simplify their brainwave analysis pipelines.",
+              "url": "https://intheon.io/",
+              "image_url": "https://rpandey.tech/static/consulting/intheon.gif"
+            },
+            {
+              "title": "Applied Machine Learning Lab",
+              "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
+              "url": "",
+              "image_url": "https://rpandey.tech/static/consulting/amll.png"
+            },
+            {
+              "title": "Bunch Inc",
+              "description": "Bunch builds enterprise-grade video & computer vision software while exploring related high risk-reward projects.",
+              "url": "https://bunchenterprise.com/",
+              "image_url": "https://rpandey.tech/static/consulting/bunch.gif"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "5157d20b-011d-4a4e-9454-6453e17e5270",
+    "url": "https://medium.com/",
+    "source": "mhtml",
+    "category": "articles",
+    "subcategory": "blog",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the articles on the current page. Return as a list of objects of the following schema:{\"title\": \"string\", \"url\": \"string\", \"author\": \"string\"}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "url": "https://medium.com/@colleenwheelermccreary?source=home---------0------------------0----------",
+            "title": "Why I’ve Ripped Out Performance Reviews for Over a Decade",
+            "author": "Colleen Wheeler McCreary"
+          },
+          {
+            "url": "https://medium.com/@mbredouw?source=home---------1------------------0----------",
+            "title": "The science behind inspiration and how to design more of it into your life",
+            "author": "Minnie Bredouw"
+          },
+          {
+            "url": "https://medium.com/@benzer?source=home---------2------------------0----------",
+            "title": "Become a Friend of Medium",
+            "author": "Alex Benzer"
+          },
+          {
+            "url": "https://medium.com/@jacquelinedooley?source=home---------3------------------0----------",
+            "title": "Sometimes The Cracks Get Too Big to Hold a Friendship Together",
+            "author": "Jacqueline Dooley"
+          },
+          {
+            "url": "https://medium.com/@bryce?source=home---------4------------------0----------",
+            "title": "The Indie Era of Startups",
+            "author": "Bryce Roberts"
+          },
+          {
+            "url": "https://medium.com/@cameronwkruse?source=home---------5------------------0----------",
+            "title": "Food Twin: Stress Testing the U.S. Food System",
+            "author": "Cameron Kruse"
+          },
+          {
+            "url": "https://medium.com/@janeelliottphd?source=home---------6------------------0----------",
+            "title": "The Trouble With Teachability",
+            "author": "Jane Elliott PhD"
+          },
+          {
+            "url": "https://medium.com/@marydj03?source=home---------7------------------0----------",
+            "title": "What I Wish We’d Done at the First Sign Mom Was Losing Her Memory",
+            "author": "Mary DeVries"
+          },
+          {
+            "url": "https://medium.com/@biz?source=home---------8------------------0----------",
+            "title": "The No Homework Policy",
+            "author": "Biz Stone"
+          },
+          {
+            "url": "https://medium.com/@pernoste?source=home---------9------------------0----------",
+            "title": "How to Read a Poem",
+            "author": "Pernoste & Dahl"
+          },
+          {
+            "url": "https://medium.com/@duanevalz?source=home---------10------------------0----------",
+            "title": "The Corporate Governance Failure at the Heart of Sam Altman’s Ouster from OpenAI",
+            "author": "Duane Valz"
+          },
+          {
+            "url": "https://medium.com/@mikegrindle?source=home---------11------------------0----------",
+            "title": "Frutiger Aero: When the Future Looked Optimistic",
+            "author": "Mike Grindle"
+          },
+          {
+            "url": "https://medium.com/@jesslahitou?source=home---------12------------------0----------",
+            "title": "Being 40 with Beyoncé",
+            "author": "Jessicah Lahitou"
+          },
+          {
+            "url": "https://medium.com/@ty.stephens2011?source=home---------13------------------0----------",
+            "title": "From Punch Cards to ChatGPT",
+            "author": "Ty Stephens"
+          },
+          {
+            "url": "https://medium.com/@vickiheart?source=home---------14------------------0----------",
+            "title": "The Long View",
+            "author": "Vicki Tan"
+          },
+          {
+            "url": "https://medium.com/@adrienne?source=home---------15------------------0----------",
+            "title": "What We’re Reading: Are you busy or are you productive?",
+            "author": "Adrienne Gibbs"
+          },
+          {
+            "url": "https://medium.com/@smileandwave?source=home---------16------------------0----------",
+            "title": "Why Non-Traditional Thanksgivings Can Be the Best Thanksgivings",
+            "author": "Holly Pettit"
+          },
+          {
+            "url": "https://medium.com/@joemccormick01?source=home---------17------------------0----------",
+            "title": "How I Learned to Solve the Rubik’s Cube in 30 Seconds",
+            "author": "Joe McCormick"
+          },
+          {
+            "url": "https://medium.com/@umichncid?source=home---------18------------------0----------",
+            "title": "Safety for Black College Students",
+            "author": "National Center for Institutional Diversity"
+          },
+          {
+            "url": "https://medium.com/@biz?source=home---------19------------------0----------",
+            "title": "Five. Hundred. Million. Dollars.",
+            "author": "Biz Stone"
+          }
+        ]
       }
     ]
   }
