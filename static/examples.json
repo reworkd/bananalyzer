@@ -6797,28 +6797,52 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Loi n°104-12",
+            "name": "Loi n\u00b0104-12",
             "url": "http://conseil-concurrence.ma/cc/wp-content/uploads/2019/02/Loi_104.12_Fr.pdf"
           },
           {
-            "name": "Décret n°2-14-652",
+            "name": "D\u00e9cret n\u00b02-14-652",
             "url": "http://conseil-concurrence.ma/cc/wp-content/uploads/2019/03/D%C3%A9cret-pour-lapplication-de-la-loi-104-12.pdf"
           },
           {
-            "name": "Loi n°20-13",
+            "name": "Loi n\u00b020-13",
             "url": "http://conseil-concurrence.ma/cc/wp-content/uploads/2019/03/Loi-20-13-du-conseil-de-la-concurrence.pdf"
           },
           {
-            "name": "Décret n°2-15-109",
+            "name": "D\u00e9cret n\u00b02-15-109",
             "url": "http://conseil-concurrence.ma/cc/wp-content/uploads/2019/03/D%C3%A9cret-d%E2%80%99application-n%C2%B020-13-relative-au-Conseil-de-la-Concurrence.pdf"
           },
           {
-            "name": "Loi 104-12 telle qu'elle a été modifiée et complétée",
+            "name": "Loi 104-12 telle qu'elle a \u00e9t\u00e9 modifi\u00e9e et compl\u00e9t\u00e9e",
             "url": "https://conseil-concurrence.ma/cc/wp-content/uploads/2023/11/Loi-104-12-telle-quelle-a-ete-modifiee-et-completee.pdf"
           },
           {
-            "name": "Loi 20-13 telle qu'elle a été modifiée et complétée",
+            "name": "Loi 20-13 telle qu'elle a \u00e9t\u00e9 modifi\u00e9e et compl\u00e9t\u00e9e",
             "url": "https://conseil-concurrence.ma/cc/wp-content/uploads/2023/11/Loi-20-13-telle-quelle-a-ete-modifiee-et-completee.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a144f1c6-2457-42fb-b7a8-746d83cf43ba",
+    "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/Pages/mineral-rules.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:{\"name\": \"string\", \"url\": \"string\"}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "قانون الثروة المعدنية",
+            "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/قانون الثروة المعدنية.pdf"
+          },
+          {
+            "name": "اللائحة التنفيذية لقانون الثروة المعدنية",
+            "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/اللائحة التنفيذية لقانون الثروة المعدنية.pdf"
           }
         ]
       }
