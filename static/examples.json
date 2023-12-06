@@ -8551,5 +8551,313 @@
         ]
       }
     ]
+  },
+  {
+    "id": "35611aa7-2696-47dd-ad9a-2959248e0267",
+    "url": "https://www.estv.admin.ch/estv/fr/accueil/impot-federal-direct/informations-specialisees-ifd/circulaires.html",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Circulaire no 50a : Interdiction de déduire les commissions occultes",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-050a-d-2020-d.pdf.download.pdf/1-050a-d-2020-d.pdf"
+          },
+          {
+            "name": "Circulaire no 50: Commissions occultes interdites de déduction",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-050-d-2020-d.pdf.download.pdf/1-050-d-2020-d.pdf"
+          },
+          {
+            "name": "Circulaire no 49: Charges dans le cadre d’affaires étranger-étranger",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-049-dv-2020-d.pdf.download.pdf/1-049-dv-2020-d.pdf"
+          },
+          {
+            "name": "Circulaire no 45: Imposition à la source des travailleurs",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019.pdf.download.pdf/1-045-D-2019.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe I-1: Formulaire d’inscription",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-1.pdf.download.pdf/1-045-D-2019_AnhangI-1.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe I-2: Formulaire de mutation",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-2.pdf.download.pdf/1-045-D-2019_AnhangI-2.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe I-3: Décompte de l’impôt à la source",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_Anhang1-3.pdf.download.pdf/1-045-D-2019_Anhang1-3.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe I-4: Demande de taxation",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-4.pdf.download.pdf/1-045-D-2019_AnhangI-4.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe II: Aperçu",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangII.pdf.download.pdf/1-045-D-2019_AnhangII.pdf"
+          },
+          {
+            "name": "Circulaire no 45 Annexe III: Aperçu",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangIII.pdf.download.pdf/1-045-D-2019_AnhangIII.pdf"
+          },
+          {
+            "name": "Circulaire no 45: Questions et réponses",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-d-2022-faq.pdf.download.pdf/1-045-d-2022-faq.pdf"
+          },
+          {
+            "name": "Circulaire no 44: Imposition d’après la dépense",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-044-D-2018.pdf.download.pdf/1-044-D-2018.pdf"
+          },
+          {
+            "name": "Circulaire no 43: Traitement fiscal des prix de concours, des prix d'honneur, etc.",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-043-D-2018.pdf.download.pdf/1-043-D-2018.pdf"
+          },
+          {
+            "name": "Circulaire no 42: Frais de formation et de formation continue à des fins professionnelles",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-042-D-2017.pdf.download.pdf/1-042-D-2017.pdf"
+          },
+          {
+            "name": "Circulaire no 41: Libre passage dans la prévoyance professionnelle ",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-041-D-2014.pdf.download.pdf/1-041-D-2014.pdf"
+          },
+          {
+            "name": "Circulaire no 39: Imposition des options destinées aux actionnaires",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-039-DVS-2013.pdf.download.pdf/1-039-DVS-2013.pdf"
+          },
+          {
+            "name": "Circulaire no 38: Vente de terrains par des agriculteurs",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-038-D-2013.pdf.download.pdf/1-038-D-2013.pdf"
+          },
+          {
+            "name": "Circulaire no 37: Imposition des participations de collaborateur",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-d-2020.pdf.download.pdf/1-037-d-2020.pdf"
+          },
+          {
+            "name": "Circulaire no 37 Annexe V: Modèles d’attestation électroniques",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-d-2020_anhang5.pdf.download.pdf/1-037-d-2020_anhang5.pdf"
+          },
+          {
+            "name": "Circulaire no 37A: Participations de collaborateur auprès de l'employeur",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037A-D-2018.pdf.download.pdf/1-037A-D-2018.pdf"
+          },
+          {
+            "name": "Circulaire no 37: Imposition des participations de collaborateur",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012.pdf.download.pdf/1-037-D-2012.pdf"
+          },
+          {
+            "name": "Circulaire no 37 Annexe I: Vue d’ensemble des participations de collaborateur",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D2012_Anhang-I.pdf.download.pdf/AFC-Circulaire-037-D-2012-f_Annexe1.pdf"
+          },
+          {
+            "name": "Circulaire no 37 Annexe II: Exemples",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D2012_Anhang-II.pdf.download.pdf/AFC-Circulaire-037-D-2012-f_Annexe2.pdf"
+          },
+          {
+            "name": "Circulaire no 37 Annexe III: Modèles d’attestation",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012_Anhang3.pdf.download.pdf/1-037-D-2012_Anhang3.pdf"
+          },
+          {
+            "name": "Circulaire no 37 Annexe IV: Exemples d’imposition à la source",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012_Anhang4.pdf.download.pdf/1-037-D-2012_Anhang4.pdf"
+          },
+          {
+            "name": "Circulaire no 36: Commerce professionnel de titres",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-036-D-2012.pdf.download.pdf/1-036-D-2012.pdf"
+          },
+          {
+            "name": "Circulaire no 35: Entreprises de transport et d’infrastructure",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-035-D-2011.pdf.download.pdf/1-035-D-2011.pdf"
+          },
+          {
+            "name": "Circulaire no 32: Assainissement de sociétés de capitaux et de sociétés coopératives",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-032-DVS-2010.pdf.download.pdf/1-032-DVS-2010.pdf"
+          },
+          {
+            "name": "Circulaire no 31: Report de l’imposition en cas d’affermage",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-031-D-2010.pdf.download.pdf/1-031-D-2010.pdf"
+          },
+          {
+            "name": "Circulaire no 30: Imposition des époux et de la famille",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-030-D-2010.pdf.download.pdf/1-030-D-2010.pdf"
+          },
+          {
+            "name": "Circulaire no 29c: KEP",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029c-dvs-2022.pdf.download.pdf/1-029c-dvs-2022.pdf"
+          },
+          {
+            "name": "Circulaire no 29b: KEP",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029b-dvs-2019.pdf.download.pdf/1-029b-dvs-2019.pdf"
+          },
+          {
+            "name": "Circulaire no 29a: KEP nouveau droit comptable",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029a-DVS-2015.pdf.download.pdf/1-029a-DVS-2015.pdf"
+          },
+          {
+            "name": "Circulaire no 29: KEP ancien droit comptable",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029-DV-2010.pdf.download.pdf/1-029-DV-2010.pdf"
+          },
+          {
+            "name": "Circulaire no 28: Imposition des bénéfices de liquidation",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-028-D-2010.pdf.download.pdf/1-028-D-2010.pdf"
+          },
+          {
+            "name": "Circulaire no 27: Réduction d'impôt sur les rendements de participations",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-027-D-2009.pdf.download.pdf/1-027-D-2009.pdf"
+          },
+          {
+            "name": "Circulaire no 26: Nouveautés concernant l’activité lucrative indépendante",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-026-D-2009.pdf.download.pdf/1-026-D-2009.pdf"
+          },
+          {
+            "name": "Circulaire no 25: Placements collectifs de capitaux",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-025-D-2018.pdf.download.pdf/1-025-D-2018.pdf"
+          },
+          {
+            "name": "Circulaire no 23: Rendements provenant de la fortune commerciale 2008",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023-D-2008.pdf.download.pdf/1-023-D-2008.pdf"
+          },
+          {
+            "name": "Circulaire no 23 Annexe: Compte distinct",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023-D-2008-Spartenrechnung.xls.download.xls/1-023-D-2008-Spartenrechnung.xls"
+          },
+          {
+            "name": "Circulaire no 23a: Imposition partielle dans la fortune commerciale",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023a-d-2020.pdf.download.pdf/1-023a-d-2020.pdf"
+          },
+          {
+            "name": "Circulaire no 23a Annexe: Compte distinct",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023a-d-2020-beilage.xls.download.xls/1-023a-d-2020-beilage.xls"
+          },
+          {
+            "name": "Circulaire no 22: Imposition partielle dans la fortune privée 2008",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-022-D-2008.pdf.download.pdf/1-022-D-2008.pdf"
+          },
+          {
+            "name": "Circulaire no 22a: Imposition partielle dans la fortune privée 2020",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-022a-d-2020.pdf.download.pdf/1-022a-d-2020.pdf"
+          },
+          {
+            "name": "Circulaire no 20: Imposition des trusts",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-020-DV-2008.pdf.download.pdf/1-020-DV-2008.pdf"
+          },
+          {
+            "name": "Circulaire no 19: Leasing d’immeubles",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-019-D-2008.pdf.download.pdf/1-019-D-2008.pdf"
+          },
+          {
+            "name": "Circulaire no 18: Imposition du pilier 3a",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-018-DV-2008.pdf.download.pdf/1-018-DV-2008.pdf"
+          },
+          {
+            "name": "Circulaire no 17: Encouragement à la propriété du logement",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-017-D-2007.pdf.download.pdf/1-017-D-2007.pdf"
+          },
+          {
+            "name": "Circulaire no 15: Obligations et instruments financiers dérivés",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-015-DVS-2007.pdf.download.pdf/1-015-DVS-2007.pdf"
+          },
+          {
+            "name": "Circulaire no 14: Liquidation partielle indirecte",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-014-D-2007.pdf.download.pdf/1-014-D-2007.pdf"
+          },
+          {
+            "name": "Circulaire no 13: Opérations de prêt et d’emprunt de titres",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-013-DVS-2018.pdf.download.pdf/1-013-DVS-2018.pdf"
+          },
+          {
+            "name": "Circulaire no 11: Frais de maladie et d’accident",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-011-D-2005.pdf.download.pdf/1-011-D-2005.pdf"
+          },
+          {
+            "name": "Circulaire no 11 Annexe: Questionnaire médical",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-011-D-2205-Fragebogen.pdf.download.pdf/1-011-D-2205-Fragebogen.pdf"
+          },
+          {
+            "name": "Circulaire no 5a: Restructurations",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-005a-dvs-2022.pdf.download.pdf/1-005a-dvs-2022.pdf"
+          },
+          {
+            "name": "Circulaire no 5: Restructurations",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-005-DVS-2004.pdf.download.pdf/1-005-DVS-2004.pdf"
+          },
+          {
+            "name": "Circulaire no 4: Imposition des sociétés de services",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-004-DV-2004.pdf.download.pdf/1-004-DV-2004.pdf"
+          },
+          {
+            "name": "W03-001F du 03.10.2002",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W03-001.pdf.download.pdf/W03-001.pdf"
+          },
+          {
+            "name": "W02-008F du 18.12.2001",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W02-008.pdf.download.pdf/W02-008.pdf"
+          },
+          {
+            "name": "W01-006F du 06.06.2001",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W01-006.pdf.download.pdf/W01-006.pdf"
+          },
+          {
+            "name": "W99-005F du 19.08.1999",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W99-005.pdf.download.pdf/W99-005.pdf"
+          },
+          {
+            "name": "W97-006F du 06.06.1997",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W97-006.pdf.download.pdf/W97-006.pdf"
+          },
+          {
+            "name": "W95-028F du 29.01.1996",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-028.pdf.download.pdf/W95-028.pdf"
+          },
+          {
+            "name": "W95-026F du 22.09.1995",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-026.pdf.download.pdf/W95-026.pdf"
+          },
+          {
+            "name": "W95-024F du 30.06.1995",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-024.pdf.download.pdf/W95-024.pdf"
+          },
+          {
+            "name": "W95-021F du 07.04.1995",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-021.pdf.download.pdf/W95-021.pdf"
+          },
+          {
+            "name": "W95-019F du 07.03.1995",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-019.pdf.download.pdf/W95-019.pdf"
+          },
+          {
+            "name": "W95-012F du 08.07.1994",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-012.pdf.download.pdf/W95-012.pdf"
+          },
+          {
+            "name": "W95-011F du 08.06.1994",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-011.pdf.download.pdf/W95-011.pdf"
+          },
+          {
+            "name": "W95-009F du 03.12.1993",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-009.pdf.download.pdf/W95-009.pdf"
+          },
+          {
+            "name": "W95-003F du 25.11.1992",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-003.pdf.download.pdf/W95-003.pdf"
+          },
+          {
+            "name": "W95-002F du 12.11.1992",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-002.pdf.download.pdf/W95-002.pdf"
+          },
+          {
+            "name": "W85-008F du 06.05.1985",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W85-008.pdf.download.pdf/W85-008.pdf"
+          },
+          {
+            "name": "W81-004F du 30.04.1980",
+            "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W81-004.pdf.download.pdf/W81-004.pdf"
+          }
+        ]
+      }
+    ]
   }
 ]
