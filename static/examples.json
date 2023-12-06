@@ -10991,5 +10991,93 @@
         ]
       }
     ]
+  },
+  {
+    "id": "f8ad74c0-c5c8-45aa-bced-a4bb341bcc5f",
+    "url": "https://www.fahr.gov.ae/Portal/en/legislations-and-guides/the-law/human-resources-law.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Human Resources Law in the Federal Government \nFederal Decree Law No. (49) for 2022 on Human Resources in the Federal Government (New)",
+            "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/674c44b4.pdf"
+          },
+          {
+            "name": "FAQ about the New Human Resources Law in the Federal Government",
+            "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/4441d68a.pdf"
+          },
+          {
+            "name": "Human Resources Law in the Federal Government \nFEDERAL DECREE LAW No. (11) FOR 2008 ON HUMAN RESOURCES IN THE FEDERAL GOVERNMENT AS AMENDED BY FEDERAL DECREE LAW No (9) FOR 2011 AND FEDERAL DECREE LAW No (17) FOR 2016",
+            "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/38e702a7.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e8560fe-90ae-43cf-a384-829e3a2efca6",
+    "url": "https://mcy.gov.ae/en/legislations/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Implementing the Federal Decree - Law No.(2) of 2017",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Implementing-the-Federal-Decree-Law-No.2-of-2017.pdf"
+          },
+          {
+            "name": "Federal Law No.11 of 2017, on Antiquities",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Federal-Law-No.11-of-2017-on-Antiquities.pdf"
+          },
+          {
+            "name": "Cabinet’s Resolution No.(59) of 2021 On the UAE National Commission for Education, Culture & Science",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Cabinets-Resolution-No.59-of-2021-On-the-UAE-National-Commission-For-Education-Culture-Science.pdf"
+          },
+          {
+            "name": "Ministerial Resolution No.(8) of 2020 on the Mechanism of Objection to Granting Immunity to The Foreign Cultural Objects (Properties) Against Seizure or Confiscating",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Ministerial-Resolution-No.8-of-2020-on-the-Mechanism-of-Objection-to-Granting-Immunity-to-The-Foreign-Cultural-Objects-Properties-Against-Seizu.pdf"
+          },
+          {
+            "name": "Age rating system",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D9%8A-Age-rating-system.pdf"
+          },
+          {
+            "name": "Resolution of the Chairman of the Board of Directors No.26 of 2017, in respect of the media content",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Resolution-of-the-Chairman-of-the-Board-of-Directors-No.26-of-2017-in-respect-of-the-media-content.pdf"
+          },
+          {
+            "name": "HAIRMAN OF THE BOARD RESOLUION NO. (3) of 2018 ON ORGANIZING E-MEDIA ACTIVITIES",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/HAIRMAN-OF-THE-BOARD-RESOLUION-NO.-3-of-2018-ON-ORGANIZING-E-MEDIA-ACTIVITIES.pdf"
+          },
+          {
+            "name": "Federal Law No 15 of 1980 on Publications and Publishing",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Federal-Law-No-15-of-1980-on-Publications-and-Publishing.pdf"
+          },
+          {
+            "name": "CHAIRMAN OF THE BOARD’S RESOLUTION NO. (30) of 2017 ON MEDIA ACTIVITIES LICENSES",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/CHAIRMAN-OF-THE-BOARDS-RESOLUTION-NO.-30-of-2017-ON-MEDIA-ACTIVITIES-LICENSES.pdf"
+          },
+          {
+            "name": "Chairman of the Board of Directors’ Resolution No. (27) Of 2017 Regarding age classification",
+            "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Chairman-of-the-Board-of-Directors-Resolution-No.-27-Of-2017-Regarding-age-classification.pdf"
+          },
+          {
+            "name": "Ministerial Resolution No.(8) of 2020 on the Mechanism of Objection to Granting Immunity to The Foreign Cultural Objects (Properties) Against Seizure or Confiscating",
+            "url": "https://www.mcy.gov.ae/en/wp-content/uploads/sites/2/2021/12/Ministerial-Resolution-No-8.pdf"
+          }
+        ]
+      }
+    ]
   }
 ]
