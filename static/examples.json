@@ -11215,5 +11215,41 @@
         ]
       }
     ]
+  },
+  {
+    "id": "caa0a351-24a8-40c3-9c62-134d52003f49",
+    "url": "https://www.dfm.ae/the-exchange/regulation/market-rules",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "title": "Glossary Rules",
+            "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm-glossary-english"
+          },
+          {
+            "title": "Module One  General Rules",
+            "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---general-rules-module---english.pdf?sfvrsn=8c821f81_2"
+          },
+          {
+            "title": "Module Two  Listing Rules",
+            "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---listing-rules-module---english.pdf?sfvrsn=82811f81_2"
+          },
+          {
+            "title": "Module Three  Membership, Trading, And Derivatives Rules",
+            "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---membership-trading-and-derivatives-rules-module---english.pdf?sfvrsn=80821f81_2"
+          },
+          {
+            "title": "Module Four  Penalty Rules",
+            "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---penalty-rules-module---english.pdf?sfvrsn=76811f81_2"
+          }
+        ]
+      }
+    ]
   }
 ]
