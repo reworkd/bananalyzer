@@ -9315,5 +9315,129 @@
         ]
       }
     ]
+  },
+  {
+    "id": "84b8ec9c-7352-43c2-b3b0-1c1d9ac1efa3",
+    "url": "https://www.moh.gov.my/index.php/pages/view/195?mid=290",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Advance Life Support Training Manual 2022",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Advance_Life_Support_Training_Manual_PDF_2022.pdf"
+          },
+          {
+            "name": "NATIONAL POLICY FOR QUALITY IN HEALTHCARE: Bridging Silos, Accelerating Improvements",
+            "url": "http://library.nih.gov.my/e-doc/flipbook/npqh20222026/index.html"
+          },
+          {
+            "name": "Basic Life Support Instructor Manual For Ministry Of Health Malaysia",
+            "url": "https://www.moh.gov.my/moh/resources/Arkib/BASIC_LIFE_SUPPORT_INSTRUCTOR_MANUAL_FOR_MINISTRY_OF_HEALTH_MALAYSIA.pdf"
+          },
+          {
+            "name": "National Peritoneal Dialysis Quality Standards 2020",
+            "url": "https://www.moh.gov.my/moh/resources/Arkib/Book___The_Peritoneal_Dialysis_Quality_Standards.pdf"
+          },
+          {
+            "name": "National ALS Instructor Manual",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/National_ALS_Instructor_Manual.pdf"
+          },
+          {
+            "name": "Guidelines For Resuscitation Training",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/GUIDELINES_FOR_RESUSCITATION_TRAINING.pdf"
+          },
+          {
+            "name": "Policy For Resuscitation Training",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/POLICY_FOR_RESUSCITATION_TRAINING.pdf"
+          },
+          {
+            "name": "Dermatology Services Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Dermatology_Services_Operational_Policy_2016.pdf"
+          },
+          {
+            "name": "Gastroenterology Services Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Gastroenterology_Services_Operational_Policy_2016.pdf"
+          },
+          {
+            "name": "Garis Panduan Pengurusan Kes-Kes Yang Berkaitan Dengan Cuaca Panas",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/GARISPANDUAN_PENGURUSAN_KES-KES_YANG_BERKAITAN_DENGAN_CUACA_PANAS.pdf"
+          },
+          {
+            "name": "One Stop Crisis Center: Policy and Guidelines For Hospitals, MOH",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/OSCC_policy.pdf"
+          },
+          {
+            "name": "Anaesthesosiology & Intensive Care Services Policy Second Edition",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/dalam.pdf"
+          },
+          {
+            "name": "Emergency Medicine and Trauma Services Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/EMTS_Book.pdf"
+          },
+          {
+            "name": "Psychiatric And Mental Health Services Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/PSYCHIATRY_OPERATIONAL_POLICY.pdf"
+          },
+          {
+            "name": "Unrelated Living Organ Donation : Policy & Procedures",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Unrelated_Living.pdf"
+          },
+          {
+            "name": "Standards of Sleep Facility in Ministry of Health, Malaysia",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Buku_Sleep-2.pdf"
+          },
+          {
+            "name": "Cardiothoracic Surgery Services Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Buku_Cardiothoracic.pdf"
+          },
+          {
+            "name": "Departmental Policy of Pathology Services",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/201009-pathology.pdf"
+          },
+          {
+            "name": "Palliative Care Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/PALLIATIVE_CARE.pdf"
+          },
+          {
+            "name": "Nephrology Services Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/NEPHROLOGY.pdf"
+          },
+          {
+            "name": "Operational Policy In Obstetrics And Gynaecology Services",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Operational_Policy.pdf"
+          },
+          {
+            "name": "Policies and Procedures on Infection Control",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/infection_control.pdf"
+          },
+          {
+            "name": "Operational Policy, Anaesthesia And Intensive Care Service",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Operational_Policy_Anaesthesia_And_Intensive_Care_Service.pdf"
+          },
+          {
+            "name": "Policy on Resuscitation Training For Ministry of Health Hospitals",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Policy_on_Resuscitation_Training_For_Ministry_of_Health_Hospitals.pdf"
+          },
+          {
+            "name": "Cochlear Implant Service Operational Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/Cochlear.pdf"
+          },
+          {
+            "name": "National Organ, Tissue And Cell Transplantation Policy",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/National_Organ_Tissue_Cell_Transplan_Policy.pdf"
+          },
+          {
+            "name": "Malaysian National Medicines Policy (MNMP)",
+            "url": "https://www.moh.gov.my/moh/resources/Polisi/NMP_pdf_file_2.pdf"
+          }
+        ]
+      }
+    ]
   }
 ]
