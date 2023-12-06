@@ -9453,11 +9453,11 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Decree no. (28) of 2015 concerning the Dubai Statistics Center",
+            "name": "Decree no. (28)\u00a0of 2015 concerning the\u00a0Dubai Statistics Center",
             "url": "https://www.dsc.gov.ae/en-us/About-Us/Documents/2015_1400_Law%2028%20of%202015%20Concerning%20the%20Dubai%20Statistics%20Centre_Final.pdf"
           },
           {
-            "name": "Decree no. (6) of 2013 concerning Dubai Statistics Center new Organization Chart",
+            "name": "Decree no. (6)\u00a0of 2013 concerning\u00a0Dubai Statistics Center new Organization Chart",
             "url": "https://www.dsc.gov.ae/Public%20Documents/About%20DSC/Executive%20Council%20Resolution%20No.%206%20of%202013%20On%20adoption%20of%20The%20Dubai%20Statistics%20Center%20Organizational%20Structure.pdf"
           },
           {
@@ -9471,6 +9471,822 @@
           {
             "name": "Administrative Resolution No. (4) of 2022 Amending Administrative Resolution No. (96) of 2016 Approving the conditions for engaging in the activity of conducting poll studies.)",
             "url": "https://www.dsc.gov.ae/Public%20Documents/About%20DSC/Administrative%20Resolution%20No.%20(4)%20of%202022%20Amending.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ced61f78-c980-4cc4-9874-df97280bd1da",
+    "url": "https://www.gesetze-im-internet.de/aktuDienst.html",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "BGBl. 2023 I Nr. 336Sechste Verordnung über zwingende Arbeitsbedingungen für die Pflegebranche vom 28. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/336"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 335Erste Verordnung zur Änderung der Justizaktenaufbewahrungsverordnung vom 28. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/335"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 334Verordnung zur Regelung der Fortgeltung der gemäß § 24 Absatz 1 Aufenthaltsgesetz erteilten Aufenthaltserlaubnisse für vorübergehend Schutzberechtigte aus der Ukraine vom 28. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/334"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 333Verordnung zur Absenkung der Steuersätze im Jahr 2024 nach § 11 Absatz 2 des Luftverkehrsteuergesetzes vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/333"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 332Verordnung zur Änderung der Umsatzsteuerzuständigkeitsverordnung vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/332"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 331Verordnung zur Aufhebung der Signatarebenennungsverordnung vom 22. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/331"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 330Sechste Verordnung zur Änderung der Mindestunterhaltsverordnung vom 29. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/330"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 329Zweite Verordnung zur Änderung der EEMD-Gebietsvorgabenverordnung und der EEMD-Zulassungsverordnung vom 27. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/329"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 328Vierzehnte Verordnung zur Änderung der Sozialversicherungsentgeltverordnung vom 27. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/328"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 327Verordnung zur Ermittlung des Arbeitseinkommens aus der Land- und Forstwirtschaft für das Jahr 2024 vom 27. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/327"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 326Verordnung über den Vorbereitungsdienst für den gehobenen Steuerdienst des Bundes vom 15. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/326"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 325Verordnung über den Vorbereitungsdienst für den mittleren Steuerdienst des Bundes vom 15. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/325"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 324Neunundzwanzigste Verordnung zur Änderung der Zweihundertsiebzehnten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Hannover) vom 14. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/324"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 323Sechste Verordnung zur Änderung der Schwerbehinderten-Ausgleichsabgabeverordnung vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/323"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 322Verordnung über maßgebende Rechengrößen der Sozialversicherung für 2024 vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/322"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 321Vierte Verordnung zur Anpassung der Höhe des Mindestlohns vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/321"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 320Verordnung zur Änderung der Zwangsvollstreckungsformular-Verordnung vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/320"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 319Verordnung zur Änderung der Notarfachprüfungsverordnung vom 24. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/319"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 318Zwölfte Verordnung zur Änderung der Verordnung über Ausnahmen von straßenverkehrsrechtlichen Vorschriften für Fahrzeuge und Fahrzeugkombinationen mit Überlänge vom 22. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/318"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 317Achte Verordnung über zwingende Arbeitsbedingungen im Gerüstbauerhandwerk vom 22. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/317"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 317Rechtsnormen des Tarifvertrags zur Regelung eines Mindestlohns im Gerüstbauer-Handwerk im Gebiet der Bundesrepublik Deutschland (TV Mindestlohn) vom 1. August 2023 vom 22. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/317"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 316Sechzehnte Verordnung zur Änderung der Zweihundertzweiundzwanzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Bremen) vom 10. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/316"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 315Drittes Gesetz zur Änderung mautrechtlicher Vorschriften vom 21. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/315"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 313Viertes Gesetz zur Änderung des Chemikaliengesetzes vom 16. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/313"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 311Gesetz zur Stärkung der risikobasierten Arbeitsweise der Zentralstelle für Finanztransaktionsuntersuchungen vom 13. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/311"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 310Gesetz zur Einführung einer langfristigen Pauschalentlastung der Länder im Zusammenhang mit Fluchtmigration und zur Änderung des Mauergrundstücksgesetzes vom 13. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/310"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 309Gesetz zur Steigerung der Energieeffizienz und zur Änderung des Energiedienstleistungsgesetzes vom 13. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/309"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 309Gesetz zur Steigerung der Energieeffizienz in Deutschland  vom 13. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/309"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 306Zweite Verordnung zur Änderung der Geflügel-Salmonellen-Verordnung vom 04. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/306"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 305Fünfundsechzigste Verordnung zur Durchführung des § 172 des Bundesentschädigungsgesetzes vom 26. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/305"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 304Verordnung über die Gewährung von Förderungen für Maßnahmen im Sektor Wein vom 04. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/304"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 304Verordnung zur Änderung weinrechtlicher und hopfenrechtlicher Bestimmungen vom 04. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/304"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 303Verordnung über die Zuständigkeit für Leistungen der Sozialen Entschädigung für Berechtigte im Ausland vom 06. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/303"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 302Verordnung zur Berechnung von Einkommen sowie zur Nichtberücksichtigung von Einkommen und Vermögen bei den Besonderen Leistungen im Einzelfall im Sozialen Entschädigungsrecht vom 06. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/302"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 301Verordnung zur Durchführung des Berufsschadensausgleiches nach § 89 des Vierzehnten Buches Sozialgesetzbuch vom 06. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/301"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 297Vierte Verordnung zur Änderung der Pflegepersonaluntergrenzen-Verordnung vom 03. November 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/297"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 295Fünfundvierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 19. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/295"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 294Gesetz zur Änderung des Gesetzes gegen Wettbewerbsbeschränkungen und anderer Gesetze  vom 25. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/294"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 292Achtundzwanzigste Verordnung zur Änderung der FS-An- und Abflug-Kostenverordnung vom 30. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/292"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 291Bekanntmachung der Neufassung des Passgesetzes vom 30. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/291"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 290Verordnung zur Änderung der Personalausweisverordnung, der Passverordnung, der Aufenthaltsverordnung sowie weiterer Vorschriften  vom 30. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/290"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 289Elftes Gesetz zur Änderung des Weingesetzes vom 24. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/289"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 287Verordnung zur Bestimmung der für die Fortschreibung der Regelbedarfsstufen nach § 28a und für die Fortschreibung des Teilbetrags nach § 34 Absatz 3a Satz 1 des Zwölften Buches Sozialgesetzbuch maßgeblichen Prozentsätze sowie zur Ergänzung der Anlage zu §§ 28 und 34 des Zwölften Buches Sozialgesetzbuch für das Jahr 2024 vom 24. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/287"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 286Verordnung zur Änderung der Barrierefreie-Informationstechnik-Verordnung vom 24. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/286"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 285Verordnung über die Festsetzung der Länderschlüsselzahlen und die Ermittlung der Schlüsselzahlen für die Aufteilung des Gemeindeanteils an der Umsatzsteuer nach § 5a des Gemeindefinanzreformgesetzes für die Jahre 2024, 2025 und 2026 vom 17. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/285"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 284Verordnung über die Ermittlung der Schlüsselzahlen für die Aufteilung des Gemeindeanteils an der Einkommensteuer für die Jahre 2024, 2025 und 2026 vom 17. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/284"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 282Verordnung zur Weiterentwicklung und Anpassung der Vorbereitungsdienste für den gehobenen nichttechnischen Zolldienst und für den mittleren nichttechnischen Zolldienst des Bundes vom 19. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/282"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 282Verordnung über den Vorbereitungsdienst für den gehobenen nichttechnischen Zolldienst des Bundes vom 19. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/282"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 281Verordnung zur Änderung der Erhaltungsmischungsverordnung und der GAPInVeKoS-Verordnung vom 17. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/281"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 280Gesetz zur Änderung des Gebäudeenergiegesetzes, zur Änderung des Bürgerlichen Gesetzbuches, zur Änderung der Verordnung über Heizkostenabrechnung, zur Änderung der Betriebskostenverordnung und zur Änderung der Kehr- und Überprüfungsordnung vom 16. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/280"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 278Zweite Verordnung zur Änderung der Satellitendatensicherheitsverordnung vom 16. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/278"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 277Verordnung zum Schutz von Beständen zur Erzeugung oder zum Erhalt von Obstanbaumaterial sowie Erwerbsobstbeständen vor besonderen unionsgeregelten Nicht-Quarantäneschadorganismen vom 13. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/277"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 277Verordnung zur Neuregelung pflanzengesundheitsrechtlicher Vorschriften vom 13. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/277"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 276Elfte Verordnung zur Änderung der Verordnung über Ausnahmen von straßenverkehrsrechtlichen Vorschriften für Fahrzeuge und Fahrzeugkombinationen mit Überlänge vom 11. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/276"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 275Verordnung über die Mitwirkung der Helferinnen und Helfer im Technischen Hilfswerk vom 10. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/275"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 275Verordnung zur Ablösung der THW-Mitwirkungsverordnung vom 10. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/275"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 274Verordnung über die Abgabesätze und das Punktesystem des Einwegkunststofffonds  vom 11. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/274"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 273Zweite Verordnung zur Gewährung einer außergewöhnlichen Anpassungsbeihilfe für Erzeuger in bestimmten Agrarsektoren vom 11. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/273"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 272Gesetz zur Umsetzung der Richtlinie (EU) 2020/1828 über Verbandsklagen zum Schutz der Kollektivinteressen der Verbraucher und zur Aufhebung der Richtlinie 2009/22/EG sowie zur Änderung des Kapitalanleger-Musterverfahrensgesetzes  vom 08. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/272"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 271Gesetz zur Modernisierung des Pass-, des Ausweis- und des ausländerrechtlichen Dokumentenwesens  vom 08. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/271"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 268Verordnung zur Änderung der Versorgungsreserveabrufverordnung vom 04. Oktober 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/268"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 267Verordnung zur Krisendestillation von Wein vom 29. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/267"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 266Vierundvierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 13. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/266"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 265Verordnung zur Kennzeichnung von Bio-Lebensmitteln in gemeinschaftlichen Verpflegungseinrichtungen und zur Änderung der Öko-Kennzeichenverordnung  vom 27. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/265"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 265Verordnung zur Regelung der Produktion, der Kontrolle und der Kennzeichnung von Bio-Zutaten und Bio-Erzeugnissen sowie zur Auszeichnung des Gesamtanteils an Bio-Lebensmitteln in gemeinschaftlichen Verpflegungseinrichtungen vom 27. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/265"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 264Zwanzigste Verordnung zur Änderung der Außenwirtschaftsverordnung vom 27. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/264"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 263Zehnte Verordnung zur Änderung der Zweihundertsechsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Emden) vom 22. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/263"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 261Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Berufsspezialist für Kraftfahrzeug-Servicetechnik oder Geprüfte Berufsspezialistin für Kraftfahrzeug-Servicetechnik vom 25. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/261"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 260Verordnung zur Änderung der Verordnung über die Satzung der Bundesanstalt für Finanzmarktstabilisierung vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/260"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 259Verordnung zur Änderung der Differenzbetragsanpassungsverordnung vom 22. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/259"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 258Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Berufsspezialist für Vertrieb oder Geprüfte Berufsspezialistin für Vertrieb vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/258"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 257Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Fachwirt für Außenwirtschaft oder Geprüfte Fachwirtin für Außenwirtschaft – Bachelor Professional in Foreign Trade vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/257"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 256Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Fachwirt für Energiewirtschaft oder Geprüfte Fachwirtin für Energiewirtschaft – Bachelor-Professional in Energiewirtschaft vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/256"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 255Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Berufsspezialist für fremdsprachige Kommunikation oder Geprüfte Berufsspezialistin für fremdsprachige Kommunikation vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/255"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 254Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Fachwirt für Marketing oder Geprüfte Fachwirtin für Marketing – Bachelor Professional in Marketing vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/254"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 253Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Fachwirt für Güterverkehr und Logistik oder Geprüfte Fachwirtin für Güterverkehr und Logistik – Bachelor Professional in Transport Management and Logistics vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/253"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 252Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Meister für Medienproduktion Bild und Ton oder Geprüfte Meisterin für Medienproduktion Bild und Ton – Bachelor Professional in Medienproduktion Bild und Ton vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/252"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 251Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss mit der Bezeichnung Geprüfter Fachwirt für Logistiksysteme oder Geprüfte Fachwirtin für Logistiksysteme – Bachelor Professional in Logistiksysteme vom 21. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/251"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 250Vierte Verordnung zur Änderung der Zweihunderteinundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Hubschraubersonderlandeplatz Oberschleißheim) vom 13. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/250"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 249Erste Verordnung zur Änderung der Zweiten Verordnung zur vorübergehenden Abweichung von der Binnenschifffahrt-Sportbootvermietungsverordnung vom 13. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/249"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 248Besondere Gebührenverordnung des Bundesministeriums für Wirtschaft und Klimaschutz für individuell zurechenbare öffentliche Leistungen in seinem sowie dem Zuständigkeitsbereich des Bundesamts für Wirtschaft und Ausfuhrkontrolle für die Kriegswaffenkontrolle, Ausfuhrkontrolle und Investitionsprüfung vom 07. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/248"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 247Erste Verordnung zur Änderung der Besonderen Gebührenverordnung des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit für individuell zurechenbare öffentliche Leistungen in dessen Zuständigkeitsbereich vom 05. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/247"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 241Berichtigung der Verordnung zur Neuordnung der Berufsausbildung zum Verfahrensmechaniker für Kunststoff- und Kautschuktechnik und zur Verfahrensmechanikerin für Kunststoff- und Kautschuktechnik vom 06. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/241"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 240Künstlersozialabgabe-Verordnung 2024 vom 04. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/240"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 239Verordnung über die Meisterprüfung in den Teilen I und II im Raumausstatter-Handwerk vom 04. September 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/239"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 238Zweite Verordnung zur Änderung der GAP-Direktzahlungen-Verordnung vom 29. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/238"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 237Siebte Verordnung zur Änderung der Winterbeschäftigungs-Verordnung vom 29. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/237"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 236Verordnung zum Erlass einer Straßenverkehr-Transportbegleitungsverordnung und zur Änderung straßenverkehrsrechtlicher Vorschriften vom 28. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/236"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 236Straßenverkehr-Transportbegleitungsverordnung vom 28. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/236"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 235Zweite Verordnung zur Änderung der Zweihundertsiebenundvierzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Berlin Brandenburg) vom 23. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/235"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 234Dreiundvierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 17. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/234"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 233Verordnung zur Weiterentwicklung der Fachkräfteeinwanderung  vom 30. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/233"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 229Verordnung über die Zuständigkeit des Bundesamtes für Wirtschaft und Ausfuhrkontrolle für die Verfolgung und Ahndung von Ordnungswidrigkeiten nach dem Strompreisbremsegesetz und dem Erdgas-Wärme-Preisbremsengesetz vom 22. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/229"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 228Zweite Verordnung zur Änderung der Eingliederungsmittel-Verordnung 2023 vom 22. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/228"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 227Bekanntmachung der Neufassung der Gefahrgutverordnung Straße, Eisenbahn und Binnenschifffahrt vom 18. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/227"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 226Vierte Verordnung zur Änderung der Zweihundertdreiunddreißigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Wilhelmshaven „JadeWeserAirport“) vom 08. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/226"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 225Sechsundsechzigste Verordnung zur Änderung der Zweihundertzwölften Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Frankfurt am Main) vom 08. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/225"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 224Neunte Verordnung zur Änderung der Zweihundertsechsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Emden) vom 08. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/224"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 223Dritte Verordnung zur Änderung der Energiesicherungstransportverordnung vom 17. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/223"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 222Verordnung zur Anpassung des Vergaberechts an die Einführung neuer elektronischer Standardformulare („eForms“) für EU-Bekanntmachungen und an weitere europarechtliche Anforderungen  vom 17. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/222"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 221Gesetz zur Erleichterung der baulichen Anpassung von Tierhaltungsanlagen an die Anforderungen des Tierhaltungskennzeichnungsgesetzes vom 28. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/221"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 220Gesetz zur Kennzeichnung von Lebensmitteln mit der Haltungsform der Tiere, von denen die Lebensmittel gewonnen wurden  vom 17. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/220"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 219Gesetz zur Änderung des Öko-Landbaugesetzes, des Öko-Kennzeichengesetzes und des Gesetzes zur Änderung des Tierschutzgesetzes – Verbot des Kükentötens vom 17. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/219"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 218Gesetz zur Änderung des Verkehrsstatistikgesetzes und des Berufskraftfahrerqualifikationsgesetzes sowie des Gesetzes zur Überarbeitung des Sanktionenrechts – Ersatzfreiheitsstrafe, Strafzumessung, Auflagen und Weisungen sowie Unterbringung in einer Entziehungsanstalt vom 16. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/218"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 217Gesetz zur Weiterentwicklung der Fachkräfteeinwanderung  vom 16. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/217"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 215Achte Verordnung zur Änderung der Europawahlordnung vom 11. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/215"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 214Berichtigung des Gesetzes zur Stärkung der Digitalisierung im Bauleitplanverfahren und zur Änderung weiterer Vorschriften vom 08. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/214"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 211Verordnung über die Organisation der nach dem Hinweisgeberschutzgesetz einzurichtenden externen Meldestelle des Bundes vom 07. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/211"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 210Zwölfte Verordnung zur Änderung der Verordnung zur Durchführung des § 206 der Bundesrechtsanwaltsordnung vom 07. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/210"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 209Zweite Verordnung zur Änderung der Lebensmittelinformations-Durchführungsverordnung vom 03. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/209"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 208Eisenbahnverkehrs-Verordnung vom 04. August 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/208"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 207Verordnung zur Regelung weiterer Voraussetzungen der Erreichbarkeit erwerbsfähiger Leistungsberechtigter nach dem Zweiten Buch Sozialgesetzbuch vom 28. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/207"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 206Verordnung zur Durchführung des Öko-Landbaugesetzes  vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/206"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 206Verordnung zur Durchführung von Vorschriften über den ökologischen Landbau vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/206"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 205Gesetz zur Anpassung des Allgemeinen Eisenbahngesetzes an die Verordnung (EU) 2021/782 des Europäischen Parlaments und des Rates vom 29. April 2021 über die Rechte und Pflichten der Fahrgäste im Eisenbahnverkehr sowie zur Änderung des Einführungsgesetzes zum Bürgerlichen Gesetzbuche vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/205"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 204Gesetz zur Regelung einzelner dem Schutz der finanziellen Interessen der Union dienender Bestimmungen im Rahmen der Gemeinsamen Agrarpolitik, zur Änderung des Betäubungsmittelgesetzes sowie zur Aufhebung weiterer Vorschriften vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/204"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 204Gesetz zur Regelung einzelner dem Schutz der finanziellen Interessen der Union dienender Bestimmungen im Rahmen der Gemeinsamen Agrarpolitik vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/204"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 203Gesetz zur Überarbeitung des Sanktionenrechts – Ersatzfreiheitsstrafe, Strafzumessung, Auflagen und Weisungen sowie Unterbringung in einer Entziehungsanstalt vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/203"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 202Gesetz zur Änderung des Erdgas-Wärme-Preisbremsengesetzes, zur Änderung des Strompreisbremsegesetzes sowie zur Änderung weiterer energiewirtschaftlicher, umweltrechtlicher und sozialrechtlicher Gesetze vom 26. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/202"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 201Verordnung zur Änderung der Aufenthaltsverordnung vom 27. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/201"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 200Zweite Verordnung zur Änderung der Verordnung zur Festlegung weiterer Bestimmungen zur Treibhausgasminderung bei Kraftstoffen vom 13. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/200"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 199Verordnung zum Neuerlass der Fahrzeug-Zulassungsverordnung und zur Änderung weiterer Vorschriften  vom 20. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/199"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 198Berichtigung des Gesetzes zur Änderung des Bundeswahlgesetzes und des Fünfundzwanzigsten Gesetzes zur Änderung des Bundeswahlgesetzes vom 20. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/198"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 197Gesetz zur Bekämpfung von Lieferengpässen bei patentfreien Arzneimitteln und zur Verbesserung der Versorgung mit Kinderarzneimitteln vom 19. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/197"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 196Vierte Verordnung zur Änderung der Tabakerzeugnisverordnung  vom 24. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/196"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 194Drittes Gesetz zur Änderung des Tabakerzeugnisgesetzes  vom 19. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/194"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 193Luftsicherheits-Schulungsverordnung vom 06. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/193"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 192Verordnung zur Neuregelung der Anzeige von Versicherungsfällen in der gesetzlichen Unfallversicherung vom 17. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/192"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 192Verordnung über die Anzeige von Versicherungsfällen in der gesetzlichen Unfallversicherung vom 17. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/192"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 191Gesetz zur Stärkung der Aus- und Weiterbildungsförderung vom 17. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/191"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 190Gesetz zur Änderung des Bevölkerungsstatistikgesetzes, des Infektionsschutzgesetzes, personenstands- und dienstrechtlicher Regelungen sowie der Medizinprodukte-Abgabeverordnung vom 17. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/190"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 189Fünfte Verordnung zur Änderung der Kanalsteurertarifverordnung vom 14. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/189"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 188Vierzehnte Verordnung zur Änderung der Lotstarifverordnung vom 14. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/188"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 187Verordnung über die Prüfung zum anerkannten Fortbildungsabschluss Bachelor Professional in Straßenbetriebsmanagement vom 12. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/187"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 186Verordnung zur Änderung der Ersatzbaustoffverordnung und der Brennstoffwechsel-Gasmangellage-Verordnung  vom 13. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/186"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 185Zweite Verordnung zur Änderung der Zertifizierte-Mediatoren-Ausbildungsverordnung vom 11. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/185"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 184Gesetz zur Änderung des LNG-Beschleunigungsgesetzes und zur Änderung des Energiewirtschaftsgesetzes und zur Änderung des Baugesetzbuchs vom 12. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/184"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 183Berichtigung des Gesetzes zur Umsetzung von Artikel 8 Absatz 1 bis 7 der Richtlinie (EU) 2019/904 des Europäischen Parlaments und des Rates vom 5. Juni 2019 über die Verringerung der Auswirkungen bestimmter Kunststoffprodukte auf die Umwelt vom 07. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/183"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 182Zweite Verordnung zur Änderung der Obst-Gemüse-Erzeugerorganisationendurchführungsverordnung vom 11. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/182"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 180Verordnung zur Festlegung und Anpassung der Bundesbeteiligung an den Leistungen für Unterkunft und Heizung für das Jahr 2023 vom 07. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/180"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 179Verordnung zur Änderung der Heilverfahrensverordnung vom 04. Juli 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/179"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 178Zweiundvierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 29. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/178"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 173Dreizehnte Verordnung zur Änderung der Ferienreiseverordnung vom 28. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/173"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 172Gesetz zur Regelung der Entsendung von Kraftfahrern und Kraftfahrerinnen im Straßenverkehrssektor und zur grenzüberschreitenden Durchsetzung des Entsenderechts  vom 28. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/172"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 171Siebente Verordnung zur Änderung der Verordnung über die Befahrungsabgaben auf dem Nord-Ostsee-Kanal vom 28. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/171"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 170Verordnung zur Änderung der Verordnung zur Gleichstellung von Prüfungszeugnissen der Staatlichen Zeichenakademie Hanau mit den Zeugnissen über das Bestehen der Abschluss- und Gesellenprüfung in Ausbildungsberufen vom 26. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/170"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 169Verordnung zur Änderung der Ersten Bundesmeldedatenübermittlungsverordnung, der Zweiten Bundesmeldedatenübermittlungsverordnung und der Bundesmeldedatendigitalisierungsverordnung vom 23. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/169"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 168Siebenundzwanzigste Verordnung zur Änderung der Hundertfünfundsechzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Mönchengladbach) vom 02. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/168"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 167Gesetz zur Änderung des Energiesicherungsgesetzes und des Gesetzes gegen Wettbewerbsbeschränkungen vom 23. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/167"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 166Vierundfünfzigste Verordnung über das anzurechnende Einkommen nach dem Bundesversorgungsgesetz vom 21. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/166"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 165Achtundzwanzigste Verordnung zur Anpassung des Bemessungsbetrages und von Geldleistungen nach dem Bundesversorgungsgesetz vom 21. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/165"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 164Verordnung zur Bestimmung der Rentenwerte in der gesetzlichen Rentenversicherung und zur Bestimmung weiterer Werte zum 1. Juli 2023 vom 21. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/164"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 163Erste Verordnung zur Änderung der Brennstoffemissionshandelsverordnung vom 21. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/163"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 162Vierzehnte Verordnung zur Änderung der Auslandszuschlagsverordnung vom 20. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/162"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 160Zweite Verordnung zur Änderung der Amateurfunkverordnung vom 21. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/160"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 159Zweite Verordnung zur Novellierung der Trinkwasserverordnung  vom 20. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/159"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 158Verordnung zur Änderung der Werkstätten-Mitwirkungsverordnung und der Versorgungsmedizin-Verordnung vom 19. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/158"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 157Verordnung zur Änderung der Steuerberaterplattform- und -postfachverordnung vom 19. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/157"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 156Dritte Verordnung zur Änderung der Ladesäulenverordnung  vom 17. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/156"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 155Gesetz zur Unterstützung und Entlastung in der Pflege vom 19. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/155"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 154Gesetz zur Umsetzung der Richtlinie (EU) 2021/2101 im Hinblick auf die Offenlegung von Ertragsteuerinformationen durch bestimmte Unternehmen und Zweigniederlassungen sowie zur Änderung des Verbraucherstreitbeilegungsgesetzes und des Pflichtversicherungsgesetzes  vom 19. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/154"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 153Berichtigung der Verordnung zur Änderung abfallrechtlicher Verordnungen vom 15. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/153"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 152Verordnung über die Gliederung des Jahresabschlusses von Wohnungsunternehmen vom 14. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/152"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 151Verordnung über die Berufsausbildung zum Kunststoff- und Kautschuktechnologen und zur Kunststoff- und Kautschuktechnologin  vom 14. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/151"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 150Verordnung zur Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Frankfurt am Main aufgrund der Außerbetriebnahme der Navigationsanlage Ried DVOR/DME und der Inbetriebnahme der Navigationsanlage Frankenstein DVOR/DME vom 19. April 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/150"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 149Verordnung zur Änderung der Verordnung zum Schutz vor schädlichen Wirkungen nichtionisierender Strahlung bei der Anwendung am Menschen  vom 12. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/149"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 148Verordnung zur Modernisierung der Prüfungsverfahren im Recht der Heilberufe vom 07. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/148"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 146Gesetz zur Förderung eines inklusiven Arbeitsmarkts vom 06. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/146"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 143Dreiundzwanzigste Verordnung zur Änderung von Anlagen des Betäubungsmittelgesetzes  vom 01. Juni 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/143"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 142Einundvierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 22. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/142"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 140Gesetz für einen besseren Schutz hinweisgebender Personen sowie zur Umsetzung der Richtlinie zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden  vom 31. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/140"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 137Verordnung für die Durchführung der Abschlussprüfung im staatlich anerkannten Ausbildungsberuf Verwaltungsfachangestellte und Verwaltungsfachangestellter – Fachrichtung Bundesverwaltung – im Geschäftsbereich des Bundesministeriums der Verteidigung vom 22. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/137"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 136Gesetz zur Änderung des Gesetzes über Finanzhilfen des Bundes zum Ausbau der Tagesbetreuung für Kinder und zur Änderung des Kinderbetreuungsfinanzierungsgesetzes vom 23. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/136"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 129Verordnung über die Berufsausbildung zum Glasapparatebauer und zur Glasapparatebauerin  vom 15. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/129"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 128Verordnung über die Berufsausbildung zum Mediengestalter Digital und Print und zur Mediengestalterin Digital und Print  vom 15. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/128"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 120Verordnung über die Berufsausbildung zum Karosserie- und Fahrzeugbaumechaniker und zur Karosserie- und Fahrzeugbaumechanikerin  vom 01. Mai 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/120"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 117Siebzehnte Verordnung zur Änderung der Hundertsechsundsiebzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flugplatz Kiel-Holtenau) vom 19. April 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/117"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 104Erste Verordnung zur Änderung der Elektronische Arzneimittelinformationen-Verordnung vom 19. April 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/104"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 101Vierzigste Verordnung zur Änderung der Zweihundertfünfundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Streckenführungen, Meldepunkten und Reiseflughöhen für Flüge nach Instrumentenflugregeln im kontrollierten Luftraum innerhalb der Bundesrepublik Deutschland) vom 28. März 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/101"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 100Verordnung zur Änderung der Zweiten Bundesmeldedatenübermittlungsverordnung und der Bundesmeldedatenabrufverordnung vom 05. April 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/100"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 99Verordnung über die Berufsausbildung zum Gestalter für immersive Medien und zur Gestalterin für immersive Medien  vom 05. April 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/99"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 88Gesetz zur Änderung des Raumordnungsgesetzes und anderer Vorschriften vom 22. März 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/88"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 75Sechzehnte Verordnung zur Änderung der Hundertsiebenundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Flughafen Schwerin-Parchim) vom 08. März 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/75"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 74Zweite Verordnung zur Änderung der Hundertsechsundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Sichtflugregeln zum und vom Flughafen Schwerin-Parchim) vom 08. März 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/74"
+          },
+          {
+            "name": "BGBl. 2023 I Nr. 34Erste Verordnung zur Änderung der Zweihundertsiebenundfünfzigsten Durchführungsverordnung zur Luftverkehrs-Ordnung (Festlegung von Flugverfahren für An- und Abflüge nach Instrumentenflugregeln zum und vom Verkehrslandeplatz Schönhagen) vom 16. Januar 2023",
+            "url": "https://www.recht.bund.de/eli/bund/BGBl_1/2023/34"
+          },
+          {
+            "name": "BGBl I 2022, 2422Verordnung über die Einrichtung und Führung des Gesellschaftsregisters vom 16. Dezember 2022",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s2422.pdf"
+          },
+          {
+            "name": "BGBl I 2022, 1816Verordnung über die von den Traumaambulanzen in der Sozialen Entschädigung zu erfüllenden Qualitätskriterien und die Pflichten der Traumaambulanz vom 20. Oktober 2022",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s1816.pdf"
+          },
+          {
+            "name": "BGBl I 2022, 1390Verordnung über die Berufsausbildung zum Steuerfachangestellten und zur Steuerfachangestellten  vom 03. August 2022",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s1390.pdf"
+          },
+          {
+            "name": "BGBl I 2022, 1146Gesetz zur Ergänzung der Regelungen zur Umsetzung der Digitalisierungsrichtlinie und zur Änderung weiterer Vorschriften  vom 15. Juli 2022",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s1146.pdf"
+          },
+          {
+            "name": "BGBl I 2022, 928Verordnung über die Barrierefreiheitsanforderungen für Produkte und Dienstleistungen nach dem Barrierefreiheitsstärkungsgesetz  vom 15. Juni 2022",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s0928.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 3932, 3958Gesetz über die Versorgung der früheren Soldatinnen und früheren Soldaten und ihrer Hinterbliebenen vom 20. August 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s3932.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 3932Gesetz über die Entschädigung der Soldatinnen und Soldaten und zur Neuordnung des Soldatenversorgungsrechts vom 20. August 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s3932.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 3436Gesetz zur Modernisierung des Personengesellschaftsrechts vom 10. August 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s3436.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 2970Gesetz zur Umsetzung der Richtlinie (EU) 2019/882 des Europäischen Parlaments und des Rates über die Barrierefreiheitsanforderungen für Produkte und Dienstleistungen und zur Änderung anderer Gesetze vom 16. Juli 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s2970.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 2598, 2716Bundes-Bodenschutz- und Altlastenverordnung vom 09. Juli 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s2598.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 2598Verordnung über Anforderungen an den Einbau von mineralischen Ersatzbaustoffen in technische Bauwerke vom 09. Juli 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s2598.pdf"
+          },
+          {
+            "name": "BGBl I 2021, 2598Verordnung zur Einführung einer Ersatzbaustoffverordnung, zur Neufassung der Bundes-Bodenschutz- und Altlastenverordnung und zur Änderung der Deponieverordnung und der Gewerbeabfallverordnung  vom 09. Juli 2021",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl121s2598.pdf"
+          },
+          {
+            "name": "BGBl I 2019, 2652Gesetz zur Regelung des Sozialen Entschädigungsrechts vom 12. Dezember 2019",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s2652.pdf"
+          },
+          {
+            "name": "BGBl I 2019, 1875Gesetz zur Änderung des Grundsteuergesetzes zur Mobilisierung von baureifen Grundstücken für die Bebauung vom 30. November 2019",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s1875.pdf"
+          },
+          {
+            "name": "BGBl I 2019, 1794Gesetz zur Reform des Grundsteuer- und Bewertungsrechts vom 26. November 2019",
+            "url": "http://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s1794.pdf"
           }
         ]
       }
