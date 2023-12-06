@@ -9065,11 +9065,11 @@
             "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-22763"
           },
           {
-            "name": "Resolución de 8 de noviembre de 2023",
+            "name": "Resoluci\u00f3n de 8 de noviembre de 2023",
             "url": "https://www.boe.es/boe/dias/2023/11/09/pdfs/BOE-A-2023-22768.pdf"
           },
           {
-            "name": "Resolución de 26 de julio de 2023",
+            "name": "Resoluci\u00f3n de 26 de julio de 2023",
             "url": "https://boe.es/boe/dias/2023/08/01/pdfs/BOE-A-2023-17644.pdf"
           },
           {
@@ -9077,11 +9077,11 @@
             "url": "https://www.boe.es/buscar/pdf/2019/BOE-A-2019-18622-consolidado.pdf"
           },
           {
-            "name": "Resolución de 20 de julio de 2023",
+            "name": "Resoluci\u00f3n de 20 de julio de 2023",
             "url": "https://www.boe.es/boe/dias/2023/07/28/pdfs/BOE-A-2023-17382.pdf"
           },
           {
-            "name": "Resolución de 11 de julio de 2023",
+            "name": "Resoluci\u00f3n de 11 de julio de 2023",
             "url": "https://www.boe.es/boe/dias/2023/07/14/pdfs/BOE-A-2023-16394.pdf"
           },
           {
@@ -9093,7 +9093,7 @@
             "url": "https://www.boe.es/boe/dias/2023/06/29/pdfs/BOE-A-2023-15135.pdf"
           },
           {
-            "name": "Resolución de 12 de mayo de 2023",
+            "name": "Resoluci\u00f3n de 12 de mayo de 2023",
             "url": "https://www.boe.es/boe/dias/2023/05/29/pdfs/BOE-A-2023-12418.pdf"
           },
           {
@@ -9101,7 +9101,7 @@
             "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7053"
           },
           {
-            "name": "Resolución de 7 de marzo de 2023",
+            "name": "Resoluci\u00f3n de 7 de marzo de 2023",
             "url": "https://www.boe.es/boe/dias/2023/03/13/pdfs/BOE-A-2023-6455.pdf"
           },
           {
@@ -9117,7 +9117,7 @@
             "url": "https://www.boe.es/boe/dias/2023/01/03/pdfs/BOE-A-2023-116.pdf"
           },
           {
-            "name": "Corrección de errores.",
+            "name": "Correcci\u00f3n de errores.",
             "url": "https://www.boe.es/boe/dias/2023/03/13/pdfs/BOE-A-2023-6648.pdf"
           },
           {
@@ -9137,11 +9137,11 @@
             "url": "https://www.boe.es/boe/dias/2022/12/16/pdfs/BOE-A-2022-21311.pdf"
           },
           {
-            "name": "Resolución de 17 de noviembre de 2022",
+            "name": "Resoluci\u00f3n de 17 de noviembre de 2022",
             "url": "https://boe.es/boe/dias/2022/12/01/pdfs/BOE-A-2022-20168.pdf"
           },
           {
-            "name": "Resolución de 23 de noviembre de 2022",
+            "name": "Resoluci\u00f3n de 23 de noviembre de 2022",
             "url": "https://www.boe.es/boe/dias/2022/11/24/pdfs/BOE-A-2022-19535.pdf"
           },
           {
@@ -9157,7 +9157,7 @@
             "url": "https://www.boe.es/boe/dias/2022/09/29/pdfs/BOE-A-2022-15818.pdf"
           },
           {
-            "name": "Resolución de 21 de julio de 2022",
+            "name": "Resoluci\u00f3n de 21 de julio de 2022",
             "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-13174"
           },
           {
@@ -9169,16 +9169,52 @@
             "url": "https://www.boe.es/boe/dias/2022/08/04/pdfs/BOE-A-2022-13111.pdf"
           },
           {
-            "name": "Ley Orgánica 9/2022",
+            "name": "Ley Org\u00e1nica 9/2022",
             "url": "https://www.boe.es/boe/dias/2022/07/29/pdfs/BOE-A-2022-12644.pdf"
           },
           {
-            "name": "Ley Orgánica 6/2022,",
+            "name": "Ley Org\u00e1nica 6/2022,",
             "url": "https://www.boe.es/boe/dias/2022/07/13/pdfs/BOE-A-2022-11588.pdf"
           },
           {
             "name": "Real Decreto-ley 11/2022",
             "url": "https://www.boe.es/boe/dias/2022/06/26/pdfs/BOE-A-2022-10557.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7427dec7-7aaf-4f5f-b444-a4f020385d6e",
+    "url": "https://gpssa.gov.ae/en/Pages/LawsandRegulations.aspx#/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Occupational H&S Policy",
+            "url": "https://gpssa.gov.ae/Documents/Occupational%20H%20and%20S%20Policy.pdf"
+          },
+          {
+            "name": "Federal Law No. 7 of the year 1999 on Pension and Social Security and its amendments",
+            "url": "https://gpssa.gov.ae/Documents/PENSION%20LAW%20-%20English%20.pdf"
+          },
+          {
+            "name": "Decision of the Executive Regulations",
+            "url": "https://gpssa.gov.ae/Documents/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86%20%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%8A%D9%85/%D9%82%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9.pdf"
+          },
+          {
+            "name": "Circular No. 1 for the year 2017 - Obligatory Registration of UAE Nationals in Pension Scheme",
+            "url": "https://gpssa.gov.ae/Documents/Obligatory%20Registration.pdf"
+          },
+          {
+            "name": "Circular No. 2 for the year 2017 - Obligatory Registration of UAE Nationals in Pension Scheme",
+            "url": "https://gpssa.gov.ae/Documents/Circular%20No.%202%20of%202017%20EN.pdf"
           }
         ]
       }
