@@ -11041,7 +11041,7 @@
             "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Federal-Law-No.11-of-2017-on-Antiquities.pdf"
           },
           {
-            "name": "Cabinet’s Resolution No.(59) of 2021 On the UAE National Commission for Education, Culture & Science",
+            "name": "Cabinet\u2019s Resolution No.(59) of 2021 On the UAE National Commission for Education, Culture & Science",
             "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Cabinets-Resolution-No.59-of-2021-On-the-UAE-National-Commission-For-Education-Culture-Science.pdf"
           },
           {
@@ -11065,16 +11065,152 @@
             "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Federal-Law-No-15-of-1980-on-Publications-and-Publishing.pdf"
           },
           {
-            "name": "CHAIRMAN OF THE BOARD’S RESOLUTION NO. (30) of 2017 ON MEDIA ACTIVITIES LICENSES",
+            "name": "CHAIRMAN OF THE BOARD\u2019S RESOLUTION NO. (30) of 2017 ON MEDIA ACTIVITIES LICENSES",
             "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/CHAIRMAN-OF-THE-BOARDS-RESOLUTION-NO.-30-of-2017-ON-MEDIA-ACTIVITIES-LICENSES.pdf"
           },
           {
-            "name": "Chairman of the Board of Directors’ Resolution No. (27) Of 2017 Regarding age classification",
+            "name": "Chairman of the Board of Directors\u2019 Resolution No. (27) Of 2017 Regarding age classification",
             "url": "https://mcy.gov.ae/en/wp-content/uploads/sites/2/2022/09/Chairman-of-the-Board-of-Directors-Resolution-No.-27-Of-2017-Regarding-age-classification.pdf"
           },
           {
             "name": "Ministerial Resolution No.(8) of 2020 on the Mechanism of Objection to Granting Immunity to The Foreign Cultural Objects (Properties) Against Seizure or Confiscating",
             "url": "https://www.mcy.gov.ae/en/wp-content/uploads/sites/2/2021/12/Ministerial-Resolution-No-8.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd271954-bd78-4136-849b-92ae5781837f",
+    "url": "https://www.sharjahtourism.ae/industry-resources/industry-legislatives/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Circular No. 1 - Reopening of Desert Tour Activities",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/circular-No-1-Reopening-of-Desert-Tour-Activities.pdf"
+          },
+          {
+            "name": "Circular No. 2 - Reopening of Tour Operator Activities",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/circular-No-2-Reopening-of-Tour-Operator-Activities.pdf"
+          },
+          {
+            "name": "Circular No. 3 - Wedding Halls & Mass Events Capacity in Sharjah",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-3-Wedding-Halls-Mass-Events-Capacity-in-Sharjah.pdf"
+          },
+          {
+            "name": "Circular No. 4 - Mourning announcement",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-4mourning-announcement.pdf"
+          },
+          {
+            "name": "Circular No. 5 - Update the information of all hotels",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-5update-the-information-of-all-hotels.pdf"
+          },
+          {
+            "name": "Circular No. 6 - The upgraded version of the ID card",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-6the-upgraded-version-of-the-ID-card.pdf"
+          },
+          {
+            "name": "Circular No. 7 - Launch of the new Authority website",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-7-v2.pdf"
+          },
+          {
+            "name": "Circular No. 8 - Wedding Halls & Mass Events Capacity in Sharjah",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-8.pdf"
+          },
+          {
+            "name": "Circular No. 9 - Update the precautionary measures in hotel properties",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-9.pdf"
+          },
+          {
+            "name": "Circular No. 10 - Updating the precautionary of wedding halls & mass events capacity in Sharjah",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-10.pdf"
+          },
+          {
+            "name": "Circular No. 11 - Hotel Properties Trade Licenses Renewal",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/11/circular-No-11.pdf"
+          },
+          {
+            "name": "Circular No. 2 - Sanitization & Disinfection",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/2Sanitization-Disinfection.2.2020.pdf"
+          },
+          {
+            "name": "Circular No. 3 - Wedding Parties",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/3Wedding-Parties-3.2020.pdf"
+          },
+          {
+            "name": "Circular No. 4 - Temporary closure all activities",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/4Temporary-closure-all-activities-4.2020-1.pdf"
+          },
+          {
+            "name": "Circular No. 5 - Temporary closure of beach",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/5Temporary-closure-of-beach.5.2020-1.pdf"
+          },
+          {
+            "name": "Circular No. 6 - Temporary Suspension of Desert Activities",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/6Temporary-Suspension-of-Desert-Activites-6.2020.pdf"
+          },
+          {
+            "name": "Circular No. 7 - Amendment of Circular (5)",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/7Amendment-of-Circular5-7.2020.pdf"
+          },
+          {
+            "name": "Circular No. 8 - Amendment of Circular (4)",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/8Amendment-of-Circular4-8.2020.pdf"
+          },
+          {
+            "name": "Circular No. 9 - Remote Work Activation",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/9Remote-Work-Activation-9.2020.pdf"
+          },
+          {
+            "name": "Circular No. 10 - Mourning Announcement",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/10Mourning-Announcement-10.2020.pdf"
+          },
+          {
+            "name": "Circular No. 11 - Guidelines for official photo",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/11Guidelines-for-official-photo-11.2020.pdf"
+          },
+          {
+            "name": "Circular No. 12 - Amaan System",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/12Amaan-System-12.2020.pdf"
+          },
+          {
+            "name": "Circular No. 13 - Operating Guidelines During Covid-19 Manual",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/13Operating-Guidelines-During-Covid-19-Manual-13.2020.pdf"
+          },
+          {
+            "name": "Circular No. 14 - Reopening of Wedding Halls & Mass Events in Sharjah",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/14Reopening-of-Wedding-Halls-Mass-Events-in-Sharjah-14.2020.pdf"
+          },
+          {
+            "name": "Circular No. 15 - Precautionary measures during unusual weather conditions in the UAE",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/15Precautionary-measures-during-unusual-weather-conditions-in-the-UAE-15.2020.pdf"
+          },
+          {
+            "name": "Circular No. 16 - The translated Quran",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/16the-translated-Quran-16.2020.pdf"
+          },
+          {
+            "name": "Circular No. 17 - Reopening of Spa",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/17Reopening-of-Spa-17.2020.pdf"
+          },
+          {
+            "name": "Sharjah Hotel Establishments Precautionary Operating Guidelines Manual",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/FullEnglish-Sharjah-Hotel-Establishments-Precautionary-Operating-Guidelines-Manual.pdf"
+          },
+          {
+            "name": "Guidelines reopening events halls and wedding halls",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/Guidelines_EN-reopening-events-halls-and-wedding-halls.pdf"
+          },
+          {
+            "name": "Hotel Establishments Precautionary Guidelines",
+            "url": "https://www.sharjahtourism.ae/wp-content/uploads/2021/05/Hotel-Establishments-Precautionary-Guidelines-V-2-ENG.pdf"
           }
         ]
       }
