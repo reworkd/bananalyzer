@@ -10305,656 +10305,688 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Розпорядження № 9",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116\u00a09",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2023/28-09-2023/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%209%20%D0%B2%D1%96%D0%B4%2028.09.2023.pdf"
           },
           {
-            "name": "Розпорядження № 33",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 33",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2033%20%D0%B2%D1%96%D0%B4%2029.09.2022.pdf"
           },
           {
-            "name": "Розпорядження № 32",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 32",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/07/27/%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BD%D0%B0%20%D0%9F%D0%B0%D0%BF%D0%B0%D1%87%D0%B0%20%D0%92.%D0%92..pdf"
           },
           {
-            "name": "Розпорядження № 31",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 31",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/07/27/%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BF%D0%BE%20%D0%9A%D1%80%D0%B0%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B.%D0%9C..pdf"
           },
           {
-            "name": "Розпорядження № 30",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 30",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/28/30.pdf"
           },
           {
-            "name": "Розпорядження № 29",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 29",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/28/29.pdf"
           },
           {
-            "name": "Розпорядження № 28",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 28",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/28.pdf"
           },
           {
-            "name": "Розпорядження № 27",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 27",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/27.pdf"
           },
           {
-            "name": "Розпорядження № 26",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 26",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/26.pdf"
           },
           {
-            "name": "Розпорядження № 25",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 25",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/25.jpg"
           },
           {
-            "name": "Розпорядження № 24",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 24",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/24.jpg"
           },
           {
-            "name": "Розпорядження № 23",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 23",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/23.jpg"
           },
           {
-            "name": "Розпорядження № 22",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 22",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/22.jpg"
           },
           {
-            "name": "Розпорядження № 21",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 21",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/21.jpg"
           },
           {
-            "name": "Розпорядження № 20",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 20",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/20.jpg"
           },
           {
-            "name": "Розпорядження № 19",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 19",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/19.jpg"
           },
           {
-            "name": "Розпорядження № 18",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 18",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/18.jpg"
           },
           {
-            "name": "Розпорядження № 17",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 17",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/17.jpg"
           },
           {
-            "name": "Розпорядження № 16",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 16",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/16.jpg"
           },
           {
-            "name": "Розпорядження № 15",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 15",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/06/15/15.jpg"
           },
           {
-            "name": "Розпорядження № 12",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 12",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2012%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 11",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 11",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2011%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 10",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 10",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2010%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 9",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 9",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%209%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 8",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 8",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%208%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 7",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 7",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%207%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 6",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 6",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%206%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 5",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 5",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%205%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 4",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 4",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%204%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 3",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 3",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%203%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 2",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 2",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%202%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Розпорядження № 1",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/01/06/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%201%20%D0%B2%D1%96%D0%B4%2004.01.2022.pdf"
           },
           {
-            "name": "Постанова № 1",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0_%D0%93%D0%94%D0%A1%D0%9B_%E2%84%96%201.pdf"
           },
           {
-            "name": "Постанова № 14",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 14",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2022/02/15/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0_%D0%B2%D1%96%D0%B4%D1%85%D0%BE%D0%B4%D0%B8.pdf"
           },
           {
-            "name": "Постанова № 25",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 25",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/31%2C12/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3.pdf"
           },
           {
-            "name": "Додаток 1",
+            "name": "\u0414\u043e\u0434\u0430\u0442\u043e\u043a 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/31%2C12/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%201.pdf"
           },
           {
-            "name": "Додаток 2",
+            "name": "\u0414\u043e\u0434\u0430\u0442\u043e\u043a 2",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/31%2C12/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%202.pdf"
           },
           {
-            "name": "Постанова № 24",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 24",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/20%2C12/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2024.pdf"
           },
           {
-            "name": "Постанова № 23",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 23",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/07%2C12/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3_06_12_2021_23.pdf"
           },
           {
-            "name": "Постанова № 22",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 22",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/15%2C12/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%2022.pdf"
           },
           {
-            "name": "Постанова № 21",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 21",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/01%2C12/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%E2%84%96%2021.pdf"
           },
           {
-            "name": "Постанова № 20",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 20",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/03.12/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2020.pdf"
           },
           {
-            "name": "Постанова № 19",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 19",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/23.11/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%2019.pdf"
           },
           {
-            "name": "Додаток 1",
+            "name": "\u0414\u043e\u0434\u0430\u0442\u043e\u043a 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/23.11/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3%D0%B8%20%D0%B4%D0%BE%20%D0%B0%D0%B2%D1%96%D0%B0%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D0%B9.pdf"
           },
           {
-            "name": "Додаток 2",
+            "name": "\u0414\u043e\u0434\u0430\u0442\u043e\u043a 2",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/23.11/%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3%D0%B8%20%D0%B4%D0%BE%20%D0%B0%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82%D1%96%D0%B2%20.pdf"
           },
           {
-            "name": "Постанова № 18",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 18",
             "url": "http://beta.moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%2018%20%D0%B2%D1%96%D0%B4%2018_10_2021.pdf"
           },
           {
-            "name": "Постанова № 17",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 17",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/13.10/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2017%20%D0%B2%D1%96%D0%B4%2013.10.2021.pdf"
           },
           {
-            "name": "Постанова № 16",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 16",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/13.10/%D0%9F%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%2016%20%D0%B2%D1%96%D0%B4%2012.10.2021.pdf"
           },
           {
-            "name": "Постанова № 15",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 15",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/12%2C10/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%20%E2%84%96%2015%20%D0%B2%D1%96%D0%B4%2007.10.2021.pdf"
           },
           {
-            "name": "Постанова № 13",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 13",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/13.10/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%2013%D0%BF%D0%B4%D1%84.pdf"
           },
           {
-            "name": "Постанова № 12",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 12",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/13%2C09/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%20%D0%B2%D1%96%D0%B4%2010.09.2021%20%E2%84%9612.pdf"
           },
           {
-            "name": "Постанова № 10",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 10",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/07.09/%D0%93%D0%94%D0%A1%D0%9B%D0%A3%2010.pdf"
           },
           {
-            "name": "Постанова № 9",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 9",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/27%2C08/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3_9_%D0%84%D0%A6%D0%9F.pdf"
           },
           {
-            "name": "Постанова № 8",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 8",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/26.08/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%208_%D0%84%D0%A6%D0%9F.pdf"
           },
           {
-            "name": "Постанова № 7",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 7",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/17%2C08/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%93%D0%94%D0%A1%D0%9B%20_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B8_COVID-19%20%D0%B2%D1%96%D0%B4%2002.08.2021%20%E2%84%967.pdf"
           },
           {
-            "name": "Постанова № 6",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 6",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/28.07/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%206%20%D0%B2%D1%96%D0%B4%2028.07.2021.pdf"
           },
           {
-            "name": "Постанова № 5",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 5",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/08%2C06/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%965_%D0%BF%D0%B4%D1%84.pdf"
           },
           {
-            "name": "Постанова № 4",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116\u00a04",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/26%2C04/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%204_%D0%B7%D0%B0%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0_%D0%84%D0%A6%D0%9F.pdf"
           },
           {
-            "name": "Постанова № 3",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 3",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/23.04/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%203%20(%D0%BD%D0%B0%20%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%BE%D0%BC%D1%83%20%D0%BF%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%96).pdf"
           },
           {
-            "name": "Постанова № 2",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 2",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/11.03/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%E2%84%962%20%D0%B2%D1%96%D0%B4%2011.03.2021.pdf"
           },
           {
-            "name": "Постанова № 1",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u2116 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/10.03/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%E2%84%96%201%20%D0%B2%D1%96%D0%B4%2005.01.2021.pdf"
           },
           {
-            "name": "Постанова №57",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211657",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B_30.12.2020_57.pdf"
           },
           {
-            "name": "Постанова №58",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211658",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%2058.pdf"
           },
           {
-            "name": "Постанова №56",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211656",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%2056.pdf"
           },
           {
-            "name": "Постанова №55",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211655",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0_%D0%93%D0%94%D0%A1%D0%9B%D0%A3_%E2%84%9655.pdf"
           },
           {
-            "name": "Постанова №54",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211654",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3_54.pdf"
           },
           {
-            "name": "Постанова №53",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211653",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2053%20%D0%B2%D1%96%D0%B4%2009.09.2020%20%D1%80%D0%BE%D0%BA%D1%83.pdf"
           },
           {
-            "name": "Постанова №52",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211652",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3_52_03.09.pdf"
           },
           {
-            "name": "Постанова №51",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211651",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2051.pdf"
           },
           {
-            "name": "Постанова №50",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211650",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2050.pdf"
           },
           {
-            "name": "Постанова №49",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211649",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2049.pdf"
           },
           {
-            "name": "Постанова №48",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211648",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2048.pdf"
           },
           {
-            "name": "Постанова №47",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211647",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80%D1%8F%20%20%E2%84%96%2047.pdf"
           },
           {
-            "name": "Постанова №46",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211646",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80%D1%8F%20%20%E2%84%96%2046.pdf"
           },
           {
-            "name": "Постанова №45",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211645",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80%D1%8F%20%20%E2%84%96%2045.pdf"
           },
           {
-            "name": "Постанова №44",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211644",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80%D1%8F%20%20%E2%84%96%2044.pdf"
           },
           {
-            "name": "Постанова №43",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211643",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/43%20%D0%BE%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%87%D1%96.pdf"
           },
           {
-            "name": "Постанова №42",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211642",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/42%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B8.pdf"
           },
           {
-            "name": "Постанова №41",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211641",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2041.pdf"
           },
           {
-            "name": "Постанова №40",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211640",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2040.pdf"
           },
           {
-            "name": "Постанова №39",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211639",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2039.pdf"
           },
           {
-            "name": "Постанова №38",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211638",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2038.pdf"
           },
           {
-            "name": "Постанова №37",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211637",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2037.pdf"
           },
           {
-            "name": "Постанова №36",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211636",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2036.pdf"
           },
           {
-            "name": "Постанова №35",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211635",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2035.pdf"
           },
           {
-            "name": "Постанова №34",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211634",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2034_1.pdf"
           },
           {
-            "name": "Постанова №33",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211633",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2033.pdf"
           },
           {
-            "name": "Постанова №32",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211632",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2032.pdf"
           },
           {
-            "name": "Постанова №31",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211631",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2031.pdf"
           },
           {
-            "name": "Постанова №30",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211630",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%9B%D1%96%D1%86%D0%B5%D0%BD%D0%B7%D1%96%D0%B9%D0%BD%D0%B8%D0%B9%20%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80/2020/05/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2030.pdf"
           },
           {
-            "name": "Постанова №29",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211629",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B029.pdf"
           },
           {
-            "name": "Постанова №28",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211628",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2028.pdf"
           },
           {
-            "name": "Постанова №27",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211627",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%9B%D1%96%D1%86%D0%B5%D0%BD%D0%B7%D1%96%D0%B9%D0%BD%D0%B8%D0%B9%20%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80/2020/05/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2027%20%281%29.pdf"
           },
           {
-            "name": "Постанова №26",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211626",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B026.pdf"
           },
           {
-            "name": "Постанова №25",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211625",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2025.pdf"
           },
           {
-            "name": "Постанова №24",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211624",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2024.pdf"
           },
           {
-            "name": "Постанова №23",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211623",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2023.pdf"
           },
           {
-            "name": "Постанова №22",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211622",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2022.pdf"
           },
           {
-            "name": "Постанова №21",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211621",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2021.pdf"
           },
           {
-            "name": "Постанова №20",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211620",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2020.pdf"
           },
           {
-            "name": "Постанова №19",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211619",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2019.pdf"
           },
           {
-            "name": "Постанова №18",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211618",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2018.pdf"
           },
           {
-            "name": "Постанова №17",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211617",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2017.pdf"
           },
           {
-            "name": "Постанова №16",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211616",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2016.pdf"
           },
           {
-            "name": "Постанова №15",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211615",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%2015.pdf"
           },
           {
-            "name": "Постанова №14",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211614",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9614.pdf"
           },
           {
-            "name": "Постанова №13",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211613",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9613.pdf"
           },
           {
-            "name": "Постанова №11",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211611",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9611.pdf"
           },
           {
-            "name": "Постанова №10",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u211610",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9610.pdf"
           },
           {
-            "name": "Постанова №9",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21169",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%969_1.pdf"
           },
           {
-            "name": "Постанова №8 ",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21168\u00a0",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%208%20(2).pdf"
           },
           {
-            "name": "Постанова №7",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21167",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/7%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20.pdf"
           },
           {
-            "name": "Постанова №6",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21166",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%E2%84%96%206%20.pdf"
           },
           {
-            "name": "Постанова №5",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21165",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%205%20%D0%B2%D1%96%D0%B4%2030.03.2020%20.pdf"
           },
           {
-            "name": "Постанова №4",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21164",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%96%204.pdf"
           },
           {
-            "name": "Постанова №3",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21163",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%203.pdf"
           },
           {
-            "name": "Постанова №2",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21162",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%E2%84%962_.pdf"
           },
           {
-            "name": "Постанова №1",
+            "name": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0430 \u21161",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%201%20%D0%9B%D1%8F%D1%88%D0%BA%D0%BE.pdf"
           },
           {
-            "name": "Розпорядження № 32",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 32",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/02%2C11/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2032%20%D0%B2%D1%96%D0%B4%2001.11.2021.pdf"
           },
           {
-            "name": "Розпорядження № 31",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 31",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/23.09/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2031.pdf"
           },
           {
-            "name": "Розпорядження № 30",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 30",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2030%20%20%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%98%D0%99%20%D0%A1%D0%A2%D0%90%D0%9D.pdf"
           },
           {
-            "name": "Розпорядження № 27",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 27",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2027.pdf"
           },
           {
-            "name": "Розпорядження № 26",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 26",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2026.pdf"
           },
           {
-            "name": "Розпорядження № 25",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 25",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2025.pdf"
           },
           {
-            "name": "Розпорядження № 24",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 24",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2024.pdf"
           },
           {
-            "name": "Розпорядження № 23",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 23",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2023.pdf"
           },
           {
-            "name": "Розпорядження № 22",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 22",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2022.pdf"
           },
           {
-            "name": "Розпорядження № 21",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 21",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2021.pdf"
           },
           {
-            "name": "Розпорядження № 20",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 20",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2020.pdf"
           },
           {
-            "name": "Розпорядження № 19",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 19",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2019.pdf"
           },
           {
-            "name": "Розпорядження № 18",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 18",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2018.pdf"
           },
           {
-            "name": "Розпорядження № 17",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 17",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2017.pdf"
           },
           {
-            "name": "Розпорядження № 16",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 16",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2016.pdf"
           },
           {
-            "name": "Розпорядження № 15",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 15",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2015.pdf"
           },
           {
-            "name": "Розпорядження № 14",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 14",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2014.pdf"
           },
           {
-            "name": "Розпорядження № 13",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 13",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2013.pdf"
           },
           {
-            "name": "Розпорядження № 12",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 12",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2012.pdf"
           },
           {
-            "name": "Розпорядження № 11",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 11",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2011.pdf"
           },
           {
-            "name": "Розпорядження № 10",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 10",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2010.pdf"
           },
           {
-            "name": "Розпорядження № 9",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 9",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%209%20.pdf"
           },
           {
-            "name": "Розпорядження № 8",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 8",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%208%20.pdf"
           },
           {
-            "name": "Розпорядження № 7",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 7",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%207%20.pdf"
           },
           {
-            "name": "Розпорядження № 6",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 6",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%206.pdf"
           },
           {
-            "name": "Розпорядження № 5",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 5",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%205.pdf"
           },
           {
-            "name": "Розпорядження № 4",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 4",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%204%20.pdf"
           },
           {
-            "name": "Розпорядження № 3",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 3",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%203.pdf"
           },
           {
-            "name": "Розпорядження № 2",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 2",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%202.pdf"
           },
           {
-            "name": "Розпорядження № 1",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 1",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/2021/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%201.pdf"
           },
           {
-            "name": "Розпорядження № 50",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 50",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2050%20(31.12.2020).pdf"
           },
           {
-            "name": "Розпорядження № 49",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 49",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%E2%84%96%2049%20(31.12.2020).pdf"
           },
           {
-            "name": "Розпорядження № 45",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 45",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2045%20%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B5%20%D0%BE%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%87%D1%96.pdf"
           },
           {
-            "name": "Розпорядження № 42",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 42",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2042.pdf"
           },
           {
-            "name": "Розпорядження № 39",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 39",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2039.pdf"
           },
           {
-            "name": "Розпорядження № 38",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 38",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2038.pdf"
           },
           {
-            "name": "Розпорядження № 37",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 37",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2037.pdf"
           },
           {
-            "name": "Розпорядження № 34",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 34",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2034.pdf"
           },
           {
-            "name": "Розпорядження № 33",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 33",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%2033.pdf"
           },
           {
-            "name": "Розпорядження № 32",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 32",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2032.pdf"
           },
           {
-            "name": "Розпорядження № 31",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 31",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%2031.pdf"
           },
           {
-            "name": "Розпорядження № 30",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 30",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9630.pdf"
           },
           {
-            "name": "Розпорядження № 29",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 29",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%93%D0%94%D0%A1%D0%9B%D0%A3%20%E2%84%9629.pdf"
           },
           {
-            "name": "Розпорядження № 1-15, 18-28",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 1-15, 18-28",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%201-15%2018-28.pdf"
           },
           {
-            "name": "Розпорядження № 16-17",
+            "name": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f \u2116 16-17",
             "url": "https://moz.gov.ua/uploads/ckeditor/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D0%B9%20%D0%BB%D1%96%D0%BA%D0%B0%D1%80/%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%2016-17%20.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "df4bb685-c96a-4253-8e1c-501e436862a7",
+    "url": "https://www.adek.gov.ae/en/Education-System/Nurseries",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Federal Law on Nurseries (Arabic Only)",
+            "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Downloads/Nurseries/Federal-Law-on-Nurseries.pdf"
+          },
+          {
+            "name": "Implementing Regulations for nurseries...",
+            "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Downloads/Nurseries/Implementing-Regulations-for-nurseries.pdf"
+          },
+          {
+            "name": "Ministerial Decree No 457 of 2017 on the...",
+            "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Downloads/Nurseries/Ministerial-Decree-No-457-of-2017-on-the-standards-and-requirements-for-the-licensing.pdf"
+          },
+          {
+            "name": "Ministerial Decree No 57 of 2016 on the...",
+            "url": "https://www.adek.gov.ae/-/media/Project/TAMM/ADEK/Downloads/Nurseries/Ministerial-Decree-No-57-of-2016-on-the-Methodology-of-Organising-Nursery-Fees.pdf"
           }
         ]
       }
