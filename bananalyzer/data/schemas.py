@@ -1,9 +1,9 @@
 from typing import Any, Dict, List, Literal, Optional, Union
 
 from playwright.async_api import Page
+import pydantic
 from pydantic import BaseModel, Field, model_validator
 
-from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.runner.evals import (
     AllowedJSON,
     validate_end_url_match,
@@ -59,7 +59,14 @@ class Eval(BaseModel):
         raise NotImplementedError("No evaluation type implemented")
 
 
-FetchId = Literal["job_posting", "manufacturing_commerce", "contact", "forum"]
+FetchId = Literal[
+    "job_posting",
+    "manufacturing_commerce",
+    "contact",
+    "forum",
+    "attorney",
+    "attorney_job_listing",
+]
 
 
 class Example(BaseModel):
@@ -73,7 +80,7 @@ class Example(BaseModel):
     type: GoalType = Field(
         description="The high level goal intent the agent is aiming to do"
     )
-    goal: Union[str, Dict[str, Any]] = Field(
+    goal: Optional[Union[str, Dict[str, Any]]] = Field(
         description="The goal of the agent for this specific example"
     )
     fetch_id: Optional[FetchId] = Field(
@@ -91,6 +98,8 @@ class Example(BaseModel):
 
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+        from bananalyzer.data.fetch_schemas import get_fetch_schema
+
         goal_type = values.get("type")
         if goal_type != "fetch":
             return values
