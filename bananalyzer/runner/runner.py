@@ -76,7 +76,7 @@ def agent():
 async def page():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
-        context = await browser.new_context()
+        context = await browser.new_context(viewport={{ 'width': 1280, 'height': 1024 }})
         page = await context.new_page()
         yield page
         await browser.close()
