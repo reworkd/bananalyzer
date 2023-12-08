@@ -11251,5 +11251,543 @@
         ]
       }
     ]
+  },
+  {
+    "id": "d3681d1e-8c4f-48cc-b3dd-2ce5393b5830",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/d3681d1e-8c4f-48cc-b3dd-2ce5393b5830/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Allen L. Lanstra",
+          "title": "Partner, Litigation",
+          "practice_areas_main": [
+            "Litigation"
+          ],
+          "practice_areas_all": [
+            "Litigation",
+            "Supreme Court and Appellate Litigation",
+            "Securities Litigation"
+          ],
+          "email": "allen.lanstra@skadden.com",
+          "location": "Los Angeles",
+          "phone": "1.213.687.5513",
+          "bio": "Allen Lanstra's diverse practice focuses on complex, high-stakes litigation. From his extensive experience handling high-profile and discreet matters for large institutions, corporate leaders and public figures, Mr. Lanstra has developed a reputation as a tested and trusted counselor during crisis.",
+          "experience": [
+            {
+              "position": "Trial Attorney",
+              "organization": "United States Department of Justice, Civil Division",
+              "start_date": "2003",
+              "end_date": "2004",
+              "description": "Honors Program"
+            },
+            {
+              "position": "Judicial Law Clerk",
+              "organization": "Hon. Robert P. Young, Jr., Michigan Supreme Court",
+              "start_date": "2001",
+              "end_date": "2003",
+              "description": ""
+            }
+          ],
+          "matters": "Mr. Lanstra has obtained successful results in a wide range of matters, including commercial and business disputes, class actions, shareholder derivative actions, securities fraud, unfair competition and false advertising (including Cal. Bus. & Prof. Code \u00a7\u00a7 17200, 17500 matters), computer fraud and abuse, corporate governance and investigations, business torts, constitutional law and political law.",
+          "bar_admissions": [
+            {
+              "state": "California",
+              "year_admitted": ""
+            },
+            {
+              "state": "Texas",
+              "year_admitted": ""
+            },
+            {
+              "state": "Michigan",
+              "year_admitted": ""
+            }
+          ],
+          "law_school": [
+            {
+              "school_name": "Michigan State University",
+              "graduation_year": "2001",
+              "degree_earned": "J.D. (summa cum laude; Editor-in-Chief, Michigan State University Law Review)"
+            }
+          ],
+          "other_schools": [
+            {
+              "school_name": "Walsh College",
+              "graduation_year": "1998",
+              "degree_earned": "M.S. (magna cum laude)"
+            },
+            {
+              "school_name": "Michigan State University",
+              "graduation_year": "1993",
+              "degree_earned": "B.A."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "26da05a3-3e51-4244-ab8e-eb2ce920ae22",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/26da05a3-3e51-4244-ab8e-eb2ce920ae22/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Erik D. Lindauer",
+          "title": "Senior Counsel",
+          "email": "lindauere@sullcrom.com",
+          "location": "New York",
+          "phone": "1-212-558-3548",
+          "bio": "Erik Lindauer was a partner in Sullivan & Cromwell's Banking and Project Finance groups from 1989 through 2015 and is now"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3f6d11e1-d64b-4f4b-af80-1d48d1619aba",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/3f6d11e1-d64b-4f4b-af80-1d48d1619aba/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Krishnan Padmanabhan",
+          "title": "Partner, Co-Chair, Technology, Media and Telecom Industry Group",
+          "practice_areas_main": [
+            "Technology, Media and Telecom"
+          ],
+          "practice_areas_all": [
+            "Intellectual Property",
+            "Patent Litigation",
+            "Technology Antitrust",
+            "Technology, Media & Telecommunications",
+            "Cryptocurrencies, Digital Assets & Blockchain"
+          ],
+          "bio": "Krishnan (KP) is a patent litigator with extensive experience across an array of complex technologies. Prior to practicing law, he worked as an engineer focused on commercial and next-gen semiconductor technology. KP has been recognized by clients as 'smart, insightful and hard-working' and for having 'a reputation for excellence'. An expert in the telecommunications space, KP utilizes his knowledge to develop winning strategies for clients.",
+          "location": "New York, Los Angeles, Silicon Valley",
+          "phone": [
+            "+1 212-294-3564",
+            "+1 213-615-1320",
+            "+1 650-858-6500"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "6feb4e47-a37d-499c-89c1-a17cf92f30a3",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/6feb4e47-a37d-499c-89c1-a17cf92f30a3/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Michael Abercrombie",
+          "title": "Associate",
+          "bio": "Michael (Mike) Abercrombie focuses his practice on transactional and corporate matters, and is a certified public accountant. Prior to law school, Mike worked in public accounting with a focus on financial institutions.",
+          "law_school": [
+            {
+              "name": "University of Notre Dame Law School",
+              "degree": "JD, cum laude",
+              "year": "2018"
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "University of Notre Dame",
+              "degree": "BBA",
+              "year": "2012"
+            }
+          ],
+          "location": "Silicon Valley",
+          "phone": "+1 650 507 4155",
+          "email": "Not Available"
+        }
+      }
+    ]
+  },
+  {
+    "id": "646fdb14-3289-4e1b-b4b1-619bcca1f6ff",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/646fdb14-3289-4e1b-b4b1-619bcca1f6ff/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Sebastian Alsheimer",
+          "title": "PARTNER",
+          "practice_areas_main": [
+            "Corporate"
+          ],
+          "practice_areas_all": [
+            "Corporate",
+            "Corporate Governance",
+            "Mergers & Shareholder and Activism"
+          ],
+          "email": "salsheimer@wsgr.com",
+          "location": "New York",
+          "phone": "212-453-2832",
+          "bio": "Sebastian Alsheimer is a corporate partner in the New York office of Wilson Sonsini Goodrich & Rosati. He is a leader of the firm's shareholder engagement and activism practice, focusing on shareholder activism, proxy contests, corporate governance, and mergers and acquisitions. Prior to joining the firm, Sebastian was a partner at Olshan Frome Wolosky."
+        }
+      }
+    ]
+  },
+  {
+    "id": "2b8d9f30-2cd8-47c3-a197-5e5209d64174",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/2b8d9f30-2cd8-47c3-a197-5e5209d64174/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "http://www.freshfields.com",
+          "name": "James Aitken",
+          "title": "Europe, Middle East and Africa TMT Sector Lead",
+          "practice_areas_main": [
+            "Antitrust and competition",
+            "Foreign direct investment and national security"
+          ],
+          "practice_areas_all": [
+            "Antitrust and competition",
+            "Foreign direct investment and national security",
+            "Investigations",
+            "Technology",
+            "Telecommunications"
+          ],
+          "specialties": [
+            "Technology",
+            "Telecommunications"
+          ],
+          "email": "james.aitken@freshfields.com",
+          "location": "London",
+          "phone": "T  +44 20   7936   4000",
+          "bio": "Much of James ' work involves dealing with fast - moving investigations, many of which involve behavioural issues with significant implications for the client's commercial conduct and strategic objectives. His experience in working in the UK Competition Appeal Tribunal ( CAT ) is invaluable as it enables him to approach cases with practical insight gained from first - hand experience of seeing complex evidence and arguments tested. His clients value his calm professionalism and practical approach in handling what can sometimes be stressful situations. He also handles obtaining regulatory clearances for mergers, both before the European Commission ( EC ) and UK Competition and Markets Authority ( CMA ), as well as co - ordinating obtaining necessary clearances worldwide. He is also one of the partners with particular experience of advising regulated utilities and on litigation challenges to regulatory decisions in",
+          "experience": [],
+          "matters": "",
+          "bar_admissions": [
+            {
+              "country": "England, Wales and Scotland",
+              "state": "",
+              "year": ""
+            }
+          ],
+          "law_school": [],
+          "other_schools": [],
+          "awards": [],
+          "pdf_url": null,
+          "photo_url": null,
+          "news": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "b4378eeb-74b9-403d-81dc-6ef907555ae9",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/b4378eeb-74b9-403d-81dc-6ef907555ae9/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Julian Acratopulo",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Financial services disputes"
+          ],
+          "practice_areas_all": [
+            "Regulatory enforcement & white",
+            "Litigation",
+            "dispute resolution & risk management"
+          ],
+          "specialties": [
+            "Consumer goods & retail",
+            "Life sciences & chemicals",
+            "Banks",
+            "Telecommunications",
+            "media & technology"
+          ],
+          "email": "Email not provided",
+          "location": "London",
+          "phone": "+44 207006 8708",
+          "bio": "Julian Acratopulo is the Head of the International Commercial Litigation Group. Julian advises on a wide range of contentious matters including general corporate, commercial and financial litigation and global regulatory investigations. Julian is a member of the firm's Aerospace and Defence sector and has significant expertise in disputes in the aviation sector advising manufacturers, airlines, lessors and financiers on a range of contentious issues.",
+          "experience": [
+            {
+              "company": "Clifford Chance",
+              "title": "Partner",
+              "start_year": 2006,
+              "end_year": "Current"
+            }
+          ],
+          "matters": "Worked on cases like advising an aircraft manufacturer on an ongoing basis in relation to a number of disputes and commercial issues arising from the supply of aircraft to an airline, advising a US defence technology company in a high-profile dispute with a UK public body in relation to the cancellation of a multi-million pound contract, etc.",
+          "bar_admissions": [
+            {
+              "state": "England and Wales",
+              "year": 1996
+            }
+          ],
+          "law_school": [
+            {
+              "school": "Bristol University",
+              "degree": "LLB",
+              "graduation_year": 1992
+            }
+          ],
+          "other_schools": [],
+          "awards": [
+            "Julian Acratopulo is 'very persistent and tough and he is very good indeed with clients'. - Legal 500 UK 2017 - Banking litigation: investment and retail"
+          ],
+          "photo_url": "Link to the photo of the attorney is not provided",
+          "news": [
+            "Clifford Chance Success in Alleged Yukos Auction Rigging Case - 10 October 2019"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "47385113-ea45-42c2-b028-ba2085ff12e4",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/47385113-ea45-42c2-b028-ba2085ff12e4/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Ryan Coombs",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Bank Finance",
+            "Capital Markets",
+            "Emerging Companies",
+            "Private Equity",
+            "Public Company Advisory"
+          ],
+          "practice_areas_all": [
+            "Bank Finance",
+            "Capital Markets",
+            "Emerging Companies",
+            "Private Equity",
+            "Public Company Advisory"
+          ],
+          "email": "rcoombs@omm.com",
+          "location": "San Francisco Office",
+          "phone": "1-415-984-8943",
+          "bio": "Ryan Coombs structures and executes a broad range of capital markets transactions for issuers and investment banks, including initial public offerings and other common and preferred equity offerings, investment grade and high-yield debt issuances, convertible notes offerings, SPAC transactions, PIPEs, and other complex capital-raising transactions. Clients turn to Ryan for counsel on public company reporting, corporate governance and other corporate matters.",
+          "specialties": [
+            "technology",
+            "social media",
+            "consumer electronics",
+            "software",
+            "entertainment",
+            "life sciences",
+            "healthcare",
+            "renewable energy"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "815327ed-2717-4a3e-a5c2-6f04ef6c6e0e",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/815327ed-2717-4a3e-a5c2-6f04ef6c6e0e/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Jessica L. Accurso",
+          "title": "Associate",
+          "email": "jessica.accurso@morganlewis.com",
+          "location": "2222 Market St., Philadelphia, PA 19103-3007",
+          "phone": "+1.215.963.5266",
+          "practice_areas_main": [
+            "Investment Management",
+            "Corporate, Finance & Investment Management"
+          ],
+          "bio": "Jessica Accurso focuses her practice on counseling investment advisers, registered investment companies, and private funds on a wide range of matters, including fund formation, ongoing compliance, and corporate governance."
+        }
+      }
+    ]
+  },
+  {
+    "id": "3e729c8b-724f-4931-a356-ed554edecbf6",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/3e729c8b-724f-4931-a356-ed554edecbf6/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "L. Mark Weeks",
+          "title": "Senior Counsel",
+          "practice_areas_main": [
+            "Life Sciences Sector",
+            "Mergers & Acquisitions"
+          ],
+          "email": "mweeks@orrick.com",
+          "location": "New York, NY, United States",
+          "phone": "+1 212 506 5000",
+          "bio": "Mark Weeks is a Senior Counsel in Orrick's M & A and Private Equity Group. He has practiced in New York and Tokyo for more than 30 years and served as office leader of Orrick's Tokyo office from 2007 to 2017. He concentrates his practice on mergers and acquisitions, joint ventures, clean technology, life sciences, IT and telecommunications asset transfers, strategic investments, and general corporate representation for U.S., Japanese and other Asian companies. Mark speaks, reads and writes fluent Japanese.",
+          "bar_admissions": [
+            {
+              "location": "New York"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bd450be0-bed8-4f74-a60b-c6c47cb6078e",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/bd450be0-bed8-4f74-a60b-c6c47cb6078e/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Nicholas Banasevic",
+          "title": "Managing Director",
+          "practice_areas_main": [
+            "Antitrust and Competition"
+          ],
+          "practice_areas_all": [
+            "Antitrust and Competition"
+          ],
+          "email": "nbanasevic@gibsondunn.com",
+          "location": "Brussels",
+          "phone": "+32 2 554 72 40",
+          "bio": "Nicholas Banasevic is managing director in the Brussels office of Gibson, Dunn & Crutcher, and is an economist by background. A member of the firm's Antitrust and Competition Practice Group, he is a former European Commission DG Competition Head of Unit and was at the center of numerous landmark antitrust decisions in Europe. Nicholas advises clients across the technology, life sciences and financial industries on European antitrust enforcement and policy issues, and brings business-oriented solutions for risk management strategies. He offers a wealth of experience in dealing with complex and high-profile European antitrust investigations and regulatory matters, including the up-coming Digital Markets Act. He brings his extensive competition practitioner background to Gibson Dunn's global and multi-disciplinary Antitrust and Competition practice.",
+          "experience": [
+            {
+              "company": "Directorate-General for Competition of the European Commission",
+              "position": "Acting Director",
+              "years": "21",
+              "description": "responsible for EU antitrust, merger and state aid cases in the IT, communication and multimedia sector. Prior to that, Nicholas was the Head of Unit responsible for antitrust cases in the field of IT, the internet and consumer electronics. He was Case Manager of the European Commission's various Google investigations and was inter alia Case Manager of the Commission's Qualcomm, Motorola, Samsung, Intel and Rambus investigations. He previously worked in the same Unit as a Case Officer where he worked on the European Commission's Microsoft case. He was also a Case Manager for cases in DG Competition, where he was responsible for managing cases in the fields of financial services and pharmaceuticals, and was inter alia the Case Manager for the Deutsche B\u00f6rse / NYSE Euronext case."
+            }
+          ],
+          "law_school": [
+            {
+              "school": "College of Europe",
+              "degree": "Master of European Studies in Economics",
+              "year": "1995"
+            },
+            {
+              "school": "University of Bristol",
+              "degree": "Bachelor of Science with honors in Economics and Politics",
+              "year": "1994"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "9b0ef11b-ba8f-4499-b105-735a49a6d366",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/9b0ef11b-ba8f-4499-b105-735a49a6d366/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Mimi C. Cheng",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Corporate Credit",
+            "Banking and Credit",
+            "Fund Finance",
+            "Backleverage and Investment-Backed Financing"
+          ],
+          "practice_areas_all": [
+            "Corporate Credit",
+            "Banking and Credit",
+            "Fund Finance",
+            "Backleverage and Investment-Backed Financing",
+            "Investment Funds",
+            "Private Equity Lifecycle"
+          ],
+          "email": "mimi.cheng@stblaw.com",
+          "location": "1999 Avenue of the Stars - 29th Floor, Los Angeles, CA 90067",
+          "phone": "+1-310-407-7573",
+          "bio": "Mimi is a Partner in Simpson Thacher's Banking and Credit, Fund Finance and Backleverage and Investment-Backed Financing Practices, and has extensive experience counseling private equity funds, investment banks and other large financial institutions on the use of leverage products secured by, or referencing, public and private investment property. She regularly advises on financings designed to facilitate and support fund investment activities, including subscription facilities, NAV facilities, hybrid subscription and basket facilities, margin loans and other forms of backleverage. Mimi has represented clients including BlackRock, Blackstone, KKR, KSL, JPMorgan, Silver Lake Partners and Sixth Street Partners.",
+          "law_school": [
+            {
+              "school": "University of Pennsylvania Law School",
+              "degree": "J.D.",
+              "year": 2013,
+              "distinctions": [
+                "Associate Editor, Journal of Constitutional Law"
+              ]
+            },
+            {
+              "school": "L'Institut d'\u00c9tudes Politiques de Paris (Sciences Po)",
+              "degree": "LL.M.",
+              "year": 2013
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "University of California, Berkeley",
+              "degree": "B.A.",
+              "year": 2008,
+              "distinctions": [
+                "Departmental Honors ; Theresa Cha Fellowship Award for Comparative Literature"
+              ]
+            }
+          ],
+          "bar_admissions": [
+            "California 2014"
+          ]
+        }
+      }
+    ]
   }
 ]
