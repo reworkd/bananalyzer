@@ -4806,7 +4806,7 @@
     "source": "mhtml",
     "category": "personal",
     "subcategory": "unstructured",
-    "type": "links",
+    "type": "fetch",
     "goal": "Fetch all of the experiences in the page and return it in the following schema: {\"experiences\": [{\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}]}",
     "evals": [
       {
