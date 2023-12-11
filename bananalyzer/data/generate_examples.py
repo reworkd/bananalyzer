@@ -135,9 +135,9 @@ def add_example_to_json(example: Example) -> None:
         json_file.write("\n")
 
 
-async def main():
+async def main() -> None:
     openai_client = OpenAI()
-    ocr_service = GoogleVisionOCRService()
+    ocr_service = GoogleVisionOCRService({})
     tarsier_client = Tarsier(ocr_service)
 
     urls = [
