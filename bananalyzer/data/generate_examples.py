@@ -75,7 +75,6 @@ Here is the schema we want to map information from the details page into. If an 
 ```
 
 For each attribute in the schema, find information on the details page that would serve as its value and return it as part of a JSON object (formatted as ```json ...``` with double quotes for property names) mapping the attribute key to the information. For attributes that are a list of objects, remember to provide well-formed JSON for each object in the list."""
-    # print(prompt)
 
     completion = openai_client.chat.completions.create(
         model="gpt-4",
