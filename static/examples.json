@@ -624,7 +624,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -687,7 +687,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -723,7 +723,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -756,7 +756,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -784,7 +784,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -809,7 +809,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -837,7 +837,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -950,7 +950,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -991,7 +991,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1017,7 +1017,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1235,7 +1235,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1282,7 +1282,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1317,7 +1317,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1338,7 +1338,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1364,7 +1364,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1407,7 +1407,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1471,7 +1471,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1490,7 +1490,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1541,7 +1541,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1564,7 +1564,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1651,7 +1651,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1677,7 +1677,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1707,7 +1707,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1758,7 +1758,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1785,7 +1785,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1836,7 +1836,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1969,7 +1969,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1995,7 +1995,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -2021,7 +2021,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -2101,7 +2101,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
