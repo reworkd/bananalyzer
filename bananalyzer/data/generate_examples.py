@@ -1,19 +1,20 @@
+import asyncio
 import json
 import os
 import uuid
-from typing import Any, Dict
-import asyncio
-from playwright.async_api import async_playwright, Page
-from tarsier import GoogleVisionOCRService, Tarsier
-from openai import OpenAI
+from typing import Any, Dict, List
 
-from bananalyzer.data.schemas import Example, Eval
+from openai import OpenAI
+from playwright.async_api import Page, async_playwright
+from tarsier import GoogleVisionOCRService, Tarsier
+
 from bananalyzer.data.fetch_schemas import get_fetch_schema
+from bananalyzer.data.schemas import Eval, Example
 
 
 async def add_examples_to_json(
-    urls,
-    schema,
+    urls: List[str],
+    schema: Dict[str, Any],
     metadata: Dict[str, Any],
     tarsier_client: Tarsier,
     openai_client: OpenAI,
@@ -26,8 +27,8 @@ async def add_examples_to_json(
 
 
 async def generate_fetch_example(
-    url,
-    schema,
+    url: str,
+    schema: Dict[str, Any],
     metadata: Dict[str, Any],
     tarsier_client: Tarsier,
     openai_client: OpenAI,
@@ -56,7 +57,7 @@ async def generate_fetch_example(
 
 
 async def llm_annotate_example(
-    url, schema: Dict[str, Any], tarsier_client: Tarsier, openai_client: OpenAI
+    url: str, schema: Dict[str, Any], tarsier_client: Tarsier, openai_client: OpenAI
 ) -> Dict[str, Any]:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
@@ -98,7 +99,7 @@ For each attribute in the schema, find information on the details page that woul
     return details
 
 
-async def download_as_mhtml(url) -> str:
+async def download_as_mhtml(url: str) -> str:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
         context = await browser.new_context()
@@ -154,5 +155,5 @@ async def main():
     await add_examples_to_json(urls, schema, metadata, tarsier_client, openai_client)
 
 
-# if __name__ == "__main__":
-#     asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

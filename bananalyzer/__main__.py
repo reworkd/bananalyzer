@@ -50,7 +50,7 @@ def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
         description=f"Run the agent inside a bananalyzer agent definition file "
-                    f"against the benchmark",
+        f"against the benchmark",
     )
     parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
@@ -120,8 +120,8 @@ def parse_args() -> Args:
         "--single_browser_instance",
         action="store_true",
         help="Run tests in a single browser instance as opposed to creating a browser "
-             "instance per test. This is faster but less reliable as test contexts can "
-             "occasionally bleed into each other, causing tests to fail",
+        "instance per test. This is faster but less reliable as test contexts can "
+        "occasionally bleed into each other, causing tests to fail",
     )
     parser.add_argument(
         "--type",
