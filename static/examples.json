@@ -11344,7 +11344,10 @@
               "degree_earned": "B.A."
             }
           ],
-          "news" : ["",""]
+          "news": [
+            "",
+            ""
+          ]
         }
       }
     ]
@@ -11393,7 +11396,9 @@
               "year_admitted": null
             }
           ],
-          "news": {"https://www.sullcrom.com/insights/2020/March/SC-FINANCIAL-SERVICES-CORONAVIRUS-DEVELOPMENTS"}
+          "news": [
+            "https://www.sullcrom.com/insights/2020/March/SC-FINANCIAL-SERVICES-CORONAVIRUS-DEVELOPMENTS"
+          ]
         }
       }
     ]
@@ -11590,7 +11595,8 @@
               "title": "Solicitor, England, Wales and Scotland\n",
               "start_year": null,
               "end_year": "null"
-            },
+            }
+          ],
           "matters": "",
           "bar_admissions": [
             {
@@ -11757,7 +11763,7 @@
             "Member, Best ETF Law Firm, ETF Express US Awards (2021, 2022)"
           ],
           "bio": "Jessica Accurso focuses her practice on counseling investment advisers, registered investment companies, and private funds on a wide range of matters, including fund formation, ongoing compliance, and corporate governance.",
-           "news": [
+          "news": [
             "https://www.morganlewis.com/news/2020/02/morgan-lewis-2019-year-in-review-highlights-sec-finra-priorities-and-developments"
           ]
         }
@@ -11810,7 +11816,10 @@
               "graduation_year": 1984
             }
           ],
-          "news": ["https://www.orrick.com/en/News/2023/01/Japan-Team-Recognized-in-The-Legal-500-Asia-Pacific-2023-Edition","https://www.orrick.com/en/News/2022/01/Orrick-Japan-Team-Recognized-in-2022-Edition-of-The-Legal-500-Asia-Pacific"],
+          "news": [
+            "https://www.orrick.com/en/News/2023/01/Japan-Team-Recognized-in-The-Legal-500-Asia-Pacific-2023-Edition",
+            "https://www.orrick.com/en/News/2022/01/Orrick-Japan-Team-Recognized-in-2022-Edition-of-The-Legal-500-Asia-Pacific"
+          ],
           "matters": "Mark's representative transactions include the following.\n\nAssisted a Japanese chemical company in its acquisitions of the plant health business from a leading animal health company.\nRepresentation of a Japanese chemical manufacturer in the acquisition of a German insulation systems manufacturer.\nAssisted Sharp Corporation in its transfer of all interests in its subsidiary, Recurrent Energy LLC to a Canadian solar energy company, Canadian Solar Inc.\nAssisted Johnson Controls with its acquisition of a 60% interest in Hitachi Appliances’ global HVAC (heating, ventilating, and air conditioning) business and the creation of a global joint venture with Hitachi to develop, manufacture and sell HVAC systems.\nAssisted U-Shin, a Japan based car parts manufacturer, in its acquisition of a global car access mechanisms business from French company Valeo.\nAssisted a Japan based global chemical company in its acquisition of a French chemical company through an auction.\nAssisted a leading U.S. based diversified chemical company in its acquisition of a herbicide, fluthiacet-methyl, which is jointly owned by leading agricultural, pesticide and industrial chemical developers and manufacturers in Japan.\nAssisted a Japan based global chemical company in its acquisition of the Tebufenozide insecticide business of a wholly owned subsidiary of The Dow Chemical Company.\nAssisted a Japanese publicly traded chemical company in the sale of its U.S. subsidiary through an auction.\nAssisted a Japanese publicly traded manufacturer of GPS, sonar and radar devices in its acquisition of a U.S. GPS semiconductor company.\nRepresentation of a trading subsidiary of the Toyota group in the $200 million sale of its more than 40 percent equity stake in a global agrochemical company to a group of investors led by Olympus Capital.\nRepresentation of a Japanese trading and holding company in the sale of its equity stake in one of the world’s largest privately held crop protection and life sciences companies.\nRepresentation of a Japan-based global manufacturer and distributor of food, drinks and seasonings in the negotiation and preparation of global research, development, commercialization and license agreements with Senomyx, a developer of flavor ingredients.\nRepresentation of a Japanese bank in connection with the complex financing of the acquisition of a Japanese public company.\nGeneral representation of a biotech company in connection with M&A licenses and supply, manufacturing, collaboration and research and development agreements.\nGeneral representation of a Japanese agricultural chemicals company in connection with M&A, joint venture, asset transfer, supply, distribution and license agreements related to its fungicide, pesticide and herbicide businesses.\nRepresentation of a Japanese cash management company in connection with the tender offer for a U.S. cash management company.\nRepresentation of a Japanese food processing company in connection with the tender offer for a U.S. food processing company.\nJoint venture between a Japanese company and a U.S. company to create a company to provide identity authentication, credit checks and reports in connection with online business-to-business transactions.\nRepresentation of a Japanese retailer as creditor in connection with the reorganization of a large U.S. retail clothing store chain. This included establishing a joint venture to license a trademark in Asia and negotiating the terms of a subordinated note agreement, warrants and a stockholders’ agreement for the new stockholders of the reorganized entity."
         }
       }
