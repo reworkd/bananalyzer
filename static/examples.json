@@ -2939,7 +2939,7 @@
         "expected": {
           "author": "eagleservice",
           "title": "1366 vs 1150?",
-          "post_date": "Sep 28th, 2013 4:33 pm",
+          "post_date": "Sep 26th, 2013 11:14 pm",
           "content": "Ok so i just got this i7 950 cpu given to me as the motherboard was inoperable im rmaing the motherboard what would be faster a newer 1150 or this is this faster then core i5?",
           "up_votes": null,
           "views": null,
@@ -2972,7 +2972,7 @@
     ]
   },
   {
-    "id": "ad07bc26-794c-4264-8122-2aae31c383ef",
+    "id": "496dea42-95b9-4087-9b75-2b65ef81dba4",
     "url": "https://patient.info/forums/discuss/tingling-in-my-hands-and-cheeks-with-a-sore-throat-and-red-dots-on-roof-of-mouth-and-sores-on-cheeks-739597",
     "source": "mhtml",
     "category": "healthcare",
@@ -11229,23 +11229,23 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Glossary Rules",
+            "name": "Glossary Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm-glossary-english"
           },
           {
-            "title": "Module One  General Rules",
+            "name": "Module One  General Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---general-rules-module---english.pdf?sfvrsn=8c821f81_2"
           },
           {
-            "title": "Module Two  Listing Rules",
+            "name": "Module Two  Listing Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---listing-rules-module---english.pdf?sfvrsn=82811f81_2"
           },
           {
-            "title": "Module Three  Membership, Trading, And Derivatives Rules",
+            "name": "Module Three  Membership, Trading, And Derivatives Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---membership-trading-and-derivatives-rules-module---english.pdf?sfvrsn=80821f81_2"
           },
           {
-            "title": "Module Four  Penalty Rules",
+            "name": "Module Four  Penalty Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---penalty-rules-module---english.pdf?sfvrsn=76811f81_2"
           }
         ]
@@ -11343,8 +11343,7 @@
               "graduation_year": "1993",
               "degree_earned": "B.A."
             }
-          ],
-          "news" : []
+          ]
         }
       }
     ]
@@ -11592,7 +11591,6 @@
               "end_year": "null"
             }
             ],
-          "matters": null,
           "bar_admissions": [
             {
               "country": null,
