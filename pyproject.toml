@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.6.19"
+version = "0.7.0"
 
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
@@ -20,6 +20,8 @@ black = { extras = ["jupyter"], version = "^23.11.0" }
 pytest-html = "^4.1.1"
 tabulate = "^0.9.0"
 requests = "^2.31.0"
+tarsier = "^0.5.0"
+openai = "^1.3.7"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"

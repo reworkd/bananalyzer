@@ -624,7 +624,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -687,7 +687,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -723,7 +723,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -756,7 +756,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -784,7 +784,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -809,7 +809,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -837,7 +837,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -950,7 +950,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -991,7 +991,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1017,7 +1017,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1235,7 +1235,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1282,7 +1282,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1317,7 +1317,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "Fetch all of the links to the detail pages of clinics",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1338,7 +1338,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1364,7 +1364,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1407,7 +1407,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1471,7 +1471,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1490,7 +1490,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1541,7 +1541,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1564,7 +1564,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1651,7 +1651,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1677,7 +1677,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1707,7 +1707,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1758,7 +1758,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1785,7 +1785,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1836,7 +1836,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1969,7 +1969,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -1995,7 +1995,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -2021,7 +2021,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -2101,7 +2101,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -2939,7 +2939,7 @@
         "expected": {
           "author": "eagleservice",
           "title": "1366 vs 1150?",
-          "post_date": "Sep 28th, 2013 4:33 pm",
+          "post_date": "Sep 26th, 2013 11:14 pm",
           "content": "Ok so i just got this i7 950 cpu given to me as the motherboard was inoperable im rmaing the motherboard what would be faster a newer 1150 or this is this faster then core i5?",
           "up_votes": null,
           "views": null,
@@ -2972,7 +2972,7 @@
     ]
   },
   {
-    "id": "ad07bc26-794c-4264-8122-2aae31c383ef",
+    "id": "496dea42-95b9-4087-9b75-2b65ef81dba4",
     "url": "https://patient.info/forums/discuss/tingling-in-my-hands-and-cheeks-with-a-sore-throat-and-red-dots-on-roof-of-mouth-and-sores-on-cheeks-739597",
     "source": "mhtml",
     "category": "healthcare",
@@ -3309,7 +3309,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3361,7 +3361,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3389,7 +3389,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3425,7 +3425,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3477,7 +3477,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3549,7 +3549,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3585,7 +3585,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3693,7 +3693,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3893,7 +3893,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3989,7 +3989,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -4069,7 +4069,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -4806,7 +4806,7 @@
     "source": "mhtml",
     "category": "personal",
     "subcategory": "unstructured",
-    "type": "links",
+    "type": "fetch",
     "goal": "Fetch all of the experiences in the page and return it in the following schema: {\"experiences\": [{\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}]}",
     "evals": [
       {
@@ -5019,7 +5019,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5147,7 +5147,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5827,7 +5827,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5907,7 +5907,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5951,7 +5951,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6087,7 +6087,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6207,7 +6207,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6327,7 +6327,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6411,7 +6411,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6459,7 +6459,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6591,7 +6591,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6631,7 +6631,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6791,7 +6791,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6855,7 +6855,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6887,7 +6887,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6923,7 +6923,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6955,7 +6955,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8483,7 +8483,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8539,7 +8539,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8559,7 +8559,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8867,7 +8867,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8907,7 +8907,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8963,7 +8963,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8991,7 +8991,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9035,7 +9035,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9191,7 +9191,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9227,7 +9227,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Typically link text, title attribute, or a different name element on the page. Use the element that best captures the name. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9323,7 +9323,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9447,7 +9447,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9483,7 +9483,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10299,7 +10299,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10967,7 +10967,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10999,13 +10999,13 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
-            "name": "Human Resources Law in the Federal Government \nFederal Decree Law No. (49) for 2022 on Human Resources in the Federal Government (New)",
+            "name": "Federal Decree Law No. (49) for 2022 on Human Resources in the Federal Government (New)",
             "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/674c44b4.pdf"
           },
           {
@@ -11013,7 +11013,7 @@
             "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/4441d68a.pdf"
           },
           {
-            "name": "Human Resources Law in the Federal Government \nFEDERAL DECREE LAW No. (11) FOR 2008 ON HUMAN RESOURCES IN THE FEDERAL GOVERNMENT AS AMENDED BY FEDERAL DECREE LAW No (9) FOR 2011 AND FEDERAL DECREE LAW No (17) FOR 2016",
+            "name": " > FEDERAL DECREE LAW No. (11) FOR 2008 ON HUMAN RESOURCES IN THE FEDERAL GOVERNMENT AS AMENDED BY FEDERAL DECREE LAW No (9) FOR 2011 AND FEDERAL DECREE LAW No (17) FOR 2016",
             "url": "http://www.fahr.gov.ae/Portal/Userfiles/Assets/Documents/38e702a7.pdf"
           }
         ]
@@ -11027,7 +11027,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11087,7 +11087,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11223,32 +11223,716 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
-            "title": "Glossary Rules",
+            "name": "Glossary Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm-glossary-english"
           },
           {
-            "title": "Module One  General Rules",
+            "name": "Module One  General Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---general-rules-module---english.pdf?sfvrsn=8c821f81_2"
           },
           {
-            "title": "Module Two  Listing Rules",
+            "name": "Module Two  Listing Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---listing-rules-module---english.pdf?sfvrsn=82811f81_2"
           },
           {
-            "title": "Module Three  Membership, Trading, And Derivatives Rules",
+            "name": "Module Three  Membership, Trading, And Derivatives Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---membership-trading-and-derivatives-rules-module---english.pdf?sfvrsn=80821f81_2"
           },
           {
-            "title": "Module Four  Penalty Rules",
+            "name": "Module Four  Penalty Rules",
             "url": "https://assets.dfm.ae/docs/default-source/market-rules/dfm---penalty-rules-module---english.pdf?sfvrsn=76811f81_2"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "d3681d1e-8c4f-48cc-b3dd-2ce5393b5830",
+    "url": "https://www.skadden.com/professionals/l/lanstra-allen-l",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Allen L. Lanstra",
+          "title": "Partner, Litigation",
+          "practice_areas_main": [
+            "Litigation"
+          ],
+          "practice_areas_all": [
+            "Litigation",
+            "Supreme Court and Appellate Litigation",
+            "Securities Litigation"
+          ],
+          "email": "allen.lanstra@skadden.com",
+          "location": "Los Angeles",
+          "website": "https://www.skadden.com/professionals/l/lanstra-allen-l",
+          "photo_url": "https://www.skadden.com/-/media/images/professionals/l/lanstra-allen-l/detail/lanstraallenv21440x600px72dpi.jpg?rev=7d80411d2763454085698d928d865f19",
+          "phone": "1.213.687.5513",
+          "bio": "Allen Lanstra's diverse practice focuses on complex, high-stakes litigation. From his extensive experience handling high-profile and discreet matters for large institutions, corporate leaders and public figures, Mr. Lanstra has developed a reputation as a tested and trusted counselor during crisis.",
+          "experience": [
+            {
+              "position": "Trial Attorney",
+              "organization": "United States Department of Justice, Civil Division (Honors Program)",
+              "start_date": "2003",
+              "end_date": "2004",
+              "description": null
+            },
+            {
+              "position": "Judicial Law Clerk",
+              "organization": "Hon. Robert P. Young, Jr., Michigan Supreme Court",
+              "start_date": "2001",
+              "end_date": "2003",
+              "description": null
+            },
+            {
+              "position": "Judicial Extern",
+              "organization": "Hon. Richard F. Suhrheinrich, U.S. Court of Appeals for the Sixth Circuit",
+              "start_date": "2000",
+              "end_date": null,
+              "description": null
+            },
+            {
+              "position": "Legislative Aide",
+              "organization": "Michigan House of Representatives",
+              "start_date": "1994",
+              "end_date": "1998",
+              "description": null
+            }
+          ],
+          "matters": "Mr. Lanstra has obtained successful results in a wide range of matters, including commercial and business disputes, class actions, shareholder derivative actions, securities fraud, unfair competition and false advertising (including Cal. Bus. & Prof. Code §§ 17200, 17500 matters), computer fraud and abuse, corporate governance and investigations, business torts, constitutional law and political law.\n\nSome of his many notable representations and achievements include:\n\ndefending directors of Sempra Energy in federal securities litigation and federal and state court derivative actions following the SoCalGas leak at its Aliso Canyon facility;\ndefending First Energy in class action litigation filed in Ohio state courts concerning tax forms provided to shareholders;\ndefending Bank of America in class action litigation in federal court in California concerning tax forms provided to mortgage customers;\nrepresenting Société Générale Private Banking (Suisse) SA in litigation in federal district court in Texas arising out of the Stanford Ponzi scheme;\nrepresenting CytRx Corporation and/or its directors and officers in multiple state and federal securities class actions and derivative actions and an SEC investigation;\ndefending CashCall, Inc. in a trial in the U.S. District Court (C.D. Cal.) commenced by the Consumer Financial Protection Bureau. This matter was recognized by the Daily Journal as a Top Defense Verdict of 2018;\nrepresenting the Miami Marlins baseball club in a player salary arbitration;\ndefending Toyota Motor Corporation and Toyota Motor Sales, U.S.A., Inc. as part of the lead counsel team in its “unintended acceleration” cases concerning alleged defects in Toyota’s electronic throttle control system and comprising the defense of hundreds of consumer class actions alleging economic loss in U.S. District Court (C.D. Cal.) and Los Angeles County Superior Court (Complex Civil Litigation Program);\nrepresenting MGA Entertainment, Inc. in its highly publicized and high-stakes “Barbie v. Bratz” copyright and trade secrets litigation against Mattel, Inc. over the intellectual property rights to the Bratz doll franchise in U.S. District Court (C.D. Cal.);\ndefending E.I. du Pont de Nemours and Company (DuPont) in two tracks of shareholder derivative litigation following Monsanto Inc.’s prior $1 billion patent infringement verdict against DuPont, and successfully defending cases in the U.S. District Court (D. Del.), the Delaware Court of Chancery, the U.S. Court of Appeals for the Third Circuit, and the Delaware Supreme Court;\nsecond-chairing oral argument before the U.S. Supreme Court in conjunction with appointed counsel in Bond v. United States (2011);\nreaching a favorable settlement on behalf of HCP, Inc. in the punitive damages phase of Ventas v. HCP in U.S. District Court (W.D. Ky.);\nobtaining an arbitration award that found an LLC manager and member of a $300 million real estate project in Los Angeles’ Koreatown engaged in acts of deceit and willful misconduct;\ndefending the founder, chairman and CEO of VeriSign, Inc., in an employment-related lawsuit filed by a former CAO that led to voluntary dismissal of the claims and ultimately a settlement whereby the plaintiff provided a written apology to VeriSign for the litigation;\ndefending the former CEO of Qualstar Corporation in litigation alleging breaches of fiduciary duty and reaching a favorable settlement for the client based on counterclaims;\nrepresenting the founders of Skype in trade secrets litigation;\nrepresenting a prominent developer in the Inland Empire in multiple high-profile matters;\nperforming diligence inquiries and analysis for numerous mergers and acquisitions; and\nrepresenting a prominent developer in an arbitration dispute between LLC members involving water rights that resulted in a favorable settlement, permitting a substantial land development project in Southern California to move forward.",
+          "bar_admissions": [
+            {
+              "state": "California",
+              "year_admitted": null
+            },
+            {
+              "state": "Texas",
+              "year_admitted": null
+            },
+            {
+              "state": "Michigan",
+              "year_admitted": null
+            }
+          ],
+          "law_school": [
+            {
+              "school_name": "Michigan State University",
+              "graduation_year": "2001",
+              "degree_earned": "J.D. (summa cum laude; Editor-in-Chief, Michigan State University Law Review)"
+            }
+          ],
+          "other_schools": [
+            {
+              "school_name": "Walsh College",
+              "graduation_year": "1998",
+              "degree_earned": "M.S. (magna cum laude)"
+            },
+            {
+              "school_name": "Michigan State University",
+              "graduation_year": "1993",
+              "degree_earned": "B.A."
+            }
+          ],
+          "news": [
+            "",
+            ""
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "26da05a3-3e51-4244-ab8e-eb2ce920ae22",
+    "url": "https://www.sullcrom.com/Lawyers/Erik-D-Lindauer",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Erik D. Lindauer",
+          "title": "Senior Counsel",
+          "website": "https://www.sullcrom.com/Lawyers/Erik-D-Lindauer",
+          "photo_url": "https://sullivan-cromwell.imgix.net/sitefiles/professionals/3783.png?trim=color&h=400&format=auto&trim-pad=10&pad-top=10",
+          "email": "lindauere@sullcrom.com",
+          "location": "New York",
+          "phone": "1-212-558-3548",
+          "bio": "Erik Lindauer was a partner in Sullivan & Cromwell's Banking and Project Finance groups from 1989 through 2015 and is now senior counsel to the Firm. He focuses on transactional banking, secured lending, commercial law (Uniform Commercial Code), corporate reorganizations and bankruptcy. Mr. Lindauer's financing experience includes advising clients in a broad range of complex secured and unsecured financings including acquisition, project, cable television and media financings. Mr. Lindauer oversees continuing legal education for the firm's corporate practice, regularly leads training programs in his areas of expertise, and previously spent an extended period working in Moscow with American and Russian bankers as the legal advisor to the Government Securities Working Group of the Russian-American Bankers Forum.",
+          "law_school": [
+            {
+              "name": "SUNY Buffalo Law School",
+              "degree": "J.D.",
+              "year": "1981"
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "University at Albany, State University of New York,",
+              "degree": "B.A.",
+              "year": "1978"
+            }
+          ],
+          "bar_admissions": [
+            {
+              "state": "District of Columbia",
+              "year_admitted": null
+            },
+            {
+              "state": "New York\n",
+              "year_admitted": null
+            }
+          ],
+          "news": [
+            "https://www.sullcrom.com/insights/2020/March/SC-FINANCIAL-SERVICES-CORONAVIRUS-DEVELOPMENTS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3f6d11e1-d64b-4f4b-af80-1d48d1619aba",
+    "url": "https://www.winston.com/en/professionals/padmanabhan-krishnan",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Krishnan Padmanabhan",
+          "website": "https://www.winston.com/en/professionals/padmanabhan-krishnan",
+          "photo_url": "https://www.winston.com/a/web/kLHiU2DcW6pFF5fUfBjz3N/853689/padmanabhan_krishnan_866.jpg",
+          "title": "Partner, Co-Chair, Technology, Media and Telecom Industry Group",
+          "practice_areas_main": [
+            "Technology, Media and Telecom"
+          ],
+          "practice_areas_all": [
+            "Intellectual Property",
+            "Patent Litigation",
+            "Technology Antitrust",
+            "Technology, Media & Telecommunications",
+            "Cryptocurrencies, Digital Assets & Blockchain"
+          ],
+          "bio": "Krishnan (KP) is a patent litigator with extensive experience across an array of complex technologies. Prior to practicing law, he worked as an engineer focused on commercial and next-gen semiconductor technology. KP has been recognized by clients as 'smart, insightful and hard-working' and for having 'a reputation for excellence'. An expert in the telecommunications space, KP utilizes his knowledge to develop winning strategies for clients.",
+          "location": "New York, Los Angeles, Silicon Valley",
+          "phone": [
+            "+1 212-294-3564",
+            "+1 213-615-1320",
+            "+1 650-858-6500"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "6feb4e47-a37d-499c-89c1-a17cf92f30a3",
+    "url": "https://www.mwe.com/people/michael-abercrombie/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Michael Abercrombie",
+          "title": "Associate",
+          "website": "https://www.mwe.com/people/michael-abercrombie/",
+          "photo_url": "https://d1198w4twoqz7i.cloudfront.net/wp-content/uploads/2018/12/06234234/Abercrombie_M_16_WB.jpg",
+          "bio": "Michael (Mike) Abercrombie focuses his practice on transactional and corporate matters, and is a certified public accountant. Prior to law school, Mike worked in public accounting with a focus on financial institutions.",
+          "law_school": [
+            {
+              "name": "University of Notre Dame Law School",
+              "degree": "JD, cum laude",
+              "year": "2018"
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "University of Notre Dame",
+              "degree": "BBA",
+              "year": "2012"
+            }
+          ],
+          "location": "Silicon Valley",
+          "phone": "+1 650 507 4155",
+          "email": null,
+          "bar_admissions": [
+            {
+              "state": "California",
+              "year_admitted": null
+            },
+            {
+              "state": "Illinois",
+              "year_admitted": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "646fdb14-3289-4e1b-b4b1-619bcca1f6ff",
+    "url": "https://www.wsgr.com/en/people/sebastian-alsheimer.html",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Sebastian Alsheimer",
+          "title": "PARTNER",
+          "website": "https://www.wsgr.com/en/people/sebastian-alsheimer.html",
+          "photo_url": "https://www.wsgr.com/a/web/iRECo7hzNYVuojLyfnkyp3/7DDFnL/alsheimer_sebastian_uncropped_highres_19722.jpg",
+          "practice_areas_main": [
+            "Corporate"
+          ],
+          "practice_areas_all": [
+            "Corporate",
+            "Corporate Governance",
+            "Mergers & Shareholder and Activism",
+            "Shareholder Engagement and Activism"
+          ],
+          "email": "salsheimer@wsgr.com",
+          "location": "New York",
+          "phone": "212-453-2832",
+          "bio": "Sebastian Alsheimer is a corporate partner in the New York office of Wilson Sonsini Goodrich & Rosati. He is a leader of the firm's shareholder engagement and activism practice, focusing on shareholder activism, proxy contests, corporate governance, and mergers and acquisitions. Prior to joining the firm, Sebastian was a partner at Olshan Frome Wolosky.",
+          "bar_admissions": [
+            {
+              "state": "State Bar of New York\n",
+              "year_admitted": null
+            }
+          ],
+          "law_school": [
+            {
+              "name": "Columbia Law School",
+              "degree": "LL.M.",
+              "year": null
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "Harvard College",
+              "degree": "A.B.",
+              "year": null
+            },
+            {
+              "name": "University of Oxford",
+              "degree": "M.A.",
+              "year": null
+            },
+            {
+              "name": "Yale School of Management",
+              "degree": "M.B.A.",
+              "year": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "2b8d9f30-2cd8-47c3-a197-5e5209d64174",
+    "url": "https://www.freshfields.us/contacts/find-a-lawyer/a/aitken-james/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "https://www.freshfields.us/contacts/find-a-lawyer/a/aitken-james/",
+          "name": "James Aitken",
+          "photo_url": "https://www.freshfields.us/4a7749/globalassets/profile-images/a/aitken_james_67360_1000x84072.png",
+          "title": "Europe, Middle East and Africa TMT Sector Lead",
+          "practice_areas_main": [
+            "Antitrust and competition",
+            "Foreign direct investment and national security"
+          ],
+          "practice_areas_all": [
+            "Antitrust and competition",
+            "Foreign direct investment and national security",
+            "Investigations",
+            "Technology",
+            "Telecommunications"
+          ],
+          "specialties": [
+            "Telecoms",
+            "Media and Technology",
+            "Energy and natural resources",
+            "financial institutions",
+            "infrastructure and transport "
+          ],
+          "email": "james.aitken@freshfields.com",
+          "location": "London",
+          "phone": "T  +44 20   7936   4000",
+          "bio": "Much of James’ work involves dealing with fast-moving investigations, many of which involve behavioural issues with significant implications for the clients’ commercial conduct and strategic objectives.\n\nHis experience in working in the UK Competition Appeal Tribunal (CAT) is invaluable as it enables him to approach cases with practical insight gained from first-hand experience of seeing complex evidence and arguments tested. His clients value his calm professionalism and practical approach in handling what can sometimes be stressful situations.\n\nHe also handles obtaining regulatory clearances for mergers, both before the European Commission (EC) and UK Competition and Markets Authority (CMA), as well as co-ordinating obtaining necessary clearances worldwide. He is also one of the partners with particular experience of advising regulated utilities and on litigation challenges to regulatory decisions in court and the UK CAT.\n\nSectors he specialises in include: telecoms, media and technology, energy and natural resources, financial institutions, and infrastructure and transport. He has become particularly well known for his strategic advice to leading players on the intersection of antitrust law with patent law and digital business models. \n\nMany of the cases James deals with involve working across more than one jurisdiction. In addition to handling the EC or CMA aspects of a matter James often finds himself managing a team of lawyers across continents. As a result, his ability to manage collaboratively but purposefully is the key to success.\n\nJames is ranked as a leading individual in the Competition/European Law section of Chambers UK, Europe and Global, and in Who's Who Legal.\n\nAs well as regularly speaking at seminars, James has co-authored a chapter in the seventh edition of the leading publication Bellamy and Child: European Union Law of Competition.\n\nJames speaks English, French and Norwegian.",
+          "experience": [
+            {
+              "company": null,
+              "title": "Solicitor, England, Wales and Scotland\n",
+              "start_year": null,
+              "end_year": "null"
+            }
+          ],
+          "matters": null,
+          "bar_admissions": [
+            {
+              "country": null,
+              "state": null,
+              "year": null
+            }
+          ],
+          "law_school": [],
+          "other_schools": [],
+          "awards": [],
+          "pdf_url": null,
+          "news": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "b4378eeb-74b9-403d-81dc-6ef907555ae9",
+    "url": "https://www.cliffordchance.com/people_and_places/people/partners/gb/julian_acratopulo.html",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Julian Acratopulo",
+          "title": "Partner",
+          "website": "https://www.cliffordchance.com/people_and_places/people/partners/gb/julian_acratopulo.html",
+          "practice_areas_main": [],
+          "practice_areas_all": [
+            "Regulatory enforcement & white",
+            "Litigation",
+            "dispute resolution & risk management"
+          ],
+          "specialties": [],
+          "email": "julian.acratopulo@cliffordchance.com",
+          "location": "London",
+          "phone": "+44 207006 8708",
+          "bio": "Julian Acratopulo is the Head of the International Commercial Litigation Group.\nJulian advises on a wide range of contentious matters including general corporate, commercial and financial litigation and global regulatory investigations.\n\nJulian is a member of the firm’s Aerospace and Defence sector and has significant expertise in disputes in the aviation sector advising manufacturers, airlines, lessors and financiers on a range of contentious issues. He acts on a range of complex financial services disputes, including for several global banks, and has particular experience in high value “bet the company” cases in the High Court in London.\n\nIn 2018 Julian was elected as the President of the London Solicitors Litigation Association.",
+          "experience": [
+            {
+              "company": "Clifford Chance",
+              "title": "Partner",
+              "start_year": 2006,
+              "end_year": "Current"
+            }
+          ],
+          "matters": "Witness statements next target for reform, predicts new LSLA president\nLSLA announces new president\nAdvising an aircraft manufacturer on an ongoing basis in relation to a number of disputes and commercial issues arising from the supply of aircraft to an airline. The disputes each involve the management of risk in the context of high value contracts and the application of complex contractual and commercial law principles in order to protect our client's position and further their business interests.\nAdvising a US defence technology company in a high-profile dispute with a UK public body in relation to the cancellation of a multi-million pound contract.\nAdvising the aircraft financing arm of a financial services company in a dispute with a company concerning the default on aircraft finance loans and recovery of funds across multiple jurisdictions.\nAdvising a defence contractor in a dispute with a prominent London Authority in relation to the termination of a major service contract on the grounds of alleged non-performance by the service provider. The case involved a detailed assessment of the grounds of termination, the operation of the relevant contractual mechanisms, and Authority conduct.\nAdvising various financial institutions and lessors on significant disputes in the aviation sector involving lenders, finance lessors and operating lessors, often arising in the context of troubled airlines and including, for example, cross-border enforcement and recovery issues.\nAdvising a major European bank in relation to recovery claims commenced by a Bolivian customer.\nAdvising a major Asian bank in relation to enforcement claims against Pakistani ISDA counterparties.\nAdvising a major French bank in relation to enforcement and recovery claims under a Lehman's sponsored investment structure.\nAdvising a major European bank (in its capacity as lender and security trustee) in relation to potential enforcement / restructuring of a Russian loan, under a Russian, Cypriot and BVI based security structure.\nAdvising an Asian tyre manufacturer on a product recall on safety grounds. The matter required coordination across ten European jurisdictions, including the population of notifications to the competent authorities, recall notices and related documentation.",
+          "bar_admissions": [
+            {
+              "state": "England and Wales",
+              "year": 1996
+            }
+          ],
+          "law_school": [
+            {
+              "school": "Bristol University",
+              "degree": "LLB",
+              "graduation_year": 1992
+            }
+          ],
+          "other_schools": [],
+          "awards": [
+            "Julian Acratopulo is 'very persistent and tough and he is very good indeed with clients'. - Legal 500 UK 2017 - Banking litigation: investment and retail"
+          ],
+          "photo_url": "https://www.cliffordchance.com/content/dam/cliffordchance/profiles/000000/006591-half.png/_jcr_content/renditions/original",
+          "news": [
+            "https://www.cliffordchance.com/news/news/2019/10/-clifford-chance-success-in-alleged-yukos-auction-rigging-case.html"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "47385113-ea45-42c2-b028-ba2085ff12e4",
+    "url": "https://www.omm.com/professionals/ryan-coombs/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Ryan Coombs",
+          "title": "Partner",
+          "practice_areas_main": [],
+          "practice_areas_all": [
+            "Bank Finance",
+            "Capital Markets",
+            "Emerging Companies",
+            "Private Equity",
+            "Public Company Advisory"
+          ],
+          "email": "rcoombs@omm.com",
+          "website": "https://www.omm.com/professionals/ryan-coombs/",
+          "photo_url": null,
+          "location": "San Francisco Office",
+          "phone": "1-415-984-8943",
+          "bio": "Ryan Coombs structures and executes a broad range of capital markets transactions for issuers and investment banks, including initial public offerings and other common and preferred equity offerings, investment grade and high-yield debt issuances, convertible notes offerings, SPAC transactions, PIPEs, and other complex capital-raising transactions. Clients turn to Ryan for counsel on public company reporting, corporate governance and other corporate matters.",
+          "specialties": [
+            "technology",
+            "social media",
+            "consumer electronics",
+            "software",
+            "entertainment",
+            "life sciences",
+            "healthcare",
+            "renewable energy"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "815327ed-2717-4a3e-a5c2-6f04ef6c6e0e",
+    "url": "https://www.morganlewis.com/bios/jessicaaccurso",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Jessica L. Accurso",
+          "title": "Associate",
+          "website": "https://www.morganlewis.com/bios/jessicaaccurso",
+          "photo_url": "https://www.morganlewis.com/-/media/images/people/philadelphia/accurso_jessica_76128_desktop.jpg?rev=a78309e150864d1daef1a0af9f3ab9ac&hash=4A8AFBBA596D6E0D77F07609987ED2E0",
+          "email": "jessica.accurso@morganlewis.com",
+          "location": "2222 Market St., Philadelphia, PA 19103-3007",
+          "phone": "+1.215.963.5266",
+          "practice_areas_main": [
+            "Investment Management",
+            "Corporate, Finance & Investment Management"
+          ],
+          "law_school": [
+            {
+              "school": "Villanova University Charles Widger School of Law",
+              "degree": "J.D., Business Law Concentration, cum laude",
+              "graduation_year": 2019
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "Yale University",
+              "degree": " B.A., History",
+              "graduation_year": 2015
+            }
+          ],
+          "bar_admissions": [
+            {
+              "state": "Pennsylvania",
+              "year": null
+            }
+          ],
+          "awards": [
+            "Member, Best ETF Law Firm, ETF Express US Awards (2021, 2022)"
+          ],
+          "bio": "Jessica Accurso focuses her practice on counseling investment advisers, registered investment companies, and private funds on a wide range of matters, including fund formation, ongoing compliance, and corporate governance.",
+          "news": [
+            "https://www.morganlewis.com/news/2020/02/morgan-lewis-2019-year-in-review-highlights-sec-finra-priorities-and-developments"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3e729c8b-724f-4931-a356-ed554edecbf6",
+    "url": "https://www.orrick.com/en/People/1/2/F/L-Mark-Weeks",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "L. Mark Weeks",
+          "title": "Senior Counsel",
+          "website": "https://www.orrick.com/en/People/1/2/F/L-Mark-Weeks",
+          "photo_url": "https://marvel-b1-cdn.bc0a.com/f00000000128125/media.orrick.com/Media%20Library/common/bios/1/2/1/6/2/3/121623_740x360.jpg",
+          "practice_areas_main": [
+            "Life Sciences Sector",
+            "Mergers & Acquisitions",
+            "Employment Law & Litigation",
+            "IP Counseling & Due Diligence",
+            "Japan"
+          ],
+          "email": "mweeks@orrick.com",
+          "location": "New York, NY, United States",
+          "phone": "+1 212 506 5000",
+          "bio": "Mark Weeks is a Senior Counsel in Orrick's M & A and Private Equity Group. He has practiced in New York and Tokyo for more than 30 years and served as office leader of Orrick's Tokyo office from 2007 to 2017. He concentrates his practice on mergers and acquisitions, joint ventures, clean technology, life sciences, IT and telecommunications asset transfers, strategic investments, and general corporate representation for U.S., Japanese and other Asian companies. Mark speaks, reads and writes fluent Japanese.",
+          "bar_admissions": [
+            {
+              "location": "New York"
+            }
+          ],
+          "law_school": [
+            {
+              "school": "Fordham University School of Law",
+              "degree": "J.D.",
+              "graduation_year": 1988
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "International Christian University",
+              "degree": " B.A.",
+              "graduation_year": 1984
+            }
+          ],
+          "news": [
+            "https://www.orrick.com/en/News/2023/01/Japan-Team-Recognized-in-The-Legal-500-Asia-Pacific-2023-Edition",
+            "https://www.orrick.com/en/News/2022/01/Orrick-Japan-Team-Recognized-in-2022-Edition-of-The-Legal-500-Asia-Pacific"
+          ],
+          "matters": "Mark's representative transactions include the following.\n\nAssisted a Japanese chemical company in its acquisitions of the plant health business from a leading animal health company.\nRepresentation of a Japanese chemical manufacturer in the acquisition of a German insulation systems manufacturer.\nAssisted Sharp Corporation in its transfer of all interests in its subsidiary, Recurrent Energy LLC to a Canadian solar energy company, Canadian Solar Inc.\nAssisted Johnson Controls with its acquisition of a 60% interest in Hitachi Appliances’ global HVAC (heating, ventilating, and air conditioning) business and the creation of a global joint venture with Hitachi to develop, manufacture and sell HVAC systems.\nAssisted U-Shin, a Japan based car parts manufacturer, in its acquisition of a global car access mechanisms business from French company Valeo.\nAssisted a Japan based global chemical company in its acquisition of a French chemical company through an auction.\nAssisted a leading U.S. based diversified chemical company in its acquisition of a herbicide, fluthiacet-methyl, which is jointly owned by leading agricultural, pesticide and industrial chemical developers and manufacturers in Japan.\nAssisted a Japan based global chemical company in its acquisition of the Tebufenozide insecticide business of a wholly owned subsidiary of The Dow Chemical Company.\nAssisted a Japanese publicly traded chemical company in the sale of its U.S. subsidiary through an auction.\nAssisted a Japanese publicly traded manufacturer of GPS, sonar and radar devices in its acquisition of a U.S. GPS semiconductor company.\nRepresentation of a trading subsidiary of the Toyota group in the $200 million sale of its more than 40 percent equity stake in a global agrochemical company to a group of investors led by Olympus Capital.\nRepresentation of a Japanese trading and holding company in the sale of its equity stake in one of the world’s largest privately held crop protection and life sciences companies.\nRepresentation of a Japan-based global manufacturer and distributor of food, drinks and seasonings in the negotiation and preparation of global research, development, commercialization and license agreements with Senomyx, a developer of flavor ingredients.\nRepresentation of a Japanese bank in connection with the complex financing of the acquisition of a Japanese public company.\nGeneral representation of a biotech company in connection with M&A licenses and supply, manufacturing, collaboration and research and development agreements.\nGeneral representation of a Japanese agricultural chemicals company in connection with M&A, joint venture, asset transfer, supply, distribution and license agreements related to its fungicide, pesticide and herbicide businesses.\nRepresentation of a Japanese cash management company in connection with the tender offer for a U.S. cash management company.\nRepresentation of a Japanese food processing company in connection with the tender offer for a U.S. food processing company.\nJoint venture between a Japanese company and a U.S. company to create a company to provide identity authentication, credit checks and reports in connection with online business-to-business transactions.\nRepresentation of a Japanese retailer as creditor in connection with the reorganization of a large U.S. retail clothing store chain. This included establishing a joint venture to license a trademark in Asia and negotiating the terms of a subordinated note agreement, warrants and a stockholders’ agreement for the new stockholders of the reorganized entity."
+        }
+      }
+    ]
+  },
+  {
+    "id": "bd450be0-bed8-4f74-a60b-c6c47cb6078e",
+    "url": "https://www.gibsondunn.com/professional/banasevic-nicholas/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Nicholas Banasevic",
+          "title": "Managing Director",
+          "website": "https://www.gibsondunn.com/professional/banasevic-nicholas/",
+          "photo_url": "https://www.gibsondunn.com/wp-content/uploads/2022/01/NBanasevic_web.jpg",
+          "practice_areas_main": [
+            "Antitrust and Competition"
+          ],
+          "practice_areas_all": [
+            "Antitrust and Competition"
+          ],
+          "email": "nbanasevic@gibsondunn.com",
+          "location": "Avenue Louise 480, 1050 Brussels, Belgium",
+          "phone": "+32 2 554 72 40",
+          "bio": "Nicholas Banasevic is managing director in the Brussels office of Gibson, Dunn & Crutcher, and is an economist by background. A member of the firm's Antitrust and Competition Practice Group, he is a former European Commission DG Competition Head of Unit and was at the center of numerous landmark antitrust decisions in Europe. Nicholas advises clients across the technology, life sciences and financial industries on European antitrust enforcement and policy issues, and brings business-oriented solutions for risk management strategies. He offers a wealth of experience in dealing with complex and high-profile European antitrust investigations and regulatory matters, including the up-coming Digital Markets Act. He brings his extensive competition practitioner background to Gibson Dunn's global and multi-disciplinary Antitrust and Competition practice.",
+          "experience": [
+            {
+              "company": "Competition of the European Commission",
+              "position": "Directorate-General ",
+              "description": "responsible for EU antitrust, merger and state aid cases in the IT, communication and multimedia sector. Prior to that, Nicholas was the Head of Unit responsible for antitrust cases in the field of IT, the internet and consumer electronics. He was Case Manager of the European Commission's various Google investigations and was inter alia Case Manager of the Commission's Qualcomm, Motorola, Samsung, Intel and Rambus investigations. He previously worked in the same Unit as a Case Officer where he worked on the European Commission's Microsoft case. He was also a Case Manager for cases in DG Competition, where he was responsible for managing cases in the fields of financial services and pharmaceuticals, and was inter alia the Case Manager for the Deutsche B\u00f6rse / NYSE Euronext case."
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "College of Europe",
+              "degree": "Master of European Studies in Economics",
+              "year": "1995"
+            },
+            {
+              "school": "University of Bristol",
+              "degree": "Bachelor of Science with honors in Economics and Politics",
+              "year": "1994"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "9b0ef11b-ba8f-4499-b105-735a49a6d366",
+    "url": "https://www.stblaw.com/our-team/partners/mimi-c-cheng",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Mimi C. Cheng",
+          "title": "Partner",
+          "practice_areas_main": [],
+          "practice_areas_all": [
+            "Corporate Credit",
+            "Banking and Credit",
+            "Fund Finance",
+            "Backleverage and Investment-Backed Financing",
+            "Investment Funds",
+            "Private Equity Lifecycle"
+          ],
+          "email": "mimi.cheng@stblaw.com",
+          "location": "1999 Avenue of the Stars - 29th Floor, Los Angeles, CA 90067",
+          "photo_url": "https://www.stblaw.com/images/default-source/employees/mimicheng-680bwc_web.jpg?sfvrsn=80788920_0",
+          "website": "https://www.stblaw.com/our-team/partners/mimi-c-cheng",
+          "phone": "+1-310-407-7573",
+          "bio": "Mimi is a Partner in Simpson Thacher's Banking and Credit, Fund Finance and Backleverage and Investment-Backed Financing Practices, and has extensive experience counseling private equity funds, investment banks and other large financial institutions on the use of leverage products secured by, or referencing, public and private investment property. She regularly advises on financings designed to facilitate and support fund investment activities, including subscription facilities, NAV facilities, hybrid subscription and basket facilities, margin loans and other forms of backleverage. Mimi has represented clients including BlackRock, Blackstone, KKR, KSL, JPMorgan, Silver Lake Partners and Sixth Street Partners.",
+          "law_school": [
+            {
+              "school": "University of Pennsylvania Law School",
+              "degree": "J.D.",
+              "year": 2013,
+              "distinctions": [
+                "Associate Editor, Journal of Constitutional Law"
+              ]
+            },
+            {
+              "school": "L'Institut d'\u00c9tudes Politiques de Paris (Sciences Po)",
+              "degree": "LL.M.",
+              "year": 2013
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "University of California, Berkeley",
+              "degree": "B.A.",
+              "year": 2008,
+              "distinctions": [
+                "Departmental Honors ; Theresa Cha Fellowship Award for Comparative Literature"
+              ]
+            }
+          ],
+          "bar_admissions": [
+            "California 2014"
+          ],
+          "matters": "Margin loans secured by significant equity stakes of publicly-traded issuers and/or debt securities\nBasket backleverage facilities secured by equity stakes of public and private issuers\nNAV-based facilities and hybrid variations secured by portfolio investments and other fund-level assets\nSubscription (or capital call) facilities secured by uncalled capital commitments and related rights, with borrowing base capacity for the fund, as well as its parallel funds, alternative investment vehicles and portfolio companies\nHybrid debt-and-equity fund investments"
+        }
       }
     ]
   },

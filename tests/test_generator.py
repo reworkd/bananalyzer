@@ -55,7 +55,7 @@ def test_generate_class_name_without_www() -> None:
         goal=None,
     )
     class_name = generator._generate_class_name(example)
-    assert class_name == "TestFetchTestCom"
+    assert class_name == "TestFetchTestCom_1"
 
 
 def test_generate_class_name_with_www() -> None:
@@ -72,7 +72,7 @@ def test_generate_class_name_with_www() -> None:
         goal=None,
     )
     class_name = generator._generate_class_name(example)
-    assert class_name == "TestFetchTestCom"
+    assert class_name == "TestFetchTestCom_1"
 
 
 def test_generate_class_name_with_multiple_categorys() -> None:
@@ -101,5 +101,5 @@ def test_generate_class_name_with_multiple_categorys() -> None:
     )
     class_name1 = generator._generate_class_name(example1)
     class_name2 = generator._generate_class_name(example2)
-    assert class_name1 == "TestFetchTestCom"
-    assert class_name2 == "TestFetchTestCom2"
+    assert class_name1 == "TestFetchTestCom_1"
+    assert class_name2 == "TestFetchTestCom2_2"
