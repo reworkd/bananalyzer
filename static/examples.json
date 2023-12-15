@@ -11597,7 +11597,7 @@
               "end_year": "null"
             }
           ],
-          "matters": "",
+          "matters": null,
           "bar_admissions": [
             {
               "country": null,
