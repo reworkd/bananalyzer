@@ -56,4 +56,4 @@ class {self._generate_class_name(example)}:
         key = f"{example.type.capitalize()}{domain}"
         self._classnames[key] = self._classnames.get(key, -1) + 1
         suffix = "" if not self._classnames[key] else f"{self._classnames[key] + 1}"
-        return f"Test{key}{suffix}"
+        return f"Test{key}{suffix}_{example.id.replace('-', '_')}"

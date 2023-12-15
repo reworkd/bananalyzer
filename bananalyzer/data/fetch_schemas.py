@@ -1,8 +1,8 @@
-from typing import Dict, Type, List
-from bananalyzer.data.schemas import FetchId
+from typing import Dict, List, Type
 
 from pydantic import BaseModel, Field, HttpUrl
 
+from bananalyzer.data.schemas import FetchId
 
 """
 This file contains mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
@@ -21,11 +21,9 @@ class ContactSchema(BaseModel):
     )
     fax: str = Field(
         description="fax number of the location (only include the number but retain its formatting)",
-        
     )
     type: str = Field(
         description="the type of location: Neurosurgery, MRI Services, etc. (not all locations will have a type available on the page)",
-        
     )
 
 
@@ -39,12 +37,8 @@ class JobPostingSchema(BaseModel):
     job_category: str = Field(
         description="Team name or specialization if present separate from the title."
     )
-    date_posted: str = Field(
-        description="Date posted, only if present on the page."
-    )
-    location: str = Field(
-        description="Entire location of the job."
-    )
+    date_posted: str = Field(description="Date posted, only if present on the page.")
+    location: str = Field(description="Entire location of the job.")
     job_description: str = Field(
         description="Comprehensive job description including all its sentences."
     )
@@ -108,11 +102,17 @@ class ForumSchema(BaseModel):
     author: str = Field(description="Author of the main or original post")
     title: str = Field(description="Title of the original post")
     post_date: str
-    content: str = Field(description="Entire content of the original post, including all sentences")
-    up_votes: int = Field(description="Number of likes, upvotes, etc on the original post")
+    content: str = Field(
+        description="Entire content of the original post, including all sentences"
+    )
+    up_votes: int = Field(
+        description="Number of likes, upvotes, etc on the original post"
+    )
     down_votes: int
     views: int
-    num_comments: int = Field(description="Number of comments or responses, not including the original post")
+    num_comments: int = Field(
+        description="Number of comments or responses, not including the original post"
+    )
 
 
 class AttorneyExperience(BaseModel):
@@ -124,17 +124,17 @@ class AttorneyExperience(BaseModel):
 class AttorneyBarAdmission(BaseModel):
     state: str = Field(description="State of bar admission")
     year: str = Field(description="Year of bar admission")
-    country: str = Field(
-        description="Country of bar admission", default="USA"
-    )
+    country: str = Field(description="Country of bar admission", default="USA")
 
 
 class AttorneyEducation(BaseModel):
     school: str = Field(description="Name of the educational institution")
     year: str = Field(description="Year of graduation")
-    degree: str = Field(description="Type of degree obtained", )
+    degree: str = Field(
+        description="Type of degree obtained",
+    )
     honors: str = Field(
-        description="Honors received during education", 
+        description="Honors received during education",
     )
 
 
@@ -142,7 +142,7 @@ class AttorneyAward(BaseModel):
     date: str = Field(description="Date or duration when the award was received")
     award: str = Field(description="Name of the award")
     url: HttpUrl = Field(
-        description="URL link to the award recognition", 
+        description="URL link to the award recognition",
     )
 
 
@@ -160,7 +160,7 @@ class AttorneySchema(BaseModel):
     email: str = Field(description="Email address of the attorney")
     location: str = Field(description="Office location of the attorney")
     phone: str = Field(
-        description="Direct phone number of the attorney", 
+        description="Direct phone number of the attorney",
     )
     bio: str = Field(description="Main bio description of the attorney")
     experience: List[AttorneyExperience] = Field(
@@ -180,7 +180,7 @@ class AttorneySchema(BaseModel):
         description="Awards and recognitions received by the attorney"
     )
     pdf_url: HttpUrl = Field(
-        description="Link to a PDF bio of the attorney", 
+        description="Link to a PDF bio of the attorney",
     )
     photo_url: HttpUrl = Field(description="Link to the photo of the attorney")
     news: List[HttpUrl] = Field(
@@ -196,7 +196,7 @@ class AttorneyJobPostingSchema(BaseModel):
         description="Categorize into: Associate (general), Junior Associate, Mid-Level Associate, Senior Associate, Partner, Other (catch all if unsure)."
     )
     department: str = Field(
-        description="Department, only if explicitly stated.", 
+        description="Department, only if explicitly stated.",
     )
     title: str = Field(
         description="Job title. Remove location but keep everything else."

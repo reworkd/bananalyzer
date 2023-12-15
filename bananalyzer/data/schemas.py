@@ -1,7 +1,7 @@
 from typing import Any, Dict, List, Literal, Optional, Union
 
-from playwright.async_api import Page
 import pydantic
+from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
 from bananalyzer.runner.evals import (
