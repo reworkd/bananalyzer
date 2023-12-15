@@ -2,14 +2,15 @@ import asyncio
 import json
 import os
 import uuid
+from pathlib import Path
 from typing import Any, Dict, List
 
 from openai import OpenAI
 from playwright.async_api import Page, async_playwright
 from tarsier import GoogleVisionOCRService, Tarsier
 
-from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.data.examples import convert_to_crlf
+from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.data.schemas import Eval, Example
 
 
@@ -121,7 +122,7 @@ async def download_as_mhtml(url: str) -> str:
         with open(file_path, "w") as f:
             f.write(mhtml)
 
-        convert_to_crlf(file_path)
+        convert_to_crlf(Path(file_path))
 
         return id
 
@@ -143,7 +144,7 @@ async def main() -> None:
     ocr_service = GoogleVisionOCRService({})
     tarsier_client = Tarsier(ocr_service)
 
-    urls = []
+    urls: List[str] = []
     schema = get_fetch_schema("attorney_job_listing").model_fields
     metadata = {
         "category": "legal",
