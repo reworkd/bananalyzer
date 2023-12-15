@@ -1,8 +1,8 @@
-from typing import Dict, Optional, Type, List
-from bananalyzer.data.schemas import FetchId
+from typing import Dict, List, Optional, Type
 
 from pydantic import BaseModel, Field, HttpUrl
 
+from bananalyzer.data.schemas import FetchId
 
 """
 This file contains mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
