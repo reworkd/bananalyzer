@@ -1,4 +1,4 @@
-from typing import Dict, Optional, Type, List
+from typing import Dict, Type, List
 from bananalyzer.data.schemas import FetchId
 
 from pydantic import BaseModel, Field, HttpUrl
@@ -19,28 +19,42 @@ class ContactSchema(BaseModel):
     phone: str = Field(
         description="phone number of the location (only include the number but retain its formatting)",
     )
-    fax: Optional[str] = Field(
+    fax: str = Field(
         description="fax number of the location (only include the number but retain its formatting)",
-        default=None,
+        
     )
-    type: Optional[str] = Field(
+    type: str = Field(
         description="the type of location: Neurosurgery, MRI Services, etc. (not all locations will have a type available on the page)",
-        default=None,
+        
     )
 
 
 class JobPostingSchema(BaseModel):
-    job_id: str
-    job_title: str
-    job_category: str
-    date_posted: str
-    location: str
-    job_description: str
+    job_id: str = Field(
+        description="Unique alphanumeric identifier for the job posting."
+    )
+    job_title: str = Field(
+        description="The entire job title, including team name or specialization if present in the title."
+    )
+    job_category: str = Field(
+        description="Team name or specialization if present separate from the title."
+    )
+    date_posted: str = Field(
+        description="Date posted, only if present on the page."
+    )
+    location: str = Field(
+        description="Entire location of the job."
+    )
+    job_description: str = Field(
+        description="Comprehensive job description including all its sentences."
+    )
     roles_and_responsibilities: str
     qualifications: str
     preferred_qualifications: str
     benefits: str
-    salary: str
+    salary: str = Field(
+        description="Numerical annual salary following format provided, including lower and upper bounds if present."
+    )
 
 
 class Specification(BaseModel):
@@ -91,14 +105,14 @@ class ManufacturingCommerceSchema(BaseModel):
 
 
 class ForumSchema(BaseModel):
-    author: str
-    title: str
+    author: str = Field(description="Author of the main or original post")
+    title: str = Field(description="Title of the original post")
     post_date: str
-    content: str
-    up_votes: int
+    content: str = Field(description="Entire content of the original post, including all sentences")
+    up_votes: int = Field(description="Number of likes, upvotes, etc on the original post")
     down_votes: int
     views: int
-    num_comments: int
+    num_comments: int = Field(description="Number of comments or responses, not including the original post")
 
 
 class AttorneyExperience(BaseModel):
@@ -110,7 +124,7 @@ class AttorneyExperience(BaseModel):
 class AttorneyBarAdmission(BaseModel):
     state: str = Field(description="State of bar admission")
     year: str = Field(description="Year of bar admission")
-    country: Optional[str] = Field(
+    country: str = Field(
         description="Country of bar admission", default="USA"
     )
 
@@ -118,17 +132,17 @@ class AttorneyBarAdmission(BaseModel):
 class AttorneyEducation(BaseModel):
     school: str = Field(description="Name of the educational institution")
     year: str = Field(description="Year of graduation")
-    degree: Optional[str] = Field(description="Type of degree obtained", default=None)
-    honors: Optional[str] = Field(
-        description="Honors received during education", default=None
+    degree: str = Field(description="Type of degree obtained", )
+    honors: str = Field(
+        description="Honors received during education", 
     )
 
 
 class AttorneyAward(BaseModel):
     date: str = Field(description="Date or duration when the award was received")
     award: str = Field(description="Name of the award")
-    url: Optional[HttpUrl] = Field(
-        description="URL link to the award recognition", default=None
+    url: HttpUrl = Field(
+        description="URL link to the award recognition", 
     )
 
 
@@ -145,8 +159,8 @@ class AttorneySchema(BaseModel):
     specialties: List[str] = Field(description="Specialized industry sectors")
     email: str = Field(description="Email address of the attorney")
     location: str = Field(description="Office location of the attorney")
-    phone: Optional[str] = Field(
-        description="Direct phone number of the attorney", default=None
+    phone: str = Field(
+        description="Direct phone number of the attorney", 
     )
     bio: str = Field(description="Main bio description of the attorney")
     experience: List[AttorneyExperience] = Field(
@@ -165,8 +179,8 @@ class AttorneySchema(BaseModel):
     awards: List[AttorneyAward] = Field(
         description="Awards and recognitions received by the attorney"
     )
-    pdf_url: Optional[HttpUrl] = Field(
-        description="Link to a PDF bio of the attorney", default=None
+    pdf_url: HttpUrl = Field(
+        description="Link to a PDF bio of the attorney", 
     )
     photo_url: HttpUrl = Field(description="Link to the photo of the attorney")
     news: List[HttpUrl] = Field(
@@ -181,8 +195,8 @@ class AttorneyJobPostingSchema(BaseModel):
     tier: str = Field(
         description="Categorize into: Associate (general), Junior Associate, Mid-Level Associate, Senior Associate, Partner, Other (catch all if unsure)."
     )
-    department: Optional[str] = Field(
-        description="Department, only if explicitly stated.", default=None
+    department: str = Field(
+        description="Department, only if explicitly stated.", 
     )
     title: str = Field(
         description="Job title. Remove location but keep everything else."
