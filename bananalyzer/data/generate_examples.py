@@ -2,12 +2,14 @@ import asyncio
 import json
 import os
 import uuid
+from pathlib import Path
 from typing import Any, Dict, List
 
 from openai import OpenAI
 from playwright.async_api import Page, async_playwright
 from tarsier import GoogleVisionOCRService, Tarsier
 
+from bananalyzer.data.examples import convert_to_crlf
 from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.data.schemas import Eval, Example
 
@@ -35,9 +37,9 @@ async def generate_fetch_example(
 ) -> Example:
     example_id = await download_as_mhtml(url)
     mhtml_path = os.path.abspath(f"./static/{example_id}/index.mhtml")
-    url = f"file://{mhtml_path}"
+    file_url = f"file://{mhtml_path}"
     eval_expected = await llm_annotate_example(
-        url, schema, tarsier_client, openai_client
+        file_url, schema, tarsier_client, openai_client
     )
     eval = Eval(type="json_match", expected=eval_expected)
     example = Example(
@@ -60,7 +62,7 @@ async def llm_annotate_example(
     url: str, schema: Dict[str, Any], tarsier_client: Tarsier, openai_client: OpenAI
 ) -> Dict[str, Any]:
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(headless=False)
+        browser = await playwright.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
         await page.goto(url)
@@ -101,12 +103,12 @@ For each attribute in the schema, find information on the details page that woul
 
 async def download_as_mhtml(url: str) -> str:
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(headless=False)
+        browser = await playwright.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
         client = await context.new_cdp_session(page)
 
-        await page.goto(url)
+        await page.goto(url, wait_until="networkidle")
 
         # Capture page content as MHTML
         result = await client.send("Page.captureSnapshot", {"format": "mhtml"})
@@ -120,6 +122,8 @@ async def download_as_mhtml(url: str) -> str:
         with open(file_path, "w") as f:
             f.write(mhtml)
 
+        convert_to_crlf(Path(file_path))
+
         return id
 
 
@@ -128,7 +132,7 @@ def add_example_to_json(example: Example) -> None:
     with open(json_file_path, "r") as json_file:
         data = json.load(json_file)
 
-    data.append(example.dict())
+    data.append(example.model_dump())
 
     with open(json_file_path, "w") as json_file:
         json.dump(data, json_file, indent=4)
@@ -140,17 +144,12 @@ async def main() -> None:
     ocr_service = GoogleVisionOCRService({})
     tarsier_client = Tarsier(ocr_service)
 
-    urls = [
-        "https://www.skadden.com/professionals/l/lanstra-allen-l",
-        "https://www.sullcrom.com/Lawyers/Erik-D-Lindauer",
-        "https://www.winston.com/en/professionals/padmanabhan-krishnan",
-        "https://www.mwe.com/people/michael-abercrombie/",
-    ]
-    schema = get_fetch_schema("attorney").model_fields
+    urls: List[str] = []
+    schema = get_fetch_schema("attorney_job_listing").model_fields
     metadata = {
         "category": "legal",
-        "subcategory": "attorney_details",
-        "fetch_id": "attorney",
+        "subcategory": "attorney_job_listing",
+        "fetch_id": "attorney_job_listing",
     }
     await add_examples_to_json(urls, schema, metadata, tarsier_client, openai_client)
 

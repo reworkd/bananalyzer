@@ -94,7 +94,7 @@ def parse_args() -> Args:
         "--subcategory",
         type=str,
         default=None,
-        help="Filter tests by a particular category",
+        help="Filter tests by a particular subcategory",
     )
     parser.add_argument(
         "-n",
