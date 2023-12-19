@@ -11949,11 +11949,11 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Telecommunications Law of Qatar",
+            "name": "Telecommunications Law of Qatar",
             "url": "https://www.mcit.gov.qa/sites/default/files/law7405.pdf"
           },
           {
-            "title": "Qatar's e-Commerce Law",
+            "name": "Qatar's e-Commerce Law",
             "url": "https://www.mcit.gov.qa/sites/default/files/e-commerce_law_en_1.pdf"
           }
         ]
@@ -11973,19 +11973,19 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Qatar E-commerce Bylaws - Arabic 2012",
+            "name": "Qatar E-commerce Bylaws - Arabic 2012",
             "url": "https://www.qcert.org/sites/default/files/public/documents/qatar_e-commerce_bylaws_-_2012-ar.pdf"
           },
           {
-            "title": "Qatar E-commerce Bylaws - English 2012",
+            "name": "Qatar E-commerce Bylaws - English 2012",
             "url": "https://www.qcert.org/sites/default/files/public/documents/qatar_e-commerce_bylaws_-_2012-en.pdf"
           },
           {
-            "title": "e-Commerce Law Arabic",
+            "name": "e-Commerce Law Arabic",
             "url": "https://www.qcert.org/sites/default/files/public/documents/e-commerce_law_ar.pdf"
           },
           {
-            "title": "e-Commerce Law English",
+            "name": "e-Commerce Law English",
             "url": "https://www.qcert.org/sites/default/files/public/documents/e-commerce_law_en.pdf"
           }
         ]
@@ -12005,211 +12005,211 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Access Promotion Regulations, 2005",
+            "name": "Access Promotion Regulations, 2005",
             "url": "https://www.pta.gov.pk/assets/media/apc-reg-200611.pdf"
           },
           {
-            "title": "Access Promotion (Amendment) Regulations, 2006",
+            "name": "Access Promotion (Amendment) Regulations, 2006",
             "url": "https://www.pta.gov.pk/assets/media/apc-reg-ammend-200611.pdf"
           },
           {
-            "title": "Access Promotion (Amendment) Regulations, 2016",
+            "name": "Access Promotion (Amendment) Regulations, 2016",
             "url": "https://www.pta.gov.pk/assets/media/access_promotion_reg_amend_2016_29122021.pdf"
           },
           {
-            "title": "Accounting Separation Regulations, 2007",
+            "name": "Accounting Separation Regulations, 2007",
             "url": "https://www.pta.gov.pk/assets/media/accounting_separation_reg_2007_15-12-2022.pdf"
           },
           {
-            "title": "Broadband Quality of Service Regulations, 2014",
+            "name": "Broadband Quality of Service Regulations, 2014",
             "url": "https://www.pta.gov.pk/assets/media/bb-qos-regs-2014-6.pdf"
           },
           {
-            "title": "Fixed Broadband Quality of Service (QoS) Regulations, 2022",
+            "name": "Fixed Broadband Quality of Service (QoS) Regulations, 2022",
             "url": "https://www.pta.gov.pk/assets/media/fixed_bb_qos_reg_2022_23-09-2022.pdf"
           },
           {
-            "title": "Cellular Mobile Network Quality of Service (QoS) Regulations, 2021",
+            "name": "Cellular Mobile Network Quality of Service (QoS) Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/cellular_mobile_qos_reg_2021_10092021.pdf"
           },
           {
-            "title": "Class Value Added Services Licensing and Registration Regulations, 2007",
+            "name": "Class Value Added Services Licensing and Registration Regulations, 2007",
             "url": "https://www.pta.gov.pk/assets/media/cvas-reg-2007.pdf"
           },
           {
-            "title": "Class Licensing and Registration (Amendment) Regulations, 2007",
+            "name": "Class Licensing and Registration (Amendment) Regulations, 2007",
             "url": "https://www.pta.gov.pk/assets/media/cvals-reg-amend-01-2008.pdf"
           },
           {
-            "title": "Class Licensing and Registration (Amendment) Regulations, 2008",
+            "name": "Class Licensing and Registration (Amendment) Regulations, 2008",
             "url": "https://www.pta.gov.pk/assets/media/cvas-reg-amend-10-2008.pdf"
           },
           {
-            "title": "Class Licensing and Registration (Amendment) Regulations, 2010",
+            "name": "Class Licensing and Registration (Amendment) Regulations, 2010",
             "url": "https://www.pta.gov.pk/assets/media/cvas-reg-ammend-15-06-10.pdf"
           },
           {
-            "title": "Class Licensing and Registration (Amendment) Regulations, 2016",
+            "name": "Class Licensing and Registration (Amendment) Regulations, 2016",
             "url": "https://www.pta.gov.pk/assets/media/cvasregulation-5.pdf"
           },
           {
-            "title": "Critical Telecom Data and Infrastructure Security Regulations, 2020",
+            "name": "Critical Telecom Data and Infrastructure Security Regulations, 2020",
             "url": "https://www.pta.gov.pk/assets/media/critical_telecom_data_reg_20112020.pdf"
           },
           {
-            "title": "Data Retention of Internet extended to Public WiFi-Hotspots Regulations, 2018",
+            "name": "Data Retention of Internet extended to Public WiFi-Hotspots Regulations, 2018",
             "url": "https://www.pta.gov.pk/assets/media/data_retention_wifi_hotspots_2018_181218.pdf"
           },
           {
-            "title": "Fixed Line Tariff Regulations, 2004",
+            "name": "Fixed Line Tariff Regulations, 2004",
             "url": "https://www.pta.gov.pk/assets/media/fixed-line-tariff.pdf"
           },
           {
-            "title": "Interconnection Dispute Resolution Regulations, 2004",
+            "name": "Interconnection Dispute Resolution Regulations, 2004",
             "url": "https://www.pta.gov.pk/assets/media/interconnection-disputes-resolution.pdf"
           },
           {
-            "title": "Interconnection Dispute Resolution (Amendment) Regulations, 2010",
+            "name": "Interconnection Dispute Resolution (Amendment) Regulations, 2010",
             "url": "https://www.pta.gov.pk/assets/media/interconnection-dispute-reg-070510.pdf"
           },
           {
-            "title": "Mobile Device Identification, Registration & Blocking Regulations, 2017",
+            "name": "Mobile Device Identification, Registration & Blocking Regulations, 2017",
             "url": "https://www.pta.gov.pk/media/dirbs_reg_120917.pdf"
           },
           {
-            "title": "Mobile Device Identification, Registration & Blocking (Amendment) Regulations, 2017",
+            "name": "Mobile Device Identification, Registration & Blocking (Amendment) Regulations, 2017",
             "url": "https://www.pta.gov.pk/assets/media/dirb_amendment_reg_211217.pdf"
           },
           {
-            "title": "Mobile Device Identification, Registration & Blocking (Amendment) Regulations, 2018",
+            "name": "Mobile Device Identification, Registration & Blocking (Amendment) Regulations, 2018",
             "url": "https://www.pta.gov.pk/assets/media/dirbs_amendment_reg_311218.pdf"
           },
           {
-            "title": "Mobile Device Manufacturing (MDM) Regulations, 2021",
+            "name": "Mobile Device Manufacturing (MDM) Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/mdm_regulations_29012021.pdf"
           },
           {
-            "title": "Mobile Number Portability Regulations, 2005",
+            "name": "Mobile Number Portability Regulations, 2005",
             "url": "https://www.pta.gov.pk/assets/media/number-portability.pdf"
           },
           {
-            "title": "Mobile Phone Repeaters Technical Standards and Operations Regulations, 2020",
+            "name": "Mobile Phone Repeaters Technical Standards and Operations Regulations, 2020",
             "url": "https://www.pta.gov.pk/assets/media/notification_mobile_repeaters_reg_17092021.pdf"
           },
           {
-            "title": "Mobile Virtual Network Operation (MVNO) Regulations, 2012",
+            "name": "Mobile Virtual Network Operation (MVNO) Regulations, 2012",
             "url": "https://www.pta.gov.pk/assets/media/mvno-reg-2012.pdf"
           },
           {
-            "title": "Monitoring and Reconciliation of Telephony Traffic Regulations, 2010",
+            "name": "Monitoring and Reconciliation of Telephony Traffic Regulations, 2010",
             "url": "https://www.pta.gov.pk/assets/media/monitoring-telephony-traffic-reg-070510.pdf"
           },
           {
-            "title": "Number Allocation & Administration Regulations, 2018",
+            "name": "Number Allocation & Administration Regulations, 2018",
             "url": "https://www.pta.gov.pk/assets/media/num_allocation_reg_220519.pdf"
           },
           {
-            "title": "Number Allocation and Administration (1st Amendment) Regulations, 2021",
+            "name": "Number Allocation and Administration (1st Amendment) Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/notification_number_allocation_1st_amendment_reg_17092021.pdf"
           },
           {
-            "title": "Number Allocation and Administration (2nd Amendment) Regulations, 2021",
+            "name": "Number Allocation and Administration (2nd Amendment) Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/gazette_notification_naar_2nd_amendment_reg_2021_12-12-2022.pdf"
           },
           {
-            "title": "Protection from Health Related Effects of Radio Base Station Antenna Regulations, 2008",
+            "name": "Protection from Health Related Effects of Radio Base Station Antenna Regulations, 2008",
             "url": "https://www.pta.gov.pk/assets/media/reg-040309.pdf"
           },
           {
-            "title": "Protection from Health Related Effects of Radio Base Station Antennas (Amendment) Regulations, 2014",
+            "name": "Protection from Health Related Effects of Radio Base Station Antennas (Amendment) Regulations, 2014",
             "url": "https://www.pta.gov.pk/assets/media/protection_from_health_effects_reg_2014_19012022.pdf"
           },
           {
-            "title": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication Regulations, 2009",
+            "name": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication Regulations, 2009",
             "url": "https://www.pta.gov.pk/assets/media/pro-spam-reg-09.pdf"
           },
           {
-            "title": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication (Amendment) Regulations, 2020",
+            "name": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication (Amendment) Regulations, 2020",
             "url": "https://www.pta.gov.pk/assets/media/spam_amendment_reg_07102020.pdf"
           },
           {
-            "title": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication (2nd Amendment) Regulations, 2022",
+            "name": "Protection from SPAM, Unsolicited, Fraudulent and Obnoxious Communication (2nd Amendment) Regulations, 2022",
             "url": "https://www.pta.gov.pk/assets/media/31-12-22_gazette_notification_protection_spam_regs_2022_2nd_amendment_31_03_2023.pdf"
           },
           {
-            "title": "PTA Functions & Power Regulations, 2006",
+            "name": "PTA Functions & Power Regulations, 2006",
             "url": "https://www.pta.gov.pk/assets/media/pta-func-power-reg-06.pdf"
           },
           {
-            "title": "PTA Functions & Power Regulations, 2008",
+            "name": "PTA Functions & Power Regulations, 2008",
             "url": "https://www.pta.gov.pk/assets/media/functions-powers-reg-08.pdf"
           },
           {
-            "title": "PTA Functions & Powers (Amendment) Regulations, 2012",
+            "name": "PTA Functions & Powers (Amendment) Regulations, 2012",
             "url": "https://www.pta.gov.pk/assets/media/pta-func-powers-reg-amend-170812.pdf"
           },
           {
-            "title": "PTA Functions & Powers (Amendment) Regulations, 2017",
+            "name": "PTA Functions & Powers (Amendment) Regulations, 2017",
             "url": "https://www.pta.gov.pk/assets/media/amendment_functions_powers_reg_211217.pdf"
           },
           {
-            "title": "PTA Functions & Powers (Amendment) Regulations, 2021",
+            "name": "PTA Functions & Powers (Amendment) Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/pta_functions_powers_amendment_reg_2021_19012022.pdf"
           },
           {
-            "title": "Regulations for Technical Implementation of Mobile Banking, 2016",
+            "name": "Regulations for Technical Implementation of Mobile Banking, 2016",
             "url": "https://www.pta.gov.pk/assets/media/mbanking1652016-3.pdf"
           },
           {
-            "title": "Regulations for Technical Implementation of Mobile Banking (Amendment), 2019",
+            "name": "Regulations for Technical Implementation of Mobile Banking (Amendment), 2019",
             "url": "https://www.pta.gov.pk/assets/media/reg_tech_implementation_mob_banking_amendment_220419.pdf"
           },
           {
-            "title": "Subscribers Antecedents Verification Regulations, 2015",
+            "name": "Subscribers Antecedents Verification Regulations, 2015",
             "url": "https://www.pta.gov.pk/assets/media/subs_antecedents_reg_2015_230218.pdf"
           },
           {
-            "title": "Subscribers Antecedents Verification (Amendment) Regulations, 2017",
+            "name": "Subscribers Antecedents Verification (Amendment) Regulations, 2017",
             "url": "https://www.pta.gov.pk/assets/media/subs_antecedents_reg_amend_2017_230218.pdf"
           },
           {
-            "title": "Telecom Consumers Protection Regulations, 2009",
+            "name": "Telecom Consumers Protection Regulations, 2009",
             "url": "https://www.pta.gov.pk/assets/media/consumer-reg-090409.pdf"
           },
           {
-            "title": "Telecom Consumers Protection (Amendment) Regulations, 2010",
+            "name": "Telecom Consumers Protection (Amendment) Regulations, 2010",
             "url": "https://www.pta.gov.pk/assets/media/tel-cons-protection-reg-amend-300810.pdf"
           },
           {
-            "title": "Telecom Consumers Protection (Amendment) Regulations, 2011",
+            "name": "Telecom Consumers Protection (Amendment) Regulations, 2011",
             "url": "https://www.pta.gov.pk/assets/media/consumer-protection-reg-301111.pdf"
           },
           {
-            "title": "Telecom Consumers Protection (Amendment) Regulations, 2012",
+            "name": "Telecom Consumers Protection (Amendment) Regulations, 2012",
             "url": "https://www.pta.gov.pk/assets/media/telecom-cons-protect-reg-190612.pdf"
           },
           {
-            "title": "Telecom Consumers Protection (Amendment) Regulations, 2016",
+            "name": "Telecom Consumers Protection (Amendment) Regulations, 2016",
             "url": "https://www.pta.gov.pk/assets/media/telecomconsumerregulation.pdf"
           },
           {
-            "title": "Telecommunication System Clock, Time and Date Sychronize Regulations, 2010",
+            "name": "Telecommunication System Clock, Time and Date Sychronize Regulations, 2010",
             "url": "https://www.pta.gov.pk/assets/media/clock-sync-reg-280311.pdf"
           },
           {
-            "title": "Telecomm and Terminal Equipment Installer Regulations, 2012",
+            "name": "Telecomm and Terminal Equipment Installer Regulations, 2012",
             "url": "https://www.pta.gov.pk/assets/media/telecom-terminal-equip-ins-reg-170812.pdf"
           },
           {
-            "title": "Type Approval Technical Standards Regulations, 2021",
+            "name": "Type Approval Technical Standards Regulations, 2021",
             "url": "https://www.pta.gov.pk/assets/media/notification_ta_reg_2021_20092021.pdf"
           },
           {
-            "title": "Type Approval Technical Standards (Amendment) Regulations, 2022",
+            "name": "Type Approval Technical Standards (Amendment) Regulations, 2022",
             "url": "https://www.pta.gov.pk/assets/media/type_approval_amendment_reg_2022_09-09-2022.pdf"
           },
           {
-            "title": "White Listing of IP Addressess Regulations, 2019",
+            "name": "White Listing of IP Addressess Regulations, 2019",
             "url": "https://www.pta.gov.pk/assets/media/gazette_notification_whitelisting_regulations_13082020.pdf"
           }
         ]
@@ -12229,31 +12229,31 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Cantonement Act",
+            "name": "Cantonement Act",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/Cantonement%20Act(1).pdf"
           },
           {
-            "title": "PAF Act 1953",
+            "name": "PAF Act 1953",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/PAF%20Act%201953.pdf"
           },
           {
-            "title": "PAF Act Amendment 2017",
+            "name": "PAF Act Amendment 2017",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/PAF%20Act%20Amendment%202017.pdf"
           },
           {
-            "title": "Pak Army Act 1952",
+            "name": "Pak Army Act 1952",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/Pak%20Army%20Act%201952.pdf"
           },
           {
-            "title": "Pak Navy Act 1961",
+            "name": "Pak Navy Act 1961",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/Pak%20Navy%20Act%201961.pdf"
           },
           {
-            "title": "PMSA Act 1994",
+            "name": "PMSA Act 1994",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/PMSA%20Act%201994.pdf"
           },
           {
-            "title": "Survey & Mapping Act",
+            "name": "Survey & Mapping Act",
             "url": "https://mod.gov.pk/SiteImage/Misc/files/Survey%20of%20Pak.pdf"
           }
         ]
@@ -12273,275 +12273,275 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "South African Primary Health Care(SAPHC )2023 Statement",
+            "name": "South African Primary Health Care(SAPHC )2023 Statement",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/11/SAPHC-2023-Statement.pdf"
           },
           {
-            "title": "Deputy Minister`s Speaker Notes for Rotary 08 November 2023",
+            "name": "Deputy Minister`s Speaker Notes for Rotary 08 November 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/11/Deputy-Ministers-Speaker-Notes-for-ROTARY-08-November-2023.pdf"
           },
           {
-            "title": "Health Minister Speech at World Mental Health Day Commomerative Event, Madadeni Hospital in Newscastle 10 October 2023",
+            "name": "Health Minister Speech at World Mental Health Day Commomerative Event, Madadeni Hospital in Newscastle 10 October 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/10/Health-Minister-Speech-at-World-Mental-Health-Day-Commomerative-Event-Madadeni-Hospital-in-Newscastle-10-October-2023.pdf"
           },
           {
-            "title": "Minister of Health Dr Joe Phaahla speaking Notes at SA country statement UNHLM on TB 22 Sep 2023",
+            "name": "Minister of Health Dr Joe Phaahla speaking Notes at SA country statement UNHLM on TB 22 Sep 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/09/Minister-Dr-Joe-Phaahla-SA-country-statement-UNHLM-on-TB-22-Sep-2023.pdf"
           },
           {
-            "title": "Minister of Health speaking Notes at UNHLM UHC- South Country Statement 21 September 2023",
+            "name": "Minister of Health speaking Notes at UNHLM UHC- South Country Statement 21 September 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/09/Minister-of-Health-speaking-Notes-at-UNHLM-UHC-South-Country-Statement-21-September-2023.pdf"
           },
           {
-            "title": "Breastfeeding Speech Women's month 04 September 2023",
+            "name": "Breastfeeding Speech Women's month 04 September 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/09/Breastfeeding-Speech-Womens-month-04-September-2023-1.pdf"
           },
           {
-            "title": "Speaking Notes for The Minister of Health by Dr MJ Phaahla at the Handing over Ceremony for Phola Clinics 30 August 2023",
+            "name": "Speaking Notes for The Minister of Health by Dr MJ Phaahla at the Handing over Ceremony for Phola Clinics 30 August 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/09/SPEAKING-NOTES-FOR-THE-MINISTER-OF-HEALTH-BY-DR-MJ-PHAAHLA-AT-THE-HANDING-OVER-CEREMONY-OF-PHOLA-CLINIC-30-August-2023.pdf"
           },
           {
-            "title": "Statement by BRICS Health Ministers during the closing day of the 13TH BRICS Health Ministers Meeting.docx",
+            "name": "Statement by BRICS Health Ministers during the closing day of the 13TH BRICS Health Ministers Meeting.docx",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/08/STATEMENT-BY-BRICS-HEALTH-MINISTERS-DURING-THE-CLOSING-DAY-OF-THE-13TH-BRICS-HEALTH-MINISTERS-MEETING.docx.pdf"
           },
           {
-            "title": "Minister Openning Speech  for 13th BRICS Health Ministers Meeting 04 August 2023",
+            "name": "Minister Openning Speech  for 13th BRICS Health Ministers Meeting 04 August 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/08/BRICS-MINISTER-OPENING-SPEECH-13TH-BRICS-HEALTH-MINISTERS-MEETING-04-August-2023.pdf"
           },
           {
-            "title": "Speech by Health Minister for BRICS Gala Dinner. 03 August 2023",
+            "name": "Speech by Health Minister for BRICS Gala Dinner. 03 August 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/08/BRICS-Gala-Dinner-Speech-03-August-2023.pdf"
           },
           {
-            "title": "Speech by Health Minister on the sod turning ceremony for new Limpopo Central Hospital 18 July 2023",
+            "name": "Speech by Health Minister on the sod turning ceremony for new Limpopo Central Hospital 18 July 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/07/Health-Ministers-speech-on-the-sod-turning-ceremony-for-new-Limpopo-Central-Hospital-18-July-2023.pdf"
           },
           {
-            "title": "Speech by Deputy Minister of Health, Dr Sibongiseni Dhlomo on the occasion of Medical Students Graduation ceremony - Cape Town",
+            "name": "Speech by Deputy Minister of Health, Dr Sibongiseni Dhlomo on the occasion of Medical Students Graduation ceremony - Cape Town",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/07/SPEECH-BY-DEPUTY-MINISTER-OF-HEALTH-DR-SIBONGISENI-DHLOMO-ON-THE-OCCASION-OF-MEDICAL-STUDENTS-GRADUATION-CEREMONY-CAPE-TOW-2.pdf"
           },
           {
-            "title": "Speaking Notes: Minister of Health, Dr Joe Phaahla TB Indaba 20 June 2023",
+            "name": "Speaking Notes: Minister of Health, Dr Joe Phaahla TB Indaba 20 June 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/06/Speaking-Notes-Dr-Joe-Phaahla-TB-Indaba-20-June-2023-RM-Final.pdf"
           },
           {
-            "title": "Second Reading debate on the National Health Insurance Bill in The National Assembly - Health Minister 13 June 2023",
+            "name": "Second Reading debate on the National Health Insurance Bill in The National Assembly - Health Minister 13 June 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/06/SECOND-READING-DEBATE-ON-THE-NATIONAL-HEALTH-INSURANCE-BILL-IN-THE-NATIONAL-ASSEMBLY-HEALTH-MINISTER-13-June-2023.pdf"
           },
           {
-            "title": "Statement by Minister of Health, Dr Joe Phaahla on the announcement of the new Health Ombus 02-06-2023",
+            "name": "Statement by Minister of Health, Dr Joe Phaahla on the announcement of the new Health Ombus 02-06-2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/06/SATEMENT-BY-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-ON-THE-ANNOUNCEMENT-OF-THE-NEW-HEALTH-OMBUD-02-06-2023.pdf"
           },
           {
-            "title": "Speech by the Minister of Health, Dr Joe Phaahla, updates on the Cholera outbreak. 31 May 20232",
+            "name": "Speech by the Minister of Health, Dr Joe Phaahla, updates on the Cholera outbreak. 31 May 20232",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/06/Statement-by-Health-Minister-on-the-update-of-Cholera-Outbreak-31-May-2023.pdf"
           },
           {
-            "title": "Speech by the Deputy Minister of Health Dr Sibongiseni Dhlomo at The NCOP Budget Vote. 10-05-2023",
+            "name": "Speech by the Deputy Minister of Health Dr Sibongiseni Dhlomo at The NCOP Budget Vote. 10-05-2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/05/NCOP-Budget-Vote-Speech-by-Deputy-Minister-Dr-Sibongiseni-Dhlomo-10-05-2023.pdf"
           },
           {
-            "title": "Speech by Deputy Minister of Health, Dr Sibongiseni Dhlomo for Budget Vote 09-05-2023",
+            "name": "Speech by Deputy Minister of Health, Dr Sibongiseni Dhlomo for Budget Vote 09-05-2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/05/Health-Deputy-Minister-Budget-Vote-Speech-09-05-2023.pdf"
           },
           {
-            "title": "Minister of Health, Dr Joe Phaahla Budget Vote Speech 09-05-2023",
+            "name": "Minister of Health, Dr Joe Phaahla Budget Vote Speech 09-05-2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/05/Draft-Minister-of-Health-Budget-Vote-Speech-09-05-2023.pdf"
           },
           {
-            "title": "Health Minister Dr Joe Phaahla Speech for International Maternal Newborn Conference 09-05-2023",
+            "name": "Health Minister Dr Joe Phaahla Speech for International Maternal Newborn Conference 09-05-2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/05/Health-Minister-Dr-Phaahla-Speech-for-International-Maternal-Newborn-Conference-2023-05-09.pdf"
           },
           {
-            "title": "Speech by Minister of Health, Dr Joe Phaahla, MP, at the Traditional Medicine Summit 2023 Birchwood conference 23-24 February 2023",
+            "name": "Speech by Minister of Health, Dr Joe Phaahla, MP, at the Traditional Medicine Summit 2023 Birchwood conference 23-24 February 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/02/Speech-by-Minister-of-Health-during-the-Traditional-Health-Summit-23-24-February-2023.pdf"
           },
           {
-            "title": "Address by President Cyril Ramaphosa at the 2nd Presidential Health Summit 05 May 2023",
+            "name": "Address by President Cyril Ramaphosa at the 2nd Presidential Health Summit 05 May 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/02/Speech-by-Minister-of-Health-during-the-Traditional-Health-Summit-23-24-February-2023.pdf"
           },
           {
-            "title": "Speaking Notes: by REMARKS BY MINISTER OF HEALTH SA, DR JOE PHAAHLA, MP, AT WHO mRNA TECHNOLOGY TRANSFER HUB MEETING 20 April 2023",
+            "name": "Speaking Notes: by REMARKS BY MINISTER OF HEALTH SA, DR JOE PHAAHLA, MP, AT WHO mRNA TECHNOLOGY TRANSFER HUB MEETING 20 April 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/02/Speech-by-Minister-of-Health-during-the-Traditional-Health-Summit-23-24-February-2023.pdf"
           },
           {
-            "title": "Speaking Notes: Health Department to host Traditional Medicine Summit 22 February 2023",
+            "name": "Speaking Notes: Health Department to host Traditional Medicine Summit 22 February 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/02/Health-Department-to-host-Traditional-Medicine-Summit-22-February-2023.pdf"
           },
           {
-            "title": "Speaking Notes: for The DM on the Steve Biko official programme of SBAH 11H00 TO 11H45 26 January 2023",
+            "name": "Speaking Notes: for The DM on the Steve Biko official programme of SBAH 11H00 TO 11H45 26 January 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/01/Speaking-Notes-for-The-DM-on-the-Steve-Biko-official-programme-of-SBAH-11H00-TO-11H45-26-January-2023.pdf"
           },
           {
-            "title": "Speech of the South African Deputy Minister of Health to 4th Annual Global Forum of Malaria-Eliminating Countries",
+            "name": "Speech of the South African Deputy Minister of Health to 4th Annual Global Forum of Malaria-Eliminating Countries",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/01/Speech-of-the-South-African-Deputy-Minister-of-Health-to-4th-Annual-Global-Forum-of-Malaria-Eliminating-Countries.docx"
           },
           {
-            "title": "Media Statement By The Minister of Health, Dr Joe Phaahla on the Occasion of media briefing to provide an update on the recent COVID-19 developments 10 January 2023",
+            "name": "Media Statement By The Minister of Health, Dr Joe Phaahla on the Occasion of media briefing to provide an update on the recent COVID-19 developments 10 January 2023",
             "url": "https://www.health.gov.za/wp-content/uploads/2023/01/MEDIA-STATEMENT-BY-THE-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-ON-THE-OCSSION-OF-MEDIA-BRIFING-TO-PROVIDE-AN-UPDATE-ON-THE-RECENT-COVID-19-DEVELOPMENTS-10-JANUARY-2023-1.pdf"
           },
           {
-            "title": "Keynote Address by the Hon Minister of Health, Dr Joe Phaahla, MP, at the Opening of the Regional Diagnostic Demonstration Centre",
+            "name": "Keynote Address by the Hon Minister of Health, Dr Joe Phaahla, MP, at the Opening of the Regional Diagnostic Demonstration Centre",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/12/Keynote-Address-by-the-Hon-Minister-of-Health-Dr-Joe-Phaahla-MP-at-the-Opening-of-the-Regional-Diagnostic-Demonstration-Centre.pdf"
           },
           {
-            "title": "Speaking Notes: by Health Deputy Minister during Rotary Family Health Day 15 November 2022",
+            "name": "Speaking Notes: by Health Deputy Minister during Rotary Family Health Day 15 November 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/11/DM-SPEAKER-NOTES-FOR-ROTARY-15-NOVEMBER-2022.pdf"
           },
           {
-            "title": "Speaking Notes by Health Deputy Minister \n during event in Cuba - 20 October 2022",
+            "name": "Speaking Notes by Health Deputy Minister \n during event in Cuba - 20 October 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/10/Speaking-Notes-by-Health-Deputy-Minister-in-dueing-event-in-Cuba-20-October-2022.docx"
           },
           {
-            "title": "Speaking Notes: by the Deputy Minister of Health Dr Sibongiseni Dhlomo on the sidelines of World Health Summit 17 October 2022",
+            "name": "Speaking Notes: by the Deputy Minister of Health Dr Sibongiseni Dhlomo on the sidelines of World Health Summit 17 October 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/10/Remarks-by-the-Deputy-Minister-of-Health-Dr-Sibongiseni-Dhlomo-on-the-sidelines-of-World-Health-Summit-17-October-2022.pdf"
           },
           {
-            "title": "Speaking Notes: By Minister of Health at the Opening of the 24th Annual Conference of Association of Medical Of Africa. 03 October 2022",
+            "name": "Speaking Notes: By Minister of Health at the Opening of the 24th Annual Conference of Association of Medical Of Africa. 03 October 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/10/Speech-by-Minister-at-the-Openung-of-the-24th-Annual-Conference-of-Association-of-Medical-of-Africa.-03-October-2022.pdf"
           },
           {
-            "title": "Speaking Notes: By Minister of Health statement on the impact of loadshedding on health facilities - 30 September 2022",
+            "name": "Speaking Notes: By Minister of Health statement on the impact of loadshedding on health facilities - 30 September 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/10/Minister-of-Health-statement-on-the-impact-of-loadshedding-on-health-facilities-30-September-2022a.pdf"
           },
           {
-            "title": "Speaking Notes: By Minister Statement on the challenges of loadshedding and exemption of health facilities 26 September 2022",
+            "name": "Speaking Notes: By Minister Statement on the challenges of loadshedding and exemption of health facilities 26 September 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/10/Statement-on-the-challenges-of-loadshedding-and-exemption-of-health-facilities-26-September-2022-1.pdf"
           },
           {
-            "title": "Speaking Notes: By Deputy Minister Dr S Dhlomo during the during the opening Plenary of TB Conference 13 September 2022",
+            "name": "Speaking Notes: By Deputy Minister Dr S Dhlomo during the during the opening Plenary of TB Conference 13 September 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/09/Deputy-Minister-Dr-S-Dhlomo-during-the-during-the-opening-Plenary-of-TB-Conference-13-September-2022.pdf"
           },
           {
-            "title": "Speaking Notes: By Health Minister Dr Joe Phaahla On The Occasion Of Treatment Action Campaign 7th Congress On Monday, 29 August 2022",
+            "name": "Speaking Notes: By Health Minister Dr Joe Phaahla On The Occasion Of Treatment Action Campaign 7th Congress On Monday, 29 August 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/08/Speaking-Notes-By-Health-Minister-Dr-Joe-Phaahla-On-The-Occasion-Of-Treatment-Action-Campaign-7th-Congress-On-Monday-29-August-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Minister of Health, Dr Joe Phaahla during The 72nd session of The WHO Reginal Committee for Africa, in TOGO. 22-08-2022",
+            "name": "Speaking Notes: by Minister of Health, Dr Joe Phaahla during The 72nd session of The WHO Reginal Committee for Africa, in TOGO. 22-08-2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/08/SPEAKING-NOTES-BY-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-DURING-THE-72ND-SESSION-OF-THE-WHO-REGIONAL-COMMITTEE-FOR-AFRICA-IN-TOGO-22-08-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Minister of Health Dr Joe Phaahla on the occasion of virtual Health Media Briefing 19-08-2022",
+            "name": "Speaking Notes: by Minister of Health Dr Joe Phaahla on the occasion of virtual Health Media Briefing 19-08-2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/08/SPEAKING-NOTES-BY-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-ON-THE-OCCASION-OF-VIRTUAL-HEALTH-MEDIA-BRIEFING-19-08-2022.pdf"
           },
           {
-            "title": "Health Minister\u2019s speaker notes for South Africa  Satellite on 90-90-90 progress and Recovery from  COVID-19",
+            "name": "Health Minister\u2019s speaker notes for South Africa  Satellite on 90-90-90 progress and Recovery from  COVID-19",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/08/MINISTERS-SPEAKER-NOTES-F-SA-SATELLITE-ON-909090-PROGRESS-AND-RECOVERY-FROM-COVID-19_.pdf"
           },
           {
-            "title": "AIDS Confrence Exhibition Stand Opening - by Health Minister Dr Joe Phaahla",
+            "name": "AIDS Confrence Exhibition Stand Opening - by Health Minister Dr Joe Phaahla",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/08/AIDS-Confrence-Exhibition-Stand-Opening-by-Health-Minister-Dr-Joe-Phaahla.pdf"
           },
           {
-            "title": "Nelson Mandela/Fidel Castro Programme graduations speech by Health Minister, Dr Joe Phaahla (University of Pretoria - 08 July 2022)",
+            "name": "Nelson Mandela/Fidel Castro Programme graduations speech by Health Minister, Dr Joe Phaahla (University of Pretoria - 08 July 2022)",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/07/FINAL-Revised-Graduation-Speech-University-of-Pretoria-08-July-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Deputy Minister of Health (Launch of the Youth HIV Prevention Strategy 30 June 2022",
+            "name": "Speaking Notes: by Deputy Minister of Health (Launch of the Youth HIV Prevention Strategy 30 June 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/06/Speaking-Notes-Launch-of-the-Youth-HIV-Prevention-Strategy-30-June-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Minister on The Repeal of Regulations on Notifible Medical Conditions Dealing with the Covid-19 and on Monkey-Pox 23 June 2022.docx",
+            "name": "Speaking Notes: by Minister on The Repeal of Regulations on Notifible Medical Conditions Dealing with the Covid-19 and on Monkey-Pox 23 June 2022.docx",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/06/Minister-speech-on-The-Repeal-of-Regulations-on-Notifible-Medical-Conditions-Dealing-with-the-Covid-19-and-on-Monkey-Pox-23-June-2022.docx.pdf"
           },
           {
-            "title": "Speaking Notes: by Deputy Minister of Health on Youth Zones EC 15 June 2022",
+            "name": "Speaking Notes: by Deputy Minister of Health on Youth Zones EC 15 June 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/06/Speaker-Notes-by-Deputy-Minister-Youth-Zones-EC-15-June-2022.pdf"
           },
           {
-            "title": "Speech: by Minister of Health, Dr Joe Phaahla at The Launch of Global Vax Campaign at Kwa-Caluza Sportsfield, Umgungudlovu District, Kwazulu-Natal 03-06-2022",
+            "name": "Speech: by Minister of Health, Dr Joe Phaahla at The Launch of Global Vax Campaign at Kwa-Caluza Sportsfield, Umgungudlovu District, Kwazulu-Natal 03-06-2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/06/SPEECH-BY-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-AT-THE-LAUNCH-OF-GLOBAL-VAX-CAMPAIGN-AT-KWA-CALUZA-SPORTSFIELD-UMGUNGUDLOVU-DISTRICT-KWAZULU-NATAL-03-06-2022.pdf"
           },
           {
-            "title": "Budget Policy Statement: 2022-23 by Minister of Health Dr Joe Phaahla in The National Council of Provinces (NCOP) 01-06-2022",
+            "name": "Budget Policy Statement: 2022-23 by Minister of Health Dr Joe Phaahla in The National Council of Provinces (NCOP) 01-06-2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/06/BUDGET-POLICY-STATEMENT-2022-23-BY-MINISTER-OF-HEALTH-DR-JOE-PHAAHLA-IN-THE-NATIONAL-COUNCIL-OF-PROVINCES-NCOP-01-06-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by the Minister Speaking Notes BHF 18 May 2022",
+            "name": "Speaking Notes: by the Minister Speaking Notes BHF 18 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Minister_Speaking-Notes_BHF-18-May-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by the Minister on commemoration of the International Nurses Day 12 May 2022",
+            "name": "Speaking Notes: by the Minister on commemoration of the International Nurses Day 12 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Minister-on-commemoration-of-the-International-Nurses-Day-12-May-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by the Deputy Minister of Health Dr Sibongiseni Dhlomo during illegal abortion awareness campaign 12 May 2022",
+            "name": "Speaking Notes: by the Deputy Minister of Health Dr Sibongiseni Dhlomo during illegal abortion awareness campaign 12 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Speaking-Notes-by-the-Deputy-Minister-of-Health-Dr-Sibongiseni-Dhlomo-during-illegal-abortion-awareness-campaign-12-May-2022.pdf"
           },
           {
-            "title": "Minister Remarks: Grant Signing Ceremony 12 May 2022",
+            "name": "Minister Remarks: Grant Signing Ceremony 12 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Minister-Remarks_Grant-Signing-Ceremony-12-May-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Health Minister 2022-2023 Budget Vote - 10 May 2022",
+            "name": "Speaking Notes: by Health Minister 2022-2023 Budget Vote - 10 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Health-Minister-2022-2023-Budget-Vote-10-May-2022.pdf"
           },
           {
-            "title": "Speaking Notes: by Deputy Minister Budget Speech - 10 May 2022",
+            "name": "Speaking Notes: by Deputy Minister Budget Speech - 10 May 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/05/Deputy-Minister-Budget-Speech-10-May-2022.pdf"
           },
           {
-            "title": "Presentation: The Rise in Covid-19 cases in South Africa Public Health Perspective 29 April 2022",
+            "name": "Presentation: The Rise in Covid-19 cases in South Africa Public Health Perspective 29 April 2022",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/04/The-Rise-in-Covid-19-cases-in-South-Africa-Public-Health-Perspective-29-April-2022.pdf"
           },
           {
-            "title": "Presentation: NICD media briefing 29 April 220428_213531",
+            "name": "Presentation: NICD media briefing 29 April 220428_213531",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/04/NICD-media-briefing-29-April-220428_213531.pdf"
           },
           {
-            "title": "Presentation: 29 April 2022_Omicron_BA4-BA5_220428_213657",
+            "name": "Presentation: 29 April 2022_Omicron_BA4-BA5_220428_213657",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/04/29-April-2022_Omicron_BA4-BA5_220428_213657.pdf"
           },
           {
-            "title": "Speaking Notes: by Health Minister Dr MJ Phaahla During Virtual Briefing on Covid-19",
+            "name": "Speaking Notes: by Health Minister Dr MJ Phaahla During Virtual Briefing on Covid-19",
             "url": "https://www.health.gov.za/wp-content/uploads/2022/04/SPEAKING-NOTES-BY-HEALTH-MINISTER-DR-MJ-PHAAHLA-DURING-VIRTUAL-BRIEFING-ON-COVID-19.pdf"
           },
           {
-            "title": "Remarks: by Health Minister Dr Joe Phaahla during Covid-19 Media Briefing \u2013 Friday, 27 August 2021",
+            "name": "Remarks: by Health Minister Dr Joe Phaahla during Covid-19 Media Briefing \u2013 Friday, 27 August 2021",
             "url": "https://www.health.gov.za/wp-content/uploads/2021/08/UPDATE-REMARKS-BY-HEALTH-MINISTER-DR-JOE-PHAALA-DURING-COVID-19-MEDIA-BRIEFING-%E2%80%93-FRIDAY-27-AUGUST-2021.pdf"
           },
           {
-            "title": "Closing Remarks By Health Deputy Minister Dr Joe Phaahla Friday 23 July 2021",
+            "name": "Closing Remarks By Health Deputy Minister Dr Joe Phaahla Friday 23 July 2021",
             "url": "https://www.health.gov.za/wp-content/uploads/2021/07/Closing-Remarks-By-Health-Deputy-Minister-Dr-Joe-Phaahla-Friday-23-Juky-2021.docx"
           },
           {
-            "title": "Minister Kubayi Press Briefing Speaking Notes 23 July 2021",
+            "name": "Minister Kubayi Press Briefing Speaking Notes 23 July 2021",
             "url": "https://www.health.gov.za/wp-content/uploads/2021/07/MINISTER-KUBAYI-PRESS-BRIEFING-SPEAKING-NOTES-23-JULY-2021.pdf"
           },
           {
-            "title": "Daily Talking Points_20210723",
+            "name": "Daily Talking Points_20210723",
             "url": "https://www.health.gov.za/wp-content/uploads/2021/07/Daily-Talking-Points_20210723.docx"
           },
           {
-            "title": "20210722 Ministerial UpdateSlides v4",
+            "name": "20210722 Ministerial UpdateSlides v4",
             "url": "https://www.health.gov.za/wp-content/uploads/2021/07/20210722-Ministerial-UpdateSlides-v4.pdf"
           },
           {
-            "title": "Opening Address Minister of Health World Patient Safety Day 17 September 2020",
+            "name": "Opening Address Minister of Health World Patient Safety Day 17 September 2020",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/opening-address-minister-of-health-world-patient-safety-day-17-september-2020.pdf"
           },
           {
-            "title": "Minister Mkhize's Intervention G20 Health and Finance Ministers Meeting 17 September 2020",
+            "name": "Minister Mkhize's Intervention G20 Health and Finance Ministers Meeting 17 September 2020",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/minister-mkhizes-intervention-g20-health-and-finance-ministers-meeting-17-september-2020.pdf"
           },
           {
-            "title": "Health Budget Speech - 23 July 2020",
+            "name": "Health Budget Speech - 23 July 2020",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/health-budget-speech-23-july-2020.pdf"
           },
           {
-            "title": "Health Minister Mkhize COVID 19 Update speech to Parliament 08 July 2020",
+            "name": "Health Minister Mkhize COVID 19 Update speech to Parliament 08 July 2020",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/health-minister-mkhize-covid-19-update-speech-to-parliament-08-july-2020.pdf"
           },
           {
-            "title": "Minister Speaking Notes- Address to UWC Community 19062020",
+            "name": "Minister Speaking Notes- Address to UWC Community 19062020",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/minister-speaking-notes-address-to-uwc-community-19062020-copy-2-1.pdf"
           },
           {
-            "title": "Speech - Minister in the Presidency - Decommodifying health - A human right perspective of UHC in SA",
+            "name": "Speech - Minister in the Presidency - Decommodifying health - A human right perspective of UHC in SA",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/speech-minister-in-the-presidency-decommodifying-health-a-human-right-perspective-of-uhc-in-sa.pdf"
           },
           {
-            "title": "Speech - Deputy Minister on NHI - Nairobi - 13 and 14 November 2019",
+            "name": "Speech - Deputy Minister on NHI - Nairobi - 13 and 14 November 2019",
             "url": "https://www.health.gov.za/wp-content/uploads/2020/11/speech-deputy-minister-on-nhi-nairobi-13-and-14-november-2019.pdf"
           }
         ]
@@ -12561,491 +12561,491 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "\u200bThe\u00a0Minister Of\u00a0Higher Education, Science and Technology, Dr\u00a0Blade\u00a0Nzimande\u00a0address of\u00a0the occassion\u00a0on the\u00a0National\u00a0 Artisan\u00a0Development\u00a0 Conference 201helt at the Durban International Convention Centre(ICC)",
+            "name": "\u200bThe\u00a0Minister Of\u00a0Higher Education, Science and Technology, Dr\u00a0Blade\u00a0Nzimande\u00a0address of\u00a0the occassion\u00a0on the\u00a0National\u00a0 Artisan\u00a0Development\u00a0 Conference 201helt at the Durban International Convention Centre(ICC)",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/Document%20(1).pdf"
           },
           {
-            "title": "\u200bMinister of\u00a0\u00a0Higher Education, Science and Technology statement on the brutal killing of Precious Ramabulana.",
+            "name": "\u200bMinister of\u00a0\u00a0Higher Education, Science and Technology statement on the brutal killing of Precious Ramabulana.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/Mininster%20Nzimande%27s%20speech%20on%20the%20brutal%20killing%20of%20Precious%20Ramabulana.pdf"
           },
           {
-            "title": "\u200bSA Minister of Higher Education, Science and Innovation, Dr Blade Nzimande, address at the ministerial meeting on inclusion and mobility in higher education held on the margins of the 40th session of the general assembly - 14 November 2019.",
+            "name": "\u200bSA Minister of Higher Education, Science and Innovation, Dr Blade Nzimande, address at the ministerial meeting on inclusion and mobility in higher education held on the margins of the 40th session of the general assembly - 14 November 2019.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/SA%20MINISTER%20OF%20HIGHER%20EDUCATION.pdf"
           },
           {
-            "title": "\u200bMinister Nzimande launches State-of-the-Art Maritime Academy",
+            "name": "\u200bMinister Nzimande launches State-of-the-Art Maritime Academy",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/ADDRESS%20BY%20MINISTER%20BLADE%20NZIMANDE%20SR.pdf"
           },
           {
-            "title": "\u200bMinister of Higher Education , Science and Technology,\u00a0Dr Blade Nzimande, NCOP\u00a0Policy Vote\u00a0\u00a0Address for the\u00a0NCOP\u00a0Chambers\u00a023 July 2019",
+            "name": "\u200bMinister of Higher Education , Science and Technology,\u00a0Dr Blade Nzimande, NCOP\u00a0Policy Vote\u00a0\u00a0Address for the\u00a0NCOP\u00a0Chambers\u00a023 July 2019",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/DHET%20MINISTER%20BUDGET%20FINAL%20%20DRAFT%20PRESENTED.pdf"
           },
           {
-            "title": "\u200b\u00a0Minister of Higher Education, Science and Technology budget vote address for the Department of Higher Education and Training held at the old assembly",
+            "name": "\u200b\u00a0Minister of Higher Education, Science and Technology budget vote address for the Department of Higher Education and Training held at the old assembly",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%27s%20Speeches%202019/DHET%20MINISTER%20BUDGET%20FINAL%20%20DRAFT%20PRESENTED.pdf"
           },
           {
-            "title": "\u200bThe\u00a0Minister of Higher Education, Science and Technology Dr BE Nzimande's address during the 2019 SONA debate.",
+            "name": "\u200bThe\u00a0Minister of Higher Education, Science and Technology Dr BE Nzimande's address during the 2019 SONA debate.",
             "url": "https://www.dhet.gov.za/SiteAssets/SONA%20Debate%20final.pdf"
           },
           {
-            "title": "\u200bAddress by the Minister of Higher Education and Training,\nDr Naledi Pandor MP, at the 4th South Africa-Japan University (SAJU) Forum gala dinner",
+            "name": "\u200bAddress by the Minister of Higher Education and Training,\nDr Naledi Pandor MP, at the 4th South Africa-Japan University (SAJU) Forum gala dinner",
             "url": "https://www.dhet.gov.za/SiteAssets/Media%20Release%20and%20Statements%202019/Japan%20Universities%20Speech%2023%20may%202019.pdf"
           },
           {
-            "title": "\u200bMinister Naledi Pandor's Statement on 2019 NSFAS Applications",
+            "name": "\u200bMinister Naledi Pandor's Statement on 2019 NSFAS Applications",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Naledi%20Pandor%20on%20the%202019%20NSFAS%20applications.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's speech at the opening of the Computational and Mathematical Sciences (CAMS) building at the University of the Western Cape",
+            "name": "\u200bMinister Pandor's speech at the opening of the Computational and Mathematical Sciences (CAMS) building at the University of the Western Cape",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor2%20cams.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's speech at the opening of the Faculty of Community and Health Sciences Building (CHS) at the University of the Western Cape",
+            "name": "\u200bMinister Pandor's speech at the opening of the Faculty of Community and Health Sciences Building (CHS) at the University of the Western Cape",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor%20chs.pdf"
           },
           {
-            "title": "\u200bMinister Naledi Pandor convenes a Colloquium on Transformation in Higher Education",
+            "name": "\u200bMinister Naledi Pandor convenes a Colloquium on Transformation in Higher Education",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor%20convenes%20a%20colloquium%20on%20Transofrmation%20in%20HE.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s remarks at the launch of the Fibre Processing and Manufacturing (FP&M) SETA\u2019s third annual Career Summit and Expo",
+            "name": "\u200bMinister Pandor\u2019s remarks at the launch of the Fibre Processing and Manufacturing (FP&M) SETA\u2019s third annual Career Summit and Expo",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Career%20development%20summit%20fm%20p%20seta%20speech%2029%20October%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's Address: the official opening ceremony of the Sixth African Higher Education week and RUFORUM Biennial Conference 2018",
+            "name": "\u200bMinister Pandor's Address: the official opening ceremony of the Sixth African Higher Education week and RUFORUM Biennial Conference 2018",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/address%20Official%20opening%20ceremony%20of%20the%20sixth%20African%20Higher%20Education%20Week%20and%20RUFORUM%20Biennial%20Conference%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s opening remarks at 9th Pan African TVET colleges conference",
+            "name": "\u200bMinister Pandor\u2019s opening remarks at 9th Pan African TVET colleges conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/College%20pan%20Africa%20speech%2018%20October%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s address at the official opening of buildings at the Bloemfontein campus of the Central University of Technology",
+            "name": "\u200bMinister Pandor\u2019s address at the official opening of buildings at the Bloemfontein campus of the Central University of Technology",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s address to the HEAIDS partner-and-stakeholder breakfast",
+            "name": "\u200bMinister Pandor\u2019s address to the HEAIDS partner-and-stakeholder breakfast",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/HEAIDS%20speech%2016%20August%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s speech at the North West CET college",
+            "name": "\u200bMinister Pandor\u2019s speech at the North West CET college",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Community%20college%20Ma%20Didi%2014%20August%202018.pdf"
           },
           {
-            "title": "\u200bSpeech by Minister Pandor at Professor Calestuous Juma memorial lecture",
+            "name": "\u200bSpeech by Minister Pandor at Professor Calestuous Juma memorial lecture",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Juma%20lecture%2018%20July%202018%20(4).pdf"
           },
           {
-            "title": "Minister Pandor\u2019s speech at Capricorn TVET college",
+            "name": "Minister Pandor\u2019s speech at Capricorn TVET college",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Capricorn%20college%20speech%2012%20July%202018.pdf"
           },
           {
-            "title": "\u200b6th BRICS Education Minister\u2019s Meeting welcomes the challenges and opportunities of the 4th Industrial Revolution",
+            "name": "\u200b6th BRICS Education Minister\u2019s Meeting welcomes the challenges and opportunities of the 4th Industrial Revolution",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/10%20July%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s opening remarks at the 6th BRICS education ministers meeting",
+            "name": "\u200bMinister Pandor\u2019s opening remarks at the 6th BRICS education ministers meeting",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/BRICS%20education%20ministers%20speech%2010%20July%202018.pdf"
           },
           {
-            "title": "\u200bFinal Declaration\u00a0 Approved By MINISTERS",
+            "name": "\u200bFinal Declaration\u00a0 Approved By MINISTERS",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/FINAL%20Declaration%2010%20July%202018%20Approved%20By%20MINISTERS.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's speech at the 3rd DELTAS Africa Annual General Meeting",
+            "name": "\u200bMinister Pandor's speech at the 3rd DELTAS Africa Annual General Meeting",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/DELTAS%20Africa%20AGM%20July%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s opening speech at the 3rd Annual BRICS Network University Conference",
+            "name": "\u200bMinister Pandor\u2019s opening speech at the 3rd Annual BRICS Network University Conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Department%20of%20Higher%20Education%20and%20Training.pdf"
           },
           {
-            "title": "Minister Pandor\u2019s speech to the annual conference of FAPSA (Financial Aid Practitioners of South Africa)",
+            "name": "Minister Pandor\u2019s speech to the annual conference of FAPSA (Financial Aid Practitioners of South Africa)",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/NSFAS%20FAPSA%20Speech%20by%20Mnister%20Pandor.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s opening remarks to the Joint Meeting of SADC Ministers responsible for Education and Training and Science, Technology and Innovation",
+            "name": "\u200bMinister Pandor\u2019s opening remarks to the Joint Meeting of SADC Ministers responsible for Education and Training and Science, Technology and Innovation",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor1.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's speech at the 2018 Siyaphumelela National Conference",
+            "name": "\u200bMinister Pandor's speech at the 2018 Siyaphumelela National Conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Siyaphumele%20Speech%2012%20June%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor\u2019s speech to the Hope Africa AGM,Christ The King Church.",
+            "name": "\u200bMinister Pandor\u2019s speech to the Hope Africa AGM,Christ The King Church.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor2.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's 2018 Budget Vote Speech at the National Council of Provinces",
+            "name": "\u200bMinister Pandor's 2018 Budget Vote Speech at the National Council of Provinces",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandor.pdf"
           },
           {
-            "title": "\u200bSpeech by Minister Naledi Pandor at the BRICS Think Tank Meeting",
+            "name": "\u200bSpeech by Minister Naledi Pandor at the BRICS Think Tank Meeting",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Speech%20at%20the%20BRICS%20Think%20Tank%20Meeting.pdf"
           },
           {
-            "title": "\u200b\u200bMinister Pandor\u2019s speech at the launch of the Technical Education for Communities (TEC) Centre in Sedibeng",
+            "name": "\u200b\u200bMinister Pandor\u2019s speech at the launch of the Technical Education for Communities (TEC) Centre in Sedibeng",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandors%20speech%20at%20the%20launch%20of%20the%20Technical%20Education%20for%20Communities%20(TEC)%20Centre%20in%20Sedibeng.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's speech introducing the Department of Higher Education and Training's 2018 Budget Vote",
+            "name": "\u200bMinister Pandor's speech introducing the Department of Higher Education and Training's 2018 Budget Vote",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandors%20speech%20introducing%20the%20Department%20of%20Higher%20Education%20and%20Trainings%202018%20Budget%20Vote.pdf"
           },
           {
-            "title": "\u200bMedia Statement on student funding by the Minister of Higher Education and Training, Naledi Pandor at Imbizo Media Centre in Parliament",
+            "name": "\u200bMedia Statement on student funding by the Minister of Higher Education and Training, Naledi Pandor at Imbizo Media Centre in Parliament",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Media%20Statement%20on%20student%20funding%20by%20the%20Minister%20of%20Higher%20Education%20and%20Training.docx"
           },
           {
-            "title": "\u200bMinister Pandor's remarks to the Black Business Council roundtable on education and skills",
+            "name": "\u200bMinister Pandor's remarks to the Black Business Council roundtable on education and skills",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/BBC%20roundtable%20speech%2017%20April%202018.pdf"
           },
           {
-            "title": "\u200bMinister Pandor's address to the 15th anniversary symposium of the Prince Claus Chair",
+            "name": "\u200bMinister Pandor's address to the 15th anniversary symposium of the Prince Claus Chair",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Minister%20Pandors%20address%20to%20the%2015th%20anniversary%20symposium%20of%20the%20Prince%20Claus%20Chair.pdf"
           },
           {
-            "title": "\u200bMinister Naledi Pandor's Remarks at Cedar House School",
+            "name": "\u200bMinister Naledi Pandor's Remarks at Cedar House School",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Cedar%20House%20speech%2012%20March%202018.pdf"
           },
           {
-            "title": "Minister Naledi Pando's speech to the Palestine Solidarity Forum (UCT) Israel Apartheid Week, UCT on 14 March 2018",
+            "name": "Minister Naledi Pando's speech to the Palestine Solidarity Forum (UCT) Israel Apartheid Week, UCT on 14 March 2018",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Palestine%20speech%2014%20march%202018.pdf"
           },
           {
-            "title": "Minister Hlengiwe Mkhize delivers a speech during the Harambee Solution Exchange Event in Stellenbosch on 23 October 2017",
+            "name": "Minister Hlengiwe Mkhize delivers a speech during the Harambee Solution Exchange Event in Stellenbosch on 23 October 2017",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Minister%27s%20Speech%20-%20Harambee%20Solution%20Exchange%20v2%201.pdf"
           },
           {
-            "title": "\u200b\u200b\u200bAddress by the Minister of Higher Education and Training, Dr Be Nzimande, during the opening ceremony of the Technical and Vocational Education and Training (TVET) Imbizo at the Lakes Hotel and Conference Centre in Benoni On 3 October 2017",
+            "name": "\u200b\u200b\u200bAddress by the Minister of Higher Education and Training, Dr Be Nzimande, during the opening ceremony of the Technical and Vocational Education and Training (TVET) Imbizo at the Lakes Hotel and Conference Centre in Benoni On 3 October 2017",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Minister%27s%20Speech%20TVET%20Imbizo%202017.pdf"
           },
           {
-            "title": "Draft Speech for the Honourable Minister of Higher Education and Training, Dr. Be Nzimande, MP on the occasion of team South Africa Send-Off Ceremony on 29 September 2017, Lakes Hotel and Conference Centre, at 09:00.",
+            "name": "Draft Speech for the Honourable Minister of Higher Education and Training, Dr. Be Nzimande, MP on the occasion of team South Africa Send-Off Ceremony on 29 September 2017, Lakes Hotel and Conference Centre, at 09:00.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/20170929%20Speech%20for%20the%20Minister%2029%20Sept%202017%20World%20Skills-Send%20Off%20Ceremony.pdf"
           },
           {
-            "title": "Minister of Higher Education and Training, Dr BE Nzimande, MP speaks at the stakeholder workshop on skills supply and demand in the haidressing sector",
+            "name": "Minister of Higher Education and Training, Dr BE Nzimande, MP speaks at the stakeholder workshop on skills supply and demand in the haidressing sector",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Speech%20by%20Minister%20Nzimande%20at%20the%20Stakeholder%20Workshop%20on%20Skills%20Supply%20and%20Demand%20in%20the%20Hairdressing%20Sector.pdf"
           },
           {
-            "title": "\u200bBudget Vote Speech, National Assembly",
+            "name": "\u200bBudget Vote Speech, National Assembly",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/Budget%20Vote%20Speech,%202017%20Version%20Final.pdf"
           },
           {
-            "title": "\u200bMinister Nzimande says RPL to be applied more widely",
+            "name": "\u200bMinister Nzimande says RPL to be applied more widely",
             "url": "https://www.dhet.gov.za/SiteAssets/Latest%20News/2017/April/DHET-MINISTER-NZIMANDE-UMGUNGUNDLOVU-TVET-RPL-CENTRE-110417.pdf"
           },
           {
-            "title": "\u200bNzimade: Unisa chancellor Mbeki \u201crepositioned Africa, South Africa as international economic, political role-players\u201d",
+            "name": "\u200bNzimade: Unisa chancellor Mbeki \u201crepositioned Africa, South Africa as international economic, political role-players\u201d",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/DHET-Minister-Nzimande-Dr-Thabo-Mbeki.pdf"
           },
           {
-            "title": "\u200bSA\u2019s top artisans to compete in Abu Dhabi in October",
+            "name": "\u200bSA\u2019s top artisans to compete in Abu Dhabi in October",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202017/Deputy-Minister-Manana-Closing-address-WSSA-national-competition-2017-1.pdf"
           },
           {
-            "title": "\u200bMinister Nzimande - WorldSkills SA opening",
+            "name": "\u200bMinister Nzimande - WorldSkills SA opening",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/DHET-MinisterOpeningWSSA-170217.pdf"
           },
           {
-            "title": "\u200bMinister outlines PSET opportunities for 2017",
+            "name": "\u200bMinister outlines PSET opportunities for 2017",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202017/120117_MinisterRemarksPSET_Speech.pdf"
           },
           {
-            "title": "\u200bNzimande updates parliament on current university situation",
+            "name": "\u200bNzimande updates parliament on current university situation",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/251016%202%20Speech%20by%20Minister%20Nzimande%2025%20October%202016-2.pdf"
           },
           {
-            "title": "\u200bNzimande calls summit to address student housing",
+            "name": "\u200bNzimande calls summit to address student housing",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/Student%20Housing%20Symposium%20Minister%20Speech%2021%20July%202016.pdf"
           },
           {
-            "title": "\u200b\u00a0Minister's Speech for opening of Thabazimbi TVET College\u00a0\u200b",
+            "name": "\u200b\u00a0Minister's Speech for opening of Thabazimbi TVET College\u00a0\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/Thabazimbi%20-%20Minister%27s%20Speech%20for%20opening%20of%20Thabazimbi%20TVET%20College%20(29%20June%202016).pdf"
           },
           {
-            "title": "Minister Blade Nzimande to meet Canadian Counterpart and Universities after Securing Significant University Partnerships for South Africa in the USA",
+            "name": "Minister Blade Nzimande to meet Canadian Counterpart and Universities after Securing Significant University Partnerships for South Africa in the USA",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/Minister%20Blade%20Nzimande%20to%20meet%20Canadian%20Counterpart%20and%20Universities.pdf"
           },
           {
-            "title": "\u200bNzimande says post-school education, training continues to rise",
+            "name": "\u200bNzimande says post-school education, training continues to rise",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/Minister%20of%20Higher%20Education%20and%20Training%202016%20Budget%20Speech%20NCOP.pdf"
           },
           {
-            "title": "Minister of Higher Education and Trainin\u200b\u00a0Going Global conference",
+            "name": "Minister of Higher Education and Trainin\u200b\u00a0Going Global conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/Speech%20for%20the%20Minister-Going%20Global%20conference.final.pdf"
           },
           {
-            "title": "\u200bHigher Education and Training Budget Vote 2016/17",
+            "name": "\u200bHigher Education and Training Budget Vote 2016/17",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202016/2016%20DHET%20budget%20vote%20speech.pdf"
           },
           {
-            "title": "\u200bWorld skills South Africa official team send-off functionST George hotel & convention centre, Centurion\u200b",
+            "name": "\u200bWorld skills South Africa official team send-off functionST George hotel & convention centre, Centurion\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/Min%20Blade%20Send-Off%20Function%2024%20July%202015.pdf"
           },
           {
-            "title": "Keynote address by minister of higher education and training, dr. B.E. Nzimande, at the mandela day career development festival\u00a0held at Bhekuzulu hall, Unizulu, kwaDlangezwa, on 18 July 2015\u200b",
+            "name": "Keynote address by minister of higher education and training, dr. B.E. Nzimande, at the mandela day career development festival\u00a0held at Bhekuzulu hall, Unizulu, kwaDlangezwa, on 18 July 2015\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/2015%2007%2017%20Keynote%20Address%20KZN.pdf"
           },
           {
-            "title": "\u200bNotes for the unveiling of the commemorative plaque and Imbizo at the new Thabazimbi campus of Waterberg tvet college, held in Thabazimbi in the Waterberg district, Limpopo province on 21 june 2015",
+            "name": "\u200bNotes for the unveiling of the commemorative plaque and Imbizo at the new Thabazimbi campus of Waterberg tvet college, held in Thabazimbi in the Waterberg district, Limpopo province on 21 june 2015",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/Speaking%20notes%20Thabazimbi.pdf"
           },
           {
-            "title": "\u200b\u200bMinister of Higher Education and Training Budget Speech,\u00a0National\u00a0Assembly, 2015",
+            "name": "\u200b\u200bMinister of Higher Education and Training Budget Speech,\u00a0National\u00a0Assembly, 2015",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/Draft%202015%20Budget%20Speech%20-%20final1%20(2).pdf"
           },
           {
-            "title": "\u200bMinister of Higher Education and Training Budget Speech, National Council of Provinces, 2015\u200b",
+            "name": "\u200bMinister of Higher Education and Training Budget Speech, National Council of Provinces, 2015\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/2015%20NCOP%20Speech%20090615%20distribution.pdf"
           },
           {
-            "title": "\u200b\u200bMinister Blade Nzimande: Higher Education and Training Department Budge\u200bt Vote 2015/16",
+            "name": "\u200b\u200bMinister Blade Nzimande: Higher Education and Training Department Budge\u200bt Vote 2015/16",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/Dhet%20budget%20vote%20130515.pdf"
           },
           {
-            "title": "\u200bSpeaking Notes for the Minister of Higher Education and Trai\u200bning, Dr BE Nzimande, Meeting with Progressive Organisations and Student Formations at the University of Johannesburg, Bunting Road Campus\u00a0\u200b",
+            "name": "\u200bSpeaking Notes for the Minister of Higher Education and Trai\u200bning, Dr BE Nzimande, Meeting with Progressive Organisations and Student Formations at the University of Johannesburg, Bunting Road Campus\u00a0\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/15%2001%2016%20Draft%20Speaking%20Notes%20-%20Alliance%20Partners%20and%20Student%20Formations%20revised.pdf"
           },
           {
-            "title": "Minister\u00a0Nzimande's speech to Education Policy Consortium\u00a0\u200b annual workshop",
+            "name": "Minister\u00a0Nzimande's speech to Education Policy Consortium\u00a0\u200b annual workshop",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Nzimande%20-%20Speech%20to%20EPC%20annual%20workshop%209%20December%202014%202.pdf"
           },
           {
-            "title": "\u200bMinister Nzima\u200bnde's address to deans\u00a0and heads of schools of the faculties and\u00a0schools of education\u00a0\u200b",
+            "name": "\u200bMinister Nzima\u200bnde's address to deans\u00a0and heads of schools of the faculties and\u00a0schools of education\u00a0\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/141209_Minister%20Meeting%20with%20Education%20Deans.pdf"
           },
           {
-            "title": "\u200bMinister Nzimande\u2019s S\u200bpeech: TVET conference",
+            "name": "\u200bMinister Nzimande\u2019s S\u200bpeech: TVET conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Minister%20Nzimande%20Ministers_Speech_TVET_Conference_18-19_November_2014.pdf"
           },
           {
-            "title": "\u200bSpeech by Minister of\u00a0Higher Education and Training, Dr B.E Nzimande, MP, at the seventh annual International South African Technology Network (SATN) Conference",
+            "name": "\u200bSpeech by Minister of\u00a0Higher Education and Training, Dr B.E Nzimande, MP, at the seventh annual International South African Technology Network (SATN) Conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Speech%20by%20Minister%20at%207th%20Annual%20SATN%20conference%2008102014.pdf"
           },
           {
-            "title": "\u200bAddress by the Minister of Higher Education and Training, Dr\u00a0B.E\u00a0Nzimande at the\u00a0South African Teachers Union's 8th National Congress.\u200b",
+            "name": "\u200bAddress by the Minister of Higher Education and Training, Dr\u00a0B.E\u00a0Nzimande at the\u00a0South African Teachers Union's 8th National Congress.\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/SADTU%20Speech%20focussing%20on%20Teacher%20Education%20Developments%20and%20Achievements.pdf"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training at the 96th National Teachers' Union Annual General Conference.\u200b",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training at the 96th National Teachers' Union Annual General Conference.\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Media/Statements/140915_MIN%20speech_NATU%20Conference.pdf"
           },
           {
-            "title": "\u200bAddress by the Minister of Higher Education and Training Dr\u00a0B.E\u00a0Nzimande at the Conference of the South African Heads of Mission.\u200b",
+            "name": "\u200bAddress by the Minister of Higher Education and Training Dr\u00a0B.E\u00a0Nzimande at the Conference of the South African Heads of Mission.\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/ADDRESS%20BY%20THE%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bBudget Speech, National Assembly, 2014",
+            "name": "\u200bBudget Speech, National Assembly, 2014",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Budget%20Speech%202014%20-%20Final[4].pdf"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training, Dr B.E Nzimande at the Mandela day career development festival.",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training, Dr B.E Nzimande at the Mandela day career development festival.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Minister%20speech%20for%20Mandela%20Day%20V1-3%20(1).pdf"
           },
           {
-            "title": "\u200bAddress by Minister of Higher Education and Training , Dr B.E Nzimande, on the occasion of the Mhlontlo bursary handover ceremony, Tsolo",
+            "name": "\u200bAddress by Minister of Higher Education and Training , Dr B.E Nzimande, on the occasion of the Mhlontlo bursary handover ceremony, Tsolo",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Mhlntlofinalfinal2014website.pdf"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the launch of the Vhembe District skills development project and career Expo, Makhuvha Stadium, Vhembe District",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the launch of the Vhembe District skills development project and career Expo, Makhuvha Stadium, Vhembe District",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/MinstersspeechVhembefinalfinal.pdf"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the career Expo in Mitchell's Plain, Western Cape",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the career Expo in Mitchell's Plain, Western Cape",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/WesternCapeEXPOfinalfinalwebsite.pdf"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the stakeholder meeting on the future of adult education and training centres, Southern sun, OR Tambo International airport",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the stakeholder meeting on the future of adult education and training centres, Southern sun, OR Tambo International airport",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/adulteducationspeechfinalfinal.pdf"
           },
           {
-            "title": "\u200bSpeech by the Minister of Higher Education and Training Dr B.E Nzimande: Launch of J.P Phungula skills development centre, Ixopo, Sisonke District",
+            "name": "\u200bSpeech by the Minister of Higher Education and Training Dr B.E Nzimande: Launch of J.P Phungula skills development centre, Ixopo, Sisonke District",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/PhungulaSkillsCentrefinalfinalwebsite.pdf"
           },
           {
-            "title": "\u200bSpeech by the Minister of Higher Education and Training Dr B.E Nzimande at the public lecture honourring \u00a0President Jacob Zuma, University of Zululand",
+            "name": "\u200bSpeech by the Minister of Higher Education and Training Dr B.E Nzimande at the public lecture honourring \u00a0President Jacob Zuma, University of Zululand",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Unizluwebsite.pdf"
           },
           {
-            "title": "Keynote Address by the Minister of Higher Education and Training, Dr Blade Nzimande at the Launch of the KZN FET Graduate Placement Project",
+            "name": "Keynote Address by the Minister of Higher Education and Training, Dr Blade Nzimande at the Launch of the KZN FET Graduate Placement Project",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/KZN%20Graduate%20Placement%20Speech.doc"
           },
           {
-            "title": "\u200bSpeech by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Launch of the Free State FET Graduate Placement Project at the Flavius Mareka TVET College, Sasolburg",
+            "name": "\u200bSpeech by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Launch of the Free State FET Graduate Placement Project at the Flavius Mareka TVET College, Sasolburg",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/FreeStateplaceemntfinalfinalwebsite.docx"
           },
           {
-            "title": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the career Expo in Umsunduzi Municipality, Pietermaritzburg",
+            "name": "\u200bKeynote address by the Minister of Higher Education and Training Dr B.E Nzimande, at the career Expo in Umsunduzi Municipality, Pietermaritzburg",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/CareerExpoSpeechfinalfinalfinalwebsite.pdf"
           },
           {
-            "title": "\u200bSpeech by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Sod turning ceremony of the construction of the Anene Booysen skills development centre, Nelson Mandela Community Hall, Bredasdrop",
+            "name": "\u200bSpeech by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Sod turning ceremony of the construction of the Anene Booysen skills development centre, Nelson Mandela Community Hall, Bredasdrop",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Bredasdorp%20Speechfinalfinal1.pdf"
           },
           {
-            "title": "\u200bOpening Address by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Human Resourse Development Council(HRDC) Summit, Gallegher Convention Centre, Midrand",
+            "name": "\u200bOpening Address by the Minister of Higher Education and Training, Dr Blade Nzimande, at the Human Resourse Development Council(HRDC) Summit, Gallegher Convention Centre, Midrand",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/HRDC%20Summit%20Speech.pdf"
           },
           {
-            "title": "\u200bAddress by Minister of Higher Education and Training , Dr B.E Nzimande at the launch of the wholesale and retail leadership chair, CPUT Hotel School - Western Cape",
+            "name": "\u200bAddress by Minister of Higher Education and Training , Dr B.E Nzimande at the launch of the wholesale and retail leadership chair, CPUT Hotel School - Western Cape",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/WRSETAFINAFINAL2.pdf"
           },
           {
-            "title": "Address by Minister of Higher Education and Training , Dr B.E Nzimande , at SAPREF Oil Refinery Learnership and Bursary Handover ceremony , DURBAN",
+            "name": "Address by Minister of Higher Education and Training , Dr B.E Nzimande , at SAPREF Oil Refinery Learnership and Bursary Handover ceremony , DURBAN",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/2014%20Feb%208.pdf"
           },
           {
-            "title": "Address by Minister of Higher Education and Training , Dr B.E Nzimande on the occasion of the Msunduzi Bursary Handover ceremony, PIETERMARITZBURG",
+            "name": "Address by Minister of Higher Education and Training , Dr B.E Nzimande on the occasion of the Msunduzi Bursary Handover ceremony, PIETERMARITZBURG",
             "url": "https://www.dhet.gov.za/SiteAssets/2014%20Feb%207.pdf"
           },
           {
-            "title": "Speech by the Minister of Higher Education and Training, Dr Blade Nzimande at the launch of the white paper\u00a0 for post school and training, Pretoria, UNISA",
+            "name": "Speech by the Minister of Higher Education and Training, Dr Blade Nzimande at the launch of the white paper\u00a0 for post school and training, Pretoria, UNISA",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/2014%20Jan%2016.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, On the Department of Higher Education and Training Budget Vote 2019/2020",
+            "name": "\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, On the Department of Higher Education and Training Budget Vote 2019/2020",
             "url": "https://www.dhet.gov.za/SiteAssets/Final%20-%20DM%20Speech%20-%20DHET%20Budget%20Vote%202019.pdf"
           },
           {
-            "title": "\u200bAddress by the Deputy Minister of Higher Education Science and Technology, Mr Buti Manamela, to the Annual Career Development Practitioner Congress.",
+            "name": "\u200bAddress by the Deputy Minister of Higher Education Science and Technology, Mr Buti Manamela, to the Annual Career Development Practitioner Congress.",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202019/DM%20Speech-Annual%20Career%20Development%20Practitioner%20Congress-24%20June%2020.pdf"
           },
           {
-            "title": "\u200bAddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, To the Open Learning Seminar: Developing Effective Open Learning Practices in South African Post-School Education and Training",
+            "name": "\u200bAddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, To the Open Learning Seminar: Developing Effective Open Learning Practices in South African Post-School Education and Training",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bDeputy Minister's speech at the Conference on Decolonising Knowledge, Teaching and Learning in Higher Education",
+            "name": "\u200bDeputy Minister's speech at the Conference on Decolonising Knowledge, Teaching and Learning in Higher Education",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/DM%20Speech%20-%20UNISA%20-%20Decolonising%20Knowledge%20Teaching%20and%20Learning%20in%20High%20%20%20.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister, Buti Manamela at the World's Teachers Day Celebration",
+            "name": "\u200bSpeech by the Deputy Minister, Buti Manamela at the World's Teachers Day Celebration",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/DM%20Speech%20-%20UNISA%20World%20Teacchers%27%20Day%20-%205%20October%202018.pdf"
           },
           {
-            "title": "\u200bAddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, to the 2018 BRICS future skills challenge welcome ceremony",
+            "name": "\u200bAddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, to the 2018 BRICS future skills challenge welcome ceremony",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/DM%20Speech%20-%20Welcome%20Ceremony%20-%20BRICS%20Future%20Skills%20Challenge%202018%20-%201%20October%202018.pdf"
           },
           {
-            "title": "A\u200bddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, at the 3sixty Vaal high impact leadership summit 2018",
+            "name": "A\u200bddress by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, at the 3sixty Vaal high impact leadership summit 2018",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/Deputy%20minister%20Speech.pdf"
           },
           {
-            "title": "\u200bAddress By The Deputy Minister Of Higher Education, Mr Buti Manamela, To The PWC 25th Higher Education Conference\nCape Town ICC",
+            "name": "\u200bAddress By The Deputy Minister Of Higher Education, Mr Buti Manamela, To The PWC 25th Higher Education Conference\nCape Town ICC",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION.pdf"
           },
           {
-            "title": "\u200bAddress By The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, At The Launch Of The CPUT Gender-Based Violence Policy",
+            "name": "\u200bAddress By The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, At The Launch Of The CPUT Gender-Based Violence Policy",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/Deputy%20minister%20Speech.pdf"
           },
           {
-            "title": "Address By The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, At The Programme For The Decade Of The Artisan 2014-2024 Ingwe Tvet College, Eastern Cape",
+            "name": "Address By The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, At The Programme For The Decade Of The Artisan 2014-2024 Ingwe Tvet College, Eastern Cape",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/SPEECH%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "Address by The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, To The Afriman Rising Dialogue",
+            "name": "Address by The Deputy Minister Of Higher Education And Training, Mr Buti Manamela, To The Afriman Rising Dialogue",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/SPEECH%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bSpeech by Deputy Minister, Buti Manamela at\u00a0 the Coastal TVET College graduation ceremony",
+            "name": "\u200bSpeech by Deputy Minister, Buti Manamela at\u00a0 the Coastal TVET College graduation ceremony",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bSpeech by Deputy Minister, Buti Manamela at the 2018 WIL Africa Conference",
+            "name": "\u200bSpeech by Deputy Minister, Buti Manamela at the 2018 WIL Africa Conference",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "Address by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, to the HEAIDS life orientation lecturer certificate ceremony",
+            "name": "Address by the Deputy Minister of Higher Education and Training, Mr Buti Manamela, to the HEAIDS life orientation lecturer certificate ceremony",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING%20SPEECH.pdf"
           },
           {
-            "title": "\u200bRemarks by the Deputy Minister Of Higher Education And Training",
+            "name": "\u200bRemarks by the Deputy Minister Of Higher Education And Training",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/REMARKS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "Address by the Deputy Minister Of Higher Education And Training",
+            "name": "Address by the Deputy Minister Of Higher Education And Training",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bDeputy Minister's Speech at the South African Sugar Association Shukela Training Centre Graduation Ceremony",
+            "name": "\u200bDeputy Minister's Speech at the South African Sugar Association Shukela Training Centre Graduation Ceremony",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/DM%20Speech%20-%20Shukela%20Training%20Centre%20Graduation%20Ceremoney%20-%206%20July%202018.pdf"
           },
           {
-            "title": "Deputy Minister Buti Manamela at the\u00a0Gender based violence Imbizo\u00a0Coastal TVET \u00a0college, uMlazi campus",
+            "name": "Deputy Minister Buti Manamela at the\u00a0Gender based violence Imbizo\u00a0Coastal TVET \u00a0college, uMlazi campus",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20BUTI%20MANAMELA%20AT%20THE.pdf"
           },
           {
-            "title": "\u200bDeputy Minister Buti Manamela's 2018 Budget Vote Speech at the National Council of Provinces",
+            "name": "\u200bDeputy Minister Buti Manamela's 2018 Budget Vote Speech at the National Council of Provinces",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/SPEECH%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister Buti Manamela at the launch of the Multichoice/University of Pretoria Machine Learning Chair",
+            "name": "\u200bSpeech by the Deputy Minister Buti Manamela at the launch of the Multichoice/University of Pretoria Machine Learning Chair",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/KEYNOTE%20ADDRESS%20BY%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bDeputy Minister\u2019s speech at the G20 Youth Ministerial Summit in Madrid, Spain.",
+            "name": "\u200bDeputy Minister\u2019s speech at the G20 Youth Ministerial Summit in Madrid, Spain.",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/DM%20Speech%20-%20Address%20to%20the%20G20%20Youth%20Ministerial%20Summit%20-%20Madrid-Spain%20-%2023%20May%202018.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister, Mr Buti Manamela on the Department of Higher Education and Training's 2018/19 Budget Vote at the National Assembly, Parliament of South Africa",
+            "name": "\u200bSpeech by the Deputy Minister, Mr Buti Manamela on the Department of Higher Education and Training's 2018/19 Budget Vote at the National Assembly, Parliament of South Africa",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speech%202018/Deputy%20Minister%20Speech%20-%20DHET%20Budget%20Vote%202018-19%20-%2017%20May%202018.pdf"
           },
           {
-            "title": "\u200bThe Deputy Minister of Higher and Education and Training, Mr Mduduzi Manana, wishes to express the Department\u2019s humble and heartfelt condolences to the Minister, Dr Blade Nzimande, on the passing of his dear mother, Mrs Nozipho Nzimande (affectionately known as \u2018uGogo\u2019).",
+            "name": "\u200bThe Deputy Minister of Higher and Education and Training, Mr Mduduzi Manana, wishes to express the Department\u2019s humble and heartfelt condolences to the Minister, Dr Blade Nzimande, on the passing of his dear mother, Mrs Nozipho Nzimande (affectionately known as \u2018uGogo\u2019).",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202017/DEPARTMENT%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING%20EXTENDS%20THEIR%20CONDOLENCES%20TO%20MINISTER%20BLADE%20NZIMANDE%20ON%20THE%20PASSING%20OF%20HIS%20MOTH.pdf"
           },
           {
-            "title": "\u200b\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Mduduzi Manana, for\u00a0HEAIDS National Youth Conference today.",
+            "name": "\u200b\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Mduduzi Manana, for\u00a0HEAIDS National Youth Conference today.",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202017/Deputy%20Minister%20Manana%27s%20address%20at%20the%20opening%20of%20the%20higher%20education%20and%20training%20aids%20youth%20conference.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Mduduzi Manana, MP, at the passing of the Higher Education Bill at the National Assembly, Parliament, 25 May 2016\u200b",
+            "name": "\u200bSpeech by the Deputy Minister of Higher Education and Training, Mr Mduduzi Manana, MP, at the passing of the Higher Education Bill at the National Assembly, Parliament, 25 May 2016\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20Speeches%202016/HE%20Amendment%20Bill.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy Minister Mdududzi Manana on the ETDP TVET\u00a0and Higher Education and Research Colloquium\u200b",
+            "name": "\u200bSpeech by the Deputy Minister Mdududzi Manana on the ETDP TVET\u00a0and Higher Education and Research Colloquium\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/DM%27s%20Speech%202016/SPEECH%20BY%20DEPUTY%20MINISTER%20MDUDUDZI%20MANANA%20ON%20THE%20ETDP%20TVET.pdf"
           },
           {
-            "title": "\u200bSpeech of the deputy minister of higher education and training, Mr Mduduzi Manana, MP during the budget vote on 13 may 2015\u200b",
+            "name": "\u200bSpeech of the deputy minister of higher education and training, Mr Mduduzi Manana, MP during the budget vote on 13 may 2015\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20speeches%202015/Budget%20Vote%20SPEECH%20OF%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "\u200bDeputy Minister Speech HEAIDS FTF Activation Waterberg College Lebomakgomo Campus",
+            "name": "\u200bDeputy Minister Speech HEAIDS FTF Activation Waterberg College Lebomakgomo Campus",
             "url": "https://www.dhet.gov.za/SiteAssets/Deputy%20Minister%20speeches%202015/Deputy%20Minister%20Speech%20HEAIDS%20FTF%20Activation%20Waterberg%20College%20Lebomakgomo%20Campus.pdf"
           },
           {
-            "title": "\u200bSpeech by the Deputy M\u200binister of Higher Education on\u00a0 Budget Vote Debate",
+            "name": "\u200bSpeech by the Deputy M\u200binister of Higher Education on\u00a0 Budget Vote Debate",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Speech%20by%20the%20Deputy%20Minister%20of%20Higher%20Education%20on%20%20Budget%20Vote%20Debate%2022%20July%202014.pdf"
           },
           {
-            "title": "\u200b\u200b\u200bInput of the Deputy\u00a0Minister of Higher Education and Training, Mr MC Manana on the decade of the Artisan, Free State\u00a0\u200b\u200b",
+            "name": "\u200b\u200b\u200bInput of the Deputy\u00a0Minister of Higher Education and Training, Mr MC Manana on the decade of the Artisan, Free State\u00a0\u200b\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/INPUT%20OF%20THE%20DEPUTY%20MINISTER%20OF%20HIGHER%20EDUCATION%20AND%20TRAINING.pdf"
           },
           {
-            "title": "Address by the Director-General, Mr GF Qonde, at the Award Ceremony of the National Institute for the Deaf (NID)",
+            "name": "Address by the Director-General, Mr GF Qonde, at the Award Ceremony of the National Institute for the Deaf (NID)",
             "url": "https://www.dhet.gov.za/SiteAssets/DG%20Speeches/DGSPEECH.pdf"
           },
           {
-            "title": "\u200bSpeech by the Director-General for the Department of Higher Education and Training , Mr GF Qonde, \u00a0at the National Artisan Development Strategy Conference on 6 December 2016",
+            "name": "\u200bSpeech by the Director-General for the Department of Higher Education and Training , Mr GF Qonde, \u00a0at the National Artisan Development Strategy Conference on 6 December 2016",
             "url": "https://www.dhet.gov.za/SiteAssets/DG%20Speeches/Speech%20by%20the%20DG%20at%20%20the%20National%20Artisan%20Development%20Strategy%20Conference.pdf"
           },
           {
-            "title": "\u200bkeynote address delivered by the director-general, mr gf qonde, at the roundtable discussion for technical and vocational education and training colleges' top perfoming students",
+            "name": "\u200bkeynote address delivered by the director-general, mr gf qonde, at the roundtable discussion for technical and vocational education and training colleges' top perfoming students",
             "url": "https://www.dhet.gov.za/SiteAssets/DG%20Speeches/Keynote%20address%20delivered%20by%20the%20Director%20General%20Mr%20Qonde.pdf"
           },
           {
-            "title": "\u200bKeynote address by the Director-General of the Department of Higher Education and Training, Mr GF Qonde, at the launch of the College of Cape Town Retail Simulation Centre",
+            "name": "\u200bKeynote address by the Director-General of the Department of Higher Education and Training, Mr GF Qonde, at the launch of the College of Cape Town Retail Simulation Centre",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Keynote%20address%20by%20the%20Director-General%20Mr%20GF%20Qonde%20on%2022%20October%202014%20(3).pdf"
           },
           {
-            "title": "Speech by the Director-General of Higher Education and Training, GF Qonde,\u00a0at the signing of the Memoranda of Agreements formalising the partnerships\u00a0between Unisa and 12 Technical and Vocational Education and Training\u00a0Colleges at Unisa, Kgorong Building",
+            "name": "Speech by the Director-General of Higher Education and Training, GF Qonde,\u00a0at the signing of the Memoranda of Agreements formalising the partnerships\u00a0between Unisa and 12 Technical and Vocational Education and Training\u00a0Colleges at Unisa, Kgorong Building",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2014/Director-General%20Speech%20on%20MoA%20Partnership%20between%20Unisa%20and%20TVET%20%20Colleges.pdf"
           },
           {
-            "title": "Opening Remarks by the Director-General for Higher Education and Training, Mr GF Qonde, at the Joint Department of Higher Education and Training and European Union Workshop\u200b\u200b",
+            "name": "Opening Remarks by the Director-General for Higher Education and Training, Mr GF Qonde, at the Joint Department of Higher Education and Training and European Union Workshop\u200b\u200b",
             "url": "https://www.dhet.gov.za/SiteAssets/Minister%20Speeches2015/DG%20Opening%20remarks%20EU%20workshop.pdf"
           }
         ]
@@ -13065,251 +13065,251 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "Prescribed Rate of Interest Act: Prescribed rate of interest from 1 July 2023 (English/Afrikaans), GG 49720, GoN 4075, 17 Nov 2023",
+            "name": "Prescribed Rate of Interest Act: Prescribed rate of interest from 1 July 2023 (English/Afrikaans), GG 49720, GoN 4075, 17 Nov 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20231117-gg49720gon4075-RateOfInterest.pdf"
           },
           {
-            "title": "Magistrate\u2019s Courts Act: Appointment of a place for the holding of a Court for such district: Diepsloot, GG 49645, GoN 4043, 9 Nov 2023",
+            "name": "Magistrate\u2019s Courts Act: Appointment of a place for the holding of a Court for such district: Diepsloot, GG 49645, GoN 4043, 9 Nov 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20231109-gg49645gon4043-MC-Diepsloot.pdf"
           },
           {
-            "title": "Magistrates Act: Determination of salaries and allowances of magistrates: 2022/2023, GG 49369, GoN 3912, 26 Sep 2023",
+            "name": "Magistrates Act: Determination of salaries and allowances of magistrates: 2022/2023, GG 49369, GoN 3912, 26 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230926-gg49328-rg11623bn138-Remuneration-Magistrates.pdf"
           },
           {
-            "title": "Judges\u2019 Remuneration and Conditions of Employment Act: Determination of Remuneration of Constitutional Court Judges and Judges: 2022/2023, GG 49369, GoN 3911, 26 Sep 2023",
+            "name": "Judges\u2019 Remuneration and Conditions of Employment Act: Determination of Remuneration of Constitutional Court Judges and Judges: 2022/2023, GG 49369, GoN 3911, 26 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230926-gg49369gon3911-Remuneration-Judges.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit and Special Tribunal: Tshwane Metropolitan Municipality (English / Afrikaans), GG 49328, RG11623, BN 138, 22 Sep 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit and Special Tribunal: Tshwane Metropolitan Municipality (English / Afrikaans), GG 49328, RG11623, BN 138, 22 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230922-gg49328-rg11623bn138-SpecialTribunal.pdf"
           },
           {
-            "title": "Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court, GG 49380, GoN 2046-2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the North Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the KwaZulu Natal High Court\u2013Pietermaritzburg, GG 49380, GoN 2050, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2049, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Cape High Court\u2013Kimberley, GG 49380, GoN 2048, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Eastern Cape High Court\u2013Makhanda, GG 49380, GoN 2047, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court: Free State Division\u2013Bloemfontein, GG 49380, GoN 2046, 22 Sep 2023",
+            "name": "Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court, GG 49380, GoN 2046-2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the North Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the KwaZulu Natal High Court\u2013Pietermaritzburg, GG 49380, GoN 2050, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2049, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Cape High Court\u2013Kimberley, GG 49380, GoN 2048, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Eastern Cape High Court\u2013Makhanda, GG 49380, GoN 2047, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court: Free State Division\u2013Bloemfontein, GG 49380, GoN 2046, 22 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230929-gg49380gon2046-2051-GF-UnclaimedMonies.pdf"
           },
           {
-            "title": "National Prosecuting Authority Act: Determination of powers, duties and functions of a Special Director of Public Prosecutions, GG 49309, GoN 3878, 15 Sep 2023",
+            "name": "National Prosecuting Authority Act: Determination of powers, duties and functions of a Special Director of Public Prosecutions, GG 49309, GoN 3878, 15 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230915-gg49309gon3878-NPA.pdf"
           },
           {
-            "title": "Justices of the Peace and Commissioners of Oaths Act: Designation of commissioners of oaths, GG 49307, GoN 3873, 14 Sep 2023",
+            "name": "Justices of the Peace and Commissioners of Oaths Act: Designation of commissioners of oaths, GG 49307, GoN 3873, 14 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230914-gg49307gon3873-CommissionersOfOaths.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Amajuba District Municipality, GG 49296, RG 11620, P 137, 11 Sep 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Amajuba District Municipality, GG 49296, RG 11620, P 137, 11 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230911-gg49296proc137-SpesTribunal.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing special investigating unit: Department of Health and its Provincial Hospital in Tembisa (English and Afrikaans), GG 49217, RG 11617, GoN 136, 1 Sep 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing special investigating unit: Department of Health and its Provincial Hospital in Tembisa (English and Afrikaans), GG 49217, RG 11617, GoN 136, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49217rg11617pro136-SpesTribunal.pdf"
           },
           {
-            "title": "Legal Practice Act: Rule 17.2.14.1: Amendment, GG 49220, GeN 2009, 1 Sep 2023",
+            "name": "Legal Practice Act: Rule 17.2.14.1: Amendment, GG 49220, GeN 2009, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2009-LPA-Amendment-S95-109.pdf"
           },
           {
-            "title": "Legal Practice Act: Rule 17.6.3: Amendment, GG 49220, GeN 2008,1 Sep 2023",
+            "name": "Legal Practice Act: Rule 17.6.3: Amendment, GG 49220, GeN 2008,1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2008-LPA-Amendment-S95-109.pdf"
           },
           {
-            "title": "Legal Practice Act: Rule 21 and 22: Amendment: Comments invited by 2 Oct 2023, GG 49220, GeN 2006, 1 Sep 2023",
+            "name": "Legal Practice Act: Rule 21 and 22: Amendment: Comments invited by 2 Oct 2023, GG 49220, GeN 2006, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2006-LPA-Amendment-S95-109.pdf"
           },
           {
-            "title": "Legal Practice Act: Rule 32.2.1: Amendment: Comments invited by 2 Oct 2023, GG 49220, GeN 2005, 1 Sep 2023",
+            "name": "Legal Practice Act: Rule 32.2.1: Amendment: Comments invited by 2 Oct 2023, GG 49220, GeN 2005, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2005-LPA-Amendment-S95-109.pdf"
           },
           {
-            "title": "Legal Practice Act: Insertion of Clause 2A \u2013 Code of Conduct: Comments invited by 2 Oct 2023, GG 49220, GeN 2003, 1 Sep 2023",
+            "name": "Legal Practice Act: Insertion of Clause 2A \u2013 Code of Conduct: Comments invited by 2 Oct 2023, GG 49220, GeN 2003, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2003_LPA-Amendment-S36.pdf"
           },
           {
-            "title": "Legal Practice Act: Insertion of Rule 21.12 (study leave for candidate legal practitioners for competency-based examinations): Comments invited by 2 Oct 2023, GG 49220, GeN 2002, 1 Sep 2023",
+            "name": "Legal Practice Act: Insertion of Rule 21.12 (study leave for candidate legal practitioners for competency-based examinations): Comments invited by 2 Oct 2023, GG 49220, GeN 2002, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2002-LPA-Amendment-S95.pdf"
           },
           {
-            "title": "Legal Practice Act: Schedule 5 of Rule 45.2: Amendment, GG 49220, GeN 2001, 1 Sep 2023",
+            "name": "Legal Practice Act: Schedule 5 of Rule 45.2: Amendment, GG 49220, GeN 2001, 1 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2001-LPA-Amendment-S95.pdf"
           },
           {
-            "title": "Regulation of Interception of Communications and Provision of Communication-Related Information Amendment Bill [B28-2023]: Explanatory summary, GG 49189, GeN 1990,\t25 Aug 2023",
+            "name": "Regulation of Interception of Communications and Provision of Communication-Related Information Amendment Bill [B28-2023]: Explanatory summary, GG 49189, GeN 1990,\t25 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/bills/2023-B28-RICA-Interception.pdf"
           },
           {
-            "title": "National Prosecuting Authority Amendment Bill: Explanatory summary, GG 49189, GeN 1989, 25 Aug 2023",
+            "name": "National Prosecuting Authority Amendment Bill: Explanatory summary, GG 49189, GeN 1989, 25 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230825-gg49189gen1989-NPA-AmendmentBill.pdf"
           },
           {
-            "title": "Legal Practice Act: Regulations: Amendment: Correction, GG 49193, RG11616, GoN 3882, 25 Aug 2023",
+            "name": "Legal Practice Act: Regulations: Amendment: Correction, GG 49193, RG11616, GoN 3882, 25 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230825-gg49193rg11616gon3882-LPA-Amendment-S94-1.pdf"
           },
           {
-            "title": "Magistrates\u2019 Courts Act: Annexure of certain districts to other districts for duration of BRICS summit, GG 49186, GoN 3809, 22 Aug 2023",
+            "name": "Magistrates\u2019 Courts Act: Annexure of certain districts to other districts for duration of BRICS summit, GG 49186, GoN 3809, 22 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230822-gg49186gon3809-MC-BRICS.pdf"
           },
           {
-            "title": "Legal Practice Act: Regulations: Amendment of regulation 2, GG 49104, RG 11614, GoN 3779, 11 Aug 2023",
+            "name": "Legal Practice Act: Regulations: Amendment of regulation 2, GG 49104, RG 11614, GoN 3779, 11 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49104rg11614gon3779-LPA-Regulations.pdf"
           },
           {
-            "title": "Legal Practice Act: Regulations: Amendment  of classification of Regulations, 4A, 4B, Annexure C and Annexure D, GG 49104, RG 11614, GoN 3778, 11 Aug 2023",
+            "name": "Legal Practice Act: Regulations: Amendment  of classification of Regulations, 4A, 4B, Annexure C and Annexure D, GG 49104, RG 11614, GoN 3778, 11 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49104rg11614gon3778-LPA-Regulations.pdf"
           },
           {
-            "title": "Constitution of the Republic of South Africa: Evaluation Panel to assess performance of Chairperson, other Councillors, and Council of Independent Communications Authority of South Africa: Nominations invited, GG 49108, GeN 1957, 11 Aug 2023",
+            "name": "Constitution of the Republic of South Africa: Evaluation Panel to assess performance of Chairperson, other Councillors, and Council of Independent Communications Authority of South Africa: Nominations invited, GG 49108, GeN 1957, 11 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49108gen1957-Constitution-S192.pdf"
           },
           {
-            "title": "Constitution of the Republic of South Africa: Special remission of sentence for certain categories of sentenced offenders, correctional supervision and parolees (English / Afrikaans), GG 49106, P 133, 11 Aug 2023",
+            "name": "Constitution of the Republic of South Africa: Special remission of sentence for certain categories of sentenced offenders, correctional supervision and parolees (English / Afrikaans), GG 49106, P 133, 11 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49106proc133-Constitution-S84-2j-Sentences.pdf"
           },
           {
-            "title": "Magistrates Act: Determination of additional remuneration payable to permanent magistrates acting in any other judicial office, GG 49082, GoN 3775, 4 Aug 2023",
+            "name": "Magistrates Act: Determination of additional remuneration payable to permanent magistrates acting in any other judicial office, GG 49082, GoN 3775, 4 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230804-gg49082gon3775.pdf"
           },
           {
-            "title": "National Prosecuting Authority Amendment Bill: Explanatory summary, GG 49079, GeN 1943, 4 Aug 2023",
+            "name": "National Prosecuting Authority Amendment Bill: Explanatory summary, GG 49079, GeN 1943, 4 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230804-gg49079gen1943-NPA-Bill.pdf"
           },
           {
-            "title": "Magistrate\u2019s Courts Act: Determination of benefits of Magistrates who have to dispose of cases after vacating office of Magistrate, GG 49082, GoN 3774, 4 Aug 2023",
+            "name": "Magistrate\u2019s Courts Act: Determination of benefits of Magistrates who have to dispose of cases after vacating office of Magistrate, GG 49082, GoN 3774, 4 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230804-gg49082gon3774.pdf"
           },
           {
-            "title": "Regulation of Interception of Communications and Provision of Communication-related Information Amendment Bill: Explanatory summary, GG 49079, GeN 1942, 4 Aug 2023",
+            "name": "Regulation of Interception of Communications and Provision of Communication-related Information Amendment Bill: Explanatory summary, GG 49079, GeN 1942, 4 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230804-gg49079gen1942-InterceptionBill.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing special investigating unit and special tribunal: KwaZulu-Natal Office of the Premier (English / Afrikaans) GG 49029, RG 11607, P 130, 28 Jul 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing special investigating unit and special tribunal: KwaZulu-Natal Office of the Premier (English / Afrikaans) GG 49029, RG 11607, P 130, 28 Jul 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230728-gg49029rg11607proc130-SpesTribunal.pdf"
           },
           {
-            "title": "Judges\u2019 Remuneration and Conditions of Employment Act: Amendment: Regulations pertaining to Judges\u2019 conditions of Employment: Judges\u2019 allowances, GG 49010, RG 11605, GoN 3691, 21 Jul 2023",
+            "name": "Judges\u2019 Remuneration and Conditions of Employment Act: Amendment: Regulations pertaining to Judges\u2019 conditions of Employment: Judges\u2019 allowances, GG 49010, RG 11605, GoN 3691, 21 Jul 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230721-gg49010rg11605gon3691-Judges-Remuneration.pdf"
           },
           {
-            "title": "Judges\u2019 Remuneration and Conditions of Employment Act: Amendment: Regulations pertaining to Judges\u2019 conditions of Employment: Judges\u2019 leave, GG 49010, RG 11605, GoN 3690, 21 Jul 2023",
+            "name": "Judges\u2019 Remuneration and Conditions of Employment Act: Amendment: Regulations pertaining to Judges\u2019 conditions of Employment: Judges\u2019 leave, GG 49010, RG 11605, GoN 3690, 21 Jul 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230721-gg49010rg11605gon3690-Judges-Remuneration.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Revised application \u2013 Chris Hani District Municipality (English / Afrikaans) GG 48862, RG 11599, GoN 3618, 30 Jun 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Revised application \u2013 Chris Hani District Municipality (English / Afrikaans) GG 48862, RG 11599, GoN 3618, 30 Jun 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230630-gg48862rg11599gon3618-SpecTribunal.pdf"
           },
           {
-            "title": "Child Justice Act: Accredited diversion service providers and diversion programmes, GG 48841, GoN 3602, 23 Jun 2023",
+            "name": "Child Justice Act: Accredited diversion service providers and diversion programmes, GG 48841, GoN 3602, 23 Jun 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230623-gg48841gon3602-CJA-Diversion.pdf"
           },
           {
-            "title": "Divorce Amendment Bill: Explanatory summary (English / Afrikaans) GG 48844, GeN 1875, 23 Jun 2023 (Bill added to the Gazette PDF).",
+            "name": "Divorce Amendment Bill: Explanatory summary (English / Afrikaans) GG 48844, GeN 1875, 23 Jun 2023 (Bill added to the Gazette PDF).",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230623-gg48844gen1875-DivorceAmendmentBill-ExSum.pdf"
           },
           {
-            "title": "Magistrate\u2019s Court Act: Creation of Magisterial Districts and establishing of Courts for Western Cape: Variation, GG 48837, GoN 3559, 21 Jun 2023",
+            "name": "Magistrate\u2019s Court Act: Creation of Magisterial Districts and establishing of Courts for Western Cape: Variation, GG 48837, GoN 3559, 21 Jun 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230621-gg48837gon3559-ROC-WC.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Office of the Premier, Free State Province (English / Afrikaans) GG 48754, RG 11591, P 123, 9 Jun 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: Office of the Premier, Free State Province (English / Afrikaans) GG 48754, RG 11591, P 123, 9 Jun 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230609-gg48754rg11591gon123-SpecialTribunal-PremierFS.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit and Special Tribunal: Umgeni Water Board (English / Afrikaans) GG 48693, RG 11589, P 122, 2 Jun 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit and Special Tribunal: Umgeni Water Board (English / Afrikaans) GG 48693, RG 11589, P 122, 2 Jun 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230602-gg48693proc122-SpesTribunal-UmgeniWaterBoard.pdf"
           },
           {
-            "title": "Superior Court Act: Rationalisation of areas under jurisdiction and judicial establishments of divisions of High Court of South Africa, GG 48663, GoN 3469, 26 May 2023",
+            "name": "Superior Court Act: Rationalisation of areas under jurisdiction and judicial establishments of divisions of High Court of South Africa, GG 48663, GoN 3469, 26 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230526-gg48663-gon3469-HC-Rationalisation.pdf"
           },
           {
-            "title": "Regulation of Interception of Communications and Provision of Communication-related Information Act: Certificate of exemption: South African Police Service, GG 48627, RG 11584, GoN 3424, 19 May 2023",
+            "name": "Regulation of Interception of Communications and Provision of Communication-related Information Act: Certificate of exemption: South African Police Service, GG 48627, RG 11584, GoN 3424, 19 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230519-gg48627rg11584gon3424-Interception-Exemption.pdf"
           },
           {
-            "title": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates\u2019 Courts of South Africa: Amendment of Rule 64, Annex 1, Annex2, Form No 24 - Subpoena  (English / Afrikaans), GG 48571, RG 11581, GoN 3399, 12 May 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates\u2019 Courts of South Africa: Amendment of Rule 64, Annex 1, Annex2, Form No 24 - Subpoena  (English / Afrikaans), GG 48571, RG 11581, GoN 3399, 12 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230512-gg48571rg11581gon3399-RB-MC.pdf"
           },
           {
-            "title": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Supreme Court of Appeal of South Africa: Amendment of Rule 18 (English / Afrikaans) GG 48571, RG 11581, GoN 3398, 12 May 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Supreme Court of Appeal of South Africa: Amendment of Rule 18 (English / Afrikaans) GG 48571, RG 11581, GoN 3398, 12 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230512-gg48571rg11581gon3398-RB-SCA.pdf"
           },
           {
-            "title": "Constitution Twentieth Amendment Private Members Bill: Explanatory summary: Comments by 11 Jun 2023 invited, GG 48589, GoN 3410, 12 May 2023",
+            "name": "Constitution Twentieth Amendment Private Members Bill: Explanatory summary: Comments by 11 Jun 2023 invited, GG 48589, GoN 3410, 12 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230512-gg48589gon3410-Const20thAmendment-PrivateMembers.pdf"
           },
           {
-            "title": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of provincial and local divisions of High Court of South Africa: Amendment of Rule 6, 8 16, 17, 18, 19, 21, 34, 36, 43, 46, 46A, 53, 58, 59, 67, 68, 69, 70, 71, First Schedule: Forms, Second Schedule: Forms (English / Afrikaans) GG 48571, RG 11581, GoN 3397, 12 May 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of provincial and local divisions of High Court of South Africa: Amendment of Rule 6, 8 16, 17, 18, 19, 21, 34, 36, 43, 46, 46A, 53, 58, 59, 67, 68, 69, 70, 71, First Schedule: Forms, Second Schedule: Forms (English / Afrikaans) GG 48571, RG 11581, GoN 3397, 12 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230512-gg48571rg11581gon3397-RB-HC.pdf"
           },
           {
-            "title": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates' Courts: Amendment of Chapter 2: Rules 70-79, GG 48518, RG 11579, GoN 3371, 5 May 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates' Courts: Amendment of Chapter 2: Rules 70-79, GG 48518, RG 11579, GoN 3371, 5 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230505-gg48518rg11579gon3371-RB-MC.pdf"
           },
           {
-            "title": "Constitution of the Republic of South Africa, 1996: Transfer of administration and powers and functions entrusted by Legislation to certain Cabinet members, GG 48524, P 119, 5 May 2023",
+            "name": "Constitution of the Republic of South Africa, 1996: Transfer of administration and powers and functions entrusted by Legislation to certain Cabinet members, GG 48524, P 119, 5 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230505-gg48524proc119-Const.pdf"
           },
           {
-            "title": "Domestic Violence Regulations 2022, GG 48428, RG 11572, GoN 3289, 14 Apr 2023\n      Download a list of email addresses for Domestic Violence Courts.",
+            "name": "Domestic Violence Regulations 2022, GG 48428, RG 11572, GoN 3289, 14 Apr 2023\n      Download a list of email addresses for Domestic Violence Courts.",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48428rg11572gon3289-DVAA-Regulations.pdf"
           },
           {
-            "title": "Domestic Violence Act: Determination of value of weapon, GG 48419, RG 11571, GoN 3283, 14 Apr 2023",
+            "name": "Domestic Violence Act: Determination of value of weapon, GG 48419, RG 11571, GoN 3283, 14 Apr 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48419rg11571gon3283-DVAA-ValueOfWeapon.pdf"
           },
           {
-            "title": "Domestic Violence Act: Directives, GG 48419, RG 11571, GoN 3282, 14 Apr 2023",
+            "name": "Domestic Violence Act: Directives, GG 48419, RG 11571, GoN 3282, 14 Apr 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48419rg11571gon3282-DVAA-Directives-S18A.pdf"
           },
           {
-            "title": "Domestic Violence Act: Tariff for Electronic Communication Service Providers, GG 48419, RG 11571, GoN 3281, 14 Apr 2023",
+            "name": "Domestic Violence Act: Tariff for Electronic Communication Service Providers, GG 48419, RG 11571, GoN 3281, 14 Apr 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48419rg11571gon3281-DVAA-Tarrifs-ECSP.pdf"
           },
           {
-            "title": "Domestic Violence Amendment Act: Commencement, GG 48419, RG 11571, P 117, 14 Apr 2023",
+            "name": "Domestic Violence Amendment Act: Commencement, GG 48419, RG 11571, P 117, 14 Apr 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48419rg11571proc117-DVAA-Commencement.pdf"
           },
           {
-            "title": "Trust Property Control Act, 1988: Commencement of certain provisions of General Laws (Anti-Money Laundering and Combating Terrorism Financing) Amendment Act, 2022, GG 48351, GoNR 3241, 31 Mar 2023",
+            "name": "Trust Property Control Act, 1988: Commencement of certain provisions of General Laws (Anti-Money Laundering and Combating Terrorism Financing) Amendment Act, 2022, GG 48351, GoNR 3241, 31 Mar 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230331-gg48351rg3241-TrustAct-Regulations-CommencementProvisions.pdf"
           },
           {
-            "title": "Trust Property Control Act (57/1988): Amendment of Regulations, GG 48351, GoR 3240, 31 Mar 2023",
+            "name": "Trust Property Control Act (57/1988): Amendment of Regulations, GG 48351, GoR 3240, 31 Mar 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230331-gg48351rg3240-TrustAct-Regulations-Amendment.pdf"
           },
           {
-            "title": "Judicial Matters Amendment Bill: Explanatory summary, GG 48217, GeN 1678, 16 Mar 2023 (Bill included in the PDF)",
+            "name": "Judicial Matters Amendment Bill: Explanatory summary, GG 48217, GeN 1678, 16 Mar 2023 (Bill included in the PDF)",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230316-gg48217gen1678-JMA-Bill.pdf"
           },
           {
-            "title": "Criminal Law (Sexual Offences and Related Matters) Act: National Instruction on Sexual Offences: Amendment, GG 48183, GoN 3124, 8 Mar 2023",
+            "name": "Criminal Law (Sexual Offences and Related Matters) Act: National Instruction on Sexual Offences: Amendment, GG 48183, GoN 3124, 8 Mar 2023",
             "url": "https://www.saps.gov.za/resource_centre/sexual_offences/sexual_offences.php"
           },
           {
-            "title": "Criminal Law (Forensic Procedures) Amendment Act: Commencement (English/Afrikaans) GG 48107, P 116, 24 Feb 2023",
+            "name": "Criminal Law (Forensic Procedures) Amendment Act: Commencement (English/Afrikaans) GG 48107, P 116, 24 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230224-gg48107pro116-ForensicProceduresAct-Commencement.pdf"
           },
           {
-            "title": "Commissions Act: Proposed rationalisation of areas under the jurisdiction of the Divisions of the High Court of South Africa: Extension of deadline for comments by 28 Feb 2023, GG 48069, GoN 3063, 17 Feb 2023",
+            "name": "Commissions Act: Proposed rationalisation of areas under the jurisdiction of the Divisions of the High Court of South Africa: Extension of deadline for comments by 28 Feb 2023, GG 48069, GoN 3063, 17 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230217-gg48069gon3063-Rationalisation-HC.pdf"
           },
           {
-            "title": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: National Department of Agriculture, Forestry and Fisheries: Amendment of Proclamation No R36 of 2019 (English / Afrikaans) GG 48067, RG 11543, Proclamation 114, 17 Feb 2023",
+            "name": "Special Investigating Units and Special Tribunals Act: Referral of matters to existing Special Investigating Unit: National Department of Agriculture, Forestry and Fisheries: Amendment of Proclamation No R36 of 2019 (English / Afrikaans) GG 48067, RG 11543, Proclamation 114, 17 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230217-gg48067rg11543gon114-SpesTribunal-AFF.pdf"
           },
           {
-            "title": "Promotion of National Unity and Reconciliation (34/1995): Regulations relating to assistance to victims in respect of Higher Education and Training (English/Afrikaans), GG 48069, GoN 3060, 17 Feb 2023",
+            "name": "Promotion of National Unity and Reconciliation (34/1995): Regulations relating to assistance to victims in respect of Higher Education and Training (English/Afrikaans), GG 48069, GoN 3060, 17 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230217-gg48067gon3060-HET%20Regs.pdf"
           },
           {
-            "title": "Rules Board for Courts of Law Act: Rules: Regulating the Conduct of the Proceedings of the Supreme Court of Appeal of South Africa: Amendment (English/Afrikaans) GG 48067, RG 11543, GoN 3059, 17 Feb 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Regulating the Conduct of the Proceedings of the Supreme Court of Appeal of South Africa: Amendment (English/Afrikaans) GG 48067, RG 11543, GoN 3059, 17 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230217-gg48067rg11543gon3059-RulesBoard-SCA.pdf"
           },
           {
-            "title": "Small Claims Courts Act: Repeal of the Rules Regulating Matters in Respect of the Small Claims Court, published under Government Notice No. R1893 of 30 August 1985, GG 48067, RG 11543, GoN 3058, 17 Feb 2023",
+            "name": "Small Claims Courts Act: Repeal of the Rules Regulating Matters in Respect of the Small Claims Court, published under Government Notice No. R1893 of 30 August 1985, GG 48067, RG 11543, GoN 3058, 17 Feb 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230217-gg48067rg11543gon3058-SCC.pdf"
           },
           {
-            "title": "Commissions Act: Commission of inquiry into allegations of State Capture, Corruption and Fraud in the Public Sector including Organs of State: Terms of Reference: Amendments, GG 47889, P 112, 20 Jan 2023",
+            "name": "Commissions Act: Commission of inquiry into allegations of State Capture, Corruption and Fraud in the Public Sector including Organs of State: Terms of Reference: Amendments, GG 47889, P 112, 20 Jan 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230120-gg47889proc112-StateCapture-TOR.pdf"
           }
         ]
@@ -13329,19 +13329,19 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "The Regulation of Investors Protection Fund in Securities No. (47) for the Year 2018 Amended Pursuant to Regulation No. (24) for the Year 2019",
+            "name": "The Regulation of Investors Protection Fund in Securities No. (47) for the Year 2018 Amended Pursuant to Regulation No. (24) for the Year 2019",
             "url": "https://www.jsc.gov.jo/Uploads/Files/The%20RIPF%20in%20Securities%20No%2047for%20the%20Year2018-Published%20on%20Page1941of%20the%20OG%20No%205509Dated%20April%201%202018and%20Amended%20Pursuant%20to%20Regulation%20No%2024for%20the%20Y.pdf"
           },
           {
-            "title": "Regulation No.  115   The Regulation of Mutual Funds 2018",
+            "name": "Regulation No.  115   The Regulation of Mutual Funds 2018",
             "url": "https://www.jsc.gov.jo/Uploads/Files/Regulation%20No%20%20115%20%20for%20the%20Year%202018%20The%20Regulation%20of%20Mutual%20Funds.pdf"
           },
           {
-            "title": "Social Pupose Company Regulation",
+            "name": "Social Pupose Company Regulation",
             "url": "https://www.jsc.gov.jo/Uploads/Files/Social%20Pupose%20Company%20Regulation.pdf"
           },
           {
-            "title": "Islamic Finance sukuk conrract regulation",
+            "name": "Islamic Finance sukuk conrract regulation",
             "url": "https://www.jsc.gov.jo/Uploads/Files/Islamic%20Finance%20sukuk%20conrract%20regulation.pdf"
           }
         ]
@@ -13361,159 +13361,159 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "FIA Act,1974",
+            "name": "FIA Act,1974",
             "url": "https://www.fia.gov.pk/act"
           },
           {
-            "title": "The Emigration Ordinance 1979",
+            "name": "The Emigration Ordinance 1979",
             "url": "https://www.fia.gov.pk/files/laws/1555447148.pdf"
           },
           {
-            "title": "Pakistan Penal Code",
+            "name": "Pakistan Penal Code",
             "url": "https://www.fia.gov.pk/files/laws/1487453034.pdf"
           },
           {
-            "title": "Anti-Money Laundering Act,2010",
+            "name": "Anti-Money Laundering Act,2010",
             "url": "https://www.fia.gov.pk/files/laws/1649342660.pdf"
           },
           {
-            "title": "The Anti-Terrorism Act,1997",
+            "name": "The Anti-Terrorism Act,1997",
             "url": "https://www.fia.gov.pk/files/laws/2060818757.pdf"
           },
           {
-            "title": "Investigation for Fair Trial Act,2013",
+            "name": "Investigation for Fair Trial Act,2013",
             "url": "https://www.fia.gov.pk/files/laws/446317921.pdf"
           },
           {
-            "title": "Code of Criminal Procedure, 1898",
+            "name": "Code of Criminal Procedure, 1898",
             "url": "https://www.fia.gov.pk/files/laws/1156994306.pdf"
           },
           {
-            "title": "Prevention of electronic crimes Act, 2016",
+            "name": "Prevention of electronic crimes Act, 2016",
             "url": "https://www.fia.gov.pk/files/laws/352839075.pdf"
           },
           {
-            "title": "Prevention of Electronic Crime Investigation Rules 2018",
+            "name": "Prevention of Electronic Crime Investigation Rules 2018",
             "url": "https://www.fia.gov.pk/files/laws/peco18.pdf"
           },
           {
-            "title": "Financial Institutions (Recovery of Finances) Ordinance, 2001",
+            "name": "Financial Institutions (Recovery of Finances) Ordinance, 2001",
             "url": "https://www.fia.gov.pk/files/laws/467787388.pdf"
           },
           {
-            "title": "Prevention of Trafficking in Persons Act 2018 (Urdu)",
+            "name": "Prevention of Trafficking in Persons Act 2018 (Urdu)",
             "url": "https://www.fia.gov.pk/files/laws/900635260.pdf"
           },
           {
-            "title": "Prevention of Trafficking in Persons Act 2018 (English)",
+            "name": "Prevention of Trafficking in Persons Act 2018 (English)",
             "url": "https://www.fia.gov.pk/files/laws/509971821.pdf"
           },
           {
-            "title": "Prevention of Smuggling of Migrants Act,2018(Urdu)",
+            "name": "Prevention of Smuggling of Migrants Act,2018(Urdu)",
             "url": "https://www.fia.gov.pk/files/laws/1911669447.pdf"
           },
           {
-            "title": "Prevention of Smuggling of Migrants Act,2018(English)",
+            "name": "Prevention of Smuggling of Migrants Act,2018(English)",
             "url": "https://www.fia.gov.pk/files/laws/1199313856.pdf"
           },
           {
-            "title": "Financial Institutions (Recovery of Finances) Rules, 2018",
+            "name": "Financial Institutions (Recovery of Finances) Rules, 2018",
             "url": "https://www.fia.gov.pk/files/laws/746172840.pdf"
           },
           {
-            "title": "Enforcement of Immigration Laws ,SOP # 27, Year 2005",
+            "name": "Enforcement of Immigration Laws ,SOP # 27, Year 2005",
             "url": "https://www.fia.gov.pk/files/sop/940789307.pdf"
           },
           {
-            "title": "Interrogation of OFDs/DFDs ,SOP # 1, Year 2005",
+            "name": "Interrogation of OFDs/DFDs ,SOP # 1, Year 2005",
             "url": "https://www.fia.gov.pk/files/sop/389034742.pdf"
           },
           {
-            "title": "Handling of Deportees ,SOP # 29, Year 2005",
+            "name": "Handling of Deportees ,SOP # 29, Year 2005",
             "url": "https://www.fia.gov.pk/files/sop/473274618.pdf"
           },
           {
-            "title": "Inadmissible Passenger",
+            "name": "Inadmissible Passenger",
             "url": "https://www.fia.gov.pk/files/sop/768169936.pdf"
           },
           {
-            "title": "Issuance of Visa on Arrival",
+            "name": "Issuance of Visa on Arrival",
             "url": "https://www.fia.gov.pk/files/sop/35164034.pdf"
           },
           {
-            "title": "Registration of foreigners and issuances of \u201cC\u201d Form, Year 2005",
+            "name": "Registration of foreigners and issuances of \u201cC\u201d Form, Year 2005",
             "url": "https://www.fia.gov.pk/files/sop/198629737.pdf"
           },
           {
-            "title": "Anti Corruption Wing\u0627",
+            "name": "Anti Corruption Wing\u0627",
             "url": "https://www.fia.gov.pk/files/sop/1603973295.pdf"
           },
           {
-            "title": "National Central Bureau (Interpol), SOP #14, Year 1983",
+            "name": "National Central Bureau (Interpol), SOP #14, Year 1983",
             "url": "https://www.fia.gov.pk/files/sop/1328191565.pdf"
           },
           {
-            "title": "Technical , SOP # 13",
+            "name": "Technical , SOP # 13",
             "url": "https://www.fia.gov.pk/files/sop/826250241.pdf"
           },
           {
-            "title": "Central Crime Record Office (CCRO)",
+            "name": "Central Crime Record Office (CCRO)",
             "url": "https://www.fia.gov.pk/files/sop/1472672183.pdf"
           },
           {
-            "title": "Checking / scanning procedure for diplomatic clearance at Wagha Border",
+            "name": "Checking / scanning procedure for diplomatic clearance at Wagha Border",
             "url": "https://www.fia.gov.pk/files/sop/1954109210.pdf"
           },
           {
-            "title": "S.O. No. 05/2020 (Directions and Guidlines regarding Enquiry / Investigation)",
+            "name": "S.O. No. 05/2020 (Directions and Guidlines regarding Enquiry / Investigation)",
             "url": "https://www.fia.gov.pk/files/sop/1962308088.pdf"
           },
           {
-            "title": "Cyber Crimes SOP",
+            "name": "Cyber Crimes SOP",
             "url": "https://www.fia.gov.pk/files/sop/1346341231.pdf"
           },
           {
-            "title": "SRO 7(1)2014 regarding merger of NARA with NADRA",
+            "name": "SRO 7(1)2014 regarding merger of NARA with NADRA",
             "url": "https://www.fia.gov.pk/files/sro/149239911.pdf"
           },
           {
-            "title": "Prevention of Trafficking in Persons Rules 2020(English)",
+            "name": "Prevention of Trafficking in Persons Rules 2020(English)",
             "url": "https://www.fia.gov.pk/files/rules/1659902422.pdf"
           },
           {
-            "title": "Prevention of Smuggling of Migrants Rules 2020(English)",
+            "name": "Prevention of Smuggling of Migrants Rules 2020(English)",
             "url": "https://www.fia.gov.pk/files/rules/370301991.pdf"
           },
           {
-            "title": "FIA Appointment, Promotion and Transfer Rules 1975",
+            "name": "FIA Appointment, Promotion and Transfer Rules 1975",
             "url": "https://www.fia.gov.pk/files/rules/754964756.pdf"
           },
           {
-            "title": "Prevention of Trafficking in Persons Rules 2020 (Urdu)",
+            "name": "Prevention of Trafficking in Persons Rules 2020 (Urdu)",
             "url": "https://www.fia.gov.pk/files/rules/453255355.pdf"
           },
           {
-            "title": "FIA Appointment, Promotion and Transfer Rules 2020 (BS-15 and below)",
+            "name": "FIA Appointment, Promotion and Transfer Rules 2020 (BS-15 and below)",
             "url": "https://www.fia.gov.pk/files/rules/1463206769.pdf"
           },
           {
-            "title": "Notification to Repeal Clauses of FIA APT Rules 1975",
+            "name": "Notification to Repeal Clauses of FIA APT Rules 1975",
             "url": "https://www.fia.gov.pk/files/rules/613733736.pdf"
           },
           {
-            "title": "FIA Appointment, Promotion and Transfer Rules 2014",
+            "name": "FIA Appointment, Promotion and Transfer Rules 2014",
             "url": "https://www.fia.gov.pk/files/rules/1151222297.pdf"
           },
           {
-            "title": "FIA Rotation Policy 2021",
+            "name": "FIA Rotation Policy 2021",
             "url": "https://www.fia.gov.pk/files/rules/467160562.pdf"
           },
           {
-            "title": "Prevention of Smuggling of Migrants Rules 2020 (Urdu)",
+            "name": "Prevention of Smuggling of Migrants Rules 2020 (Urdu)",
             "url": "https://www.fia.gov.pk/files/rules/1419066049.pdf"
           },
           {
-            "title": "FIA Inquiry & Investigation Rules 2002",
+            "name": "FIA Inquiry & Investigation Rules 2002",
             "url": "https://www.fia.gov.pk/files/rules/172467254.pdf"
           }
         ]
@@ -13533,31 +13533,31 @@
         "type": "json_match",
         "expected": [
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0645\u0639\u062f\u0644 \u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0645\u0639\u062f\u0644 \u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D9%85%D8%B9%D8%AF%D9%84_%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0631\u0642\u0645 22 \u0644\u0633\u0646\u0629 1997 \u0648\u062a\u0639\u062f\u064a\u0644\u0627\u062a\u0647",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0634\u0631\u0643\u0627\u062a \u0631\u0642\u0645 22 \u0644\u0633\u0646\u0629 1997 \u0648\u062a\u0639\u062f\u064a\u0644\u0627\u062a\u0647",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA_%D8%B1%D9%82%D9%85_22_%D9%84%D8%B3%D9%86%D8%A9_1997_%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0627\u0639\u0633\u0627\u0631 \u0631\u0642\u0645 21 \u0644\u0633\u0646\u0629 2018",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0627\u0639\u0633\u0627\u0631 \u0631\u0642\u0645 21 \u0644\u0633\u0646\u0629 2018",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%B9%D8%B3%D8%A7%D8%B1_%D8%B1%D9%82%D9%85_21_%D9%84%D8%B3%D9%86%D8%A9_2018.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0631\u0642\u0645 30 \u0644\u0633\u0646\u0629 2014",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0631\u0642\u0645 30 \u0644\u0633\u0646\u0629 2014",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1_%D8%B1%D9%82%D9%85_30_%D9%84%D8%B3%D9%86%D8%A9_2014.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0631\u0642\u0645 35 \u0644\u0633\u0646\u0629 2015",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0631\u0642\u0645 35 \u0644\u0633\u0646\u0629 2015",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%AD%D9%85%D8%A7%D9%8A%D8%A9_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%B1%D9%82%D9%85_35_%D9%84%D8%B3%D9%86%D8%A9_2015.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0635\u0643\u0648\u0643 \u0627\u0644\u062a\u0645\u0648\u064a\u0644 \u0627\u0644\u0633\u0644\u0627\u0645\u064a \u0631\u0642\u0645 30 \u0644\u0633\u0646\u0629 2012",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0635\u0643\u0648\u0643 \u0627\u0644\u062a\u0645\u0648\u064a\u0644 \u0627\u0644\u0633\u0644\u0627\u0645\u064a \u0631\u0642\u0645 30 \u0644\u0633\u0646\u0629 2012",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%B5%D9%83%D9%88%D9%83_%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D8%B1%D9%82%D9%85_30_%D9%84%D8%B3%D9%86%D8%A9_2012.pdf"
           },
           {
-            "title": "\u0642\u0627\u0646\u0648\u0646 \u0636\u0645\u0627\u0646 \u0627\u0644\u062d\u0642\u0648\u0642 \u0628\u0627\u0644\u0627\u0645\u0648\u0627\u0644 \u0627\u0644\u0645\u0646\u0642\u0648\u0644\u0629 \u0631\u0642\u0645 20 \u0644\u0633\u0646\u0629 2018",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0636\u0645\u0627\u0646 \u0627\u0644\u062d\u0642\u0648\u0642 \u0628\u0627\u0644\u0627\u0645\u0648\u0627\u0644 \u0627\u0644\u0645\u0646\u0642\u0648\u0644\u0629 \u0631\u0642\u0645 20 \u0644\u0633\u0646\u0629 2018",
             "url": "https://www.ccd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%B6%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%AD%D9%82%D9%88%D9%82_%D8%A8%D8%A7%D9%84%D8%A7%D9%85%D9%88%D8%A7%D9%84_%D8%A7%D9%84%D9%85%D9%86%D9%82%D9%88%D9%84%D8%A9_%D8%B1%D9%82%D9%85_20_%D9%84%D8%B3%D9%86%D8%A9_2018.pdf"
           }
         ]
