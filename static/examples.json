@@ -3309,7 +3309,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3361,7 +3361,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3389,7 +3389,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3425,7 +3425,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3477,7 +3477,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3549,7 +3549,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3585,7 +3585,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3693,7 +3693,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3893,7 +3893,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -3989,7 +3989,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -4069,7 +4069,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5019,7 +5019,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5147,7 +5147,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5827,7 +5827,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5907,7 +5907,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -5951,7 +5951,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6087,7 +6087,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6207,7 +6207,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6327,7 +6327,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6411,7 +6411,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6459,7 +6459,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6591,7 +6591,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6631,7 +6631,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6791,7 +6791,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6855,7 +6855,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6887,7 +6887,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6923,7 +6923,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -6955,7 +6955,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8483,7 +8483,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8539,7 +8539,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8559,7 +8559,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8867,7 +8867,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8907,7 +8907,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8963,7 +8963,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -8991,7 +8991,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9035,7 +9035,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9191,7 +9191,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9323,7 +9323,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9447,7 +9447,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -9483,7 +9483,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10299,7 +10299,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10967,7 +10967,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -10999,7 +10999,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11027,7 +11027,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11087,7 +11087,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11223,7 +11223,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11943,7 +11943,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11967,7 +11967,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -11999,7 +11999,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -12223,7 +12223,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -12267,7 +12267,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -12555,7 +12555,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -13059,7 +13059,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -13323,7 +13323,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -13355,7 +13355,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
@@ -13527,7 +13527,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
     "evals": [
       {
         "type": "json_match",
