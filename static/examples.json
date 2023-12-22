@@ -15380,5 +15380,2674 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "084a1c83-f0db-4370-8be7-53f6c4d6c337",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/084a1c83-f0db-4370-8be7-53f6c4d6c337/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "James Abbott",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Regulatory enforcement & white",
+            "Litigation, dispute resolution & risk management"
+          ],
+          "practice_areas_all": [
+            "Regulatory enforcement & white",
+            "Litigation, dispute resolution & risk management",
+            "Construction"
+          ],
+          "specialties": [
+            "Banks",
+            "Insurance"
+          ],
+          "email": "Email me",
+          "location": "Clifford Chance, Dubai",
+          "phone": "+971 4503 2608",
+          "bio": "James Abbott is head of the disputes practice in the Middle East. James specialises in commercial litigation, arbitration and ADR. James has significant experience of cross border banking and financial litigation, including fraud and asset tracing, regulatory investigations, sanctions issues, joint venture and shareholder disputes. He has advised on a number of major infrastructure and construction projects and represents insurers and reinsurers. James has experience of arbitration under the ICC, LCIA, UNCITRAL, ICSID and DIAC Rules.",
+          "experience": [
+            {
+              "title": "Solicitor",
+              "company": "Clifford Chance",
+              "start": "2002",
+              "end": "Present"
+            }
+          ],
+          "matters": "Clifford Chance advises on the US $2.7bn cash offer to take DP World PLC private and associated US $8bn refinancing for Dubai World",
+          "bar_admissions": [
+            {
+              "jurisdiction": "England & Wales",
+              "year": "1996"
+            }
+          ],
+          "law_school": [],
+          "other_schools": [
+            {
+              "name": "Durham University",
+              "degree": "BA Modern Languages",
+              "year": "1987"
+            }
+          ],
+          "awards": [
+            {
+              "award": "James Abbott is acclaimed for his strong regional experience, is widely noted as a 'safe, solid pair of hands.' He is for his banking disputes expertise, acting on high-value cases the DIFC Courts and international arbitration tribunals. One source rated him as 'a quality disputes lawyer.'",
+              "year": "2019",
+              "institution": "Chambers Global"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "90cd3c39-3ae7-468f-b8ba-13061aa35c72",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/90cd3c39-3ae7-468f-b8ba-13061aa35c72/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Billy Abbott",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Asset Management",
+            "Mergers & Acquisitions",
+            "Private Equity",
+            "Tax",
+            "Digital Assets & Web3"
+          ],
+          "practice_areas_all": [
+            "Asset Management",
+            "Mergers & Acquisitions",
+            "Private Equity",
+            "Tax",
+            "Digital Assets & Web3"
+          ],
+          "email": "babbott@omm.com",
+          "location": "Silicon Valley Office",
+          "phone": "1-650-473-2614",
+          "bio": "Billy Abbott advises clients on tax matters arising from private and public mergers and acquisitions, asset management funds, digital assets, complex cross-border structuring and more. He represents a wide range of enterprises, including start-ups, large multinational corporations, financial institutions, private equity, real estate, and other investment funds, sovereign wealth and foreign pension funds, financial technology creators and investors, among others. A talented and versatile corporate tax lawyer, Billy is a trusted advisor to his clients who appreciate his collaborative approach, his broad and deep technical expertise and his ability to distill complex tax matters into clear and helpful guidance. Billy is also committed to pro bono efforts, primarily assisting non-profit organizations apply for tax exempt status and manage their corporate concerns in a range of fields, from education to criminal justice to supporting the LGBTQ+ community."
+        }
+      }
+    ]
+  },
+  {
+    "id": "45aad86a-9cbe-4acd-a03c-b8ef71ddd8b3",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/45aad86a-9cbe-4acd-a03c-b8ef71ddd8b3/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "LINA K. ALAMEDDINE",
+          "title": "Staff Attorney",
+          "practice_areas_main": [
+            "complex civil litigation",
+            "e-discovery",
+            "corporate compliance",
+            "white-collar  criminal defense",
+            "contract disputes"
+          ],
+          "practice_areas_all": [
+            "complex civil litigation",
+            "e-discovery",
+            "corporate compliance",
+            "white-collar  criminal defense",
+            "contract disputes"
+          ],
+          "location": "Washington, DC",
+          "phone": "+1 202-756-8087",
+          "bio": "Lina K. Alameddine focuses her practice on complex civil litigation, e-discovery and corporate compliance, including issues relative to white-collar criminal defense and contract disputes. She has particular knowledge of government and internal corporate investigations.",
+          "bar_admissions": [
+            {
+              "name": "District of Columbia",
+              "year": null
+            },
+            {
+              "name": "Maryland",
+              "year": null
+            }
+          ],
+          "law_school": [
+            {
+              "school_name": "Vermont Law School",
+              "degree": "JD",
+              "year": "2003"
+            }
+          ],
+          "other_schools": [
+            {
+              "school_name": "Scripps College",
+              "degree": "BA",
+              "year": "1997"
+            }
+          ],
+          "email": null,
+          "pdf_url": null,
+          "photo_url": null,
+          "news": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "dfd0efa3-a113-451e-92ff-f379b1841f92",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/dfd0efa3-a113-451e-92ff-f379b1841f92/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "ANDREW J. AHN",
+          "title": "ASSOCIATE",
+          "practice_areas_main": [
+            "Trade Secrets"
+          ],
+          "practice_areas_all": [
+            "Trade Secrets",
+            "Restrictive Covenant",
+            "Unfair competition"
+          ],
+          "specialties": [
+            "Financial Services",
+            "Banking",
+            "Insurance",
+            "Investment Funds"
+          ],
+          "location": "Century City, 2049 Century Park East, Suite 700, Los Angeles, CA 90067-3109, United States",
+          "phone": "+1.310.907.1061",
+          "bio": "Andrew J. Ahn's practice focuses on trade secrets, restrictive covenant, and unfair competition disputes arising when individuals change employment, including prosecuting and defending claims for misappropriation of trade secrets, breach of contract, intentional interference, unfair competition, and breach of fiduciary duties."
+        }
+      }
+    ]
+  },
+  {
+    "id": "64f7ce1f-e324-4696-84f9-89c4356a8a0f",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/64f7ce1f-e324-4696-84f9-89c4356a8a0f/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Joelle A. Berle",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Litigation",
+            "Environmental",
+            "Commercial Litigation"
+          ],
+          "location": "Los Angeles",
+          "phone": "+1.310.979.8452",
+          "bio": "Joelle Berle focuses her practice on complex business and commercial litigation representing corporations, businesses and individuals. She advises clients to identify and minimize their risks and exposure, manage issues and disputes and advocates for them when litigation arises. Joelle uses her passion for advocacy and extensive experience to understand client's business needs, to collaborate with them on business and litigation strategy and tailor her approach to each matter. Joelle is the chair of the Los Angeles office's pro bono committee, serving economically disadvantaged persons and communities within the Los Angeles region. She serves on the BakerHostetler Wellness initiative which is part of the firm's ABA Well - Being Pledge. In that role, she serves as a wellness champion to raise awareness and develop programs to improve the physical, mental and emotional well - being of our attomeys and staff. Joelle previously served on the firm wide Women's Steering Committee and the Los Angeles office's Women's Committee supporting the advancement of female attorneys in the office and the firm."
+        }
+      }
+    ]
+  },
+  {
+    "id": "7c761ed7-9fba-4389-853f-6b11e90010df",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/7c761ed7-9fba-4389-853f-6b11e90010df/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Martina Acquaro",
+          "title": "Associate",
+          "practice_areas_main": [
+            "Cyber , Privacy & Data Innovation"
+          ],
+          "practice_areas_all": [
+            "Cyber , Privacy & Data Innovation"
+          ],
+          "email": "macquaro@orrick.com",
+          "location": "Milan, 20121, Italy",
+          "phone": "+39 02 4541 3800",
+          "bio": "Martina advises national and international companies in the field of data protection as a Data Protection Officer (DPO). She has participated as a speaker in several conferences on cyber security, digital innovation and security strategy. Among her professional experiences, she has worked as a trainer in several data protection courses and as a privacy consultant for various business associations. Martina graduated with honours at the Luiss Guido Carli University in Rome in 2015 and was admitted to the Milan Bar in 2021.",
+          "bar_admissions": [
+            {
+              "admitted_in": "Italy",
+              "admission_year": 2021
+            }
+          ],
+          "law_school": [
+            {
+              "school_name": "Luiss Guido Carli University",
+              "grad_year": 2015
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "2ec006ca-52b8-4d93-a16c-5dc7f248c638",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/2ec006ca-52b8-4d93-a16c-5dc7f248c638/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Monica Arora",
+          "title": "Partner",
+          "location": "New York",
+          "phone": "+1.212.969.3003",
+          "bio": "Monica Arora is a partner and co - head of the Private Funds Group at Proskauer. Monica advises asset managers across the full spectrum of investment fund matters. Her particular expertise concentrates within the areas of buyout, private credit, distressed debt, growth equity, infrastructure and real estate funds, including the establishment of bespoke fund structures, joint ventures and other strategic arrangements. Monica is a thought leader in the industry. She is consistently ranked as a leading investment funds lawyer, including by Chambers USA and The Legal 500 and is frequently invited to speak on panels at various industry related events. She is also a prominent and engaged member of the private funds community, including as a committee member and contributor on the New York City Bar Association's Private Investment Funds Committee and a member of the Editorial Board of Law 360 Private Equity. Monica's leadership in the Firm extends well beyond her role in the department as she is a key member of numerous diversity and inclusion initiatives. She is also actively engaged in a number of charitable boards outside of the Firm. Prior to joining Proskauer, Monica was the global head of the investment funds group at White & Case."
+        }
+      }
+    ]
+  },
+  {
+    "id": "f83e9a9b-8b9b-4b57-8693-838a5d9dd9f2",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/f83e9a9b-8b9b-4b57-8693-838a5d9dd9f2/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Sumridhi Kaur",
+          "title": "Associate",
+          "practice_areas_main": [
+            "White Collar",
+            "Compliance and Investigations"
+          ],
+          "practice_areas_all": [
+            "White Collar (Compliance and Investigations)",
+            "Anti-Corruption (Compliance and Investigations)",
+            "Creditors and Committees",
+            "Bankruptcy and Creditors' Rights Litigation",
+            "Acquisition of Troubled Companies",
+            "Labor and Employment"
+          ],
+          "location": "London",
+          "phone": "+44 20 7184 6424",
+          "bio": "Sumridhi Kaur focuses her practice on white collar criminal defense and internal investigations. Ms. Kaur joined the firm in November 2020 and before moving to Dechert's London office in August 2021, she practiced in New York as part of the firm's financial restructuring group.",
+          "bar_admissions": [
+            {
+              "state": "New York"
+            }
+          ],
+          "law_school": [
+            {
+              "name": "Cornell University",
+              "degree": "J.D., International Legal Affairs, 2020, Notes Editor, Cornell International Law Journal",
+              "honors": "Vice Chancellor of Externals, Moot Court Board; Vice President, South Asian Law Students' Association"
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "University of Delhi",
+              "degree": "B.A., English, 2017",
+              "honors": "First Division"
+            }
+          ],
+          "pdf_url": "[PDF link to be provided]"
+        }
+      }
+    ]
+  },
+  {
+    "id": "795ab2bc-0630-4854-aca5-8fbcbdfc55b0",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/795ab2bc-0630-4854-aca5-8fbcbdfc55b0/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Daniel S. Alterbaum",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Mergers and Acquisitions",
+            "Emerging Companies",
+            "Energy",
+            "Investment Funds",
+            "Power and Renewables",
+            "Private Equity",
+            "Projects and Infrastructure",
+            "Securities Regulation and Corporate Governance"
+          ],
+          "email": "dalterbaum@gibsondunn.com",
+          "location": "New York, 200 Park Avenue, New York, NY 10166-0193 USA",
+          "phone": "+1 212.351.4084",
+          "bio": "Daniel Alterbaum is a partner in the Mergers and Acquisitions and Private Equity Groups, where he represents buyers, sellers and investors in a wide variety of transactions in the private equity, fintech, renewable energy and infrastructure sectors. His experience includes leveraged buyouts, negotiated sales of private companies, carve - out sales and spinoffs of subsidiaries and cross - border asset sales.",
+          "experience": [
+            {
+              "description": "He also represents issuers and investment funds in connection with venture capital, growth equity and structured preferred equity investments."
+            }
+          ],
+          "matters": "His recent experience in the renewable energy and infrastructure sectors include advising:",
+          "bar_admissions": [
+            {
+              "location": "Connecticut",
+              "year": null
+            },
+            {
+              "location": "New York",
+              "year": null
+            }
+          ],
+          "law_school": [
+            {
+              "institution": "Yale University",
+              "degree": "Juris Doctor",
+              "year": "2012"
+            }
+          ],
+          "other_schools": [
+            {
+              "institution": "Yale University",
+              "degree": "MBA",
+              "year": "2012"
+            },
+            {
+              "institution": "University of Pennsylvania",
+              "degree": "Bachelor of Science",
+              "year": "2007"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "119173bd-1e1d-44c1-becc-2ab9ab382016",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/119173bd-1e1d-44c1-becc-2ab9ab382016/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Hibban Ahmed",
+          "title": "Partner, Head of Investment Funds (Hong Kong)",
+          "practice_areas_main": [
+            "Investment Management",
+            "Structured Investment",
+            "Alternative Investment Firms"
+          ],
+          "practice_areas_all": [
+            "Investment Management",
+            "Structured Investment",
+            "Alternative Investment Firms"
+          ],
+          "specialties": [
+            "alternate investment",
+            "institutional investment",
+            "investment structuring"
+          ],
+          "email": "hibban.ahmed@linklaters.com",
+          "location": "Hong Kong SAR",
+          "phone": "+85229015617",
+          "bio": "Hibban Ahmed is the head of the Linklaters Hong Kong Investment Funds practice. He's a specialist in the structuring and establishment of alternative investment funds, private equity style joint ventures and equity syndication. He has been based in the firm's Hong Kong office permanently since 2011.",
+          "matters": [
+            "CBRE Global Investors on the structuring, set - up, fundraising and ongoing management of several of their institutional real estate funds.",
+            "Invesco Real Estate in connection with the structuring and establishment of the Invesco Real Estate Asia Fund.",
+            "InfraRed NF in connection with the structuring, marketing and establishment of InfraRed NF China Real Estate Fund II.",
+            "Jardine Matheson Group on their venture capital investment and partnership with NIO Capital.",
+            "Double Haven Asset Management on their spin - out from SPARX Asia Investment Advisors (formerly PMA Investment Advisors)."
+          ],
+          "bar_admissions": [
+            {
+              "country": "Hong Kong SAR"
+            },
+            {
+              "country": "UK (England & Wales)"
+            }
+          ],
+          "law_school": [
+            {
+              "school": "King's College London",
+              "degree": "law"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "f64eda4e-e3c1-4532-bf75-e18455819e85",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/f64eda4e-e3c1-4532-bf75-e18455819e85/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "David Azcue",
+          "title": "Partner",
+          "practice_areas_all": [
+            "Corporate",
+            "Investment",
+            "Private Funds",
+            "Fund Transactions",
+            "Corporate Governance",
+            "Private Equity Lifecycle"
+          ],
+          "email": "dazcue@stblaw.com",
+          "location": "Floor 9-10, Roppongi 1 - Chome, 41st Ark Hills Sengokuyama Mori Tower, Minato - ku, Tokyo",
+          "phone": "+81-3-5562-6213",
+          "bio": "David Azcue is a Partner in the Firm's Tokyo office, where he co - heads our Private Funds Practice in Japan. He has spent over 30 years in Japan as a member of a high - tech Japanese manufacturing company, professional translator and interpreter, and for the past 15 years as a private funds attorney with the Firm, mainly in Tokyo. David has been recognized as a leading private funds lawyer by numerous authorities including Chambers Asia - Pacific and Who's Who Legal, and brings to his practice a deep understanding of Japan and broad experience in global fundraisings for private investment funds.",
+          "law_school": [
+            {
+              "name": "University of Michigan Law School",
+              "year": "2003",
+              "degree": "J.D."
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "University of Pennsylvania",
+              "year": "1993",
+              "degree": "B.A."
+            }
+          ],
+          "bar_admissions": [
+            {
+              "location": "Japan",
+              "year": "2020"
+            },
+            {
+              "location": "New York",
+              "year": "2005"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "177e9592-88fd-4ba5-a86a-ae42934c4a18",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/177e9592-88fd-4ba5-a86a-ae42934c4a18/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "John P. Alexander",
+          "practice_areas_main": [
+            "Financial Services",
+            "Financial Services Transactions & Regulatory",
+            "Cryptocurrencies, Digital Assets & Blockchain Technology"
+          ],
+          "practice_areas_all": [
+            "Financial Services",
+            "Private Investment Funds",
+            "Financial Services Transactions & Regulatory",
+            "Private Equity",
+            "Cryptocurrencies, Digital Assets & Blockchain Technology"
+          ],
+          "phone": "+1 650-858-6443",
+          "bio": "John focuses his practice on financial services, with an emphasis on the formation, structuring, and ongoing management of private and registered funds.",
+          "location": "Silicon Valley"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d235015f-8333-4d68-88dd-f936fd2e0a2c",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/d235015f-8333-4d68-88dd-f936fd2e0a2c/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Haley N. Bavasi",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Privacy and Cybersecurity"
+          ],
+          "practice_areas_all": [
+            "Digital Health",
+            "FDA Regulatory",
+            "Consumer Healthcare and Products",
+            "Life Sciences",
+            "Medical Devices",
+            "Privacy and Cybersecurity"
+          ],
+          "email": "hbavasi@wsgr.com",
+          "location": "Seattle",
+          "phone": "206-883-2662",
+          "bio": "Haley Bavasi is a partner in the Seattle office of Wilson Sonsini Goodrich & Rosati, where she focuses primarily on advising digital health companies across a range of privacy, transactional, research, and healthcare regulatory issues. In particular, Haley leverages her expertise in the Health Insurance Portability and Accountability Act (HIPAA), the U.S. federal health-privacy law, to provide early-stage companies with practical day-to-day counseling, as well advise as in the context of complex commercial transactions, M & A, and go-to-market strategy. Haley's extensive experience with a wide range of cutting-edge digital health companies provides her with valuable market insights she leverages for her clients. At Wilson Sonsini, Haley has been a member of the technology transactions practice, where she represented clients in a variety of domestic and international engagements, including collaboration agreements, research and development agreements, clinical trial management, university licenses, and intellectual property licenses. She is currently a member of the privacy and cybersecurity practice and plays a central role in the firm's digital health initiative. Prior to joining the firm, Haley was an associate in the San Francisco office of Ropes & Gray LLP, where she practiced in the healthcare and life sciences groups and focused extensively on advising clients in the areas of clinical research and health data privacy, with an emphasis on these issues in a global context. Before attending law school, Haley worked as a research associate in HIV vaccine clinical trials in San Francisco."
+        }
+      }
+    ]
+  },
+  {
+    "id": "69226b68-61d1-4ec1-a59a-08fcee68cba9",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/69226b68-61d1-4ec1-a59a-08fcee68cba9/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "https://www.freshfields.com/en-gb/contacts/find-a-lawyer/a/aleth-franz/",
+          "name": "Dr. Franz Aleth",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Corporate advisory and governance",
+            "Mergers and acquisitions",
+            "Restructuring and capital solutions"
+          ],
+          "practice_areas_all": [
+            "Corporate advisory and governance",
+            "Mergers and acquisitions",
+            "Restructuring and capital solutions"
+          ],
+          "specialties": [],
+          "email": "franz.aleth@freshfields.com",
+          "location": "D\u00fcsseldorf",
+          "phone": "+49 211 49 79 0",
+          "bio": "Franz specialises in mergers and acquisitions, and corporate and insolvency law. Over the last few years, he has been involved in a number of major transactions in the information technology, automotive and real estate industries. Franz speaks German and English.",
+          "experience": [],
+          "matters": "- Advising the insolvency administrator of SolarWorld AG and its insolvent subsidiaries on the sale of their material assets. - Advising Hewlett Packard Enterprise on the worldwide separation and spin-off of its software business which has subsequently been merged with Micro Focus. - Advising Hewlett Packard Enterprise on the worldwide separation and spin-off of its enterprise service business which has subsequently been merged with Computer Science Corporation (now DXC Technology). - Advising Hewlett - Packard on its worldwide business separation, creating two separate publicly traded companies, Hewlett Packard Enterprise Company which comprises HPCo's enterprise technology infrastructure, software and services businesses, and HP Inc., which owns and operates HPCo's printing and personal systems businesses. Advising Hewlett - Packard on the worldwide integration of EDS, 3Com, Palm and Autonomy businesses. Advising IVG Immobilien AG on its restructuring in an insolvency proceeding",
+          "bar_admissions": [],
+          "law_school": [
+            {
+              "name": "University of Bayreuth",
+              "degree": "PhD",
+              "year": "Unknown"
+            }
+          ],
+          "other_schools": [],
+          "awards": [],
+          "pdf_url": "https://www.freshfields.com/en-gb/contacts/find-a-lawyer/a/aleth-franz/?pdf=true",
+          "photo_url": "https://www.freshfields.com/en-gb/contacts/find-a-lawyer/a/aleth-franz/",
+          "news": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "23f0de76-5954-497b-a612-6144caf8a5e1",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/23f0de76-5954-497b-a612-6144caf8a5e1/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Shantanu Alam",
+          "title": "litigation paralegal",
+          "email": "alam@loeb.com",
+          "phone": "+1.212.407.4978",
+          "bio": "Shantanu Alam works as a litigation paralegal and has extensive experience in the financial services industry. His expertise includes assessing risk, developing compliance policies and procedures, and providing effective pre - litigation advice.",
+          "law_school": [
+            {
+              "name": "North Carolina State University",
+              "degree": "M.S."
+            },
+            {
+              "name": "North Carolina Central University",
+              "degree": "B.S."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "e9d7a2b9-9496-4b2d-aeaf-8fae418907ae",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/e9d7a2b9-9496-4b2d-aeaf-8fae418907ae/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Nico Abel",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Banking and Financial Institutions",
+            "Energy",
+            "Mergers, Acquisitions and Joint Ventures",
+            "Private Equity"
+          ],
+          "practice_areas_all": [
+            "Banking and Financial Institutions",
+            "Energy",
+            "Manufacturing and Industrial Services",
+            "Mergers, Acquisitions and Joint Ventures",
+            "Private Equity"
+          ],
+          "specialties": [
+            "Financial Services",
+            "Technology",
+            "Energy"
+          ],
+          "email": "nabel@cgsh.com",
+          "location": "Frankfurt",
+          "phone": "+49 69 97103 190",
+          "bio": "Nico Abel's practice focuses on international mergers and acquisitions. Nico has extensive experience advising corporates, private equity funds and financial institutions on private and public mergers and acquisitions, disposals, leverage buy-outs, growth investments, joint ventures, and restructurings. He has particular experience in the financial services, technology, and energy sectors. Nico joined the firm as a partner in 2023.",
+          "experience": [
+            {
+              "firm": "Cleary Gottlieb Steen & Hamilton LLP",
+              "start_end_date": "2023-Present",
+              "position": "Partner",
+              "description": "International Mergers and Acquisitions"
+            }
+          ],
+          "bar_admissions": [
+            {
+              "date": "Unknown",
+              "location": "Frankfurt am Main"
+            }
+          ],
+          "law_school": [
+            {
+              "school": "Freie Universit\u00e4t Berlin",
+              "degree": "Doctor iuris (Dr. iur.)",
+              "year": "1999"
+            },
+            {
+              "school": "State of Berlin, Germany",
+              "degree": "Second State Examination",
+              "year": "1999"
+            }
+          ],
+          "awards": [
+            {
+              "name": "Recommended Lawyer for Corporate and Mergers and Acquisitions",
+              "year": "Unknown",
+              "award_giver": "The Legal 500 EMEA"
+            },
+            {
+              "name": "Listed in JUVE German Commercial Law Firms Handbook",
+              "year": "Unknown",
+              "award_giver": "JUVE"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "f212ca06-79c3-4eb8-8e43-115c1819075d",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/f212ca06-79c3-4eb8-8e43-115c1819075d/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Michael L. Arnold",
+          "title": "PARTNER",
+          "practice_areas_main": [
+            "Corporate Governance",
+            "Board Advisory Practice"
+          ],
+          "practice_areas_all": [
+            "Corporate Governance",
+            "Board Advisory Practice",
+            "Environmental",
+            "Social",
+            "Governance"
+          ],
+          "email": "marnold@cravath.com",
+          "location": "New York",
+          "phone": "+1-212-474-1664",
+          "bio": "Michael L. Arnold is a member of the Corporate Governance and Board Advisory Practice. Mr. Arnold counsels clients with respect to their most sensitive and highest - risk matters, advising boards of directors and senior management on a broad range of corporate governance, public reporting, disclosure and compliance matters, including in connection with restatements and other financial crises, as well as cybersecurity incidents. He also advises companies on matters relating to Environmental, Social and Governance (ESG) issues, particularly with respect to investor engagement, ESG shareholder proposals and activism, voluntary and mandatory ESG reporting and ESG related governance processes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "e4ab67c1-e507-4c10-a3c9-b2c42c8c06f8",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/e4ab67c1-e507-4c10-a3c9-b2c42c8c06f8/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Jill Barton",
+          "title": "Associate",
+          "practice_areas_main": [
+            "Corporate"
+          ],
+          "email": "JEBarton@wirk.com",
+          "location": "51 West 52nd Street, New York, NY 10019",
+          "phone": "212.403.1012",
+          "bio": "Jill   Barton is an       associate in      Wachtell    Lipton's     Corporate Department . Jill   received her  J.D. ,  magna   cum    laude , from  th  University of      Pennsylvania Law where  she   was     elected to the   Order of  the  Coif  and    served as a     Senior   Editor for the  University of      Pennsylvania Law    Review . Sh received her  A.B. ,   magna  cum     laude , in  Classics from     Princeton     University . Prior to  attending law   school , Jill was an    analyst at  Goldman    Sachs .",
+          "law_school": [
+            {
+              "school": "University of Pennsylvania Law School",
+              "year": "2021",
+              "degree": "J.D.",
+              "honors": "magna cum laude, Order of the Coif"
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "Princeton University",
+              "year": "2016",
+              "degree": "A.B.",
+              "honors": "magna cum laude"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "69c7ef27-a39d-4804-b179-62dce48e7dea",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/69c7ef27-a39d-4804-b179-62dce48e7dea/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "PRACTICESPRACTICES",
+          "name": "Brian Bolin",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Restructuring",
+            "Finance",
+            "Hybrid Capital & Special Situations"
+          ],
+          "practice_areas_all": [
+            "Restructuring",
+            "Finance",
+            "Hybrid Capital & Special Situations"
+          ],
+          "specialties": [],
+          "email": "bbolin@paulweiss.com",
+          "location": "1285 Avenue of the Americas New York, NY 10019-6064",
+          "phone": "+1-212-373-3262",
+          "bio": "A partner in the Restructuring Department, Brian Bolin represents creditors, debtors, sponsors and distressed investors in a wide range of insolvency matters, including chapter 11 cases, out - of - court workouts, bankruptcy sales and cross - border restructurings. As Deputy Chair of the Hybrid Capital & Special Situations Group, Brian particularly focuses on advising borrowers, lenders, and sponsors on distressed financing transactions, including liability management transactions, distressed investments, rescue financings, DIP financings, exit financings, and direct lending transactions. Brian co - authors, alongside fellow Paul, Weiss partner Elizabeth McColm, the annual \"Investment Fund Activity in Chapter 11\" chapter in Americas Restructuring Review published by Global Restructuring Review.",
+          "experience": [],
+          "matters": [
+            "An ad hoc group of secured and unsecured creditors of Digicel Group",
+            "An ad hoc group of lenders of Learfield",
+            "Azorra Aviation, a portfolio company of Oaktree",
+            "An ad hoc investor group of first lien lenders of Avaya Holdings Corp.",
+            "Revlon, a leading global beauty company",
+            "KKR, as sponsor to Envision Healthcare",
+            "Funds or accounts affiliated with Blackstone in the chapter 11 cases of Center for Autism and Related Disorders",
+            "An ad hoc committee of holders of unsecured convertible notes issued by SmileDirectClub",
+            "An ad hoc group of noteholders of Carlson Travel Inc.",
+            "An ad hoc group of second - lien lenders of telecom company Ligado Networks",
+            "SPARC Group, a retail operator owned by Authentic Brands Group and Simon Property Group, in its going concern acquisition of the assets of Brooks Brothers",
+            "SPARC Group, a retail operator owned by Authentic Brands Group and Simon Property Group, in its going concern acquisition of the assets of Lucky Brand Dungarees",
+            "Apollo Global Management as a secured noteholder and plan sponsor in the chapter 11 cases of Houston - based oil - and - gas exploration and production company EP Energy",
+            "Pioneer Energy Services Corp."
+          ],
+          "bar_admissions": [],
+          "law_school": [],
+          "other_schools": [],
+          "awards": [
+            {
+              "name": "40 Under 40 Emerging Leaders in Insolvency Practice",
+              "date": "Oct 13, 2023",
+              "awarded_by": "American Bankruptcy Institute"
+            },
+            {
+              "name": "Outstanding Young Restructuring Lawyers",
+              "date": "May 01, 2023",
+              "awarded_by": "Turnarounds & Workouts"
+            }
+          ],
+          "pdf_url": null,
+          "photo_url": null,
+          "news": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "f850b0c8-c88a-437d-945d-a494ea28e537",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/f850b0c8-c88a-437d-945d-a494ea28e537/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "9293f772-4f63-4acb-9ec6-0a0065304f02",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/9293f772-4f63-4acb-9ec6-0a0065304f02/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "David Benyacar",
+          "title": "Partner",
+          "practice_areas_main": [
+            "Patent Litigation",
+            "Intellectual Property",
+            "Telecommunications, Internet & Media",
+            "Consumer Products & Retail",
+            "Technology Transactions"
+          ],
+          "email": "david.benyacar@arnoldporter.com",
+          "location": "New York",
+          "phone": "+1 212.836.7763",
+          "bio": "David S. Benyacar practices in all areas of high-technology law, with specific emphasis on patent litigation and counseling relating to telecommunications products and services, and software-based products and systems. David has acted as lead litigation counsel on many successful large - scale patent cases, including one in which his numerous presentations to the Federal Trade Commission led to the first FTC complaint (against his client's adversary ) based on patent fraud in over 30 years. In the telecommunications area, he has handled patent cases involving cable television networks and services, broadcast television networks and services, high - speed Internet networks and services, customer premises equipment (e.g., ACD systems, PBXs, voicemail systems, etc.), central office equipment (e.g., switching systems, IVRS, AABS, etc.), telephony services (e.g., directory assistance services, teleconferencing services, calling card services, etc.) and communications protocols (e.g., VoIP, TCP/IP, etc.).",
+          "law_school": [
+            {
+              "name": "Rutgers Law School",
+              "degree": "J.D.",
+              "year": 1991
+            }
+          ],
+          "other_schools": [
+            {
+              "name": "Brown University",
+              "degree": "M.S.",
+              "major": "Computer Science",
+              "year": 1987
+            },
+            {
+              "name": "Columbia University",
+              "degree": "B.A.",
+              "major": "English/Computer Science",
+              "year": 1982
+            }
+          ],
+          "bar_admissions": [
+            {
+              "state": "New York"
+            },
+            {
+              "court": "U.S. Court of Appeals for the Federal Circuit"
+            }
+          ],
+          "awards": [
+            {
+              "award": "IP Star",
+              "year": "2013-2014, 2017-2023",
+              "organization": "Managing Intellectual Property"
+            },
+            {
+              "award": "Litigation - Intellectual Property",
+              "year": "2018-2023",
+              "organization": "Best Lawyers"
+            },
+            {
+              "award": "Intellectual Property - Patent Litigation : Full Coverage",
+              "year": "2013-2014",
+              "organization": "The Legal 500 US"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "e0c8b758-4906-471f-8e37-59d7d0724770",
+    "url": "file:///Users/rohan/Documents/bananalyzer/static/e0c8b758-4906-471f-8e37-59d7d0724770/index.mhtml",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_details",
+    "type": "fetch",
+    "fetch_id": "attorney",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "name": "Jeff Tsai",
+          "title": "Partner, Co - Chair, State AG group",
+          "practice_areas_main": [
+            "Litigation, Arbitration and Investigations",
+            "State Attorneys General",
+            "White Collar and Corporate Crime"
+          ],
+          "practice_areas_all": [
+            "Litigation, Arbitration and Investigations",
+            "State Attorneys General",
+            "White Collar and Corporate Crime"
+          ],
+          "email": "jeff.tsai@dlapiper.com",
+          "location": "San Francisco, Los Angeles",
+          "phone": "+1 415 615 6055, +1 310 595 3068",
+          "bio": "Jeff Tsai knows the law, but more importantly, he knows how to work with opposing counsel and the state attorneys general offices. - client quote from Chambers USA 2021",
+          "bar_admissions": [
+            {
+              "state": "California",
+              "year": null
+            },
+            {
+              "state": "District of Columbia",
+              "year": null
+            }
+          ],
+          "law_school": [
+            {
+              "school": "Georgetown University",
+              "degree": "J.D.",
+              "year": null
+            }
+          ],
+          "other_schools": [
+            {
+              "school": "University of Texas at Austin",
+              "degree": "B.A.",
+              "year": null
+            }
+          ],
+          "awards": [
+            {
+              "name": null,
+              "year": "Chambers USA 2021",
+              "description": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0367e1f8-f319-4052-807f-ab0d6b0d0790",
+    "url": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "Senior Legal Billing and Data Analyst",
+          "description": "The Senior Legal Billing and Data Analyst is highly skilled and experienced in billing management, expertise in E-billing processes, advanced knowledge of the Thomson Reuters 3E product suite as well as experience in conflict resolution, collections, and managing unbilled accounts. Duties and responsibilities include assist with day-to-day operations of the billing team, use robust data analysis skills to identify trends, improve processes, provide insights to the billing team and senior management, generate comprehensive reports and metrics using the Thomson Reuters 3E product suite to support strategic decision-making and financial analysis, adherence to company, regulatory guidelines to maintain audit-readiness, process invoices, proactively manage collections activities and follow up outstanding invoices, build and maintain strong relationships with attorneys and clients, collaborate with internal teams to streamline billing processes, improve data efficiency, monitor unbilled accounts to ensure timely billing, assist with the Conflict Search and New Matter Intake Process.",
+          "locations": [
+            "New York"
+          ],
+          "salary_range": "$110,000 - $140,000",
+          "experience": "A minimum of 10 years of experience in law firm billing, overseeing complex billing processes, collections, and managing unbilled accounts.",
+          "full": "$ 2 & Sign 011 Wachtell , Lipton , Rosen & Katz [ $ 3 ] WLRK Careers [ $ 41 Introduce Administrative ..."
+        }
+      }
+    ]
+  },
+  {
+    "id": "7ceb3563-a031-4f51-aed9-616a6a6ac333",
+    "url": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/houston/mid-level-associate-energy-and-infrastructure-projects-m-a-and-finance",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "",
+          "tier": "Mid-Level Associate",
+          "department": "Energy & Infrastructure Projects",
+          "title": "Mid-Level Associate, Energy & Infrastructure Projects (M&A and Finance)",
+          "description": "The Houston office is seeking a mid-level associate with 3-6 years of law firm experience to join the Energy and Infrastructure Projects group. Strong transactional experience on M&A or financing transactions is required. A successful candidate must hold a high level of academic achievement and a passion for providing high quality work product and service to our clients. Associates who join Skadden laterally participate in an enhanced mentor program, which specifically focuses on the unique needs experienced attorneys face during transitions. These efforts, along with our professional development and other Skadden benefits, including a hybrid work model, underscore Skadden's long-standing commitment to investing in its people, culture and diversity. We also have an extensive pro bono program that allows attorneys to devote, and receive credit for, time for myriad causes that spark their interests and matches those interests with the legal needs in the community. Our current hybrid work model consists of working Monday through Thursday in the office. Attorneys also receive the opportunity to work remotely for specified periods throughout the year.",
+          "locations": [
+            "Houston"
+          ],
+          "salary_range": "",
+          "experience": "3-6 years of law firm experience",
+          "full": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee8ad33a-26f5-49aa-a58a-a39c87f4ebc3",
+    "url": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/viewRequisition?org=SULLCROM&cws=38&rid=1196",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "Litigation Paralegal",
+          "description": "Litigation Paralegals work very closely with each other and the Firm's lawyers, clients and outside vendors, depending on the matter.",
+          "locations": [
+            "New York"
+          ],
+          "experience": "Bachelor's degree required. Prior legal experience is beneficial but not required.",
+          "full": "ESSENTIAL DUTIES AND RESPONSIBILITIES include the following. Other duties may be assigned. Project management and organization of litigation cases. Conduct fact research utilizing internal and external resources, as directed by supervising lawyers. Assist with document collection and production. Assembling, organizing, and circulating case materials. Assist with deposition, interview, hearing and trial preparation. Coordination of outside litigation vendors. Prepare preliminary translations. Search for, review and assemble cases from Westlaw / Lexis - Nexis. Drafting cover letters / memos. Notarizing documents. In addition, responsibilities related to maintaining firm and client information are to be adhered to by all employees. QUALIFICATIONS: Knowledge of legal / paralegal environments. Strong verbal and written communication skills. Good organizational skills. Good interpersonal skills. Able to work under pressure and multitask when required. High degree of initiative and self - motivation. EDUCATION and / or EXPERIENCE: Bachelor's degree required. Prior legal experience is beneficial but not required. WORK ENVIRONMENT: The work environment characteristics described here are representative of those an employee encounters while performing the job. APPLICATION: To apply for a paralegal position, please submit a cover letter, resume and unofficial transcript. The total compensation package for this position may include overtime pay, discretionary bonuses and other benefits.",
+          "salary_range": "The base salary range offered for this role will be $55,000."
+        }
+      }
+    ]
+  },
+  {
+    "id": "1f13a13d-bbda-4b2d-bbdc-dc1cd753f762",
+    "url": "https://paulweiss.taleo.net/careersection/ex/jobdetail.ftl",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "71bf1895-3541-4391-800d-396fbe24ba16",
+    "url": "https://omelveny.careers.micronapps.com/job_post_details.aspx?%3Eac^?LWCZ4dN=1`&QDFnXTpbVzc%3d=MW1ubjBA",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "www.micronsystems.com",
+          "tier": "Mid-Level Associate",
+          "department": "Public Company Advisory",
+          "title": "Public Company Associate",
+          "description": "O'Melveny is seeking a third or fourth year associate to join the Public Company Advisory group within its Capital Markets practice . Qualified candidates should have demonstrated experience advising public companies on a variety of securities law compliance , disclosure and corporate governance matters . This position will work closely with other members of the Public Company Advisory group to assist with day - to - day securities law , SEC reporting and corporate governance matters for our growing public company client base . Our public company clients span diverse industries - from technology to healthcare / life sciences to real estate / REITS to retail / services and range from decades - old Fortune 500 public companies to newly - public emerging growth companies and smaller reporting companies . In this position , there will also be opportunities to work on more of the transactional elements of the practice for our public company clients , including capital markets offerings . Superior academic credentials and strong communication skills are required , and the ideal candidate will have a understanding of the securities laws and a demonstrated interest in public company compliance and corporate governance .",
+          "locations": [
+            "Newport Beach"
+          ],
+          "salary_range": "$250,000- $295,000",
+          "experience": "Third or fourth year associate with experience advising public companies on a variety of securities law compliance, disclosure and corporate governance matters.",
+          "full": "@  01\nO'Melveny\n[ @ 1 ]      Login to\nPublic      Company\tAssociate\n1236\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNewport Beach\n[ $ 2 ] Job ID :\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n[ $ 3 ] Position :      Associate\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n[ $ 4 ] Location :\nArea :\n$ 6 ] Open Date :       Wednesday , March 23 , 2022      [ $ 7 ]\n\n$ 8 ]  Contact :\n[\nJob\n[\nFunction :\nLegal..."
+        }
+      }
+    ]
+  },
+  {
+    "id": "37b2dcd2-a2f2-4425-a9a9-b57e1a01cd83",
+    "url": "https://careers.mwe.com/job-experienced-lawyers/1l-2024-inclusion-fellowship-washington-dc-2/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "1L - 2024 Inclusion Fellowship",
+          "description": "McDermott Will & Emery LLP is doing Big Law better by fostering your dream career in a warm, inclusive environment. Weve been recognized as Vaults #1 Law Firm for Associate Satisfaction for three consecutive years (2022-2024) and are a Top Workplaces winner in five national categories. Our focus on career acceleration begins on day one, with every employee receiving personalized guidance, structured mentorship and confidential career coaching. You'll become part of our award-winning culture, which prioritizes authenticity and happiness. And you'll enjoy our industry-leading approach to compensation and benefits. We support your physical, mental, and emotional health and were the first firm to offer billable hours for wellness. Plus, lawyers and staff professionals receive generous compensation packages; our individual merit-based system enabled 65% of our associates to earn above the Cravath scale in 2022. Join our community and discover how your career and life can be #AlwaysBetter at McDermott. As part of McDermotts longstanding commitment to promoting a more equitable & inclusive law firm, we are proud to offer our 1L Inclusion Fellowship Program in our Washington, DC office. The 1L Fellow will be included in all aspects of the McDermott Summer Associate Program, including extensive training, networking, integration and social opportunities.",
+          "locations": [
+            "Washington, D.C."
+          ],
+          "tier": "Associate (general)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "59abdd22-a672-4633-8e64-8a6c00c8a084",
+    "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MyUyNTVF&JobId=MW5KbG5ZZmI=&at=OF9DRw==&pos=NSUyNTYwN042UA==",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "b4bd9ade-40f5-4af5-a9b2-14e0cb9a52b0",
+    "url": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "",
+          "tier": "Mid-Level Associate",
+          "department": "Real Estate",
+          "title": "Real Estate Associate / Special Counsel",
+          "description": "We are looking for special counsel or associates between classes of 2019-2014 to join our Real Estate Department in either NY or DC . Candidate must have significant lender - side financing experience ( construction loan experience preferred but not required ) and be committed to focusing at least 60 % of their time on lender - side work .",
+          "locations": [
+            "United States"
+          ],
+          "salary_range": "$ 295,000- $ 415,000 USD",
+          "experience": "Construction loan experience",
+          "full": "Real Estate Associate/Special Counsel, United States. We are looking for special counsel or associates between classes of 2019-2014 to join our Real Estate Department in either NY or DC. Candidate must have significant lender-side financing experience (construction loan experience preferred but not required) and be committed to focusing at least 60% of their time on lender-side work... (Content trimmed for brevity)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0acdfe9d-7c9d-4cd6-87b9-fd6b9301af82",
+    "url": "https://jobs.cliffordchance.com/job/people-services-systems-senior-manager-in-london-jid-1549",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "N/A",
+          "tier": "Other",
+          "department": "Human Resources",
+          "title": "Senior Manager JR - 5218",
+          "description": "You will have overall responsibility for ensuring the successful roll out and implementation of the Global HR Tech Roadmap. Critical to your success will be the ability to build relationships with the Global HR Leadership Team (Chief People Officer, Regional HR Directors and Global Heads of the Communities of Expertise) and partner with them to advise on technical solutions to enable the cost-effective delivery of HR services to the firm and throughout the employee lifecycle.",
+          "locations": [
+            "London"
+          ],
+          "salary_range": "N/A",
+          "experience": "You will have previous experience of managing a team, including performance reviews and performance management. Previous experience of HRIS systems, including Workday, within a professional services or similar complex, matrix environment is preferred. Working experience of Workday, either through implementation or optimisation, with a focus on Talent & Performance, Advanced Compensation and Onboarding is advantageous. Knowledge of additional HR Systems such as Cornerstone on Demand, Smart Recruiters and other platforms supporting interactive systems training (such as Articulate and Camtasia), is preferred. Experience with HR Technology systems vendor management. Experience or exposure to having implemented or supported SaaS system.",
+          "full": "All provided information in the job post."
+        }
+      }
+    ]
+  },
+  {
+    "id": "32d4d447-dc6b-4136-a025-9dd9e6ef9903",
+    "url": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/?mode=job-location",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "Project Assistant (Boston)",
+          "description": "Proskauer is an exciting place to be right now . With over 800 lawyers in 12 offices around the globe , we are the law firm that clients turn to when a matter is complex , innovative and game - changing in the world of sports , health care , life sciences , media & entertainment , technology , asset management and hospitality . Since 1875 we have been trusted by our clients because of the combination of our best - in - class practices and the strength of our industry knowledge . The Firm seeks an entry - level paralegal to assist attorneys and senior paralegals in all aspects of the transactional , labor and litigation processes .",
+          "locations": [
+            "Boston, United States"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "b354806b-cbf9-4258-87dd-3d9ae5444b7e",
+    "url": "https://www.lwcareers.com/en/experienced-lawyers/united-states/associate-finance-project-finance-leveraged-finance",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "",
+          "tier": "Associate",
+          "department": "Finance",
+          "title": "Lateral Opportunities Associate Finance",
+          "description": "The Finance Department of the San Diego office is seeking a highly qualified associate with a minimum of one year of transactional experience, preferably including experience in project finance or leveraged finance at a large national or international firm, to join our 2nd to 5th year associate class. The practice group represents investment banks and other financial institutions in their capacities as agents, arrangers, and lenders, as well as sponsors, borrowers, and private equity firms, in structuring and executing the most complex financings across industries and around the globe. This is an outstanding opportunity for attorneys with a transactional or finance background to join a dynamic project finance and leveraged finance practice in San Diego.",
+          "locations": [
+            "San Diego"
+          ],
+          "salary_range": "1st Year: $215,000; 2nd Year: $225,000; 3rd Year: $250,000; 4th Year: $295,000; 5th Year: $345,000; 6th Year: $370,000; 7th Year: $400,000; 8th Year: $415,000",
+          "experience": "Minimum of 2 years",
+          "full": "LATHAM & WATKINS Lateral Opportunities Associate Finance Offices : San Diego Experience : Minimum of 2 years QUALIFICATIONS The Finance Department of the San Diego office is seeking a highly qualified associate with a minimum of one year of transactional experience , preferably including experience in project finance or leveraged finance at a large national or international firm, to join our 2nd to 5th year associate class. The practice group represents investment banks and other financial institutions in their capacities as agents, arrangers, and lenders, as well as sponsors, borrowers, and private equity firms, in structuring and executing the most complex financings across industries and around the globe. This is an outstanding opportunity for attorneys with a transactional or finance background to join a dynamic project finance and leveraged finance practice in San Diego. HOW TO APPLY Direct applicants, please apply [ @ 48 ] here . Search firm submissions, please visit [ @ 49 ] here. If you have any questions about the application, please contact: Jamie Frick Recruiting Manager - US Lateral Associate Hiring [ @ 50 ] jamie.frick@lw.com Review your rights under US employment laws [ @ 51 ] here ."
+        }
+      }
+    ]
+  },
+  {
+    "id": "b4b29a4c-c520-462c-bf1f-a4c1d11cd391",
+    "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MW5HNA==&JobId=MW1mbG8lNDA=&at=OF9DRw==",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "www.micronsystems.com",
+          "tier": "Associate",
+          "title": "Tax Associate",
+          "description": "We are seeking a tax associate with two to four years of tax experience. Prior law firm experience preferred. We regularly represent issuers and underwriters in connection with the tax aspects of capital market transactions, including bank financings, securities offerings, exchange offers, tender offers, and consent solicitations. Experience in this area is preferred. Candidates must have excellent oral and written communication skills, a strong academic background and be admitted to the New York Bar. This is an excellent opportunity to join a leading, dynamic, and rewarding practice. More information about our practice can be found here.",
+          "locations": [
+            "New York"
+          ],
+          "experience": "two to four years of tax experience",
+          "full": "Job ID: 1013, Position: Associate, Location: New York, Practice Area: Tax, Open Date: Wednesday, June 22, 2022, Pay Type: Legal, Job Description: We are seeking a tax associate with two to four years of tax experience. Prior law firm experience preferred. We regularly represent issuers and underwriters in connection with the tax aspects of capital market transactions, including bank financings, securities offerings, exchange offers, tender offers, and consent solicitations. Experience in this area is preferred. Candidates must have excellent oral and written communication skills, a strong academic background and be admitted to the New York Bar. This is an excellent opportunity to join a leading, dynamic, and rewarding practice. More information about our practice can be found here. Job Requirements: \u00a9 Copyright 2023 Micron Systems, Inc. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "7de6f309-6904-4aa3-8b54-e2e40f48e36e",
+    "url": "https://stblaw.allhires.com/PositionDetail.aspx?id=412&a=&n=&returl=%2fDefault.aspx%3fb%3dd%26a%3d%26n%3d",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "Legal Secretary / Receptionist",
+          "description": "This role will provide a professional and proactive secretarial and front of house service to the Brussels office. This will involve a smooth running and effective telephone, reception and hospitality service to internal and external clients and visitors of the Firm. In addition, this role will provide a pro-active administrative service to assigned attorneys and business services teams, ensuring that the needs of the clients are met.",
+          "locations": [
+            "Brussels"
+          ],
+          "experience": "Experience working in a legal firm is essential. Excellent communication skills with attorneys, clients and other business services staff in multiple time zones (Asia, Europe, Americas). Having a certificate or diploma in a secretarial course level BAC + 3 is preferable. Word (Advanced level). Outlook (contacts / calendar). PowerPoint (basic knowledge). iManage. Excel (basic knowledge). Ability to turn around documents swiftly but thoroughly. Experience with automatic paragraph numbering. Flexibility to do overtime as and when required. Strong organisational skills. Have the ability to work alone as well as have the ability to work well with others. Language skills: Very good English and / or Dutch. Desirable: Fluency in French.",
+          "department": "Admin",
+          "tier": "Other"
+        }
+      }
+    ]
+  },
+  {
+    "id": "56fbfbee-4597-4e8c-b935-f6ff60d7d48e",
+    "url": "https://careers2.winston.com/viRecruitSelfApply/ReJobView.aspx?Tag=c6c5778b-4b86-45f3-9bfa-33680b22a001&JobID=1932",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {}
+      }
+    ]
+  },
+  {
+    "id": "1ad55456-3d44-4774-b434-e20d773fa15f",
+    "url": "https://careers.wsgr.com/openings/san-francisco-ip-litigation-associate/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "Not Available",
+          "tier": "Mid-Level Associate",
+          "department": "Litigation",
+          "title": "IP Litigation Associate",
+          "description": "We are currently seeking a second to fourth year associate for the San Francisco office to litigate and try IP and technology focused cases for a career. We handle trade secret, patent, copyright, and other technology - centered commercial disputes for Silicon Valley's largest companies and cutting - edge start - ups. We have advanced the law repeatedly in key areas. We try cases. Candidates must have excellent academic credentials, as well as top - notch writing, speaking, fact development, and legal research skills. We work collaboratively and seek candidates to learn and run cases. We prioritize early responsibility and leadership opportunities on our case teams.",
+          "locations": [
+            "San Francisco"
+          ],
+          "salary_range": "$225,000 - $295,000",
+          "experience": "Second to fourth year associate",
+          "full": "Not Available"
+        }
+      }
+    ]
+  },
+  {
+    "id": "1080aa44-bb0b-4115-90e9-9d14b7279a56",
+    "url": "https://freshfields.wd3.myworkdayjobs.com/en-US/FBD_101/job/Event--Step-Into-Your-Future---LLM-UK-2024_R-02708",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "website": "https://freshfieldscareers.com",
+          "tier": "Other",
+          "title": "Step Into Your Future - LL.M. UK 2024",
+          "description": "Wir laden Dich ein, Dir ein Bild von den T\u00e4tigkeitsfeldern unserer Kanzlei zu machen und die Menschen kennenzulernen, die Freshfields Bruckhaus Deringer ausmachen - bewirb Dich jetzt f\u00fcr ,, Step Into Your Future vom 23. bis 25. Februar 2024 in London und Umgebung. Neben fachlichen Workshops und Kurzvortr\u00e4gen bekommst Du umfassend Gelegenheit, Dich mit unseren Anw\u00e4lt:innen pers\u00f6nlich auszutauschen und mehr \u00fcber Deine Einstiegs- und Karrierem\u00f6glichkeiten bei Freshfields zu erfahren. Das Event richtet sich an herausragende LL.M. - Studierende in Gro\u00dfbritannien, die an wirtschaftlichen Zusammenh\u00e4ngen interessiert sind und nach Abschluss ihres Studiums einen Berufseinstieg in Deutschland oder \u00d6sterreich planen.",
+          "locations": [
+            "London",
+            "Hamburg",
+            "Frankfurt",
+            "Dusseldorf",
+            "Berlin"
+          ],
+          "full": "..."
+        }
+      }
+    ]
+  },
+  {
+    "id": "098e8f7d-2cb8-42de-823f-1b6e889220ba",
+    "url": "https://legalrecruiting-cravath.icims.com/jobs/3017/2024-1l-summer-associate---position/job",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "title": "2024 1L Summer Associate - Position",
+          "description": "We invite 1L students interested in participating in Cravath's New York - based 2024 summer associate program to submit applications starting on November 15 , 2023 ( or thereafter based on your law school's timing guidelines ). Our 1L summer associates will have the option to participate in the Leadership Council on Legal Diversity . ( LCLD ) 1L Scholars Program , which includes networking opportunities and a professional development summit . LCLD is an organization of more than 350 in - house legal departments and law firms dedicated to creating a more inclusive and diverse legal profession. Summer associates are given work assignments similar to those given to our regular associates and can expect to experience a realistic view of the Firm and our practice . We look for candidates with records of strong academic achievement who reflect a wide range of backgrounds and share important qualities - creativity , excitement about the practice of law , a strong work ethic , and motivation and ability to excel. For more information about Cravath's summer program , please visit our website.",
+          "locations": [
+            "New York"
+          ],
+          "salary_range": "$4,135 weekly",
+          "tier": "Associate (general)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f5e9e773-4697-4f26-8152-27796b808533",
+    "url": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "230000048",
+              "website": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "Senior Legal Billing and Data Analyst",
+              "job_description": "The Senior Legal Billing and Data Analyst is highly skilled and experienced in billing management, expertise in E-billing processes, advanced knowledge of the Thomson Reuters 3E product suite as well as experience in conflict resolution, collections, and managing unbilled accounts.",
+              "locations": "New York",
+              "salaryRange": {
+                  "min": "$100,000",
+                  "max": "$140,000",
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": "Posted 30+ Days Ago",
+              "apply_url": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048/apply",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": "Assist with day-to-day operations of the billing team, ensuring accuracy, timeliness, and compliance with policies and regulations, working closely with the Billing Manager. Use robust data analysis skills to identify trends, improve processes, and provide insights to the billing team and senior management. Generate comprehensive reports and metrics using the Thomson Reuters 3E product suite to support strategic decision-making and financial analysis. Ensure adherence to company standards and regulatory guidelines to maintain audit-readiness. Accurately and timely process invoices, utilizing E-billing systems and adhering to client billing guidelines. Proactively manage collections activities and follow up on outstanding invoices. Build and maintain strong relationships with attorneys and clients, address billing inquiries, and provide exceptional customer service. Collaborate with internal teams to streamline billing processes, improve data maintenance efficiency, and reduce errors. Monitor unbilled accounts to ensure timely billing and resolution of outstanding matters. Assist with the Conflict Search and New Matter Intake Process.",
+              "skills": "Strong expertise in E-billing systems, electronic invoicing, and compliance with client billing guidelines. Advanced user of the Thomson Reuters 3E product suite, Power BI proficiency in generating reports and metrics. Experience in collections, with a proven track record of effectively managing outstanding invoices and resolving payment issues. Excellent communication skills, both verbal and written, with the ability to effectively interact with clients and colleagues. Detail-oriented mindset, ensuring accurate billing records, thorough financial analysis, and proactive management of unbilled accounts. Proven ability to streamline billing processes. Advanced Excel, Analytical Reporting tools experience, i.e.  Power BI, SQL knowledge is a big plus.",
+              "education": "Bachelor’s degree required. A minimum of 10 years of experience in law firm billing, overseeing complex billing processes, collections, and managing unbilled accounts.",
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": "Full Time",
+              "tags": null
+          }
+        }
+    ]
+},
+{
+    "id": "2c4bf529-4be6-4195-ab39-988751cb69ce",
+    "url": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/houston/mid-level-associate-energy-and-infrastructure-projects-m-a-and-finance",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/houston/mid-level-associate-energy-and-infrastructure-projects-m-a-and-finance",
+              "company_description": null,
+              "level": null,
+              "department": "Energy & Infrastructure Projects (M&A and Finance)",
+              "title": "Mid-Level Associate",
+              "job_description": "The Houston office is seeking a mid-level associate with 3-6 years of law firm experience to join the Energy and Infrastructure Projects group. Strong transactional experience on M&A or financing transactions is required. A successful candidate must hold a high level of academic achievement and a passion for providing high quality work product and service to our clients.",
+              "locations": "Houston",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "https://www.skadden.com/careers/attorneys/apply-and-connect/application?id=d0a05678-a27d-4100-b0df-fda676ac9726",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "b7a02f56-327e-466e-9a8b-6f7f595a86c0",
+    "url": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/viewRequisition?org=SULLCROM&cws=38&rid=1196",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "1196",
+              "website": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/viewRequisition?org=SULLCROM&cws=38&rid=1196",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "Litigation Paralegal",
+              "job_description": "Litigation Paralegals work very closely with each other and the Firm’s lawyers, clients and outside vendors, depending on the needs of each particular matter.",
+              "locations": "New York",
+              "salary_range": {
+                  "min": "$55,000",
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/applyRequisition?org=SULLCROM&cws=38&rid=1196",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": "Knowledge of legal/paralegal environments. Strong verbal and written communication skills. Good organizational skills; detail-oriented. Good interpersonal skills. Able to work under pressure and multitask when required. High degree of initiative and self-motivation.",
+              "preferred_qualifications": null,
+              "role": "Project management and organization of litigation cases Conduct fact research utilizing internal and external resources, as directed by supervising lawyers Assist with document collection and production Assembling, organizing, and circulating case materials Assist with deposition, interview, hearing and trial preparation Coordination of outside litigation vendors Prepare preliminary translations Search for, review and assemble cases from Westlaw/Lexis-Nexis Drafting cover letters/memos Notarizing documents",
+              "skills": null,
+              "education": "Bachelor's degree required. Prior legal experience is beneficial but not required.",
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+        }
+    ]
+},
+{
+    "id": "3f405182-7167-4495-82c4-f549e27375c3",
+    "url": "https://omelveny.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=MW1ubjBA",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "1236",
+              "website": "https://omelveny.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=MW1ubjBA",
+              "company_description": null,
+              "level": "Associate",
+              "department": "Legal",
+              "title": "Public Company Associate",
+              "job_description": "O’Melveny is seeking a third or fourth year associate to join the Public Company Advisory group within its Capital Markets practice.  Qualified candidates should have demonstrated experience advising public companies on a wide variety of securities law compliance, disclosure and corporate governance matters.  This position will work closely with other members of the Public Company Advisory group to assist with day-to-day securities law counseling, SEC reporting and corporate governance matters for our growing public company client base. Our public company clients span diverse industries—from technology to healthcare/life sciences to real estate/REITs to retail/consumer services—and range from decades-old Fortune 500 public companies to newly-public emerging growth companies and smaller reporting companies.  In this position, there will also be opportunities to work on more of the transactional elements of the practice for our public company clients, including capital markets offerings.  Superior academic credentials and strong communication skills are required, and the ideal candidate will have a solid understanding of the securities laws and a demonstrated interest in public company compliance and corporate governance.",
+              "locations": "Newport Beach",
+              "salary_range": {
+                  "min": "$250,000",
+                  "max": "$295,000",
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": "Wednesday, March 23, 2022",
+              "apply_url": "https://omelveny.careers.micronapps.com/welcome.aspx",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+          
+        }
+    ]
+},
+{
+    "id": "54ed72e2-2ee8-45d7-9c7d-7a5475fdad19",
+    "url": "https://careers.mwe.com/job-experienced-lawyers/1l-2024-inclusion-fellowship-washington-dc-2/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "203",
+              "website": "https://careers.mwe.com/job-experienced-lawyers/1l-2024-inclusion-fellowship-washington-dc-2/",
+              "company_description": "McDermott Will & Emery LLP is doing Big Law better by fostering your dream career in a warm, inclusive environment. Weve been recognized as Vaults #1 Law Firm for Associate Satisfaction for three consecutive years (2022-2024) and are a Top Workplaces winner in five national categories. Our focus on career acceleration begins on day one, with every employee receiving personalized guidance, structured mentorship and confidential career coaching. Youll become part of our award-winning culture, which prioritizes authenticity and happiness. And youll enjoy our industry-leading approach to compensation and benefits. We support your physical, mental, and emotional health and were the first firm to offer billable hours for wellness. Plus, lawyers and staff professionals receive generous compensation packages; our individual merit-based system enabled 65% of our associates to earn above the Cravath scale in 2022. Join our community and discover how your career and life can be #AlwaysBetter at McDermott.",
+              "level": "Summer Associates",
+              "department": null,
+              "title": "1L – 2024 Inclusion Fellowship",
+              "job_description": "As part of McDermotts longstanding commitment to promoting a more equitable & inclusive law firm, we are proud to offer our 1L Inclusion Fellowship Program in our Washington, DC office. The 1L Fellow will be included in all aspects of the McDermott Summer Associate Program, including extensive training, networking, integration and social opportunities. Fellows will be paired with a mentor to provide guidance during the summer and throughout the school year. Our 1L Inclusion Fellows will receive a $15,000 scholarship toward their law school education at the completion of the 2024 Summer Program. Fellows who successfully complete the 1L fellowship program are also eligible to earn an offer to return as a 2025 Summer Associate.",
+              "locations": "Washington, DC",
+              "salary_range": {
+                  "min": "$4,134",
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": "December 21, 2023",
+              "apply_url": "https://mwerecruiting.viglobalcloud.com/viRecruitSelfApply/ReDefault.aspx?FilterREID=3&FilterJobID=203",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": "We welcome applications from any law student who is enrolled at ABA-accredited law schools with: A commitment to promoting justice, diversity, equity and inclusion within the firm as a product of life experiences or challenges/ obstacles in advancing professional objectives A strong record of academic and personal achievement A genuine interest in pursuing a career at McDermott upon graduation The intent to live and practice in the city or region in which the office is located An anticipated JD graduation date of Spring 2026 at the time of application",
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "d5e7df6f-3d9a-4373-aeda-505d6c21297b",
+    "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MyUyNTVF&JobId=MW5KbG5ZZmI=&at=OF9DRw==&pos=NSUyNTYwN042UA==",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected":{
+              "id": "1910MO",
+              "website": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MyUyNTVF&JobId=MW5KbG5ZZmI=&at=OF9DRw==&pos=NSUyNTYwN042UA==",
+              "company_description": "For the eighth year in a row, Orrick is one of Fortune’s 100 Best Companies to Work For, the annual list that recognizes companies with extraordinary workplace cultures. We bring distinctive quality, diverse teams and innovation to everything we do.  At our core, we value collegiality among our lawyers and strive to make our practices both professionally and personally rewarding.  We’ll help you to connect with peers and mentors to ensure you are integrated into our client teams.  Our top-notch training and mentoring programs, retreats and academies, shadowing opportunities and more are what set us apart.  If you are passionate about innovative work in a dynamic environment, you’re just who we’ve been looking for. Orrick is committed to providing a comprehensive, thoughtful total compensation package to our attorneys and staff, wherever they work. The amount of pay offered will be determined by a number of factors, including but not limited to qualifications, relevant experience, primary work location, market data, and internal equity.  Other compensation may include an annual discretionary merit bonus, which would be determined by Firm and individual performance.",
+              "level": "Associate",
+              "department": "Intellectual Property",
+              "title": "Intellectual Property Managing Associate",
+              "job_description": "Orrick seeks mid-level associates with 3 to 6+ years of experience to join our dynamic Intellectual Property Litigation practice, in any of our U.S. offices.  The majority of our U.S. Intellectual Property team is based in our Southern California, Bay Area, and East Coast offices. Qualified candidates will have three to six years of experience in intellectual property and/or patent litigation.  Candidates must have excellent research and writing skills, ability to work independently and possess strong advocacy ability.  Strong academic credentials along with entrepreneurial drive, initiative, grit, and a strong work ethic are required.  We value collegiality and diversity among our lawyers and seek to make the practice both professionally and personally rewarding.  A bachelor’s or higher degree in Electrical Engineering, Computer Science, Physics, Chemistry, Biochemistry, Chemical Engineering, Mechanical Engineering or equivalent is preferred.  Admission to the State Bar of your office location is required. Leading innovators turn to Orrick’s patent litigators for their most challenging cases.  We have a formidable record in competitor versus competitor cases.  And we’ve prevailed against the most aggressive patent assertion entities.  We have a winning record in the toughest arenas, from the Eastern District of Texas and the Northern District of California to the International Trade Commission (ITC).  And we’ve handled more than 100 inter partes review proceedings before the Patent and Trademark Office (PTO) Patent Trial and Appeal Board.  Based on these results, The American Lawyer named us one of the top IP practices in its “Litigation Department of the Year” contest.",
+              "locations": "Multiple Offices",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": "Tuesday, March 14, 2023",
+              "apply_url": "https://lawcruit.micronapps.com/sup/ApplicationForm.aspx?%3Eac^?LWCZ4dN=1`&QFBsMzxLV0VYQA%3d%3d=M14%3d&QDFnXTpbVzc%3d=MW5KbG5ZZmI%3d&PWI4=OF9DRw%3d%3d&QVFnbg%3d%3d=NWA3TjZQ",
+              "work_hours": null,
+              "job_benefits": "We offer a full range of elective health benefits including medical, dental, vision and life insurances; robust mental well-being benefits; child, family, elder, and pet care benefits; short- and long-term disability benefits; a health savings account (with applicable medical plan), flexible spending accounts, long-term care insurance, and a 401K program.  Eligible employees will receive compensated time off through either a Paid Time Off or Flexible Time Off program (depending on position), generous Parental leave benefits, and paid holidays.",
+              "qualifications": "3 to 6+ years of relevant law firm experience as outlined above. A bachelor’s or higher degree in Electrical Engineering, Computer Science, Physics, Chemistry, Biochemistry, Chemical Engineering, Mechanical Engineering or equivalent is preferred. Candidates must be highly motivated and possess excellent academic credentials along with superior writing and communication skills. Membership to the State Bar of the office of the state in which the candidate expects to be located is required.",
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "338e573a-2d90-4fb6-81a9-cfd5aeefba8b",
+    "url": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "Real Estate Associate / Special Counsel",
+              "job_description": "We are looking for special counsel or associates between classes of 2019 - 2014 to join our Real Estate Department in either NY or DC.  Candidate must have significant lender-side financing experience (construction loan experience preferred but not required) and be committed to focusing at least 60% of their time on lender-side work.",
+              "locations": "United States",
+              "salary_range": {
+                  "min": "295,000",
+                  "max": "$415,000",
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "2124f50c-3f61-4421-a71c-61f9d4b62bae",
+    "url": "https://jobs.cliffordchance.com/job/people-services-systems-senior-manager-in-london-jid-1549",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "JR-5218",
+              "website": "https://jobs.cliffordchance.com/job/people-services-systems-senior-manager-in-london-jid-1549",
+              "company_description": "We are one of the largest international law firms in the world. With over 30 offices across the globe, we strive to exceed the expectations of our clients, providing them with the highest-quality advice and legal insight, which combines the firm’s global standards with in-depth local expertise. Our firm, work and people span jurisdictions, cultures, and languages. We offer our clients a truly international perspective. We believe every career should be rewarding and stimulating - full of opportunities to learn, thrive, and grow. That’s why we’re so proud of our inclusive, friendly, and team-based approach to work. You’ll find our clients in commercial and industrial sectors, the financial investor community, governments, regulators, trade bodies, and not-for-profit organisations. But no matter who they are or why they’ve reached out to us, we provide a world-class service every step of the way. And that’s possible thanks to the entrepreneurial spirit and conscientious approach to work that you’ll find across all of our teams. Whichever area of the business you join, you’ll become an integral part an innovative, diverse and ambitious team of people. Clifford Chance is a place where the brightest minds and the best of colleagues meet.",
+              "level": null,
+              "department": "Human Resources",
+              "title": "People Services Systems Senior Manager",
+              "job_description": "You will have overall responsibility for ensuring the successful roll out and implementation of the Global HR Tech Roadmap.  Critical to your success will be the ability to build relationships with the Global HR Leadership Team (Chief People Officer, Regional HR Directors and Global Heads of the Communities of Expertise) and partner with them to advise on technical solutions to enable the cost-effective delivery of HR services to the firm and throughout the employee lifecycle. Solutions must align to our People & Talent Strategy, which underpins the firm's goals to attract, retain and develop exceptional talent.  Whilst our approach is global, we must ensure that our processes and employee experiences are as seamless as possible, driving self-service and optimising automation. This role straddles both the Global HR and Global IT functions and you will be working with functional stakeholders as well as solution architects and internal subject matter experts, to continually transform our HR operations globally. You will have line management responsibility for the People Services Systems Team, ensuring a high level of engagement and performance, fostering their ongoing development, and promoting a mindset of continual improvement.",
+              "locations": "London",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": "Permanent",
+              "date_posted": null,
+              "apply_url": "https://jobs.cliffordchance.com/Workflow?workflowId=47da03e4-ccf3-41e2-852f-8d04cd807fac&vacancyId=1549",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": "You will have previous experience of managing a team, including performance reviews and performance management. Previous experience of HRIS systems, including Workday, within a professional services or similar complex, matrix environment is preferred. Working experience of Workday, either through implementation or optimisation, with a focus on Talent & Performance, Advanced Compensation and Onboarding is advantageous. Knowledge of additional HR Systems such as Cornerstone on Demand, Smart Recruiters and other platforms supporting interactive systems training (such as Articulate and Camtasia), is preferred. Experience with HR Technology systems vendor management. Experience or exposure to having implemented or supported SaaS system.",
+              "preferred_qualifications": null,
+              "role": "Working within a global team, you will be responsible for the alignment, testing and implementation of new functional HR system processes, with the aim of optimising the end user experience, driving automation and self-service wherever possible.  As a member of our Global HR team, you’ll be promoting our company culture and People Strategy. Business Partnering & Process Improvement Partner with Global HR leadership, functional business owners and end users to gather business requirements and translate them into clearly written technical or procedural requirements. Proactively look for opportunities to improve processes, procedures and increase efficiencies throughout the employee experience lifecycle.  Globally scalable projects may include data and workflow management, performance and compensation administration, succession planning, onboarding, and learning and development. Act as the main point of contact for employee experience improvements and be able to articulate and demonstrate People Services system progression to stakeholders at meetings. Develop and deliver a continuous improvement plan for key HR systems and its processes, whilst suggesting opportunities for more significant developments e.g., system upgrades, expanded functionality and automation of manual elements of processes. Provide project support to the Global Head of People Services and the Global HR Product Manager. Work with the Global Head of People Services to ensure that financial discipline is maintained through regular budgetary oversight. Horizon scanning to ensure that advancements in service, technology and employee experience are at the forefront of our decision making.  Identifying future opportunities for implementation that support the People Strategy. System Management Working with the Global HR Product Manager, you will manage relationships with system providers to regularly discuss system improvements and update them on future business needs. Define requirements for system integrations and liaise with relevant technical teams to support implementation. Document system design and processes for governance, compliance, and general reference. Oversee testing, including but not limited to the creation of testing templates, UAT users query resolution and defect tracking. Serve as the escalation point for technical HR system matters that cannot be resolved by the Global HR Service Delivery Team.  Working with the Global HR IT Team to ensure timely resolution. Reporting & Data Management Ensure that consideration is given to any possible system changes that may impact the storing, reporting and transfer of employee data. Lead the development, introduction, and regular review of a standardised suite of people data reporting templates for use throughout Global HR. Work with the Global HR Analytics Team to ensure the distribution of data to internal stakeholders as required, with regular reviews to ensure data sets received continue to best achieve their intended purpose. Complete regular audits of system data to support the production of first-class management information for our senior leadership. Team Management Lead and supervise the day-to-day activities of the People Services Systems Team. Provide effective and ongoing feedback and support as required. Responsible for the team's performance, output, and deliverables.",
+              "skills": "Strong project management skills, with the ability to think strategically and handle non-routine problems, analysis, and decisions.  You will have strong attention to detail with a focus on ensuring data integrity. Good system acumen, with the ability to troubleshoot technical issues, as well as develop and implement strategies to address problem areas, with the employee experience at the forefront of solutioning. The ability to work in a fast paced and forward-looking organisation which requires pro-active thinkers, with initiative to help advance the People Strategy and the wider objectives of the firm. Strong interpersonal skills, with flexible and effective communication skills.  You will be able to communicate complex information to non-specialists. Ability to build strong working relationships with a variety of stakeholders across the business, including Global HR leadership and key business functions. Comfortable operating in a hybrid working environment with a high level of autonomy within a strategic framework.  Ability to work effectively with remote teams and stakeholders throughout the global network. Ability to balance creativity with business pragmatism, understanding what will be acceptable to the firm whilst always looking to optimise the employee experience.",
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "da356cac-9dbf-4795-9e7b-eb11f2644869",
+    "url": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/?mode=job-location",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "256",
+              "website": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/?mode=job-location",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "Project Assistant (Boston)",
+              "job_description": "Proskauer is an exciting place to be right now. With over 800 lawyers in 12 offices around the globe, we are the law firm that clients turn to when a matter is complex, innovative and game-changing in the world of sports, health care, life sciences, media & entertainment, technology, asset management and hospitality. Since 1875 we have been trusted by our clients because of the combination of our best-in-class practices and the strength of our industry knowledge. The Firm seeks an entry-level paralegal to assist attorneys and senior paralegals in all aspects of the transactional, labor and litigation processes.",
+              "locations": "Boston, United States",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": "Full time",
+              "date_posted": "10/25/2023, 06:34 AM",
+              "apply_url": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/apply/email?mode=job-location",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": "Recent college graduate with a B.A. or B.S. degree from a 4-year college. Academically accomplished with excellent organizational skills. Willing to make a two-year commitment. Available to work overtime when required, including evenings and weekends. Ability to work well under pressure in a collaborative environment and handle multiple tasks efficiently. Strong written and oral communication skills. Proficiency in Microsoft Outlook, Word, Excel, and PowerPoint. Foreign language skills are a plus.",
+              "preferred_qualifications": null,
+              "role": "Assisting attorneys with the preparation of pleadings, corporate documents, entity formations, contracts. Preparing, tracking and organizing witness materials, document productions, closing documents, signature pages, closing sets and filings. Coordinating court and government agency filings. Conducting statistical, factual and legal research and assembling data for analyses. Compiling, organizing and reviewing client documents. Preparing for and attending depositions, arbitrations, trials and closings. Maintaining case files, document databases and data rooms. Preparing audit letters for distribution to auditors and clients. Conducting UCC searches and preparing and filing UCC filings. Facilitating communication between clients and third parties.",
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+        }
+    ]
+},
+{
+    "id": "51444d56-f0b4-46fd-8052-200dfb743cce",
+    "url": "https://www.lwcareers.com/en/experienced-lawyers/united-states/associate-finance-project-finance-leveraged-finance",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": "https://www.lwcareers.com/en/experienced-lawyers/united-states/associate-finance-project-finance-leveraged-finance",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "Associate — Finance",
+              "job_description": null,
+              "locations": "San Diego",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "http://lawcruit.micronapps.com/lc_supp_app_frm.aspx?lawfirm=42&id=544",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": "The Finance Department of the San Diego office is seeking a highly qualified associate with a minimum of one year of transactional experience, preferably including experience in project finance or leveraged finance at a large national or international firm, to join our 2nd to 5th year associate class. The practice group represents investment banks and other financial institutions in their capacities as agents, arrangers, and lenders, as well as sponsors, borrowers, and private equity firms, in structuring and executing the most complex financings across industries and around the globe. This is an outstanding opportunity for attorneys with a transactional or finance background to join a dynamic project finance and leveraged finance practice in San Diego.",
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": "Minimum of 2 years",
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+          
+        }
+    ]
+},
+{
+    "id": "9cec7c4c-58a5-40bf-b131-12684c42f70e",
+    "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MW5HNA==&JobId=MW1mbG8lNDA=&at=OF9DRw==",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": "1013",
+              "website": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MW5HNA==&JobId=MW1mbG8lNDA=&at=OF9DRw==",
+              "company_description": null,
+              "level": "Associate",
+              "department": "Tax",
+              "title": "Tax Associate",
+              "job_description": "We are seeking a tax associate with two to four years of tax experience. Prior law firm experience preferred. We regularly represent issuers and underwriters in connection with the tax aspects of capital market transactions, including bank financings, securities offerings, exchange offers, tender offers, and consent solicitations. Experience in this area is preferred. Candidates must have excellent oral and written communication skills, a strong academic background and be admitted to the New York Bar. This is an excellent opportunity to join a leading, dynamic, and rewarding practice. More information about our practice can be found here.",
+              "locations": null,
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": "Wednesday, June 22, 2022",
+              "apply_url": "https://lawcruit.micronapps.com/sup/ApplicationForm.aspx?%3Eac^?LWCZ4dN=1`&QFBsMzxLV0VYQA%3d%3d=MW5HNA%3d%3d&QDFnXTpbVzc%3d=MW1mbG9A&PWI4=OF9DRw%3d%3d",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "77b9fc7f-b7fa-471c-97f0-bb77898e1a24",
+    "url": "https://stblaw.allhires.com/PositionDetail.aspx?id=412&a=&n=&returl=%2fDefault.aspx%3fb%3dd%26a%3d%26n%3d",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": "https://stblaw.allhires.com/PositionDetail.aspx?id=412&a=&n=&returl=%2fDefault.aspx%3fb%3dd%26a%3d%26n%3d",
+              "company_description": "Simpson Thacher & Bartlett LLP is one of the world’s leading international law firms. The Firm was established in 1884 and has more than 1,000 lawyers. Headquartered in New York with offices in Beijing, Brussels, Hong Kong, Houston, London, Los Angeles, Palo Alto, São Paulo, Tokyo and Washington, D.C., the Firm provides coordinated legal advice and transactional capability to clients around the globe.",
+              "level": null,
+              "department": "Admin",
+              "title": "Legal Secretary/Receptionist (Brussels)",
+              "job_description": "This role will provide a professional and proactive secretarial and front of house service to the Brussels office. This will involve a smooth running and effective telephone, reception and hospitality service to internal and external clients and visitors of the Firm. In addition, this role will provide a pro-active administrative service to assigned attorneys and business services teams, ensuring that the needs of the clients are met.",
+              "locations": "Brussels",
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": "Permanent",
+              "date_posted": null,
+              "apply_url": "https://stblaw.allhires.com/Login.aspx?id=412",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": "Providing general support to the Office Manager in Brussels Document photocopying, scanning printing, and faxing Maintaining archives and storage of information in iManage Entering timesheets Booking attorneys travel Assisting with conference room booking set-up when required Ordering couriers and taxis Collecting and opening mail Ordering and restocking stationery, kitchen, and office supplies Maintaining the tidiness and presentation of the conference room, office spaces, and kitchen Providing general support to the London anti-trust practice Supporting with Attorney expenses in Chrome River Liaising with secretaries in London and New York Outlook diary management Personal assistant tasks as required. Daily running of the reception function Processing all incoming calls and take accurate phone messages when required Welcoming all visitors and offering beverages Maintaining the tidiness and presentation of the reception area Providing temporary badges to visitors and maintaining the temporary badge log",
+              "skills": "Experience working in a legal firm is essential Excellent communication skills with attorneys, clients and other business services staff in multiple time zones (Asia, Europe, Americas) Having a certificate or diploma in a secretarial course level BAC+3 is preferable Word (Advanced level) Outlook (contacts/calendar) PowerPoint (basic knowledge) iManage Excel (basic knowledge) Ability to turn around documents swiftly but thoroughly Experience with automatic paragraph numbering Flexibility to do overtime as and when required Strong organisational skills Have the ability to work alone as well as have the ability to work well with others Language skills: Very good English Desirable: Fluency in French and/or Dutch",
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": "Full-time",
+              "tags": null
+          }            
+        }
+    ]
+},
+{
+    "id": "581317ca-cecf-4d90-b8e1-616b5ef7279a",
+    "url": "https://careers.wsgr.com/openings/san-francisco-ip-litigation-associate/",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": "https://careers.wsgr.com/openings/san-francisco-ip-litigation-associate/",
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "San Francisco IP Litigation Associate",
+              "job_description": "We are currently seeking a second to fourth year associate for the San Francisco office to litigate and try IP and technology-focused cases for a career. We handle trade secret, patent, copyright, and other technology-centered commercial disputes for Silicon Valley’s largest companies and cutting-edge start-ups. We have advanced the law repeatedly in key areas. We try cases. Candidates must have excellent academic credentials, as well as top-notch writing, speaking, fact development, and legal research skills. We work collaboratively and seek candidates to learn and run cases.  We prioritize early responsibility and leadership opportunities on our case teams.",
+              "locations": "San Francisco",
+              "salary_range": {
+                  "min": "$225,000",
+                  "max": "$295,000",
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "https://wsgrecruiting.viglobalcloud.com/viRecruitSelfApply/ReDefault.aspx?FilterREID=2&FilterJobCategoryID=2&FilterJobID=142",
+              "work_hours": null,
+              "job_benefits": "Work-from-home setup allowance Monthly wellness reimbursements 24/7 emotional and behavioral health support and virtual counseling Healthcare coverage for you and your same- or opposite-sex spouse/domestic partner and children up to age 26 Family-building benefits including IVF, adoption, surrogacy, and egg-freezing Paid parental leave Parenting support concierge and telemedicine Parents and caregivers resource group Career coaching for working parents In-home and center-based back-up childcare Tutoring and college coach for older children Health Savings Accounts with firm contribution Flexible spending accounts 401(k) retirement plan Pretax commuter and parking benefits Basic and supplemental life insurance Short and long-term disability Voluntary long term care insurance Voluntary critical illness, hospitalization, and accident insurance Relocation assistance Firm-paid CLE, bar review fees, and bar dues",
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+        }
+    ]
+},
+{
+    "id": "bdcd5b81-6245-415e-9fb4-ffb794665ddd",
+    "url": "https://legalrecruiting-cravath.icims.com/jobs/3017/2024-1l-summer-associate---position/job?mobile=false&width=2048&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
+    "source": "mhtml",
+    "category": "legal",
+    "subcategory": "attorney_job_listing",
+    "type": "fetch",
+    "fetch_id": "attorney_job_listing",
+    "evals": [
+        {
+            "type": "json_match",
+            "expected": {
+              "id": null,
+              "website": null,
+              "company_description": null,
+              "level": null,
+              "department": null,
+              "title": "2024 1L Summer Associate - Position",
+              "job_description": "We invite 1L students interested in participating in Cravath’s New York-based 2024 summer associate program to submit applications starting on November 15, 2023 (or thereafter based on your law school’s timing guidelines). Our 1L summer associates will have the option to participate in the Leadership Council on Legal Diversity (LCLD) 1L Scholars Program, which includes networking opportunities and a professional development summit.  LCLD is an organization of more than 350 in-house legal departments and law firms dedicated to creating a more inclusive and diverse legal profession. Summer associates are given work assignments similar to those given to our regular associates and can expect to experience a realistic view of the Firm and our practice. We look for candidates with records of strong academic achievement who reflect a wide range of backgrounds and share important qualities – creativity, excitement about the practice of law, a strong work ethic, and motivation and ability to excel. Summer Associates (both first‑ and second‑year law school students) are paid a weekly salary of $4,327. For more information about Cravath's summer program, please visit our website.",
+              "locations": null,
+              "salary_range": {
+                  "min": null,
+                  "max": null,
+                  "currency": null
+              },
+              "job_type": null,
+              "date_posted": null,
+              "apply_url": "https://legalrecruiting-cravath.icims.com/jobs/3017/2024-1l-summer-associate---position/job?mode=apply&apply=yes&in_iframe=1&hashed=-336119441",
+              "work_hours": null,
+              "job_benefits": null,
+              "qualifications": null,
+              "preferred_qualifications": null,
+              "role": null,
+              "skills": null,
+              "education": null,
+              "recruiter_email": null,
+              "application_deadline": null,
+              "language": null,
+              "employment_type": null,
+              "tags": null
+          }
+        }
+    ]
+},
+{
+  "id": "f2d58940-5512-4be5-95d2-3bac279352cb",
+  "url": "https://dlapiperus.referrals.selectminds.com/jobs/attorney-non-partnership-4813",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "23000647",
+            "website": "https://dlapiperus.referrals.selectminds.com/jobs/attorney-non-partnership-4813",
+            "company_description": "DLA Piper is, at its core, bold, exceptional collaborative and supportive. Our people are the backbone, heart and soul of our firm.  Wherever you are in your professional journey, DLA Piper is a place you can engage in meaningful work and grow your career.  Let’s see what we can achieve. Together.",
+            "level": null,
+            "department": null,
+            "title": "Attorney (Non-Partnership)",
+            "job_description": "DLA Piper is seeking an Attorney to join its Litigation group in either the Philadelphia or Short Hills office. The ideal candidate will have 3 to 6 years of experience with civil litigation in state and federal courts and excellent research, writing and analytical skills. Experience conducting and defending depositions, managing a case docket, and appearing in court is preferred. Candidates licensed to practice law in Pennsylvania and New Jersey are encouraged to apply. This is a non-partnership track position. Applications must include a resume, law school transcript, and writing sample.",
+            "locations": "Philadelphia, Pennsylvania",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "2 days ago",
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "While the specific job requirements of a DLA Piper position may vary depending upon scope of the job and area of specialty, there are certain universal requirements that are expected of all DLA Piper employees, which include but are not limited to: Effectively communicate, verbally and in writing, with clients, lawyers, business professionals, and third parties; Produce deliverables, answer phone calls, and reply to correspondence in an efficient and responsive manner; Provide timely, accurate, and quality work product; Successfully meet deadlines, expectations, and perform work duties as required; Foster positive work relationships; Comply with all firm policies and practices; Engage in both physical and sedentary activity, such as (a) working at a computer for extended periods of time, including on-screen reading and typing; (b) participating in digital/virtual conference calls; (c) participating in meetings as needed; Perform all other duties, tasks or projects as assigned. Our employees are expected to embrace and uphold our firm values as a part of our DLA Piper culture. We are committed to excellence in how we represent our clients and develop our people. Requirements Litigation experience in toxic tort and asbestos Excellent research, writing and analytical skills Admission to New York Bar is a plus",
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "ac8ce824-4f49-4d3c-b8bd-ed12bccbe749",
+  "url": "https://sidleyaustin.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=Mj46a29A",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "2503",
+            "website": null,
+            "company_description": null,
+            "level": null,
+            "department": "Global Finance, Litigation, M&A/PE-Private Equity, Real Estate, Restructuring, Tax, Transactional, Undecided",
+            "title": "Summer Associate - 1L",
+            "job_description": "The Greater Los Angeles offices of Sidley Austin LLP is not currently planning to hire first year law students for the 2024 Summer Program. However, you may submit your materials for consideration in the event that a position becomes available. Candidates should have exceptional academic credentials and a genuine passion for the law.",
+            "locations": "Century City",
+            "salary_range": {
+                "min": "$4,400",
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "Monday, December 11, 2023",
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": null,
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "afba7092-37bb-4e00-863e-9ef2ca1d7ffc",
+  "url": "https://whitecase.taleo.net/careersection/wc_external/jobdetail.ftl?job=230000XY&tz=GMT-08%3A00&tzname=America%2FLos_Angeles",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": "https://whitecase.taleo.net/careersection/wc_external/jobdetail.ftl?job=230000XY&tz=GMT-08%3A00&tzname=America%2FLos_Angeles",
+            "company_description": "White & Case is an elite global law firm serving leading companies, financial institutions and governments worldwide. Our long history as an international firm means we are perfectly placed to help our clients resolve their most complex legal challenges wherever they may be. With lawyers and staff operating from more than 47 locations, working in virtually every country of the world, we have invested heavily in building a high-quality full-service practice competing at the top of the market. We are distinguished by our on-the-ground presence in the world’s key financial markets and our strengths in handling complex cross-border work. It’s not just about our global network of offices and shared services centers; it’s the global interconnectedness of the Firm that our people, and our clients, value most. We work well together across geographic and practice boundaries. It’s one of the reasons we attract and retain cross-border work. And why we attract a diverse group of people. Our lawyers are globally minded, enterprising, collaborative and committed to excellence. Diversity is a core value of our Firm and it has been recognized with numerous awards and top rankings around the world. Our people represent 90 nationalities and speak 80 languages.",
+            "level": null,
+            "department": null,
+            "title": "Associate: International Trade - Americas",
+            "job_description": "We are currently looking for an associate with a specific skills set and experience to join our Washington, DC office. The candidate should have experience applying US export control laws and regulations to complex real-world scenarios. Working in a practice where you need to be both legally-minded and business savvy, you will need to be highly adaptable—willing to develop new areas of knowledge, and learn from both legal professionals and commercial analysts. Committed and responsive, you should be excited by the challenges of working on international matters and ready to respond to clients’ needs, wherever and whenever they’re working, adapting to time differences, and travelling to countries across the world. Strong communication, organizational and time management skills will also be significant assets, enabling you to manage multiple communication channels and workstreams, and to produce exceptional work within the short timeframes dictated by our clients’ schedules. A dedicated team player, you should balance a collaborative mindset with an independence of thought and action—an ability to proactively anticipate clients’ needs, and an eagerness to take full ownership of your work product.",
+            "locations": "Washington, DC",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "Dec 6, 2023, 6:45:36 AM",
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "3-6 years of relevant export controls experience, including knowledge of and experience applying the Export Administration Regulations (EAR) and the International Traffic in Arms Regulations (ITAR) Technical expertise in an engineering discipline or experience working in the areas of encryption, software, semiconductors, artificial intelligence, quantum computing, or emerging technologies is a plus. Strong academic record and intellectual curiosity, creative thinker Commercial and business awareness Ability to see the big picture Outstanding communication and negotiation skills Strong time management skills, ability to stay calm under pressure when juggling multiple projects Excellent drafting skills Driven by professional growth Strong professional presence Client service focus Team player Strong judgment Proactive, resourceful, takes initiative Long-term interest in business law Fluency in English International experience a plus Good understanding of the key risks and issues involved in cross-border transactions",
+            "preferred_qualifications": null,
+            "role": "Advise clients on a variety of regulatory matters, including compliance with export controls administered by the US Department of Commerce's Bureau of Industry and Security (BIS) and the US State Department's Directorate of Defense Trade Controls (DDTC). Advise on export classifications. Obtain CCATS and/or Commodity Jurisdictions (CJs). Obtain export licenses. Assist clients with managing ITAR registrations. Prepare TAAs/MLAs/WDAs. Prepare Voluntary Self-Disclosures. Analyze jurisdiction under the EAR (e.g., under the Foreign Direct Product Rules). Analyze encryption controls. Conduct complex research. Perform trade related M&A due diligence and risk assessments Communicate with clients (via telephone, E-mail; video; on-site). Draft legal memoranda on a broad range of topics arising under international trade law. Provide direct assistance to senior lawyers on matters arising in the course of day-to-day provision of legal services to leading international and domestic clients.",
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "1be45c61-0170-491d-a865-50612b5274d7",
+  "url": "https://virecruitselfapply.morganlewis.com/viRecruitSelfApply/ReJobView.aspx?Tag=90b1371e-561e-4b82-9987-cf459d510da4&JobID=406",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": null,
+            "company_description": "Morgan Lewis is a leading choice for businesses seeking protection of valuable intellectual property rights. The firm has more than 200 intellectual property professionals and technical specialists, and our Chicago office is widely regarded as a leader in providing strategic patent advice to startups and Fortune 500 companies alike. One of the major focuses of our office is patent prosecution and patent litigation in the life sciences, electrical & mechanical engineering, and computer science arts.",
+            "level": null,
+            "department": null,
+            "title": "Chicago - 2024 1L IP Fellow",
+            "job_description": "The Chicago office of Morgan Lewis seeks to hire a 1L IP Fellow for our 2024 Summer Associate Program.",
+            "locations": null,
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "•	Be enrolled full-time in an ABA-accredited law school with an anticipated graduation date of 2026. •	Have a life sciences background (e.g., molecular biology,  biochemistry, cellular biology) preferably a masters or Ph.D., or a background in electrical or mechanical engineering, computer science, or a related field. •	Have outstanding leadership skills, a strong work ethic, and a commitment to exceptional client service. •	Be genuinely interested in a career with Morgan Lewis’s IP practice. •	Patent Bar eligibility required. •	Be a US citizen or otherwise authorized to work in the United States.",
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "fd71f4d9-8601-4630-9b5b-2bceeb2a5f84",
+  "url": "https://hoganlovells.wd3.myworkdayjobs.com/en-US/Search/job/New-York/Marketing-and-Business-Development-Coordinator_R235640",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "R235640",
+            "website": "https://hoganlovells.wd3.myworkdayjobs.com/en-US/Search/job/New-York/Marketing-and-Business-Development-Coordinator_R235640",
+            "company_description": "Keen to become part of a truly global, collaborative team of professionals? Your journey begins here. Hogan Lovells is a leading global law firm providing business-oriented legal advise and high-quality service across its breadth of practices to clients around the world. Our Corporate & Finance Marketing and Business Development (M&BD) group is looking for an enthusiastic self-starter to support our team as a C&F M&BD Coordinator in our New York office. This position will encompass the full range of marketing, communications, and business development activities working with business development colleagues, lawyers, and other key internal stakeholders in the U.S. and across the globe.",
+            "level": null,
+            "department": null,
+            "title": "Marketing and Business Development Coordinator",
+            "job_description": null,
+            "locations": "New York",
+            "salary_range": {
+                "min": "$61,050",
+                "max": "$75,250",
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": "https://hoganlovells.wd3.myworkdayjobs.com/en-US/Search/job/New-York/Marketing-and-Business-Development-Coordinator_R235640/apply",
+            "work_hours": "Core hours are Monday through Friday, 9:00 a.m. to 5:30 p.m., including lunch hour. Must be flexible to work additional hours if necessary.",
+            "job_benefits": null,
+            "qualifications": "Two (2)+ years marketing experience in a professional services, corporate or agency environment preferred. BS or BA degree in business, marketing, communications or related field is preferred. Excellent attention to detail. Strong organizational skills and an ability to prioritize and complete simultaneous projects with minimal supervision. Experience with InDesign is highly desirable. Experience working independently, as well as within cross-functional teams, in a collaborative, professional environment. Demonstrated written and oral communication skills. An ability to meet deadlines and work well under pressure. Enthusiasm and dedication to the development of a professional services marketing career. Sound professional judgment.",
+            "preferred_qualifications": null,
+            "role": "Creating and editing responses to Requests for Proposals (RFPs), customized pitches, and business development presentations (in Word, PowerPoint, and InDesign). Coordinating and developing submissions for key awards and directories, including Chambers and The Legal 500. Collecting and organizing representative matters, client, and industry lists for use in marketing materials and standardized credentials. Conducting research and compiling information regarding existing and prospective clients, competitor activity, and industry or market trends, to aid in the development of marketing plans, presentations, and proposals. Assisting in the production, editing and mailing of client updates, internal promotional memos, and other internal and external communications. Coordinating the regular update of web and print marketing content, including practice area descriptions, attorney biographies, and related news items. Coordinating client programs and sponsorships, including creating and distributing invitations; overseeing internal / external advertising; developing PowerPoint presentations, seminar materials, and handouts; working at, or attending, the event (whether live or virtual); measuring return on investment; and ensuring participant follow-up. Supporting the development and implementation of strategic plans. Providing support on other strategic business development and promotional initiatives as needed. All members of the firm are expected to participate in our Global Citizenship program. Other duties as assigned.",
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": "Full time",
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "fc228e48-3786-42df-a6cc-c76ef9c3b3dd",
+  "url": "https://jobs.jobvite.com/gtlaw/job/ov4Tnfwz",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": "https://jobs.jobvite.com/gtlaw/job/ov4Tnfwz",
+            "company_description": null,
+            "level": "Attorney",
+            "department": null,
+            "title": "Biotech IP Associate or Patent Agent (Mid-Senior) - Boston",
+            "job_description": "Greenberg Traurig is seeking an IP associate to join its dynamic Boston Intellectual Property group, which has experienced unprecedented growth over the past year.   We are looking for a candidate with a strong technical background in the biological sciences, and a commitment to providing exceptional client service.  The ideal candidate will have three (3) to eight (8) years of relevant experience drafting and prosecuting patent applications, evaluating patent portfolios, and performing due diligence investigations. The position is location flexible and we are open to considering candidates in various GT offices.",
+            "locations": "Hybrid Remote, Boston, MA  Miami, FL  Fort Lauderdale, FL  Philadelphia, PA  Florham Park, NJ  Dallas, TX",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": "https://jobs.jobvite.com/gtlaw/job/ov4Tnfwz/apply",
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "Candidates should be registered to practice before the U.S. Patent and Trademark Office A Ph.D. in Biology, Molecular Biology, Cell Biology, Biochemistry, Immunology, or a related discipline is required. Experience in a law firm is desirable. Candidates must have excellent academic credentials, as well as outstanding organizational and communication skills (written and oral) Candidates should possess leadership skills, be comfortable working directly with clients and work well with others.",
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "508b6c90-bba4-4970-a9c2-59521fbc66c5",
+  "url": "https://nrf.wd3.myworkdayjobs.com/en-US/External/job/Analyst--HRIS_R-790",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "R-790",
+            "website": "https://nrf.wd3.myworkdayjobs.com/en-US/External/job/Analyst--HRIS_R-790",
+            "company_description": null,
+            "level": null,
+            "department": null,
+            "title": "Senior Analyst, HRIS",
+            "job_description": "We are a global law firm with a powerful strategic focus and real momentum. Our industry-focused strategy is seeing us take on pioneering work in places that others have yet to reach. Our shared values define our culture and our workplace. You will find us to be unusually collegial, team-oriented, and ready to innovate. We work seamlessly across practices, offices and around the world. This elimination of boundaries has allowed us to evolve into a law firm that works as hard for its culture as it does for its clients. The Senior Analyst, HRI will support the HRIS Manager with reports, data integrity and system level maintenance of all Firm HR systems (HCM, Benefits, Security, Integrations, Payroll, Time and Absence, Recruiting, Prism, Performance Management, etc.). This position requires analytical, statistical, and interpersonal skills, and operational knowledge of software and hardware. The ideal candidate will bring experience with Workday Business Process configuration security and integrations, functional HR knowledge, and the ability to work with a variety of reports and analytics. This position reports to the HRIS Manager in Houston, Texas.",
+            "locations": "Houston, Texas, USA Dallas, Texas, USA Austin, Texas, USA San Antonio, Texas, USA",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "Posted Yesterday",
+            "apply_url": "https://nrf.wd3.myworkdayjobs.com/en-US/External/job/Analyst--HRIS_R-790/apply",
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "Minimum of five years of experience working with Workday Bachelor’s degree or equivalent strongly preferred Experience and intermediate knowledge of Excel required Knowledge and experience with Workday security, integrations Prism, and benefits strongly preferred Knowledge of SQL, Crystal Reports and Power BI is a plus Additional functional experience with human resources and its related functional areas is strongly preferred Must display exceptional judgment and confidentiality Excellent verbal and written communication skills Extremely detail oriented with high standards for accuracy and precision Ability to exhibit conscientiousness, dedication, and establish strong work relationships",
+            "preferred_qualifications": null,
+            "role": "Assign security roles, troubleshoot issues, and perform impact assessments Troubleshoot data, system integrations issues and perform impact assessments; work with IT, vendors, and internal users to resolve issues Diagnose business process configuration issues and correct Assist subject matter experts with testing of system changes and analyzing data flows for process improvement opportunities Develop, maintain and support a variety of reports utilizing appropriate reporting tools Respond to data requests; interface with other departments, responding to reporting needs and providing HR data to facilitate survey completion Communicate accurately, timely and professionally to employees, managers, and other team members Maintain data integrity in systems by running audits and analyzing data Maintain a detailed understanding and working knowledge of the current HR system, its functions and its relationship to other information systems within the firm Maintain documentation and provide training to end users; and Additional related duties as assigned by the HRIS Manager",
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": "Full time",
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "04cb9cfa-dce1-4d43-b945-6be1d1cebd62",
+  "url": "https://jobs.phextranet.com/PH-Attorney/viRecruitSelfApply/ReJobView.aspx?Tag=078ee4fb-dec5-4789-8f29-5bb4b706a345&JobID=319",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": "https://jobs.phextranet.com/PH-Attorney/viRecruitSelfApply/ReJobView.aspx?Tag=078ee4fb-dec5-4789-8f29-5bb4b706a345&JobID=319",
+            "company_description": null,
+            "level": null,
+            "department": null,
+            "title": "2024 1L LCLD Scholar (Los Angeles)",
+            "job_description": "Paul Hastings is excited to partner with Disney to host a 1L LCLD Scholar in Los Angeles. The 1L scholar will split their summer between the Los Angeles office of Paul Hastings and Disney in Burbank, CA. At Paul Hastings, our 1L Scholar will participate in the Summer Associate Program.  The Summer Associate Program serves as a cornerstone not just for the recruitment of outstanding associates, but for the future success of our firm. During the program, summer associates in each of our U.S. offices have the opportunity to work on several projects with different lawyers in a variety of practice areas. Summer Associates also observe and, when possible, assist in trials, hearings, depositions, and negotiations, and participate in client meetings and closings. At Paul Hastings, we aim to provide you with a realistic view of practicing law and from day one, give you the tools to take ownership of your career. We are committed to the professional development and career aspirations of our associates.  We encourage coaching conversations at the earliest stages of an associate's career and provide development programs to help you navigate your path, whether it leads you to partnership, in-house with a client, a position in government, or with another organization.",
+            "locations": null,
+            "salary_range": {
+                "min": "$4,327",
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "• Are enrolled full-time at an ABA-accredited law school • Demonstrate a commitment to promoting diversity in the legal profession and contributing to the diversity goals of both Paul Hastings and Disney as a result of background, experience, personal attributes or characteristics",
+            "preferred_qualifications": null,
+            "role": "• Substantive and challenging work assignments, including Pro Bono matters • Mentoring from partners and associates • Collaborative work environment • Writing skills training • Guidance and detailed feedback on work product • Opportunities to network at various social events • Interactive training workshops including M&A and deposition skills",
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "24dbdb56-bbda-44dd-a63b-25ab350588e5",
+  "url": "https://recruiter.reedsmith.com/viRecruitSelfApply/ReJobView.aspx?Tag=c29b8161-994c-4545-972a-f8148a75e305&JobID=1",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": "https://recruiter.reedsmith.com/viRecruitSelfApply/ReJobView.aspx?Tag=c29b8161-994c-4545-972a-f8148a75e305&JobID=1",
+            "company_description": "Reed Smith is a global relationship law firm with more than 1,700 lawyers in 30 offices throughout the United States, Europe, Asia and the Middle East. Founded in 1877, the firm represents leading international businesses, from Fortune 100 corporations to mid-market and emerging enterprises. Its lawyers provide litigation and other dispute resolution services in multi-jurisdictional and other high-stakes matters; deliver regulatory counsel; and execute the full range of strategic domestic and cross-border transactions. Reed Smith is a preeminent advisor to industries including financial services, life sciences, health care, advertising, entertainment and media, shipping and transport, energy and natural resources, real estate, manufacturing, technology, and education. For more information, visit reedsmith.com.",
+            "level": null,
+            "department": null,
+            "title": "Chicago - IT Site Supervisor (Onsite)",
+            "job_description": "Under the direction of the Regional Manager of IT Operations, this position is responsible for the overall System Operations and Support functions in office(s) of responsibility.  This includes supervising the System Administrators and Deskside Support Specialists, overseeing day-to-day operations, ensuring the completion of necessary recordkeeping, submitting reports as necessary, and guaranteeing adequate levels of support to users and peers.  In addition, this position assists the Regional Manager of IT Operations with special projects, research, and improvement initiatives, coordinating with supervisors, managers, and business managers as necessary. Additionally, access to our U.S. offices will be limited to personnel who are fully vaccinated from COVID-19. If you believe that you require an accommodation to this policy because of a medical, religious or other reason, please let us know at the time of your interview so that a reasonable accommodation can be discussed.",
+            "locations": null,
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": null,
+            "preferred_qualifications": null,
+            "role": "Oversee day-to-day operations of the Support and Operations functions, including, but not limited to:  managing coverage schedules; selecting staff and providing work assignments; directing the work of staff; setting priorities and coordinating their activities; evaluating and verifying employee performances through performance evaluation techniques and identifying and ensuring staff development programs;; providing direction with regard to troubleshooting applications and operations. Ensure that the highest level of customer service is provided to users in regards to support, and system administration/operations. Accomplish Regional IT objectives by forecasting requirements; preparing an annual budget wish list; spending in time all approved budget line items. Maintain quality service by establishing and complying with firm standards, systems, policies, and procedures. Supervise the System Administrators and Deskside Support Specialists, including:  monitoring performance and attendance; problem solving; oversight of day-to-day activities; ensuring travel duties are distributed equitably; and ongoing development/training. Supervise and provide support on various hardware, including printers, telephones, SmartPhone devices, dictation devices, mobile PCs, desktops, monitors, and other peripherals.  This includes preparation and installation of mobile PCs  and desktops and working with vendors to maintain/fix equipment. Maintain staff by recruiting, selecting, orienting, and training employees; maintaining a safe and secure work environment; developing personal and staff growth opportunities. Oversee and work with HR/Recruiting to initiate and guide New Hires through IT eLearning courses with assistance from the System Administrators and Deskside Support Specialists.  Provide technical support, directly and through System Administrators and Deskside Support Specialists, to users, including installing, configuring, and maintaining hardware and software to accommodate user needs.  Provide assistance in troubleshooting computer hardware, software, networking, and data communication technologies. Monitor and supervise tickets in HEAT (the call tracking system) in a timely manner per departmental guidelines.  Coordinate with System Administrators and Deskside Support Specialists to update and close tickets, and assign tickets to others as appropriate. Ensure proper notification to users for all systems problems and events, including scheduled and unscheduled downtime.  Prepare Environment Change requests for approval, send user notices, bulletins, and newsletters.  Ensure that the Regional Manager of Operations and/or other management personnel are notified of important issues or unusual circumstances. Maintain extensive knowledge of all firm operating systems and applications in order to assist in the planning, testing and implementation of various software systems and other initiatives and to evaluate the users’ needs. Assist in the testing of application upgrades and new applications prior to deployment. Regularly confer with colleagues to ensure consistency of services provided, efficient pooling of resources and foster opportunities for information sharing and brainstorming. Oversee the maintenance of hardware and software inventory and computer room equipment to ensure systems and applications availability. Maintain and occasionally identify server-based application updates (less operating system) to include, but not limited to, virus protection software. Provide direct support to users as necessary or otherwise appropriate. Coordinate special projects relating to acquisitions, office and department moves, software and hardware deployment, and special training initiatives. Organize and participate in secretarial and management meetings to gather feedback on the applications in place to determine how IT can best meet user needs and evaluate the level of customer service being provided. Interact with appropriate IT and Human Resource staff regarding areas of employee selection, assimilation, development, performance management, and retention. Foster an environment of collaboration, personal investment, accountability, and knowledge sharing. Ensure the ongoing development of Support and Operations personnel and encourage continuing education and expansion of industry knowledge among personnel. Maintain a neat, organized, clean, and safe work environment. All other duties as assigned. May volunteer or be selected to serve on special committees, work groups, project teams, or escalation teams related to various firmwide S&T initiatives.  Initiatives may be specific one-time events (e.g., research, testing, rollouts, upgrades, installations) or ongoing activities.",
+            "skills": "Extensive knowledge of PCs, MS Office 2010 Suite, Document Management systems such as iManage, and desktop operating systems (Windows 2010).  Excellent communication and interpersonal skills and ability to interact effectively with all organizational levels as well as vendors and others outside the firm.  Possess a customer focus and a track record of providing the highest level of customer service.  Able to effectively manage multiple priorities and adapt to constantly changing priorities.  Strong organization, communication, leadership, problem solving, and presentation skills.  Demonstrated initiative in project management.  Understanding and serving others are important attributes in this position.  Ability to develop and motivate people and create a positive team environment.  Able to manage people, time, and resources to accomplish goals.  Able and willing to travel occasionally via car, train, and airplane.",
+            "education": "Bachelor's Degree in IT discipline or related discipline or equivalent experience.  Additional training/certification in relevant technologies preferred. Eight years experience in a Support and Operations function; supervisory experience required.  Experience in law firm or other service environment a plus.",
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "93e37aae-0d6a-4d75-987f-7f87b5f0b5f2",
+  "url": "https://akingumpselfapply.viglobalcloud.com/viRecruitSelfApply/ReJobView.aspx?Tag=cbc53bb9-0aa1-4e41-a49a-c3d37b962417&JobID=596",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": null,
+            "company_description": null,
+            "level": null,
+            "department": null,
+            "title": "Dallas Office - Investment Funds Associate",
+            "job_description": "Our Investment Funds practice group seeks an investment funds associate with four to six years’ private funds experience.  Candidates with sovereign wealth clients and other investor-side experience would be a plus. We are hiring to meet the increased demand from existing clients and to take advantage of additional growth opportunities.",
+            "locations": null,
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "Candidate must exhibit Akin’s core values: future-focused, diversity-minded, dedicated to excellence, service-oriented and collaborative. Stellar academic credentials and comparable law firm experience are required.",
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "70f77131-165b-4e8f-b79e-3262b5e21435",
+  "url": "https://klgates.recsolu.com/jobs/6GiAlLyRQfkoQeV3t6FKDg?job_board_id=o8D4HDBB0N8jcVnRfV263g",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": null,
+            "website": "https://klgates.recsolu.com/jobs/6GiAlLyRQfkoQeV3t6FKDg?job_board_id=o8D4HDBB0N8jcVnRfV263g",
+            "company_description": "K&L Gates is a fully integrated global law firm with lawyers located across five continents in more than 40 offices. We have experienced dramatic growth in the past decade and now rank among the largest U.S. based law firms in the world.  We take pride in constantly striving for innovation, imagination and an entrepreneurial spirit. We come up with big ideas and then roll up our sleeves to get the job done, guiding our clients through their most complex issues in a variety of industry sectors and across multiple regions of the world. The industry recognition the firm has garnered emanates from the foundation of a global community aligned on behalf of our clients. The people at K&L Gates are committed to working together to create a legacy for each other, the firm, our clients, and the communities in which we serve. We thrive in an inclusive and socially conscious environment that embraces diversity and takes a holistic approach to the career evolution of all our professionals. For more information or to view other job opportunities, please click here to go back to our careers page. Notice: We participate in E-Verify in certain Firm locations for purposes of verifying employment eligibility.",
+            "level": null,
+            "department": "Lawyers",
+            "title": "Fort Worth Oil, Gas, and Resources Special Projects Lawyer 2",
+            "job_description": "At K&L Gates, we are looking for smart, imaginative and hard-working people with diverse backgrounds, experiences and ideas to join us.  Perhaps our search for talented visionaries and your search for important and impactful work lead to the same place. We are seeking to hire a Special Projects Lawyer to join the Oil, Gas & Resources practice in our Fort Worth office. The ideal candidate will have a strong commercial litigation background. Experience working in energy is desired but not required. The candidate will be exposed to various energy litigation matters, including eminent domain and upstream oil and gas litigation issues involving lease disputes and real property rights. Candidates must be self-starters who possess the ability to work independently and as part of a team. We require strong academic credentials, excellent communication skills, and a commitment to providing the highest quality client service. Search firm submissions will not be accepted for this position. Please contact Emily Falconer, Senior Legal Recruiting Regional Manager, at emily.falconer@klgates.com with any questions. Base Compensation $115.00 - $140.00 / hour The compensation for this position will be determined during the interview process and will vary based on multiple factors, including but not limited to prior experience, relevant expertise, current business needs, and market factors.",
+            "locations": "Ft. Worth",
+            "salary_range": {
+                "min": "$115",
+                "max": "$140",
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": "https://klgates.recsolu.com/external/requisitions/6GiAlLyRQfkoQeV3t6FKDg/apply?locale=en",
+            "work_hours": null,
+            "job_benefits": "K&L Gates offers our personnel a comprehensive suite of benefits to help meet your needs now and in the future. Depending on your eligibility, options for full-time personnel include: Medical/Prescription Drug Coverage (including a Health Savings Account feature) Back-up Child/Elder Care and access to a caregiving concierge Dental Insurance Wellness Program Vision Insurance Pre-tax Commuting Benefits 401(k) Retirement Plan and Profit Sharing Business Travel Accident Insurance Short- and Long-term Disability Protection Pet Insurance Life Insurance (including Basic, Supplemental, Spouse, Child, and Accidental Death and Dismemberment) Health Advocacy Services Paid Time Off (20 days/year through first 4 years of employment; 25 days/year after 5 years of employment) Identity Protection/Restoration and Fraud Insurance Parental Leave (18 weeks of which 6 are paid; short-term disability may provide additional paid time off) Student loan refinancing options and access to a student loan concierge service Paid Holidays (12) Addiction Resources Family Building Benefits Breast Milk Delivery and Lactation Support Services Flexible Spending Accounts Employees also may be eligible to receive bonuses and certain expense reimbursements Employee Assistance Program Professional Development and CLE Credit Opportunities 529 Deductions Relocation Accident Insurance Employee Referral Program Critical Illness Insurance Hybrid/Remote Work Opportunities Hospital Indemnity Insurance Perks including: Technology, Entertainment, and Travel Discount Programs Bereavement Leave All other benefits (such as leaves of absence) required by law",
+            "qualifications": null,
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": "emily.falconer@klgates.com",
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "8136878b-ed16-4402-a893-6644e0a67ae5",
+  "url": "https://perkinscoie.wd1.myworkdayjobs.com/en-US/perkinscoieexternal/job/Commercial-Litigation-Associate---Junior-to-Midlevel_R0004802",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "R0004802",
+            "website": "https://perkinscoie.wd1.myworkdayjobs.com/en-US/perkinscoieexternal/job/Commercial-Litigation-Associate---Junior-to-Midlevel_R0004802",
+            "company_description": "Perkins Coie LLP is a leading international law firm and has been listed on Fortune’s Best Places to Work for 21 consecutive years. We’ve created a dynamic firm culture that is based on collaboration, dedication to serving our clients, and mutual respect. We are regularly recognized for our leadership on diversity and inclusion in the legal industry and our dedication to creating a workplace culture where all employees have the opportunity to grow and reach their full potential.",
+            "level": null,
+            "department": null,
+            "title": "Commercial Litigation Associate - Junior to Midlevel",
+            "job_description": "Perkins Coie is seeking a lateral litigation associate for the Portland office with outstanding credentials and 2 to 4 years of experience in civil or complex business litigation. Experience may include a judicial clerkship, which is encouraged.  Successful candidates will be eager to practice law at a high level, committed to professionalism and excellence, and have a strong work ethic, distinctive academic credentials, superb written and oral advocacy skills, and excellent references.  Experience with large and sophisticated litigation matters and e-discovery is a plus. The commercial litigation practice consists of the representation of a wide range of businesses and individuals in federal and state court proceedings and alternative dispute resolution venues.  This is an excellent opportunity to join a collegial environment and work closely with experienced, collaborative practitioners on a local and national level. To apply, please access the link above and attach your cover letter, resume, law school transcripts, references, and a brief writing sample.  Principals only.",
+            "locations": "Portland, OR",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "Posted 2 Days Ago",
+            "apply_url": "https://perkinscoie.wd1.myworkdayjobs.com/en-US/perkinscoieexternal/job/Commercial-Litigation-Associate---Junior-to-Midlevel_R0004802/apply",
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": null,
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": "Full time",
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "3d7e2df9-ba3b-4d82-b035-0d83619d96bb",
+  "url": "https://fsr.cvmailuk.com/spb/main.cfm?page=jobSpecific&jobId=68936&rcd=1435190&queryString=srxksl%3D1&srxksl=1",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "ATL4348",
+            "website": "https://fsr.cvmailuk.com/spb/main.cfm?page=jobSpecific&jobId=68936&rcd=1435190&queryString=srxksl%3D1&srxksl=1",
+            "company_description": "Squire Patton Boggs is a full-service global law firm providing insight at the point where law, business and government meet, giving you a voice, supporting your ambitions and achieving successful outcomes. With over 1,500 lawyers spanning more than 40 offices across four continents, the firm is renowned for its local connections and global influence, delivering comprehensive legal services across North America, Europe, the Middle East, Asia Pacific, and Latin America. Squire Patton Boggs is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion or creed, sex, national origin, citizenship status, sexual orientation, gender identity, disability, veteran status, or any other condition protected by applicable law. This non-discrimination policy applies to all aspects of employment.",
+            "level": null,
+            "department": null,
+            "title": "Litigation Senior Attorney",
+            "job_description": "The Atlanta office of Squire Patton Boggs (US) LLP is seeking a Litigation Senior Attorney with a minimum of 8 years of experience in class action and complex commercial litigation to join its sophisticated litigation practice and be part of a highly collaborative team. The individual hired for this position will support and work directly with numerous partner-level litigators handling complex commercial, class action, and business litigation (including arbitrations and mediations) in a dynamic, exciting, and cutting-edge environment. This is a non-partnership track position.",
+            "locations": "Atlanta",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": null,
+            "apply_url": "https://fsr.cvmailuk.com/spb/applying.cfm?rcd=1436034&job_Id=68936",
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": null,
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": "Experienced in all substantive areas of complex litigation including: legal research, drafting written discovery, motion practice (dispositive and trial related motions, pleadings and briefs), court appearances, mediations, arbitration, client and witness interviews, trial preparation. Experience/working knowledge of federal and Georgia state civil procedure. Experience managing large teams of junior attorneys and paralegals. Strong organizational, reasoning and research skills; excellent written and verbal communication abilities; good judgment; attention to detail; initiative. Stand-up experience in court required. Flexibility, composure and the ability to prioritize and handle urgent tasks and requests simultaneously with a high level of competence and accuracy; the ability to remain composed and professional under stressful circumstances; commitment to ethical and confidentiality requirements; strong client service skills. Ability to work without constant supervision, demonstrating initiative in seeking work and managing work load; active in formulating and recommending projects or alternative ways to complete projects that will benefit the case/client. A background in business consulting, finance, economics or accounting is a plus. Class action experience is also a plus. Must be a self-starter, have the ability to prioritize workload; display good judgment and work well under pressure.",
+            "education": "Must be admitted to the Georgia bar. Excellent credentials. At least 8 years of current experience working in a law firm specializing in complex commercial and business litigation.",
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": "Full Time",
+            "tags": null
+        }
+      }
+  ]
+},
+{
+  "id": "05cee383-8eb1-4946-a4c9-7d9a1de2ff8e",
+  "url": "https://mcguire.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=Mj47M25g",
+  "source": "mhtml",
+  "category": "legal",
+  "subcategory": "attorney_job_listing",
+  "type": "fetch",
+  "fetch_id": "attorney_job_listing",
+  "evals": [
+      {
+          "type": "json_match",
+          "expected": {
+            "id": "2581",
+            "website": "https://mcguire.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=Mj47M25g",
+            "company_description": null,
+            "level": null,
+            "department": "Healthcare",
+            "title": "Healthcare Transactional Counsel",
+            "job_description": "Join one of the largest and most established national healthcare teams in the country.  This team embraces diverse perspectives, impeccable service and innovative delivery of business-minded healthcare solutions.  We believe that mentorship, training and collaboration maximize professional growth and performance.   As part of a leading law firm, your healthcare expertise will contribute to the direction and vision for key clients across the health care industry. Our healthcare group and individual lawyers from across the country have been ranked by Chambers USA, Best Lawyers in America, Legal Elite and Super Lawyers as among the top legal providers in the nation.   We are regularly sought out for our opinions and insights on healthcare issues by industry journals and major news organizations ranging from The Daily Law Bulletin and American Health Lawyers, to Medical Laboratory Observer, MSNBC and HFM (a publication of the Healthcare Financial Management Association). Our clients recognize the value of our depth in regulatory, litigation and transactional matters, and come to us from all critical sectors of the healthcare industry to advise private equity funds, academic medical centers, ambulatory surgery centers, assisted-living and long-term care facilities, dialysis centers, hospitals and hospital systems, hospices, imaging facilities, clinical laboratories, nursing homes, management service organizations (MSOs), physician-hospital organizations (PHOs), pharmacies and specialty medical clinics, as well as medical staff organizations and medical, healthcare and related trade associations. We also represent venture capital firms, commercial banks, specialty lenders, investment bankers and individual investors in healthcare-related transactions. Along with excellent benefits, McGuireWoods offers our attorneys a competitive salary with hours and merit bonus opportunities, billable hours credit for pro bono work, and a hybrid in office/remote option allowing flexibility and work-life balance.",
+            "locations": "Charlotte, NC",
+            "salary_range": {
+                "min": null,
+                "max": null,
+                "currency": null
+            },
+            "job_type": null,
+            "date_posted": "Wednesday, December 20, 2023",
+            "apply_url": null,
+            "work_hours": null,
+            "job_benefits": null,
+            "qualifications": "Successful candidates will have 7+ years of transactional experience. We are specifically seeking candidates with experience and an interest in continuing or building a practice around healthcare transactional work, with a focus on private equity transactions. Candidates with experience in the foregoing with other complimentary areas of experience should also apply. Prior employment in a sophisticated law firm environment and healthcare experience in particular is favored. Excellent academic credentials and solid writing skills are required. Applicants should be admitted to practice in the state they are applying for.",
+            "preferred_qualifications": null,
+            "role": null,
+            "skills": null,
+            "education": null,
+            "recruiter_email": null,
+            "application_deadline": null,
+            "language": null,
+            "employment_type": null,
+            "tags": null
+        }
+      }
+  ]
+}
 ]
