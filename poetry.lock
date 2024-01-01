@@ -1683,13 +1683,13 @@ widechars = ["wcwidth"]
 
 [[package]]
 name = "tarsier"
-version = "0.5.1"
+version = "0.5.6"
 description = "Vision utilities for web interaction agents"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "tarsier-0.5.1-py3-none-any.whl", hash = "sha256:ceea24009613ff4ecee336dfbd7bfb7594fe518b4e16f85739325343ec357890"},
-    {file = "tarsier-0.5.1.tar.gz", hash = "sha256:f85966cd7a68790396a0451748103a7d96c8a8ebd11979d218226768939dffe2"},
+    {file = "tarsier-0.5.6-py3-none-any.whl", hash = "sha256:4348b9e31f519f0d3788a64bf14de31e661e381a2aaae3b1c347758545f6cbf0"},
+    {file = "tarsier-0.5.6.tar.gz", hash = "sha256:897cf226c9a015ac0560f5ef707394249d099e8ad1d1d4644bb17803ec3143ee"},
 ]
 
 [package.dependencies]
