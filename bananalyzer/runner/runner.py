@@ -130,7 +130,7 @@ def run_tests(
             + (["-s"] if pytest_args.s else [])
             + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
             + (["-q"] if pytest_args.q else ["-vvv"])
-            + [f"--junitxml={str(report_path)}"]
+            + [f"--junitxml={pytest_args.xml}"] * bool(pytest_args.xml)
         )
 
         return pytest.main(args, plugins=[(BananalyzerPytestPlugin())]), report_path

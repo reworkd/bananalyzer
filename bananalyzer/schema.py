@@ -9,6 +9,7 @@ class PytestArgs(BaseModel):
     s: bool
     n: Optional[int]
     q: bool
+    xml: Optional[str]
 
 
 class Args(BaseModel):
@@ -32,3 +33,6 @@ class Args(BaseModel):
 class AgentRunnerClass(BaseModel):
     class_name: str
     class_path: str
+
+
+MARKER_PREFIX = "bananalyzer_"

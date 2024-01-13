@@ -4,6 +4,8 @@ import pytest
 from _pytest.terminal import TerminalReporter
 from tabulate import tabulate
 
+from bananalyzer.schema import MARKER_PREFIX
+
 
 def print_field_data(
     terminalreporter: TerminalReporter, results: dict[str, dict[bool, int]]
@@ -84,13 +86,9 @@ class BananalyzerPytestPlugin:
         )
         total_tests = total_passed + total_failed
 
-        if "field" in results:
-            terminalreporter.write_line("Field Results:")
-            print_field_data(terminalreporter, results["field"])
-
-        if "class" in results:
-            terminalreporter.write_line("Class Results:")
-            print_field_data(terminalreporter, results["class"])
+        for key, value in results.items():
+            terminalreporter.write_line(f"{key.capitalize()} Results:")
+            print_field_data(terminalreporter, value)
 
         table_data = {
             "Total Tests": total_tests,
@@ -113,3 +111,10 @@ class BananalyzerPytestPlugin:
                 record_property(key, accessor())
             except Exception:
                 pass
+
+        for mark in [
+            mark
+            for mark in request.node.iter_markers()
+            if mark.name.startswith(MARKER_PREFIX) and len(mark.args) == 1
+        ]:
+            record_property(mark.name[len(MARKER_PREFIX) :], mark.args[0])

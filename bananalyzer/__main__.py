@@ -151,6 +151,12 @@ def parse_args() -> Args:
         default=None,
         help="The number of times to run an individual test. Won't work for detail pages",
     )
+    parser.add_argument(
+        "--junitxml",
+        type=str,
+        default=None,
+        help="The path for the junitxml report file",
+    )
 
     args = parser.parse_args()
 
@@ -177,6 +183,7 @@ def parse_args() -> Args:
             s=args.s,
             n=args.n,
             q=args.quiet,
+            xml=args.junitxml,
         ),
     )
 
@@ -322,18 +329,6 @@ def main() -> int:
     exit_code, report_path = run_tests(
         tests, agent, args.pytest_args, args.headless, args.single_browser_instance
     )
-
-    if args.token:
-        with open(report_path, "r") as fp:
-            res = requests.post(
-                "http://localhost:3000/api/rest/upload",
-                headers={
-                    "Authorization": f"Bearer {args.token}",
-                    "Content-Type": "text/plain",
-                },
-                data=fp.read(),
-            )
-            res.raise_for_status()
 
     return exit_code
 
