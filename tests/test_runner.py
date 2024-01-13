@@ -20,6 +20,7 @@ def pytest_args():
         s=False,
         n=None,
         q=False,
+        xml=None,
     )
 
 
