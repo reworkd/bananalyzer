@@ -25,7 +25,6 @@ class Args(BaseModel):
     type: Optional[str] = Field(default=None)
     download: bool
     test: bool
-    token: Optional[str] = Field(default=None)
     count: Optional[int]
     pytest_args: PytestArgs
 

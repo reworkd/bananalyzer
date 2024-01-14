@@ -140,12 +140,6 @@ def parse_args() -> Args:
         help="Use test set examples instead of training set examples",
     )
     parser.add_argument(
-        "--token",
-        type=str,
-        default=None,
-        help="The token to use when uploading results to the dashboard",
-    )
-    parser.add_argument(
         "--count",
         type=int,
         default=None,
@@ -177,7 +171,6 @@ def parse_args() -> Args:
         type=args.type,
         test=args.test,
         download=args.download,
-        token=args.token,
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
