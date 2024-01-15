@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List, Optional, Union, Literal
 
 from pydantic import BaseModel, Field
 
@@ -13,7 +13,7 @@ class PytestArgs(BaseModel):
 
 
 class Args(BaseModel):
-    path: str
+    path: Union[str, Literal["DOWNLOAD_ONLY"]]
     headless: bool
     single_browser_instance: bool
     id: Optional[str] = Field(default=None)

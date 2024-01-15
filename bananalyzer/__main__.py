@@ -52,7 +52,9 @@ def parse_args() -> Args:
         description=f"Run the agent inside a bananalyzer agent definition file "
         f"against the benchmark",
     )
-    parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
+    parser.add_argument(
+        "path", type=str, nargs="?", default=None, help=f"Path to the {file_name} file"
+    )
     parser.add_argument(
         "--headless", action="store_true", help=f"Whether to run headless or not"
     )
@@ -153,10 +155,15 @@ def parse_args() -> Args:
     )
 
     args = parser.parse_args()
+    if args.download and not args.path:
+        args.path = "DOWNLOAD_ONLY"
 
-    file_name = os.path.basename(args.path)
-    if file_name != file_name:
-        raise RuntimeError(f"The provided file name must be {file_name}")
+    if not args.path:
+        print(
+            f"Please provide the path to a {file_name} file. "
+            f"Use the --help flag for more information."
+        )
+        exit(1)
 
     return Args(
         path=args.path,
@@ -246,57 +253,43 @@ def main() -> int:
 
     # Load the agent
     args = parse_args()
-    agent = load_agent_from_path(Path(args.path))
-
-    print(f"Loaded agent {agent.class_name} from {agent.class_name}")
-
     if args.download:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
-        download_examples()
+        # download_examples()
+
+        if args.path == "DOWNLOAD_ONLY":
+            return 0
+
+    agent = load_agent_from_path(Path(args.path))
+    print(f"Loaded agent {agent.class_name} from {agent.class_name}")
 
     # Filter examples based on args
-    filtered_examples = get_test_examples() if args.test else get_training_examples()
+    examples = get_test_examples() if args.test else get_training_examples()
 
+    filters = []
     if args.id:
-        filtered_examples = [
-            example for example in filtered_examples if example.id == args.id
-        ]
+        filters.append(lambda e: e.id == args.id)
 
     if args.intent:
-        filtered_examples = [
-            example for example in filtered_examples if example.type == args.intent
-        ]
+        filters.append(lambda e: e.type == args.intent)
     if args.domain:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if ".".join(urlparse(example.url).netloc.split(".")[-2:]) == args.domain
-        ]
+        filters.append(
+            lambda e: ".".join(urlparse(e.url).netloc.split(".")[-2:]) == args.domain
+        )
     if args.category:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if example.category == args.category
-        ]
+        filters.append(lambda e: e.category == args.category)
     if args.skip:
-        filtered_examples = [
-            example for example in filtered_examples if example.id not in args.skip
-        ]
+        filters.append(lambda e: e.id not in args.skip)
     if args.type:
-        filtered_examples = [
-            example for example in filtered_examples if example.type == args.type
-        ]
+        filters.append(lambda e: e.type == args.type)
     if args.subcategory:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if example.subcategory in args.subcategory
-        ]
+        filters.append(lambda e: e.subcategory == args.subcategory)
 
     # Test we actually have tests to run
-    if len(filtered_examples) == 0:
+    examples = [e for e in examples if all(f(e) for f in filters)]
+    if len(examples) == 0:
         print()
         print("=======================================================================")
         print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
@@ -305,18 +298,14 @@ def main() -> int:
 
     # Load the desired tests
     generator = PytestTestGenerator()
-    tests = [generator.generate_test(example) for example in filtered_examples]
+    tests = [generator.generate_test(e) for e in examples]
 
     if args.count:
         for i in range(args.count - 1):
-            filtered_examples_copy = [
-                example.model_copy() for example in filtered_examples
-            ]
-            for example in filtered_examples_copy:
-                example.id = f"{example.id}_{i + 2}"
-            tests += [
-                generator.generate_test(example) for example in filtered_examples_copy
-            ]
+            for e in examples:
+                copy = e.model_copy()
+                copy.id = f"{copy.id}_{i + 2}"
+                tests.append(generator.generate_test(copy))
 
     # Run the tests
     exit_code, report_path = run_tests(
@@ -327,4 +316,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    main()
+    exit(main())
