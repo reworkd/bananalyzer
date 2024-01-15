@@ -13,6 +13,7 @@ from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
     get_test_examples,
     get_training_examples,
+    download_examples,
 )
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
@@ -253,7 +254,7 @@ def main() -> int:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
-        # download_examples()
+        download_examples()
 
         if args.path == "DOWNLOAD_ONLY":
             return 0
