@@ -105,7 +105,7 @@ def test_url_eval(mocker: MockFixture) -> None:
 
 
 def create_default_example(
-    overrides: Optional[Dict[str, Any]] = None
+    overrides: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     default_example: Dict[str, Any] = {
         "id": "1",

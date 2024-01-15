@@ -4,17 +4,13 @@
 import argparse
 import ast
 import importlib.util
-import os
 import sys
 from pathlib import Path
 from typing import List
 from urllib.parse import urlparse
 
-import requests
-
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
-    download_examples,
     get_test_examples,
     get_training_examples,
 )
@@ -49,14 +45,14 @@ V  \
 def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a bananalyzer agent definition file "
-        f"against the benchmark",
+        description="Run the agent inside a bananalyzer agent definition file "
+        "against the benchmark",
     )
     parser.add_argument(
         "path", type=str, nargs="?", default=None, help=f"Path to the {file_name} file"
     )
     parser.add_argument(
-        "--headless", action="store_true", help=f"Whether to run headless or not"
+        "--headless", action="store_true", help="Whether to run headless or not"
     )
     parser.add_argument(
         "-s",

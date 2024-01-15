@@ -1,6 +1,5 @@
 from typing import Any, Dict, List, Literal, Optional, Union
 
-import pydantic
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
@@ -42,18 +41,14 @@ class Eval(BaseModel):
         if (
             self.type == "json_match"
             and field is not None
-            and type(self.expected) is dict
+            and isinstance(self.expected, dict)
         ):
             return validate_field_match(self.expected, result, field)
 
-        if (
-            self.type == "json_match"
-            and type(self.expected) is dict
-            or type(self.expected) is list
-        ):
+        if self.type == "json_match" and isinstance(self.expected, (list, dict)):
             return validate_json_match(self.expected, result)
 
-        if self.type == "end_url_match" and type(self.expected) is str:
+        if self.type == "end_url_match" and isinstance(self.expected, str):
             return validate_end_url_match(self.expected, page.url)
 
         raise NotImplementedError("No evaluation type implemented")

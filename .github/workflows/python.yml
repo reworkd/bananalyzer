@@ -40,10 +40,10 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: "poetry"
       - run: poetry install
-      - name: Run isort check
-        run: poetry run isort --check .
+      - name: Run lint check
+        run: poetry run ruff check
       - name: Run black check
-        run: poetry run black --check .
+        run: poetry run ruff format --check
 
   mypy:
     runs-on: ubuntu-latest
