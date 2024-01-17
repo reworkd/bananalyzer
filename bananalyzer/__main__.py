@@ -11,13 +11,16 @@ from typing import List
 from urllib.parse import urlparse
 
 import requests
+import asyncio
 
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
     download_examples,
     get_test_examples,
     get_training_examples,
+    get_examples_path,
 )
+from bananalyzer.data.banana_seeds import download_mhtml_from_s3
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
@@ -302,6 +305,14 @@ def main() -> int:
         print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
         print("=======================================================================")
         return 0
+    
+    for example in filtered_examples:
+        if hasattr(example, 'mhtml_url'):
+            mhtml_str = asyncio.run(download_mhtml_from_s3(example.mhtml_url))
+            mhtml_path = get_examples_path() / example.id / "index.mhtml"
+            mhtml_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(mhtml_path, "w") as file:
+                file.write(mhtml_str)
 
     # Load the desired tests
     generator = PytestTestGenerator()
