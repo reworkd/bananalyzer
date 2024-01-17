@@ -8,7 +8,7 @@ import pytest
 from pydantic import BaseModel
 
 from bananalyzer.data.schemas import Example
-from bananalyzer.schema import AgentRunnerClass, PytestArgs
+from bananalyzer.schema import AgentRunnerClass, PytestArgs, XDistArgs
 
 TestType = Callable[[], Awaitable[None]]
 
@@ -93,6 +93,7 @@ def run_tests(
     tests: List[BananalyzerTest],
     runner: AgentRunnerClass,
     pytest_args: PytestArgs,
+    xdist_args: XDistArgs,
     headless: bool = False,
     single_browser_instance: bool = False,
 ) -> Tuple[int, Path]:
@@ -132,8 +133,9 @@ def run_tests(
         args = (
             test_file_names
             + (["-s"] if pytest_args.s else [])
-            + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
             + (["-q"] if pytest_args.q else ["-vvv"])
+            + ["-n", str(xdist_args.n)]
+            + ["--dist", xdist_args.dist]
             + [f"--junitxml={pytest_args.xml}"] * bool(pytest_args.xml)
             + ["--disable-warnings"]
         )

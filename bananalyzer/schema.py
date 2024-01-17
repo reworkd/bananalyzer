@@ -4,12 +4,22 @@ from pydantic import BaseModel, Field
 
 from bananalyzer.data.schemas import GoalType
 
+XDistDistributionMode = Literal[
+    "load", "loadscope", "loadfile", "loadgroup", "worksteal", "no"
+]
+
 
 class PytestArgs(BaseModel):
     s: bool
-    n: Optional[int]
     q: bool
-    xml: Optional[str]
+    xml: Optional[str] = Field(description="Path to the xml report file")
+
+
+class XDistArgs(BaseModel):
+    dist: XDistDistributionMode = Field(description="Distribution mode (xdist)")
+    n: Union[int, Literal["logical", "auto"]] = Field(
+        description="Number of workers (xdist)"
+    )
 
 
 class Args(BaseModel):
@@ -27,6 +37,7 @@ class Args(BaseModel):
     test: bool
     count: Optional[int]
     pytest_args: PytestArgs
+    xdist_args: XDistArgs
 
 
 class AgentRunnerClass(BaseModel):

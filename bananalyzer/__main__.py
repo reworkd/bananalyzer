@@ -17,7 +17,7 @@ from bananalyzer.data.examples import (
 )
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
-from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
+from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs, XDistArgs
 
 
 def print_intro() -> None:
@@ -99,7 +99,7 @@ def parse_args() -> Args:
         "-n",
         "--n",
         type=str,
-        default=None,
+        default="logical",
         help="Number of test workers to use. The default is 1",
     )
     parser.add_argument(
@@ -150,6 +150,12 @@ def parse_args() -> Args:
         default=None,
         help="The path for the junitxml report file",
     )
+    parser.add_argument(
+        "--dist",
+        type=str,
+        default="loadscope",
+        help="The distribution mode for pytest-xdist",
+    )
 
     args = parser.parse_args()
     if args.download and not args.path:
@@ -181,6 +187,11 @@ def parse_args() -> Args:
             n=args.n,
             q=args.quiet,
             xml=args.junitxml,
+            dist=args.dist,
+        ),
+        xdist_args=XDistArgs(
+            n=args.n,
+            dist=args.dist,
         ),
     )
 
@@ -306,7 +317,12 @@ def main() -> int:
 
     # Run the tests
     exit_code, report_path = run_tests(
-        tests, agent, args.pytest_args, args.headless, args.single_browser_instance
+        tests,
+        agent,
+        args.pytest_args,
+        args.xdist_args,
+        args.headless,
+        args.single_browser_instance,
     )
 
     return exit_code

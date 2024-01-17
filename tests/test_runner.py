@@ -3,7 +3,7 @@ from _pytest.config import ExitCode
 
 from bananalyzer import Example
 from bananalyzer.runner.runner import BananalyzerTest, run_tests
-from bananalyzer.schema import AgentRunnerClass, PytestArgs
+from bananalyzer.schema import AgentRunnerClass, PytestArgs, XDistArgs
 
 
 @pytest.fixture
@@ -25,6 +25,13 @@ def pytest_args():
 
 
 @pytest.fixture
+def xdist_args():
+    return XDistArgs(
+        dist="no",
+        n="1",
+    )
+
+@pytest.fixture
 def example():
     return Example(
         id="test",
@@ -39,7 +46,7 @@ def example():
 
 
 def test_run_tests(
-    runner: AgentRunnerClass, pytest_args: PytestArgs, example: Example
+    runner: AgentRunnerClass, pytest_args: PytestArgs, xdist_args: XDistArgs, example: Example
 ) -> None:
     passing_test = BananalyzerTest(
         example=example,
@@ -49,12 +56,12 @@ def test_addition() -> None:
 """,
     )
 
-    exit_code, *_ = run_tests([passing_test], runner, pytest_args)
+    exit_code, *_ = run_tests([passing_test], runner, pytest_args, xdist_args)
     assert exit_code == ExitCode.OK
 
 
 def test_run_exception_test(
-    runner: AgentRunnerClass, pytest_args: PytestArgs, example: Example
+    runner: AgentRunnerClass, pytest_args: PytestArgs, xdist_args: XDistArgs, example: Example
 ) -> None:
     exception_test = """
 def test_exception() -> None:
@@ -66,5 +73,5 @@ def test_exception() -> None:
         code=exception_test,
     )
 
-    exit_code, *_ = run_tests([exception_test], runner, pytest_args)
+    exit_code, *_ = run_tests([exception_test], runner, pytest_args, xdist_args)
     assert exit_code == ExitCode.TESTS_FAILED
