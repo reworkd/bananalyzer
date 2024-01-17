@@ -31,6 +31,7 @@ def xdist_args():
         n="1",
     )
 
+
 @pytest.fixture
 def example():
     return Example(
@@ -46,7 +47,10 @@ def example():
 
 
 def test_run_tests(
-    runner: AgentRunnerClass, pytest_args: PytestArgs, xdist_args: XDistArgs, example: Example
+    runner: AgentRunnerClass,
+    pytest_args: PytestArgs,
+    xdist_args: XDistArgs,
+    example: Example,
 ) -> None:
     passing_test = BananalyzerTest(
         example=example,
@@ -61,7 +65,10 @@ def test_addition() -> None:
 
 
 def test_run_exception_test(
-    runner: AgentRunnerClass, pytest_args: PytestArgs, xdist_args: XDistArgs, example: Example
+    runner: AgentRunnerClass,
+    pytest_args: PytestArgs,
+    xdist_args: XDistArgs,
+    example: Example,
 ) -> None:
     exception_test = """
 def test_exception() -> None:
