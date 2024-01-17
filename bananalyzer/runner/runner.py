@@ -1,4 +1,5 @@
 import os
+import shutil
 import tempfile
 from pathlib import Path
 from typing import Awaitable, Callable, List, Tuple
@@ -7,7 +8,6 @@ import pytest
 from pydantic import BaseModel
 
 from bananalyzer.data.schemas import Example
-from bananalyzer.hooks import BananalyzerPytestPlugin
 from bananalyzer.schema import AgentRunnerClass, PytestArgs
 
 TestType = Callable[[], Awaitable[None]]
@@ -112,6 +112,10 @@ def run_tests(
     with tempfile.TemporaryDirectory(dir=cache_dir) as temp_dir:
         temp_path = Path(temp_dir)
 
+        hooks = Path(__file__).parent.parent / "hooks.py"
+        conftest = temp_path / "conftest.py"
+        shutil.copy(hooks, conftest)
+
         test_file_names = [
             create_test_file(
                 tests,
@@ -131,6 +135,7 @@ def run_tests(
             + ([f"-n {pytest_args.n}"] if pytest_args.n else [])
             + (["-q"] if pytest_args.q else ["-vvv"])
             + [f"--junitxml={pytest_args.xml}"] * bool(pytest_args.xml)
+            + ["--disable-warnings"]
         )
 
-        return pytest.main(args, plugins=[(BananalyzerPytestPlugin())]), report_path
+        return pytest.main(args), report_path
