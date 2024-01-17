@@ -4,26 +4,23 @@
 import argparse
 import ast
 import importlib.util
-import os
 import sys
 from pathlib import Path
 from typing import List
 from urllib.parse import urlparse
-
-import requests
 import asyncio
 
 from bananalyzer import AgentRunner
 from bananalyzer.data.examples import (
-    download_examples,
     get_test_examples,
     get_training_examples,
     get_examples_path,
+    download_examples,
 )
 from bananalyzer.data.banana_seeds import download_mhtml_from_s3
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
-from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs
+from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs, XDistArgs
 
 
 def print_intro() -> None:
@@ -52,12 +49,14 @@ V  \
 def parse_args() -> Args:
     file_name = "bananalyzer-agent.py"
     parser = argparse.ArgumentParser(
-        description=f"Run the agent inside a bananalyzer agent definition file "
-        f"against the benchmark",
+        description="Run the agent inside a bananalyzer agent definition file "
+        "against the benchmark",
     )
-    parser.add_argument("path", type=str, help=f"Path to the {file_name} file")
     parser.add_argument(
-        "--headless", action="store_true", help=f"Whether to run headless or not"
+        "path", type=str, nargs="?", default=None, help=f"Path to the {file_name} file"
+    )
+    parser.add_argument(
+        "--headless", action="store_true", help="Whether to run headless or not"
     )
     parser.add_argument(
         "-s",
@@ -103,7 +102,7 @@ def parse_args() -> Args:
         "-n",
         "--n",
         type=str,
-        default=None,
+        default="logical",
         help="Number of test workers to use. The default is 1",
     )
     parser.add_argument(
@@ -143,23 +142,34 @@ def parse_args() -> Args:
         help="Use test set examples instead of training set examples",
     )
     parser.add_argument(
-        "--token",
-        type=str,
-        default=None,
-        help="The token to use when uploading results to the dashboard",
-    )
-    parser.add_argument(
         "--count",
         type=int,
         default=None,
         help="The number of times to run an individual test. Won't work for detail pages",
     )
+    parser.add_argument(
+        "--junitxml",
+        type=str,
+        default=None,
+        help="The path for the junitxml report file",
+    )
+    parser.add_argument(
+        "--dist",
+        type=str,
+        default="loadscope",
+        help="The distribution mode for pytest-xdist",
+    )
 
     args = parser.parse_args()
+    if args.download and not args.path:
+        args.path = "DOWNLOAD_ONLY"
 
-    file_name = os.path.basename(args.path)
-    if file_name != file_name:
-        raise RuntimeError(f"The provided file name must be {file_name}")
+    if not args.path:
+        print(
+            f"Please provide the path to a {file_name} file. "
+            f"Use the --help flag for more information."
+        )
+        exit(1)
 
     return Args(
         path=args.path,
@@ -174,12 +184,17 @@ def parse_args() -> Args:
         type=args.type,
         test=args.test,
         download=args.download,
-        token=args.token,
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
             n=args.n,
             q=args.quiet,
+            xml=args.junitxml,
+            dist=args.dist,
+        ),
+        xdist_args=XDistArgs(
+            n=args.n,
+            dist=args.dist,
         ),
     )
 
@@ -249,57 +264,43 @@ def main() -> int:
 
     # Load the agent
     args = parse_args()
-    agent = load_agent_from_path(Path(args.path))
-
-    print(f"Loaded agent {agent.class_name} from {agent.class_name}")
-
     if args.download:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
         download_examples()
 
-    # Filter examples based on args
-    filtered_examples = get_test_examples() if args.test else get_training_examples()
+        if args.path == "DOWNLOAD_ONLY":
+            return 0
 
+    agent = load_agent_from_path(Path(args.path))
+    print(f"Loaded agent {agent.class_name} from {agent.class_name}")
+
+    # Filter examples based on args
+    examples = get_test_examples() if args.test else get_training_examples()
+
+    filters = []
     if args.id:
-        filtered_examples = [
-            example for example in filtered_examples if example.id == args.id
-        ]
+        filters.append(lambda e: e.id == args.id)
 
     if args.intent:
-        filtered_examples = [
-            example for example in filtered_examples if example.type == args.intent
-        ]
+        filters.append(lambda e: e.type == args.intent)
     if args.domain:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if ".".join(urlparse(example.url).netloc.split(".")[-2:]) == args.domain
-        ]
+        filters.append(
+            lambda e: ".".join(urlparse(e.url).netloc.split(".")[-2:]) == args.domain
+        )
     if args.category:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if example.category == args.category
-        ]
+        filters.append(lambda e: e.category == args.category)
     if args.skip:
-        filtered_examples = [
-            example for example in filtered_examples if example.id not in args.skip
-        ]
+        filters.append(lambda e: e.id not in args.skip)
     if args.type:
-        filtered_examples = [
-            example for example in filtered_examples if example.type == args.type
-        ]
+        filters.append(lambda e: e.type == args.type)
     if args.subcategory:
-        filtered_examples = [
-            example
-            for example in filtered_examples
-            if example.subcategory in args.subcategory
-        ]
+        filters.append(lambda e: e.subcategory == args.subcategory)
 
     # Test we actually have tests to run
-    if len(filtered_examples) == 0:
+    examples = [e for e in examples if all(f(e) for f in filters)]
+    if len(examples) == 0:
         print()
         print("=======================================================================")
         print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
@@ -316,38 +317,25 @@ def main() -> int:
 
     # Load the desired tests
     generator = PytestTestGenerator()
-    tests = [generator.generate_test(example) for example in filtered_examples]
+    tests = [generator.generate_test(e) for e in examples]
 
     if args.count:
         for i in range(args.count - 1):
-            filtered_examples_copy = [
-                example.model_copy() for example in filtered_examples
-            ]
-            for example in filtered_examples_copy:
-                example.id = f"{example.id}_{i + 2}"
-            tests += [
-                generator.generate_test(example) for example in filtered_examples_copy
-            ]
+            for e in examples:
+                copy = e.model_copy()
+                copy.id = f"{copy.id}_{i + 2}"
+                tests.append(generator.generate_test(copy))
 
-    # Run the tests
-    exit_code, report_path = run_tests(
-        tests, agent, args.pytest_args, args.headless, args.single_browser_instance
+    # Run the tests and return the exit code
+    return run_tests(
+        tests,
+        agent,
+        args.pytest_args,
+        args.xdist_args,
+        args.headless,
+        args.single_browser_instance,
     )
-
-    if args.token:
-        with open(report_path, "r") as fp:
-            res = requests.post(
-                "http://localhost:3000/api/rest/upload",
-                headers={
-                    "Authorization": f"Bearer {args.token}",
-                    "Content-Type": "text/plain",
-                },
-                data=fp.read(),
-            )
-            res.raise_for_status()
-
-    return exit_code
 
 
 if __name__ == "__main__":
-    main()
+    exit(main())

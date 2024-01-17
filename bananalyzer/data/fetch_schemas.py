@@ -1,6 +1,6 @@
 from typing import Dict, List, Type
 
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field
 
 from bananalyzer.data.schemas import FetchId
 
@@ -141,13 +141,13 @@ class AttorneyEducation(BaseModel):
 class AttorneyAward(BaseModel):
     date: str = Field(description="Date or duration when the award was received")
     award: str = Field(description="Name of the award")
-    url: HttpUrl = Field(
+    url: str = Field(
         description="URL link to the award recognition",
     )
 
 
 class AttorneySchema(BaseModel):
-    website: HttpUrl = Field(description="URL of the attorney's profile page")
+    website: str = Field(description="URL of the attorney's profile page")
     name: str = Field(description="Full name of the attorney")
     title: str = Field(
         description="Title of the attorney, such as Associate, Counsel, or Partner"
@@ -179,17 +179,17 @@ class AttorneySchema(BaseModel):
     awards: List[AttorneyAward] = Field(
         description="Awards and recognitions received by the attorney"
     )
-    pdf_url: HttpUrl = Field(
+    pdf_url: str = Field(
         description="Link to a PDF bio of the attorney",
     )
-    photo_url: HttpUrl = Field(description="Link to the photo of the attorney")
-    news: List[HttpUrl] = Field(
+    photo_url: str = Field(description="Link to the photo of the attorney")
+    news: List[str] = Field(
         description="Links to news articles involving the attorney", default=[]
     )
 
 
 class AttorneyJobPostingSchema(BaseModel):
-    website: HttpUrl = Field(
+    website: str = Field(
         description="URL of the job listing. May or may not be unique to this job."
     )
     tier: str = Field(

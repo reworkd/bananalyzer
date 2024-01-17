@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 from bananalyzer import Example
 from bananalyzer.data.schemas import Eval
 from bananalyzer.runner.runner import BananalyzerTest
+from bananalyzer.schema import MARKER_PREFIX
 
 
 class PytestTestGenerator:
@@ -25,20 +26,31 @@ class {self._generate_class_name(example)}:
     async def result(self, page, agent):
         yield await agent.run(page, self.example)
 
-    {"".join(self._generate_eval_test(eval_, i) for i, eval_ in enumerate(example.evals))}
+    {"".join(self._generate_eval_test(eval_, i, {
+                "category": example.category,
+                "subcategory": example.subcategory,
+                "type": example.type,
+            }) for i, eval_ in enumerate(example.evals))}
 """,
             example=example,
         )
 
-    def _generate_eval_test(self, eval_: Eval, i: int) -> str:
+    @staticmethod
+    def _generate_eval_test(eval_: Eval, i: int, attrs: dict[str, str]) -> str:
+        marks = "\n    ".join(
+            f"@pytest.mark.{MARKER_PREFIX}{k}('{v}')" for k, v in attrs.items()
+        )
+
         if eval_.type == "json_match" and isinstance(eval_.expected, dict):
             return f"""
+    {marks}
     @pytest.mark.parametrize("key", {list(eval_.expected.keys())})
     async def test_match_field(self, key, result) -> None:
         self.example.evals[{i}].eval_results(None, result, field=key)
 
 """
         return f"""
+    {marks}
     async def test_{eval_.type}(self, page, result) -> None:
         self.example.evals[{i}].eval_results(page, result)
 

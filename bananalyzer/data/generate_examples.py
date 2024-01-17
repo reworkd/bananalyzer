@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from openai import OpenAI
-from playwright.async_api import Page, async_playwright
+from playwright.async_api import async_playwright
 from tarsier import GoogleVisionOCRService, Tarsier
 
 from bananalyzer.data.examples import convert_to_crlf
