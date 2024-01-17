@@ -315,8 +315,8 @@ def main() -> int:
                 copy.id = f"{copy.id}_{i + 2}"
                 tests.append(generator.generate_test(copy))
 
-    # Run the tests
-    exit_code, report_path = run_tests(
+    # Run the tests and return the exit code
+    return run_tests(
         tests,
         agent,
         args.pytest_args,
@@ -324,8 +324,6 @@ def main() -> int:
         args.headless,
         args.single_browser_instance,
     )
-
-    return exit_code
 
 
 if __name__ == "__main__":

@@ -2,12 +2,14 @@ import os
 import shutil
 import tempfile
 from pathlib import Path
-from typing import Awaitable, Callable, List, Tuple
+from typing import Awaitable, Callable, List
 
 import pytest
 from pydantic import BaseModel
 
 from bananalyzer.data.schemas import Example
+from bananalyzer.hooks import BananalyzerPytestPlugin
+from bananalyzer.junit import enrich_report
 from bananalyzer.schema import AgentRunnerClass, PytestArgs, XDistArgs
 
 TestType = Callable[[], Awaitable[None]]
@@ -96,7 +98,7 @@ def run_tests(
     xdist_args: XDistArgs,
     headless: bool = False,
     single_browser_instance: bool = False,
-) -> Tuple[int, Path]:
+) -> int:
     """
     Create temporary test files based on intent, run them, and then delete them
     """
@@ -113,10 +115,6 @@ def run_tests(
     with tempfile.TemporaryDirectory(dir=cache_dir) as temp_dir:
         temp_path = Path(temp_dir)
 
-        hooks = Path(__file__).parent.parent / "hooks.py"
-        conftest = temp_path / "conftest.py"
-        shutil.copy(hooks, conftest)
-
         test_file_names = [
             create_test_file(
                 tests,
@@ -129,10 +127,9 @@ def run_tests(
             for tests in intent_separated_tests
         ]
 
-        report_path = cache_dir / f"{temp_path.stem}_report.html"
         args = (
             test_file_names
-            + (["-s"] if pytest_args.s else [])
+            + ["-s"] * pytest_args.s
             + (["-q"] if pytest_args.q else ["-vvv"])
             + ["-n", str(xdist_args.n)]
             + ["--dist", xdist_args.dist]
@@ -140,4 +137,15 @@ def run_tests(
             + ["--disable-warnings"]
         )
 
-        return pytest.main(args), report_path
+        kwargs = dict()
+        if not xdist_args.n:
+            kwargs["plugins"] = [BananalyzerPytestPlugin()]
+        else:
+            hooks = Path(__file__).parent.parent / "hooks.py"
+            shutil.copy(hooks, temp_path / "conftest.py")
+
+        exit_code = pytest.main(args, **kwargs)
+        if pytest_args.xml:
+            enrich_report(pytest_args.xml)
+
+        return exit_code

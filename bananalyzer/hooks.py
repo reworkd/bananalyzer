@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Callable
 
 import pytest
 import xdist
@@ -7,7 +7,10 @@ from _pytest.main import Session
 from _pytest.nodes import Node
 from _pytest.python import Function
 from _pytest.terminal import TerminalReporter
+
 from tabulate import tabulate
+
+RecordProperty = Callable[[str, object], None]
 
 
 @pytest.hookimpl(tryfirst=True)
@@ -32,6 +35,7 @@ class BananalyzerPytestPlugin:
 
     def __init__(self) -> None:
         self.marks: dict[str, dict[str, str]] = {}
+        self.record_property: RecordProperty = lambda x, y: None
 
     @pytest.hookimpl(trylast=True)
     def pytest_terminal_summary(
@@ -78,6 +82,10 @@ class BananalyzerPytestPlugin:
         terminalreporter.write_line("Summary:")
         terminalreporter.write_line(tabulate(table_data.items(), tablefmt="psql"))
 
+    @pytest.fixture(autouse=True)
+    def add_user_properties(self, record_property: RecordProperty) -> None:
+        self.record_property = record_property
+
     # noinspection PyBroadException
     @pytest.hookimpl(tryfirst=True)
     def pytest_runtest_call(self, item: Function) -> None:
@@ -86,15 +94,16 @@ class BananalyzerPytestPlugin:
         associated with each test.
         """
 
-        def record_property(k: str, value: str) -> None:
+        def record(k: str, value: str) -> None:
             self.marks.setdefault(item.nodeid, {})[k] = value
+            self.record_property(k, value)
 
         for key, accessor in {
             "class": lambda *_: item.parent.name,  # type: ignore
             "field": lambda *_: item.callspec.params.get("key"),
         }.items():
             try:
-                record_property(key, accessor())  # type: ignore
+                record(key, accessor())  # type: ignore
             except Exception:
                 pass
 
@@ -103,7 +112,7 @@ class BananalyzerPytestPlugin:
             for mark in item.iter_markers()
             if mark.name.startswith(self.MARKER_PREFIX) and len(mark.args) == 1
         ]:
-            record_property(mark.name[len(self.MARKER_PREFIX) :], mark.args[0])
+            record(mark.name[len(self.MARKER_PREFIX) :], mark.args[0])
 
     @pytest.hookimpl(tryfirst=True)
     def pytest_sessionstart(self, session: Session) -> None:
@@ -120,8 +129,9 @@ class BananalyzerPytestPlugin:
         If using xdist, we need to collect the marks from each worker. This hook is
         called on the master node only.
         """
-        node_stats = node.workeroutput["marks"]  # type: ignore
-        self.marks.update(node_stats)
+        if "marks" in node.workeroutput:  # type: ignore
+            node_stats = node.workeroutput["marks"]  # type: ignore
+            self.marks.update(node_stats)
 
     @staticmethod
     def print_field_data(
