@@ -307,7 +307,7 @@ def main() -> int:
         print("=======================================================================")
         return 0
     
-    for example in filtered_examples:
+    for example in examples:
         if hasattr(example, 'mhtml_url'):
             mhtml_str = asyncio.run(download_mhtml_from_s3(example.mhtml_url))
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
