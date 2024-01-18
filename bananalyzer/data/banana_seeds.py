@@ -2,10 +2,8 @@ import json
 from typing import Any, Dict, List
 
 import boto3
-import requests
 
 s3 = boto3.client("s3", region_name="us-east-1")
-# TODO: how to handle s3 credentials?
 
 
 def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
@@ -24,17 +22,16 @@ def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
     return examples
 
 
-def download_mhtml_from_s3(s3_uri: str) -> str:
-    mhtml_bucket = "deworkd-prod-traces"
-    key = s3_uri.replace("s3://deworkd-prod-traces/", "")
-    response = s3.get_object(Bucket=mhtml_bucket, Key=key)
-    mhtml = response["Body"].read().decode("utf-8")
-
-    return mhtml
-
-
 def download_mhtml(url: str) -> str:
-    response = requests.get(url)
-    response.raise_for_status()  # Raise an exception if the GET request was unsuccessful
-    mhtml = response.text
-    return mhtml
+    if url.startswith("s3://"):
+        s3 = boto3.resource("s3")
+
+        bucket_name = url.split("/")[2]
+        key = "/".join(url.split("/")[3:])
+
+        obj = s3.Object(bucket_name, key)
+        mhtml = obj.get()["Body"].read().decode("utf-8")
+
+        return mhtml
+    else:
+        raise NotImplementedError("Only s3:// URIs are currently supported")

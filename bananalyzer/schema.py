@@ -34,6 +34,7 @@ class Args(BaseModel):
     skip: List[str]
     type: Optional[str] = Field(default=None)
     download: bool
+    examples_bucket: Optional[str] = Field(default=None)
     test: bool
     count: Optional[int]
     pytest_args: PytestArgs

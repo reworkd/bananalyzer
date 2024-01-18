@@ -3,7 +3,7 @@ import os
 import shutil
 import subprocess
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 from bananalyzer.data.banana_seeds import download_examples_from_s3
 from bananalyzer.data.schemas import Example
@@ -51,10 +51,10 @@ def convert_to_crlf(file_path: Path) -> None:
             file.write(line)
 
 
-def download_examples(download_from_s3: bool = False) -> None:
+def download_examples(examples_bucket: Optional[str] = None) -> None:
     """
     Downloads the repo via git and places contents of the `/static` data directory in ~/.bananalyzer_data
-    :param download_from_s3: If set True, examples will be downloaded from S3 bucket to ~/.bananalyzer_data/examples_s3.json
+    :param examples_bucket: If provided, downloads examples from the specified S3 bucket
     """
     repo_url = "https://github.com/reworkd/bananalyzer.git"
     branch = "main"
@@ -88,8 +88,8 @@ def download_examples(download_from_s3: bool = False) -> None:
         print("Cleaning up repo...")
         shutil.rmtree("repo_temp", ignore_errors=True)
 
-    if download_from_s3:
-        examples = download_examples_from_s3("deworkd-prod-bananalyzer")
+    if examples_bucket is not None:
+        examples = download_examples_from_s3(examples_bucket)
         with open(get_examples_path() / "examples_s3.json", "w") as file:
             json.dump(examples, file)
 

@@ -10,7 +10,7 @@ from typing import List
 from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.banana_seeds import download_mhtml_from_s3
+from bananalyzer.data.banana_seeds import download_mhtml
 from bananalyzer.data.examples import (
     download_examples,
     get_examples_path,
@@ -137,6 +137,12 @@ def parse_args() -> Args:
         help="Will re-download training and test examples",
     )
     parser.add_argument(
+        "--examples_bucket",
+        type=str,
+        default=None,
+        help="Download examples from the specified public S3 bucket",
+    )
+    parser.add_argument(
         "--test",
         action="store_true",
         help="Use test set examples instead of training set examples",
@@ -184,6 +190,7 @@ def parse_args() -> Args:
         type=args.type,
         test=args.test,
         download=args.download,
+        examples_bucket=args.examples_bucket,
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
@@ -268,7 +275,7 @@ def main() -> int:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
-        download_examples(download_from_s3=True)
+        download_examples(examples_bucket=args.examples_bucket)
 
         if args.path == "DOWNLOAD_ONLY":
             return 0
@@ -312,7 +319,7 @@ def main() -> int:
 
     for example in examples:
         if example.mhtml_url is not None:
-            mhtml_str = download_mhtml_from_s3(example.mhtml_url)
+            mhtml_str = download_mhtml(example.mhtml_url)
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             mhtml_path.parent.mkdir(parents=True, exist_ok=True)
             with open(mhtml_path, "w") as file:
