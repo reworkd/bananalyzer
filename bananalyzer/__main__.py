@@ -3,21 +3,17 @@
 # If it doesn't exist, error
 import argparse
 import ast
+import asyncio
 import importlib.util
 import sys
 from pathlib import Path
 from typing import List
 from urllib.parse import urlparse
-import asyncio
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.examples import (
-    get_test_examples,
-    get_training_examples,
-    get_examples_path,
-    download_examples,
-)
 from bananalyzer.data.banana_seeds import download_mhtml_from_s3
+from bananalyzer.data.examples import (download_examples, get_examples_path,
+                                       get_test_examples, get_training_examples)
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs, XDistArgs
@@ -306,7 +302,7 @@ def main() -> int:
         print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
         print("=======================================================================")
         return 0
-    
+
     for example in examples:
         if example.mhtml_url is not None:
             mhtml_str = asyncio.run(download_mhtml_from_s3(example.mhtml_url))

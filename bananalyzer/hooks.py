@@ -7,7 +7,6 @@ from _pytest.main import Session
 from _pytest.nodes import Node
 from _pytest.python import Function
 from _pytest.terminal import TerminalReporter
-
 from tabulate import tabulate
 
 RecordProperty = Callable[[str, object], None]

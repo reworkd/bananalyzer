@@ -6,8 +6,8 @@ import subprocess
 from pathlib import Path
 from typing import List
 
-from bananalyzer.data.schemas import Example
 from bananalyzer.data.banana_seeds import download_examples_from_s3
+from bananalyzer.data.schemas import Example
 
 local_examples_path: Path = Path(__file__).resolve().parent.parent.parent / "static"
 downloaded_examples_path = Path.home() / ".bananalyzer_data"

@@ -1,8 +1,7 @@
+import subprocess
 from os import environ
 from typing import Optional
 from xml.etree import ElementTree
-
-import subprocess
 
 from bananalyzer import VERSION
 

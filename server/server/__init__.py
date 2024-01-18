@@ -4,11 +4,8 @@ from typing import List, Union
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from bananalyzer.data.examples import (
-    get_all_example_urls,
-    get_all_examples,
-    get_example_by_url,
-)
+from bananalyzer.data.examples import (get_all_example_urls, get_all_examples,
+                                       get_example_by_url)
 from bananalyzer.data.schemas import Example, GoalType
 from bananalyzer.runner.website_responder import get_website_responder
 

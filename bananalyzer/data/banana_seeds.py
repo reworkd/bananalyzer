@@ -1,8 +1,9 @@
-from typing import List, Dict, Any
-import json
 import asyncio
-import requests
+import json
+from typing import Any, Dict, List
+
 import boto3
+import requests
 
 s3 = boto3.client("s3", region_name="us-east-1")
 # TODO: how to handle s3 credentials?
@@ -38,7 +39,3 @@ async def download_mhtml(url: str) -> str:
     response.raise_for_status()  # Raise an exception if the GET request was unsuccessful
     mhtml = response.text
     return mhtml
-
-
-if __name__ == "__main__":
-    asyncio.run(download_examples_from_s3())
