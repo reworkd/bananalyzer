@@ -67,6 +67,10 @@ FetchId = Literal[
 class Example(BaseModel):
     id: str
     url: str
+    mhtml_url: Optional[str] = Field(
+        description="URL of the mhtml file if it is hosted on e.g. AWS S3",
+        default=None,
+    )
     source: Literal["mhtml", "hosted", "url"] = Field(
         description="Source of the website"
     )

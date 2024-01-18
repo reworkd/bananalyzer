@@ -268,7 +268,7 @@ def main() -> int:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
-        download_examples()
+        download_examples(download_from_s3=True)
 
         if args.path == "DOWNLOAD_ONLY":
             return 0
@@ -308,7 +308,7 @@ def main() -> int:
         return 0
     
     for example in examples:
-        if hasattr(example, 'mhtml_url'):
+        if example.mhtml_url is not None:
             mhtml_str = asyncio.run(download_mhtml_from_s3(example.mhtml_url))
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             mhtml_path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 import shutil
@@ -89,8 +90,8 @@ def download_examples(download_from_s3: bool = False) -> None:
         shutil.rmtree("repo_temp", ignore_errors=True)
 
     if download_from_s3:
-        examples = download_examples_from_s3("deworkd-prod-bananalyzer")
-        with open(downloaded_examples_path / "examples_s3.json", "w") as file:
+        examples = asyncio.run(download_examples_from_s3("deworkd-prod-bananalyzer"))
+        with open(get_examples_path() / "examples_s3.json", "w") as file:
             json.dump(examples, file)
 
 
