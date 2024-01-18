@@ -66,7 +66,8 @@ def parse_args() -> Args:
         "--id",
         type=str,
         default=None,
-        help="Filter tests by id",
+        help="Filter tests by id. "
+             "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec",
     )
     parser.add_argument(
         "-d",
@@ -278,7 +279,7 @@ def main() -> int:
 
     filters = []
     if args.id:
-        filters.append(lambda e: e.id == args.id)
+        filters.append(lambda e: e.id == args.id or e.id == args.id.replace("_", "-"))
 
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
