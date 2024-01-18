@@ -282,7 +282,7 @@ def main() -> int:
 
     filters = []
     if args.id:
-        filters.append(lambda e: e.id == args.id or e.id == args.id.replace("_", "-"))
+        filters.append(lambda e: e.id == args.id or (isinstance(args.id, str) and e.id == args.id.replace("_", "-")))
 
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
