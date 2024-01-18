@@ -3,7 +3,6 @@
 # If it doesn't exist, error
 import argparse
 import ast
-import asyncio
 import importlib.util
 import sys
 from pathlib import Path
@@ -313,7 +312,7 @@ def main() -> int:
 
     for example in examples:
         if example.mhtml_url is not None:
-            mhtml_str = asyncio.run(download_mhtml_from_s3(example.mhtml_url))
+            mhtml_str = download_mhtml_from_s3(example.mhtml_url)
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             mhtml_path.parent.mkdir(parents=True, exist_ok=True)
             with open(mhtml_path, "w") as file:

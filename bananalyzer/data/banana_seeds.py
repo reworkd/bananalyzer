@@ -8,7 +8,7 @@ s3 = boto3.client("s3", region_name="us-east-1")
 # TODO: how to handle s3 credentials?
 
 
-async def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
+def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
     examples = []
     response = s3.list_objects(Bucket=examples_bucket)
     for file in response["Contents"]:
@@ -24,7 +24,7 @@ async def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]
     return examples
 
 
-async def download_mhtml_from_s3(s3_uri: str) -> str:
+def download_mhtml_from_s3(s3_uri: str) -> str:
     mhtml_bucket = "deworkd-prod-traces"
     key = s3_uri.replace("s3://deworkd-prod-traces/", "")
     response = s3.get_object(Bucket=mhtml_bucket, Key=key)
@@ -33,7 +33,7 @@ async def download_mhtml_from_s3(s3_uri: str) -> str:
     return mhtml
 
 
-async def download_mhtml(url: str) -> str:
+def download_mhtml(url: str) -> str:
     response = requests.get(url)
     response.raise_for_status()  # Raise an exception if the GET request was unsuccessful
     mhtml = response.text
