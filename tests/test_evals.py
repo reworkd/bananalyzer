@@ -1,7 +1,10 @@
 import pytest
 
-from bananalyzer.runner.evals import (is_string_similar, sanitize_string,
-                                      validate_field_match)
+from bananalyzer.runner.evals import (
+    is_string_similar,
+    sanitize_string,
+    validate_field_match,
+)
 
 
 @pytest.mark.parametrize(

@@ -2,9 +2,11 @@ import pytest
 from pytest_mock import MockFixture
 
 from bananalyzer.data.schemas import Example
-from bananalyzer.runner.website_responder import (HostedWebsiteResponder,
-                                                  MHTMLWebsiteResponder,
-                                                  get_website_responder)
+from bananalyzer.runner.website_responder import (
+    HostedWebsiteResponder,
+    MHTMLWebsiteResponder,
+    get_website_responder,
+)
 
 
 def test_get_website_responder_with_mhtml_source(mocker: MockFixture) -> None:

@@ -8,11 +8,17 @@ from unittest.mock import mock_open
 import pytest
 from pytest_mock import MockFixture
 
-from bananalyzer.data.examples import (download_examples, downloaded_examples_path,
-                                       get_all_examples, get_example_by_url,
-                                       get_examples_path, get_test_examples,
-                                       get_training_examples, load_examples_at_path,
-                                       local_examples_path)
+from bananalyzer.data.examples import (
+    download_examples,
+    downloaded_examples_path,
+    get_all_examples,
+    get_example_by_url,
+    get_examples_path,
+    get_test_examples,
+    get_training_examples,
+    load_examples_at_path,
+    local_examples_path,
+)
 from bananalyzer.data.schemas import Example
 
 
