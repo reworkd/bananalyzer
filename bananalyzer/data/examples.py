@@ -3,8 +3,9 @@ import os
 import shutil
 import subprocess
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
+from bananalyzer.data.banana_seeds import download_examples_from_s3
 from bananalyzer.data.schemas import Example
 
 local_examples_path: Path = Path(__file__).resolve().parent.parent.parent / "static"
@@ -50,9 +51,10 @@ def convert_to_crlf(file_path: Path) -> None:
             file.write(line)
 
 
-def download_examples() -> None:
+def download_examples(examples_bucket: Optional[str] = None) -> None:
     """
     Downloads the repo via git and places contents of the `/static` data directory in ~/.bananalyzer_data
+    :param examples_bucket: If provided, downloads examples from the specified S3 bucket
     """
     repo_url = "https://github.com/reworkd/bananalyzer.git"
     branch = "main"
@@ -86,6 +88,11 @@ def download_examples() -> None:
         print("Cleaning up repo...")
         shutil.rmtree("repo_temp", ignore_errors=True)
 
+    if examples_bucket is not None:
+        examples = download_examples_from_s3(examples_bucket)
+        with open(get_examples_path() / "examples_s3.json", "w") as file:
+            json.dump(examples, file)
+
 
 def load_examples_at_path(path: Path, examples_json_file_name: str) -> List[Example]:
     examples_json_path = path / examples_json_file_name
@@ -103,7 +110,11 @@ def load_examples_at_path(path: Path, examples_json_file_name: str) -> List[Exam
 
 
 def get_training_examples() -> List[Example]:
-    return load_examples_at_path(get_examples_path(), train_examples_name)
+    examples_path = get_examples_path()
+    examples = load_examples_at_path(examples_path, train_examples_name)
+    if (examples_path / "examples_s3.json").exists():
+        examples.extend(load_examples_at_path(examples_path, "examples_s3.json"))
+    return examples
 
 
 def get_test_examples() -> List[Example]:

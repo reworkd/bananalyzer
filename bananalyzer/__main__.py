@@ -10,10 +10,12 @@ from typing import List
 from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
+from bananalyzer.data.banana_seeds import download_mhtml
 from bananalyzer.data.examples import (
+    download_examples,
+    get_examples_path,
     get_test_examples,
     get_training_examples,
-    download_examples,
 )
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
@@ -67,7 +69,7 @@ def parse_args() -> Args:
         type=str,
         default=None,
         help="Filter tests by id. "
-             "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec",
+        "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec",
     )
     parser.add_argument(
         "-d",
@@ -135,6 +137,12 @@ def parse_args() -> Args:
         help="Will re-download training and test examples",
     )
     parser.add_argument(
+        "--examples_bucket",
+        type=str,
+        default=None,
+        help="Download examples from the specified public S3 bucket",
+    )
+    parser.add_argument(
         "--test",
         action="store_true",
         help="Use test set examples instead of training set examples",
@@ -182,6 +190,7 @@ def parse_args() -> Args:
         type=args.type,
         test=args.test,
         download=args.download,
+        examples_bucket=args.examples_bucket,
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
@@ -266,7 +275,7 @@ def main() -> int:
         print("##################################################")
         print("# Downloading examples, this may take a while... #")
         print("##################################################")
-        download_examples()
+        download_examples(examples_bucket=args.examples_bucket)
 
         if args.path == "DOWNLOAD_ONLY":
             return 0
@@ -279,7 +288,10 @@ def main() -> int:
 
     filters = []
     if args.id:
-        filters.append(lambda e: e.id == args.id or e.id == args.id.replace("_", "-"))
+        filters.append(
+            lambda e: e.id == args.id
+            or (isinstance(args.id, str) and e.id == args.id.replace("_", "-"))
+        )
 
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
@@ -304,6 +316,15 @@ def main() -> int:
         print("🍌 No tests to run. Please ensure your filter parameters are correct 🍌")
         print("=======================================================================")
         return 0
+
+    for example in examples:
+        if example.mhtml_url is not None:
+            mhtml_path = get_examples_path() / example.id / "index.mhtml"
+            if not mhtml_path.exists():
+                mhtml_path.parent.mkdir(parents=True, exist_ok=False)
+                mhtml_str = download_mhtml(example.mhtml_url)
+                with open(mhtml_path, "w") as file:
+                    file.write(mhtml_str)
 
     # Load the desired tests
     generator = PytestTestGenerator()

@@ -67,6 +67,10 @@ FetchId = Literal[
 class Example(BaseModel):
     id: str
     url: str
+    mhtml_url: Optional[str] = Field(
+        description="URL of the mhtml file if it is hosted on e.g. AWS S3",
+        default=None,
+    )
     source: Literal["mhtml", "hosted", "url"] = Field(
         description="Source of the website"
     )
@@ -76,11 +80,12 @@ class Example(BaseModel):
         description="The high level goal intent the agent is aiming to do"
     )
     goal: Optional[Union[str, Dict[str, Any]]] = Field(
-        description="The goal of the agent for this specific example"
+        description="The goal of the agent for this specific example",
+        default=None,
     )
     fetch_id: Optional[FetchId] = Field(
-        default=None,
         description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
+        default=None,
     )
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
