@@ -18056,5 +18056,177 @@
         }
       }
     ]
+  },
+    {
+    "id": "e57886de-706c-4e08-b543-70c530f5765b",
+    "url": "https://enforcementdirectorate.gov.in/fema?page=0",
+    "source": "hosted",
+    "category": "government",
+    "subcategory": "download",
+    "type": "pagination",
+    "goal": "Fetch all of the links to the documents on the current site. This may require pagination. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a different element on the page, the combination of text of two elements, link text, or title attribute. Use what best captures the name and ensure the whole name is present. Names should NOT repeat.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. Prefer PDFs over other types of links if given the choice\" }\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Foreign Exchange Management Act, 1999",
+            "url": "/sites/default/files/Act%26rules/FEMA_ACT_1999.pdf"
+          },
+          {
+            "name": "Foreign Exchange (Compounding Proceedings) Rules, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20%28Compounding%20Proceedings%29%20Rules%2C%202000_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Adjudication Proceedings and Appeal) Rules, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28ADJUDICATION%20PROCEEDINGS%20AND%20APPEAL%29%20Rules%202000.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Current Account Transactions) Rules, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Current%20Account%20Transactions%29%20Rules%2C%202000_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Encashment of Draft, Cheque, Instrument and payment of interest) Rules, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Encashment%20of%20Draft%2C%20Cheque%2C%20Instrument%20and%20payment%20of%20interest%29%20Rules%2C%202000._0.pdf"
+          },
+          {
+            "name": "Foreign Exchange (Authentication of Documents) Rules, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%28Authentication%20of%20Documents%29%20Rules%2C%202000.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-Debt%20Instrument%29%20Rules%2C%202019%20-%20without%20amendment_2.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) Amendment Rules, 2020",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-Debt%20Instrument%29%20%28Amendment%29%20Rules%2C%202019%20-%20SO%201278%20%28E%29_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management(Non-debt Instruments) (Amendment) Rules, 2019",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-Debt%20Instrument%29%20%28Amendment%29%20Rules%2C%202019_1.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) (Second Amendment) Rules, 2020",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-Debt%20Instrument%29%20%28Second%20Amendment%29%20Rules%2C%202020_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) (Second Amendment) Rules, 2021",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-Debt%20Instrument%29%20%28Second%20Amendment%29%20Rules%2C%202021_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) (Third Amendment) Rules, 2020",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-debt%20Instruments%29%20%28Third%20Amendment%29%20Rules%2C%202020.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Non-debt Instruments) (Fourth Amendment) Rules, 2020",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Non-debt%20Instruments%29%20%28Fourth%20Amendment%29%20Rules%2C%202020_1.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Borrowing and Lending in Rupees) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Borrowing%20and%20Lending%20in%20Rupees%29%20Regulations%2C%202000._0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Borrowing or Lending in Foreign Exchange) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Borrowing%20or%20Lending%20in%20Foreign%20Exchange%29%20Regulations%2C%202000._0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Foreign exchange derivative contracts) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Foreign%20exchange%20derivative%20contracts%29%2C%20Regulations%2C%202000%20-%20amended%20upto%202020_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Guarantees) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20ExchangeManagement%28Guarantees%29%20Regulations%2C%202000.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Investment in Firm or Proprietary Concern in India) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Investment%20in%20Firm%20or%20Proprietary%20Concern%20in%20India%29%20Regulations%202000%20-%20updated_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Issue of Security in India by a branch, office or agency of a person resident outside India) Regulations, 2000",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Issue%20of%20Security%20in%20India%20by%20a%20branch%2C%20office%20or%20agency%20of%20a%20person%20resident%20outside%20India%29Regulations%2C%202000_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Offshore Banking Unit) Regulations, 2002",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Offshore%20Banking%20Unit%29%20Regulations%2C%202002_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Withdrawal of General Permission to Overseas Corporate Bodies (OCBs)) Regulations, 2003",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Withdrawal%20of%20General%20Permission%20to%20Overseas%20Corporate%20Bodies%20%28OCBs%29%29%20Regulations%2C%202003_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Crystallization of Inoperative Foreign Currency Deposits) Regulations, 2014",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Crystallization%20of%20Inoperative%20Foreign%20Currency%20Deposits%29%20Regulations%2C%202014..pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Export and Import of Currency) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Export%20and%20import%20of%20currency%29%20Regulations%2C%202015.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Export of Goods and Services) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Export%20of%20Goods%20%26%20Services%29%20Regulations%2C%202015%20%28Amended%20upto%20September%2010%2C%202021%29_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Acquisition and transfer of immovable property outside India) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Acquisition%20and%20transfer%20of%20immovable%20property%20outside%20India%29%20Regulations%2C%202015_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Foreign Currency Accounts by a person resident in India) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Foreign%20currency%20accounts%20by%20a%20person%20resident%20in%20India%29%20Regulations%2C%202015%20-%20amended%20upto%202019_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Insurance) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Insurance%29%20Regulations%2C%202015_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (International Financial Services Centre) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28International%20Financial%20Services%20Centre%29%20Regulation%2C%202015%20-%20With%202020%20Amendment_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Possession and Retention of Foreign Currency) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Possession%20and%20Retention%20of%20Foreign%20Currency%29%20Regulations%2C%202015_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Realisation, Repatriation and Surrender of Foreign Exchange) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Realisation%2C%20Repatriation%20and%20Surrender%20of%20Foreign%20Exchange%29%20Regulations%2C%202015_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Regularization of assets held abroad by a person resident in India) Regulations, 2015",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Regularization%20of%20assets%20held%20abroad%20by%20a%20person%20resident%20in%20India%29%20Regulations%2C%202015._0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Deposit) Regulations, 2016",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Deposit%29%20Regulations%2C%202016_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Remittance of Assets) Regulations, 2016",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Remittance%20of%20Assets%29%20Regulations%2C%202016_1.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Borrowing and Lending) Regulations, 2018",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Borrowing%20and%20Lending%29%20Regulations%2C%202018.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Cross Border Merger) Regulations, 2018",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Cross%20Border%20Merger%29%20Regulations%2C%202018_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Acquisition and Transfer of Immovable Property in India) Regulations, 2018",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Acquisition%20and%20Transfer%20of%20Immovable%20Property%20in%20India%29%20Regulations%2C%202018_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Debt Instruments) Regulations, 2019",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Debt%20Instruments%29%20Regulations%2C%202019_0.pdf"
+          },
+          {
+            "name": "Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) Regulations, 2019",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Mode%20of%20Payment%20and%20Reporting%20of%20Non-Debt%20Instruments%29%20Regulations%2C%202019_0.PDF"
+          },
+          {
+            "name": "Foreign Exchange Management (Margin for Derivative Contracts) Regulations, 2020",
+            "url": "/sites/default/files/Act%26rules/Foreign%20Exchange%20Management%20%28Margin%20for%20Derivative%20Contracts%29%20Regulation%2C%202020_0.PDF"
+          }
+        ]
+      }
+    ]
   }
 ]

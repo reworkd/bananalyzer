@@ -68,6 +68,7 @@ enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananal
 - **links**: The agent must scrape all detail page links from a page
 - **links_fetch**: The agent must scrape all detail page links from a page and additionally extract JSON information
   for each link
+- **pagination**: Must fetch data across pages. Either links or fetch for now.
 
 # Getting Started
 
