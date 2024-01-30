@@ -41,6 +41,7 @@ def create_test_file(
 import pytest
 import pytest_asyncio
 import asyncio
+from playwright_stealth import stealth_async
 
 from bananalyzer.data.examples import get_example_by_url
 from playwright.async_api import async_playwright
@@ -80,6 +81,7 @@ async def page():
         browser = await p.chromium.launch(headless={headless})
         context = await browser.new_context(viewport={{ 'width': 1280, 'height': 1024 }})
         page = await context.new_page()
+        await stealth_async(page)
         yield page
         await browser.close()
 
