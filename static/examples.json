@@ -4746,27 +4746,25 @@
     "source": "mhtml",
     "category": "personal",
     "subcategory": "unstructured",
-    "type": "fetch",
-    "goal": "Fetch all of the quotes on the page. Return the data in the following schema  {\"quotes\": [{\"author\": \"string\", \"quote\": \"string\"}]}",
+    "type": "links_fetch",
+    "goal": "Fetch all of the quotes on the page. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": {
-          "quotes": [
-            {
-              "author": "John Carmack",
-              "quote": "You can\u2019t learn everything, but you have to convince yourself that you can learn anything."
-            },
-            {
-              "author": "Jeff Bezos",
-              "quote": "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death."
-            },
-            {
-              "author": "Fran\u00e7ois Chollet",
-              "quote": "Intelligence is the efficiency in which you turn a sampling of experiences into generalized programs."
-            }
-          ]
-        }
+        "expected": [
+          {
+            "author": "John Carmack",
+            "quote": "\u201cYou can\u2019t learn everything, but you have to convince yourself that you can learn anything.\u201d"
+          },
+          {
+            "author": "Jeff Bezos",
+            "quote": "\u201cDay 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death.\u201d"
+          },
+          {
+            "author": "Fran\u00e7ois Chollet",
+            "quote": "\u201cIntelligence is the efficiency in which you turn a sampling of experiences into generalized programs.\u201d"
+          }
+        ]
       }
     ]
   },
@@ -18057,7 +18055,7 @@
       }
     ]
   },
-    {
+  {
     "id": "e57886de-706c-4e08-b543-70c530f5765b",
     "url": "https://enforcementdirectorate.gov.in/fema?page=0",
     "source": "hosted",
