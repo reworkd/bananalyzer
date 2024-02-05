@@ -8972,15 +8972,15 @@
         "expected": [
           {
             "name": "Quality Policies",
-            "link": "https://www.mohre.gov.ae/assets/download/eb1110c9/quality-policies-v2.aspx"
+            "url": "https://www.mohre.gov.ae/assets/download/eb1110c9/quality-policies-v2.aspx"
           },
           {
             "name": "Occupational Health and Safety Policies",
-            "link": "https://www.mohre.gov.ae/assets/download/fb826589/occupational-health-v2.aspx"
+            "url": "https://www.mohre.gov.ae/assets/download/fb826589/occupational-health-v2.aspx"
           },
           {
             "name": "Observations and suggestions policy",
-            "link": "https://www.mohre.gov.ae/assets/download/220d3a/observations-and-suggestions-policy-v2.aspx"
+            "url": "https://www.mohre.gov.ae/assets/download/220d3a/observations-and-suggestions-policy-v2.aspx"
           }
         ]
       }
@@ -9000,31 +9000,31 @@
         "expected": [
           {
             "name": "Cabinet Resolution No. (24) for the year 2022 AD amending some provisions of Cabinet Resolution No. (10) for the year 2019 AD regarding the executive regulations of Federal Decree-Law No. (20) for the year 2018 AD regarding countering money laundering crimes and combating the financing of terrorism and the financing of illegal organizations. (Arabic Only)\n",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/BOOK-NO.-12.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/BOOK-NO.-12.pdf"
           },
           {
             "name": "Federal Decree-Law No.(26) of 2021 to amend certain provisions of Federal Decree-Law No.(20) of 2018 on anti -money laundering and combating the financing of terrorism and the financing of illegal organizations",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/26-law.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/26-law.pdf"
           },
           {
             "name": "Cabinet Decision No (10) of 2019 Concerning the Implementation of the Regulations of Decree Law No (20) of 2018 on Anti-Money Laundering and Combating the Financing of Terrorism and Illegal Organisations (Arabic Only)",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/10-2019-20-2018.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/10-2019-20-2018.pdf"
           },
           {
             "name": "Federal Decree Law No (14) of 2018 on the Central Bank and Organisation of Financial Institutions and Activities and its amendments. (Arabic Only)",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-14-%D9%84%D8%B3%D9%86%D8%A9-2018-%D9%81%D9%8A-%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA-%D9%88%D8%A7%D9%84%D8%A7%D9%94%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87..pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-14-%D9%84%D8%B3%D9%86%D8%A9-2018-%D9%81%D9%8A-%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA-%D9%88%D8%A7%D9%84%D8%A7%D9%94%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%D9%87..pdf"
           },
           {
             "name": "Federal Decree Law No (20) of 2018 on Anti-Money Laundering and Combating the Financing of Terrorism and Illegal Organisations (Arabic Only)",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-20-%D9%84%D8%B3%D9%86%D8%A9-2018-%D9%81%D9%8A-%D8%B4%D9%80%D8%A7%D9%94%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D8%B1%D8%A7%D9%8A%D9%94%D9%85-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%88%D8%A7%D9%84-%D9%88%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%95%D8%B1%D9%87%D8%A7%D8%A8-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A9.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-20-%D9%84%D8%B3%D9%86%D8%A9-2018-%D9%81%D9%8A-%D8%B4%D9%80%D8%A7%D9%94%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D8%B1%D8%A7%D9%8A%D9%94%D9%85-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%88%D8%A7%D9%84-%D9%88%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%95%D8%B1%D9%87%D8%A7%D8%A8-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A9.pdf"
           },
           {
             "name": "Federal Decree Law No (7) of 2011 on the Establishment of Emirates Development Bank (Arabic Only)",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-7-%D9%84%D8%B3%D9%86%D8%A9-2011-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%95%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-7-%D9%84%D8%B3%D9%86%D8%A9-2011-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%95%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-.pdf"
           },
           {
             "name": "Federal Law No (6) of 2010 on Credit Information and its amendments. (Arabic Only)",
-            "link": "https://mof.gov.ae/wp-content/uploads/2022/08/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88%D9%81%D9%82%D8%A7%D9%8B-%D9%84%D8%A7%D9%93%D8%AE%D8%B1-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2010-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%94%D8%AA%D9%85%D8%A7%D9%86%D9%8A%D8%A9.pdf"
+            "url": "https://mof.gov.ae/wp-content/uploads/2022/08/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88%D9%81%D9%82%D8%A7%D9%8B-%D9%84%D8%A7%D9%93%D8%AE%D8%B1-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2010-%D8%A8%D8%B4%D8%A7%D9%94%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%94%D8%AA%D9%85%D8%A7%D9%86%D9%8A%D8%A9.pdf"
           }
         ]
       }
