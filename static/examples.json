@@ -3699,188 +3699,108 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Amendment to Third Party Notice to Submit Returns for periods commencing on or after 1 March 2023, as published in Government Gazette No. 48867 dated 30 June 2023.",
+            "name": "Notice 4051",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-06-notice-4051-gg-49646-amendment-to-third-party-notice-to-submit-returns-for-periods-on-or-after-1-march-2023-in-gg-48867-of-30-june-2023-10-nov-2023/"
           },
           {
-            "name": "Returns of information to be submitted by third parties in terms of section 26",
+            "name": "Notice 3631",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-05-notice-3631-gg-48867-third-party-notice-to-submit-returns-for-periods-commencing-on-or-after-1-march-2023-30-june-2023/"
           },
           {
-            "name": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2023 tax year",
+            "name": "Notice 3540",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-04-notice-3540-gg-48788-notice-to-furnish-returns-2023-14-june-2023/"
           },
           {
-            "name": "Rules promulgated under section 103 prescribing the \u2013",
+            "name": "Notice 3146",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-03-notice-3146-gg-48188-new-dispute-resolution-rules-promulgated-under-s-103-10-march-2023/"
           },
           {
-            "name": "Notice of address of service specified by the Commissioner in terms of section 11(5) with regard to any notice or process by which legal proceedings are instituted.",
+            "name": "Notice 3136",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-02-notice-3136-gg-48187-address-of-service-wrt-notice-by-which-legal-proceedings-instituted-10-march-2023/"
           },
           {
-            "name": "Notice of addresses at which a document, notice or request is to be delivered or made for purposes of rule 2(1)(c)(ii) and rule 3(1) read together with rule 2(c)(iii) of the rules promulgated in terms of section 103",
+            "name": "Notice 3135",
             "url": "https://www.sars.gov.za/legal-lsec-tadm-pn-2023-01-notice-3135-gg-48187-address-at-which-notice-to-be-delivered-ito-rule-23-of-dr-rules-10-march-2023/"
           },
           {
-            "name": "Public notice in terms of section 23(f) with regard to changes in particulars",
+            "name": "Notice 2200",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2022-02-notice-2200-gg-46598-vat-vendor-requirement-to-update-vat-registration-status-following-drc-regulation-24-june-2022/"
           },
           {
-            "name": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2022 tax year",
+            "name": "Notice 2130",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2022-01-notice-2130-gg-46471-notice-to-furnish-returns-2022-3-june-2022/"
           },
           {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2) that are subject to a fixed amount penalty",
+            "name": "Notice 1531",
             "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-08-notice-1531-gg-45540-incidences-of-non-compliance-26-november-2021/"
           },
           {
-            "name": "Notice in terms of section 25(7) extending the date for for certain persons to submit income tax returns for the 2021 tax year to 2 December 2021",
+            "name": "Notice 1530",
             "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-07-notice-1530-gg-45539-extending-date-for-certain-persons-to-submit-returns-26-november-2021/"
           },
           {
-            "name": "Publication of explanatory summary of the Tax Administration Laws Amendment Bill, 2021",
+            "name": "Notice 1488",
             "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-06-notice-1488-gg-45437-explanatory-summary-of-the-talab-2021-8-november-2021/"
           },
           {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2)",
+            "name": "Notice 1461",
             "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-05-notice-1461-gg-45396-incidences-of-non-compliance-by-a-person-in-terms-of-section-2102-29-october-2021/"
           },
           {
-            "name": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of income tax returns for the 2021 tax year",
+            "name": "Notice 419",
             "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-04-notice-419-gg-44571-notice-to-submit-returns-2021-14-may-2021/"
           },
           {
-            "name": "Public notice, published in terms of section 25(7) of the Tax Administration Act, 2011, extending the deadline to file Country-by-Country Report returns by persons as specified in the notice.",
-            "url": "https://www.sars.gov.za/lsec-tadm-pn-2020-02-extension-of-deadline-to-file-country-by-country-returns-12-november-2020/"
+            "name": "Notice 299",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-03-notice-299-gg44383-application-and-cost-recovery-fees-for-bprs-and-bcrs-under-section-81-1-april-2021/"
           },
           {
-            "name": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of 2019 income tax returns",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2019-01-notice-342-gg-42545-28-june-2019/"
+            "name": "Notice 101",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-02-notice-101-gg44171-extending-the-deadline-to-file-country-by-country-report-returns-19-february-2021/"
           },
           {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2) of the Tax Administration Act, 2011, that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act.",
+            "name": "Notice 58",
+            "url": "https://www.sars.gov.za/lsec-tadm-pn-2021-01-notice-58-gg-44119-notice-to-submit-returns-2020-extension-29-january-2021/"
+          },
+          {
+            "name": "Notice 1372",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-05-notice-1372-gg-42100-14-december-2018/"
           },
           {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2) of the Tax Administration Act, 2011, that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act.",
+            "name": "Notice 1175",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-04-notice-1175-gg-41996-26-october-2018/"
           },
           {
-            "name": "Notice in terms of section 25, read with section 66(1) of the Income Tax Act, 1962, for submission of 2018 income tax returns",
+            "name": "Notice 600",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-03-notice-600-gg-41704-15-june-2018/"
           },
           {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2), that are subject to a fixed amount penalty in accordance with sections 210(1) and 211 of the Act",
+            "name": "Notice 480",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-02-notice-480-gg-41621-11-may-2018/"
           },
           {
-            "name": "Public notice in terms of section 25(7), extension of deadline to 28 February 2018, to file returns\u00a0under Notice 1117 published in Government Gazette 41186 of 20 October 2017",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2017-03-notice-1380-gg-41308-8-december-2017/"
+            "name": "Notice 241",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2018-01-notice-241-gg-41512-23-march-2018/"
           },
           {
-            "name": "Public notice published in terms of section 25, requiring the submission of Country-by-Country Report, Master file and Local file returns by persons as specified in the notice",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2017-02-notice-1117-gg-41186-20-october-2017/"
-          },
-          {
-            "name": "Income Tax Act, 1962, Unemployment Insurance Contributions Act, 2002, and Skills Development Levies Act, 1999",
-            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-15-notice-340-gg-40772-07-april-2017-date-upon-which-the-employer-must-render-a-return-emp501/"
-          },
-          {
-            "name": "Incidences of non-compliance by a person in terms of section 210(2), that are subject to a fixed amount penalty in accordance with sections 210(1) and 211",
-            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-02-notice-193-gg-40660-3-march-2017-incidences-of-non-compliance-subject-to-a-fixed-amount-penalty/"
-          },
-          {
-            "name": "Returns to be submitted by third parties in terms of section\u00a026",
-            "url": "https://www.sars.gov.za/lapd-lsec-it-gn-2017-01-notice-192-gg-40660-3-march-2017-returns-to-be-submitted-by-third-parties/"
-          },
-          {
-            "name": "Duty to keep records, books of account or documents in terms of section\u00a029",
+            "name": "Notice 1334",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-05-notice-1334-gg-40375-28-october-2016/"
           },
           {
-            "name": "Additional considerations in terms of section 80(2) according to which an application for a binding private ruling or a binding class ruling may be rejected",
+            "name": "Notice 748",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-04-notice-748-gg-40088-24-june-2016/"
           },
           {
-            "name": "Method of payment of tax prescribed in terms of section 162(2)",
+            "name": "Notice 437",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-03-notice-437-gg-39922-15-april-2016/"
           },
           {
-            "name": "Reportable and excluded arrangements for purposes of sections 35(2) and 36(4)",
+            "name": "Notice 140",
             "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-02-notice-140-gg-39650-3-february-2016/"
           },
           {
-            "name": "National Treasury\u00a0\u2013 Notice fixing the amount of the threshold for the amount of tax in dispute for purposes of an appeal to the Tax Board in terms ofsection\u00a0109(1)(a)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-05-notice-1196-gg-39490-17-december-2015/"
-          },
-          {
-            "name": "Incidences of non-compliance under section 210(2) that are subject to a fixed amount penalty in accordance with sections 210(1) and 211",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-04-notice-597-gg-38983-10-july-2015/"
-          },
-          {
-            "name": "Reportable and excluded arrangement for purposes of sections 25(2) and 36(4)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2015-02-notice-212-gg-38569-16-march-2015/"
-          },
-          {
-            "name": "Rules for electronic communication promulgated under section 255(1)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-06-notice-644-gg-37940-25-august-2014/"
-          },
-          {
-            "name": "Returns to be submitted by third parties in terms of section 26",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-04-notice-509-gg-37778-27-june-2014/"
-          },
-          {
-            "name": "Duty to keep the records, books of account or documents in terms of section 29 and in the form prescribed in terms of section 30",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-03-notice-508-gg-37778-27-june-2014/"
-          },
-          {
-            "name": "Method of payment of tax in terms of section 162(2) \u2013 cheque payments amount limited to R50\u00a0000",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2014-02-notice-415-gg-37690-30-may-2014/"
-          },
-          {
-            "name": "Method of payment prescribed in terms ofsection\u00a0162(2) for taxes assessed in terms of the Income Tax Act, 1962, payments of value-added tax in terms of the Value-Added Tax Act, 1991 and payments of employees\u2019 tax in terms of Schedule 4 of the Income Tax Act, 1962",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-09-notice-764-gg-36921-21-october-2013/"
-          },
-          {
-            "name": "Appointment and Reappointment of chairpersons of the Tax Board in terms of s.111 for the hearing of tax appeals",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-08-notice-637-gg-36790-27-august-2013/"
-          },
-          {
-            "name": "Income Tax 2013:\u00a0 Notice to furnish returns for the 2013 year of assessment",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-07-notice-451-gg-36603-28-june-2013/"
-          },
-          {
-            "name": "Returns to be submitted by companies that have issued share warrants to bearer in terms of the Companies Act, 1926 or the Companies Act, 1973, and still have such share warrants in issue \u2013 SWB001 returns to be submitted.",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-05-notice-421-gg-36565-14-june-2013/"
-          },
-          {
-            "name": "Returns to be submitted by third parties in terms of section 26 for 2013 and following years",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-04-notice-420-gg-36565-14-june-2013/"
-          },
-          {
-            "name": "Returns of information to be submitted by third parties in terms of section 26",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-03-notice-260-gg-36346-5-april-2013/"
-          },
-          {
-            "name": "Additional considerations in terms of section 80(2) according to which an application for a binding private ruling or a binding class ruling may be rejected",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2013-02-notice-103-gg-36119-8-february-2013/"
-          },
-          {
-            "name": "Incidences on non-compliance by a person in terms of section 210(2)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-04-notice-790-gg-35733-1-october-2012/"
-          },
-          {
-            "name": "Distance above which a person may decline to attend an interview in terms of section 47(4)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-03-notice-789-gg-35733-1-october-2012/"
-          },
-          {
-            "name": "Form and manner of a report to a taxpayer on the stage of completing of an audit of section 42(1)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-02-notice-788-gg-35733-1-october-2012/"
-          },
-          {
-            "name": "Electronic form of record-keeping in terms of section\u00a030(1)(b)",
-            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2012-01-notice-787-gg-35733-1-october-2012/"
+            "name": "Notice 1",
+            "url": "https://www.sars.gov.za/lapd-lsec-tadm-pn-2016-01-notice-1-gg-39575-6-january-2016/"
           }
         ]
       }
@@ -6839,11 +6759,11 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629 \u0648\u0644\u0627\u0626\u062d\u062a\u0629",
+            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629",
             "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.pdf"
           },
           {
-            "name": "\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629 \u0648\u0644\u0627\u0626\u062d\u062a\u0629",
+            "name": "\u0627\u0644\u0644\u0627\u0626\u062d\u0629 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a\u0629 \u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0645\u0639\u062f\u0646\u064a\u0629",
             "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/mineralrules/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.pdf"
           }
         ]
