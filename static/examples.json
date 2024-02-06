@@ -525,10 +525,9 @@
         "type": "json_match",
         "expected": {
           "name": "Atlanta Ophthalmology Associates",
-          "phone": "404-252-1194",
-          "fax": "404-252-1196",
           "address": "5730 Glenridge Drive\nSuite 120\nAtlanta, GA 30328",
-          "type": "SPECIALTY CARE"
+          "phone": "404-252-1194",
+          "fax": "404-252-1196"
         }
       }
     ]
@@ -546,10 +545,9 @@
         "type": "json_match",
         "expected": {
           "name": "Baptist Health ENT Partners",
-          "phone": "334-747-2273",
-          "fax": null,
           "address": "2055 East South Blvd; Suite 908\n\nMontgomery, Alabama 36116",
-          "type": null
+          "phone": "334-747-2273",
+          "fax": null
         }
       }
     ]
@@ -567,10 +565,9 @@
         "type": "json_match",
         "expected": {
           "name": "MyMichigan Medical Center Clare",
-          "phone": "(989) 633-5252",
-          "fax": null,
           "address": "703 N. McEwan Street\nClare, MI 48617",
-          "type": "CT Scanning"
+          "phone": "(989) 633-5252",
+          "fax": null
         }
       }
     ]
@@ -588,10 +585,9 @@
         "type": "json_match",
         "expected": {
           "name": "Montgomery Building",
-          "phone": "513-936-4510",
-          "fax": null,
           "address": "9275 Montgomery Road\nCincinnati, OH 45242",
-          "type": null
+          "phone": "513-936-4510",
+          "fax": null
         }
       }
     ]
@@ -609,10 +605,9 @@
         "type": "json_match",
         "expected": {
           "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
-          "phone": "502-588-7690",
-          "fax": "502-540-1414",
           "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
-          "type": "GI Motility Clinic"
+          "phone": "502-588-7690",
+          "fax": "502-540-1414"
         }
       }
     ]
@@ -2146,8 +2141,7 @@
           "name": "Cape Cod Surgery Center",
           "address": "160 Falmouth Road Mashpee MA 02649",
           "phone": "774-361-8700",
-          "fax": "774-521-3628",
-          "type": null
+          "fax": "774-521-3628"
         }
       }
     ]
@@ -2167,8 +2161,7 @@
           "name": "White River Health Orthopaedics & Sports Medicine",
           "address": "1690 Harrison Street Batesville, AR 72501",
           "phone": "(870) 793-2371",
-          "fax": "(870) 793-7585",
-          "type": null
+          "fax": "(870) 793-7585"
         }
       }
     ]
@@ -2188,8 +2181,7 @@
           "name": "West Tennessee Interventional Pain (Dyersburg)",
           "address": "420 Wilkinson Dr, Dyersburg, TN 38024, USA",
           "phone": "(731) 288-3960",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2209,8 +2201,7 @@
           "name": "Select Specialty Hospital - Wheeling",
           "address": "500 Medical Park, 2nd Floor Wheeling, WV 26003",
           "phone": "(304) 238-5750",
-          "fax": "(304) 797-6186",
-          "type": null
+          "fax": "(304) 797-6186"
         }
       }
     ]
@@ -2230,8 +2221,7 @@
           "name": "Children's Therapy Center",
           "address": "289 North Avenue, Washington, PA 15301",
           "phone": "(724) 942-6100",
-          "fax": "(724) 942-6104",
-          "type": null
+          "fax": "(724) 942-6104"
         }
       }
     ]
@@ -2251,8 +2241,7 @@
           "name": "Gastroenterology - North Raleigh",
           "address": "10010 Falls of Neuse Road, Suite 203 Raleigh, North Carolina 27614",
           "phone": "919-235-6440",
-          "fax": "919-350-7093",
-          "type": null
+          "fax": "919-350-7093"
         }
       }
     ]
@@ -2272,8 +2261,7 @@
           "name": "SURGICARE OF CENTRAL JERSEY",
           "address": "40 Stirling Road, Suite 101 Watchung, NJ 07069",
           "phone": "908-769-8000",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2293,8 +2281,7 @@
           "name": "ECU Health Family Medicine - Chocowinity",
           "address": "740 Bragaw Lane Chocowinity, NC 27817",
           "phone": "(252) 946-9562",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2314,8 +2301,7 @@
           "name": "Veritas Collaborative Eating Disorder Treatment Center",
           "address": "615 Douglas Street, Suite 500 Durham, NC 27705",
           "phone": "919-767-0202",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2335,8 +2321,7 @@
           "name": "Mayland Medical Center",
           "address": "3470 Mayland Court Richmond,VA 23233",
           "phone": "(804) 527-4540",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2356,8 +2341,7 @@
           "name": "Vanderbilt Bill Wilkerson Center Franklin",
           "address": "919 Murfreesboro Road, Franklin, TN 37064",
           "phone": "(615) 936-5000",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2377,8 +2361,7 @@
           "name": "Valley Health Page Memorial Hospital Multispecialty Clinic",
           "address": "125 Memorial Drive Luray, VA 22835",
           "phone": "540-743-2282",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2398,8 +2381,7 @@
           "name": "UW Medical Center - Northwest",
           "address": "Main Hospital, 1550 N 115th St., Seattle, WA 98133",
           "phone": "877.694.4677",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2419,8 +2401,7 @@
           "name": "Eye Care Clinic (Optometry)",
           "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
           "phone": "(608) 643-6060",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2440,8 +2421,7 @@
           "name": "UVA Medical Park Zion Crossroads",
           "address": "1015 Spring Creek Parkway Zion Crossroads, VA 22942",
           "phone": "434.924.0000",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2461,8 +2441,7 @@
           "name": "Cardiac Catheterization Lab",
           "address": "2451 University Hospital Dr. Mobile, AL 36617",
           "phone": "(251) 471-7160",
-          "fax": "(251) 471-7019",
-          "type": null
+          "fax": "(251) 471-7019"
         }
       }
     ]
@@ -2482,8 +2461,7 @@
           "name": "UofL Health - Hep C Center",
           "address": "UofL Health - Jackson Street Outpatient Center 550 S. Jackson Street, 3rd Floor Louisville, KY 40202",
           "phone": "502-561-5687",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2503,8 +2481,7 @@
           "name": "Pennsylvania Hospital",
           "address": "800 Spruce Street Philadelphia, PA 19107",
           "phone": "215-829-3000",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2524,8 +2501,7 @@
           "name": "Center for Advanced Vascular Care",
           "address": "10700 Nall Avenue Level 3 Overland Park, KS 66211",
           "phone": "913-588-1227",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2545,8 +2521,7 @@
           "name": "Comer Children's - Merrillville",
           "address": "99 E. 86th Ave. Suite C Merrillville, IN 46410",
           "phone": "773-702-6169",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]
@@ -2566,8 +2541,7 @@
           "name": "St. Luke's Interventional Pain Management",
           "address": "St. Luke's Building A 1012 East Second Street 4th Floor Duluth, MN 55805",
           "phone": "218.249.7860",
-          "fax": "218.249.6370",
-          "type": null
+          "fax": "218.249.6370"
         }
       }
     ]
@@ -2587,8 +2561,7 @@
           "name": "St. Joseph's Campus of Arnot Health",
           "address": "555 St. Joseph's Boulevard",
           "phone": "607-733-6541",
-          "fax": null,
-          "type": null
+          "fax": null
         }
       }
     ]

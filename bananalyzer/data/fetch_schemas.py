@@ -11,19 +11,16 @@ This file contains mapping of fetch_id to fetch schema to avoid duplicate schema
 
 class ContactSchema(BaseModel):
     name: str = Field(
-        description="name of the location (not the hospital system name) *precisely* as it is written on the page (do not edit it, add text, or combine names)"
+        description="Name of the location (not the hospital system name) *precisely* as it is written on the page (do not edit it, add text, or combine names)"
     )
     address: str = Field(
-        description="complete address of the location including street, city, state, and ZIP",
+        description="Complete address of the location including street, city, state, and ZIP",
     )
     phone: str = Field(
-        description="phone number of the location (only include the number but retain its formatting)",
+        description="Phone number of the location (only include the number but retain its formatting)",
     )
     fax: str = Field(
-        description="fax number of the location (only include the number but retain its formatting)",
-    )
-    type: str = Field(
-        description="the type of location: Neurosurgery, MRI Services, etc. (not all locations will have a type available on the page)",
+        description="Fax number of the location (only include the number but retain its formatting)",
     )
 
 
