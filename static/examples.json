@@ -9455,23 +9455,23 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Decree no. (28)\u00a0of 2015 concerning the\u00a0Dubai Statistics Center",
+            "name": "Dubai Statistics Center",
             "url": "https://www.dsc.gov.ae/en-us/About-Us/Documents/2015_1400_Law%2028%20of%202015%20Concerning%20the%20Dubai%20Statistics%20Centre_Final.pdf"
           },
           {
-            "name": "Decree no. (6)\u00a0of 2013 concerning\u00a0Dubai Statistics Center new Organization Chart",
+            "name": "Dubai Statistics Center new Organization Chart",
             "url": "https://www.dsc.gov.ae/Public%20Documents/About%20DSC/Executive%20Council%20Resolution%20No.%206%20of%202013%20On%20adoption%20of%20The%20Dubai%20Statistics%20Center%20Organizational%20Structure.pdf"
           },
           {
-            "name": "Resolution no. (39) of 2015 Regulating Poll Studies Firms Operating in the Emirate of Dubai",
+            "name": "Poll Studies Firms Operating in the Emirate of Dubai",
             "url": "https://www.dsc.gov.ae/en-us/DSC-News/Documents/Poll%20Studies%20Firms%20Operating.pdf"
           },
           {
-            "name": "Administrative Resolution No. (96) of 2016 Approving the Conditions for Conducting Poll Studies",
+            "name": "\u200bApproving the Conditions for Conducting Poll Studies",
             "url": "https://www.dsc.gov.ae/Public%20Documents/About%20DSC/2016_1451_Admin%20%20Res%20%2096%20of%202016%20Re%20%20%20Poll%20Studies_Final.pdf"
           },
           {
-            "name": "Administrative Resolution No. (4) of 2022 Amending Administrative Resolution No. (96) of 2016 Approving the conditions for engaging in the activity of conducting poll studies.)",
+            "name": "Amending Administrative Resolution No. (96) of 2016 Approving the conditions for engaging in the activity of conducting poll studies.)",
             "url": "https://www.dsc.gov.ae/Public%20Documents/About%20DSC/Administrative%20Resolution%20No.%20(4)%20of%202022%20Amending.pdf"
           }
         ]
