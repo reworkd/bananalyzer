@@ -2239,7 +2239,7 @@
         "type": "json_match",
         "expected": {
           "name": "Gastroenterology - North Raleigh",
-          "address": "10010 Falls of Neuse Road, Suite 203 Raleigh, North Carolina 27614",
+          "address": "WakeMed North Hospital Physicians Office Pavilion 10010 Falls of Neuse Road, Suite 203 Raleigh, North Carolina 27614",
           "phone": "919-235-6440",
           "fax": "919-350-7093"
         }
