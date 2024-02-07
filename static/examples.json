@@ -564,7 +564,7 @@
       {
         "type": "json_match",
         "expected": {
-          "name": "MyMichigan Medical Center Clare",
+          "name": "CT Scanning",
           "address": "703 N. McEwan Street\nClare, MI 48617",
           "phone": "(989) 633-5252",
           "fax": null
@@ -604,7 +604,7 @@
       {
         "type": "json_match",
         "expected": {
-          "name": "UofL Health \u2013 Jewish Hospital Outpatient Care Center",
+          "name": "GI Motility Clinic",
           "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
           "phone": "502-588-7690",
           "fax": "502-540-1414"
@@ -2198,7 +2198,7 @@
       {
         "type": "json_match",
         "expected": {
-          "name": "Select Specialty Hospital - Wheeling",
+          "name": "Select Specialty Hospitals - Wheeling",
           "address": "500 Medical Park, 2nd Floor Wheeling, WV 26003",
           "phone": "(304) 238-5750",
           "fax": "(304) 797-6186"
