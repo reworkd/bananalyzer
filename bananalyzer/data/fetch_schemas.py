@@ -11,16 +11,16 @@ This file contains mapping of fetch_id to fetch schema to avoid duplicate schema
 
 class ContactSchema(BaseModel):
     name: str = Field(
-        description="Name of the location (not the hospital system name) *precisely* as it is written on the page (do not edit it, add text, or combine names)"
+        description="Name of the location, facility, or the service provided by the clinic. Typically available at the top of the page or in the contac section. Do NOT use the address as the name which may be street/ state like 'Henry Adams, SF'. Double check that this is not the case"
     )
     address: str = Field(
-        description="Complete address of the location including street, city, state, and ZIP",
+        description="The complete address of the location. Use the inner text of elements. You MUST include the building name if available and above the other address elements. This value should be building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. Do NOT forget the building name. Do not include extra words at the begining or end of the concatenation like 'Address' or 'Phone', etc",
     )
     phone: str = Field(
-        description="Phone number of the location (only include the number but retain its formatting)",
+        description="The primary phone number of the location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or traling words like 'Phone'",
     )
     fax: str = Field(
-        description="Fax number of the location (only include the number but retain its formatting)",
+        description="The primary fax number of the location. Only include the number but retain its formatting by stripping all leading or traling words like 'Fax'. When picking an element, ensure the element you use is LABELED as a FAX number on the page via text or an icon. If this is not the case, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number.",
     )
 
 
