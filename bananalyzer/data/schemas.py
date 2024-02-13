@@ -115,5 +115,12 @@ class Example(BaseModel):
         if fetch_id is None:
             raise ValueError("fetch_id must be provided if goal is not provided")
 
-        values["goal"] = get_fetch_schema(fetch_id).model_fields
+        fetch_schema = get_fetch_schema(fetch_id)
+        values["goal"] = (
+            fetch_schema.model_fields
+            if not isinstance(fetch_schema, dict)
+            and issubclass(fetch_schema, BaseModel)
+            else fetch_schema
+        )
+
         return values

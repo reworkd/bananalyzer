@@ -321,8 +321,8 @@ def main() -> int:
         if example.mhtml_url is not None:
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             if not mhtml_path.exists():
-                mhtml_path.parent.mkdir(parents=True, exist_ok=False)
                 mhtml_str = download_mhtml(example.mhtml_url)
+                mhtml_path.parent.mkdir(parents=True, exist_ok=False)
                 with open(mhtml_path, "w") as file:
                     file.write(mhtml_str)
 

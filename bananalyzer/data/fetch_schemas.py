@@ -1,4 +1,4 @@
-from typing import Dict, List, Type
+from typing import Dict, List, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -24,28 +24,100 @@ class ContactSchema(BaseModel):
     )
 
 
-class JobPostingSchema(BaseModel):
-    job_id: str = Field(
-        description="Unique alphanumeric identifier for the job posting."
-    )
-    job_title: str = Field(
-        description="The entire job title, including team name or specialization if present in the title."
-    )
-    job_category: str = Field(
-        description="Team name or specialization if present separate from the title."
-    )
-    date_posted: str = Field(description="Date posted, only if present on the page.")
-    location: str = Field(description="Entire location of the job.")
-    job_description: str = Field(
-        description="Comprehensive job description including all its sentences."
-    )
-    roles_and_responsibilities: str
-    qualifications: str
-    preferred_qualifications: str
-    benefits: str
-    salary: str = Field(
-        description="Numerical annual salary following format provided, including lower and upper bounds if present."
-    )
+JobPostingSchema = {
+    "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting.",
+    },
+    "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job.",
+    },
+    "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post.",
+    },
+    "level": {
+        "type": "string",
+        "description": "The tier of the job within the company's structure.",
+    },
+    "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position.",
+    },
+    "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title.",
+    },
+    "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences.",
+    },
+    "location": {"type": "string", "description": "Entire location of the job."},
+    "salary_range": {
+        "type": "object",
+        "properties": {
+            "min": {"type": "string", "description": "Minimum salary offered."},
+            "max": {"type": "string", "description": "Maximum salary offered."},
+            "currency": {
+                "type": "string",
+                "description": "The currency of the salary.",
+            },
+        },
+    },
+    "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page.",
+    },
+    "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job.",
+    },
+    "work_hours": {
+        "type": "string",
+        "description": "The expected work hours for the job.",
+    },
+    "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job.",
+    },
+    "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications for the job.",
+    },
+    "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job.",
+    },
+    "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills.",
+    },
+    "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job.",
+    },
+    "education": {
+        "type": "string",
+        "description": "Listed requirements for education or past experience",
+    },
+    "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact.",
+    },
+    "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications.",
+    },
+    "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract).",
+    },
+    "tags": {
+        "type": "array",
+        "description": "Keywords or phrases related to the job for categorization and searchability.",
+    },
+}
 
 
 class Specification(BaseModel):
@@ -213,8 +285,8 @@ class AttorneyJobPostingSchema(BaseModel):
     )
 
 
-def get_fetch_schema(fetch_id: FetchId) -> Type[BaseModel]:
-    fetch_schemas: Dict[str, Type[BaseModel]] = {
+def get_fetch_schema(fetch_id: FetchId) -> Union[Dict[str, Any], Type[BaseModel]]:
+    fetch_schemas: Dict[str, Union[Dict[str, Any], Type[BaseModel]]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,
