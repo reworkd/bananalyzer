@@ -27,28 +27,171 @@ class ContactSchema(BaseModel):
     )
 
 
-class JobPostingSchema(BaseModel):
-    job_id: str = Field(
-        description="Unique alphanumeric identifier for the job posting."
-    )
-    job_title: str = Field(
-        description="The entire job title, including team name or specialization if present in the title."
-    )
-    job_category: str = Field(
-        description="Team name or specialization if present separate from the title."
-    )
-    date_posted: str = Field(description="Date posted, only if present on the page.")
-    location: str = Field(description="Entire location of the job.")
-    job_description: str = Field(
-        description="Comprehensive job description including all its sentences."
-    )
-    roles_and_responsibilities: str
-    qualifications: str
-    preferred_qualifications: str
-    benefits: str
-    salary: str = Field(
-        description="Numerical annual salary following format provided, including lower and upper bounds if present."
-    )
+# class JobPostingSchema(BaseModel):
+#     job_id: str = Field(
+#         description="Unique alphanumeric identifier for the job posting."
+#     )
+#     job_title: str = Field(
+#         description="The entire job title, including team name or specialization if present in the title."
+#     )
+#     job_category: str = Field(
+#         description="Team name or specialization if present separate from the title."
+#     )
+#     date_posted: str = Field(description="Date posted, only if present on the page.")
+#     location: str = Field(description="Entire location of the job.")
+#     job_description: str = Field(
+#         description="Comprehensive job description including all its sentences."
+#     )
+#     roles_and_responsibilities: str
+#     qualifications: str
+#     preferred_qualifications: str
+#     benefits: str
+#     salary: str = Field(
+#         description="Numerical annual salary following format provided, including lower and upper bounds if present."
+#     )
+
+
+# def map_old_schema_to_new_schema(old_example):
+#     old_expected = old_example["evals"][0]["expected"]
+#     salary_min = None
+#     salary_max = None
+#     if old_expected["salary"]:
+#         salary_parts = old_expected["salary"].split(" - ")
+#         if len(salary_parts) == 2:
+#             salary_min, salary_max = salary_parts
+#         else:
+#             salary_parts = old_expected["salary"].split("\u2014")
+#             if len(salary_parts) == 2:
+#                 salary_min, salary_max = salary_parts
+#             else:
+#                 salary_min = salary_max = old_expected["salary"]
+
+#     old_example["evals"][0]["expected"] = {
+#         "job_id": old_expected["job_id"],
+#         "company_name": None,
+#         "company_description": None,
+#         "level": None,
+#         "department": old_expected["job_category"],
+#         "job_title": old_expected["job_title"],
+#         "job_description": old_expected["job_description"],
+#         "location": old_expected["location"],
+#         "salary_range": {
+#             "min": salary_min,
+#             "max": salary_max,
+#             "currency": "USD",
+#         },
+#         "date_posted": old_expected["date_posted"],
+#         "apply_url": None,
+#         "work_hours": None,
+#         "job_benefits": old_expected["benefits"],
+#         "qualifications": old_expected["qualifications"],
+#         "preferred_qualifications": old_expected["preferred_qualifications"],
+#         "role": old_expected["roles_and_responsibilities"],
+#         "skills": None,
+#         "education": None,
+#         "recruiter_email": None,
+#         "application_deadline": None,
+#         "employment_type": None,
+#         "tags": None,
+#     }
+
+#     return old_example
+
+
+JobPostingSchema = {
+    "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting.",
+    },
+    "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job.",
+    },
+    "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post.",
+    },
+    "level": {
+        "type": "string",
+        "description": "The tier of the job within the company's structure.",
+    },
+    "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position.",
+    },
+    "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title.",
+    },
+    "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences.",
+    },
+    "location": {"type": "string", "description": "Entire location of the job."},
+    "salary_range": {
+        "type": "object",
+        "properties": {
+            "min": {"type": "string", "description": "Minimum salary offered."},
+            "max": {"type": "string", "description": "Maximum salary offered."},
+            "currency": {
+                "type": "string",
+                "description": "The currency of the salary.",
+            },
+        },
+    },
+    "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page.",
+    },
+    "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job.",
+    },
+    "work_hours": {
+        "type": "string",
+        "description": "The expected work hours for the job.",
+    },
+    "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job.",
+    },
+    "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications for the job.",
+    },
+    "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job.",
+    },
+    "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills.",
+    },
+    "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job.",
+    },
+    "education": {
+        "type": "string",
+        "description": "Listed requirements for education or past experience",
+    },
+    "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact.",
+    },
+    "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications.",
+    },
+    "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract).",
+    },
+    "tags": {
+        "type": "array",
+        "description": "Keywords or phrases related to the job for categorization and searchability.",
+    },
+}
 
 
 class Specification(BaseModel):
