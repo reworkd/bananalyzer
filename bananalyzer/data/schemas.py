@@ -14,6 +14,7 @@ GoalType = Literal[
     "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
     "links",  # Scrape all detail page links from a single listing page
     "links_fetch",  # Scrape all detail page links from a single listing page along with JSON information
+    "pagination",  # Must fetch data across pages. Either links or fetch for now.
     "click",  # Make a single click on a page
     "navigate",  # Travel to a new page
     "search",  # Search for the answer to a specific query
@@ -71,7 +72,7 @@ class Example(BaseModel):
         description="URL of the mhtml file if it is hosted on e.g. AWS S3",
         default=None,
     )
-    source: Literal["mhtml", "hosted", "url"] = Field(
+    source: Literal["mhtml", "hosted"] = Field(
         description="Source of the website"
     )
     category: str = Field(description="Category of the website")
