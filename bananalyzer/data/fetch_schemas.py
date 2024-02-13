@@ -1,4 +1,4 @@
-from typing import Dict, List, Type
+from typing import Dict, List, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -288,8 +288,8 @@ class AttorneyJobPostingSchema(BaseModel):
     )
 
 
-def get_fetch_schema(fetch_id: FetchId) -> Type[BaseModel]:
-    fetch_schemas: Dict[str, Type[BaseModel]] = {
+def get_fetch_schema(fetch_id: FetchId) -> Union[Dict[str, Any], Type[BaseModel]]:
+    fetch_schemas: Dict[str, Union[Dict[str, Any], Type[BaseModel]]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,
