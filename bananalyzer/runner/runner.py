@@ -36,16 +36,16 @@ def create_test_file(
         dir=cache_dir,
     ) as f:
         # noinspection PyUnresolvedReferences
-        f.write(
-            f"""
+        for test_content in tests:
+            f.write(
+                f"""
 import pytest
 import pytest_asyncio
 import asyncio
-from playwright_stealth import stealth_async
 
 from bananalyzer.data.examples import get_example_by_url
 from playwright.async_api import async_playwright
-
+from playwright_stealth import stealth_async
 
 @pytest.fixture(scope="session")
 def event_loop():
@@ -86,8 +86,7 @@ async def page():
         await browser.close()
 
 """
-        )
-        for test_content in tests:
+            )
             f.write(f"{test_content.code}\n\n")
 
     return f.name
