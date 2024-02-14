@@ -5045,7 +5045,7 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "links_fetch",
-    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
+    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
     "evals": [
       {
         "type": "json_match",
