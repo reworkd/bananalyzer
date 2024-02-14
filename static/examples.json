@@ -4471,530 +4471,530 @@
     "category": "education",
     "subcategory": "details",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string, url: string}",
+    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Social Issues and Communication Strategies in Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 105W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 120",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 125",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 210",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Programming",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 225",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Software Engineering",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 276",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Systems",
-            "units": "4",
+            "units": 4,
             "course_code": "CMPT 295",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Discrete Mathematics I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 101",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Statistics for Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "STAT 271",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I with Review",
-            "units": "4",
+            "units": 4,
             "course_code": "MATH 150",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 151",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences I",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 154",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I for the Social Sciences",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 157",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 152",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences II",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 155",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II for the Social Sciences",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 158",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Linear Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 232",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra I: Linear Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 240",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Professional Responsibility and Technical Writing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 376W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Artificial Intelligence",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 310",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Biomedical Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Machine Learning",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 410",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Knowledge Representation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 411",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Linguistics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 413",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Intelligent Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 417",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Artificial Intelligence",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 419",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Deep Learning",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 420",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Visual Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 361",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "User Interface Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 363",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Multimedia Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 365",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Vision",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 412",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Photography and Image Manipulation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 461",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Geometric Modelling in Computer Graphics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 464",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Animation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 466",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Visualization",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 467",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Graphics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 469",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Simulation and Modelling",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 305",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Communications and Networking",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 371",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Principles of Compiler Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 379",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "System Security and Privacy",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 403",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Distributed Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 431",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Embedded Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 433",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Architecture",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 450",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Networking II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 471",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 479",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Hardware",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 499",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Data Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 353",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 354",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mobile Applications Programming and Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 362",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web II - Server-side Development",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 372",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Biology",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 441",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 454",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Information Retrieval and Web Search",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 456",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Database Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 459",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web Systems Architecture",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 474",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Development Methods",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 373",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Comparative Programming Languages",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 383",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Symbolic Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 384",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Testing, Reliability and Security",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 473",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Requirements Engineering",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 475",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Verification",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 477",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Programming Languages",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 489",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computability and Complexity",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography and Cryptographic Protocols",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 404",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Design and Analysis of Computing Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 405",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Geometry",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 406",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Complexity",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 407",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Theoretical Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 409",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Quantum Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 476",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Languages and Automata with Applications",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 401",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 442",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Linear Optimization",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra II: Rings and Fields",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Discrete Mathematics",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 343",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 318",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 415",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 416",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Directed Studies",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 496",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Dual Degree Program Capstone Project",
-            "units": "6",
+            "units": 6,
             "course_code": "CMPT 497",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Honours Research Project",
-            "units": "6",
+            "units": 6,
             "course_code": "CMPT 498",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           }
