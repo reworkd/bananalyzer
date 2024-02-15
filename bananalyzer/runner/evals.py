@@ -18,6 +18,11 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     if actual_value == "":
         actual_value = None
 
+    if expected_value is None and actual_value is None:
+        pytest.skip(
+            f"Field {field} is None in both expected and actual. Skipping this test."
+        )
+
     if not check_match(expected_value, actual_value):
         pytest.fail(f"{expected_value} != {actual_value}")
 

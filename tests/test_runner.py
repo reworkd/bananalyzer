@@ -136,7 +136,7 @@ def test_run_error_test(
         "auto",
     ],
 )
-def test_xlm_report_has_properties(
+def test_xml_report_has_properties(
     mocker,
     runner: AgentRunnerClass,
     pytest_args: PytestArgs,
