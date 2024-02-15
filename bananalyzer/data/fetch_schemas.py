@@ -24,15 +24,6 @@ class ContactSchema(BaseModel):
     )
 
 
-def map_old_schema_to_new_schema(old_example):
-    del old_example["evals"][0]["expected"]["level"]
-    del old_example["evals"][0]["expected"]["work_hours"]
-    del old_example["evals"][0]["expected"]["education"]
-    del old_example["evals"][0]["expected"]["tags"]
-
-    return old_example
-
-
 JobPostingSchema = {
     "job_id": {
         "type": "string",
