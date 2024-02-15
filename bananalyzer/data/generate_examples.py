@@ -72,7 +72,7 @@ async def llm_annotate_example(
     prompt = f"""Here's an OCR'd screenshot of the details page for a listing on a website.
 {page_text}
 
-Here is the schema we want to map information from the details page into. If an attribute in this schema doesn't have corresponding information on the details page, do NOT include that attribute in your output. If there is no corresponding information on the page at all, return an empty JSON.
+Here is the schema we want to map information from the details page into. If an attribute in this schema doesn't have corresponding information on the details page, do set that attribute as null in your output. If there is no corresponding information on the page at all, return an empty JSON.
 ```json
 {schema}
 ```
@@ -145,13 +145,15 @@ async def main() -> None:
     tarsier_client = Tarsier(ocr_service)
 
     urls: List[str] = []
-    fetch_schema = get_fetch_schema("attorney_job_listing")
+    fetch_schema = get_fetch_schema("job_posting")
     if not isinstance(fetch_schema, dict):
         schema = fetch_schema.model_fields
+    else:
+        schema = fetch_schema
     metadata = {
-        "category": "legal",
-        "subcategory": "attorney_job_listing",
-        "fetch_id": "attorney_job_listing",
+        "category": "unknown",
+        "subcategory": "careers",
+        "fetch_id": "job_posting",
     }
     await add_examples_to_json(urls, schema, metadata, tarsier_client, openai_client)
 

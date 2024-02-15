@@ -26,7 +26,7 @@ class Args(BaseModel):
     path: Union[str, Literal["DOWNLOAD_ONLY"]]
     headless: bool
     single_browser_instance: bool
-    id: Optional[str] = Field(default=None)
+    id: Optional[List[str]] = Field(default=None)
     domain: Optional[str] = Field(default=None)
     intent: Optional[GoalType] = Field(default=None)
     category: Optional[str] = Field(default=None)

@@ -37,10 +37,6 @@ JobPostingSchema = {
         "type": "string",
         "description": "A brief description of the company within the job post.",
     },
-    "level": {
-        "type": "string",
-        "description": "The tier of the job within the company's structure.",
-    },
     "department": {
         "type": "string",
         "description": "The department or team name within the company for the job position.",
@@ -73,17 +69,13 @@ JobPostingSchema = {
         "type": "string",
         "description": "The URL where applicants can apply for the job.",
     },
-    "work_hours": {
-        "type": "string",
-        "description": "The expected work hours for the job.",
-    },
     "job_benefits": {
         "type": "string",
         "description": "A list of benefits provided with the job.",
     },
     "qualifications": {
         "type": "string",
-        "description": "A list of required qualifications for the job.",
+        "description": "A list of required qualifications or certifications for the job.",
     },
     "preferred_qualifications": {
         "type": "string",
@@ -97,10 +89,6 @@ JobPostingSchema = {
         "type": "string",
         "description": "A list of knowledge, skills or abilities required for the job.",
     },
-    "education": {
-        "type": "string",
-        "description": "Listed requirements for education or past experience",
-    },
     "recruiter_email": {
         "type": "string",
         "description": "Email address of the recruiter or hiring manager for contact.",
@@ -112,10 +100,6 @@ JobPostingSchema = {
     "employment_type": {
         "type": "string",
         "description": "The type of employment (e.g., full-time, part-time, contract).",
-    },
-    "tags": {
-        "type": "array",
-        "description": "Keywords or phrases related to the job for categorization and searchability.",
     },
 }
 
