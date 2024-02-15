@@ -101,3 +101,17 @@ def test_validate_field_match_pass(expected, actual, field):
 def test_validate_field_match_fail(expected, actual, field):
     with pytest.raises(pytest.fail.Exception):
         validate_field_match(expected, actual, field)
+
+
+@pytest.mark.parametrize(
+    "expected, actual, field",
+    [
+        ({"field": None}, {"field": None}, "field"),
+        ({"field": None}, {"field": ""}, "field"),
+    ],
+)
+def test_validate_field_match_skip(expected, actual, field):
+    with pytest.raises(pytest.skip.Exception) as exc_info:
+        validate_field_match(expected, actual, field)
+
+    assert "Skipping this test" in str(exc_info.value)
