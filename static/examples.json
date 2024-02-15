@@ -4363,530 +4363,530 @@
     "category": "education",
     "subcategory": "details",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string, url: string}",
+    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
     "evals": [
       {
         "type": "json_match",
         "expected": [
           {
             "title": "Social Issues and Communication Strategies in Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 105W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 120",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computing Science and Programming II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 125",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 210",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Programming",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 225",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Software Engineering",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 276",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Systems",
-            "units": "4",
+            "units": 4,
             "course_code": "CMPT 295",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Discrete Mathematics I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 101",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Probability and Statistics for Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "STAT 271",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I with Review",
-            "units": "4",
+            "units": 4,
             "course_code": "MATH 150",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 151",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences I",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 154",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus I for the Social Sciences",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 157",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 152",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mathematics for the Life Sciences II",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 155",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Calculus II for the Social Sciences",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 158",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Linear Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 232",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra I: Linear Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 240",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Professional Responsibility and Technical Writing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 376W",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Artificial Intelligence",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 310",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Biomedical Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Machine Learning",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 410",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Knowledge Representation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 411",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Linguistics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 413",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Intelligent Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 417",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Artificial Intelligence",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 419",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Deep Learning",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 420",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Visual Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 361",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "User Interface Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 363",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Multimedia Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 365",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Vision",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 412",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Photography and Image Manipulation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 461",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Geometric Modelling in Computer Graphics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 464",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Animation",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 466",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Visualization",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 467",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Graphics",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 469",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Operating Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Simulation and Modelling",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 305",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Communications and Networking",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 371",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Principles of Compiler Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 379",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "System Security and Privacy",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 403",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Distributed Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 431",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Embedded Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 433",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computer Architecture",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 450",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Networking II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 471",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 479",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computer Hardware",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 499",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Data Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 353",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems I",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 354",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Mobile Applications Programming and Design",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 362",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web II - Server-side Development",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 372",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Biology",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 441",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Database Systems II",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 454",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Information Retrieval and Web Search",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 456",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Database Systems",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 459",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Web Systems Architecture",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 474",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Development Methods",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 373",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Comparative Programming Languages",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 383",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Symbolic Computing",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 384",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Software Testing, Reliability and Security",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 473",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Requirements Engineering",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 475",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Verification",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 477",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Programming Languages",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 489",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Data Structures and Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 307",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computability and Complexity",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography and Cryptographic Protocols",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 404",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Design and Analysis of Computing Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 405",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Geometry",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 406",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Computational Complexity",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 407",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Theoretical Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 409",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Quantum Algorithms",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 476",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Formal Languages and Automata with Applications",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 300",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Numerical Analysis I",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Introduction to Computer Algebra",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 401",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Cryptography",
-            "units": "3",
+            "units": 3,
             "course_code": "MACM 442",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Linear Optimization",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 308",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Algebra II: Rings and Fields",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 340",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Applied Discrete Mathematics",
-            "units": "3",
+            "units": 3,
             "course_code": "MATH 343",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Topics in Computing Science",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 318",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 415",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Special Research Projects",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 416",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Directed Studies",
-            "units": "3",
+            "units": 3,
             "course_code": "CMPT 496",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Dual Degree Program Capstone Project",
-            "units": "6",
+            "units": 6,
             "course_code": "CMPT 497",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
             "title": "Honours Research Project",
-            "units": "6",
+            "units": 6,
             "course_code": "CMPT 498",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           }
@@ -4937,7 +4937,7 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "links_fetch",
-    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
+    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -6473,7 +6473,7 @@
             "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/All.-1-Circolare-n.-1-SG-664-del-13-10-2021.pdf"
           },
           {
-            "name": "All. 2",
+            "name": " All. 2",
             "url": "https://www.ministeroturismo.gov.it/wp-content/uploads/2021/10/All.-2-Circolare-n.-1-SG-664-del-13-10-2021.pdf"
           },
           {
@@ -6658,119 +6658,119 @@
         "expected": [
           {
             "name": "Arbitration Law DIFC Law no. 1 of 2008",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/arbitration-law-difc-law-no1-2008"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/arbitration_law_difc_law_no_1_of_2008.pdf"
           },
           {
             "name": "Common Reporting Standard Law DIFC Law No. 2 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/common-reporting-standard-law-difc-law-no-2-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/common_reporting_standards_law_no_2_of_2018_final.pdf"
           },
           {
             "name": "Companies Law DIFC Law No. 5 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/companies-law-difc-law-no-5-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/companies_law.pdf"
           },
           {
             "name": "Contract Law DIFC Law No. 6 of 2004",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/contract-law-difc-law-no-6-2004"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/contract_law_difc_law_no_6_of_2004-done.pdf"
           },
           {
             "name": "Court Law DIFC Law No. 10 of 2004",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/court-law-difc-law-no10-2004"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/court_law_difc_law_no10_of_2004.pdf"
           },
           {
             "name": "Data Protection Law DIFC Law No. 5 of 2020",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data_protection_law_final.pdf"
           },
           {
             "name": "Electronic Transactions Law DIFC Law No. 2 of 2017",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/data-protection-law-difc-law-no-5-2020"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/electronic_transactions_law_final.pdf"
           },
           {
             "name": "Employment Law DIFC Law No. 2 of 2019",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/employment-law-difc-law-no-2-of-2019"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/employment_law_consolidated_sep_2021.pdf"
           },
           {
             "name": "Foundations Law DIFC Law No. 3 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/foundations-law-difc-law-no-3-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/foundations_law_difc_law_no_3_of_2018_consolidated.pdf"
           },
           {
             "name": "General Partnership Law DIFC Law No. 11 of 2004",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/general-partnership-law-difc-law-no-11-2004"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/general_partnership_law_consolidated.pdf"
           },
           {
             "name": "Implied Terms in Contracts and Unfair Terms Law DIFC Law No. 6 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/implied-terms-contracts-and-unfair-terms-law-difc-law-no-6-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/implied_terms_in_contracts_and_unfair_terms_law_difc_law_no_6_of_2005-_done.pdf"
           },
           {
             "name": "Insolvency Law DIFC Law No. 1 of 2019",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/insolvency-law-difc-law-no-1-2019"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/insolvency_law_no_1_of_2019_final.pdf"
           },
           {
             "name": "Intellectual Property Law DIFC Law No. 4 of 2019",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/intellectual-property-law-difc-law-no-4-2019"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/intellectual_property_law_2019.pdf"
           },
           {
             "name": "Law of Damages and Remedies DIFC Law No. 7 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-damages-and-remedies-difc-law-no-7-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/law_of_damages_and_remedies_difc_law_no_7_of_2005-done.pdf"
           },
           {
             "name": "Law of Obligations DIFC Law No. 5 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-obligations-difc-law-no-5-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/law_of_obligations_difc_law_no_5_of_2005-_done.pdf"
           },
           {
             "name": "Law of Security DIFC Law No. 8 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-security-difc-law-no-8-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/law_of_security_difc_law_no_8_of_2005.pdf"
           },
           {
             "name": "Law on the Application of Civil and Commercial Laws in the DIFC DIFC Law No. 3 of 2004",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-application-civil-and-commercial-laws-difc-difc-law-no-3-2004"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/law_on_the_application_of_civil_and_commercial_laws_in_the_difc_difc_law_no_3_of_2004-_done.pdf"
           },
           {
             "name": "Law relating to Application of DIFC Laws DIFC Law No. 10 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/law-relating-application-difc-laws-difc-law-no-10-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/law_relating_to_the_application_of_difc_laws_amended___restated_difc_law_no_10_of_2005-_done.pdf"
           },
           {
             "name": "Leasing Law DIFC Law No. 1 of 2020",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/leasing-law-difc-law-no-1-2020"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/leasing_law_-_final_with_links_for_website.pdf"
           },
           {
             "name": "Limited Liability Partnership Law DIFC Law No. 5 of 2004",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-liability-partnership-law-difc-law-no-5-2004"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/limited_liability_partnership_law_no_5_of_2004_consolidated.pdf"
           },
           {
             "name": "Limited Partnership Law DIFC Law No. 4 of 2006",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/limited-partnership-law-difc-law-no-4-2006"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/limited_partnership_law_no_4_of_2006_consolidated.pdf"
           },
           {
             "name": "Netting Law DIFC Law No. 2 of 2014",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/netting-law-difc-law-no-2-2014"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/netting_law_difc_law_no_2_of_2014.pdf"
           },
           {
             "name": "Non Profit Incorporated Organisations Law DIFC Law No. 6 of 2012",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/non-profit-incorporated-organisations-law-difc-law-no-6-2012"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/non_profit_incorporated_organsisations_law_no_6_of_2012_consolidated.pdf"
           },
           {
             "name": "Operating Law - DIFC Law No. 7 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/operating-law-difc-law-no-7-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/operating_law___name_penalty.pdf"
           },
           {
             "name": "Payment System Settlement Finality Law DIFC Law No. 1 of 2009",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/payment-system-settlement-finality-law-difc-law-no-1-2009"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/payment_system_settlement_finality_law_difc_law_no_1_of_2009-_done.pdf"
           },
           {
             "name": "Personal Property Law DIFC Law No. 9 of 2005",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/personal-property-law-difc-law-no-9-2005"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/personal_property_law_difc_law_no_9_of_2005-_done.pdf"
           },
           {
             "name": "Real Property Law DIFC Law No. 10 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/real-property-law-difc-law-no-10-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/difc_real_property_law_no_10_of_2018_final.pdf"
           },
           {
             "name": "Strata Title Law DIFC Law No. 5 of 2007",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/strata-title-law-difc-law-no-5-2007"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/strata_title_law_final.pdf"
           },
           {
             "name": "Trust Law DIFC Law No. 4 of 2018",
-            "url": "https://www.difc.ae/business/laws-and-regulations/legal-database/difc-laws/trust-law-difc-law-no-4-2018"
+            "url": "https://edge.sitecorecloud.io/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/trust_law_difc_law_no_4_of_2018_final.pdf"
           }
         ]
       }
@@ -8757,295 +8757,295 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "Circulaire no 50a : Interdiction de d\u00e9duire les commissions occultes",
+            "name": "Circulaire no 50a : Interdiction de d\u00e9duire les commissions occultes (PDF, 145 kB, 05.12.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-050a-d-2020-d.pdf.download.pdf/1-050a-d-2020-d.pdf"
           },
           {
-            "name": "Circulaire no 50: Commissions occultes interdites de d\u00e9duction",
+            "name": "Circulaire no 50: Commissions occultes interdites de d\u00e9duction (PDF, 282 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-050-d-2020-d.pdf.download.pdf/1-050-d-2020-d.pdf"
           },
           {
-            "name": "Circulaire no 49: Charges dans le cadre d\u2019affaires \u00e9tranger-\u00e9tranger",
+            "name": "Circulaire no 49: Charges dans le cadre d\u2019affaires \u00e9tranger-\u00e9tranger (PDF, 294 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-049-dv-2020-d.pdf.download.pdf/1-049-dv-2020-d.pdf"
           },
           {
-            "name": "Circulaire no 45: Imposition \u00e0 la source des travailleurs",
+            "name": "Circulaire no 45: Imposition \u00e0 la source des travailleurs (PDF, 1005 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019.pdf.download.pdf/1-045-D-2019.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe I-1: Formulaire d\u2019inscription",
+            "name": "Circulaire no 45 Annexe I-1: Formulaire d\u2019inscription (PDF, 162 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-1.pdf.download.pdf/1-045-D-2019_AnhangI-1.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe I-2: Formulaire de mutation",
+            "name": "Circulaire no 45 Annexe I-2: Formulaire de mutation (PDF, 153 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-2.pdf.download.pdf/1-045-D-2019_AnhangI-2.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe I-3: D\u00e9compte de l\u2019imp\u00f4t \u00e0 la source",
+            "name": "Circulaire no 45 Annexe I-3: D\u00e9compte de l\u2019imp\u00f4t \u00e0 la source (PDF, 125 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_Anhang1-3.pdf.download.pdf/1-045-D-2019_Anhang1-3.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe I-4: Demande de taxation",
+            "name": "Circulaire no 45 Annexe I-4: Demande de taxation (PDF, 125 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangI-4.pdf.download.pdf/1-045-D-2019_AnhangI-4.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe II: Aper\u00e7u",
+            "name": "Circulaire no 45 Annexe II: Aper\u00e7u (PDF, 211 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangII.pdf.download.pdf/1-045-D-2019_AnhangII.pdf"
           },
           {
-            "name": "Circulaire no 45 Annexe III: Aper\u00e7u",
+            "name": "Circulaire no 45 Annexe III: Aper\u00e7u (PDF, 78 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-D-2019_AnhangIII.pdf.download.pdf/1-045-D-2019_AnhangIII.pdf"
           },
           {
-            "name": "Circulaire no 45: Questions et r\u00e9ponses",
+            "name": "Circulaire no 45: Questions et r\u00e9ponses (PDF, 259 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-045-d-2022-faq.pdf.download.pdf/1-045-d-2022-faq.pdf"
           },
           {
-            "name": "Circulaire no 44: Imposition d\u2019apr\u00e8s la d\u00e9pense",
+            "name": "Circulaire no 44: Imposition d\u2019apr\u00e8s la d\u00e9pense (PDF, 339 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-044-D-2018.pdf.download.pdf/1-044-D-2018.pdf"
           },
           {
-            "name": "Circulaire no 43: Traitement fiscal des prix de concours, des prix d'honneur, etc.",
+            "name": "Circulaire no 43: Traitement fiscal des prix de concours, des prix d'honneur, etc. (PDF, 250 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-043-D-2018.pdf.download.pdf/1-043-D-2018.pdf"
           },
           {
-            "name": "Circulaire no 42: Frais de formation et de formation continue \u00e0 des fins professionnelles",
+            "name": "Circulaire no 42: Frais de formation et de formation continue \u00e0 des fins professionnelles (PDF, 324 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-042-D-2017.pdf.download.pdf/1-042-D-2017.pdf"
           },
           {
-            "name": "Circulaire no 41: Libre passage dans la pr\u00e9voyance professionnelle ",
+            "name": "Circulaire no 41: Libre passage dans la pr\u00e9voyance professionnelle (PDF, 328 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-041-D-2014.pdf.download.pdf/1-041-D-2014.pdf"
           },
           {
-            "name": "Circulaire no 39: Imposition des options destin\u00e9es aux actionnaires",
+            "name": "Circulaire no 39: Imposition des options destin\u00e9es aux actionnaires (PDF, 287 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-039-DVS-2013.pdf.download.pdf/1-039-DVS-2013.pdf"
           },
           {
-            "name": "Circulaire no 38: Vente de terrains par des agriculteurs",
+            "name": "Circulaire no 38: Vente de terrains par des agriculteurs (PDF, 498 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-038-D-2013.pdf.download.pdf/1-038-D-2013.pdf"
           },
           {
-            "name": "Circulaire no 37: Imposition des participations de collaborateur",
+            "name": "Circulaire no 37: Imposition des participations de collaborateur (PDF, 413 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-d-2020.pdf.download.pdf/1-037-d-2020.pdf"
           },
           {
-            "name": "Circulaire no 37 Annexe V: Mod\u00e8les d\u2019attestation \u00e9lectroniques",
+            "name": "Circulaire no 37 Annexe V: Mod\u00e8les d\u2019attestation \u00e9lectroniques (PDF, 847 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-d-2020_anhang5.pdf.download.pdf/1-037-d-2020_anhang5.pdf"
           },
           {
-            "name": "Circulaire no 37A: Participations de collaborateur aupr\u00e8s de l'employeur",
+            "name": "Circulaire no 37A: Participations de collaborateur aupr\u00e8s de l'employeur (PDF, 406 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037A-D-2018.pdf.download.pdf/1-037A-D-2018.pdf"
           },
           {
-            "name": "Circulaire no 37: Imposition des participations de collaborateur",
+            "name": "Circulaire no 37: Imposition des participations de collaborateur (PDF, 316 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012.pdf.download.pdf/1-037-D-2012.pdf"
           },
           {
-            "name": "Circulaire no 37 Annexe I: Vue d\u2019ensemble des participations de collaborateur",
+            "name": "Circulaire no 37 Annexe I: Vue d\u2019ensemble des participations de collaborateur (PDF, 25 kB, 04.10.2022)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D2012_Anhang-I.pdf.download.pdf/AFC-Circulaire-037-D-2012-f_Annexe1.pdf"
           },
           {
-            "name": "Circulaire no 37 Annexe II: Exemples",
+            "name": "Circulaire no 37 Annexe II: Exemples (PDF, 52 kB, 04.10.2022)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D2012_Anhang-II.pdf.download.pdf/AFC-Circulaire-037-D-2012-f_Annexe2.pdf"
           },
           {
-            "name": "Circulaire no 37 Annexe III: Mod\u00e8les d\u2019attestation",
+            "name": "Circulaire no 37 Annexe III: Mod\u00e8les d\u2019attestation (PDF, 190 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012_Anhang3.pdf.download.pdf/1-037-D-2012_Anhang3.pdf"
           },
           {
-            "name": "Circulaire no 37 Annexe IV: Exemples d\u2019imposition \u00e0 la source",
+            "name": "Circulaire no 37 Annexe IV: Exemples d\u2019imposition \u00e0 la source (PDF, 176 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-037-D-2012_Anhang4.pdf.download.pdf/1-037-D-2012_Anhang4.pdf"
           },
           {
-            "name": "Circulaire no 36: Commerce professionnel de titres",
+            "name": "Circulaire no 36: Commerce professionnel de titres (PDF, 229 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-036-D-2012.pdf.download.pdf/1-036-D-2012.pdf"
           },
           {
-            "name": "Circulaire no 35: Entreprises de transport et d\u2019infrastructure",
+            "name": "Circulaire no 35: Entreprises de transport et d\u2019infrastructure (PDF, 94 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-035-D-2011.pdf.download.pdf/1-035-D-2011.pdf"
           },
           {
-            "name": "Circulaire no 32: Assainissement de soci\u00e9t\u00e9s de capitaux et de soci\u00e9t\u00e9s coop\u00e9ratives",
+            "name": "Circulaire no 32: Assainissement de soci\u00e9t\u00e9s de capitaux et de soci\u00e9t\u00e9s coop\u00e9ratives (PDF, 366 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-032-DVS-2010.pdf.download.pdf/1-032-DVS-2010.pdf"
           },
           {
-            "name": "Circulaire no 31: Report de l\u2019imposition en cas d\u2019affermage",
+            "name": "Circulaire no 31: Report de l\u2019imposition en cas d\u2019affermage (PDF, 344 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-031-D-2010.pdf.download.pdf/1-031-D-2010.pdf"
           },
           {
-            "name": "Circulaire no 30: Imposition des \u00e9poux et de la famille",
+            "name": "Circulaire no 30: Imposition des \u00e9poux et de la famille (PDF, 649 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-030-D-2010.pdf.download.pdf/1-030-D-2010.pdf"
           },
           {
-            "name": "Circulaire no 29c: KEP",
+            "name": "Circulaire no 29c: KEP (PDF, 1 MB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029c-dvs-2022.pdf.download.pdf/1-029c-dvs-2022.pdf"
           },
           {
-            "name": "Circulaire no 29b: KEP",
+            "name": "Circulaire no 29b: KEP (PDF, 468 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029b-dvs-2019.pdf.download.pdf/1-029b-dvs-2019.pdf"
           },
           {
-            "name": "Circulaire no 29a: KEP nouveau droit comptable",
+            "name": "Circulaire no 29a: KEP nouveau droit comptable (PDF, 434 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029a-DVS-2015.pdf.download.pdf/1-029a-DVS-2015.pdf"
           },
           {
-            "name": "Circulaire no 29: KEP ancien droit comptable",
+            "name": "Circulaire no 29: KEP ancien droit comptable (PDF, 355 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-029-DV-2010.pdf.download.pdf/1-029-DV-2010.pdf"
           },
           {
-            "name": "Circulaire no 28: Imposition des b\u00e9n\u00e9fices de liquidation",
+            "name": "Circulaire no 28: Imposition des b\u00e9n\u00e9fices de liquidation (PDF, 522 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-028-D-2010.pdf.download.pdf/1-028-D-2010.pdf"
           },
           {
-            "name": "Circulaire no 27: R\u00e9duction d'imp\u00f4t sur les rendements de participations",
+            "name": "Circulaire no 27: R\u00e9duction d'imp\u00f4t sur les rendements de participations (PDF, 252 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-027-D-2009.pdf.download.pdf/1-027-D-2009.pdf"
           },
           {
-            "name": "Circulaire no 26: Nouveaut\u00e9s concernant l\u2019activit\u00e9 lucrative ind\u00e9pendante",
+            "name": "Circulaire no 26: Nouveaut\u00e9s concernant l\u2019activit\u00e9 lucrative ind\u00e9pendante (PDF, 253 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-026-D-2009.pdf.download.pdf/1-026-D-2009.pdf"
           },
           {
-            "name": "Circulaire no 25: Placements collectifs de capitaux",
+            "name": "Circulaire no 25: Placements collectifs de capitaux (PDF, 430 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-025-D-2018.pdf.download.pdf/1-025-D-2018.pdf"
           },
           {
-            "name": "Circulaire no 23: Rendements provenant de la fortune commerciale 2008",
+            "name": "Circulaire no 23: Rendements provenant de la fortune commerciale 2008 (PDF, 625 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023-D-2008.pdf.download.pdf/1-023-D-2008.pdf"
           },
           {
-            "name": "Circulaire no 23 Annexe: Compte distinct",
+            "name": "Circulaire no 23 Annexe: Compte distinct (XLS, 42 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023-D-2008-Spartenrechnung.xls.download.xls/1-023-D-2008-Spartenrechnung.xls"
           },
           {
-            "name": "Circulaire no 23a: Imposition partielle dans la fortune commerciale",
+            "name": "Circulaire no 23a: Imposition partielle dans la fortune commerciale (PDF, 361 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023a-d-2020.pdf.download.pdf/1-023a-d-2020.pdf"
           },
           {
-            "name": "Circulaire no 23a Annexe: Compte distinct",
+            "name": "Circulaire no 23a Annexe: Compte distinct (XLS, 69 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-023a-d-2020-beilage.xls.download.xls/1-023a-d-2020-beilage.xls"
           },
           {
-            "name": "Circulaire no 22: Imposition partielle dans la fortune priv\u00e9e 2008",
+            "name": "Circulaire no 22: Imposition partielle dans la fortune priv\u00e9e 2008 (PDF, 311 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-022-D-2008.pdf.download.pdf/1-022-D-2008.pdf"
           },
           {
-            "name": "Circulaire no 22a: Imposition partielle dans la fortune priv\u00e9e 2020",
+            "name": "Circulaire no 22a: Imposition partielle dans la fortune priv\u00e9e 2020 (PDF, 264 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-022a-d-2020.pdf.download.pdf/1-022a-d-2020.pdf"
           },
           {
-            "name": "Circulaire no 20: Imposition des trusts",
+            "name": "Circulaire no 20: Imposition des trusts (PDF, 295 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-020-DV-2008.pdf.download.pdf/1-020-DV-2008.pdf"
           },
           {
-            "name": "Circulaire no 19: Leasing d\u2019immeubles",
+            "name": "Circulaire no 19: Leasing d\u2019immeubles (PDF, 199 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-019-D-2008.pdf.download.pdf/1-019-D-2008.pdf"
           },
           {
-            "name": "Circulaire no 18: Imposition du pilier 3a",
+            "name": "Circulaire no 18: Imposition du pilier 3a (PDF, 250 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-018-DV-2008.pdf.download.pdf/1-018-DV-2008.pdf"
           },
           {
-            "name": "Circulaire no 17: Encouragement \u00e0 la propri\u00e9t\u00e9 du logement",
+            "name": "Circulaire no 17: Encouragement \u00e0 la propri\u00e9t\u00e9 du logement (PDF, 60 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-017-D-2007.pdf.download.pdf/1-017-D-2007.pdf"
           },
           {
-            "name": "Circulaire no 15: Obligations et instruments financiers d\u00e9riv\u00e9s",
+            "name": "Circulaire no 15: Obligations et instruments financiers d\u00e9riv\u00e9s (PDF, 850 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-015-DVS-2007.pdf.download.pdf/1-015-DVS-2007.pdf"
           },
           {
-            "name": "Circulaire no 14: Liquidation partielle indirecte",
+            "name": "Circulaire no 14: Liquidation partielle indirecte (PDF, 239 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-014-D-2007.pdf.download.pdf/1-014-D-2007.pdf"
           },
           {
-            "name": "Circulaire no 13: Op\u00e9rations de pr\u00eat et d\u2019emprunt de titres",
+            "name": "Circulaire no 13: Op\u00e9rations de pr\u00eat et d\u2019emprunt de titres (PDF, 418 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-013-DVS-2018.pdf.download.pdf/1-013-DVS-2018.pdf"
           },
           {
-            "name": "Circulaire no 11: Frais de maladie et d\u2019accident",
+            "name": "Circulaire no 11: Frais de maladie et d\u2019accident (PDF, 311 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-011-D-2005.pdf.download.pdf/1-011-D-2005.pdf"
           },
           {
-            "name": "Circulaire no 11 Annexe: Questionnaire m\u00e9dical",
+            "name": "Circulaire no 11 Annexe: Questionnaire m\u00e9dical (PDF, 119 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-011-D-2205-Fragebogen.pdf.download.pdf/1-011-D-2205-Fragebogen.pdf"
           },
           {
-            "name": "Circulaire no 5a: Restructurations",
+            "name": "Circulaire no 5a: Restructurations (PDF, 4 MB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-005a-dvs-2022.pdf.download.pdf/1-005a-dvs-2022.pdf"
           },
           {
-            "name": "Circulaire no 5: Restructurations",
+            "name": "Circulaire no 5: Restructurations (PDF, 1 MB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-005-DVS-2004.pdf.download.pdf/1-005-DVS-2004.pdf"
           },
           {
-            "name": "Circulaire no 4: Imposition des soci\u00e9t\u00e9s de services",
+            "name": "Circulaire no 4: Imposition des soci\u00e9t\u00e9s de services (PDF, 33 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2004/1-004-DV-2004.pdf.download.pdf/1-004-DV-2004.pdf"
           },
           {
-            "name": "W03-001F du 03.10.2002",
+            "name": "W03-001F du 03.10.2002 (PDF, 169 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W03-001.pdf.download.pdf/W03-001.pdf"
           },
           {
-            "name": "W02-008F du 18.12.2001",
+            "name": "W02-008F du 18.12.2001 (PDF, 165 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W02-008.pdf.download.pdf/W02-008.pdf"
           },
           {
-            "name": "W01-006F du 06.06.2001",
+            "name": "W01-006F du 06.06.2001 (PDF, 68 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2003/W01-006.pdf.download.pdf/W01-006.pdf"
           },
           {
-            "name": "W99-005F du 19.08.1999",
+            "name": "W99-005F du 19.08.1999 (PDF, 414 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W99-005.pdf.download.pdf/W99-005.pdf"
           },
           {
-            "name": "W97-006F du 06.06.1997",
+            "name": "W97-006F du 06.06.1997 (PDF, 142 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W97-006.pdf.download.pdf/W97-006.pdf"
           },
           {
-            "name": "W95-028F du 29.01.1996",
+            "name": "W95-028F du 29.01.1996 (PDF, 43 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-028.pdf.download.pdf/W95-028.pdf"
           },
           {
-            "name": "W95-026F du 22.09.1995",
+            "name": "W95-026F du 22.09.1995 (PDF, 20 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-026.pdf.download.pdf/W95-026.pdf"
           },
           {
-            "name": "W95-024F du 30.06.1995",
+            "name": "W95-024F du 30.06.1995 (PDF, 26 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-024.pdf.download.pdf/W95-024.pdf"
           },
           {
-            "name": "W95-021F du 07.04.1995",
+            "name": "W95-021F du 07.04.1995 (PDF, 100 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-021.pdf.download.pdf/W95-021.pdf"
           },
           {
-            "name": "W95-019F du 07.03.1995",
+            "name": "W95-019F du 07.03.1995 (PDF, 28 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-019.pdf.download.pdf/W95-019.pdf"
           },
           {
-            "name": "W95-012F du 08.07.1994",
+            "name": "W95-012F du 08.07.1994 (PDF, 20 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-012.pdf.download.pdf/W95-012.pdf"
           },
           {
-            "name": "W95-011F du 08.06.1994",
+            "name": "W95-011F du 08.06.1994 (PDF, 8 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-011.pdf.download.pdf/W95-011.pdf"
           },
           {
-            "name": "W95-009F du 03.12.1993",
+            "name": "W95-009F du 03.12.1993 (PDF, 33 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-009.pdf.download.pdf/W95-009.pdf"
           },
           {
-            "name": "W95-003F du 25.11.1992",
+            "name": "W95-003F du 25.11.1992 (PDF, 213 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-003.pdf.download.pdf/W95-003.pdf"
           },
           {
-            "name": "W95-002F du 12.11.1992",
+            "name": "W95-002F du 12.11.1992 (PDF, 25 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W95-002.pdf.download.pdf/W95-002.pdf"
           },
           {
-            "name": "W85-008F du 06.05.1985",
+            "name": "W85-008F du 06.05.1985 (PDF, 6 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W85-008.pdf.download.pdf/W85-008.pdf"
           },
           {
-            "name": "W81-004F du 30.04.1980",
+            "name": "W81-004F du 30.04.1980 (PDF, 109 kB, 10.10.2023)",
             "url": "https://www.estv.admin.ch/dam/estv/fr/dokumente/dbst/kreisschreiben/2000/W81-004.pdf.download.pdf/W81-004.pdf"
           }
         ]
@@ -13277,7 +13277,7 @@
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230922-gg49328-rg11623bn138-SpecialTribunal.pdf"
           },
           {
-            "name": "Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court, GG 49380, GoN 2046-2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the North Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2051, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the KwaZulu Natal High Court\u2013Pietermaritzburg, GG 49380, GoN 2050, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2049, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Cape High Court\u2013Kimberley, GG 49380, GoN 2048, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Eastern Cape High Court\u2013Makhanda, GG 49380, GoN 2047, 22 Sep 2023\n      Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court: Free State Division\u2013Bloemfontein, GG 49380, GoN 2046, 22 Sep 2023",
+            "name": "Administration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court, GG 49380, GoN 2046-2051, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the North Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2051, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the KwaZulu Natal High Court\u2013Pietermaritzburg, GG 49380, GoN 2050, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Gauteng High Court (Pretoria & Mmabatho), GG 49380, GoN 2049, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Northern Cape High Court\u2013Kimberley, GG 49380, GoN 2048, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the Eastern Cape High Court\u2013Makhanda, GG 49380, GoN 2047, 22 Sep 2023\nAdministration of Estates Act (66/1965): Guardian\u2019s Fund: Master of the High Court: Free State Division\u2013Bloemfontein, GG 49380, GoN 2046, 22 Sep 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230929-gg49380gon2046-2051-GF-UnclaimedMonies.pdf"
           },
           {
@@ -13325,7 +13325,7 @@
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230901-gg49220gen2001-LPA-Amendment-S95.pdf"
           },
           {
-            "name": "Regulation of Interception of Communications and Provision of Communication-Related Information Amendment Bill [B28-2023]: Explanatory summary, GG 49189, GeN 1990,\t25 Aug 2023",
+            "name": "Regulation of Interception of Communications and Provision of Communication-Related Information Amendment Bill [B28-2023]: Explanatory summary, GG 49189, GeN 1990, 25 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/bills/2023-B28-RICA-Interception.pdf"
           },
           {
@@ -13345,7 +13345,7 @@
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49104rg11614gon3779-LPA-Regulations.pdf"
           },
           {
-            "name": "Legal Practice Act: Regulations: Amendment  of classification of Regulations, 4A, 4B, Annexure C and Annexure D, GG 49104, RG 11614, GoN 3778, 11 Aug 2023",
+            "name": "Legal Practice Act: Regulations: Amendment of classification of Regulations, 4A, 4B, Annexure C and Annexure D, GG 49104, RG 11614, GoN 3778, 11 Aug 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230811-gg49104rg11614gon3778-LPA-Regulations.pdf"
           },
           {
@@ -13417,7 +13417,7 @@
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230519-gg48627rg11584gon3424-Interception-Exemption.pdf"
           },
           {
-            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates\u2019 Courts of South Africa: Amendment of Rule 64, Annex 1, Annex2, Form No 24 - Subpoena  (English / Afrikaans), GG 48571, RG 11581, GoN 3399, 12 May 2023",
+            "name": "Rules Board for Courts of Law Act: Rules: Conduct of proceedings of Magistrates\u2019 Courts of South Africa: Amendment of Rule 64, Annex 1, Annex2, Form No 24 - Subpoena (English / Afrikaans), GG 48571, RG 11581, GoN 3399, 12 May 2023",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230512-gg48571rg11581gon3399-RB-MC.pdf"
           },
           {
@@ -13441,7 +13441,7 @@
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230505-gg48524proc119-Const.pdf"
           },
           {
-            "name": "Domestic Violence Regulations 2022, GG 48428, RG 11572, GoN 3289, 14 Apr 2023\n      Download a list of email addresses for Domestic Violence Courts.",
+            "name": "Domestic Violence Regulations 2022, GG 48428, RG 11572, GoN 3289, 14 Apr 2023\nDownload a list of email addresses for Domestic Violence Courts.",
             "url": "https://www.justice.gov.za/legislation/notices/2023/20230414-gg48428rg11572gon3289-DVAA-Regulations.pdf"
           },
           {
@@ -18884,6 +18884,96 @@
           "employment_type": "Full Time"
         }
       }
+    ]
+  },
+  {
+    "id": "0a10d09a-2082-4484-9a49-44225d4efec7",
+    "url": "https://www.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Notes-circulaires",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "pointer"
+    ]
+  },
+  {
+    "id": "bb9029fb-5ddf-49ca-ae13-46a952f5898f",
+    "url": "https://www.cour-constitutionnelle.ma/article?id=40&tp=ac&Page=REF",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "pointer"
+    ]
+  },
+  {
+    "id": "f5c19661-d693-4ddd-a83b-8f0f04602789",
+    "url": "https://www.oenb.at/Ueber-Uns/Rechtliche-Grundlagen/Geschaeftsbestimmungen-der-OeNB.html",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "pointer"
+    ]
+  },
+  {
+    "id": "dee2de26-2618-461f-9c0e-af86272b616f",
+    "url": "https://web.khda.gov.ae/en/About-Us/Legislation",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "pointer"
+    ]
+  },
+  {
+    "id": "cef428d3-e785-4e9f-8a39-70d01fb9df2f",
+    "url": "https://avia.gov.ua/npdrd/slug-2/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "pointer"
     ]
   }
 ]

@@ -36,16 +36,16 @@ def create_test_file(
         dir=cache_dir,
     ) as f:
         # noinspection PyUnresolvedReferences
-        f.write(
-            f"""
+        for test_content in tests:
+            f.write(
+                f"""
 import pytest
 import pytest_asyncio
 import asyncio
-from playwright_stealth import stealth_async
 
 from bananalyzer.data.examples import get_example_by_url
 from playwright.async_api import async_playwright
-
+from playwright_stealth import stealth_async
 
 @pytest.fixture(scope="session")
 def event_loop():
@@ -79,15 +79,18 @@ def agent():
 async def page():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
-        context = await browser.new_context(viewport={{ 'width': 1280, 'height': 1024 }})
+        context = await browser.new_context(
+            viewport={{ 'width': 1280, 'height': 1024 }},
+            ignore_https_errors=True,
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        )
         page = await context.new_page()
         await stealth_async(page)
         yield page
         await browser.close()
 
 """
-        )
-        for test_content in tests:
+            )
             f.write(f"{test_content.code}\n\n")
 
     return f.name

@@ -52,17 +52,17 @@ tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "p
 
 [[package]]
 name = "boto3"
-version = "1.34.21"
+version = "1.34.40"
 description = "The AWS SDK for Python"
 optional = false
 python-versions = ">= 3.8"
 files = [
-    {file = "boto3-1.34.21-py3-none-any.whl", hash = "sha256:88e3baeb53ae421aabd44bb49ebdd7122b74b53b0f437b0f3e17141f6744574a"},
-    {file = "boto3-1.34.21.tar.gz", hash = "sha256:206e61ba1f8c830e5df0355606d178ad5bc970df12c4c318b021c71da410eb0c"},
+    {file = "boto3-1.34.40-py3-none-any.whl", hash = "sha256:49eb215e4142d441e26eedaf5d0b43065200f0849d82c904bc9a62d1328016cd"},
+    {file = "boto3-1.34.40.tar.gz", hash = "sha256:81d026ed8c8305b880c71f9f287f9b745b52bd358a91cfc133844c907db4d7ee"},
 ]
 
 [package.dependencies]
-botocore = ">=1.34.21,<1.35.0"
+botocore = ">=1.34.40,<1.35.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.10.0,<0.11.0"
 
@@ -71,13 +71,13 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.34.21"
+version = "1.34.40"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">= 3.8"
 files = [
-    {file = "botocore-1.34.21-py3-none-any.whl", hash = "sha256:43274fd3f8e02573790ee76313607c60e3c15a7a0d89d24dfe4042f882f1f8c9"},
-    {file = "botocore-1.34.21.tar.gz", hash = "sha256:21983bb0473a19130192c50ec6974d55f0c4aa48a7094bcf40f7882c8b69b8f1"},
+    {file = "botocore-1.34.40-py3-none-any.whl", hash = "sha256:a3edd774653a61a1b211e4ea88cdb1c2655ffcc7660ba77b41a4027b097d145d"},
+    {file = "botocore-1.34.40.tar.gz", hash = "sha256:cb794bdb5b3d41845749a182ec93cb1453560e52b97ae0ab43ace81deb011f6d"},
 ]
 
 [package.dependencies]
@@ -858,13 +858,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.8.0"
+version = "1.12.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.8.0-py3-none-any.whl", hash = "sha256:0f8f53805826103fdd8adaf379ad3ec23f9d867e698cbc14caf34b778d150175"},
-    {file = "openai-1.8.0.tar.gz", hash = "sha256:93366be27802f517e89328801913d2a5ede45e3b86fdcab420385b8a1b88c767"},
+    {file = "openai-1.12.0-py3-none-any.whl", hash = "sha256:a54002c814e05222e413664f651b5916714e4700d041d5cf5724d3ae1a3e3481"},
+    {file = "openai-1.12.0.tar.gz", hash = "sha256:99c5d257d09ea6533d689d1cc77caa0ac679fa21efef8893d8b0832a86877f1b"},
 ]
 
 [package.dependencies]
@@ -920,23 +920,40 @@ files = [
 
 [[package]]
 name = "playwright"
-version = "1.41.0"
+version = "1.41.2"
 description = "A high-level API to automate web browsers"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "playwright-1.41.0-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:ad3ff4805fd21b91c9acbc5b27e62bf0ac6a235e93f91d9dd6d311d5e988b069"},
-    {file = "playwright-1.41.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:9d34f472d174e55d8f12265e10d11ba21be99bf0661ccbf1f9b048312696d5e8"},
-    {file = "playwright-1.41.0-py3-none-macosx_11_0_universal2.whl", hash = "sha256:f3f0841360652ddd77f6e059074d5079dd37b487168a2972efbf13cd23fbacb0"},
-    {file = "playwright-1.41.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:b56c1d564df9a2b2ab393f8161b71bcc16df38ade60115e1162ad6d9f116c89b"},
-    {file = "playwright-1.41.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9ccf3214b0cdd932bcdc04794ecafe50bd386e8523ce4681969aac86d3326f87"},
-    {file = "playwright-1.41.0-py3-none-win32.whl", hash = "sha256:46d4aaed0071db67361900a2027bb14dba74f9eb102cf2baf1876c0ff0c15da6"},
-    {file = "playwright-1.41.0-py3-none-win_amd64.whl", hash = "sha256:925045824dc3d505c8f197c94a083e4619d7c268d7c3465d73a5a09040dc8b85"},
+    {file = "playwright-1.41.2-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:cf68335a5dfa4038fa797a4ba0105faee0094ebbb372547d7a27feec5b23c672"},
+    {file = "playwright-1.41.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:431e3a05f8c99147995e2b3e8475d07818745294fd99f1510b61756e73bdcf68"},
+    {file = "playwright-1.41.2-py3-none-macosx_11_0_universal2.whl", hash = "sha256:0608717cbf291a625ba6f751061af0fc0cc9bdace217e69d87b1eb1383b03406"},
+    {file = "playwright-1.41.2-py3-none-manylinux1_x86_64.whl", hash = "sha256:4bf214d812092cf5b9b9648ba84611aa35e28685519911342a7da3a3031f9ed6"},
+    {file = "playwright-1.41.2-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:eaa17ab44622c447de26ed8f7d99912719568d8dbc3a9db0e07f0ae1487709d9"},
+    {file = "playwright-1.41.2-py3-none-win32.whl", hash = "sha256:edb210a015e70bb0d328bf1c9b65fa3a08361f33e4d7c4ddd1ad2adb6d9b4479"},
+    {file = "playwright-1.41.2-py3-none-win_amd64.whl", hash = "sha256:71ead0f33e00f5a8533c037c647938b99f219436a1b27d4ba4de4e6bf0567278"},
 ]
 
 [package.dependencies]
 greenlet = "3.0.3"
 pyee = "11.0.1"
+
+[[package]]
+name = "playwright-stealth"
+version = "1.0.6"
+description = "playwright stealth"
+optional = false
+python-versions = ">=3, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+files = [
+    {file = "playwright-stealth-1.0.6.tar.gz", hash = "sha256:b504d951d00fac755c7d13665a29611d415180510bd7d23f14ebc89439ba2043"},
+    {file = "playwright_stealth-1.0.6-py3-none-any.whl", hash = "sha256:b1b2bcf58eb6859aa53d42c49b91c4e27b74a6d13fc3d0c85eea513dd55efda3"},
+]
+
+[package.dependencies]
+playwright = "*"
+
+[package.extras]
+test = ["pytest"]
 
 [[package]]
 name = "pluggy"
@@ -1507,13 +1524,13 @@ widechars = ["wcwidth"]
 
 [[package]]
 name = "tarsier"
-version = "0.5.6"
+version = "0.5.89"
 description = "Vision utilities for web interaction agents"
 optional = false
-python-versions = ">=3.10,<4.0"
+python-versions = ">=3.11,<4.0"
 files = [
-    {file = "tarsier-0.5.6-py3-none-any.whl", hash = "sha256:4348b9e31f519f0d3788a64bf14de31e661e381a2aaae3b1c347758545f6cbf0"},
-    {file = "tarsier-0.5.6.tar.gz", hash = "sha256:897cf226c9a015ac0560f5ef707394249d099e8ad1d1d4644bb17803ec3143ee"},
+    {file = "tarsier-0.5.89-py3-none-any.whl", hash = "sha256:92c94a89736421740fc63b2d248e9c7f51002537c5314eda04ca764c8d6feabe"},
+    {file = "tarsier-0.5.89.tar.gz", hash = "sha256:ecb7617f34d7c2eddd3870291207a32338d7a9eb21316dc04de10039389372cf"},
 ]
 
 [package.dependencies]
@@ -1648,4 +1665,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "3255f64a6e3be22e1c14a66217b6ae5ae06d75d498e2f92e5f3f5f74d942b5e9"
+content-hash = "c89a5bc2f07538037cd3bc634a306e4cf22acf232d35bb08cd29633134f076d9"
