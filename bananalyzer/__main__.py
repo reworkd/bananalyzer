@@ -66,8 +66,8 @@ def parse_args() -> Args:
     parser.add_argument(
         "-id",
         "--id",
-        type=lambda s: s.split(","),
-        default=[],
+        type=lambda s: s.replace("_", "-").split(","),
+        default=None,
         help="Filter tests by id. "
         "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec, "
         "and can be passed as a comma-separated list.",
@@ -289,10 +289,7 @@ def main() -> int:
 
     filters = []
     if args.id:
-        filters.append(
-            lambda e: e.id in args.id
-            or any(e.id == id_.replace("_", "-") for id_ in args.id)
-        )
+        filters.append(lambda e: e.id in args.id if args.id else True)
 
     if args.intent:
         filters.append(lambda e: e.type == args.intent)

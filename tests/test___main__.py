@@ -30,6 +30,28 @@ def test_download_only():
     assert args.path == "DOWNLOAD_ONLY"
 
 
+@pytest.mark.parametrize(
+    "id_input, expected",
+    [
+        (
+            "a4c8292a-079c-4e49-bca1-cf7c9da205ec",
+            ["a4c8292a-079c-4e49-bca1-cf7c9da205ec"],
+        ),
+        (
+            "a4c8292a_079c_4e49_bca1_cf7c9da205ec",
+            ["a4c8292a-079c-4e49-bca1-cf7c9da205ec"],
+        ),
+        ("a4c8292a-079c,bca1-cf7c9da205ec", ["a4c8292a-079c", "bca1-cf7c9da205ec"]),
+        ("a4c8292a_079c,bca1_cf7c9da205ec", ["a4c8292a-079c", "bca1-cf7c9da205ec"]),
+    ],
+)
+def test_parse_with_id(id_input, expected):
+    sys.argv = ["bananalyzer", "path/to/file.py", "--id", id_input]
+    args = parse_args()
+    print(args.id)
+    assert args.id == expected
+
+
 def test_report_path():
     sys.argv = ["bananalyzer", ".", "--headless", "--junitxml", "report.xml"]
     args = parse_args()
