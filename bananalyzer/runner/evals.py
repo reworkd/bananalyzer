@@ -27,10 +27,24 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
         pytest.fail(f"{expected_value} != {actual_value}")
 
 
+def trim_strings(value: AllowedJSON) -> AllowedJSON:
+    """Recursively trim strings in the given JSON structure."""
+    if isinstance(value, dict):
+        return {k: trim_strings(v) for k, v in value.items()}
+    elif isinstance(value, list):
+        return [trim_strings(elem) for elem in value]
+    elif isinstance(value, str):
+        return value.strip()
+    else:
+        return value
+
+
 def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
     if isinstance(expected, Dict) and isinstance(actual, Dict):
         expected = format_new_lines(expected)
+        expected = trim_strings(expected)
         actual = format_new_lines(actual)
+        actual = trim_strings(actual)
 
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
