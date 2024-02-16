@@ -4363,7 +4363,7 @@
     "category": "education",
     "subcategory": "details",
     "type": "links_fetch",
-    "goal": "Fetch all of the links to courses on the current page. For each link, fetch the following object: {title: string, units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
+    "goal": "Fetch ALL of the links to courses on the current page. For each link, fetch the following object: {title: string (Course title excluding the units and course code such as `Computational Geometry`), units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
     "evals": [
       {
         "type": "json_match",
