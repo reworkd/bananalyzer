@@ -123,4 +123,9 @@ class Example(BaseModel):
             else fetch_schema
         )
 
+        # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
+        from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
+        if fetch_id == "contact":
+            values["goal"] = f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n" + str(values["goal"])
+
         return values
