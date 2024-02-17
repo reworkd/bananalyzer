@@ -18900,7 +18900,7 @@
       }
     ],
     "tags": [
-      "pointer"
+      "accordion"
     ]
   },
   {
@@ -18918,7 +18918,7 @@
       }
     ],
     "tags": [
-      "pointer"
+      "accordion"
     ]
   },
   {
@@ -18932,11 +18932,32 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "name": "Gesch\u00e4ftsbestimmungen der OeNB f\u00fcr geldpolitische Gesch\u00e4fte und Verfahren (g\u00fcltig ab 20. M\u00e4rz 2023) (PDF, 0,7 MB)",
+            "url": "https://www.oenb.at/dam/jcr:542fa315-6729-4498-8c9c-62396541e60a/Geschaeftsbestimmungen-der-OeNB-fuer-geldpolitische-Geschaefte-und-Verfahren_Maerz_2023.pdf"
+          },
+          {
+            "name": "\u00dcbersicht \u00fcber die \u00c4nderungen per 20. M\u00e4rz 2023 (PDF, 0,2 MB)",
+            "url": "https://www.oenb.at/dam/jcr:7b448e7b-0428-42ae-a3b6-da312ca32682/Aenderungs%C3%BCbersicht_Deutsch_2023.pdf"
+          },
+          {
+            "name": "Gesch\u00e4ftsbestimmungen der OeNB f\u00fcr geldpolitische Gesch\u00e4fte und Verfahren (g\u00fcltig bis 19. M\u00e4rz 2023) (PDF, 0,9 MB)",
+            "url": "https://www.oenb.at/dam/jcr:267403a5-c1af-41ce-8e27-a9f9157b1538/Geschaeftsbestimmungen-der-OeNB-fuer-geldpolitische-Geschaefte-und-Verfahren_Juli-2022.pdf"
+          },
+          {
+            "name": "Gesch\u00e4ftsbestimmungen f\u00fcr das Depotgesch\u00e4ft und den An- und Verkauf von Wertpapieren (Kreditinstitute) (PDF, 0,2 MB)",
+            "url": "https://www.oenb.at/dam/jcr:862a4779-2284-4512-b886-49c3c720a2ab/Gesch%C3%A4ftsbestimmungen%20f%C3%BCr%20das%20Depotgesch%C3%A4ft%20(Kreditinstitute)).pdf"
+          },
+          {
+            "name": "Additional Terms and Conditions (in English only) (PDF, 0,1 MB)",
+            "url": "https://www.oenb.at/dam/jcr:72654176-52c1-4b95-8a27-843d7114a940/Additional%20Terms%20and%20Conditions.pdf"
+          }
+        ]
       }
     ],
     "tags": [
-      "pointer"
+      "accordion"
     ]
   },
   {
@@ -18950,11 +18971,120 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "name": "Decree No. (5) of 2024 Appointing the Director General of Knowledge and Human Development Authority in Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Law-No-(2)-of-2021-Concerning-the-Knowledge-and-Hu/Decree-No-44-of-2006-Appointment-Decree-of-KHDA-Di/Decree-(5)-of-2024-DG-of-KHDA.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Law No. (2) of 2021 Concerning the Knowledge and Human Development Authority in Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Law-No-(2)-of-2021-Concerning-the-Knowledge-and-Hu/Law-No-(2)-of-2021-Concerning-the-Knowledge-and-Hu/KHDA_Law_2021_En-(1).pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Federal Law No. 3 of 2016 on child rights (Wadeema's Law)",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Law-No-(2)-of-2021-Concerning-the-Knowledge-and-Hu/Federal-Law-No-3-of-2016-on-child-rights-(Wadeema/Children_Law_English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No (38) of 2007 Establishing Dubai School Inspection Bureau (DSIB) & Executive Council Resolution No (39) of 2007 Appointing the Chief of DSIB",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Law-No-(2)-of-2021-Concerning-the-Knowledge-and-Hu/Executive-Council-Resolution-No-(38)-of-2007-Estab/DubaiSchoolsInspectionBureau(DSIB)Decree-(1).pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (51) of 2022 concerning the criteria and conditions for approving the annual academic calendar of Higher Education Institutions in Dubai\u2019s free zones",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Higher-Education-Institutions-Regulations-(1)/Administrative-Resolution-No-(51)-of-2022-concerni/%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A-%D8%B1%D9%82%D9%85-(51)-%D9%84%D8%B3%D9%86%D8%A9-2022-%D8%A8%D8%B4%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%8A%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%82%D9%88%D9%8A%D9%85-%D9%84%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%A7%D9%84%D8%AD%D8%B1%D8%A9.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (1) of 2013 Issuing the Implementing Bylaw of Executive Council Resolution No. (21) of 2011 concerning Higher Education Institutions in the Free Zones in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Higher-Education-Institutions-Regulations-(1)/Administrative-Resolution-No-(1)-of-2013-Issuing-t/Bylaws-for-Executive-Council-Resolution-no-(21).pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No. (37) of 2012 Amending Resolution No. (21) of 2011",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Higher-Education-Institutions-Regulations-(1)/Executive-Council-Resolution-No-(37)-of-2012-Amend/Executive-Council-Resolution-No-(37)-of-2012-Amending-Resolution-No-(21)-of-2011-Arabic.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No. (21) of 2011 - Concerning Higher Education Institutions based in free zone of the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Higher-Education-Institutions-Regulations-(1)/Executive-Council-Resolution-No-(21)-of-2011-Conce/ExecutiveCouncilResolutionNo21of2011.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Decree No. (27) of 2019 on the reduction and exemption of certain fees and fines in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Training-Institutions-Regulations-(1)/Decree-No-(27)-of-2019-on-the-reduction-and-exempt/Decree-No-(27)-of-2019-on-the-reduction-and-exemption-of-certain-fees-and-fines-in-the-Emirate-of-Dubai.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (2) of 2018 Issuing the Implementing Bylaw of Executive Council Decision No (50) of 2015 Concerning regulating Training Institutes in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Training-Institutions-Regulations-(1)/Administrative-Resolution-No-(2)-of-2018-Issuing-t/TrainingInstituteByLaw-English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Decision No 50 of 2015 Concerning regulating Training Institutes in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Training-Institutions-Regulations-(1)/Executive-Council-Decision-No-50-of-2015-Concernin/ExecutiveCouncilDecisionNo50of2015ConcerningregulatingTrainingInstitutesinDubai_En.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "The Board of Knowledge and Human Development Authority in Dubai Order No. (1) of 2013 for classification and description of Training Activities that are allowed to be conducted by the Training institutes in the Emirates of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Training-Institutions-Regulations-(1)/The-Board-of-Knowledge-and-Human-Development-Autho/31OrderNo-1TrainingActivites-EN.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No. (30) of 2021 Regulating Vocational Education in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Vocational-Education-Regulations/Executive-Council-Resolution-No-(30)-0f-2021-Regul/ECR-30-of-2021-Vocational-Education-En.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "FAQs about Executive Council Resolution No. (30) of 2021 Regulating Vocational Education in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/en/Guides/Education-Providers/FAQs/Vocational-Education-in-Dubai"
+          },
+          {
+            "name": "Administrative Resolution No. (20) of 2023 Concerning the Requirements and Procedures for Approving and Changing Names of Private Schools",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Administrative-Resolution-No-(20)-of-2023-Concerni/Administrative-Resolution-No-(20)-of-2023-English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (21) of 2023 Concerning the Requirements and Procedures for Ceasing Educational Activity",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Administrative-Resolution-No-(21)-of-2023-Concerni/Administrative-Resolution-No-(21)-of-2023-English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (49) of 2022 Concerning the Requirements, Rules, and Procedures for Attesting Academic Certificates and Transcripts of Students in Private Schools",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Administrative-Resolution-No-(49)-of-2022-Conc-(1)/Administrative-Resolution-No-(49)-of-2022-English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Administrative Resolution No. (50) of 2022 Concerning the Requirements, Rules, and Procedures for Approving the Enrolment of Students in Private Schools",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Administrative-Resolution-No-(50)-of-2022-Conc-(1)/Administrative-Resolution-No-(50)-of-2022-English.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "UAE Ministry of Education Resolution no (24) on age requirement changes",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/UAE-Ministry-of-Education-Resolution-no-(24)-on-ag/UAE-Ministry-of-Education-Resolution-No-24-on-age-requirement-changes-Ar.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "FAQs on changes to age requirements for 2021/22 academic year",
+            "url": "https://web.khda.gov.ae/en/Guides/Parents/Faq/FAQs-on-changes-to-age-requirements-for-2021-22"
+          },
+          {
+            "name": "Dubai inclusive education policy framework",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Dubai-inclusive-education-policy-framework/Education_Policy_En.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "The audio version of Dubai inclusive education policy framework",
+            "url": "http://www.khda.gov.ae/cms/webparts/texteditor/media/Education_Policy_En.wav"
+          },
+          {
+            "name": "Executive Council Resolution No. (2) of 2017 Regulating Private schools in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Executive-Council-Resolution-No-(2)-of-2017-Regula/ExecutiveCouncilResolutionNo-(2)of2017RegulatingPrivateSchoolsIntheEmirateOfDubai.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Schools Fee Framework",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Schools-registration-and-refund-policy/FeeFramework-English-(1).pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Schools registration and refund policy",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Private-Schools-Regulations/Schools-registration-and-refund-policy-(1)/Registration-and-Admission-English-(1).pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No. (26) of 2023 Amending Executive Council Resolution No. (35) of 2020 Regulating Early Childhood Centres in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Early-Childhood-Centres-Regulations/Executive-Council-Resolution-No-(26)-of-2023-Amend/Executive_Council_Resolution_No_26_of_2023_Amending_Executive_Council_Resolution_No_35_of_2020.pdf.aspx?lang=en-GB"
+          },
+          {
+            "name": "Executive Council Resolution No. (35) of 2020 Regulating Early Childhood Centres in the Emirate of Dubai",
+            "url": "https://web.khda.gov.ae/getattachment/About-Us/Legislation/Early-Childhood-Centres-Regulations/Executive-Council-Resolution-No-(35)-of-2020-Regul/ECEC-Executive-Council-Resolution-No-(35)-of-2020-En.pdf.aspx?lang=en-GB"
+          }
+        ]
       }
     ],
     "tags": [
-      "pointer"
+      "accordion"
     ]
   },
   {
@@ -18972,7 +19102,7 @@
       }
     ],
     "tags": [
-      "pointer"
+      "accordion"
     ]
   }
 ]
