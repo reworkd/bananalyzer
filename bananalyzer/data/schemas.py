@@ -128,5 +128,8 @@ class Example(BaseModel):
         from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
         if fetch_id == "contact":
             values["goal"] = f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n" + str(values["goal"])
+        from bananalyzer.data.fetch_schemas import GOVERNMENT_CONTRACT_GOAL
+        if fetch_id == "contract":
+            values["goal"] = f"{GOVERNMENT_CONTRACT_GOAL} Return data in the following schema:\n" + str(values["goal"])
 
         return values

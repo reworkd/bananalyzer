@@ -19278,7 +19278,7 @@
     "url": "https://bidopportunities.iowa.gov/",
     "source": "mhtml",
     "category": "government",
-    "subcategory": "download",
+    "subcategory": "contract",
     "type": "links",
     "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
@@ -19372,7 +19372,7 @@
     "url": "https://www.ok.gov/dcs/solicit/app/solicitationSearch.php?status=open-pending",
     "source": "mhtml",
     "category": "government",
-    "subcategory": "download",
+    "subcategory": "contract",
     "type": "links",
     "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
@@ -19399,7 +19399,7 @@
     "url": "https://apps.des.wa.gov/DESContracts/",
     "source": "mhtml",
     "category": "government",
-    "subcategory": "download",
+    "subcategory": "contract",
     "type": "links",
     "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
@@ -19589,7 +19589,7 @@
     "url": "https://www.emarketplace.state.pa.us/Search.aspx",
     "source": "mhtml",
     "category": "government",
-    "subcategory": "download",
+    "subcategory": "contract",
     "type": "links",
     "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
@@ -19618,7 +19618,7 @@
     "url": "https://www.njstart.gov/bso/view/search/external/advancedSearchBid.xhtml?openBids=true",
     "source": "mhtml",
     "category": "government",
-    "subcategory": "download",
+    "subcategory": "contract",
     "type": "links",
     "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
@@ -19641,6 +19641,24 @@
           "https://www.njstart.gov/bso/external/bidDetail.sdo?docId=23DPP00822&external=true&parentUrl=close",
           "https://www.njstart.gov/bso/external/bidDetail.sdo?docId=23DPP00796&external=true&parentUrl=close"
         ]
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "13ce44d0-757b-4b1e-8c5e-51d3d7e9bf0f",
+    "url": "https://www.njstart.gov/bso/external/bidDetail.sdo?docId=24DPP00965&external=true&parentUrl=close",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "contract",
+    "type": "links",
+    "fetch_id": "sdf",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
       }
     ],
     "tags": [

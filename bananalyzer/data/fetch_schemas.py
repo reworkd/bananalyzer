@@ -1,4 +1,5 @@
-from typing import Dict, List, Type, Union, Any
+from datetime import datetime
+from typing import Dict, List, Type, Union, Any, Optional
 
 from pydantic import BaseModel, Field
 
@@ -23,6 +24,41 @@ class ContactSchema(BaseModel):
     )
     fax: str = Field(
         description="The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or traling words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number.",
+    )
+
+
+GOVERNMENT_CONTRACT_GOAL = "Fetch the main government contract/notice/solicitation information on the current website."
+
+
+class File(BaseModel):
+    title: str
+    url: str
+
+
+class GovernmentContractSchema(BaseModel):
+    __url: str = Field(description="Source URL the contract information was retrieved from")
+    id: str = Field(description="Unique identifier for the contract")
+    title: str = Field(description="Title of the contract")
+    description: Optional[str] = Field(default=None,
+                                       description="Description or synopsis field. Combine the solicitation summary and additional instructuions section / process.")
+    location: Optional[str] = Field(default=None,
+                                    description="Location of the issuer. May be a combination of city and state")
+    type: Optional[str] = Field(default=None,
+                                description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc")
+    category: Optional[str] = Field(default=None, description="Category the contract falls under if given")
+
+    posted_date: Optional[datetime] = Field(default=None)
+    due_date: Optional[datetime] = Field(default=None)
+
+    buyer_name: str = Field(description="Name of the company, organization, or agency that issued the contract")
+    buyer_contact_name: str = Field(
+        description="Name of the specific individual that is championing the contract, if available")
+    buyer_contact_number: Optional[str] = Field(default=None, description="Contact number of the issuer")
+    buyer_contact_email: Optional[str] = Field(default=None, description="Contact email of the issuer")
+
+    attachments: List[File] = Field(
+        default_factory=list,
+        description="A list of all of the files/documents attached to the contract",
     )
 
 
