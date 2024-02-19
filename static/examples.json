@@ -19272,5 +19272,23 @@
     "tags": [
       "contract"
     ]
+  },
+  {
+    "id": "1d080fc7-d7f7-431d-9b86-a5806093d458",
+    "url": "https://bidopportunities.iowa.gov/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
   }
 ]
