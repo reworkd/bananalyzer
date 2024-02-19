@@ -36,7 +36,6 @@ class File(BaseModel):
 
 
 class GovernmentContractSchema(BaseModel):
-    __url: str = Field(description="Source URL the contract information was retrieved from")
     id: str = Field(description="Unique identifier for the contract")
     title: str = Field(description="Title of the contract")
     description: Optional[str] = Field(default=None,
