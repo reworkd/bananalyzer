@@ -59,6 +59,7 @@ FetchId = Literal[
     "job_posting",
     "manufacturing_commerce",
     "contact",
+    "contract",
     "forum",
     "attorney",
     "attorney_job_listing",
