@@ -19112,7 +19112,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -19280,7 +19280,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -19374,7 +19374,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -19401,7 +19401,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -19591,11 +19591,22 @@
     "category": "government",
     "subcategory": "download",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060507",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060200",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060533",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=RFP%2044-22",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060532",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060516",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060478",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=DGS%20C-0948-0100%20Phase%201%20Rebid",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100059385",
+          "https://www.emarketplace.state.pa.us/Solicitations.aspx?SID=6100060255"
+        ]
       }
     ],
     "tags": [
@@ -19609,7 +19620,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "links",
-    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
     "evals": [
       {
         "type": "json_match",
