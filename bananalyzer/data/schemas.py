@@ -89,6 +89,7 @@ class Example(BaseModel):
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
     )
+    tags: List[str] = Field(default=[])
 
     def get_static_url(self) -> str:
         from bananalyzer.runner.website_responder import get_website_responder

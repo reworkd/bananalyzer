@@ -73,6 +73,13 @@ def parse_args() -> Args:
         "and can be passed as a comma-separated list.",
     )
     parser.add_argument(
+        "-tags",
+        "--tags",
+        type=lambda s: s.split(","),
+        default=None,
+        help="Filter tests by tag. Can be passed as a comma-separated list.",
+    )
+    parser.add_argument(
         "-d",
         "--domain",
         type=str,
@@ -195,15 +202,14 @@ def parse_args() -> Args:
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
-            n=args.n,
             q=args.quiet,
             xml=args.junitxml,
-            dist=args.dist,
         ),
         xdist_args=XDistArgs(
             n=args.n,
             dist=args.dist,
         ),
+        tags=args.tags,
     )
 
 
@@ -290,7 +296,8 @@ def main() -> int:
     filters = []
     if args.id:
         filters.append(lambda e: e.id in args.id if args.id else True)
-
+    if args.tags:
+        filters.append(lambda e: any(tag in e.tags for tag in args.tags))
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
     if args.domain:
