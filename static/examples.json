@@ -814,7 +814,7 @@
         "type": "json_match",
         "expected": {
           "name": "GI Motility Clinic",
-          "address": "225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
+          "address": "UofL Health – Jewish Hospital Outpatient Care Center\n225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
           "phone": "502-588-7690",
           "fax": "502-540-1414"
         }
@@ -19653,7 +19653,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "contract",
-    "type": "links",
+    "type": "fetch",
     "fetch_id": "contract",
     "evals": [
       {
