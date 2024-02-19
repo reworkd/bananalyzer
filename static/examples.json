@@ -19395,7 +19395,97 @@
     ]
   },
   {
-    "id": "616ff7e6-5c43-4531-9a10-4797e9b08825",
+    "id": "9fd7e590-be77-4fc8-962f-b1ab0f5b19d5",
+    "url": "https://apps.des.wa.gov/DESContracts/",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "3ea96bba-705a-4ed8-88f4-a1df30bcfc48",
+    "url": "https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?&",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "0ef46221-d4eb-45d1-9f00-8cb766381547",
+    "url": "https://www.emarketplace.state.pa.us/Search.aspx",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "078fb528-06b7-4c01-a806-0542ba253a46",
+    "url": "https://www.vermontbusinessregistry.com/BidSearch.aspx?type=1",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "7d8646de-e0f1-4c0c-9d72-73c38928b045",
+    "url": "https://contracts.ocp.dc.gov/solicitations/results?hash=w5nlhok8hhvf8kt6",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "0569bfe4-45e4-4e23-8bd7-21287b3f906e",
     "url": "https://www.njstart.gov/bso/view/search/external/advancedSearchBid.xhtml?openBids=true",
     "source": "mhtml",
     "category": "government",
