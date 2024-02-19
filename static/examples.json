@@ -19378,6 +19378,33 @@
     "evals": [
       {
         "type": "json_match",
+        "expected": [
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4258",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4544",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3853",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3998",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4648",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4510",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4457",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=2674"
+        ]
+      }
+    ],
+    "tags": [
+      "contract"
+    ]
+  },
+  {
+    "id": "616ff7e6-5c43-4531-9a10-4797e9b08825",
+    "url": "https://www.njstart.gov/bso/view/search/external/advancedSearchBid.xhtml?openBids=true",
+    "source": "mhtml",
+    "category": "government",
+    "subcategory": "download",
+    "type": "links",
+    "goal": "Fetch all of the links to the contract detail pages on the current page. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "evals": [
+      {
+        "type": "json_match",
         "expected": []
       }
     ],
