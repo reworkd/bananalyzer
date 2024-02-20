@@ -297,7 +297,7 @@ def main() -> int:
     if args.id:
         filters.append(lambda e: e.id in args.id if args.id else True)
     if args.tags:
-        filters.append(lambda e: any(tag in e.tags for tag in args.tags))
+        filters.append(lambda e: any(tag in e.tags for tag in args.tags or []))
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
     if args.domain:

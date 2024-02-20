@@ -1,4 +1,5 @@
-from typing import Any, Dict, List, Literal, Optional, Union
+import json
+from typing import Any, Dict, List, Literal, Optional, Type, Union
 
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
@@ -119,18 +120,37 @@ class Example(BaseModel):
 
         fetch_schema = get_fetch_schema(fetch_id)
         values["goal"] = (
-            fetch_schema.model_fields
-            if not isinstance(fetch_schema, dict)
+            json.dumps(model_to_dict(fetch_schema), indent=4)
+            if not isinstance(fetch_schema, Dict)
             and issubclass(fetch_schema, BaseModel)
             else fetch_schema
         )
 
         # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
         from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
+
         if fetch_id == "contact":
-            values["goal"] = f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n" + str(values["goal"])
+            values["goal"] = (
+                f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n"
+                + str(values["goal"])
+            )
         from bananalyzer.data.fetch_schemas import GOVERNMENT_CONTRACT_GOAL
+
         if fetch_id == "contract":
-            values["goal"] = f"{GOVERNMENT_CONTRACT_GOAL} Return data in the following schema:\n" + str(values["goal"])
+            values["goal"] = (
+                f"{GOVERNMENT_CONTRACT_GOAL} Return data in the following schema:\n"
+                + str(values["goal"])
+            )
 
         return values
+
+
+def model_to_dict(model: Type[BaseModel]) -> Dict[str, Any]:
+    result = {}
+    for name, field in model.model_fields.items():
+        result[name] = {
+            "type": field.annotation.__name__ if field.annotation else "Any",
+            "description": field.description or None,
+        }
+        #     TODO: handle lists or objects
+    return result
