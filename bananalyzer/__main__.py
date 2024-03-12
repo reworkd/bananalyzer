@@ -337,7 +337,7 @@ def main() -> int:
                     mhtml_path.parent.mkdir(parents=True, exist_ok=False)
                     with open(mhtml_path, "w") as file:
                         file.write(mhtml_str)
-    
+
     examples = [e for i, e in enumerate(examples) if i not in missing_mhtml]
 
     # Load the desired tests
