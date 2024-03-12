@@ -20,12 +20,13 @@ def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
             if example["fetch_id"] == "":
                 del example["fetch_id"]
 
-            for row in example["evals"][0]["expected"]:
-                row = {k: v for k, v in row.items() if not k.startswith("__")}
-                if "context" in row:
-                    for key, value in row["context"].items():
-                        row[key] = value
-                    del row["context"]
+            if isinstance(example["evals"][0]["expected"], list):
+                for row in example["evals"][0]["expected"]:
+                    row = {k: v for k, v in row.items() if not k.startswith("__")}
+                    if "context" in row:
+                        for key, value in row["context"].items():
+                            row[key] = value
+                        del row["context"]
 
             examples.append(example)
 

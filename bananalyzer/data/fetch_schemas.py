@@ -38,22 +38,37 @@ class File(BaseModel):
 class GovernmentContractSchema(BaseModel):
     id: str = Field(description="Unique identifier for the contract")
     title: str = Field(description="Title of the contract")
-    description: Optional[str] = Field(default=None,
-                                       description="Description or synopsis field. Combine the solicitation summary and additional instructuions section / process.")
-    location: Optional[str] = Field(default=None,
-                                    description="Location of the issuer. May be a combination of city and state")
-    type: Optional[str] = Field(default=None,
-                                description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc")
-    category: Optional[str] = Field(default=None, description="Category the contract falls under if given")
+    description: Optional[str] = Field(
+        default=None,
+        description="Description or synopsis field. Combine the solicitation summary and additional instructuions section / process.",
+    )
+    location: Optional[str] = Field(
+        default=None,
+        description="Location of the issuer. May be a combination of city and state",
+    )
+    type: Optional[str] = Field(
+        default=None,
+        description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc",
+    )
+    category: Optional[str] = Field(
+        default=None, description="Category the contract falls under if given"
+    )
 
     posted_date: Optional[datetime] = Field(default=None)
     due_date: Optional[datetime] = Field(default=None)
 
-    buyer_name: str = Field(description="Name of the company, organization, or agency that issued the contract")
+    buyer_name: str = Field(
+        description="Name of the company, organization, or agency that issued the contract"
+    )
     buyer_contact_name: str = Field(
-        description="Name of the specific individual that is championing the contract, if available")
-    buyer_contact_number: Optional[str] = Field(default=None, description="Contact number of the issuer")
-    buyer_contact_email: Optional[str] = Field(default=None, description="Contact email of the issuer")
+        description="Name of the specific individual that is championing the contract, if available"
+    )
+    buyer_contact_number: Optional[str] = Field(
+        default=None, description="Contact number of the issuer"
+    )
+    buyer_contact_email: Optional[str] = Field(
+        default=None, description="Contact email of the issuer"
+    )
 
     attachments: List[File] = Field(
         default_factory=list,
