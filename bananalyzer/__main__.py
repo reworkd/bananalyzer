@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 from typing import List
 from urllib.parse import urlparse
+from botocore.exceptions import ClientError
 
 from bananalyzer import AgentRunner
 from bananalyzer.data.banana_seeds import download_mhtml
@@ -322,14 +323,22 @@ def main() -> int:
         print("=======================================================================")
         return 0
 
-    for example in examples:
+    missing_mhtml = []
+    for i, example in enumerate(examples):
         if example.mhtml_url is not None:
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             if not mhtml_path.exists():
-                mhtml_str = download_mhtml(example.mhtml_url)
-                mhtml_path.parent.mkdir(parents=True, exist_ok=False)
-                with open(mhtml_path, "w") as file:
-                    file.write(mhtml_str)
+                try:
+                    mhtml_str = download_mhtml(example.mhtml_url)
+                except ClientError:
+                    missing_mhtml.append(i)
+                    continue
+                else:
+                    mhtml_path.parent.mkdir(parents=True, exist_ok=False)
+                    with open(mhtml_path, "w") as file:
+                        file.write(mhtml_str)
+    
+    examples = [e for i, e in enumerate(examples) if i not in missing_mhtml]
 
     # Load the desired tests
     generator = PytestTestGenerator()
