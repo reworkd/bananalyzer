@@ -1,4 +1,4 @@
-from typing import Dict, List, Type, Union, Any
+from typing import Dict, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -64,7 +64,7 @@ class GovernmentContractSchema(BaseModel):
     buyer_contact_number: str = Field(description="Contact number of the issuer")
     buyer_contact_email: str = Field(description="Contact email of the issuer")
 
-    attachments: List[File] = Field(
+    attachments: list[File] = Field(
         default_factory=list,
         description="A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)",
     )
@@ -162,9 +162,9 @@ class Document(BaseModel):
 
 class ManufacturingCommerceSchema(BaseModel):
     mpn: str
-    alias_mpns: List[str] = Field(description="Other MPNs that this part is known by")
+    alias_mpns: list[str] = Field(description="Other MPNs that this part is known by")
     manufacturer: str
-    classifications: List[str]
+    classifications: list[str]
     description: str
     hero_image: str
     series: str
@@ -188,13 +188,13 @@ class ManufacturingCommerceSchema(BaseModel):
     leadfree: str
     termination_type: str
     num_terminations: int
-    specs: List[Specification]
-    product_change_notification_documents: List[Document]
-    reach_compliance_documents: List[Document]
-    rohs_compliance_documents: List[Document]
-    datasheets: List[Document]
-    specsheets: List[Document]
-    suggested_alternative_mpns: List[str]
+    specs: list[Specification]
+    product_change_notification_documents: list[Document]
+    reach_compliance_documents: list[Document]
+    rohs_compliance_documents: list[Document]
+    datasheets: list[Document]
+    specsheets: list[Document]
+    suggested_alternative_mpns: list[str]
 
 
 class ForumSchema(BaseModel):
@@ -251,38 +251,38 @@ class AttorneySchema(BaseModel):
     title: str = Field(
         description="Title of the attorney, such as Associate, Counsel, or Partner"
     )
-    practice_areas_main: List[str] = Field(
+    practice_areas_main: list[str] = Field(
         description="Primary practice areas of the attorney"
     )
-    practice_areas_all: List[str] = Field(description="Complete list of practice areas")
-    specialties: List[str] = Field(description="Specialized industry sectors")
+    practice_areas_all: list[str] = Field(description="Complete list of practice areas")
+    specialties: list[str] = Field(description="Specialized industry sectors")
     email: str = Field(description="Email address of the attorney")
     location: str = Field(description="Office location of the attorney")
     phone: str = Field(
         description="Direct phone number of the attorney",
     )
     bio: str = Field(description="Main bio description of the attorney")
-    experience: List[AttorneyExperience] = Field(
+    experience: list[AttorneyExperience] = Field(
         description="Past work history at other law firms"
     )
     matters: str = Field(description="List of past cases and work done by the attorney")
-    bar_admissions: List[AttorneyBarAdmission] = Field(
+    bar_admissions: list[AttorneyBarAdmission] = Field(
         description="Bar admissions of the attorney"
     )
-    law_school: List[AttorneyEducation] = Field(
+    law_school: list[AttorneyEducation] = Field(
         description="Law school information of the attorney"
     )
-    other_schools: List[AttorneyEducation] = Field(
+    other_schools: list[AttorneyEducation] = Field(
         description="Other education details of the attorney"
     )
-    awards: List[AttorneyAward] = Field(
+    awards: list[AttorneyAward] = Field(
         description="Awards and recognitions received by the attorney"
     )
     pdf_url: str = Field(
         description="Link to a PDF bio of the attorney",
     )
     photo_url: str = Field(description="Link to the photo of the attorney")
-    news: List[str] = Field(
+    news: list[str] = Field(
         description="Links to news articles involving the attorney", default=[]
     )
 
@@ -301,7 +301,7 @@ class AttorneyJobPostingSchema(BaseModel):
         description="Job title. Remove location but keep everything else."
     )
     description: str = Field(description="Job description.")
-    locations: List[str] = Field(
+    locations: list[str] = Field(
         description="Offices/cities/locations where this job is being offered."
     )
     salary_range: str = Field(
