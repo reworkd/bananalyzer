@@ -38,23 +38,22 @@ class GovernmentContractSchema(BaseModel):
     id: str = Field(description="Unique identifier for the contract")
     title: str = Field(description="Title or name of the contract")
     description: str = Field(
-        default=None,
         description="Description or synopsis field. Combine the solicitation summary and additional instructions section / process.",
     )
     location: str = Field(
-        default=None,
         description="Location of the issuer. May be a combination of city and state",
     )
     type: str = Field(
-        default=None,
         description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field",
     )
-    category: str = Field(
-        default=None, description="Category the contract falls under if given"
-    )
+    category: str = Field(description="Category the contract falls under if given")
 
-    posted_date: str = Field(default=None, description="Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date.")
-    due_date: str = Field(default=None, description="Date the contract closes for bidding. NOT the end term date.")
+    posted_date: str = Field(
+        description="Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date.",
+    )
+    due_date: str = Field(
+        description="Date the contract closes for bidding. NOT the end term date.",
+    )
 
     buyer_name: str = Field(
         description="Name of the company, organization, or agency that issued the contract. NOT a person's name."
@@ -62,12 +61,8 @@ class GovernmentContractSchema(BaseModel):
     buyer_contact_name: str = Field(
         description="Name of the specific individual that is leading the contract, if available"
     )
-    buyer_contact_number: str = Field(
-        default=None, description="Contact number of the issuer"
-    )
-    buyer_contact_email: str = Field(
-        default=None, description="Contact email of the issuer"
-    )
+    buyer_contact_number: str = Field(description="Contact number of the issuer")
+    buyer_contact_email: str = Field(description="Contact email of the issuer")
 
     attachments: List[File] = Field(
         default_factory=list,
