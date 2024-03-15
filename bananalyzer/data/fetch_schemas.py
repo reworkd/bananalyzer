@@ -1,5 +1,4 @@
-from datetime import datetime
-from typing import Dict, List, Type, Union, Any, Optional
+from typing import Dict, List, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -37,27 +36,42 @@ class File(BaseModel):
 
 class GovernmentContractSchema(BaseModel):
     id: str = Field(description="Unique identifier for the contract")
-    title: str = Field(description="Title of the contract")
-    description: Optional[str] = Field(default=None,
-                                       description="Description or synopsis field. Combine the solicitation summary and additional instructuions section / process.")
-    location: Optional[str] = Field(default=None,
-                                    description="Location of the issuer. May be a combination of city and state")
-    type: Optional[str] = Field(default=None,
-                                description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc")
-    category: Optional[str] = Field(default=None, description="Category the contract falls under if given")
+    title: str = Field(description="Title or name of the contract")
+    description: str = Field(
+        default=None,
+        description="Description or synopsis field. Combine the solicitation summary and additional instructions section / process.",
+    )
+    location: str = Field(
+        default=None,
+        description="Location of the issuer. May be a combination of city and state",
+    )
+    type: str = Field(
+        default=None,
+        description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field",
+    )
+    category: str = Field(
+        default=None, description="Category the contract falls under if given"
+    )
 
-    posted_date: Optional[datetime] = Field(default=None)
-    due_date: Optional[datetime] = Field(default=None)
+    posted_date: str = Field(default=None, description="Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date.")
+    due_date: str = Field(default=None, description="Date the contract closes for bidding. NOT the end term date.")
 
-    buyer_name: str = Field(description="Name of the company, organization, or agency that issued the contract")
+    buyer_name: str = Field(
+        description="Name of the company, organization, or agency that issued the contract. NOT a person's name."
+    )
     buyer_contact_name: str = Field(
-        description="Name of the specific individual that is championing the contract, if available")
-    buyer_contact_number: Optional[str] = Field(default=None, description="Contact number of the issuer")
-    buyer_contact_email: Optional[str] = Field(default=None, description="Contact email of the issuer")
+        description="Name of the specific individual that is leading the contract, if available"
+    )
+    buyer_contact_number: str = Field(
+        default=None, description="Contact number of the issuer"
+    )
+    buyer_contact_email: str = Field(
+        default=None, description="Contact email of the issuer"
+    )
 
     attachments: List[File] = Field(
         default_factory=list,
-        description="A list of all of the files/documents attached to the contract",
+        description="A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)",
     )
 
 
@@ -153,9 +167,9 @@ class Document(BaseModel):
 
 class ManufacturingCommerceSchema(BaseModel):
     mpn: str
-    alias_mpns: list[str] = Field(description="Other MPNs that this part is known by")
+    alias_mpns: List[str] = Field(description="Other MPNs that this part is known by")
     manufacturer: str
-    classifications: list[str]
+    classifications: List[str]
     description: str
     hero_image: str
     series: str
@@ -179,13 +193,13 @@ class ManufacturingCommerceSchema(BaseModel):
     leadfree: str
     termination_type: str
     num_terminations: int
-    specs: list[Specification]
-    product_change_notification_documents: list[Document]
-    reach_compliance_documents: list[Document]
-    rohs_compliance_documents: list[Document]
-    datasheets: list[Document]
-    specsheets: list[Document]
-    suggested_alternative_mpns: list[str]
+    specs: List[Specification]
+    product_change_notification_documents: List[Document]
+    reach_compliance_documents: List[Document]
+    rohs_compliance_documents: List[Document]
+    datasheets: List[Document]
+    specsheets: List[Document]
+    suggested_alternative_mpns: List[str]
 
 
 class ForumSchema(BaseModel):
