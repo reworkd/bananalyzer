@@ -1,5 +1,4 @@
-from datetime import datetime
-from typing import Dict, List, Type, Union, Any, Optional
+from typing import Dict, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -37,27 +36,37 @@ class File(BaseModel):
 
 class GovernmentContractSchema(BaseModel):
     id: str = Field(description="Unique identifier for the contract")
-    title: str = Field(description="Title of the contract")
-    description: Optional[str] = Field(default=None,
-                                       description="Description or synopsis field. Combine the solicitation summary and additional instructuions section / process.")
-    location: Optional[str] = Field(default=None,
-                                    description="Location of the issuer. May be a combination of city and state")
-    type: Optional[str] = Field(default=None,
-                                description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc")
-    category: Optional[str] = Field(default=None, description="Category the contract falls under if given")
+    title: str = Field(description="Title or name of the contract")
+    description: str = Field(
+        description="Description or synopsis field. Combine the solicitation summary and additional instructions section / process.",
+    )
+    location: str = Field(
+        description="Location of the issuer. May be a combination of city and state",
+    )
+    type: str = Field(
+        description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field",
+    )
+    category: str = Field(description="Category the contract falls under if given")
 
-    posted_date: Optional[datetime] = Field(default=None)
-    due_date: Optional[datetime] = Field(default=None)
+    posted_date: str = Field(
+        description="Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date.",
+    )
+    due_date: str = Field(
+        description="Date the contract closes for bidding. NOT the end term date.",
+    )
 
-    buyer_name: str = Field(description="Name of the company, organization, or agency that issued the contract")
+    buyer_name: str = Field(
+        description="Name of the company, organization, or agency that issued the contract. NOT a person's name."
+    )
     buyer_contact_name: str = Field(
-        description="Name of the specific individual that is championing the contract, if available")
-    buyer_contact_number: Optional[str] = Field(default=None, description="Contact number of the issuer")
-    buyer_contact_email: Optional[str] = Field(default=None, description="Contact email of the issuer")
+        description="Name of the specific individual that is leading the contract, if available"
+    )
+    buyer_contact_number: str = Field(description="Contact number of the issuer")
+    buyer_contact_email: str = Field(description="Contact email of the issuer")
 
-    attachments: List[File] = Field(
+    attachments: list[File] = Field(
         default_factory=list,
-        description="A list of all of the files/documents attached to the contract",
+        description="A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)",
     )
 
 
@@ -242,38 +251,38 @@ class AttorneySchema(BaseModel):
     title: str = Field(
         description="Title of the attorney, such as Associate, Counsel, or Partner"
     )
-    practice_areas_main: List[str] = Field(
+    practice_areas_main: list[str] = Field(
         description="Primary practice areas of the attorney"
     )
-    practice_areas_all: List[str] = Field(description="Complete list of practice areas")
-    specialties: List[str] = Field(description="Specialized industry sectors")
+    practice_areas_all: list[str] = Field(description="Complete list of practice areas")
+    specialties: list[str] = Field(description="Specialized industry sectors")
     email: str = Field(description="Email address of the attorney")
     location: str = Field(description="Office location of the attorney")
     phone: str = Field(
         description="Direct phone number of the attorney",
     )
     bio: str = Field(description="Main bio description of the attorney")
-    experience: List[AttorneyExperience] = Field(
+    experience: list[AttorneyExperience] = Field(
         description="Past work history at other law firms"
     )
     matters: str = Field(description="List of past cases and work done by the attorney")
-    bar_admissions: List[AttorneyBarAdmission] = Field(
+    bar_admissions: list[AttorneyBarAdmission] = Field(
         description="Bar admissions of the attorney"
     )
-    law_school: List[AttorneyEducation] = Field(
+    law_school: list[AttorneyEducation] = Field(
         description="Law school information of the attorney"
     )
-    other_schools: List[AttorneyEducation] = Field(
+    other_schools: list[AttorneyEducation] = Field(
         description="Other education details of the attorney"
     )
-    awards: List[AttorneyAward] = Field(
+    awards: list[AttorneyAward] = Field(
         description="Awards and recognitions received by the attorney"
     )
     pdf_url: str = Field(
         description="Link to a PDF bio of the attorney",
     )
     photo_url: str = Field(description="Link to the photo of the attorney")
-    news: List[str] = Field(
+    news: list[str] = Field(
         description="Links to news articles involving the attorney", default=[]
     )
 
@@ -292,7 +301,7 @@ class AttorneyJobPostingSchema(BaseModel):
         description="Job title. Remove location but keep everything else."
     )
     description: str = Field(description="Job description.")
-    locations: List[str] = Field(
+    locations: list[str] = Field(
         description="Offices/cities/locations where this job is being offered."
     )
     salary_range: str = Field(
