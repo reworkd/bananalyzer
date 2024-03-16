@@ -150,7 +150,10 @@ def model_to_dict(model: Type[BaseModel]) -> Dict[str, Any]:
     for name, field in model.model_fields.items():
         if not field.annotation:
             continue
-        if field.annotation.__name__.lower() == "list" and len(field.annotation.__args__) == 1:
+        if (
+            field.annotation.__name__.lower() == "list"
+            and len(field.annotation.__args__) == 1
+        ):
             inner_type = field.annotation.__args__[0]
             if issubclass(inner_type, BaseModel):
                 result[name] = {
@@ -160,25 +163,20 @@ def model_to_dict(model: Type[BaseModel]) -> Dict[str, Any]:
                         "properties": model_to_dict(inner_type),
                     },
                 }
-                if field.description:
-                    result[name]["description"] = field.description
             else:
                 result[name] = {
                     "type": f"List[{inner_type.__name__}]",
                 }
-                if field.description:
-                    result[name]["description"] = field.description
         elif issubclass(field.annotation, BaseModel):
             result[name] = {
                 "type": "object",
                 "properties": model_to_dict(field.annotation),
             }
-            if field.description:
-                result[name]["description"] = field.description
         else:
             result[name] = {
                 "type": field.annotation.__name__ if field.annotation else "Any",
             }
-            if field.description:
-                result[name]["description"] = field.description
+
+        if field.description:
+            result[name]["description"] = field.description
     return result
