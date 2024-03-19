@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.8.71"
+version = "0.8.72"
 
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>", "awtkns <hello@awtkns.com>"]

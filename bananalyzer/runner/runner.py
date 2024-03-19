@@ -55,7 +55,7 @@ def event_loop():
 
 
 @pytest.fixture(scope="session")
-def agent():
+def agent_constructor():
     import importlib.util
     import sys
     from pathlib import Path
@@ -71,8 +71,8 @@ def agent():
     spec.loader.exec_module(module)
     print(f"Loaded agent module", module)
 
-    agent_ = getattr(module, '{runner.class_name}')()
-    yield agent_
+    agent_constructor = getattr(module, '{runner.class_name}')
+    yield agent_constructor
 
 
 @pytest_asyncio.fixture(scope="{'session' if single_browser_instance else 'class'}")
