@@ -633,48 +633,6 @@ nSearch_LocationSearchButton" class=3D"Button">
 
 	   =20
 	=09
-<div class=3D"Paging">
-	<div class=3D"TableBody">
-		<div class=3D"Row">
-			<div class=3D"Pagination">
-				<label for=3D"VsMasterPage_MainContent_LocationsList_TopPaging_Internal=
-DropDownList" class=3D"Hide">Go to Page</label>
-				<span class=3D"page-text">Page </span><select name=3D"VsMasterPage$Main=
-Content$LocationsList$TopPaging$InternalDropDownList" id=3D"VsMasterPage_Ma=
-inContent_LocationsList_TopPaging_InternalDropDownList" class=3D"SuperShort=
-">
-					<option selected=3D"selected" value=3D"~/locations/results/?searchId=
-=3Dd6761a7f-4f8a-ee11-a85f-000d3a611ea2&amp;sort=3D13&amp;page=3D1">1</opti=
-on>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D2">2</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D3">3</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D4">4</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D5">5</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D6">6</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D7">7</option>
-
-				</select><input type=3D"submit" name=3D"VsMasterPage$MainContent$Locati=
-onsList$TopPaging$InternalButton" value=3D"GO" id=3D"VsMasterPage_MainConte=
-nt_LocationsList_TopPaging_InternalButton" style=3D"display: none;"><span> =
-of 7, showing locations 1-10 of 61</span>
-			</div><div class=3D"PaginationRight">
-				<div class=3D"BackNext">
-					<a class=3D"Previous Disabled" title=3D"Go to the previous page of loc=
-ations in the list.">Previous</a> <a class=3D"Next" href=3D"https://www.adv=
-entisthealthcare.com/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a85f-=
-000d3a611ea2&amp;sort=3D13&amp;page=3D2" title=3D"Go to the next page of lo=
-cations in the list.">Next</a>=20
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 		<div class=3D"LocationsList">
@@ -1293,48 +1251,6 @@ termId=3D8bf77b23-1445-e511-8d72-2c768a4e1b84" class=3D"DoctorLink">Doctors=
 		</div>
 =09
 
-<div class=3D"Paging">
-	<div class=3D"TableBody">
-		<div class=3D"Row">
-			<div class=3D"Pagination">
-				<label for=3D"VsMasterPage_MainContent_LocationsList_BottomPaging_Inter=
-nalDropDownList" class=3D"Hide">Go to Page</label>
-				<span class=3D"page-text">Page </span><select name=3D"VsMasterPage$Main=
-Content$LocationsList$BottomPaging$InternalDropDownList" id=3D"VsMasterPage=
-_MainContent_LocationsList_BottomPaging_InternalDropDownList" class=3D"Supe=
-rShort">
-					<option selected=3D"selected" value=3D"~/locations/results/?searchId=
-=3Dd6761a7f-4f8a-ee11-a85f-000d3a611ea2&amp;sort=3D13&amp;page=3D1">1</opti=
-on>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D2">2</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D3">3</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D4">4</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D5">5</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D6">6</option>
-					<option value=3D"~/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a8=
-5f-000d3a611ea2&amp;sort=3D13&amp;page=3D7">7</option>
-
-				</select><input type=3D"submit" name=3D"VsMasterPage$MainContent$Locati=
-onsList$BottomPaging$InternalButton" value=3D"GO" id=3D"VsMasterPage_MainCo=
-ntent_LocationsList_BottomPaging_InternalButton" style=3D"display: none;"><=
-span> of 7, showing locations 1-10 of 61</span>
-			</div><div class=3D"PaginationRight">
-				<div class=3D"BackNext">
-					<a class=3D"Previous Disabled" title=3D"Go to the previous page of loc=
-ations in the list.">Previous</a> <a class=3D"Next" href=3D"https://www.adv=
-entisthealthcare.com/locations/results/?searchId=3Dd6761a7f-4f8a-ee11-a85f-=
-000d3a611ea2&amp;sort=3D13&amp;page=3D2" title=3D"Go to the next page of lo=
-cations in the list.">Next</a>=20
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 =09
 	</div></div>
