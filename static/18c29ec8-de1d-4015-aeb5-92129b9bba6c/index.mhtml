@@ -791,7 +791,7 @@ efinements__root"><div class=3D"ais-CurrentRefinements__items" data-locatio=
 n-select-filter-container=3D"true"></div></div></div></div><div class=3D"ab=
 solute right-0 top-0 bottom-0 w-24 h-full bg-gradient-to-l from-white point=
 er-events-none"></div></div></div><div class=3D"result-info__count text-lef=
-t"><p>Showing 1 - 12 of 684 Locations</p></div></div><div><div><div class=
+t"></div></div><div><div><div class=
 =3D"ais-Hits"><ul class=3D"ais-Hits-list"><li class=3D"ais-Hits-item"><div =
 class=3D"FindLocations__location-card-height"><div class=3D"LocationCard
        =20
@@ -1772,31 +1772,7 @@ nCard__cta"><a class=3D"ButtonSecondary ButtonSecondary--inverted" href=3D"=
 https://iuhealth.org/find-locations/iu-health-saxony-hospital" target=3D"">=
 Location Details</a></div></div></div></li></ul></div></div><div class=3D"W=
 rapper u-atdesktop-pb-8"><div class=3D"FlexGrid"></div></div></div><div cla=
-ss=3D""><div class=3D"ais-Pagination"><ul class=3D"ais-Pagination-list"><li=
- class=3D"ais-Pagination-item ais-Pagination-item--disabled ais-Pagination-=
-item--firstPage"><span class=3D"ais-Pagination-link">=C2=AB</span></li><li =
-class=3D"ais-Pagination-item ais-Pagination-item--disabled ais-Pagination-i=
-tem--previousPage"><span class=3D"ais-Pagination-link">Prev</span></li><li =
-class=3D"ais-Pagination-item ais-Pagination-item--selected ais-Pagination-i=
-tem--page"><a class=3D"ais-Pagination-link ais-Pagination-link--selected" a=
-ria-label=3D"Page 1" href=3D"https://iuhealth.org/find-locations/results?qu=
-ery=3D&amp;page=3D1#">1</a></li><li class=3D"ais-Pagination-item ais-Pagina=
-tion-item--page"><a class=3D"ais-Pagination-link" aria-label=3D"Page 2" hre=
-f=3D"https://iuhealth.org/find-locations/results?query=3D&amp;page=3D1#">2<=
-/a></li><li class=3D"ais-Pagination-item ais-Pagination-item--page"><a clas=
-s=3D"ais-Pagination-link" aria-label=3D"Page 3" href=3D"https://iuhealth.or=
-g/find-locations/results?query=3D&amp;page=3D1#">3</a></li><li class=3D"ais=
--Pagination-item ais-Pagination-item--page"><a class=3D"ais-Pagination-link=
-" aria-label=3D"Page 4" href=3D"https://iuhealth.org/find-locations/results=
-?query=3D&amp;page=3D1#">4</a></li><li class=3D"ais-Pagination-item ais-Pag=
-ination-item--page"><a class=3D"ais-Pagination-link" aria-label=3D"Page 5" =
-href=3D"https://iuhealth.org/find-locations/results?query=3D&amp;page=3D1#"=
->5</a></li><li class=3D"ais-Pagination-item ais-Pagination-item--nextPage">=
-<a class=3D"ais-Pagination-link" aria-label=3D"Next page" href=3D"https://i=
-uhealth.org/find-locations/results?query=3D&amp;page=3D1#">Next</a></li><li=
- class=3D"ais-Pagination-item ais-Pagination-item--lastPage"><a class=3D"ai=
-s-Pagination-link" aria-label=3D"Last page" href=3D"https://iuhealth.org/fi=
-nd-locations/results?query=3D&amp;page=3D1#">=C2=BB</a></li></ul></div></di=
+ss=3D""></di=
 v></div></div></div></div></section></main>
   </main>
 
