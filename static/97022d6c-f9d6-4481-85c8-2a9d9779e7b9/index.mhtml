@@ -3850,41 +3850,7 @@ lth.org/Doctors-and-Locations/help">?</a>   </div>      </div></div>
 " data-id=3D"result-pagination" data-result-tmpl=3D"[data-id=3D'result-pagi=
 nation']">         <ul class=3D"ls-pagination" data-pagecount=3D"11" data-o=
 npage=3D"1" data-totalcount=3D"261">                                       =
-                                                                           =
-                             <li class=3D"ls-current" id=3D"page-1" style=
-=3D"">1</li>                                                               =
-                                                                           =
-<li id=3D"page-2" style=3D""><a data-gotopage=3D"2" class=3D"js-pager-click=
-">2</a></li>                                                               =
-                                                                           =
-<li id=3D"page-3" style=3D""><a data-gotopage=3D"3" class=3D"js-pager-click=
-">3</a></li>                                                               =
-                                                                           =
-<li id=3D"page-4" style=3D""><a data-gotopage=3D"4" class=3D"js-pager-click=
-">4</a></li>                                                               =
-                                                                           =
-<li id=3D"page-5" style=3D""><a data-gotopage=3D"5" class=3D"js-pager-click=
-">5</a></li>                                                               =
-                                                                           =
-<li id=3D"page-6" style=3D""><a data-gotopage=3D"6" class=3D"js-pager-click=
-">6</a></li>                                                               =
-                                                                           =
-<li id=3D"page-7" style=3D""><a data-gotopage=3D"7" class=3D"js-pager-click=
-">7</a></li>                                                               =
-                                                                           =
-<li id=3D"page-8" style=3D""><a data-gotopage=3D"8" class=3D"js-pager-click=
-">8</a></li>                                                               =
-                                                                           =
-<li id=3D"page-9" style=3D"display:none;"><a data-gotopage=3D"9" class=3D"j=
-s-pager-click">9</a></li>                                                  =
-                                                                           =
-             <li id=3D"page-10" style=3D"display:none;"><a data-gotopage=3D=
-"10" class=3D"js-pager-click">10</a></li>                                  =
-                                                                           =
-                             <li><p>...</p></li><li id=3D"page-11" style=3D=
-""><a data-gotopage=3D"11" class=3D"js-pager-click">11</a></li>            =
-                                                                         </=
-ul>     </nav></div>
+</nav></div>
 							</div>
 
 							<div class=3D"ls-search-map-mode">
