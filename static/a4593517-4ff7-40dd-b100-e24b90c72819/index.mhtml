@@ -520,8 +520,6 @@ _next_available_slot_hold" value=3D"1" class=3D"form-checkbox">
     </div>
    =20
       <div class=3D"view-header">
-      <div>185 results </div>
-
     </div>
  =20
       <div class=3D"view-content">
@@ -6858,102 +6856,7 @@ awesome.com --></a>
 
     </div>
  =20
-        <nav class=3D"pager" role=3D"navigation" aria-labelledby=3D"paginat=
-ion-heading">
-    <h2 id=3D"pagination-heading" class=3D"visually-hidden">Pagination</h2>
-    <ul class=3D"pager--items js-pager__items">
-                                                        <li class=3D"pager-=
--item is-active">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D0" title=3D"Current page 1" aria-label=3D"Current=
- page 1">
-            <span class=3D"visually-hidden">
-              Current page 1
-            </span>1</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D1" title=3D"Go to page 2" aria-label=3D"Go to pag=
-e 2">
-            <span class=3D"visually-hidden">
-              Page 2
-            </span>2</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D2" title=3D"Go to page 3" aria-label=3D"Go to pag=
-e 3">
-            <span class=3D"visually-hidden">
-              Page 3
-            </span>3</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D3" title=3D"Go to page 4" aria-label=3D"Go to pag=
-e 4">
-            <span class=3D"visually-hidden">
-              Page 4
-            </span>4</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D4" title=3D"Go to page 5" aria-label=3D"Go to pag=
-e 5">
-            <span class=3D"visually-hidden">
-              Page 5
-            </span>5</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D5" title=3D"Go to page 6" aria-label=3D"Go to pag=
-e 6">
-            <span class=3D"visually-hidden">
-              Page 6
-            </span>6</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D6" title=3D"Go to page 7" aria-label=3D"Go to pag=
-e 7">
-            <span class=3D"visually-hidden">
-              Page 7
-            </span>7</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D7" title=3D"Go to page 8" aria-label=3D"Go to pag=
-e 8">
-            <span class=3D"visually-hidden">
-              Page 8
-            </span>8</a>
-        </li>
-              <li class=3D"pager--item">
-                                          <a href=3D"https://www.froedtert.=
-com/locations?&amp;page=3D8" title=3D"Go to page 9" aria-label=3D"Go to pag=
-e 9">
-            <span class=3D"visually-hidden">
-              Page 9
-            </span>9</a>
-        </li>
-                                      <li class=3D"pager--item pager--item-=
--next">
-          <a href=3D"https://www.froedtert.com/locations?&amp;page=3D1" tit=
-le=3D"Go to next page" aria-label=3D"Go to next page" rel=3D"next">
-            <span class=3D"visually-hidden">Next page</span>
-            <span aria-hidden=3D"true">Next =E2=80=BA</span>
-          </a>
-        </li>
-                          <li class=3D"pager--item pager--item--last">
-          <a href=3D"https://www.froedtert.com/locations?&amp;page=3D8" tit=
-le=3D"Go to last page " aria-label=3D"Go to last page">
-            <span class=3D"visually-hidden">Last page</span>
-            <span aria-hidden=3D"true">Last =C2=BB</span>
-          </a>
-        </li>
-          </ul>
-  </nav>
 
-          </div>
 </div>
 
 </div>
