@@ -3055,63 +3055,7 @@ href=3D"tel:952-967-6990" target=3D"_self"><span class=3D"text-content">952=
 on></div></div></hp5-container></div></hp5-container></div></div></div><div=
 ></div><hp5-spacing-vertical xs=3D"md" sm=3D"md" md=3D"md" lg=3D"md" class=
 =3D"hydrated"></hp5-spacing-vertical><div class=3D"no-float center-block no=
--padding"><div class=3D"pagination"><div class=3D"disabled"><span id=3D"pag=
-ination-left" aria-disabled=3D"true" class=3D"previous disabled"><i class=
-=3D"sys-icon-arrow-left"><hp5-icon name=3D"system-arrow-left" size=3D"sm" c=
-lass=3D"hydrated"><div aria-hidden=3D"true"><hp5-system-icon class=3D"icon =
-hydrated" name=3D"system-arrow-left"><div class=3D"svg-container system"><s=
-vg viewBox=3D"0 0 32 32" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M2=
-0.547 22.12 14.44 16l6.107-6.12L18.667 8l-8 8 8 8z"></path></svg></div></hp=
-5-system-icon></div></hp5-icon></i></span></div><div class=3D"pageSelectLis=
-tItem"><div class=3D"popOverContainer"><button tabindex=3D"0" class=3D"popO=
-verButton page" aria-haspopup=3D"true" aria-expanded=3D"false">Page <span>1=
- of 17</span> <i class=3D"icon-blue sys-icon-arrow-down"><hp5-icon name=3D"=
-system-arrow-down" size=3D"sm" class=3D"hydrated"><div aria-hidden=3D"true"=
-><hp5-system-icon class=3D"icon hydrated" name=3D"system-arrow-down"><div c=
-lass=3D"svg-container system"><svg viewBox=3D"0 0 32 32" xmlns=3D"http://ww=
-w.w3.org/2000/svg"><path d=3D"M9.88 11.453 16 17.56l6.12-6.107 1.88 1.88-8 =
-8-8-8z"></path></svg></div></hp5-system-icon></div></hp5-icon></i></button>=
-<div tabindex=3D"0" aria-expanded=3D"false" class=3D"hp-popover top " style=
-=3D"margin-top: 0px;"><ul class=3D"popover-content" aria-expanded=3D"false"=
-><li class=3D"activeItem"><a aria-selected=3D"true" aria-label=3D"page 1 - =
-selected" class=3D"page-link active">Page 1</a><i class=3D"sys-icon-success=
-"><hp5-icon name=3D"system-success-base" size=3D"xs" class=3D"hydrated"><di=
-v aria-hidden=3D"true"><hp5-system-icon class=3D"icon hydrated" name=3D"sys=
-tem-success-base"><div class=3D"svg-container system"><svg viewBox=3D"0 0 3=
-2 32" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M16 29.333c-7.364 0-1=
-3.333-5.97-13.333-13.333S8.637 2.667 16 2.667c7.364 0 13.333 5.97 13.333 13=
-.333S23.363 29.333 16 29.333zm4.962-17.755-6.726 6.529-3.022-3.047-1.88 1.8=
-8 4.902 4.94 8.606-8.422z" fill=3D"#008003"></path></svg></div></hp5-system=
--icon></div></hp5-icon></i></li><li><a aria-selected=3D"false" aria-label=
-=3D"page - 2" class=3D"page-link ">Page 2</a></li><li><a aria-selected=3D"f=
-alse" aria-label=3D"page - 3" class=3D"page-link ">Page 3</a></li><li><a ar=
-ia-selected=3D"false" aria-label=3D"page - 4" class=3D"page-link ">Page 4</=
-a></li><li><a aria-selected=3D"false" aria-label=3D"page - 5" class=3D"page=
--link ">Page 5</a></li><li><a aria-selected=3D"false" aria-label=3D"page - =
-6" class=3D"page-link ">Page 6</a></li><li><a aria-selected=3D"false" aria-=
-label=3D"page - 7" class=3D"page-link ">Page 7</a></li><li><a aria-selected=
-=3D"false" aria-label=3D"page - 8" class=3D"page-link ">Page 8</a></li><li>=
-<a aria-selected=3D"false" aria-label=3D"page - 9" class=3D"page-link ">Pag=
-e 9</a></li><li><a aria-selected=3D"false" aria-label=3D"page - 10" class=
-=3D"page-link ">Page 10</a></li><li><a aria-selected=3D"false" aria-label=
-=3D"page - 11" class=3D"page-link ">Page 11</a></li><li><a aria-selected=3D=
-"false" aria-label=3D"page - 12" class=3D"page-link ">Page 12</a></li><li><=
-a aria-selected=3D"false" aria-label=3D"page - 13" class=3D"page-link ">Pag=
-e 13</a></li><li><a aria-selected=3D"false" aria-label=3D"page - 14" class=
-=3D"page-link ">Page 14</a></li><li><a aria-selected=3D"false" aria-label=
-=3D"page - 15" class=3D"page-link ">Page 15</a></li><li><a aria-selected=3D=
-"false" aria-label=3D"page - 16" class=3D"page-link ">Page 16</a></li><li><=
-a aria-selected=3D"false" aria-label=3D"page - 17" class=3D"page-link ">Pag=
-e 17</a></li></ul><div tabindex=3D"0" class=3D"hide"><a class=3D"collapseMe=
-nuBtn">Close</a></div></div></div></div><div><a id=3D"pagination-right" ari=
-a-disabled=3D"false" href=3D"https://www.healthpartners.com/care/find/locat=
-ions/?sort=3Dname" class=3D"next" aria-label=3D"Next"><i class=3D"sys-icon-=
-arrow-right"><hp5-icon name=3D"system-arrow-right" size=3D"sm" class=3D"hyd=
-rated"><div aria-hidden=3D"true"><hp5-system-icon class=3D"icon hydrated" n=
-ame=3D"system-arrow-right"><div class=3D"svg-container system"><svg viewBox=
-=3D"0 0 32 32" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M11.453 22.1=
-2 17.56 16l-6.107-6.12L13.333 8l8 8-8 8z"></path></svg></div></hp5-system-i=
-con></div></hp5-icon></i></a></div></div></div><hr class=3D"no-padding no-m=
+-padding"><hr class=3D"no-padding no-m=
 argin"><p class=3D"printResultsContainer"><a class=3D"btn btn-link print-re=
 sults-spacing-lg" href=3D"https://www.healthpartners.com/content/dam/brand-=
 identity/pdfs/care/print-search-instructions-find-care-v1.pdf" target=3D"_b=
