@@ -579,59 +579,6 @@ ton_InternalButton" class=3D"Button">
 
         </div>
 	=09
-<div class=3D"Paging">
-	<div class=3D"TableBody">
-		<div class=3D"Row">
-			<div class=3D"Pagination">
-				<label for=3D"VsMasterPage_MainContent_LocationList_TopPaging_InternalD=
-ropDownList" class=3D"Hide">Go to Page</label>
-				<span class=3D"page-text">Page </span><select name=3D"VsMasterPage$Main=
-Content$LocationList$TopPaging$InternalDropDownList" id=3D"VsMasterPage_Mai=
-nContent_LocationList_TopPaging_InternalDropDownList" class=3D"SuperShort">
-					<option selected=3D"selected" value=3D"~/locations/search-results/?sea=
-rchId=3D00d4ddb8-4f8a-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D1">1<=
-/option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D2">2</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D3">3</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D4">4</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D5">5</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D6">6</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D7">7</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D8">8</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D9">9</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D10">10</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D11">11</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D12">12</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D13">13</option>
-
-				</select><input type=3D"submit" name=3D"VsMasterPage$MainContent$Locati=
-onList$TopPaging$InternalButton" value=3D"GO" id=3D"VsMasterPage_MainConten=
-t_LocationList_TopPaging_InternalButton" style=3D"display: none;"><span> of=
- 13, showing locations 1-10 of 124</span>
-			</div><div class=3D"PaginationRight">
-				<div class=3D"BackNext">
-					<a class=3D"Previous Disabled" title=3D"Go to the previous page of loc=
-ations in the list.">Previous</a> <a class=3D"Next" href=3D"https://www.cap=
-ecodhealth.org/locations/search-results/?searchId=3D00d4ddb8-4f8a-ee11-a868=
--000d3a611c21&amp;sort=3D11&amp;page=3D2" title=3D"Go to the next page of l=
-ocations in the list.">Next</a>=20
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 		<div class=3D"LocationsList">
@@ -1093,61 +1040,6 @@ Falmouth%2c+MA+02540">Get Driving Directions</a></p>=20
 			</ul>
 		</div>
 =09
-
-<div class=3D"Paging">
-	<div class=3D"TableBody">
-		<div class=3D"Row">
-			<div class=3D"Pagination">
-				<label for=3D"VsMasterPage_MainContent_LocationList_BottomPaging_Intern=
-alDropDownList" class=3D"Hide">Go to Page</label>
-				<span class=3D"page-text">Page </span><select name=3D"VsMasterPage$Main=
-Content$LocationList$BottomPaging$InternalDropDownList" id=3D"VsMasterPage_=
-MainContent_LocationList_BottomPaging_InternalDropDownList" class=3D"SuperS=
-hort">
-					<option selected=3D"selected" value=3D"~/locations/search-results/?sea=
-rchId=3D00d4ddb8-4f8a-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D1">1<=
-/option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D2">2</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D3">3</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D4">4</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D5">5</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D6">6</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D7">7</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D8">8</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D9">9</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D10">10</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D11">11</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D12">12</option>
-					<option value=3D"~/locations/search-results/?searchId=3D00d4ddb8-4f8a-=
-ee11-a868-000d3a611c21&amp;sort=3D11&amp;page=3D13">13</option>
-
-				</select><input type=3D"submit" name=3D"VsMasterPage$MainContent$Locati=
-onList$BottomPaging$InternalButton" value=3D"GO" id=3D"VsMasterPage_MainCon=
-tent_LocationList_BottomPaging_InternalButton" style=3D"display: none;"><sp=
-an> of 13, showing locations 1-10 of 124</span>
-			</div><div class=3D"PaginationRight">
-				<div class=3D"BackNext">
-					<a class=3D"Previous Disabled" title=3D"Go to the previous page of loc=
-ations in the list.">Previous</a> <a class=3D"Next" href=3D"https://www.cap=
-ecodhealth.org/locations/search-results/?searchId=3D00d4ddb8-4f8a-ee11-a868=
--000d3a611c21&amp;sort=3D11&amp;page=3D2" title=3D"Go to the next page of l=
-ocations in the list.">Next</a>=20
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 	</div></div></div>
