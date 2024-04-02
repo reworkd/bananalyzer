@@ -951,6 +951,9 @@
           "https://www.heywood.org/locations/winchendon-health-center"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -979,6 +982,9 @@
           "https://www.hhc.org/locations/houston-family-care-at-perry/"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1186,6 +1192,9 @@
           "https://www.legacyhealth.org/Doctors-and-Locations/urgent-care/gohealth-camas"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1477,6 +1486,9 @@
           "http://www.hawaiipacifichealth.org/wilcox/locations/wilcox-medical-center/"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1559,6 +1571,9 @@
           "https://www.adventisthealthcare.com/locations/profile/?id=2557&searchId=d6761a7f-4f8a-ee11-a85f-000d3a611ea2&sort=13&page=1&pageSize=10"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1736,6 +1751,9 @@
           "https://www.astria.health/locations/astria-sunnyside-hospital-specialty-center-surgical-group"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1759,6 +1777,9 @@
           "https://www.atlanticrehabinstitute.com/"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -1953,6 +1974,9 @@
           "https://www.mycmh.org/locations/ojai-valley-hospital-foundation/"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -2164,6 +2188,9 @@
           "https://www.excelahealth.org/locations/westmoreland-frick-hospital-foundation/"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -2296,6 +2323,9 @@
           "https://www.freemanhealth.com/location/freeman-wound-care-hyperbaric-medicine"
         ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
