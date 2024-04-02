@@ -2480,9 +2480,7 @@
         }
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "180a3e5f-1cd7-4073-bf02-3dc663a6d41e",
@@ -2524,9 +2522,7 @@
         }
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "f6c00da0-3976-457b-982c-3efdea0ff7bb",
@@ -2689,9 +2685,7 @@
         }
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "0fe1cf15-d5fb-416c-9e1b-f5cae188d088",
@@ -3779,9 +3773,7 @@
         ]
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "a04ef9cc-cc51-4d28-88ad-8e153f6fbe9b",
