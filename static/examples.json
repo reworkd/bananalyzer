@@ -19696,7 +19696,7 @@
     "source": "mhtml",
     "category": "government",
     "subcategory": "contract",
-    "type": "fetch",
+    "type": "links_fetch",
     "fetch_id": "contract",
     "evals": [
       {
@@ -19714,13 +19714,157 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "BIRGIT",
+            "last_name": "KUEPPERS",
+            "title": "German Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Birgit.Kueppers@cpschools.com"
+          },
+          {
+            "first_name": "LINDSEY",
+            "last_name": "YOUNG",
+            "title": "Lead Secretary",
+            "phone_number": "757-558-5382",
+            "email": "Lindsey.Young@cpschools.com"
+          },
+          {
+            "first_name": "IVETTE",
+            "last_name": "CATES",
+            "title": "Bookkeeper",
+            "phone_number": "757-558-5382",
+            "email": "Ivette.Cates@cpschools.com"
+          },
+          {
+            "first_name": "NILIJAH",
+            "last_name": "ALSTON",
+            "title": "Teacher Assistant",
+            "phone_number": "757-558-5382",
+            "email": "Nilijah.Alston@cpschools.com"
+          },
+          {
+            "first_name": "JALISA",
+            "last_name": "WADDELL",
+            "title": "Teacher Assistant",
+            "phone_number": "757-558-5382",
+            "email": "Jalisa.Waddell@cpschools.com"
+          },
+          {
+            "first_name": "SHARON",
+            "last_name": "DENNIS",
+            "title": "Special Education Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Sharon.Dennis%20@cpschools.com"
+          },
+          {
+            "first_name": "AARON",
+            "last_name": "OLSON",
+            "title": "6th Grade Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Aaron.Olson@cpschools.com"
+          },
+          {
+            "first_name": "KELSEY",
+            "last_name": "CLYBURN",
+            "title": "6th Grade Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Kelsey.Clyburn@cpschools.com"
+          },
+          {
+            "first_name": "PATRICK",
+            "last_name": "ACE",
+            "title": "Baseball Coach",
+            "phone_number": "757-558-5382",
+            "email": null
+          },
+          {
+            "first_name": "DAVID",
+            "last_name": "BALDWIN",
+            "title": "8th Grade Teacher",
+            "phone_number": "757-558-5382",
+            "email": "David.Baldwin@cpschools.com"
+          },
+          {
+            "first_name": "MARY",
+            "last_name": "BARKS",
+            "title": "7th Grade Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Mary.Barks@cpschools.com"
+          },
+          {
+            "first_name": "EMILY",
+            "last_name": "BARRY",
+            "title": "Media Specialist",
+            "phone_number": "757-558-5382",
+            "email": "Emily.Barry@cpschools.com"
+          },
+          {
+            "first_name": "ERINN",
+            "last_name": "BELL",
+            "title": "Soccer Coach",
+            "phone_number": "757-558-5382",
+            "email": "Erinn.Bell@cpschools.com"
+          },
+          {
+            "first_name": "ERINN",
+            "last_name": "BELL",
+            "title": "Teacher Asssitant",
+            "phone_number": "757-558-5382",
+            "email": "Erinn.Bell@cpschools.com"
+          },
+          {
+            "first_name": "JACQUELINE",
+            "last_name": "BENN",
+            "title": "8th Grade Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Jacqueline.Benn@cpschools.com"
+          },
+          {
+            "first_name": "AMBER",
+            "last_name": "BOULANGER",
+            "title": "Special Education Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Amber.Boulanger@cpschools.com"
+          },
+          {
+            "first_name": "CHRISTY",
+            "last_name": "BRAY",
+            "title": "Clinic Assistant",
+            "phone_number": "757-558-5382",
+            "email": "Christy.Bray@cpschools.com"
+          },
+          {
+            "first_name": "ALLAN",
+            "last_name": "BROTHERS",
+            "title": "Health/PE Teacher",
+            "phone_number": "757-558-5382",
+            "email": "Allan.brothers@cpschools.com"
+          },
+          {
+            "first_name": "CONCEPCION",
+            "last_name": "BROWN",
+            "title": "Teacher Asssitant",
+            "phone_number": "757-558-5382",
+            "email": "Concepcion.Brown@cpschools.com"
+          },
+          {
+            "first_name": "ROBERT",
+            "last_name": "BROWN",
+            "title": "Technology Education",
+            "phone_number": "757-558-5382",
+            "email": "RobertHOM.Brown@cpschools.com"
+          }
+        ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -19729,13 +19873,143 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "Tina",
+            "last_name": "Henwood",
+            "title": "Attendance Secretary",
+            "phone_number": "303.387.1502",
+            "email": null
+          },
+          {
+            "first_name": "Christine",
+            "last_name": "Miles",
+            "title": "Attendance Secretary",
+            "phone_number": "303.387.1502",
+            "email": "christine.miles@dcsdk12.org"
+          },
+          {
+            "first_name": "Kelli",
+            "last_name": "Perardi",
+            "title": "Finance Secretary",
+            "phone_number": "303.387.1516",
+            "email": "kperardi1@dcsdk12.org"
+          },
+          {
+            "first_name": "Ros",
+            "last_name": "Geraci",
+            "title": "Registrar",
+            "phone_number": "303.387.1524",
+            "email": "rgeraci@dcsdk12.org"
+          },
+          {
+            "first_name": "Lori",
+            "last_name": "Cagle",
+            "title": "Post Grad",
+            "phone_number": "303.387.1510",
+            "email": "lori.cagle@dcsdk12.org"
+          },
+          {
+            "first_name": "Kristen",
+            "last_name": "Foss",
+            "title": "Counseling Secretary",
+            "phone_number": "303-387-1520",
+            "email": "kfoss@dcsdk12.org"
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Cislo",
+            "title": "School Resource Office",
+            "phone_number": "303.387.1530 ext. 71530",
+            "email": "jcislo@dcsheriff.net"
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Dooley",
+            "title": "Lead Security Officer",
+            "phone_number": "303.387.1669",
+            "email": "kevin.dooley@dcsdk12.org"
+          },
+          {
+            "first_name": "Kent",
+            "last_name": "Erickson",
+            "title": "Security",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "Randy",
+            "last_name": "Glanville",
+            "title": "Security",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "Scott",
+            "last_name": "Krueger",
+            "title": "Security",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "Denise",
+            "last_name": "Potterton",
+            "title": "Volunteer Coordinator",
+            "phone_number": "303.387.1687",
+            "email": "d.potterton@dcsdk12.org"
+          },
+          {
+            "first_name": "Kathy",
+            "last_name": "Reed",
+            "title": "Copy Room Technician",
+            "phone_number": "303.387.1534",
+            "email": "kathy.reed@dcsdk12.org"
+          },
+          {
+            "first_name": "Rhonda",
+            "last_name": "Durham",
+            "title": "Lead Custodian",
+            "phone_number": "303.387.1543",
+            "email": "rhonda.durham@dcsdk12.org"
+          },
+          {
+            "first_name": "Andy",
+            "last_name": "Marton",
+            "title": "Custodian",
+            "phone_number": null,
+            "email": "andrew.marton@dcsdk12.org"
+          },
+          {
+            "first_name": "Yvette",
+            "last_name": "Ladislao",
+            "title": "Kitchen Manager",
+            "phone_number": "303.387.1606 ext. 71606",
+            "email": "yaladislao@dcsdk12.org"
+          },
+          {
+            "first_name": "Joe",
+            "last_name": "Ekhoff",
+            "title": "Athletic Trainer",
+            "phone_number": "303.387.1600 ext. 71600",
+            "email": "joseph.ekhoff@dcsdk12.org"
+          },
+          {
+            "first_name": "Katie",
+            "last_name": "Trevino",
+            "title": "Library Specialist",
+            "phone_number": null,
+            "email": "ktrevino@dcsdk12.org"
+          }
+        ]
       }
+    ],
+    "tags": [
+      "badly-formatted"
     ]
   },
   {
@@ -19744,7 +20018,7 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
@@ -19759,12 +20033,48 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "Autumn",
+            "last_name": "Daniels",
+            "title": "Principal of Agua Fria High School",
+            "phone_number": "623-932-7300 Ext: 1001",
+            "email": "adaniels@aguafria.org"
+          },
+          {
+            "first_name": "Aida",
+            "last_name": "Alickovic",
+            "title": "Assistant Principal",
+            "phone_number": "623-932-7300 Ext: 1004",
+            "email": "aalickovic@aguafria.org"
+          },
+          {
+            "first_name": "Tony",
+            "last_name": "Gardner",
+            "title": "Assistant Principal",
+            "phone_number": "623-932-7300 Ext: 1006",
+            "email": "tgardner@aguafria.org"
+          },
+          {
+            "first_name": "Joshua",
+            "last_name": "Jovanelly",
+            "title": "Assistant Principal / Athletic Director",
+            "phone_number": "623-932-7300 Ext: 1043",
+            "email": "jjovanelly@aguafria.org"
+          },
+          {
+            "first_name": "Kristen",
+            "last_name": "Tiffany",
+            "title": "Assistant Principal",
+            "phone_number": "623-932-7300 Ext: 1037",
+            "email": "ktiffany@aguafria.org"
+          }
+        ]
       }
     ]
   },
@@ -19774,12 +20084,153 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "Olivia",
+            "last_name": "Bennett",
+            "title": "Speech",
+            "phone_number": null,
+            "email": "obennett@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Ann",
+            "last_name": "Berkow",
+            "title": "Second Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "Carolyn",
+            "last_name": "Bouttry",
+            "title": "Head Custodian",
+            "phone_number": null,
+            "email": "cbouttry@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Michaelyn",
+            "last_name": "Brace",
+            "title": "Pre-Kindergaten",
+            "phone_number": null,
+            "email": "mbrace@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Amy",
+            "last_name": "Brown",
+            "title": "Kindergarten",
+            "phone_number": null,
+            "email": "abrown18@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Briona",
+            "last_name": "Brown",
+            "title": "MD I.A.",
+            "phone_number": null,
+            "email": "bbrown5@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Barbara",
+            "last_name": "Buckley",
+            "title": "School Nurse",
+            "phone_number": null,
+            "email": "bbuckley@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Tiffany",
+            "last_name": "Carson",
+            "title": "Pre-K Instructional Assistant",
+            "phone_number": null,
+            "email": "tcarson@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Mark",
+            "last_name": "Caudill",
+            "title": "Principal",
+            "phone_number": null,
+            "email": "%20mcaudill@columbus.k12.oh.usm"
+          },
+          {
+            "first_name": "Ann",
+            "last_name": "Dietra Owens",
+            "title": "Night Custodian",
+            "phone_number": null,
+            "email": "aowens1@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Emily",
+            "last_name": "Dietsch-Knaus",
+            "title": "Intermediate High Incidence",
+            "phone_number": null,
+            "email": "edietschknauss@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Mary",
+            "last_name": "Eberlyn",
+            "title": "Librarian",
+            "phone_number": null,
+            "email": "meberlyn7744@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Monica",
+            "last_name": "Fitzgerald",
+            "title": "Kindergarten Instructional Assistant",
+            "phone_number": null,
+            "email": "mfitzgerald8293@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Blaine",
+            "last_name": "Gerdes",
+            "title": "Fifth Grade",
+            "phone_number": null,
+            "email": "bgerdes@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "Gruenberg",
+            "title": "First Grade",
+            "phone_number": null,
+            "email": "agruenberg@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Ritchie",
+            "last_name": "Harris",
+            "title": "Fourth Grade",
+            "phone_number": null,
+            "email": "rharris2112@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Vanessa",
+            "last_name": "Howell",
+            "title": "Secretary",
+            "phone_number": null,
+            "email": "vhowell1@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Jessica",
+            "last_name": "Johns",
+            "title": "Primary High Incidence",
+            "phone_number": null,
+            "email": "jjohns1@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Lindsay",
+            "last_name": "Johnson",
+            "title": "5th Grade",
+            "phone_number": null,
+            "email": "ljohnson3@columbus.k12.oh.us"
+          },
+          {
+            "first_name": "Jocelyn",
+            "last_name": "King",
+            "title": "Building Substitute",
+            "phone_number": null,
+            "email": "jking3@columbus.k12.oh.us"
+          }
+        ]
       }
     ]
   },
@@ -19789,13 +20240,311 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "Louis",
+            "last_name": "Alvarez",
+            "title": "School Resource Officer",
+            "phone_number": null,
+            "email": "lalvarez@panamcs.org"
+          },
+          {
+            "first_name": "Marisela",
+            "last_name": "Ayala",
+            "title": "Lunchroom Assistant",
+            "phone_number": null,
+            "email": "mayala@panamcs.org"
+          },
+          {
+            "first_name": "Lorraine",
+            "last_name": "Cartagena",
+            "title": "School Counselor",
+            "phone_number": null,
+            "email": "lcartagena@panamcs.org"
+          },
+          {
+            "first_name": "Lorna",
+            "last_name": "Concepcion",
+            "title": "Social Worker",
+            "phone_number": null,
+            "email": "lconcepcion@panamcs.org"
+          },
+          {
+            "first_name": "Dayana",
+            "last_name": "Covington",
+            "title": "Instructional Coach",
+            "phone_number": null,
+            "email": "dcovington@panamcs.org"
+          },
+          {
+            "first_name": "Miobelin",
+            "last_name": "DeJesus",
+            "title": "Classroom Assistant",
+            "phone_number": null,
+            "email": "mdejesus@panamcs.org"
+          },
+          {
+            "first_name": "Yocelys",
+            "last_name": "DeOleo",
+            "title": "Special Education Assistant",
+            "phone_number": null,
+            "email": "ydeoleo@panamcs.org"
+          },
+          {
+            "first_name": "Altagracia",
+            "last_name": "Espinola",
+            "title": "Food Service Coordinator",
+            "phone_number": null,
+            "email": "aespinola@panamcs.org"
+          },
+          {
+            "first_name": "Miguel",
+            "last_name": "Feliciano",
+            "title": "Dean of School Culture",
+            "phone_number": null,
+            "email": "mfeliciano@panamcs.org"
+          },
+          {
+            "first_name": "Orialis",
+            "last_name": "Feliciano",
+            "title": "Accounts Manager",
+            "phone_number": null,
+            "email": "ofeliciano@panamcs.org"
+          },
+          {
+            "first_name": "Megan",
+            "last_name": "Fields",
+            "title": "Speech Therapist",
+            "phone_number": null,
+            "email": "mfields@panamcs.org"
+          },
+          {
+            "first_name": "Solimar",
+            "last_name": "Gonzalez",
+            "title": "Classroom Assistant",
+            "phone_number": null,
+            "email": "sgonzalez@panamcs.org"
+          },
+          {
+            "first_name": "Gloribel",
+            "last_name": "Hernandez",
+            "title": "Special Education Assistant",
+            "phone_number": null,
+            "email": "ghernandez@panamcs.org"
+          },
+          {
+            "first_name": "Laura",
+            "last_name": "Higgin-Divito",
+            "title": "Dean of Curriculum, Instruction & Assessment \u2013 MYP",
+            "phone_number": null,
+            "email": "ldivito@panamcs.org"
+          },
+          {
+            "first_name": "Marisol",
+            "last_name": "Lugo",
+            "title": "Security",
+            "phone_number": null,
+            "email": "mlugo@panamcs.org"
+          },
+          {
+            "first_name": "Constance",
+            "last_name": "Malone",
+            "title": "Dean of Curriculum, Instruction & Assessment \u2013 PYP",
+            "phone_number": null,
+            "email": "cmalone@panamcs.org"
+          },
+          {
+            "first_name": "Amanda",
+            "last_name": "Martel",
+            "title": "Special Education Assistant",
+            "phone_number": null,
+            "email": "amartel@panamcs.org"
+          },
+          {
+            "first_name": "Annie",
+            "last_name": "Mendez",
+            "title": "Kitchen Assistant",
+            "phone_number": null,
+            "email": "amendez@panamcs.org"
+          },
+          {
+            "first_name": "Elzy",
+            "last_name": "Mu\u00f1oz",
+            "title": "Instructional Coach",
+            "phone_number": null,
+            "email": "emunoz@panamcs.org"
+          },
+          {
+            "first_name": "Jose",
+            "last_name": "Nu\u00f1ez",
+            "title": "IT Support Technician",
+            "phone_number": null,
+            "email": "jnunez@panamcs.org"
+          },
+          {
+            "first_name": "Eddie",
+            "last_name": "Olivares",
+            "title": "CARE Assistant",
+            "phone_number": null,
+            "email": "eolivares@panamcs.org"
+          },
+          {
+            "first_name": "Eddie",
+            "last_name": "Olivares",
+            "title": "Classroom Assistant",
+            "phone_number": null,
+            "email": "EOTERO@panamcs.org"
+          },
+          {
+            "first_name": "Ruth",
+            "last_name": "Ozuna",
+            "title": "Personal Care Assistant",
+            "phone_number": null,
+            "email": "rozuna@panamcs.org"
+          },
+          {
+            "first_name": "Sueleidy",
+            "last_name": "Pagan",
+            "title": "Special Education Assistant",
+            "phone_number": null,
+            "email": "spagan@panamcs.org"
+          },
+          {
+            "first_name": "Richei",
+            "last_name": "Phoeung",
+            "title": "IT Support Technician\nApple Teacher Recognition",
+            "phone_number": null,
+            "email": "rphoeung@panamcs.org"
+          },
+          {
+            "first_name": "Yolanie",
+            "last_name": "Ramirez",
+            "title": "Food Services Assistant",
+            "phone_number": null,
+            "email": "yramirez@panamcs.org"
+          },
+          {
+            "first_name": "Jeanette",
+            "last_name": "Rivera",
+            "title": "Main Office Manager",
+            "phone_number": null,
+            "email": "jrivera@panamcs.org"
+          },
+          {
+            "first_name": "Juan",
+            "last_name": "Rosa",
+            "title": "CARE Assistant",
+            "phone_number": null,
+            "email": "jrosa@panamcs.org"
+          },
+          {
+            "first_name": "Hannah",
+            "last_name": "Seabrooks",
+            "title": "Instructional Coach",
+            "phone_number": null,
+            "email": "hseabrooks@panamcs.org"
+          },
+          {
+            "first_name": "Taylor",
+            "last_name": "Sparks",
+            "title": "School Based Therapist",
+            "phone_number": null,
+            "email": "tsparks@panamcs.org"
+          },
+          {
+            "first_name": "Linda",
+            "last_name": "Soto",
+            "title": "Non-teaching Assistant",
+            "phone_number": null,
+            "email": "lsoto@panamcs.org"
+          },
+          {
+            "first_name": "Gregory",
+            "last_name": "Thomas",
+            "title": "School Resource Officer",
+            "phone_number": null,
+            "email": "gthomas@panamcs.org"
+          },
+          {
+            "first_name": "Francheska",
+            "last_name": "Torres",
+            "title": "Specialized Services Coordinator",
+            "phone_number": null,
+            "email": "ftorres@panamcs.org"
+          },
+          {
+            "first_name": "Aydee",
+            "last_name": "Trinidad",
+            "title": "Classroom Assistant",
+            "phone_number": null,
+            "email": "atrinidad@panamcs.org"
+          },
+          {
+            "first_name": "Ramaylin",
+            "last_name": "Ure\u00f1a",
+            "title": "Spanish Support Assistant",
+            "phone_number": null,
+            "email": "rurena@panamcs.org"
+          },
+          {
+            "first_name": "Melissa",
+            "last_name": "Valle",
+            "title": "Intervention Coordinator",
+            "phone_number": null,
+            "email": "mvalle@panamcs.org"
+          },
+          {
+            "first_name": "Miguel",
+            "last_name": "Vargas",
+            "title": "Dean of School Culture",
+            "phone_number": null,
+            "email": "mvargas@panamcs.org"
+          },
+          {
+            "first_name": "Timothy",
+            "last_name": "Vassion",
+            "title": "Facilities Manager",
+            "phone_number": null,
+            "email": "tvassion@panamcs.org"
+          },
+          {
+            "first_name": "Jenny",
+            "last_name": "Velazquez",
+            "title": "Intervention Assistant",
+            "phone_number": null,
+            "email": "jvelezquez@panamcs.org"
+          },
+          {
+            "first_name": "Rosita",
+            "last_name": "Zayas",
+            "title": "Administrative Assistant",
+            "phone_number": null,
+            "email": "rzayas@panamcs.org"
+          },
+          {
+            "first_name": "Lori",
+            "last_name": "Zimmaro",
+            "title": "EL Coordinator",
+            "phone_number": null,
+            "email": "lzimmaro@panamcs.org"
+          },
+          {
+            "first_name": "Jessica",
+            "last_name": "Zipin",
+            "title": "School Based Therapist",
+            "phone_number": null,
+            "email": "jzipin@panamcs.org"
+          }
+        ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   },
   {
@@ -19804,13 +20553,325 @@
     "source": "mhtml",
     "category": "education",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
-        "expected": []
+        "expected": [
+          {
+            "first_name": "Anna",
+            "last_name": "Jenkins",
+            "title": "Principal",
+            "phone_number": null,
+            "email": "ajenkins@philasd.org"
+          },
+          {
+            "first_name": "Marybeth",
+            "last_name": "Sgrillo",
+            "title": "Secretary",
+            "phone_number": null,
+            "email": "msgrillo@philasd.org"
+          },
+          {
+            "first_name": "Justin",
+            "last_name": "Frangipani",
+            "title": "Counselor",
+            "phone_number": null,
+            "email": "jfrangipani@philasd.org"
+          },
+          {
+            "first_name": "Amy",
+            "last_name": "Dougherty",
+            "title": "Nurse",
+            "phone_number": null,
+            "email": "ammdougherty@philasd.org"
+          },
+          {
+            "first_name": "Christina",
+            "last_name": "McGinniss",
+            "title": "Math SBTL (School-Based Teacher Leader)",
+            "phone_number": null,
+            "email": "cmdimter@philasd.org"
+          },
+          {
+            "first_name": "Betsey",
+            "last_name": "Leonard",
+            "title": "Pre-K - Room 104",
+            "phone_number": null,
+            "email": "megallagher@philasd.org"
+          },
+          {
+            "first_name": "Abby",
+            "last_name": "Segal",
+            "title": "Pre-K - Room 109",
+            "phone_number": null,
+            "email": "ajsegal@philasd.org"
+          },
+          {
+            "first_name": "Brendan",
+            "last_name": "Rowley",
+            "title": "Kindergarten-Rm. 101",
+            "phone_number": null,
+            "email": "browley@philasd.org"
+          },
+          {
+            "first_name": "Lisa",
+            "last_name": "Ritzheimer",
+            "title": "Room 101 Support",
+            "phone_number": null,
+            "email": "laritzheimer@philasd.org"
+          },
+          {
+            "first_name": "Brianna",
+            "last_name": "Rivera",
+            "title": "Kindergarten-Rm. 106",
+            "phone_number": null,
+            "email": "brivera@philasd.org"
+          },
+          {
+            "first_name": "Erjona",
+            "last_name": "Kazazi",
+            "title": "Kindergarten-Rm. 106",
+            "phone_number": null,
+            "email": "ekazazi@philasd.org"
+          },
+          {
+            "first_name": "Anna",
+            "last_name": "Nigro",
+            "title": "First Grade-Rm.100\n",
+            "phone_number": null,
+            "email": "anigro@philasd.org"
+          },
+          {
+            "first_name": "Brooke",
+            "last_name": "White",
+            "title": "First Grade-Rm. 102",
+            "phone_number": null,
+            "email": "bwolmark@philasd.org"
+          },
+          {
+            "first_name": "Katie",
+            "last_name": "Maguire",
+            "title": "Second Grade-Rm. 103",
+            "phone_number": null,
+            "email": "kmaguire3@philasd.org"
+          },
+          {
+            "first_name": "Suraya",
+            "last_name": "Stoudt",
+            "title": "Long Term Substitute - Rm. 103",
+            "phone_number": null,
+            "email": "sstoudt@philasd.org"
+          },
+          {
+            "first_name": "Tiffany",
+            "last_name": "Choi",
+            "title": "Second Grade-Rm. 105",
+            "phone_number": null,
+            "email": "tchoi@philasd.org"
+          },
+          {
+            "first_name": "Ashely",
+            "last_name": "Felock",
+            "title": "Third Grade-Rm. 206",
+            "phone_number": null,
+            "email": "atarasevich@philasd.org"
+          },
+          {
+            "first_name": "Jennifer",
+            "last_name": "Torban",
+            "title": "Third Grade-Rm. 210",
+            "phone_number": null,
+            "email": "jklein@philasd.org"
+          },
+          {
+            "first_name": "Tom",
+            "last_name": "Ng",
+            "title": "Fourth Grade Math/Science/SS-Rm. 204",
+            "phone_number": null,
+            "email": "tng2@philasd.org"
+          },
+          {
+            "first_name": "Susan",
+            "last_name": "Himelfarb",
+            "title": "Fourth Grade ELA -Rm. 214",
+            "phone_number": null,
+            "email": "shimelfarb@philasd.org"
+          },
+          {
+            "first_name": "Linda",
+            "last_name": "Levant",
+            "title": "Fifth Grade ELA/SS-Rm. 205",
+            "phone_number": null,
+            "email": "llevant@philasd.org"
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Price",
+            "title": "Fifth Grade Math/Sci-Rm. 209",
+            "phone_number": null,
+            "email": "kprice@philasd.org"
+          },
+          {
+            "first_name": "Sean",
+            "last_name": "Gray",
+            "title": "Sixth Grade-Rm. 200",
+            "phone_number": null,
+            "email": "ssgray@philasd.org"
+          },
+          {
+            "first_name": "Michele",
+            "last_name": "Scheffler",
+            "title": "Sixth Grade - Rm. 208",
+            "phone_number": null,
+            "email": "mburke2@philasd.org"
+          },
+          {
+            "first_name": "William",
+            "last_name": "McGeehan",
+            "title": "7th & 8th Grade Science/SS-Rm. 212\n",
+            "phone_number": null,
+            "email": "wmcgeehan@philasd.org"
+          },
+          {
+            "first_name": "Jessica",
+            "last_name": "Olavage\n",
+            "title": "7th/8th Grade ELA - Rm. 201",
+            "phone_number": null,
+            "email": "jolavage@philasd.org"
+          },
+          {
+            "first_name": "Rachel",
+            "last_name": "Geller",
+            "title": "7th/8th Grade\nMath - Rm. 202",
+            "phone_number": null,
+            "email": "rfworkman@philasd.org"
+          },
+          {
+            "first_name": "Christine",
+            "last_name": "Tustin",
+            "title": "Special Education K - 5th",
+            "phone_number": null,
+            "email": "cftustinschultice@philasd.org"
+          },
+          {
+            "first_name": "Elisabeth",
+            "last_name": "Hailu",
+            "title": "Special Education 6th-8th and Special Education Compliance Manager",
+            "phone_number": null,
+            "email": "ejsorkness@philasd.org"
+          },
+          {
+            "first_name": "Suraya",
+            "last_name": "Stoudt",
+            "title": "Math Interventionist",
+            "phone_number": null,
+            "email": "sstoudt@philasd.org"
+          },
+          {
+            "first_name": "Devin",
+            "last_name": "Crosby",
+            "title": "Building Substitute",
+            "phone_number": null,
+            "email": "dcrsoby2@philasd.org"
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "Lewis",
+            "title": "STEM / Technology Coordinator",
+            "phone_number": null,
+            "email": "alewis3@philasd.org"
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Meile",
+            "title": "Gym",
+            "phone_number": null,
+            "email": "jmeile@philasd.org"
+          },
+          {
+            "first_name": "Michelle",
+            "last_name": "Jones",
+            "title": "Art",
+            "phone_number": null,
+            "email": "mmjones@philasd.org\n"
+          },
+          {
+            "first_name": "Dan",
+            "last_name": "Peterson",
+            "title": "Music",
+            "phone_number": null,
+            "email": "dpeterson@philasd.org"
+          },
+          {
+            "first_name": "William",
+            "last_name": "Klotsas",
+            "title": "Instrumental Music -Brass/Woodwind",
+            "phone_number": null,
+            "email": "wklotsas@philasd.org"
+          },
+          {
+            "first_name": "Ardath",
+            "last_name": "Belzer",
+            "title": "Instrumental Music - Strings",
+            "phone_number": null,
+            "email": "abelzer@philasd.org"
+          },
+          {
+            "first_name": "James",
+            "last_name": "Segilia",
+            "title": "Speech",
+            "phone_number": null,
+            "email": "jsegilia@philasd.org"
+          },
+          {
+            "first_name": "Tanya",
+            "last_name": "Gidaro",
+            "title": "Psychologist",
+            "phone_number": null,
+            "email": "tgidaro@philasd.org"
+          },
+          {
+            "first_name": "Evelyn",
+            "last_name": "Henson",
+            "title": "School Safety Officer",
+            "phone_number": null,
+            "email": "ehenson@philasd.org"
+          },
+          {
+            "first_name": "Theresa",
+            "last_name": "Schleinkofer",
+            "title": "Food Service Manager",
+            "phone_number": null,
+            "email": "tschleinkofer@philasd.org"
+          },
+          {
+            "first_name": "Robert",
+            "last_name": "Williams",
+            "title": "Building Engineer",
+            "phone_number": null,
+            "email": "rlwilliams@philasd.org"
+          },
+          {
+            "first_name": "Ethan",
+            "last_name": "Trellopoulos",
+            "title": "Computer Support Specialist",
+            "phone_number": null,
+            "email": "etrellopouolos@philasd.org"
+          },
+          {
+            "first_name": "Coach",
+            "last_name": "Bridget Poisel",
+            "title": "Playworks Partnership Specialist",
+            "phone_number": null,
+            "email": null
+          }
+        ]
       }
+    ],
+    "tags": [
+      "regression"
     ]
   }
 ]

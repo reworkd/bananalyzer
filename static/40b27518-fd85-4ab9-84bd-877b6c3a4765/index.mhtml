@@ -1908,21 +1908,6 @@ land Park</li>
     <div class=3D"ui-widget-footer">
        =20
 
-<div id=3D"ui-paging-container" role=3D"navigation"><ul class=3D"ui-paginat=
-ion-list"> <li class=3D"ui-page-number-current ui-page-number ui-page-nth">=
-<a class=3D"ui-page-number-current-span" role=3D"button" aria-disabled=3D"t=
-rue" aria-label=3D"Current Page 1">1</a></li> <li class=3D"ui-page-number u=
-i-small-page"><a aria-label=3D"Go to Page 2" role=3D"button">2</a> </li><li=
- class=3D"ui-page-number ui-small-page"><a aria-label=3D"Go to Page 3" role=
-=3D"button">3</a> </li></ul></div>
-
-        <div id=3D"no-record-template" class=3D"sw-no-record-template ui-he=
-lper-hidden">We weren't able to find anything that matched your search crit=
-eria. Please try a new search.</div>
-    </div>
-
-</div>
-
 
 
 </div>
