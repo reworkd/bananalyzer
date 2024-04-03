@@ -8778,7 +8778,8 @@
       }
     ],
     "tags": [
-      "regression", "single-output"
+      "regression",
+      "single-output"
     ]
   },
   {
@@ -20732,7 +20733,7 @@
           },
           {
             "first_name": "Jessica",
-            "last_name": "Olavage\n",
+            "last_name": "Olavage",
             "title": "7th/8th Grade ELA - Rm. 201",
             "phone_number": null,
             "email": "jolavage@philasd.org"
@@ -20857,8 +20858,8 @@
             "email": "etrellopouolos@philasd.org"
           },
           {
-            "first_name": "Coach",
-            "last_name": "Bridget Poisel",
+            "first_name": "Bridget",
+            "last_name": "Poisel",
             "title": "Playworks Partnership Specialist",
             "phone_number": null,
             "email": null
