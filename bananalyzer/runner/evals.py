@@ -39,12 +39,26 @@ def trim_strings(value: AllowedJSON) -> AllowedJSON:
         return value
 
 
+def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON | None:
+    """Recursively replace empty strings with None in the given JSON structure."""
+    if isinstance(value, dict):
+        return {k: replace_empty_strings_with_none(v) for k, v in value.items()}
+    elif isinstance(value, list):
+        return [replace_empty_strings_with_none(elem) for elem in value]
+    elif isinstance(value, str) and value == "":
+        return None
+    else:
+        return value
+
+
 def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
     if isinstance(expected, Dict) and isinstance(actual, Dict):
         expected = format_new_lines(expected)
         expected = trim_strings(expected)
+        expected = replace_empty_strings_with_none(expected)
         actual = format_new_lines(actual)
         actual = trim_strings(actual)
+        actual = replace_empty_strings_with_none(actual)
 
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
