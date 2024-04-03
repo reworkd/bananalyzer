@@ -814,7 +814,7 @@
         "type": "json_match",
         "expected": {
           "name": "GI Motility Clinic",
-          "address": "UofL Health – Jewish Hospital Outpatient Care Center\n225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
+          "address": "UofL Health \u2013 Jewish Hospital Outpatient Care Center\n225 Abraham Flexner Way, Suite 502\nLouisville, KY 40202",
           "phone": "502-588-7690",
           "fax": "502-540-1414"
         }
@@ -19706,6 +19706,111 @@
     ],
     "tags": [
       "contract"
+    ]
+  },
+  {
+    "id": "bef7bb7b-06cc-47e1-921f-f24eb5997354",
+    "url": "https://www.cpschools.com/o/hom/staff",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "e545680a-3b41-4848-95de-02ad6405197a",
+    "url": "https://mvhs.dcsdk12.org/about_mvhs/main_office/office_support_staff",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "4cf2c0b8-72a4-483a-9dec-0cd9381331e3",
+    "url": "https://fse.dcsdk12.org/about/administrative_office_staff",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "540aa275-b7c9-4260-a4c5-5045125139c1",
+    "url": "https://www.aguafria.org/domain/85",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "40b27518-fd85-4ab9-84bd-877b6c3a4765",
+    "url": "https://www.ccsoh.us/domain/1926",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "cf8e9749-351c-4bee-9ed8-3d6417c2d740",
+    "url": "https://panamcs.org/about/staff/",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
+    ]
+  },
+  {
+    "id": "2b89b931-0e66-42d3-bcd9-9f629a5e0f84",
+    "url": "https://adaire.philasd.org/faculty-and-staff/",
+    "source": "mhtml",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "fetch",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
+      }
     ]
   }
 ]
