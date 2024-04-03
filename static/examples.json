@@ -8778,7 +8778,7 @@
       }
     ],
     "tags": [
-      "regression"
+      "regression", "single-output"
     ]
   },
   {
@@ -19863,9 +19863,7 @@
         ]
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "e545680a-3b41-4848-95de-02ad6405197a",
@@ -20543,9 +20541,7 @@
         ]
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   },
   {
     "id": "2b89b931-0e66-42d3-bcd9-9f629a5e0f84",
@@ -20870,8 +20866,6 @@
         ]
       }
     ],
-    "tags": [
-      "regression"
-    ]
+    "tags": []
   }
 ]
