@@ -2615,7 +2615,8 @@
           "fax": null
         }
       }
-    ]
+    ],
+    "tags": ["regression"]
   },
   {
     "id": "9d2df10f-4f04-4968-8227-c8a12f74b63d",
@@ -2628,12 +2629,20 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": {
-          "name": "Eye Care Clinic (Optometry)",
-          "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
-          "phone": "(608) 643-6060",
-          "fax": null
-        }
+        "expected": [
+          {
+            "name": "Eye Care Clinic (Optometry)",
+            "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
+            "phone": "(608) 643-6060",
+            "fax": null
+          },
+          {
+            "name": "UW Health Specialty Clinic - Sauk Prairie",
+            "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
+            "phone": "(608) 643-6060",
+            "fax": null
+          }
+        ]
       }
     ],
     "tags": []
