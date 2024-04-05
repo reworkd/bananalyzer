@@ -1,6 +1,7 @@
 import json
 from typing import Any, Dict, List, Literal, Optional, Type, Union
 
+import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
@@ -29,7 +30,21 @@ class Eval(BaseModel):
     """
 
     type: Literal["json_match", "end_url_match"] = "json_match"
-    expected: AllowedJSON
+    expected: AllowedJSON | None = Field(default=None)
+    options: Optional[AllowedJSON] = Field(default=None)
+
+    @model_validator(mode='before')
+    def validate_expected_or_options(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+        expected = values.get("expected")
+        options = values.get("options")
+
+        if expected is not None and options is not None:
+            raise ValueError("Only one of expected or options can be provided")
+
+        if expected is None and options is None:
+            raise ValueError("One of expected or options must be provided")
+
+        return values
 
     def eval_action(self, action: str) -> bool:
         """
@@ -40,20 +55,37 @@ class Eval(BaseModel):
     def eval_results(
         self, page: Page, result: Dict[str, Any], field: Optional[str] = None
     ) -> None:
-        if (
-            self.type == "json_match"
-            and field is not None
-            and isinstance(self.expected, dict)
-        ):
-            return validate_field_match(self.expected, result, field)
-
-        if self.type == "json_match" and isinstance(self.expected, (list, dict)):
-            return validate_json_match(self.expected, result)
+        if self.type == "json_match":
+            return self.handle_json_match(result, field)
 
         if self.type == "end_url_match" and isinstance(self.expected, str):
             return validate_end_url_match(self.expected, page.url)
 
         raise NotImplementedError("No evaluation type implemented")
+
+    def handle_json_match(self, result: Dict[str, Any], field: Optional[str]) -> None:
+        options = self.options or [self.expected]
+        exceptions: list[ValueError] = []
+
+        # Try all options
+        for option in options:
+            try:
+                if (
+                    self.type == "json_match"
+                    and field is not None
+                    and isinstance(option, dict)
+                ):
+                    return validate_field_match(option, result, field)
+
+                if self.type == "json_match" and isinstance(option, (list, dict)):
+                    return validate_json_match(option, result)
+            except Exception as e:
+                exceptions.append(e)
+
+        if len(exceptions) == len(options):
+            if len(options) > 1:
+                pytest.fail(f"None of the available options matched. For example: {str(exceptions[0])}")
+            pytest.fail(str(exceptions[0]))
 
 
 FetchId = Literal[

@@ -24,7 +24,7 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
         )
 
     if not check_match(expected_value, actual_value):
-        pytest.fail(f"{expected_value} != {actual_value}")
+        raise ValueError(f"{expected_value} != {actual_value}")
 
 
 def trim_strings(value: AllowedJSON) -> AllowedJSON:
@@ -78,7 +78,7 @@ def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
         pretty_actual = json.dumps(actual, indent=4)
 
         diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
-        pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
+        raise ValueError(f"JSONEval mismatch!\n{diff_msg}")
 
 
 def validate_end_url_match(expected: str, actual: str) -> None:

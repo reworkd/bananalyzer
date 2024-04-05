@@ -99,7 +99,7 @@ def test_validate_field_match_pass(expected, actual, field):
     ],
 )
 def test_validate_field_match_fail(expected, actual, field):
-    with pytest.raises(pytest.fail.Exception):
+    with pytest.raises(ValueError):
         validate_field_match(expected, actual, field)
 
 

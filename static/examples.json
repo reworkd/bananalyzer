@@ -2629,7 +2629,7 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": [
+        "options": [
           {
             "name": "Eye Care Clinic (Optometry)",
             "address": "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
@@ -2822,21 +2822,6 @@
       {
         "type": "end_url_match",
         "expected": "https://www.hackensackmeridianhealth.org/en/location-search#first=10&sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]"
-      }
-    ]
-  },
-  {
-    "id": "2ac79ff2-a923-49df-9e66-5ce7f9d5d0e4",
-    "url": "https://www.uchicagomedicine.org/find-a-location?page=5&sortby=default",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.uchicagomedicine.org/find-a-location?page=6&sortby=default"
       }
     ]
   },
@@ -5107,7 +5092,7 @@
             {
               "title": "Applied Machine Learning Lab",
               "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
-              "url": "",
+              "url": null,
               "image_url": "https://rpandey.tech/static/consulting/amll.png"
             },
             {
@@ -11587,10 +11572,7 @@
               "degree_earned": "B.A."
             }
           ],
-          "news": [
-            "",
-            ""
-          ]
+          "news": []
         }
       }
     ]
@@ -16707,7 +16689,7 @@
       {
         "type": "json_match",
         "expected": {
-          "website": "",
+          "website": null,
           "tier": "Mid-Level Associate",
           "department": "Energy & Infrastructure Projects",
           "title": "Mid-Level Associate, Energy & Infrastructure Projects (M&A and Finance)",
@@ -16715,9 +16697,9 @@
           "locations": [
             "Houston"
           ],
-          "salary_range": "",
+          "salary_range": null,
           "experience": "3-6 years of law firm experience",
-          "full": ""
+          "full": null
         }
       }
     ]
@@ -16837,7 +16819,7 @@
       {
         "type": "json_match",
         "expected": {
-          "website": "",
+          "website": null,
           "tier": "Mid-Level Associate",
           "department": "Real Estate",
           "title": "Real Estate Associate / Special Counsel",
@@ -16912,7 +16894,7 @@
       {
         "type": "json_match",
         "expected": {
-          "website": "",
+          "website": null,
           "tier": "Associate",
           "department": "Finance",
           "title": "Lateral Opportunities Associate Finance",

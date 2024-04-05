@@ -67,6 +67,34 @@ def test_json_eval_1(mocker: MockFixture) -> None:
         )
 
 
+def test_only_one_of_expected_or_options_can_be_provided() -> None:
+    # Works fine
+    Eval(type="json_match", expected={"1": "1"}).dict()
+    Eval(type="json_match", options=[{"2": "2"}]).dict()
+
+    # Both provided
+    with pytest.raises(ValueError):
+        Eval(type="json_match", expected={"1": "1"}, options=[{"2": "2"}])
+
+    # Neither provided
+    with pytest.raises(ValueError):
+        Eval(type="json_match").dict()
+
+
+def test_json_eval_options(mocker: MockFixture) -> None:
+    page = mocker.Mock()
+    options = [{"1": "1"}, {"2": "2"}]
+    evaluation = Eval(type="json_match", options=options)
+
+    # Either option works
+    evaluation.eval_results(page, {"1": "1"})
+    evaluation.eval_results(page, {"2": "2"})
+
+    # Non matching option fails
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, {"3": "3"})
+
+
 def test_json_eval_ignores___attributes(mocker: MockFixture) -> None:
     page = mocker.Mock()
     expected = {"one": "one", "none": None}
