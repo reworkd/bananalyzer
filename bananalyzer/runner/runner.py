@@ -55,7 +55,7 @@ def event_loop():
 
 
 @pytest.fixture(scope="session")
-def agent():
+def agent_constructor():
     import importlib.util
     import sys
     from pathlib import Path
@@ -71,15 +71,19 @@ def agent():
     spec.loader.exec_module(module)
     print(f"Loaded agent module", module)
 
-    agent_ = getattr(module, '{runner.class_name}')()
-    yield agent_
+    agent_constructor = getattr(module, '{runner.class_name}')
+    yield agent_constructor
 
 
 @pytest_asyncio.fixture(scope="{'session' if single_browser_instance else 'class'}")
 async def page():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless={headless})
-        context = await browser.new_context(viewport={{ 'width': 1280, 'height': 1024 }})
+        context = await browser.new_context(
+            viewport={{ 'width': 1280, 'height': 1024 }},
+            ignore_https_errors=True,
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        )
         page = await context.new_page()
         await stealth_async(page)
         yield page

@@ -1,5 +1,7 @@
-from typing import Any, Dict, List, Literal, Optional, Union
+import json
+from typing import Any, Dict, List, Literal, Optional, Type, Union
 
+import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 
@@ -28,7 +30,21 @@ class Eval(BaseModel):
     """
 
     type: Literal["json_match", "end_url_match"] = "json_match"
-    expected: AllowedJSON
+    expected: AllowedJSON | None = Field(default=None)
+    options: Optional[AllowedJSON] = Field(default=None)
+
+    @model_validator(mode='before')
+    def validate_expected_or_options(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+        expected = values.get("expected")
+        options = values.get("options")
+
+        if expected is not None and options is not None:
+            raise ValueError("Only one of expected or options can be provided")
+
+        if expected is None and options is None:
+            raise ValueError("One of expected or options must be provided")
+
+        return values
 
     def eval_action(self, action: str) -> bool:
         """
@@ -39,26 +55,44 @@ class Eval(BaseModel):
     def eval_results(
         self, page: Page, result: Dict[str, Any], field: Optional[str] = None
     ) -> None:
-        if (
-            self.type == "json_match"
-            and field is not None
-            and isinstance(self.expected, dict)
-        ):
-            return validate_field_match(self.expected, result, field)
-
-        if self.type == "json_match" and isinstance(self.expected, (list, dict)):
-            return validate_json_match(self.expected, result)
+        if self.type == "json_match":
+            return self.handle_json_match(result, field)
 
         if self.type == "end_url_match" and isinstance(self.expected, str):
             return validate_end_url_match(self.expected, page.url)
 
         raise NotImplementedError("No evaluation type implemented")
 
+    def handle_json_match(self, result: Dict[str, Any], field: Optional[str]) -> None:
+        options = self.options or [self.expected]
+        exceptions: list[ValueError] = []
+
+        # Try all options
+        for option in options:
+            try:
+                if (
+                    self.type == "json_match"
+                    and field is not None
+                    and isinstance(option, dict)
+                ):
+                    return validate_field_match(option, result, field)
+
+                if self.type == "json_match" and isinstance(option, (list, dict)):
+                    return validate_json_match(option, result)
+            except Exception as e:
+                exceptions.append(e)
+
+        if len(exceptions) == len(options):
+            if len(options) > 1:
+                pytest.fail(f"None of the available options matched. For example: {str(exceptions[0])}")
+            pytest.fail(str(exceptions[0]))
+
 
 FetchId = Literal[
     "job_posting",
     "manufacturing_commerce",
     "contact",
+    "contract",
     "forum",
     "attorney",
     "attorney_job_listing",
@@ -89,6 +123,7 @@ class Example(BaseModel):
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
     )
+    tags: List[str] = Field(default=[])
 
     def get_static_url(self) -> str:
         from bananalyzer.runner.website_responder import get_website_responder
@@ -117,10 +152,63 @@ class Example(BaseModel):
 
         fetch_schema = get_fetch_schema(fetch_id)
         values["goal"] = (
-            fetch_schema.model_fields
-            if not isinstance(fetch_schema, dict)
+            json.dumps(model_to_dict(fetch_schema), indent=4)
+            if not isinstance(fetch_schema, Dict)
             and issubclass(fetch_schema, BaseModel)
             else fetch_schema
         )
 
+        # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
+        from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
+
+        if fetch_id == "contact":
+            values["goal"] = (
+                f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n"
+                + str(values["goal"])
+            )
+        from bananalyzer.data.fetch_schemas import GOVERNMENT_CONTRACT_GOAL
+
+        if fetch_id == "contract":
+            values["goal"] = (
+                f"{GOVERNMENT_CONTRACT_GOAL} Return data in the following schema:\n"
+                + str(values["goal"])
+            )
+
         return values
+
+
+def model_to_dict(model: Type[BaseModel]) -> Dict[str, Any]:
+    result = {}
+    for name, field in model.model_fields.items():
+        if not field.annotation:
+            continue
+        if (
+            field.annotation.__name__.lower() == "list"
+            and len(field.annotation.__args__) == 1
+        ):
+            inner_type = field.annotation.__args__[0]
+            if issubclass(inner_type, BaseModel):
+                result[name] = {
+                    "type": f"List[{inner_type.__name__}]",
+                    "items": {
+                        "type": "object",
+                        "properties": model_to_dict(inner_type),
+                    },
+                }
+            else:
+                result[name] = {
+                    "type": f"List[{inner_type.__name__}]",
+                }
+        elif issubclass(field.annotation, BaseModel):
+            result[name] = {
+                "type": "object",
+                "properties": model_to_dict(field.annotation),
+            }
+        else:
+            result[name] = {
+                "type": field.annotation.__name__ if field.annotation else "Any",
+            }
+
+        if field.description:
+            result[name]["description"] = field.description
+    return result

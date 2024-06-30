@@ -23,7 +23,8 @@ class {self._generate_class_name(example)}:
 
 
     @pytest_asyncio.fixture(scope="class")
-    async def result(self, page, agent):
+    async def result(self, page, agent_constructor):
+        agent = agent_constructor()
         yield await agent.run(page, self.example)
 
     {"".join(self._generate_eval_test(eval_, i, {

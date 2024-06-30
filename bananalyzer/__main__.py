@@ -66,10 +66,18 @@ def parse_args() -> Args:
     parser.add_argument(
         "-id",
         "--id",
-        type=str,
+        type=lambda s: s.replace("_", "-").split(","),
         default=None,
         help="Filter tests by id. "
-        "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec",
+        "Ids could be of shape a4c8292a_079c_4e49_bca1_cf7c9da205ec or a4c8292a-079c-4e49-bca1-cf7c9da205ec, "
+        "and can be passed as a comma-separated list.",
+    )
+    parser.add_argument(
+        "-tags",
+        "--tags",
+        type=lambda s: s.split(","),
+        default=None,
+        help="Filter tests by tag. Can be passed as a comma-separated list.",
     )
     parser.add_argument(
         "-d",
@@ -194,15 +202,14 @@ def parse_args() -> Args:
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
-            n=args.n,
             q=args.quiet,
             xml=args.junitxml,
-            dist=args.dist,
         ),
         xdist_args=XDistArgs(
             n=args.n,
             dist=args.dist,
         ),
+        tags=args.tags,
     )
 
 
@@ -288,11 +295,9 @@ def main() -> int:
 
     filters = []
     if args.id:
-        filters.append(
-            lambda e: e.id == args.id
-            or (isinstance(args.id, str) and e.id == args.id.replace("_", "-"))
-        )
-
+        filters.append(lambda e: e.id in args.id if args.id else True)
+    if args.tags:
+        filters.append(lambda e: any(tag in e.tags for tag in args.tags or []))
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
     if args.domain:

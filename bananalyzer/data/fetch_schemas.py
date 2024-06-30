@@ -1,4 +1,4 @@
-from typing import Dict, List, Type, Union, Any
+from typing import Dict, Type, Union, Any
 
 from pydantic import BaseModel, Field
 
@@ -8,19 +8,65 @@ from bananalyzer.data.schemas import FetchId
 This file contains mapping of fetch_id to fetch schema to avoid duplicate schemas in examples.json
 """
 
+CONTACT_SCHEMA_GOAL = "Fetch the main hospital location contact information on the current page. There may be multiple location information or sub location information on the page. Only fetch the main location information which should be at the top of the page."
+
 
 class ContactSchema(BaseModel):
     name: str = Field(
-        description="Name of the location, facility, or the service provided by the clinic. Typically available at the top of the page or in the contac section. Do NOT use the address as the name which may be street/ state like 'Henry Adams, SF'. Double check that this is not the case"
+        description="Name of the location, facility, or the service provided by the clinic. Typically available at the top of the page or in the contact section. Do NOT use the address as the name which may be street/ state like 'Henry Adams, SF'. Double check that this is not the case"
     )
     address: str = Field(
-        description="The complete address of the location. Use the inner text of elements. You MUST include the building name if available and above the other address elements. This value should be building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. Do NOT forget the building name. Do not include extra words at the begining or end of the concatenation like 'Address' or 'Phone', etc",
+        description="The COMPLETE address of the location using inner text of address elements. This value MUST be the combination of the building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. The building name may be placed above the other address elements. You MUST include the building name if it is available and presented this way. Do not forget ANY of the address elements. Filter out extra words at the begining like 'Address:' or extra words at the end like 'Phone', 'Fax', 'Directions', etc. Do not use value from additional locations.",
     )
     phone: str = Field(
-        description="The primary phone number of the location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or traling words like 'Phone'",
+        description="The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or traling words like 'Phone'. Do not phone value from related locations. Ensure the used phone value is positioned close to other contact fields.",
     )
     fax: str = Field(
-        description="The primary fax number of the location. Only include the number but retain its formatting by stripping all leading or traling words like 'Fax'. When picking an element, ensure the element you use is LABELED as a FAX number on the page via text or an icon. If this is not the case, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number.",
+        description="The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or traling words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number. Do not use value from related locations.",
+    )
+
+
+GOVERNMENT_CONTRACT_GOAL = "Fetch the main government contract/notice/solicitation information on the current website."
+
+
+class File(BaseModel):
+    title: str
+    url: str
+
+
+class GovernmentContractSchema(BaseModel):
+    id: str = Field(description="Unique identifier for the contract")
+    title: str = Field(description="Title or name of the contract")
+    description: str = Field(
+        description="Description or synopsis field. Combine the solicitation summary and additional instructions section / process.",
+    )
+    location: str = Field(
+        description="Location of the issuer. May be a combination of city and state",
+    )
+    type: str = Field(
+        description="Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field",
+    )
+    category: str = Field(description="Category the contract falls under if given")
+
+    posted_date: str = Field(
+        description="Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date.",
+    )
+    due_date: str = Field(
+        description="Date the contract closes for bidding. NOT the end term date.",
+    )
+
+    buyer_name: str = Field(
+        description="Name of the company, organization, or agency that issued the contract. NOT a person's name."
+    )
+    buyer_contact_name: str = Field(
+        description="Name of the specific individual that is leading the contract, if available"
+    )
+    buyer_contact_number: str = Field(description="Contact number of the issuer")
+    buyer_contact_email: str = Field(description="Contact email of the issuer")
+
+    attachments: list[File] = Field(
+        default_factory=list,
+        description="A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)",
     )
 
 
@@ -36,10 +82,6 @@ JobPostingSchema = {
     "company_description": {
         "type": "string",
         "description": "A brief description of the company within the job post.",
-    },
-    "level": {
-        "type": "string",
-        "description": "The tier of the job within the company's structure.",
     },
     "department": {
         "type": "string",
@@ -73,17 +115,13 @@ JobPostingSchema = {
         "type": "string",
         "description": "The URL where applicants can apply for the job.",
     },
-    "work_hours": {
-        "type": "string",
-        "description": "The expected work hours for the job.",
-    },
     "job_benefits": {
         "type": "string",
         "description": "A list of benefits provided with the job.",
     },
     "qualifications": {
         "type": "string",
-        "description": "A list of required qualifications for the job.",
+        "description": "A list of required qualifications or certifications for the job.",
     },
     "preferred_qualifications": {
         "type": "string",
@@ -97,10 +135,6 @@ JobPostingSchema = {
         "type": "string",
         "description": "A list of knowledge, skills or abilities required for the job.",
     },
-    "education": {
-        "type": "string",
-        "description": "Listed requirements for education or past experience",
-    },
     "recruiter_email": {
         "type": "string",
         "description": "Email address of the recruiter or hiring manager for contact.",
@@ -112,10 +146,6 @@ JobPostingSchema = {
     "employment_type": {
         "type": "string",
         "description": "The type of employment (e.g., full-time, part-time, contract).",
-    },
-    "tags": {
-        "type": "array",
-        "description": "Keywords or phrases related to the job for categorization and searchability.",
     },
 }
 
@@ -221,38 +251,38 @@ class AttorneySchema(BaseModel):
     title: str = Field(
         description="Title of the attorney, such as Associate, Counsel, or Partner"
     )
-    practice_areas_main: List[str] = Field(
+    practice_areas_main: list[str] = Field(
         description="Primary practice areas of the attorney"
     )
-    practice_areas_all: List[str] = Field(description="Complete list of practice areas")
-    specialties: List[str] = Field(description="Specialized industry sectors")
+    practice_areas_all: list[str] = Field(description="Complete list of practice areas")
+    specialties: list[str] = Field(description="Specialized industry sectors")
     email: str = Field(description="Email address of the attorney")
     location: str = Field(description="Office location of the attorney")
     phone: str = Field(
         description="Direct phone number of the attorney",
     )
     bio: str = Field(description="Main bio description of the attorney")
-    experience: List[AttorneyExperience] = Field(
+    experience: list[AttorneyExperience] = Field(
         description="Past work history at other law firms"
     )
     matters: str = Field(description="List of past cases and work done by the attorney")
-    bar_admissions: List[AttorneyBarAdmission] = Field(
+    bar_admissions: list[AttorneyBarAdmission] = Field(
         description="Bar admissions of the attorney"
     )
-    law_school: List[AttorneyEducation] = Field(
+    law_school: list[AttorneyEducation] = Field(
         description="Law school information of the attorney"
     )
-    other_schools: List[AttorneyEducation] = Field(
+    other_schools: list[AttorneyEducation] = Field(
         description="Other education details of the attorney"
     )
-    awards: List[AttorneyAward] = Field(
+    awards: list[AttorneyAward] = Field(
         description="Awards and recognitions received by the attorney"
     )
     pdf_url: str = Field(
         description="Link to a PDF bio of the attorney",
     )
     photo_url: str = Field(description="Link to the photo of the attorney")
-    news: List[str] = Field(
+    news: list[str] = Field(
         description="Links to news articles involving the attorney", default=[]
     )
 
@@ -271,7 +301,7 @@ class AttorneyJobPostingSchema(BaseModel):
         description="Job title. Remove location but keep everything else."
     )
     description: str = Field(description="Job description.")
-    locations: List[str] = Field(
+    locations: list[str] = Field(
         description="Offices/cities/locations where this job is being offered."
     )
     salary_range: str = Field(
@@ -289,6 +319,7 @@ def get_fetch_schema(fetch_id: FetchId) -> Union[Dict[str, Any], Type[BaseModel]
     fetch_schemas: Dict[str, Union[Dict[str, Any], Type[BaseModel]]] = {
         "contact": ContactSchema,
         "job_posting": JobPostingSchema,
+        "contract": GovernmentContractSchema,
         "manufacturing_commerce": ManufacturingCommerceSchema,
         "forum": ForumSchema,
         "attorney": AttorneySchema,

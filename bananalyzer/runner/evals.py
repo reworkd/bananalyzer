@@ -18,14 +18,47 @@ def validate_field_match(expected: Result, actual: Result, field: str) -> None:
     if actual_value == "":
         actual_value = None
 
+    if expected_value is None and actual_value is None:
+        pytest.skip(
+            f"Field {field} is None in both expected and actual. Skipping this test."
+        )
+
     if not check_match(expected_value, actual_value):
-        pytest.fail(f"{expected_value} != {actual_value}")
+        raise ValueError(f"{expected_value} != {actual_value}")
+
+
+def trim_strings(value: AllowedJSON) -> AllowedJSON:
+    """Recursively trim strings in the given JSON structure."""
+    if isinstance(value, dict):
+        return {k: trim_strings(v) for k, v in value.items()}
+    elif isinstance(value, list):
+        return [trim_strings(elem) for elem in value]
+    elif isinstance(value, str):
+        return value.strip()
+    else:
+        return value
+
+
+def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON | None:
+    """Recursively replace empty strings with None in the given JSON structure."""
+    if isinstance(value, dict):
+        return {k: replace_empty_strings_with_none(v) for k, v in value.items()}
+    elif isinstance(value, list):
+        return [replace_empty_strings_with_none(elem) for elem in value]
+    elif isinstance(value, str) and value == "":
+        return None
+    else:
+        return value
 
 
 def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
     if isinstance(expected, Dict) and isinstance(actual, Dict):
         expected = format_new_lines(expected)
+        expected = trim_strings(expected)
+        expected = replace_empty_strings_with_none(expected)
         actual = format_new_lines(actual)
+        actual = trim_strings(actual)
+        actual = replace_empty_strings_with_none(actual)
 
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
@@ -45,7 +78,7 @@ def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
         pretty_actual = json.dumps(actual, indent=4)
 
         diff_msg = f"Actual: {pretty_actual}\nExpected: {pretty_expected}"
-        pytest.fail(f"JSONEval mismatch!\n{diff_msg}")
+        raise ValueError(f"JSONEval mismatch!\n{diff_msg}")
 
 
 def validate_end_url_match(expected: str, actual: str) -> None:

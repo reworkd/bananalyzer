@@ -83,7 +83,6 @@ def test_is_string_similar(actual, expected, tolerance, expected_result):
         ({"field": "test"}, {"field": "test!!"}, "field"),
         ({"field": 123}, {"field": 123}, "field"),
         ({"field": [1, 2, 3]}, {"field": [1, 2, 3]}, "field"),
-        ({"field": None}, {"field": ""}, "field"),  # None == ""
     ],
 )
 def test_validate_field_match_pass(expected, actual, field):
@@ -96,8 +95,23 @@ def test_validate_field_match_pass(expected, actual, field):
         ({"field": "example"}, {"field": "example 123"}, "field"),
         ({"field": "short's string"}, {"field": "~~~~~~shorts string!!!"}, "field"),
         ({"field": [1, 2, 3]}, {"field": [1, 2]}, "field"),
+        ({"field": None}, {"field": "not none"}, "field"),
     ],
 )
 def test_validate_field_match_fail(expected, actual, field):
-    with pytest.raises(pytest.fail.Exception):
+    with pytest.raises(ValueError):
         validate_field_match(expected, actual, field)
+
+
+@pytest.mark.parametrize(
+    "expected, actual, field",
+    [
+        ({"field": None}, {"field": None}, "field"),
+        ({"field": None}, {"field": ""}, "field"),
+    ],
+)
+def test_validate_field_match_skip(expected, actual, field):
+    with pytest.raises(pytest.skip.Exception) as exc_info:
+        validate_field_match(expected, actual, field)
+
+    assert "Skipping this test" in str(exc_info.value)

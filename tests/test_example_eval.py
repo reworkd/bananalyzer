@@ -5,7 +5,6 @@ from _pytest.outcomes import Failed
 from pydantic import ValidationError
 from pytest_mock import MockFixture
 
-from bananalyzer.data.fetch_schemas import get_fetch_schema
 from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
 
@@ -22,29 +21,78 @@ def test_format_new_lines() -> None:
     )
 
 
-def test_json_eval(mocker: MockFixture) -> None:
+def test_json_eval_field(mocker: MockFixture) -> None:
     page = mocker.Mock()
-    json = {"one": "one", "two": "two\ntwo"}
+    json = {
+        "first_name": "Brett",
+        "last_name": "Olavage",
+        "title": "Specialist",
+        "email": None,
+    }
+    evaluation = Eval(type="json_match", expected=json)
+
+    evaluation.eval_results(page, {"last_name": "Olavage"}, field="last_name")  # Exact match
+    evaluation.eval_results(page, {"last_name": "Olavage\n"}, field="last_name")    # With new line
+    evaluation.eval_results(page, {"email": ""}, field="email")    # With new line
+
+
+def test_json_eval_1(mocker: MockFixture) -> None:
+    page = mocker.Mock()
+    json = {"one": "one", "two": "two\ntwo", "three": None}
     evaluation = Eval(type="json_match", expected=json)
 
     # Exact match
-    evaluation.eval_results(page, {"one": "one", "two": "two\ntwo"})
+    evaluation.eval_results(page, {"one": "one", "two": "two\ntwo", "three": None})
 
     # Order doesn't matter
-    evaluation.eval_results(page, {"two": "two\ntwo", "one": "one"})
+    evaluation.eval_results(page, {"two": "two\ntwo", "one": "one", "three": None})
 
     # New lines converted into spaces
-    evaluation.eval_results(page, {"two": "two two", "one": "one"})
+    evaluation.eval_results(page, {"two": "two two", "one": "one", "three": None})
+
+    # Added new lines don't matter
+    evaluation.eval_results(page, {"two": "two two", "one": "one\n", "three": None})
+
+    # Empty space is same as None
+    evaluation.eval_results(page, {"two": "two two", "one": "one\n", "three": ""})
 
     # Different values fail
     with pytest.raises(Failed):
-        evaluation.eval_results(page, {"one": "one", "two": "different"})
+        evaluation.eval_results(page, {"one": "one", "two": "different", "three": None})
 
     # Additional key-value pairs fail
     with pytest.raises(Failed):
         evaluation.eval_results(
-            page, {"one": "one", "two": "two\ntwo", "three": "three"}
+            page, {"one": "one", "two": "two\ntwo", "three": None, "four": "four"}
         )
+
+
+def test_only_one_of_expected_or_options_can_be_provided() -> None:
+    # Works fine
+    Eval(type="json_match", expected={"1": "1"}).dict()
+    Eval(type="json_match", options=[{"2": "2"}]).dict()
+
+    # Both provided
+    with pytest.raises(ValueError):
+        Eval(type="json_match", expected={"1": "1"}, options=[{"2": "2"}])
+
+    # Neither provided
+    with pytest.raises(ValueError):
+        Eval(type="json_match").dict()
+
+
+def test_json_eval_options(mocker: MockFixture) -> None:
+    page = mocker.Mock()
+    options = [{"1": "1"}, {"2": "2"}]
+    evaluation = Eval(type="json_match", options=options)
+
+    # Either option works
+    evaluation.eval_results(page, {"1": "1"})
+    evaluation.eval_results(page, {"2": "2"})
+
+    # Non matching option fails
+    with pytest.raises(Failed):
+        evaluation.eval_results(page, {"3": "3"})
 
 
 def test_json_eval_ignores___attributes(mocker: MockFixture) -> None:
@@ -158,10 +206,3 @@ def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
     )
     with pytest.raises(ValidationError):
         Example(**example_data)
-
-
-def test_fetch_with_fetch_id_and_no_goal_sets_default_goal() -> None:
-    example_data = create_default_example({"fetch_id": "contact", "goal": None})
-    example = Example(**example_data)
-    print(get_fetch_schema("contact").model_fields)
-    assert example.goal == get_fetch_schema("contact").model_fields
