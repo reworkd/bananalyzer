@@ -11,30 +11,30 @@ bananalyze = "bananalyzer.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-playwright = "^1.39.0"
-pydantic = "^2.4.2"
-pytest-asyncio = "^0.21.1"
-deepdiff = "^6.7.0"
-pytest = "^7.4.2"
+playwright = "^1.44.0"
+pydantic = "^2.7.4"
+pytest-asyncio = "^0.21.2"
+deepdiff = "^6.7.1"
+pytest = "^7.4.4"
 pytest-html = "^4.1.1"
-pytest-xdist = "^3.4.0"
+pytest-xdist = "^3.6.1"
 tabulate = "^0.9.0"
-requests = "^2.31.0"
-tarsier = "^0.5.0"
-openai = "^1.3.7"
-boto3 = "^1.34.19"
-psutil = "^5.9.7"
+requests = "^2.32.3"
+tarsier = "^0.5.941"
+openai = "^1.35.7"
+boto3 = "^1.34.136"
+psutil = "^5.9.8"
 playwright-stealth = "^1.0.6"
 
 [tool.poetry.group.test.dependencies]
-pytest-mock = "^3.11.1"
+pytest-mock = "^3.14.0"
 pytest-cov = "^4.1.0"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.6.1"
-types-requests = "^2.31.0.10"
-types-tabulate = "^0.9.0.3"
-ruff = "^0.1.13"
+mypy = "^1.10.1"
+types-requests = "^2.32.0.20240622"
+types-tabulate = "^0.9.0.20240106"
+ruff = "^0.1.15"
 
 [tool.mypy]
 plugins = [
