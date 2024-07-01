@@ -33,7 +33,7 @@ class Eval(BaseModel):
     expected: AllowedJSON | None = Field(default=None)
     options: Optional[AllowedJSON] = Field(default=None)
 
-    @model_validator(mode='before')
+    @model_validator(mode="before")
     def validate_expected_or_options(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         expected = values.get("expected")
         options = values.get("options")
@@ -84,7 +84,9 @@ class Eval(BaseModel):
 
         if len(exceptions) == len(options):
             if len(options) > 1:
-                pytest.fail(f"None of the available options matched. For example: {str(exceptions[0])}")
+                pytest.fail(
+                    f"None of the available options matched. For example: {str(exceptions[0])}"
+                )
             pytest.fail(str(exceptions[0]))
 
 

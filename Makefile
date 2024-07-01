@@ -1,0 +1,87 @@
+#!/usr/bin/make -f
+
+# Makefile for bananalyzer
+
+CONFIG_FILE = config.ini
+ifeq ($(OS),Windows_NT)
+    CWD ?= "$(shell echo %CD%)"
+    DOCKER ?= docker
+else
+    CWD ?= "$(shell pwd)"
+    DOCKER ?= $(if $(shell docker -v 2>/dev/null),docker,podman)
+endif
+DOCKER_IMAGE_TAG ?= reworkd/bananalyzer
+PORT ?= 8000
+
+.DEFAULT_GOAL := help
+
+help: ## Show this helpful message
+	@for ML in $(MAKEFILE_LIST); do \
+		grep -E '^[a-zA-Z_-]+:.*?## .*$$' $$ML | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'; \
+	done
+.PHONY: help
+
+build_dev: ## Build development container
+	@$(DOCKER) build -t $(DOCKER_IMAGE_TAG) .
+PHONY: .build_dev
+
+DEPS_INSTALL: ## Install required dependencies
+	@poetry lock
+	@poetry install --no-root
+.PHONY: DEPS_INSTALL
+
+dev: build_dev ## Run web server in a container
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/root/.bananalyzer_data" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		-p $(PORT):$(PORT) \
+		$(DOCKER_IMAGE_TAG)
+.PHONY: dev
+
+DEV: ## Run web server
+	@cd ./server/ && poetry lock
+	@cd ./server/ && poetry install --no-root
+	@cd ./server/ && uvicorn server:app --host 0.0.0.0
+.PHONY: DEV
+
+format: ## Fix code formatting using Docker
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		$(DOCKER_IMAGE_TAG) \
+		make FORMAT
+.PHONY: format
+
+FORMAT: ## Fix code format
+	@poetry run ruff format
+.PHONY: FORMAT
+
+test: ## Run tests in a container
+	@echo TODO
+.PHONY: test
+
+TEST: ## Run tests
+	@bananalyze ./tests/bananalyzer.py
+.PHONY: TEST
+
+shell: ## Enter Docker container's shell
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		$(DOCKER_IMAGE_TAG) \
+		bash || true
+.PHONY: shell
+
+update_lock_file: ## Update lock file(s)
+	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) base64 -w0 ./poetry.lock | base64 -d - > poetry.lock
+	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) base64 -w0 ./server/poetry.lock | base64 -d - > server/poetry.lock
+.PHONY: update_lock_file
