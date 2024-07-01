@@ -28,6 +28,7 @@ PHONY: .build_dev
 DEPS_INSTALL: ## Install required dependencies
 	@poetry lock
 	@poetry install --no-root
+	@poetry run playwright install chromium
 .PHONY: DEPS_INSTALL
 
 dev: build_dev ## Run web server in a container
@@ -63,12 +64,21 @@ FORMAT: ## Fix code format
 	@poetry run ruff format
 .PHONY: FORMAT
 
-test: ## Run tests in a container
-	@echo TODO
+test: build_dev ## Run tests in a container
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/root/.bananalyzer_data" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		$(DOCKER_IMAGE_TAG) \
+		make TEST
 .PHONY: test
 
 TEST: ## Run tests
-	@bananalyze ./tests/bananalyzer.py
+	@poetry install --only main
+	@poetry run pytest -vv .
 .PHONY: TEST
 
 shell: ## Enter Docker container's shell
