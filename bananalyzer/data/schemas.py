@@ -1,5 +1,5 @@
 import json
-from typing import Any, Dict, List, Literal, Optional, Type, Union
+from typing import Any, Dict, Iterable, List, Literal, Optional, Type, Union
 
 import pytest
 from playwright.async_api import Page
@@ -79,16 +79,22 @@ class Eval(BaseModel):
 
                 if self.type == "json_match" and isinstance(option, (list, dict)):
                     return validate_json_match(option, result)
-            except Exception as e:
+            except ValueError as e:
                 exceptions.append(e)
 
-        if len(exceptions) == len(options):
-            if len(options) > 1:
+        if Eval.length(exceptions) == Eval.length(options):
+            if Eval.length(options) > 1:
                 pytest.fail(
                     f"None of the available options matched. For example: {str(exceptions[0])}"
                 )
             pytest.fail(str(exceptions[0]))
 
+    @staticmethod
+    def length(list_or_iterable: List[Any] | Iterable[Any]) -> int:
+        try:
+            return list_or_iterable.__len__() # type: ignore[union-attr]
+        except AttributeError:
+            return sum(1 for item in iter(list_or_iterable))
 
 FetchId = Literal[
     "job_posting",

@@ -5,7 +5,7 @@ from playwright.async_api import Page
 
 from bananalyzer.data.schemas import Example
 
-AgentResult = Union[Dict[str, Any], List[Dict[str, Any]], List[str], str]
+AgentResult = Dict[str, Any] | List[Dict[str, Any]] | List[str] | str | None
 
 
 class AgentRunner(ABC):
