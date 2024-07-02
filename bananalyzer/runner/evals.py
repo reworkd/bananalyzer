@@ -32,7 +32,7 @@ def trim_strings(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: trim_strings(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [trim_strings(elem) for elem in value] # type: ignore[return-value]
+        return [trim_strings(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str):
         return value.strip()
     else:
@@ -44,7 +44,7 @@ def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: replace_empty_strings_with_none(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [replace_empty_strings_with_none(elem) for elem in value] # type: ignore[return-value]
+        return [replace_empty_strings_with_none(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str) and value == "":
         return None
     else:

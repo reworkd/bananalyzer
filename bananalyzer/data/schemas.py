@@ -92,9 +92,10 @@ class Eval(BaseModel):
     @staticmethod
     def length(list_or_iterable: List[Any] | Iterable[Any]) -> int:
         try:
-            return list_or_iterable.__len__() # type: ignore[union-attr]
+            return list_or_iterable.__len__()  # type: ignore[union-attr]
         except AttributeError:
             return sum(1 for item in iter(list_or_iterable))
+
 
 FetchId = Literal[
     "job_posting",

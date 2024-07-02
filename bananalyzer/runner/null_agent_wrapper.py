@@ -6,6 +6,7 @@ from playwright.async_api import Page
 from bananalyzer.data.schemas import Example
 from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
 
+
 class NullAgentRunner(AgentRunner):
     """
     A test agent class that just returns an empty string
@@ -32,6 +33,6 @@ class NullAgentRunner(AgentRunner):
             return example.evals[0].expected
 
         if example.evals[0].expected is not None:
-            return example.evals[0].expected # type: ignore[return-value]
+            return example.evals[0].expected  # type: ignore[return-value]
         else:
-            return example.evals[0].options # type: ignore[return-value]
+            return example.evals[0].options  # type: ignore[return-value]
