@@ -49,7 +49,7 @@ DEV: ## Run web server
 	@cd ./server/ && uvicorn server:app --host 0.0.0.0
 .PHONY: DEV
 
-format: ## Fix code formatting using Docker
+format: build_dev ## Fix code formatting using Docker
 	@$(DOCKER) run \
 		-it \
 		--rm \
@@ -60,17 +60,36 @@ format: ## Fix code formatting using Docker
 		make FORMAT
 .PHONY: format
 
-FORMAT: ## Fix code format
+FORMAT: ## Fix code formatting
+	@echo "Formatting code 🧹"
 	@poetry run ruff format
 .PHONY: FORMAT
 
-test: build_dev ## Run tests in a container
+format_check: build_dev ## Check code formatting using Docker
 	@$(DOCKER) run \
 		-it \
 		--rm \
 		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
 		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
-		-v "$(CWD)/static:/root/.bananalyzer_data" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		$(DOCKER_IMAGE_TAG) \
+		make FORMAT_CHECK
+.PHONY: format_check
+
+FORMAT_CHECK: ## Check code formatting
+	@echo "Checking code 🧹"
+	@poetry run ruff check
+	@poetry run ruff format --check
+.PHONY: FORMAT_CHECK
+
+test: build_dev ## Run tests in a container
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/.git:/src/$(DOCKER_IMAGE_TAG)/.git" \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/src/$(DOCKER_IMAGE_TAG)/static" \
 		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
 		$(DOCKER_IMAGE_TAG) \
 		make TEST
@@ -78,6 +97,7 @@ test: build_dev ## Run tests in a container
 
 TEST: ## Run tests
 	@poetry install --only main
+	@poetry run mypy .
 	@poetry run pytest -vv .
 .PHONY: TEST
 
