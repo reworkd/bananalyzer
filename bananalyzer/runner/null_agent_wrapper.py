@@ -1,5 +1,4 @@
 import asyncio
-from typing import Dict
 
 from playwright.async_api import Page
 
