@@ -49,7 +49,7 @@ DEV: ## Run web server
 	@cd ./server/ && uvicorn server:app --host 0.0.0.0
 .PHONY: DEV
 
-format: build_dev ## Fix code formatting using Docker
+format_fix: build_dev ## Fix code formatting using Docker
 	@$(DOCKER) run \
 		-it \
 		--rm \
@@ -57,13 +57,14 @@ format: build_dev ## Fix code formatting using Docker
 		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
 		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
 		$(DOCKER_IMAGE_TAG) \
-		make FORMAT
-.PHONY: format
+		make FORMAT_FIX
+.PHONY: format_fix
 
-FORMAT: ## Fix code formatting
+FORMAT_FIX: ## Fix code formatting
 	@echo "Formatting code 🧹"
+	@poetry run ruff check --fix
 	@poetry run ruff format
-.PHONY: FORMAT
+.PHONY: FORMAT_FIX
 
 format_check: build_dev ## Check code formatting using Docker
 	@$(DOCKER) run \
