@@ -62,13 +62,14 @@ plan is to translate existing datasets like Mind2Web and WebArena into this form
 ### Test intents
 
 We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType`
-enum in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
+enum in [schemas.py](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
 
 - **fetch**: The agent must retrieve specific JSON information from the page. This is the most common test type.
 - **links**: The agent must scrape all detail page links from a page
 - **links_fetch**: The agent must scrape all detail page links from a page and additionally extract JSON information
   for each link
 - **pagination**: Must fetch data across pages. Either links or fetch for now.
+
 
 # Getting Started
 
@@ -124,7 +125,7 @@ The project has a basic FastAPI server to expose example data. You can run it wi
 
 ```
 cd server
-poetry run uvicorn server:app --reload   
+poetry run uvicorn server:app --reload
 ```
 
 Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
@@ -133,6 +134,7 @@ Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API d
 
 All current examples have been manually added through running the `fetch.ipynb` notebook at the root of this project.
 This notebook will load a site with Playwright and use the chrome developer API to save the page as an MHTML file.
+
 
 # Roadmap
 
@@ -165,6 +167,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [ ] Tests requiring pop-up closing
 - [ ] Tests requiring sign-in
 - [ ] Tests requiring captcha solving
+
 
 # Citations
 

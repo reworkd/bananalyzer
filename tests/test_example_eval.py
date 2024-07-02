@@ -31,9 +31,13 @@ def test_json_eval_field(mocker: MockFixture) -> None:
     }
     evaluation = Eval(type="json_match", expected=json)
 
-    evaluation.eval_results(page, {"last_name": "Olavage"}, field="last_name")  # Exact match
-    evaluation.eval_results(page, {"last_name": "Olavage\n"}, field="last_name")    # With new line
-    evaluation.eval_results(page, {"email": ""}, field="email")    # With new line
+    evaluation.eval_results(
+        page, {"last_name": "Olavage"}, field="last_name"
+    )  # Exact match
+    evaluation.eval_results(
+        page, {"last_name": "Olavage\n"}, field="last_name"
+    )  # With new line
+    evaluation.eval_results(page, {"email": ""}, field="email")  # With new line
 
 
 def test_json_eval_1(mocker: MockFixture) -> None:

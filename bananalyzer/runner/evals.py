@@ -1,11 +1,11 @@
 import json
 from difflib import SequenceMatcher
-from typing import Any, Dict, List, Union
+from typing import Any, Dict, List
 
 import pytest
 from deepdiff import DeepDiff
 
-AllowedJSON = Union[Dict[str, Any], List[str], List[Dict[str, Any]], str]
+AllowedJSON = Dict[str, Any] | List[str] | List[Dict[str, Any]] | str | None
 
 Result = Dict[str, Any]
 
@@ -32,19 +32,19 @@ def trim_strings(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: trim_strings(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [trim_strings(elem) for elem in value]
+        return [trim_strings(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str):
         return value.strip()
     else:
         return value
 
 
-def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON | None:
+def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
     """Recursively replace empty strings with None in the given JSON structure."""
     if isinstance(value, dict):
         return {k: replace_empty_strings_with_none(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [replace_empty_strings_with_none(elem) for elem in value]
+        return [replace_empty_strings_with_none(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str) and value == "":
         return None
     else:
@@ -62,9 +62,10 @@ def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
 
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
-        for key, value in expected.items():
-            if value is None and key not in actual:
-                actual[key] = None
+        if isinstance(expected, dict) and isinstance(actual, dict):
+            for key, value in expected.items():
+                if value is None and key not in actual:
+                    actual[key] = None
 
     diff = DeepDiff(
         expected,

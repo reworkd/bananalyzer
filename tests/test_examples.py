@@ -79,7 +79,7 @@ def test_get_example_by_url_not_found() -> None:
 def test_get_example_with_known_id() -> None:
     assert (
         get_example_by_url("https://www.uwmedicine.org/locations/northwest-hospital").id
-        == "c8ebee22-eeac-4479-9ca6-aebb1efc3a2f"
+        == "MRD347sMiS2vlw091LAqK"
     )
 
 

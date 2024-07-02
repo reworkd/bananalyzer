@@ -31,7 +31,7 @@ def get_examples_path() -> Path:
         return downloaded_examples_path
     else:
         raise FileNotFoundError(
-            "No examples download. Re-run with `--download` to download example data via git."
+            f"No examples found in both {local_examples_path} and {downloaded_examples_path}. Re-run with `--download` to download example data via git."
         )
 
 
