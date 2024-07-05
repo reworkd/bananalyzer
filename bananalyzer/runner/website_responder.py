@@ -44,7 +44,7 @@ class MHTMLWebsiteResponder(WebsiteResponder):
         self.data_path = data_path
 
     def get_url(self, example: Example) -> str:
-        mhtml_path = self.data_path / example.id / "index.mhtml"
+        mhtml_path = self.data_path / "examples" / example.id / "index.mhtml"
         return f"file://{mhtml_path.as_posix()}"
 
 

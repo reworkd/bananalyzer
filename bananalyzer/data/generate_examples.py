@@ -40,7 +40,7 @@ async def generate_fetch_example(
 ) -> Example:
     if source == "mhtml":
         example_id = await download_as_mhtml(url)
-        mhtml_path = os.path.abspath(f"./static/{example_id}/index.mhtml")
+        mhtml_path = os.path.abspath(f"./static/examples/{example_id}/index.mhtml")
         url_to_annotate = f"file://{mhtml_path}"
     else:
         example_id = await download_as_har(url)
@@ -78,7 +78,7 @@ async def llm_annotate_example(
         context = await browser.new_context()
         page = await context.new_page()
         if source == "har":
-            har_path = os.path.abspath(f"./static/{example_id}/cache/bananas.har")
+            har_path = os.path.abspath(f"./static/examples/{example_id}/cache/bananas.har")
             already_cached = os.path.isfile(har_path)
             if already_cached:
                 await page.route_from_har(har_path, not_found="fallback")
@@ -128,13 +128,13 @@ async def download_as_har(url: str) -> str:
 
         # Generate random example ID and create new directory
         example_id = str(uuid.uuid4())
-        example_dir_path = f"./static/{example_id}"
+        example_dir_path = f"./static/examples/{example_id}"
         os.makedirs(example_dir_path, exist_ok=True)
 
         # Make browser record all network responses into a HAR file
         now = datetime.now()
         timestamped_har_path = os.path.abspath(
-            f"./static/{example_id}/cache/bananas." + now.strftime("%s") + ".har"
+            f"./static/examples/{example_id}/cache/bananas." + now.strftime("%s") + ".har"
         )
         await page.route_from_har(
             timestamped_har_path, not_found="fallback", update=True
@@ -145,7 +145,7 @@ async def download_as_har(url: str) -> str:
         await page.goto(url, wait_until="networkidle")
 
         # Post-process captured HAR data
-        har_path = os.path.abspath(f"./static/{example_id}/cache/bananas.har")
+        har_path = os.path.abspath(f"./static/examples/{example_id}/cache/bananas.har")
         already_cached = os.path.isfile(har_path)
         har: Any = {}
         if not already_cached:
@@ -214,7 +214,7 @@ async def download_as_mhtml(url: str) -> str:
 
         # Generate random example ID and create new directory
         example_id = str(uuid.uuid4())
-        example_dir_path = f"./static/{example_id}"
+        example_dir_path = f"./static/examples/{example_id}"
         os.makedirs(example_dir_path, exist_ok=True)
 
         # Write MHTML content to the specified file
