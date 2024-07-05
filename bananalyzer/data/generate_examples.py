@@ -133,8 +133,12 @@ async def download_as_har(url: str) -> str:
 
         # Make browser record all network responses into a HAR file
         now = datetime.now()
-        timestamped_har_path = os.path.abspath(f"./static/{example_id}/cache/bananas." + now.strftime("%s") + ".har")
-        await page.route_from_har(timestamped_har_path, not_found="fallback", update=True)
+        timestamped_har_path = os.path.abspath(
+            f"./static/{example_id}/cache/bananas." + now.strftime("%s") + ".har"
+        )
+        await page.route_from_har(
+            timestamped_har_path, not_found="fallback", update=True
+        )
 
         await context.new_cdp_session(page)
 
@@ -145,11 +149,17 @@ async def download_as_har(url: str) -> str:
         already_cached = os.path.isfile(har_path)
         har: Any = {}
         if not already_cached:
-            temp_har_file_names = [fn for fn in os.listdir(example_dir_path + "/cache") if fn.endswith(".har")]
+            temp_har_file_names = [
+                fn
+                for fn in os.listdir(example_dir_path + "/cache")
+                if fn.endswith(".har")
+            ]
 
             ## Read temporary files and extend main HAR object
             for temp_har_file_name in temp_har_file_names:
-                temp_har_file_path = os.path.abspath(example_dir_path + "/cache/" + temp_har_file_name)
+                temp_har_file_path = os.path.abspath(
+                    example_dir_path + "/cache/" + temp_har_file_name
+                )
                 with open(temp_har_file_path) as f:
                     har_data = json.load(f)
                     if "log" in har and "entries" in har["log"]:
@@ -165,8 +175,16 @@ async def download_as_har(url: str) -> str:
                 for entry in har["log"]["entries"]:
                     if "response" in entry:
                         ## Change all "status": -1 to "status": 404
-                        if "status" in entry["response"] and entry["response"]["status"] == -1:
-                            print("Changing entry response status", entry["response"]["status"], "to", 404)
+                        if (
+                            "status" in entry["response"]
+                            and entry["response"]["status"] == -1
+                        ):
+                            print(
+                                "Changing entry response status",
+                                entry["response"]["status"],
+                                "to",
+                                404,
+                            )
                             entry["response"]["status"] = 404
 
             ## Save the file
@@ -232,13 +250,15 @@ async def main() -> None:
         schema = fetch_schema.model_fields
     else:
         schema = fetch_schema
-    source = "har" # This can also be "mhtml"
+    source = "har"  # This can also be "mhtml"
     metadata = {
         "category": "unknown",
         "subcategory": "careers",
         "fetch_id": "job_posting",
     }
-    await add_examples_to_json(urls, schema, source, metadata, tarsier_client, openai_client)
+    await add_examples_to_json(
+        urls, schema, source, metadata, tarsier_client, openai_client
+    )
 
 
 if __name__ == "__main__":

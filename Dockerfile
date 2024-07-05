@@ -10,4 +10,7 @@ ADD Makefile pyproject.toml poetry.lock README.md ./
 ADD server/pyproject.toml server/poetry.lock ./server/
 RUN make DEPS_INSTALL
 
+# Prevent error regarding dubious ownership in repository
+RUN git config --global --add safe.directory /src/reworkd/bananalyzer
+
 CMD ["make", "DEV"]

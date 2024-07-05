@@ -112,7 +112,9 @@ class Example(BaseModel):
         description="URL of the mhtml file if it is hosted on e.g. AWS S3",
         default=None,
     )
-    source: Literal["har", "mhtml", "hosted"] = Field(description="Source of the website")
+    source: Literal["har", "mhtml", "hosted"] = Field(
+        description="Source of the website"
+    )
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: GoalType = Field(
