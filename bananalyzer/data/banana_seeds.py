@@ -36,7 +36,7 @@ def download_mhtml(url: str) -> str:
     import boto3
 
     s3 = boto3.client("s3", region_name="us-east-1")
-    
+
     if url.startswith("s3://"):
         bucket_name = url.split("/")[2]
         key = "/".join(url.split("/")[3:])

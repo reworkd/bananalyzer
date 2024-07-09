@@ -32,6 +32,6 @@ class NullAgentRunner(AgentRunner):
             return example.evals[0].expected
 
         if example.evals[0].expected is not None:
-            return example.evals[0].expected
+            return example.evals[0].expected  # type: ignore[return-value]
         else:
-            return example.evals[0].options[0]
+            return example.evals[0].options  # type: ignore[return-value]
