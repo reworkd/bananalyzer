@@ -1,3 +1,4 @@
+import os
 from typing import Any, Callable
 
 import pytest
@@ -177,7 +178,12 @@ class BananalyzerPytestPlugin:
         )
 
         # Create a table using tabulate
-        table = tabulate(table_data, headers=headers, tablefmt="psql")
+        is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
+        table = tabulate(
+            table_data,
+            headers=headers,
+            tablefmt="pipe" if is_github_actions else "psql",
+        )
 
         # Print the table
         terminalreporter.write_line(table)
