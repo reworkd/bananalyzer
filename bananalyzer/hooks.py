@@ -179,7 +179,11 @@ class BananalyzerPytestPlugin:
 
         # Create a table using tabulate
         is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
-        table = tabulate(table_data, headers=headers, tablefmt="pipe" if is_github_actions else "psql")
+        table = tabulate(
+            table_data,
+            headers=headers,
+            tablefmt="pipe" if is_github_actions else "psql",
+        )
 
         # Print the table
         terminalreporter.write_line(table)
