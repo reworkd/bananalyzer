@@ -11,6 +11,7 @@ from _pytest.terminal import TerminalReporter
 from tabulate import tabulate
 
 RecordProperty = Callable[[str, object], None]
+is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
 
 
 @pytest.hookimpl(tryfirst=True)
@@ -80,7 +81,11 @@ class BananalyzerPytestPlugin:
         }
 
         terminalreporter.write_line("Summary:")
-        terminalreporter.write_line(tabulate(table_data.items(), tablefmt="psql"))
+        terminalreporter.write_line(
+            tabulate(
+                table_data.items(), tablefmt="pipe" if is_github_actions else "psql"
+            )
+        )
 
     @pytest.fixture(autouse=True)
     def add_user_properties(self, record_property: RecordProperty) -> None:
@@ -178,7 +183,6 @@ class BananalyzerPytestPlugin:
         )
 
         # Create a table using tabulate
-        is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
         table = tabulate(
             table_data,
             headers=headers,
