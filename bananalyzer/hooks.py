@@ -83,7 +83,9 @@ class BananalyzerPytestPlugin:
         terminalreporter.write_line("Summary:")
         terminalreporter.write_line(
             tabulate(
-                table_data.items(), tablefmt="pipe" if is_github_actions else "psql"
+                table_data.items(),
+                headers=["Metric", "Value"],
+                tablefmt="pipe" if is_github_actions else "psql",
             )
         )
 
