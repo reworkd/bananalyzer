@@ -10,7 +10,7 @@ from typing import List
 from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.banana_seeds import download_mhtml
+from bananalyzer.data.banana_seeds import download_file
 from bananalyzer.data.examples import (
     download_examples,
     get_examples_path,
@@ -323,10 +323,17 @@ def main() -> int:
         return 0
 
     for example in examples:
+        if example.har_url is not None:
+            har_path = get_examples_path() / example.id / "bananas.har"
+            if not har_path.exists():
+                har_str = download_file(example.har_url)
+                har_path.parent.mkdir(parents=True, exist_ok=False)
+                with open(har_path, "w") as file:
+                    file.write(har_str)
         if example.mhtml_url is not None:
             mhtml_path = get_examples_path() / example.id / "index.mhtml"
             if not mhtml_path.exists():
-                mhtml_str = download_mhtml(example.mhtml_url)
+                mhtml_str = download_file(example.mhtml_url)
                 mhtml_path.parent.mkdir(parents=True, exist_ok=False)
                 with open(mhtml_path, "w") as file:
                     file.write(mhtml_str)
