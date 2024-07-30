@@ -29,6 +29,7 @@ DEPS_INSTALL: ## Install required dependencies
 	@poetry lock
 	@poetry install --no-root
 	@poetry run playwright install chromium
+	@playwright install-deps
 .PHONY: DEPS_INSTALL
 
 dev: build_dev ## Run web server in a container
@@ -82,6 +83,24 @@ FORMAT_CHECK: ## Check code formatting
 	@poetry run ruff check
 	@poetry run ruff format --check
 .PHONY: FORMAT_CHECK
+
+run: build_dev ## Run in a container
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/.git:/src/$(DOCKER_IMAGE_TAG)/.git" \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/src/$(DOCKER_IMAGE_TAG)/static" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		$(DOCKER_IMAGE_TAG) \
+		make RUN
+.PHONY: run
+
+RUN: ## Run
+	@poetry install
+	@poetry run bananalyze --headless .
+.PHONY: RUN
 
 test: build_dev ## Run tests in a container
 	@$(DOCKER) run \
