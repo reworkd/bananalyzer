@@ -15,6 +15,8 @@ PORT ?= 8000
 
 .DEFAULT_GOAL := help
 
+include Prebuild.mk
+
 help: ## Show this helpful message
 	@for ML in $(MAKEFILE_LIST); do \
 		grep -E '^[a-zA-Z_-]+:.*?## .*$$' $$ML | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'; \
@@ -24,13 +26,6 @@ help: ## Show this helpful message
 build_dev: ## Build development container
 	@$(DOCKER) build -t $(DOCKER_IMAGE_TAG) .
 PHONY: .build_dev
-
-DEPS_INSTALL: ## Install required dependencies
-	@poetry lock
-	@poetry install --no-root
-	@poetry run playwright install chromium
-	@playwright install-deps
-.PHONY: DEPS_INSTALL
 
 dev: build_dev ## Run web server in a container
 	@$(DOCKER) run \
@@ -98,7 +93,7 @@ run: build_dev ## Run in a container
 .PHONY: run
 
 RUN: ## Run
-	@poetry install
+	@poetry install --only main
 	@poetry run bananalyze --headless .
 .PHONY: RUN
 
@@ -130,6 +125,24 @@ shell: ## Enter Docker container's shell
 		$(DOCKER_IMAGE_TAG) \
 		bash || true
 .PHONY: shell
+
+update_cache: build_dev ## Update cache using containers
+	@$(DOCKER) run \
+		-it \
+		--rm \
+		-v "$(CWD)/.git:/src/$(DOCKER_IMAGE_TAG)/.git" \
+		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
+		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/src/$(DOCKER_IMAGE_TAG)/static" \
+		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
+		$(DOCKER_IMAGE_TAG) \
+		make UPDATE_CACHE
+.PHONY: update_cache
+
+UPDATE_CACHE: ## Update cache
+	@poetry install --only main
+	@python static/re-sync-har.py
+.PHONY: UPDATE_CACHE
 
 update_lock_file: ## Update lock file(s)
 	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) base64 -w0 ./poetry.lock | base64 -d - > poetry.lock

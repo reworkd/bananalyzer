@@ -6,9 +6,10 @@ RUN poetry config virtualenvs.create false
 
 WORKDIR /src/reworkd/bananalyzer
 
-ADD Makefile pyproject.toml poetry.lock README.md ./
+ADD Prebuild.mk pyproject.toml poetry.lock README.md ./
 ADD server/pyproject.toml server/poetry.lock ./server/
-RUN make DEPS_INSTALL
+RUN make -f Prebuild.mk DEPS_INSTALL
+ADD Makefile ./
 
 # Prevent error regarding dubious ownership in repository
 RUN git config --global --add safe.directory /src/reworkd/bananalyzer
