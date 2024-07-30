@@ -78,7 +78,9 @@ async def llm_annotate_example(
         context = await browser.new_context()
         page = await context.new_page()
         if source == "har":
-            har_path = os.path.abspath(f"./static/examples/{example_id}/cache/bananas.har")
+            har_path = os.path.abspath(
+                f"./static/examples/{example_id}/cache/bananas.har"
+            )
             already_cached = os.path.isfile(har_path)
             if already_cached:
                 await page.route_from_har(har_path, not_found="fallback")
@@ -134,7 +136,9 @@ async def download_as_har(url: str) -> str:
         # Make browser record all network responses into a HAR file
         now = datetime.now()
         timestamped_har_path = os.path.abspath(
-            f"./static/examples/{example_id}/cache/bananas." + now.strftime("%s") + ".har"
+            f"./static/examples/{example_id}/cache/bananas."
+            + now.strftime("%s")
+            + ".har"
         )
         await page.route_from_har(
             timestamped_har_path, not_found="fallback", update=True
