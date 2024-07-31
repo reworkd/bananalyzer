@@ -230,7 +230,7 @@
   {
     "id": "h4q2uwr0z0sVFM0q5AV7n",
     "url": "https://vercel.com/careers/technical-consultant-us-4930025004",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -268,7 +268,7 @@
   {
     "id": "xh7zxFmYI3du3PWBnEjQ4",
     "url": "https://www.ycombinator.com/careers?ashby_jid=05682b47-a5e2-4003-a9b8-b967cf45dd48",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -306,7 +306,7 @@
   {
     "id": "SjzTipa4JUYx4Ocn5VkCV",
     "url": "https://jobs.lever.co/Anthropic/2786d360-13e0-4ad2-bef1-a193cd6a1f67",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -344,7 +344,7 @@
   {
     "id": "U5wOXA13nV6xyogmib6uL",
     "url": "https://boards.greenhouse.io/reddit/jobs/5245144",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -382,7 +382,7 @@
   {
     "id": "XSzc3ewTsGRYwwdHvb6LK",
     "url": "https://ouryahoo.wd5.myworkdayjobs.com/careers/job/Taiwan---Remote/Backend-Engineer--Media_JR0023180",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -420,7 +420,7 @@
   {
     "id": "gHXZyrqL7qpmKMFYM6oGE",
     "url": "https://jobs.apple.com/en-us/details/200517170/engineering-manager-camera-foundation?team=SFTWR",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -458,7 +458,7 @@
   {
     "id": "uOmbtFqUSqItS8CKmyi51",
     "url": "https://www.workatastartup.com/jobs/62396?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -496,7 +496,7 @@
   {
     "id": "4aMBEIehNL5zOeCPJhjYE",
     "url": "https://stripe.com/jobs/listing/account-executive-commercial/5403149",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -534,7 +534,7 @@
   {
     "id": "RpjyEXqtmEQDFWgojBJMU",
     "url": "https://careers.doordash.com/jobs/5462166",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -572,7 +572,7 @@
   {
     "id": "GcW0Q862yCbKr28CQTg2c",
     "url": "https://jobs.netflix.com/jobs/301592752",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -610,7 +610,7 @@
   {
     "id": "u2IEvb9Ke4lKLaD4LtJYE",
     "url": "https://scale.com/careers/4314568005",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -648,7 +648,7 @@
   {
     "id": "Df3KtnheRTzu87fvkHXPo",
     "url": "https://bb.wd3.myworkdayjobs.com/en-US/BlackBerry/jobs/details/Territory-Account-Manager_20231252",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -686,7 +686,7 @@
   {
     "id": "HCrPjvyx0XaLvNHxVBPZt",
     "url": "https://careers.roblox.com/jobs/4979622",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -724,7 +724,7 @@
   {
     "id": "DAhdnvFSHbuZMRgJ5efFW",
     "url": "https://www.northside.com/locations/atlanta-ophthalmology-associates",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -744,7 +744,7 @@
   {
     "id": "484mHWaGAH0l8tgW95Hvv",
     "url": "https://www.baptistfirst.org/location/baptist-health-ent-partners",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -764,7 +764,7 @@
   {
     "id": "kbd8qO9tx1Efbf08MqZWQ",
     "url": "https://www.mymichigan.org/locations/profile/?id=2918&searchId=850eff7c-3b7f-ee11-a863-000d3a61151d&sort=11&page=4&pageSize=10",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -784,7 +784,7 @@
   {
     "id": "o28cv918RSdVcg2P55tGq",
     "url": "https://www.uchealth.com/en/locations/montgomery-building",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -804,7 +804,7 @@
   {
     "id": "pXL6ojrOhW79o92e8IXw0",
     "url": "https://uoflhealth.org/locations/gi-motility-clinic-gastroenterology/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -824,7 +824,7 @@
   {
     "id": "LN4K9AZwaPC50Z4e513su",
     "url": "https://www.garnethealth.org/locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -887,7 +887,7 @@
   {
     "id": "W8QTUDItaXJSOaBOZGAE8",
     "url": "https://www.healthpartners.com/care/find/locations/?sort=name",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -923,7 +923,7 @@
   {
     "id": "pk7eEZ2sweN4YzzFVK217",
     "url": "https://www.heywood.org/locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -957,7 +957,7 @@
   {
     "id": "JaVENaBu8Iu7yYoUNrORW",
     "url": "https://www.hhc.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -986,7 +986,7 @@
   {
     "id": "OWLWiq0ePIJmx5VmtquOD",
     "url": "https://www.huntregional.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1011,7 +1011,7 @@
   {
     "id": "aLnmhAeCwsHCd3dM53rwG",
     "url": "https://iuhealth.org/find-locations/results?query=&page=1",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1039,7 +1039,7 @@
   {
     "id": "9rolWTrS4XJZnlgFRbqGM",
     "url": "https://www.infirmaryhealth.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1152,7 +1152,7 @@
   {
     "id": "Vo8MreF9aVq5bE45XqaMz",
     "url": "https://www.legacyhealth.org/doctors-and-locations.aspx?Latitude=&Longitude=&SearchType=LOCATIONS&keyword=&ActiveLocationTypeFilter=&services=&ZipCode=&Radius=5&PageNumber=1&PatientAge=&Specialties=&Gender=&Locations=&IsLHPMember=&OpenWeekends=undefined&Open24Hours=undefined",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1194,7 +1194,7 @@
   {
     "id": "MIZDQx8G6Gn562lO5hFQb",
     "url": "https://www.lifespan.org/locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1220,7 +1220,7 @@
   {
     "id": "1JWoJWs3uZMt8Wa5ql6pr",
     "url": "https://www.lcmchealth.org/our-locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1438,7 +1438,7 @@
   {
     "id": "4Zdz7larhE43CYvvaV902",
     "url": "https://www.hawaiipacifichealth.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1486,7 +1486,7 @@
   {
     "id": "CsjbrXOwtX1rRqggZALRB",
     "url": "https://www.mountsinai.org/locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1521,7 +1521,7 @@
   {
     "id": "VogIUZw1FJlCEiBzTUwYR",
     "url": "https://www.acuityhealthcare.net/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1542,7 +1542,7 @@
   {
     "id": "LuM2bHYg5mnBvjhttTDlh",
     "url": "https://www.adventisthealthcare.com/locations/results/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1571,7 +1571,7 @@
   {
     "id": "NHWkSmdwXKQb9oe9vVGZf",
     "url": "https://apprhs.org/our-locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1614,7 +1614,7 @@
   {
     "id": "n28tTMFEZfIyMXsCxO6Ra",
     "url": "https://www.archbold.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1678,7 +1678,7 @@
   {
     "id": "qyZjOcbaiHuVq4FpOB26b",
     "url": "https://www.arnothealth.org/hospitals",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1697,7 +1697,7 @@
   {
     "id": "KTcoPSidqLGESp29nQtLv",
     "url": "https://www.astria.health/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1751,7 +1751,7 @@
   {
     "id": "pNsTF6muOdSesbhNTFI9g",
     "url": "https://www.atlantichealth.org/locations/hospitals.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1775,7 +1775,7 @@
   {
     "id": "qgEjcl77WINh8ltNc9NoC",
     "url": "https://www.swedish.org/locations?lookup=87af2959065c4704b21c5064dada6bfd&lookupvalue=Urgent%20Care&page=1&radius=&term=",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1794,7 +1794,7 @@
   {
     "id": "gKfAQGripVAFa87dehr5m",
     "url": "https://www.seielect.com/?stockcheck=ASR1JA330R",
-    "source": "mhtml",
+    "source": "har",
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
@@ -1811,7 +1811,7 @@
   {
     "id": "JwUW9qdzk0NgtnK2Y2BSS",
     "url": "https://www.kemet.com/en/us/capacitors/ceramic/product/CGP5C472MHWDAA7301.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
@@ -1828,7 +1828,7 @@
   {
     "id": "DO21Wl1gBl1g4qBs7oddP",
     "url": "https://www.infineon.com/cms/en/product/power/mosfet/silicon-carbide/modules/df14mr12w1m1hf_b67/",
-    "source": "mhtml",
+    "source": "har",
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
@@ -1845,7 +1845,7 @@
   {
     "id": "MQrMR8W7oJtlUc056qZ6L",
     "url": "https://www.nexperia.com/products/diodes/automotive-diodes/automotive-zener-diodes/BZX585-C6V8-Q.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
@@ -1862,7 +1862,7 @@
   {
     "id": "kvcH8Q2BG1SPgWSAN3f2h",
     "url": "https://www.capecodhealth.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1888,7 +1888,7 @@
   {
     "id": "jH56yUizuVbTYWAIwSJkM",
     "url": "https://www.catholichealthservices.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1918,7 +1918,7 @@
   {
     "id": "7JjuuOO8Ibt83UkNQA2bG",
     "url": "https://www.mycmh.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1972,7 +1972,7 @@
   {
     "id": "wqGtmRYz4PWe4LCxAW4UI",
     "url": "https://dchsystem.com/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -1999,7 +1999,7 @@
   {
     "id": "uibGV6FB4gcYvY93AIWJe",
     "url": "https://ernesthealth.com/our-hospitals/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2050,7 +2050,7 @@
   {
     "id": "RVotqLcMUyKXULUTqYCvm",
     "url": "https://excelahealth.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2184,7 +2184,7 @@
   {
     "id": "TQyvtLuRcbSStSHq1seCq",
     "url": "https://www.frhs.org/locations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2210,7 +2210,7 @@
   {
     "id": "JAiFFb1qWlEVk48Ny32ND",
     "url": "https://www.flhealth.org/locations/location-search-results?SearchPattern=Contains&LocationDescendants=true",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2236,7 +2236,7 @@
   {
     "id": "qtRibcsG6iq09TyGQoYhv",
     "url": "https://www.freemanhealth.com/all-locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2317,7 +2317,7 @@
   {
     "id": "VqSaCh7ffPXKh1IymN8Oo",
     "url": "https://www.froedtert.com/locations",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "links",
@@ -2354,7 +2354,7 @@
   {
     "id": "A85loHyz9QIVgy8vypV59",
     "url": "https://www.capecodhealth.org/locations/profile/cape-cod-surgery-center/?searchId=b8a9e746-eb81-ee11-a867-000d3a611c21&sort=11&page=1&pageSize=10",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2375,7 +2375,7 @@
   {
     "id": "cohMcyz81B0NHA04Qeik2",
     "url": "https://whiteriverhealth.org/doctors/facilities/38/orthopaedics-batesville",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2395,7 +2395,7 @@
   {
     "id": "2ErcEyBkupKnoHkQAhJCk",
     "url": "https://www.wth.org/locations/west-tennessee-interventional-pain-dyersburg/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2416,7 +2416,7 @@
   {
     "id": "pAObMNn95uFVSll7pCXpg",
     "url": "https://www.selectspecialtyhospitals.com/locations-and-tours/wv/wheeling/wheeling/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2436,7 +2436,7 @@
   {
     "id": "XsNkGYeq1DTAnyKuuvHPZ",
     "url": "https://whs.org/locations/childrens-therapy-center/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2456,7 +2456,7 @@
   {
     "id": "GNekmizdgssA6t94zWOId",
     "url": "https://www.wakemed.org/location/gastroenterology-north-raleigh",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2477,7 +2477,7 @@
   {
     "id": "qrWALKWSykHxTLuVy0Rl7",
     "url": "https://www.virtua.org/locations/surgicare-of-central-jersey",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2498,7 +2498,7 @@
   {
     "id": "wUHnayH90bjRjjjdCT0r2",
     "url": "https://locations.ecuhealth.org/Details/46?Index=3&_gl=1*8joxuy*_ga*MTYyMTMxNzA4Mi4xNjk5NjYzOTgz*_ga_4RQPPRT99M*MTY5OTY2Mzk4My4xLjAuMTY5OTY2Mzk4My4wLjAuMA..",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2519,7 +2519,7 @@
   {
     "id": "24SLE3KnDhtOYYgIM4ote",
     "url": "https://veritascollaborative.com/locations/north-carolina/durham-nc-adult-eating-disorder-treatment-center/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2539,7 +2539,7 @@
   {
     "id": "aivDVkwH92hQdu5cDr4nv",
     "url": "https://www.vcuhealth.org/locations/location-details?id=33",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2559,7 +2559,7 @@
   {
     "id": "bwwko5J7aFk5K8qz61jBI",
     "url": "https://search.vanderbilthealth.com/locations/vanderbilt-bill-wilkerson-center-franklin",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2579,7 +2579,7 @@
   {
     "id": "ElqkkSHNr9hN09Rez9Cvs",
     "url": "https://www.valleyhealthlink.com/our-locations/valley-health-page-memorial-hospital-multispecia/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2600,7 +2600,7 @@
   {
     "id": "MRD347sMiS2vlw091LAqK",
     "url": "https://www.uwmedicine.org/locations/northwest-hospital",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2623,7 +2623,7 @@
   {
     "id": "1qkOHewUy0Kqq9RVVSOoQ",
     "url": "https://www.uwhealth.org/locations/uw-health-specialty-clinic-sauk-prairie-270/optometry-clinic-1048",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2652,7 +2652,7 @@
   {
     "id": "xZCsA0eNaR7OMmhcBlsOv",
     "url": "https://uvahealth.com/locations/UVA-Medical-Park-Zion-Crossroads-5597275",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2672,7 +2672,7 @@
   {
     "id": "k1I07SwT7Clry1xxPODfa",
     "url": "https://www.usahealthsystem.com/locations/cardiac-catheterization-lab",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2693,7 +2693,7 @@
   {
     "id": "4KGjHFZbEpB345rOxuIzv",
     "url": "https://uoflhealth.org/locations/uofl-health-hep-c-center/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2713,7 +2713,7 @@
   {
     "id": "rGFdlkuftF7L1VlFL7LbS",
     "url": "https://www.pennmedicine.org/for-patients-and-visitors/penn-medicine-locations/pennsylvania-hospital",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2733,7 +2733,7 @@
   {
     "id": "XxXTjDH2qRuu4n5BSLM5d",
     "url": "https://www.kansashealthsystem.com/locations/center-for-advanced-vascular-care-overland-park-ks",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2754,7 +2754,7 @@
   {
     "id": "4Je6qSd4YFoyLxVZLQRb7",
     "url": "https://www.uchicagomedicine.org/comer/find-a-location/uchicago-medicine-comer-childrens-merrillville",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2774,7 +2774,7 @@
   {
     "id": "gd2iNA5INcT66penKY175",
     "url": "https://www.slhduluth.com/locations/st-lukes-interventional-pain-management/",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2795,7 +2795,7 @@
   {
     "id": "ke6newcCWvPhsxeZ5TCZ4",
     "url": "https://www.arnothealth.org/st-josephs-hospital",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
@@ -2950,7 +2950,7 @@
   {
     "id": "0orFfEesEVpe1BN7B114a",
     "url": "https://community.openai.com/t/how-to-address-a-gpt-in-its-instructions/513763",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -2973,7 +2973,7 @@
   {
     "id": "KypCMQmDQ2XZ2GIbMKacI",
     "url": "https://twitter.com/asimdotshrestha/status/1728466080811909126",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -2996,7 +2996,7 @@
   {
     "id": "rFp4CQs5ZxAebcIM0d62U",
     "url": "https://news.ycombinator.com/item?id=38434914",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3018,7 +3018,7 @@
   {
     "id": "ct6PuXzujbOlM9zaARUpa",
     "url": "https://www.gamespot.com/forums/system-wars-314159282/so-robocop-game-is-not-bad-33610315/",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3040,7 +3040,7 @@
   {
     "id": "vVJc0PFcYOzKHHL1v1hev",
     "url": "https://stackoverflow.com/questions/77529741/custom-jscript-event-alway-returns-undefined-in-ga4-gtm-debug-any-ideas",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3063,7 +3063,7 @@
   {
     "id": "uPrnCohCwLCrVvwN8eXWZ",
     "url": "https://www.tripadvisor.com/ShowTopic-g28926-i29-k14574554-6_Weeks_in_California_and_Vegas-California.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "travel",
     "subcategory": "forum",
     "type": "fetch",
@@ -3086,7 +3086,7 @@
   {
     "id": "zPfbTSTbZ3sOGYDiqwyj0",
     "url": "https://www.warriorforum.com/social-media/1447913-p-g-takes-first-step-into-metaverse-beautysphere.html?utm_source=internal&utm_medium=discussion-list&utm_campaign=feed&utm_term=title",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3109,7 +3109,7 @@
   {
     "id": "9PFUzfrPc7Q23gnQXi2kn",
     "url": "https://forums.premed101.com/topic/53408-what-counts-as-full-courseload/",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "forum",
     "type": "fetch",
@@ -3132,7 +3132,7 @@
   {
     "id": "rmMxc6dEoyE1WpLLWqTHV",
     "url": "https://forums.redflagdeals.com/1366-vs-1150-a-1388015/",
-    "source": "mhtml",
+    "source": "har",
     "category": "e-commerce",
     "subcategory": "forum",
     "type": "fetch",
@@ -3155,7 +3155,7 @@
   {
     "id": "IUnyfHVheJUrv8frQYQib",
     "url": "https://www.f150forum.com/f69/9-28-17-build-date-395413/",
-    "source": "mhtml",
+    "source": "har",
     "category": "automotive",
     "subcategory": "forum",
     "type": "fetch",
@@ -3178,7 +3178,7 @@
   {
     "id": "kfueRbnkKCdJwC0BRiggp",
     "url": "https://patient.info/forums/discuss/tingling-in-my-hands-and-cheeks-with-a-sore-throat-and-red-dots-on-roof-of-mouth-and-sores-on-cheeks-739597",
-    "source": "mhtml",
+    "source": "har",
     "category": "healthcare",
     "subcategory": "forum",
     "type": "fetch",
@@ -3201,7 +3201,7 @@
   {
     "id": "ranUaEMdxbjMltYPt2AX7",
     "url": "https://www.teamblind.com/post/Stop-f-around-start-your-own-company-hkcNxAgX",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3224,7 +3224,7 @@
   {
     "id": "QwiRD9fjb4YuRaY3Ypz3f",
     "url": "https://community.adobe.com/t5/photoshop-elements-discussions/restore-catalog-from-sd-cards/m-p/13612011#M88645",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3247,7 +3247,7 @@
   {
     "id": "UjsF3B4ihFcZjXEcZCnm1",
     "url": "https://community.startupnation.com/discussion/14445/what-is-the-best-way-to-get-funding-for-your-start-up-or-idea",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3270,7 +3270,7 @@
   {
     "id": "kZVEvHT3kuBfZtNUY8rC2",
     "url": "https://www.indiehackers.com/post/generating-200k-monthly-revenue-with-an-online-photo-editor-ad36e6538e",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
@@ -3293,7 +3293,7 @@
   {
     "id": "BeicQMUEt4SlyLpMht86B",
     "url": "https://openai.com/careers/ai-policy-counsel",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3331,7 +3331,7 @@
   {
     "id": "n1VHZA0AkvnKB3Qy2hqvB",
     "url": "https://openai.com/careers/data-infrastructure-engineer",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3369,7 +3369,7 @@
   {
     "id": "tVBOUnrTSDIHQbsMw2WgS",
     "url": "https://openai.com/careers/engineering-manager-fine-tuning-api",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3407,7 +3407,7 @@
   {
     "id": "D0BP1EojGcCesUgTZwzfa",
     "url": "https://openai.com/careers/head-of-commercial-legal",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3445,7 +3445,7 @@
   {
     "id": "NLtUSUexaGqmRUBomWj9R",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=11789141_en&title=Director%20of%20Medicare%20Claims",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3483,7 +3483,7 @@
   {
     "id": "FmpHbDna6mnBNe0hLyTYZ",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00186436_en&title=MES%20PharmaSuite%20Engineer",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3521,7 +3521,7 @@
   {
     "id": "ggdDF9CwmrmiBHsQvZcDk",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=11770326_en&title=Payroll%20Operations%20Manager",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3559,7 +3559,7 @@
   {
     "id": "T1pTeE6hYcFsaZ84no4GM",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00185110_en&title=T%26D%20Grid%20Operations%20Consultant",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -3597,7 +3597,7 @@
   {
     "id": "n7LTn5tVJ2B3IvDopFTFO",
     "url": "https://www.trc.gov.jo/Pages/viewpage?pageID=188",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3649,7 +3649,7 @@
   {
     "id": "v7hgryy94evdLb0aHzDtY",
     "url": "https://carc.gov.jo/en/rules/19",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3677,7 +3677,7 @@
   {
     "id": "2HauD8zfTdDq75G7WRJzB",
     "url": "https://www.pc.gov.pk/web/ordinance",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3713,7 +3713,7 @@
   {
     "id": "FSfE85pVbn96ntVl1qEGp",
     "url": "https://pemra.gov.pk/regulations.php",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3766,7 +3766,7 @@
   {
     "id": "rKCkTGVbx4Mpi0BAnKCRd",
     "url": "https://moitt.gov.pk/Detail/Y2VjM2U3YzMtM2I0YS00Nzc2LThmZTAtMzNhMGY2OTZjZmI3",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3839,7 +3839,7 @@
   {
     "id": "YuBInhOP8OdQAfy4Htvre",
     "url": "http://www.dsbd.gov.za/gazetted-notices",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3875,7 +3875,7 @@
   {
     "id": "NSVMR9p35Pku7LUyPCMHY",
     "url": "https://www.treasury.gov.za/legislation/GovernmentNotices/Default.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -3983,7 +3983,7 @@
   {
     "id": "7xlvZTTi21A1s7k3AoBOS",
     "url": "https://www.sars.gov.za/legal-counsel/secondary-legislation/public-notices/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -4103,7 +4103,7 @@
   {
     "id": "9O72sF7l80n4jlISiASUi",
     "url": "https://www.ncc.gov.ng/licensing-regulation/legal/determinations",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -4199,7 +4199,7 @@
   {
     "id": "D9gQh8jKW2L2ZA610FvSN",
     "url": "https://www.ynanp.gr/el/gia-ton-polith/nomo8esia/nomothesia-dieuthynse-pontoporou-nautilipontoporou-nautilias2/dpn-nomoi-pd/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -4279,7 +4279,7 @@
   {
     "id": "CYi5NWLkH2RTe0J0qvHVX",
     "url": "https://www.sca.gov.ae/en/regulations/crs-guidance.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -4355,7 +4355,7 @@
   {
     "id": "yzwuXotaBr52CyG4mUDhy",
     "url": "https://reworkd.ai/",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "unstructured",
     "type": "fetch",
@@ -4383,7 +4383,7 @@
   {
     "id": "n1zh09obI7c51LUTBNNBE",
     "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "details",
     "type": "links_fetch",
@@ -4921,7 +4921,7 @@
   {
     "id": "JNOSAEEZO4j2unWHPFBdO",
     "url": "https://asim-shrestha.com/",
-    "source": "mhtml",
+    "source": "har",
     "category": "personal",
     "subcategory": "unstructured",
     "type": "fetch",
@@ -4957,7 +4957,7 @@
   {
     "id": "KuDD2GuMDlbuKO4ozdbDA",
     "url": "https://asim-shrestha.com/quotes",
-    "source": "mhtml",
+    "source": "har",
     "category": "personal",
     "subcategory": "unstructured",
     "type": "links_fetch",
@@ -4985,7 +4985,7 @@
   {
     "id": "nAXVoJDSuul938vtPvfFB",
     "url": "https://github.com/reworkd/AgentGPT/issues/21",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "unstructured",
     "type": "fetch",
@@ -5015,7 +5015,7 @@
   {
     "id": "GQfYTjppPhTgYtsuFUbXF",
     "url": "https://rpandey.tech/",
-    "source": "mhtml",
+    "source": "har",
     "category": "personal",
     "subcategory": "unstructured",
     "type": "fetch",
@@ -5111,7 +5111,7 @@
   {
     "id": "K88O7OW0FJoCfdVUD4xXH",
     "url": "https://medium.com/",
-    "source": "mhtml",
+    "source": "har",
     "category": "articles",
     "subcategory": "blog",
     "type": "links_fetch",
@@ -5227,7 +5227,7 @@
   {
     "id": "xCHAOXtOYz47HfNY9LeZq",
     "url": "https://pemra.gov.pk/newsall.php",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -5355,7 +5355,7 @@
   {
     "id": "BBofvHlOP5C5aSVJknz1C",
     "url": "https://www.education.gov.za/Resources/Legislation/GovernmentNotices.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6035,7 +6035,7 @@
   {
     "id": "9tW9ErOPFHXcnIZRLwuno",
     "url": "https://www.saps.gov.za/resource_centre/acts/acts.php",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6114,7 +6114,7 @@
   {
     "id": "Xixe0WiedsLB1KFcKpv2r",
     "url": "https://nerc.gov.ng/index.php/library/documents/NERC-Decisions-and-Rulings",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6161,7 +6161,7 @@
   {
     "id": "q3jMY8P01UJCw3ggDs1OJ",
     "url": "https://www.treasury.go.ke/regulations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6298,7 +6298,7 @@
   {
     "id": "1z50b4syZzf7J1kQt2k7W",
     "url": "https://www.mef.gov.it/ministero/ruolo/normativa/decreti-min-intermin-dir.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6419,7 +6419,7 @@
   {
     "id": "3vDNIHFXtjcnarvJQWdd7",
     "url": "https://www.ministeroturismo.gov.it/del-ministero/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6539,7 +6539,7 @@
   {
     "id": "Ey2q7uEroarG84e6YZnym",
     "url": "https://ypen.gov.gr/diacheirisi-apovliton/astika-lymata/nomothesia/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6623,7 +6623,7 @@
   {
     "id": "S8AKJlRl5F8Vci1UiLU1a",
     "url": "https://www.yme.gr/metafores/odikoi-metaforeis/nomothesia-odikou-metaforea",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6675,7 +6675,7 @@
   {
     "id": "rgCTp6HulNEsEqEupEUZN",
     "url": "https://www.difc.ae/business/laws-and-regulations/legal-database",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6807,7 +6807,7 @@
   {
     "id": "apscD5vWHBV1dvAX6K7Vt",
     "url": "https://enforcementdirectorate.gov.in/feoa",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -6847,7 +6847,7 @@
   {
     "id": "LOnORRBp7zDQifntNAcFO",
     "url": "https://www.eeaa.gov.eg/Laws/58/index",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7007,7 +7007,7 @@
   {
     "id": "I8Bj6okah8nrfPEinahWH",
     "url": "https://conseil-concurrence.ma/cc/espace-documentaire/textes-fondateurs/lois-et-decrets/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7047,7 +7047,7 @@
   {
     "id": "AlIKugApq7lSB3dcM4aOT",
     "url": "https://www.petroleum.gov.eg/ar-eg/mineral-resources/Pages/mineral-rules.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7071,7 +7071,7 @@
   {
     "id": "cMPCNSczVAPhdXJxBIBEd",
     "url": "https://www.mem.gov.ma/pages/notesetcirculaires.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7103,7 +7103,7 @@
   {
     "id": "NUkrUYwOJuYfv5SC3GHTE",
     "url": "https://www.bkam.ma/fr/Trouvez-l-information-concernant/Reglementation/Institution-de-microfinance-imf",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7139,7 +7139,7 @@
   {
     "id": "ijJbuKPqEOkA4OK0BzLPk",
     "url": "https://carc.gov.jo/en/rules/20",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -7171,7 +7171,7 @@
   {
     "id": "nxkcxrThdmaRX01YRXtho",
     "url": "https://www.dhcc.ae/regulations/all",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -8699,7 +8699,7 @@
   {
     "id": "tV4VsHCiYAA3o6oKYyXVk",
     "url": "https://sssd.shj.ae/decisions_legislation",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -8755,7 +8755,7 @@
   {
     "id": "HleEA9DcP1jBVN5cBEmFT",
     "url": "https://www.adphc.gov.ae/en/Legislation/Glossary-of-Terms",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -8779,7 +8779,7 @@
   {
     "id": "gg5AAaFekWGXPdKtYBoer",
     "url": "https://www.estv.admin.ch/estv/fr/accueil/impot-federal-direct/informations-specialisees-ifd/circulaires.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9087,7 +9087,7 @@
   {
     "id": "L6BOPpJEJhhN5JHfWj4g1",
     "url": "https://tax.gov.ae/en/Legislation.archive.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9128,7 +9128,7 @@
   {
     "id": "eKKvQ3OZG6H0jjTIRINPs",
     "url": "https://www.moe.gov.ae/ar/legislation/pages/policiesandregulations.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9184,7 +9184,7 @@
   {
     "id": "LNMVWWtQRcjkj54ONLebI",
     "url": "https://www.mohre.gov.ae/en/laws-and-regulations/quality-policies.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9212,7 +9212,7 @@
   {
     "id": "vgTQTZN0Efl4vXQ0I9Iy8",
     "url": "https://mof.gov.ae/financial-institutions-and-activities/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9256,7 +9256,7 @@
   {
     "id": "HixdQTqLbSa6zIaKmxxE1",
     "url": "https://www.cnmv.es/Portal/legislacion/legislacion/reciente.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9412,7 +9412,7 @@
   {
     "id": "ogRf0dLwJKiDJUQnzz4pn",
     "url": "https://gpssa.gov.ae/en/Pages/LawsandRegulations.aspx#/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9448,7 +9448,7 @@
   {
     "id": "eSG6HgfI2R9JpZQRozsSV",
     "url": "https://www.parlamento.pt/DAR/Paginas/DAR1Serie.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9544,7 +9544,7 @@
   {
     "id": "oEAjw9fv6UXmS63CIzZlU",
     "url": "https://www.moh.gov.my/index.php/pages/view/195?mid=290",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9668,7 +9668,7 @@
   {
     "id": "oBJMkbpRqNM02wNlOTP3N",
     "url": "https://www.dsc.gov.ae/en-us/About-Us/Pages/Regulations.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -9704,7 +9704,7 @@
   {
     "id": "gdtUqXUos3CdM6zVlMbbC",
     "url": "https://www.gesetze-im-internet.de/aktuDienst.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -10520,7 +10520,7 @@
   {
     "id": "O3kSfBi6P0CQBJTCmjV7B",
     "url": "https://moz.gov.ua/golovnij-derzhavnij-sanitarnij-likar-ukraini",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11188,7 +11188,7 @@
   {
     "id": "F5AaImEw3SHGkneXd36eH",
     "url": "https://www.adek.gov.ae/en/Education-System/Nurseries",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11223,7 +11223,7 @@
   {
     "id": "4pBdo1yehg1kXCW8fvzHB",
     "url": "https://www.fahr.gov.ae/Portal/en/legislations-and-guides/the-law/human-resources-law.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11251,7 +11251,7 @@
   {
     "id": "TG8dn0Xi3SJC0VHjWRH1P",
     "url": "https://mcy.gov.ae/en/legislations/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11311,7 +11311,7 @@
   {
     "id": "O3t7Of3CTP2WUj71YddFO",
     "url": "https://www.sharjahtourism.ae/industry-resources/industry-legislatives/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11447,7 +11447,7 @@
   {
     "id": "NJouZuI4JTRsMz3KYK1cV",
     "url": "https://www.dfm.ae/the-exchange/regulation/market-rules",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -11483,7 +11483,7 @@
   {
     "id": "SlMfqkoK2KeAp31dHr88F",
     "url": "https://www.skadden.com/professionals/l/lanstra-allen-l",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11580,7 +11580,7 @@
   {
     "id": "cdFPVICHIa5evhnj1OiMx",
     "url": "https://www.sullcrom.com/Lawyers/Erik-D-Lindauer",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11631,7 +11631,7 @@
   {
     "id": "u7I1P6OC5xX8f3u8Fwjvf",
     "url": "https://www.winston.com/en/professionals/padmanabhan-krishnan",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11668,7 +11668,7 @@
   {
     "id": "ahEBAfuWtiZ8HM77W2d2D",
     "url": "https://www.mwe.com/people/michael-abercrombie/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11716,7 +11716,7 @@
   {
     "id": "fJPQwUD42zT2WKhdBJLnN",
     "url": "https://www.wsgr.com/en/people/sebastian-alsheimer.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11779,7 +11779,7 @@
   {
     "id": "OmJeRJARVmguS9uMWU1Xb",
     "url": "https://www.freshfields.us/contacts/find-a-lawyer/a/aitken-james/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11842,7 +11842,7 @@
   {
     "id": "kx3CBXYC9YUyRIFIMYTcD",
     "url": "https://www.cliffordchance.com/people_and_places/people/partners/gb/julian_acratopulo.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11902,7 +11902,7 @@
   {
     "id": "0fdyKSMbc3kVUgL9RGiEk",
     "url": "https://www.omm.com/professionals/ryan-coombs/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11944,7 +11944,7 @@
   {
     "id": "GAeRa1QK7BcoGKelpEOA9",
     "url": "https://www.morganlewis.com/bios/jessicaaccurso",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -11998,7 +11998,7 @@
   {
     "id": "a0pJxHhxIHFKcoFjkORnG",
     "url": "https://www.orrick.com/en/People/1/2/F/L-Mark-Weeks",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -12053,7 +12053,7 @@
   {
     "id": "11u8vZX9JHQsOrXVSWfJd",
     "url": "https://www.gibsondunn.com/professional/banasevic-nicholas/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -12102,7 +12102,7 @@
   {
     "id": "Vba6zNQZmxgxA8byjpmaA",
     "url": "https://www.stblaw.com/our-team/partners/mimi-c-cheng",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
@@ -12164,7 +12164,7 @@
   {
     "id": "Sqb7SeHvAcouDW5rFl9yu",
     "url": "https://www.mcit.gov.qa/en/legislations-and-policies/laws/all",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -12188,7 +12188,7 @@
   {
     "id": "TLxVvFZ6MRB0nbSBWl8ym",
     "url": "https://www.qcert.org/library/40",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -12220,7 +12220,7 @@
   {
     "id": "wXhQ0YobLZ4z1BAZesBUF",
     "url": "https://www.pta.gov.pk/en/laws-&-policies/regulations",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -12444,7 +12444,7 @@
   {
     "id": "Std6TTbgilRTiLDGJOezx",
     "url": "https://mod.gov.pk/Detail/ZGRlZTMwMzktZDg5Yy00OWFjLTkyNTYtZWU5ZDI0ZjExY2Uw",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -12488,7 +12488,7 @@
   {
     "id": "Ql2B37FdNugeJ09WjopGa",
     "url": "https://www.health.gov.za/speeches/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -12776,7 +12776,7 @@
   {
     "id": "awL4PUmAj9TIIqR6L95fq",
     "url": "https://www.dhet.gov.za/SitePages/MidSpeeches.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -13280,7 +13280,7 @@
   {
     "id": "KNyomEvINtDSbA7cKRr1F",
     "url": "https://www.justice.gov.za/legislation/notices/notice_list.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -13545,7 +13545,7 @@
   {
     "id": "x9tCDlr2WOazDKVrF3njD",
     "url": "https://www.jsc.gov.jo/Links2/en/Regulations",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -13577,7 +13577,7 @@
   {
     "id": "rZQpVHDs30D7WbTFIiXCr",
     "url": "https://www.fia.gov.pk/laws",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -13749,7 +13749,7 @@
   {
     "id": "ecqQm32DLMtTUWt2AQxhm",
     "url": "https://www.ccd.gov.jo/Ar/List/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -13793,7 +13793,7 @@
   {
     "id": "TKUFwwdmB0ioMyUXvozpu",
     "url": "https://www.wlrk.com/attorneys/?asf_l=View%20All",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "contact",
     "type": "links",
@@ -14105,7 +14105,7 @@
   {
     "id": "7dhL1dij4AsT9qWCbWBHq",
     "url": "https://www.perkinscoie.com/en/professionals/index.html?start=0&count=9999",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "contact",
     "type": "links",
@@ -15489,7 +15489,7 @@
   {
     "id": "bOVNaNsrc6UrCdlhHLxGy",
     "url": "https://www.omm.com/professionals?query=",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "contact",
     "type": "links",
@@ -15517,7 +15517,7 @@
   {
     "id": "MP4p6ibb3PLD3i8AmBrZ3",
     "url": "https://www.morganlewis.com/our-people",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "contact",
     "type": "links",
@@ -15583,7 +15583,7 @@
   {
     "id": "tIowzAEvZcWH9ukP4Aofa",
     "url": "https://www.lw.com/en/people#sort=%40peoplerankbytitle%20ascending%3B%40peoplelastname%20ascending",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "contact",
     "type": "links",
@@ -15619,7 +15619,7 @@
   {
     "id": "QuUpyX6Z5U2HUUQWJV3S4",
     "url": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15643,7 +15643,7 @@
   {
     "id": "ChuBh6mENdiWHRRCTio4Y",
     "url": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/houston/mid-level-associate-energy-and-infrastructure-projects-m-a-and-finance",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15670,7 +15670,7 @@
   {
     "id": "Aabiq4TxmxapxNlykOdyW",
     "url": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/viewRequisition?org=SULLCROM&cws=38&rid=1196",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15694,7 +15694,7 @@
   {
     "id": "c3s1dYwKWMEJHKGyP3qnr",
     "url": "https://paulweiss.taleo.net/careersection/ex/jobdetail.ftl",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15709,7 +15709,7 @@
   {
     "id": "CLgoDRQ1LPNKyiKqp2CjD",
     "url": "https://omelveny.careers.micronapps.com/job_post_details.aspx?%3Eac^?LWCZ4dN=1`&QDFnXTpbVzc%3d=MW1ubjBA",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15736,7 +15736,7 @@
   {
     "id": "STPTr6OhlruneOtA24xi9",
     "url": "https://careers.mwe.com/job-experienced-lawyers/1l-2024-inclusion-fellowship-washington-dc-2/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15758,7 +15758,7 @@
   {
     "id": "q72iVxzE9cGatHU1cLKJX",
     "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MyUyNTVF&JobId=MW5KbG5ZZmI=&at=OF9DRw==&pos=NSUyNTYwN042UA==",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15773,7 +15773,7 @@
   {
     "id": "fJWonTvHgvl7Ex9DdB1Px",
     "url": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15800,7 +15800,7 @@
   {
     "id": "WDGGGgqdb1RGaoGlseBJk",
     "url": "https://jobs.cliffordchance.com/job/people-services-systems-senior-manager-in-london-jid-1549",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15827,7 +15827,7 @@
   {
     "id": "zRdqy27hn5RdNqJqnjzaA",
     "url": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/?mode=job-location",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15848,7 +15848,7 @@
   {
     "id": "aQZGYIDkaa6JY6aXv6wXQ",
     "url": "https://www.lwcareers.com/en/experienced-lawyers/united-states/associate-finance-project-finance-leveraged-finance",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15875,7 +15875,7 @@
   {
     "id": "l3mMTs6gZa1GvpGjknIFT",
     "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MW5HNA==&JobId=MW1mbG8lNDA=&at=OF9DRw==",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15900,7 +15900,7 @@
   {
     "id": "bOlARasPXtWAjEDfxtk2L",
     "url": "https://stblaw.allhires.com/PositionDetail.aspx?id=412&a=&n=&returl=%2fDefault.aspx%3fb%3dd%26a%3d%26n%3d",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15924,7 +15924,7 @@
   {
     "id": "QJ1O4XyX7e3CpAPQ3Bonw",
     "url": "https://careers2.winston.com/viRecruitSelfApply/ReJobView.aspx?Tag=c6c5778b-4b86-45f3-9bfa-33680b22a001&JobID=1932",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15939,7 +15939,7 @@
   {
     "id": "WEVQJfQEWky3KR7Hc2kuK",
     "url": "https://careers.wsgr.com/openings/san-francisco-ip-litigation-associate/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15966,7 +15966,7 @@
   {
     "id": "4oSHzjA98NPIi27V2g5tt",
     "url": "https://freshfields.wd3.myworkdayjobs.com/en-US/FBD_101/job/Event--Step-Into-Your-Future---LLM-UK-2024_R-02708",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -15994,7 +15994,7 @@
   {
     "id": "abgIXICPIttq3MhkmSVdV",
     "url": "https://legalrecruiting-cravath.icims.com/jobs/3017/2024-1l-summer-associate---position/job",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16017,7 +16017,7 @@
   {
     "id": "CHX5IJv14cONaNRcEcwIh",
     "url": "https://wd1.myworkdaysite.com/en-US/recruiting/vhr_wachtelllipton/wlrk/job/Senior-Legal-Billing-and-Data-Analyst_230000048",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16061,7 +16061,7 @@
   {
     "id": "jCYLQBT1114BBW83zKQdt",
     "url": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/houston/mid-level-associate-energy-and-infrastructure-projects-m-a-and-finance",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16105,7 +16105,7 @@
   {
     "id": "ZYBqV9WrmYmyFExthpKLD",
     "url": "https://phg.tbe.taleo.net/phg04/ats/careers/v2/viewRequisition?org=SULLCROM&cws=38&rid=1196",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16149,7 +16149,7 @@
   {
     "id": "L3uXGoAVL6YpRHGBCnlB8",
     "url": "https://omelveny.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=MW1ubjBA",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16193,7 +16193,7 @@
   {
     "id": "BoQjUYQUbEUQdq92pLvUs",
     "url": "https://careers.mwe.com/job-experienced-lawyers/1l-2024-inclusion-fellowship-washington-dc-2/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16237,7 +16237,7 @@
   {
     "id": "2tmwuvYVJ9KqVgHIOgctI",
     "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MyUyNTVF&JobId=MW5KbG5ZZmI=&at=OF9DRw==&pos=NSUyNTYwN042UA==",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16281,7 +16281,7 @@
   {
     "id": "cAeniCN923UcmnXuOOIBJ",
     "url": "https://boards.greenhouse.io/attorneysfriedfrankharrisshriverjacobsonllp/jobs/4985822004",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16325,7 +16325,7 @@
   {
     "id": "07wOwFaw3aGekjCBpZkg0",
     "url": "https://jobs.cliffordchance.com/job/people-services-systems-senior-manager-in-london-jid-1549",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16369,7 +16369,7 @@
   {
     "id": "l8QvEOlveFkWUVYu1HNgD",
     "url": "https://dfa.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/256/?mode=job-location",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16413,7 +16413,7 @@
   {
     "id": "3MAIydQKH2qHnl1cuLmNc",
     "url": "https://www.lwcareers.com/en/experienced-lawyers/united-states/associate-finance-project-finance-leveraged-finance",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16457,7 +16457,7 @@
   {
     "id": "Jxv57Kbqw1AP4qv1zvlqg",
     "url": "https://lawcruit.micronapps.com/sup/JobPostingDetails.aspx?lawfirm=MW5HNA==&JobId=MW1mbG8lNDA=&at=OF9DRw==",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16501,7 +16501,7 @@
   {
     "id": "KGEFdtgwltNKXKHGOkkaF",
     "url": "https://stblaw.allhires.com/PositionDetail.aspx?id=412&a=&n=&returl=%2fDefault.aspx%3fb%3dd%26a%3d%26n%3d",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16545,7 +16545,7 @@
   {
     "id": "SEyENcYHqerkt0nmJZjl7",
     "url": "https://careers.wsgr.com/openings/san-francisco-ip-litigation-associate/",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16589,7 +16589,7 @@
   {
     "id": "G9Xy74ZxrdukPaChWTWAo",
     "url": "https://legalrecruiting-cravath.icims.com/jobs/3017/2024-1l-summer-associate---position/job?mobile=false&width=2048&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16633,7 +16633,7 @@
   {
     "id": "Xnuxii49OIfjWntcihbjX",
     "url": "https://dlapiperus.referrals.selectminds.com/jobs/attorney-non-partnership-4813",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16677,7 +16677,7 @@
   {
     "id": "UPCNbyQNGulQpM6v6sxUo",
     "url": "https://sidleyaustin.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=Mj46a29A",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16721,7 +16721,7 @@
   {
     "id": "lHjLewJTfQKFSAmGE5Wr1",
     "url": "https://whitecase.taleo.net/careersection/wc_external/jobdetail.ftl?job=230000XY&tz=GMT-08%3A00&tzname=America%2FLos_Angeles",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16765,7 +16765,7 @@
   {
     "id": "PiQlpch5uQzWNXiEEvjX3",
     "url": "https://virecruitselfapply.morganlewis.com/viRecruitSelfApply/ReJobView.aspx?Tag=90b1371e-561e-4b82-9987-cf459d510da4&JobID=406",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16809,7 +16809,7 @@
   {
     "id": "FIECXMTasC96yBFr7BcN1",
     "url": "https://hoganlovells.wd3.myworkdayjobs.com/en-US/Search/job/New-York/Marketing-and-Business-Development-Coordinator_R235640",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16853,7 +16853,7 @@
   {
     "id": "wjmMahVNX7T1jH9GmVW9r",
     "url": "https://jobs.jobvite.com/gtlaw/job/ov4Tnfwz",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16897,7 +16897,7 @@
   {
     "id": "Yb4ug21SFYfiN4ENjJCcz",
     "url": "https://nrf.wd3.myworkdayjobs.com/en-US/External/job/Analyst--HRIS_R-790",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16941,7 +16941,7 @@
   {
     "id": "C2lZWheHyMft0pn0zYvfG",
     "url": "https://jobs.phextranet.com/PH-Attorney/viRecruitSelfApply/ReJobView.aspx?Tag=078ee4fb-dec5-4789-8f29-5bb4b706a345&JobID=319",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -16985,7 +16985,7 @@
   {
     "id": "4rTEZzWv3FcPdUT0Fa2tm",
     "url": "https://recruiter.reedsmith.com/viRecruitSelfApply/ReJobView.aspx?Tag=c29b8161-994c-4545-972a-f8148a75e305&JobID=1",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17029,7 +17029,7 @@
   {
     "id": "bZPREHVg723XRC2I6z9MQ",
     "url": "https://akingumpselfapply.viglobalcloud.com/viRecruitSelfApply/ReJobView.aspx?Tag=cbc53bb9-0aa1-4e41-a49a-c3d37b962417&JobID=596",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17073,7 +17073,7 @@
   {
     "id": "47D2wwbE0WZOV6obQbYA7",
     "url": "https://klgates.recsolu.com/jobs/6GiAlLyRQfkoQeV3t6FKDg?job_board_id=o8D4HDBB0N8jcVnRfV263g",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17117,7 +17117,7 @@
   {
     "id": "aa3t8r3kAlp9FYx2uSOFz",
     "url": "https://perkinscoie.wd1.myworkdayjobs.com/en-US/perkinscoieexternal/job/Commercial-Litigation-Associate---Junior-to-Midlevel_R0004802",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17161,7 +17161,7 @@
   {
     "id": "Xu7Q49cgzMsp4cgMR0qqS",
     "url": "https://fsr.cvmailuk.com/spb/main.cfm?page=jobSpecific&jobId=68936&rcd=1435190&queryString=srxksl%3D1&srxksl=1",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17205,7 +17205,7 @@
   {
     "id": "njhgFq4h4BcMTdaRxtElY",
     "url": "https://mcguire.careers.micronapps.com/job_post_details.aspx?%3Eac%5E?LWCZ4dN=1%60&QDFnXTpbVzc%3d=Mj47M25g",
-    "source": "mhtml",
+    "source": "har",
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
@@ -17774,7 +17774,7 @@
     "id": "QxSSau0T34NCk6O1bq4Cd",
     "url": "https://jobs.senate.ca.gov/office-of-senator-becker-legislative-aide-530",
     "mhtml_url": null,
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "careers",
     "type": "fetch",
@@ -17813,7 +17813,7 @@
     "id": "yXLMF4nocYqJnql2dt71R",
     "url": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Process-Improvement-PMO-II_R01128732",
     "mhtml_url": null,
-    "source": "mhtml",
+    "source": "har",
     "category": "manufacturing",
     "subcategory": "careers",
     "type": "fetch",
@@ -17848,7 +17848,7 @@
     "id": "NV6JL1wEHaTPuK65dKt6t",
     "url": "https://apply.jobappnetwork.com/clients/18760/posting/9615297/en?utm_source=google.com",
     "mhtml_url": null,
-    "source": "mhtml",
+    "source": "har",
     "category": "retail",
     "subcategory": "careers",
     "type": "fetch",
@@ -17886,7 +17886,7 @@
   {
     "id": "QWwSzGV7QMgJprOY5cOpP",
     "url": "https://www.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Notes-circulaires",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -17904,7 +17904,7 @@
   {
     "id": "GuFznteaPUy3yrETrOh4Y",
     "url": "https://www.cour-constitutionnelle.ma/article?id=40&tp=ac&Page=REF",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -17922,7 +17922,7 @@
   {
     "id": "Ly1DY8GL7cV5mWnxr1DH5",
     "url": "https://www.oenb.at/Ueber-Uns/Rechtliche-Grundlagen/Geschaeftsbestimmungen-der-OeNB.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -17961,7 +17961,7 @@
   {
     "id": "NZoqFzLNm1OJsS96Pyxbi",
     "url": "https://web.khda.gov.ae/en/About-Us/Legislation",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -18088,7 +18088,7 @@
   {
     "id": "Dr8xyZLYbHhbQlzYTIbDY",
     "url": "https://avia.gov.ua/npdrd/slug-2/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "download",
     "type": "links_fetch",
@@ -18106,7 +18106,7 @@
   {
     "id": "zKVOGYYHXR3uskE0WcG1A",
     "url": "https://purchasing.idaho.gov/statewide-contracts-list-view/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18274,7 +18274,7 @@
   {
     "id": "cFcnDQSGQgDeyHBnZtrU8",
     "url": "https://bidopportunities.iowa.gov/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18368,7 +18368,7 @@
   {
     "id": "FeRDLVQyg3Y1l62axB6az",
     "url": "https://www.ok.gov/dcs/solicit/app/solicitationSearch.php?status=open-pending",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18395,7 +18395,7 @@
   {
     "id": "u3fjwZRjKUEcvr8kkmy5v",
     "url": "https://apps.des.wa.gov/DESContracts/",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18585,7 +18585,7 @@
   {
     "id": "WyQg7esKNNds3EYMZCx2J",
     "url": "https://www.emarketplace.state.pa.us/Search.aspx",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18614,7 +18614,7 @@
   {
     "id": "MQOPSYI3SU7EEQRbHUMHr",
     "url": "https://www.njstart.gov/bso/view/search/external/advancedSearchBid.xhtml?openBids=true",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links",
@@ -18648,7 +18648,7 @@
   {
     "id": "xkEtVvkl3HDnC827Flk3g",
     "url": "https://www.njstart.gov/bso/external/bidDetail.sdo?docId=24DPP00965&external=true&parentUrl=close",
-    "source": "mhtml",
+    "source": "har",
     "category": "government",
     "subcategory": "contract",
     "type": "links_fetch",
@@ -18666,7 +18666,7 @@
   {
     "id": "eE46U0AMRoczeDL2eOcgf",
     "url": "https://www.cpschools.com/o/hom/staff",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -18823,7 +18823,7 @@
   {
     "id": "prf1dSczRpaoWLrEMseB1",
     "url": "https://mvhs.dcsdk12.org/about_mvhs/main_office/office_support_staff",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -18968,7 +18968,7 @@
   {
     "id": "nXWHr3UoycfzFqubWTUpn",
     "url": "https://fse.dcsdk12.org/about/administrative_office_staff",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -18983,7 +18983,7 @@
   {
     "id": "tbRxihP0jtq5O12zVhvEF",
     "url": "https://www.aguafria.org/domain/85",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -19034,7 +19034,7 @@
   {
     "id": "R99SMT2jvCjJRqRGra2g6",
     "url": "https://www.ccsoh.us/domain/1926",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -19190,7 +19190,7 @@
   {
     "id": "lBTRjkiZqEdNvCSjTmoWG",
     "url": "https://panamcs.org/about/staff/",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -19501,7 +19501,7 @@
   {
     "id": "DftOgPW7iPtFR5MoeyKtH",
     "url": "https://adaire.philasd.org/faculty-and-staff/",
-    "source": "mhtml",
+    "source": "har",
     "category": "education",
     "subcategory": "contact",
     "type": "links_fetch",
@@ -19826,7 +19826,7 @@
   {
     "id": "OlYrsJi04Czdu7Uvl1mIF",
     "url": "https://mu.ariba.com/profile/public/certification/84d90260-ca95-e347-1800-c652cd6042c4?anId=AN01012014512&sourceApplication=SBN",
-    "source": "mhtml",
+    "source": "har",
     "category": "test",
     "subcategory": "test",
     "type": "links_fetch",

@@ -37,6 +37,12 @@ def create_test_file(
     ) as f:
         # noinspection PyUnresolvedReferences
         for test_content in tests:
+            folder_path: str = f"../../static/examples/{test_content.example.id}"
+            folder_path_abs: str = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), folder_path
+            )
+            har_path: str = os.path.join(folder_path_abs, "bananas.har")
+
             f.write(
                 f"""
 import pytest
@@ -85,6 +91,7 @@ async def page():
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         )
         page = await context.new_page()
+        {f'await page.route_from_har("{har_path}", not_found="fallback", update=False)' if test_content.example.source == "har" else ''}
         await stealth_async(page)
         yield page
         await browser.close()
