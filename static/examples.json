@@ -2,7 +2,7 @@
   {
     "id": "Fw6hoBmn7nm2KAy4YDzv9",
     "url": "https://www.mindstix.com/careers/machine-learning.html",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -40,7 +40,7 @@
   {
     "id": "lSwsaU5jAVRddpYTCsWEd",
     "url": "https://www.amazon.jobs/en/jobs/2482000/software-development-engineer-amazon-access",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -78,7 +78,7 @@
   {
     "id": "UEQ5bJeIeTst0YVL8ga9Z",
     "url": "https://openai.com/careers/software-engineer-fullstack",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -116,7 +116,7 @@
   {
     "id": "Hramb0PgtU7wHEj0D5OKj",
     "url": "https://www.metacareers.com/jobs/271783205502889/",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -154,7 +154,7 @@
   {
     "id": "xgnNjPdOMUY0LZ1GJdEsE",
     "url": "https://c3.ai/job-description/?gh_jid=6181786002",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
@@ -192,7 +192,7 @@
   {
     "id": "VPIrl5m9IfNLKS03UyzNH",
     "url": "https://jobs.careers.microsoft.com/global/en/job/1658879/Software-Engineering-II",
-    "source": "mhtml",
+    "source": "har",
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",

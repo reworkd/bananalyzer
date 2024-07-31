@@ -34,12 +34,17 @@ async def setup_and_save(examples: List[Example]) -> None:
         page.set_default_timeout(100000)
         client = await context.new_cdp_session(page)
 
-        for item in examples:
+        # Filter
+        examples = [e for e in examples if e.source == "mhtml"]
+
+        for i, item in enumerate(examples):
             try:
-                print(item.id, item.url)
-                folder_path: str = f"./python/bananalyzer/data/{item.id}"
-                os.makedirs(folder_path, exist_ok=True)
-                file_path: str = os.path.join(folder_path, "index.mhtml")
+                print(f"[{i + 1}/{len(examples)}]", item.id, item.url)
+
+                folder_path: str = f"examples/{item.id}"
+                folder_path_abs: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), folder_path)
+                os.makedirs(folder_path_abs, exist_ok=True)
+                file_path: str = os.path.join(folder_path_abs, "index.mhtml")
 
                 await page.goto(item.url)
                 await save_page_as_mhtml(client, page, file_path)
