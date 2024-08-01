@@ -90,10 +90,11 @@ async def page():
             ignore_https_errors=True,
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         )
+        {f'await context.route_from_har("{har_path}", not_found="fallback", update=True, update_content="embed")' if test_content.example.source == "har" else ''}
         page = await context.new_page()
-        {f'await page.route_from_har("{har_path}", not_found="fallback", update=False)' if test_content.example.source == "har" else ''}
         await stealth_async(page)
         yield page
+        await context.close()
         await browser.close()
 
 """
