@@ -20883,7 +20883,7 @@
     "source": "mhtml",
     "category": "productivity",
     "subcategory": "consumer",
-    "type": "fetch",
+    "type": "links_fetch",
     "goal": "Fetch a list of all of the to dos on the current page. Return as a list of objects of the following schema:\n{\"todo\":\n\t{\"type\": \"string\", \"description\": \"A single to do.\"}\n, \"is_complete\":\n\t{\"type\": \"boolean\"}\n}",
     "evals": [
       {
