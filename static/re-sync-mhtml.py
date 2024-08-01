@@ -42,7 +42,9 @@ async def setup_and_save(examples: List[Example]) -> None:
                 print(f"[{i + 1}/{len(examples)}]", item.id, item.url)
 
                 folder_path: str = f"examples/{item.id}"
-                folder_path_abs: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), folder_path)
+                folder_path_abs: str = os.path.join(
+                    os.path.dirname(os.path.abspath(__file__)), folder_path
+                )
                 os.makedirs(folder_path_abs, exist_ok=True)
                 file_path: str = os.path.join(folder_path_abs, "index.mhtml")
 

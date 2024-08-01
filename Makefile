@@ -51,6 +51,7 @@ format_fix: build_dev ## Fix code formatting using Docker
 		--rm \
 		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
 		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/src/$(DOCKER_IMAGE_TAG)/static" \
 		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
 		$(DOCKER_IMAGE_TAG) \
 		make FORMAT_FIX
@@ -68,6 +69,7 @@ format_check: build_dev ## Check code formatting using Docker
 		--rm \
 		-v "$(CWD)/bananalyzer:/src/$(DOCKER_IMAGE_TAG)/bananalyzer" \
 		-v "$(CWD)/server:/src/$(DOCKER_IMAGE_TAG)/server" \
+		-v "$(CWD)/static:/src/$(DOCKER_IMAGE_TAG)/static" \
 		-v "$(CWD)/tests:/src/$(DOCKER_IMAGE_TAG)/tests" \
 		$(DOCKER_IMAGE_TAG) \
 		make FORMAT_CHECK
