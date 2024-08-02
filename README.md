@@ -128,7 +128,7 @@ cd server
 poetry run uvicorn server:app --reload
 ```
 
-Then travel to `http://127.0.0.1:8000/api/docs` in your browser to see the API docs.
+Then travel to [http://127.0.0.1:8000/api/docs](http://127.0.0.1:8000/api/docs) in your browser to see the API docs.
 
 #### Adding examples
 

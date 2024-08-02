@@ -3,10 +3,20 @@ from pytest_mock import MockFixture
 
 from bananalyzer.data.schemas import Example
 from bananalyzer.runner.website_responder import (
+    HARWebsiteResponder,
     HostedWebsiteResponder,
     MHTMLWebsiteResponder,
     get_website_responder,
 )
+
+
+def test_get_website_responder_with_har_source(mocker: MockFixture) -> None:
+    example: Example = mocker.Mock()
+    example.source = "har"
+
+    responder = get_website_responder(example)
+
+    assert isinstance(responder, HARWebsiteResponder)
 
 
 def test_get_website_responder_with_mhtml_source(mocker: MockFixture) -> None:

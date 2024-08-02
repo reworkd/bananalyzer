@@ -32,7 +32,7 @@ def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
     return examples
 
 
-def download_mhtml(url: str) -> str:
+def download_file(url: str) -> str:
     import boto3
 
     s3 = boto3.client("s3", region_name="us-east-1")
@@ -42,8 +42,8 @@ def download_mhtml(url: str) -> str:
         key = "/".join(url.split("/")[3:])
 
         response = s3.get_object(Bucket=bucket_name, Key=key)
-        mhtml = response["Body"].read().decode("utf-8")
+        text = response["Body"].read().decode("utf-8")
 
-        return mhtml
+        return text
     else:
         raise NotImplementedError("Only s3:// URIs are currently supported")
