@@ -5024,85 +5024,86 @@
       {
         "type": "json_match",
         "expected": [
-          {
-            "title": "Reworkd (YC S23)",
-            "description": "As Founding Research Engineer, I develop AI agents that automate business workflows.",
-            "url": "https://reworkd.ai/",
-            "image_url": "https://rpandey.tech/static/consulting/reworkd.png"
-          },
-          {
-            "title": "Ousia",
-            "description": "SEO content writers have to deeply research their topic to know what to write about. Ousia automates research.",
-            "url": "https://ousia.ai/",
-            "image_url": "https://rpandey.tech/static/consulting/ousia.png"
-          },
-          {
-            "title": "Carnegie Mellon University \u2014 MultiComp",
-            "description": "Vision-Language Models drastically fail to represent & align compositional structure (e.g. \"mug in grass\" vs \"grass in mug\").",
-            "url": "https://rpandey.tech/static/consulting/cacr.png",
-            "image_url": "https://rpandey.tech/static/consulting/cacr.png"
-          },
-          {
-            "title": "Microsoft AI",
-            "description": "The AI Platform group at Microsoft builds infrastructure for enterprise-scale machine learning lifecycles on Azure.",
-            "url": "https://www.microsoft.com/en-us/ai/ai-platform",
-            "image_url": "https://rpandey.tech/static/consulting/azureml.jpeg"
-          },
-          {
-            "title": "Carnegie Mellon University \u2014 NeuLab",
-            "description": "Are large language models just learning co-occurence statistics, or can they capture compositional relations as encoded by semantic formalisms?",
-            "url": "https://rpandey.tech/static/consulting/neulab.jpeg",
-            "image_url": "https://rpandey.tech/static/consulting/neulab.jpeg"
-          },
-          {
-            "title": "Vizerto",
-            "description": "Vizerto is a digital sales assistant that makes domain-specific knowledge easily available to B2B sellers.",
-            "url": "https://vizerto.com/",
-            "image_url": "https://rpandey.tech/static/consulting/vizerto.gif"
-          },
-          {
-            "title": "Language & Dialogue Systems Lab",
-            "description": "Our conversational socialbot interacted with thousands of Amazon Alexa users every day, maintaining the top average user rating for 2 months straight against teams from Stanford, USC, and more.",
-            "url": "https://arxiv.org/abs/2111.02519",
-            "image_url": "https://rpandey.tech/static/consulting/athena.png"
-          },
-          {
-            "title": "SapientX",
-            "description": "SapientX builds white label intelligent voice assistants for cars, phones, fridges, and stores.",
-            "url": "https://sapientx.com/",
-            "image_url": "https://rpandey.tech/static/consulting/sapientx.png"
-          },
-          {
-            "title": "Language, Logic, & Cognition Lab",
-            "description": "Can deep reinforcement learning model how humans learn to parse syntax trees from experience?",
-            "url": "https://openreview.net/forum?id=X0V7WmYAyOM",
-            "image_url": "https://rpandey.tech/static/consulting/laloco.png"
-          },
-          {
-            "title": "Wordcab",
-            "description": "Wordcab summarizes business meetings using the latest in abstractive neural summarization tech.",
-            "url": "https://wordcab.com/",
-            "image_url": "https://rpandey.tech/static/consulting/wordcab.png"
-          },
-          {
-            "title": "Intheon",
-            "description": "Intheon builds neural data processing infrastructure used by labs across the world to simplify their brainwave analysis pipelines.",
-            "url": "https://intheon.io/",
-            "image_url": "https://rpandey.tech/static/consulting/intheon.gif"
-          },
-          {
-            "title": "Applied Machine Learning Lab",
-            "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
-            "url": null,
-            "image_url": "https://rpandey.tech/static/consulting/amll.png"
-          },
-          {
-            "title": "Bunch Inc",
-            "description": "Bunch builds enterprise-grade video & computer vision software while exploring related high risk-reward projects.",
-            "url": "https://bunchenterprise.com/",
-            "image_url": "https://rpandey.tech/static/consulting/bunch.gif"
-          }
-        ]
+
+            {
+              "title": "Reworkd (YC S23)",
+              "description": "As Founding Research Engineer, I develop AI agents that automate business workflows.",
+              "url": "https://reworkd.ai/",
+              "image_url": "https://rpandey.tech/static/consulting/reworkd.png"
+            },
+            {
+              "title": "Ousia",
+              "description": "SEO content writers have to deeply research their topic to know what to write about. Ousia automates research.",
+              "url": "https://ousia.ai/",
+              "image_url": "https://rpandey.tech/static/consulting/ousia.png"
+            },
+            {
+              "title": "Carnegie Mellon University \u2014 MultiComp",
+              "description": "Vision-Language Models drastically fail to represent & align compositional structure (e.g. \"mug in grass\" vs \"grass in mug\").",
+              "url": "https://rpandey.tech/static/consulting/cacr.png",
+              "image_url": "https://rpandey.tech/static/consulting/cacr.png"
+            },
+            {
+              "title": "Microsoft AI",
+              "description": "The AI Platform group at Microsoft builds infrastructure for enterprise-scale machine learning lifecycles on Azure.",
+              "url": "https://www.microsoft.com/en-us/ai/ai-platform",
+              "image_url": "https://rpandey.tech/static/consulting/azureml.jpeg"
+            },
+            {
+              "title": "Carnegie Mellon University \u2014 NeuLab",
+              "description": "Are large language models just learning co-occurence statistics, or can they capture compositional relations as encoded by semantic formalisms?",
+              "url": "https://rpandey.tech/static/consulting/neulab.jpeg",
+              "image_url": "https://rpandey.tech/static/consulting/neulab.jpeg"
+            },
+            {
+              "title": "Vizerto",
+              "description": "Vizerto is a digital sales assistant that makes domain-specific knowledge easily available to B2B sellers.",
+              "url": "https://vizerto.com/",
+              "image_url": "https://rpandey.tech/static/consulting/vizerto.gif"
+            },
+            {
+              "title": "Language & Dialogue Systems Lab",
+              "description": "Our conversational socialbot interacted with thousands of Amazon Alexa users every day, maintaining the top average user rating for 2 months straight against teams from Stanford, USC, and more.",
+              "url": "https://arxiv.org/abs/2111.02519",
+              "image_url": "https://rpandey.tech/static/consulting/athena.png"
+            },
+            {
+              "title": "SapientX",
+              "description": "SapientX builds white label intelligent voice assistants for cars, phones, fridges, and stores.",
+              "url": "https://sapientx.com/",
+              "image_url": "https://rpandey.tech/static/consulting/sapientx.png"
+            },
+            {
+              "title": "Language, Logic, & Cognition Lab",
+              "description": "Can deep reinforcement learning model how humans learn to parse syntax trees from experience?",
+              "url": "https://openreview.net/forum?id=X0V7WmYAyOM",
+              "image_url": "https://rpandey.tech/static/consulting/laloco.png"
+            },
+            {
+              "title": "Wordcab",
+              "description": "Wordcab summarizes business meetings using the latest in abstractive neural summarization tech.",
+              "url": "https://wordcab.com/",
+              "image_url": "https://rpandey.tech/static/consulting/wordcab.png"
+            },
+            {
+              "title": "Intheon",
+              "description": "Intheon builds neural data processing infrastructure used by labs across the world to simplify their brainwave analysis pipelines.",
+              "url": "https://intheon.io/",
+              "image_url": "https://rpandey.tech/static/consulting/intheon.gif"
+            },
+            {
+              "title": "Applied Machine Learning Lab",
+              "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
+              "url": null,
+              "image_url": "https://rpandey.tech/static/consulting/amll.png"
+            },
+            {
+              "title": "Bunch Inc",
+              "description": "Bunch builds enterprise-grade video & computer vision software while exploring related high risk-reward projects.",
+              "url": "https://bunchenterprise.com/",
+              "image_url": "https://rpandey.tech/static/consulting/bunch.gif"
+            }
+          ]
       }
     ]
   },
