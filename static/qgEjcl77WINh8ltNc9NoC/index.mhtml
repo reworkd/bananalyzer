@@ -2009,17 +2009,6 @@ ive;">Report a map error</a></div></div></div></div></div></div></div>
            =20
 
            =20
-            <div id=3D"paging-component-1794ba63bc454d1ba3bc2deed237f34f" c=
-lass=3D"paging-component-container">
-                <a role=3D"button" aria-label=3D"Click for previous page of=
- locations" class=3D"previous-button" data-page=3D"prev" disabled=3D"disabl=
-ed" data-whld=3D"tested" data-whld_appointments=3D"tested"></a>
-                <div class=3D"paging-component"><a href=3D"https://www.swed=
-ish.org/locations?page=3D1" class=3D"page-item active ">1</a></div>
-                <a role=3D"button" aria-label=3D"Click for next page of loc=
-ations" class=3D"next-button" data-page=3D"next" disabled=3D"disabled" data=
--whld=3D"tested" data-whld_appointments=3D"tested"></a>
-            </div>
            =20
 
 
