@@ -18810,7 +18810,6 @@
   {
     "id": "QxSSau0T34NCk6O1bq4Cd",
     "url": "https://jobs.senate.ca.gov/office-of-senator-becker-legislative-aide-530",
-    "mhtml_url": null,
     "source": "mhtml",
     "category": "government",
     "subcategory": "careers",
@@ -18849,7 +18848,6 @@
   {
     "id": "yXLMF4nocYqJnql2dt71R",
     "url": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Process-Improvement-PMO-II_R01128732",
-    "mhtml_url": null,
     "source": "mhtml",
     "category": "manufacturing",
     "subcategory": "careers",
@@ -18884,7 +18882,6 @@
   {
     "id": "NV6JL1wEHaTPuK65dKt6t",
     "url": "https://apply.jobappnetwork.com/clients/18760/posting/9615297/en?utm_source=google.com",
-    "mhtml_url": null,
     "source": "mhtml",
     "category": "retail",
     "subcategory": "careers",
@@ -20874,6 +20871,182 @@
         "expected": [
           "This example has a dynamic download. We should either make it an HREF or wait until we support dynamic downloads in evals"
         ]
+      }
+    ]
+  },
+  {
+    "id": "TSpNt8AwAPpuGuQt1GAdQ",
+    "url": "https://www.nike.com/w/clothing-6ymx6",
+    "resource_path": "./static/nike_com/index.har",
+    "source": "har",
+    "category": "clothing",
+    "subcategory": "commerce",
+    "type": "links",
+    "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.nike.com/t/team-usa-womens-jacket-zjlwwG/DZ3572-492",
+          "https://www.nike.com/t/usa-mens-pants-JJRqqV/DZ3562-492",
+          "https://www.nike.com/t/team-usa-mens-jacket-MB00tL/DZ3559-492",
+          "https://www.nike.com/t/usa-womens-pants-vg65X2/DZ3574-492",
+          "https://www.nike.com/t/swoosh-medium-support-womens-padded-sports-bra-Cs7JP2/DX6821-657",
+          "https://www.nike.com/t/zenvy-womens-gentle-support-high-waisted-5-biker-shorts-tZ1bvJ/FN3156-010",
+          "https://www.nike.com/t/sportswear-electric-mens-max90-t-shirt-x8rGkl/HM5095-475",
+          "https://www.nike.com/t/freestyle-womens-light-support-padded-sports-bra-jFd4WB/FV6270-100",
+          "https://www.nike.com/t/sportswear-womens-oversized-french-terry-shrug-29dNN6/FV7509-063",
+          "https://www.nike.com/t/sportswear-womens-low-rise-oversized-french-terry-open-hem-pants-dN4QT1/FV7512-010",
+          "https://www.nike.com/t/sportswear-womens-oversized-full-zip-french-terry-hoodie-Vb7jz1/FV7515-010",
+          "https://www.nike.com/t/jacquemus-womens-bra-thdc0b/FV5678-100",
+          "https://www.nike.com/t/jacquemus-womens-skirt-6nRSWJ/FV5674-100",
+          "https://www.nike.com/t/jacquemus-womens-dress-8pGHB4/FV5682-100",
+          "https://www.nike.com/t/jacquemus-womens-high-neck-1-piece-swimsuit-QL5PGM/NESSE340-100",
+          "https://www.nike.com/t/jacquemus-short-sleeve-t-shirt-mhzZpG/HF7111-100",
+          "https://www.nike.com/t/jacquemus-womens-track-jacket-zT6Br4/FV5689-073",
+          "https://www.nike.com/t/jacquemus-track-jacket-2KLXqN/FV5697-073",
+          "https://www.nike.com/t/jacquemus-track-pants-TKRDSl/FV5701-073",
+          "https://www.nike.com/t/team-usa-solo-swoosh-mens-crew-neck-sweatshirt-Bb2PmL/FN1136-133",
+          "https://www.nike.com/t/team-usa-phoenix-fleece-womens-crew-neck-sweatshirt-CGNtvB/FN0982-133",
+          "https://www.nike.com/t/usa-essential-womens-t-shirt-fFZ74p/FN0874-133",
+          "https://www.nike.com/t/usa-premium-essential-mens-t-shirt-ZSQ6v8/FN0866-133",
+          "https://www.nike.com/t/usa-phoenix-fleece-womens-pullover-hoodie-wHHGmv/FN2831-100"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Fl6lm6MlkVitpW1wi3cJS",
+    "url": "https://www.nike.com/t/team-usa-womens-jacket-zjlwwG/DZ3572-492",
+    "resource_path": "./static/nike_com/index.har",
+    "source": "har",
+    "category": "clothing",
+    "subcategory": "commerce",
+    "type": "fetch",
+    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "DZ3572-492",
+          "product_name": "Team USA - Women's Nike Jacket",
+          "categories": [],
+          "product_description": "Here's your chance to shine like your nation's very best. Made specially for the podium, this Team USA jacket features stretch woven fabric and ventilation on the sleeves and chest. A sweat-wicking liner helps add some cool comfort and a softer touch on your skin.Shown: Blue Void/Hyper Royal/WhiteStyle: DZ3572-492",
+          "price": "400",
+          "discounted_price": null,
+          "size": [
+            "XS (0\u20132)",
+            "S (4\u20136)",
+            "M (8\u201310)",
+            "L (12\u201314)",
+            "XL (16\u201318)",
+            "XXL (20\u201322)"
+          ],
+          "color": [],
+          "images": [
+            "https://static.nike.com/a/images/t_default/f78afbeb-ad0e-4196-91cc-6ef75c618e21/USA+W+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/2702b29e-3e51-40e4-9c19-95e8c61dbe5e/USA+W+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/229e4da4-e951-4248-bc9e-c58912bad5f0/USA+W+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/5af942b9-66f5-4565-a5ab-7908d4dc6488/USA+W+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/42933e98-0945-4ce2-bc91-cd2f2602cc8c/USA+W+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/4c6d9912-3ce1-4155-9383-08327c06a72e/USA+W+NK+JKT+MS+OLY.png"
+          ],
+          "availability": null,
+          "shipping_details": "ShippingYou'll see our shipping options at checkout.Free PickupFind a Store",
+          "return_policy": null,
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "2XvCA8DhLQ29cIQ0csbTL",
+    "url": "https://www.nike.com/t/usa-mens-pants-JJRqqV/DZ3562-492",
+    "resource_path": "./static/nike_com/index.har",
+    "source": "har",
+    "category": "clothing",
+    "subcategory": "commerce",
+    "type": "fetch",
+    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "DZ3562-492",
+          "product_name": "USA - Men's Nike Pants",
+          "categories": [],
+          "product_description": "Here's your chance to shine like your nation's very best. Made specially for the podium, these USA pants feature stretch woven fabric and ventilation at the back of the knees. A sweat-wicking liner helps add some cool comfort and a softer touch on your skin.Shown: Blue Void/Hyper Royal/WhiteStyle: DZ3562-492",
+          "price": "300",
+          "discounted_price": null,
+          "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "color": [],
+          "images": [
+            "https://static.nike.com/a/images/t_default/8ad870a4-0705-4f0b-89a0-1c3304912255/USA+M+NK+PANT+MS.png",
+            "https://static.nike.com/a/images/t_default/7689217b-6807-4c64-8db8-91b5e34d4c48/USA+M+NK+PANT+MS.png",
+            "https://static.nike.com/a/images/t_default/0f1be5cd-11df-4ce5-9c50-98449ca5116f/USA+M+NK+PANT+MS.png",
+            "https://static.nike.com/a/images/t_default/2ba47133-bc88-4e0f-8739-069253bb7a9e/USA+M+NK+PANT+MS.png",
+            "https://static.nike.com/a/images/t_default/eaf5ddfc-e11f-4cf2-ba3e-02ee840ae9de/USA+M+NK+PANT+MS.png",
+            "https://static.nike.com/a/images/t_default/ab3a9f75-9de1-4992-9fd1-ce266d1de12e/USA+M+NK+PANT+MS.png"
+          ],
+          "availability": null,
+          "shipping_details": "ShippingYou'll see our shipping options at checkout.Free PickupFind a Store",
+          "return_policy": null,
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SHvk7xStyab657ijsPQug",
+    "url": "https://www.nike.com/t/team-usa-mens-jacket-MB00tL/DZ3559-492",
+    "resource_path": "./static/nike_com/index.har",
+    "source": "har",
+    "category": "clothing",
+    "subcategory": "commerce",
+    "type": "fetch",
+    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
+    "fetch_id": "manufacturing_commerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "DZ3559-492",
+          "product_name": "Team USA - Men's Nike Jacket",
+          "categories": [],
+          "product_description": "Here's your chance to shine like your nation's very best. Made specially for the podium, this Team USA jacket features stretch woven fabric and ventilation on the sleeves and chest. A sweat-wicking liner helps add some cool comfort and a softer touch on your skin.Shown: Blue Void/Hyper Royal/WhiteStyle: DZ3559-492",
+          "price": "400",
+          "discounted_price": null,
+          "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "color": [],
+          "images": [
+            "https://static.nike.com/a/images/t_default/94161bfd-ab07-4b78-92a4-c53ccc0ed24b/USA+M+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/e413748a-b0a8-48df-8f5e-75370fa8ebb8/USA+M+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/f31ec511-f5de-4b57-8e7d-affd9ba60726/USA+M+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/d7426e43-6294-4ffe-b94f-61a455842731/USA+M+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/9df27494-b842-4106-bfa9-15ea397c94f6/USA+M+NK+JKT+MS+OLY.png",
+            "https://static.nike.com/a/images/t_default/171f51c6-1f61-4682-b5f0-8885ac084d63/USA+M+NK+JKT+MS+OLY.png"
+          ],
+          "availability": null,
+          "shipping_details": "ShippingYou'll see our shipping options at checkout.Free PickupFind a Store",
+          "return_policy": null,
+          "tags": []
+        }
       }
     ]
   }

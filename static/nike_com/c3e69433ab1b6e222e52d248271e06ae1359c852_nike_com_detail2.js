@@ -1,0 +1,1 @@
+!function(){"use strict";try{window.snaptr.cfg('33a360ef-51f9-46b3-93f1-3859a357fd3f',{"asc":[],"gw":null,"a":[],"ipg":"1","b":["MD","BTC","DT","IP6"],"t":"","v":"3.7.5-2401032347","tpd":[],"ec":[]})}catch(e){}}();

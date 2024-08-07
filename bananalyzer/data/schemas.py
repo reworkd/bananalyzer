@@ -104,11 +104,11 @@ FetchId = Literal[
 class Example(BaseModel):
     id: str
     url: str
-    mhtml_url: Optional[str] = Field(
-        description="URL of the mhtml file if it is hosted on e.g. AWS S3",
+    resource_path: Optional[str] = Field(
+        description="Local path of a HAR or remote URL of a HAR/MHTML if hosted on e.g. AWS S3",
         default=None,
     )
-    source: Literal["mhtml", "hosted"] = Field(description="Source of the website")
+    source: Literal["mhtml", "hosted", "har"] = Field(description="Source of the website")
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: GoalType = Field(

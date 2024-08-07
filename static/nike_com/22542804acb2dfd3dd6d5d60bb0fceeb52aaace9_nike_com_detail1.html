@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nike</title>
+    <!-- include esi template string for audience segmentation via env variable ESI_AUDIENCE_SEGMENTATION -->
+    %ESI_AUDIENCE_SEGMENTATION%
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script>
+    document.domain = `nike.com`;
+    const allowedOrigins = [
+      `https://www.nike.com`,
+      `https://localhost.nike.com`,
+      `https://gs-checkout.nike.com`,
+      `https://gs.nike.com`,
+      `https://gs-profilemanagement.nike.com`,
+      `https://www.nike.com.cn`,
+      `https://uat.nike.com`
+    ];
+
+    function setVisitData(visitData) {
+      const stringifiedVisitData = JSON.stringify(visitData);
+      window.localStorage.setItem(`visitData`, stringifiedVisitData);
+      window.sessionStorage.setItem(`visitDataProcessed`, `true`);
+    }
+
+    function getVisitData() {
+      const visitData = JSON.parse(window.localStorage.getItem(`visitData`));
+
+      if (!visitData) {
+        parent.postMessage(
+          {
+            type: `generateVisitData`,
+          },
+          `*`
+        );
+        return;
+      }
+
+      const visitDataProcessed =
+        window.sessionStorage.getItem(`visitDataProcessed`);
+      const shouldIncrementVisitIdCount =
+        visitData && visitDataProcessed !== `true`;
+
+      if (shouldIncrementVisitIdCount) {
+        const newVisitData = {
+          visitId: visitData.visitId + 1 || visitData.visit + 1,
+          visitorId: visitData.visitorId || visitData.visitor,
+        };
+        parent.postMessage(
+          {
+            visitData: newVisitData,
+            type: `setVisitData`,
+          },
+          `*`
+        );
+        setVisitData(newVisitData);
+        return;
+      }
+      parent.postMessage(
+        {
+          visitData: visitData,
+          type: `setVisitData`,
+        },
+        `*`
+      );
+    }
+
+    function onMessage(event) {
+      if (!allowedOrigins.includes(event.origin)) return;
+
+      switch (event.data.type) {
+        case `getVisitData`:
+          getVisitData();
+          break;
+        case `setVisitData`: 
+          setVisitData(event.data.visitData);
+          break;
+        default:
+          break;
+      }
+    }
+
+    window.addEventListener(`message`, onMessage, false);
+    parent.postMessage({ type: `gsIframeReady` }, `*`);
+  </script>
+<script type="text/javascript"  src="/9iguxd/yYIJUP/MMpVI/-tfxA/eb/c9fOJJbht1kfuf/c2JaKg/JwN/MBSo-LQ4"></script></body>
+
+</html>
