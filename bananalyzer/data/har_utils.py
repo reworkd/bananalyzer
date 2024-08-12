@@ -17,23 +17,6 @@ from harambe.observer import InMemoryObserver
 from bananalyzer.data.schemas import Example
 
 
-async def serve_multipage_example(base_url: str, example_dir_path: str) -> None:
-    har_path = os.path.abspath(f"{example_dir_path}/index.har")
-
-    async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(headless=False)
-        context = await browser.new_context(service_workers="block")
-
-        await context.route_from_har(har_path, not_found="abort", update=False)
-
-        page = await context.new_page()
-        await context.new_cdp_session(page)
-
-        await page.goto(base_url)
-
-        await asyncio.sleep(30)
-
-
 def fuse_hars(base_har_path: str, target_har_paths: list[str]) -> None:
     """
     Takes a base HAR file path and a list of target HAR file paths, reads their content, and combines the target HARs into the base HAR.
@@ -190,116 +173,128 @@ async def create_end2end_examples(
 
     with open(f"./static/examples.json", "r+") as file:
         current_data = json.load(file)
-        current_data.extend([example.model_dump(exclude_unset=True, exclude_none=True) for example in examples])
+        current_data.extend(
+            [
+                example.model_dump(exclude_unset=True, exclude_none=True)
+                for example in examples
+            ]
+        )
         file.seek(0)
         file.truncate()
         json.dump(current_data, file, indent=2)
-
 
 
 async def scrape_listing(
     sdk: harambe.SDK, current_url: str, *args: Any, **kwargs: Any
 ) -> None:
     page: Page = sdk.page
-    # await page.goto(current_url)
-    await page.wait_for_timeout(5000)
-
-    # previous_height = await page.evaluate('document.body.scrollHeight')
-    # while True:
-    #     await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
-    #     await asyncio.sleep(3)  # Wait for new data to load
-    #     current_height = await page.evaluate('document.body.scrollHeight')
-    #     if current_height == previous_height:
-    #         break  # No more new data
-    #     previous_height = current_height
-    #     await page.wait_for_selector('.product-card__body > figure > .product-card__link-overlay', timeout=15000)
-
-    faculty_rows = await page.query_selector_all(
-        ".product-card__body > figure > .product-card__link-overlay"
-    )
+    await page.wait_for_timeout(2000)
+    await page.wait_for_selector('.information')
+    faculty_rows = await page.query_selector_all('.information a.au-target')
     for row in faculty_rows:
-        next_url = await row.get_attribute("href")
+        next_url = await row.get_attribute('href')
         if next_url:
             await sdk.enqueue(next_url)
 
+    async def pager():
+        next_page_link = await page.query_selector(
+            '.pagination > li > a[data-ph-tevent-attr-trait214="Next"]'
+        )
+        return next_page_link
+
+    await sdk.paginate(pager)
 
 async def scrape_detail(
     sdk: harambe.SDK, current_url: str, *args: Any, **kwargs: Any
 ) -> None:
     page: Page = sdk.page
-    await page.wait_for_timeout(2000)
-    # await page.wait_for_selector('#pdp_product_title')
     await page.wait_for_load_state('networkidle')
-    
-    product_name_element = await page.query_selector("#pdp_product_title")
-    product_subname_element = await page.query_selector("#pdp_product_subtitle")
-    product_name = await product_name_element.inner_text() if product_name_element else None
-    product_subname = await product_subname_element.inner_text() if product_subname_element else None
-    if product_name and product_subname:
-        product_name = f"{product_name} - {product_subname}"
-    elif product_subname:
-        product_name = product_subname
+    await page.wait_for_selector('h1.job-title')
+    title_element = await page.query_selector("h1.job-title")
+    department_element = await page.query_selector('.job-category')
+    job_id_element = await page.query_selector('.jobId')
+    job_description_element = await page.query_selector('.job-description')
+    locations_elements = await page.query_selector_all('.au-target.cityState')
+    employment_type_element = await page.query_selector('.au-target.type')
+    apply_url_element = await page.query_selector('a[title="Apply Now"]')
+    language_element = await page.query_selector('html')
+    skills_element = await page.query_selector('.job-description p:has-text("Responsibilities")')
+    qualifications_element = await page.query_selector('.job-description p:has-text("Required"), .job-description p:has-text("Requirements"), .job-description p:has-text("Qualifications")')
+    preferred_skills_element = await page.query_selector('.job-description p:has-text("Preferred")')
+    ul_elements = await page.query_selector_all('.job-description ul')
+    qualifications = await qualifications_element.evaluate('''(element) => {
+        let nextSibling = element.nextElementSibling;
+            while (nextSibling) {
+                if (nextSibling.tagName === "UL") {
+                    return nextSibling.textContent;
+                }
+                nextSibling = nextSibling.nextElementSibling;
+            }
+            return null; // If no next <ul> tag is found
+        }''') if qualifications_element else None
 
-    categories_elements = await page.query_selector_all('h2[data-test="product-sub-title"]')
-    categories = [await x.inner_text() for x in categories_elements if x]
-    categories = list(set(categories))
+    preferred_skills = await preferred_skills_element.evaluate('''(element) => {
+        let nextSibling = element.nextElementSibling;
+            while (nextSibling) {
+                if (nextSibling.tagName === "UL") {
+                    return nextSibling.textContent;
+                }
+                nextSibling = nextSibling.nextElementSibling;
+            }
+            return null; // If no next <ul> tag is found
+        }''') if preferred_skills_element else None
 
-    product_description_button = await page.query_selector(".btn-lg.readMoreBtn")
-    if product_description_button:
-        await product_description_button.click()
-        await page.wait_for_timeout(1000)
-        await page.wait_for_selector('.pi-pdpmainbody')
-        product_description_element = await page.query_selector(".pi-pdpmainbody")
-        close_button = await page.query_selector(".dialog__close-btn.close-btn")
-        await close_button.click()
-        await page.wait_for_timeout(1000)
-    else:
-        product_description_element = await page.query_selector("#product-description-container")
-    product_description = await product_description_element.text_content() if product_description_element else None
+    skills = await skills_element.evaluate('''(element) => {
+        let nextSibling = element.nextElementSibling;
+            while (nextSibling) {
+                if (nextSibling.tagName === "UL") {
+                    return nextSibling.textContent;
+                }
+                nextSibling = nextSibling.nextElementSibling;
+            }
+            return null; // If no next <ul> tag is found
+        }''') if skills_element else None
 
-    price_elements = await page.query_selector_all("#price-container > span")
-    if len(price_elements) == 2:
-        discounted_price_element, price_element = price_elements
-    else:
-        price_element = price_elements[0]
-        discounted_price_element = None
-    price = await price_element.text_content() if price_element else None
-    price = re.sub(r'[^0-9.]', '', price) if price else None
-    discounted_price = await discounted_price_element.text_content() if discounted_price_element else None
-    discounted_price = re.sub(r'[^0-9.]', '', discounted_price) if discounted_price else None
+    if not qualifications:
+        qualifications = await ul_elements[1].text_content() if ul_elements and len(ul_elements) > 1 else None
+    if not skills:
+        skills = await ul_elements[0].text_content() if ul_elements else None
+    if not preferred_skills:
+        preferred_skills = await ul_elements[2].text_content() if ul_elements and len(ul_elements) > 2 else None
 
-    size_elements = await page.query_selector_all("#size-selector > fieldset > div > div")
-    size = [await x.inner_text() for x in size_elements if x]
-    size = [x.strip() for x in size if x]
-
-    color_elements = await page.query_selector_all("#colorway-picker-container > a > img")
-    color = [await x.get_attribute("alt") for x in color_elements if x]
-    color = [x.strip() for x in color if x]
-
-    images_elements = await page.query_selector_all('[data-testid="ThumbnailListContainer"] > div > label > img')
-    images = [await x.get_attribute("src") for x in images_elements if x]
-
-    shipping_details_element = await page.query_selector('#shippingPickup')
-    shipping_details = await shipping_details_element.text_content() if shipping_details_element else None
-
-    # return_policy_element = await page.query_selector('details[data-test="shippingAccordionClick"]')
-    # return_policy = await return_policy_element.text_content() if return_policy_element else None
-
+    job_id = await job_id_element.inner_text() if job_id_element else None
+    job_id = job_id.split("\n")[-1].strip() if job_id else job_id
+    title = await title_element.inner_text() if title_element else None
+    department = await department_element.inner_text() if department_element else None
+    department = department.split("\n")[-1].strip() if department else department
+    job_description = await job_description_element.inner_text() if job_description_element else None
+    locations = [await x.inner_text() for x in locations_elements if x]
+    sub_points = job_description.split("\n\n")
+    sub_points = [x for x in sub_points if x.strip()]
+    job_benefits = " ".join([x for x in sub_points if "benefits" in x.lower() or "compensation" in x.lower()]) if [x for x in sub_points if "benefits" in x.lower() or "compensation" in x.lower()] else None
+    apply_url = await apply_url_element.get_attribute("href") if apply_url_element else None
+    employment_type = await employment_type_element.inner_text() if employment_type_element else None
+    employment_type = employment_type.split("\n")[-1].strip() if employment_type else employment_type
+    language = await language_element.get_attribute("lang") if language_element else None
     await sdk.save_data(
         {
-            "product_id": current_url.rsplit("/")[-1],
-            "product_name": product_name,
-            "categories": categories,
-            "product_description": product_description,
-            "price": price,
-            "discounted_price": discounted_price,
-            "size": size,
-            "color": color,
-            "images": images,
-            "availability": None,
-            "shipping_details": shipping_details,
-            "return_policy": None,
-            "tags": categories,
+            "job_id": job_id,
+            "department": department,
+            "title": title,
+            "job_description": job_description,
+            "locations": locations,
+            "job_type": None,
+            "date_posted": None,
+            "apply_url": apply_url,
+            "job_benefits": job_benefits,
+            "qualifications": qualifications,
+            "preferred_skills": preferred_skills,
+            "skills": skills,
+            "recruiter_email": None,
+            "application_deadline": None,
+            "language": language,
+            "employment_type": employment_type,
+            "tags": [],
         }
     )
 
@@ -317,16 +312,14 @@ if __name__ == "__main__":
     # write expected 1 listing & 3 detail examples to examples.json
     #    include subpage path for detail examples. no! just use url attribute
 
-    base_url = "https://www.nike.com/w/clothing-6ymx6"
+    base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
     metadata = {
-        "category": "clothing",
-        "subcategory": "commerce",
-        "fetch_id": "manufacturing_commerce",
-        "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+        "category": "software",
+        "subcategory": "careers",
+        "fetch_id": "job_posting",
+        "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
     }
 
     asyncio.run(
         create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail)
     )
-
-    # asyncio.run(serve_multipage_example(base_url, "./static/{}"))

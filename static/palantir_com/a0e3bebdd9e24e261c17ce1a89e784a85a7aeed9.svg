@@ -1,0 +1,11 @@
+<svg viewBox="0 0 218 218" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @media (prefers-color-scheme: dark) {
+            path { fill: #FFFFFF; }
+        }
+    </style>
+    <g data-name="square">
+        <path d="M109 0C64 0 27.1 37.4 27.1 83S64 166 109 166s81.9-37.4 81.9-83S154 0 109 0Zm0 140.47c-31.5 0-56.7-25.54-56.7-57.47S77.5 25.54 109 25.54 165.7 51.08 165.7 83c-.9 31.93-26.1 57.47-56.7 57.47Zm72.9 18.24L109 190.64l-72.9-31.93-12.6 22.8L109 218l85.5-36.49Z" fill="#1E2124"/>
+        <path d="M0 0h218v218H0z" style="fill:none"/>
+    </g>
+</svg>

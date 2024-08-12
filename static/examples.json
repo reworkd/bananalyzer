@@ -21049,5 +21049,1026 @@
         }
       }
     ]
+  },
+  {
+    "id": "9gAPj4gMFiNXT3Xli0k5H",
+    "url": "https://www.palantir.com/careers/",
+    "resource_path": "palantir_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "links",
+    "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://jobs.lever.co/palantir/32579f9c-0088-40cb-bb0b-ed45a35bcb19",
+          "https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798",
+          "https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488",
+          "https://jobs.lever.co/palantir/0d5c02bc-d71f-440d-9d01-edb57dbc553e",
+          "https://jobs.lever.co/palantir/626adb29-11d9-48d3-96d4-562e52dead45",
+          "https://jobs.lever.co/palantir/408f68f4-73a4-4c59-8937-93f5ca317864",
+          "https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0",
+          "https://jobs.lever.co/palantir/e0ab8226-b928-4e3a-bf87-08fe7b1ea595",
+          "https://jobs.lever.co/palantir/2e193bdf-e668-49c1-ba32-66cc1aa131a4",
+          "https://jobs.lever.co/palantir/31d461a1-4327-4317-8555-04e2a2fe74b8",
+          "https://jobs.lever.co/palantir/8dbf6077-1cae-4f34-9389-ffb6dcfde04b",
+          "https://jobs.lever.co/palantir/8fcae765-de9a-4990-ba84-e65b524d683b",
+          "https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e",
+          "https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363",
+          "https://jobs.lever.co/palantir/2b5a3949-066a-4c70-a0bc-b664e2322ae1",
+          "https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f",
+          "https://jobs.lever.co/palantir/ce8ca664-60dc-4f9a-8986-3c96673bcfdf",
+          "https://jobs.lever.co/palantir/e82b696e-a085-4bbf-8bcb-6d2c4f8cf2f7",
+          "https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64",
+          "https://jobs.lever.co/palantir/1298aa31-a73f-4346-b2e3-837fd01a40e7",
+          "https://jobs.lever.co/palantir/0443ac40-a628-4562-b45d-88c006dac9c5",
+          "https://jobs.lever.co/palantir/ede8427c-4768-45f8-8d7a-3af8d9a69f83",
+          "https://jobs.lever.co/palantir/57a3f928-e7d3-4037-8196-b38e2f867152",
+          "https://jobs.lever.co/palantir/2f3a0a57-8f77-44d2-99c3-18aef115374f",
+          "https://jobs.lever.co/palantir/558f607f-79ef-4911-b2cf-6b05c3a61072",
+          "https://jobs.lever.co/palantir/d084b769-6f53-4409-afa8-c183b059b384",
+          "https://jobs.lever.co/palantir/0d61f00a-f017-46fb-b3aa-c81d2955281b",
+          "https://jobs.lever.co/palantir/3f8ec8ce-6d54-485d-a2c2-32b375f464c5",
+          "https://jobs.lever.co/palantir/dec0d987-ecf3-4e48-85c5-214807b11d28",
+          "https://jobs.lever.co/palantir/5d20de9d-2eaa-4088-a094-4285ccc71490",
+          "https://jobs.lever.co/palantir/673b6f1f-f280-49b6-a31a-d63e811e871c",
+          "https://jobs.lever.co/palantir/d974aa03-717c-42be-b7a8-578f07a8ad0e",
+          "https://jobs.lever.co/palantir/b82ec479-bcf4-4a4d-b1b4-a8017652bcee",
+          "https://jobs.lever.co/palantir/77aeb882-b8cf-4e52-89ec-a64b3ae0ed87",
+          "https://jobs.lever.co/palantir/4977f221-5a1c-43db-8fcc-a2e57c4cf9a2",
+          "https://jobs.lever.co/palantir/cd42430e-3f8f-4680-9d62-72ab3a6c666c",
+          "https://jobs.lever.co/palantir/4696ca2d-ddc7-4c58-9d74-6bc388d301a4",
+          "https://jobs.lever.co/palantir/6325bf58-88c9-4611-b7ba-fae729295a41",
+          "https://jobs.lever.co/palantir/a8957b0f-feb4-44a2-990a-56ef2c7406d7",
+          "https://jobs.lever.co/palantir/e5b8c2f0-aa26-4615-ba92-f4b5c175c112",
+          "https://jobs.lever.co/palantir/6f5cf287-1d3e-4c10-abf6-18cf4c955ded",
+          "https://jobs.lever.co/palantir/ead4e034-e6e1-4993-86d1-ad9b8e2933a5",
+          "https://jobs.lever.co/palantir/30c2563d-9a16-4dd7-81e8-b6f646384199",
+          "https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987",
+          "https://jobs.lever.co/palantir/d2a87a1d-63f4-4dcd-b0d0-f6be91fed4d3",
+          "https://jobs.lever.co/palantir/ebc22479-dee9-4fa1-9982-b18954687bfa",
+          "https://jobs.lever.co/palantir/5561b409-7cee-4ecf-8d64-b6ac4bba7632",
+          "https://jobs.lever.co/palantir/e2b9a541-261a-4d47-a12f-dcb0d4ebfcf7",
+          "https://jobs.lever.co/palantir/6304f2db-d168-48fc-b648-98ecccdf75a7",
+          "https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb",
+          "https://jobs.lever.co/palantir/10dfc8bc-99ad-4ca2-ab76-853cb90a92c2",
+          "https://jobs.lever.co/palantir/a6011eee-a903-4611-a5ff-78e4f9d9b8a4",
+          "https://jobs.lever.co/palantir/33bca75a-84d2-4023-afa2-7a9743f41d89",
+          "https://jobs.lever.co/palantir/f70cdff7-c62f-4b73-a136-909e5e3d1891",
+          "https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c",
+          "https://jobs.lever.co/palantir/c44510a1-9537-4c52-ae81-51546979fe47",
+          "https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7",
+          "https://jobs.lever.co/palantir/96e4295f-3af7-48e5-a2c8-74622eaf5587",
+          "https://jobs.lever.co/palantir/6a82fd06-5754-46c2-8214-9ca4cd89fb9d",
+          "https://jobs.lever.co/palantir/4255e21c-d0f2-4f57-b5db-1f65830d6425",
+          "https://jobs.lever.co/palantir/e75d4093-0972-4a83-b686-e6886c8eeb7c",
+          "https://jobs.lever.co/palantir/5e70bf3e-6383-4d1f-a53c-32ca6fbfeb4a",
+          "https://jobs.lever.co/palantir/c8dd327c-6229-43f9-86c2-75835a8eed00",
+          "https://jobs.lever.co/palantir/74aed644-d963-4c5d-b7a0-149bc35f9c50",
+          "https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15",
+          "https://jobs.lever.co/palantir/091e3c05-e602-4bf7-b653-4986096d33fc",
+          "https://jobs.lever.co/palantir/ba809804-6d03-4697-a8be-8704e99161b7",
+          "https://jobs.lever.co/palantir/c9426c38-9c6f-44bc-acad-bb2e6ed315f6",
+          "https://jobs.lever.co/palantir/95a76f41-97a4-4696-ade3-9c5a47a569c7",
+          "https://jobs.lever.co/palantir/010d1675-c88f-45db-8a65-27e92290bcbf",
+          "https://jobs.lever.co/palantir/dc02f308-bbcc-4163-b4fb-3f68efb2ce24",
+          "https://jobs.lever.co/palantir/854e71f1-ad64-4edf-ad67-5f9a29f4a57b",
+          "https://jobs.lever.co/palantir/2d8b7eaa-5c08-44ef-a0f0-5a96cee2794d",
+          "https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f",
+          "https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262",
+          "https://jobs.lever.co/palantir/c38bb622-6f8e-43a1-8ae7-32291da328a8",
+          "https://jobs.lever.co/palantir/55005ee7-4e06-4520-b569-f6e8f26745cb",
+          "https://jobs.lever.co/palantir/39c57909-ae76-4c86-9290-9fb50c689c4f",
+          "https://jobs.lever.co/palantir/acfdba79-b182-43dd-ae5f-ee1891f048fc",
+          "https://jobs.lever.co/palantir/6fe0ac27-7aca-4a1f-b3cf-73c7fd2ad442",
+          "https://jobs.lever.co/palantir/ce033f9c-fa49-43ea-8982-79453401bd1f",
+          "https://jobs.lever.co/palantir/17ef7e62-4893-402f-9304-452594065e00",
+          "https://jobs.lever.co/palantir/8e301907-9427-46e7-9c9e-718d9b719736",
+          "https://jobs.lever.co/palantir/249928ac-db4b-4184-874d-71912a941325",
+          "https://jobs.lever.co/palantir/8a95dba1-b814-4243-be14-eba1df340ceb",
+          "https://jobs.lever.co/palantir/7f23f5d5-e914-4d52-9cc3-88d2c11e9dc2",
+          "https://jobs.lever.co/palantir/f75cb0d2-6608-450b-848e-0f27937c930d",
+          "https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c",
+          "https://jobs.lever.co/palantir/b8dfd458-f228-4fec-93c0-d06a4badad03",
+          "https://jobs.lever.co/palantir/21173e4e-1960-4325-b423-562a083efe09",
+          "https://jobs.lever.co/palantir/3c63ce47-db02-407e-b610-4684d94167d8",
+          "https://jobs.lever.co/palantir/a263703e-5875-4af5-9196-4c40808d2611",
+          "https://jobs.lever.co/palantir/0dd51d8f-aa78-49f9-ae39-e3b2daa082d1",
+          "https://jobs.lever.co/palantir/10c16f3b-1bfc-4ceb-a2f7-a5ca9c4466fd",
+          "https://jobs.lever.co/palantir/b72abc17-293d-47e0-a094-c1ab0016b794",
+          "https://jobs.lever.co/palantir/8ae35130-960c-41d3-8c5d-efd3f5048228",
+          "https://jobs.lever.co/palantir/7eb0dedb-37ee-4175-b29f-10a9e4340076",
+          "https://jobs.lever.co/palantir/34e30387-4469-41e4-9e69-6cc8a179af3b",
+          "https://jobs.lever.co/palantir/53ab911d-e206-4ca5-a756-e52e32311268",
+          "https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080",
+          "https://jobs.lever.co/palantir/7f7e7d50-dfec-4d61-a3ac-69fd113bbae7",
+          "https://jobs.lever.co/palantir/377641a4-7cc6-4336-bfdf-cc6607cbbce8",
+          "https://jobs.lever.co/palantir/dba17aeb-0579-4e61-9d76-88527ce5e873",
+          "https://jobs.lever.co/palantir/d93b96d1-3e4e-4f30-80eb-dbf5aca076cc",
+          "https://jobs.lever.co/palantir/bed0a224-5842-4f77-932e-b422864837ba",
+          "https://jobs.lever.co/palantir/3448f922-f87a-4eb6-a69d-6af8a8c956bb",
+          "https://jobs.lever.co/palantir/481dd4be-9d94-4786-8244-253adb279354",
+          "https://jobs.lever.co/palantir/ba0609f6-314f-45dc-ac41-563fd79df299",
+          "https://jobs.lever.co/palantir/a7f61abe-0436-4d5a-9316-057628259ab1",
+          "https://jobs.lever.co/palantir/40a85e76-d904-46a1-be19-878f6394105c",
+          "https://jobs.lever.co/palantir/67355f7e-e195-437a-83e9-3dcbe6574cbb",
+          "https://jobs.lever.co/palantir/3358fc1e-57ce-4aea-92dc-f334ace89784",
+          "https://jobs.lever.co/palantir/c98d8819-364e-450d-a96e-84b9061a7170",
+          "https://jobs.lever.co/palantir/f27b9e96-ce3f-4c5f-b8df-5d2e8ad4bf53",
+          "https://jobs.lever.co/palantir/5c935f69-c664-4df8-b99a-480293b56095",
+          "https://jobs.lever.co/palantir/ab69bdbf-6478-4e86-9629-d68f2cf62cf4",
+          "https://jobs.lever.co/palantir/64602c2e-4581-46eb-822d-e2172ee85937",
+          "https://jobs.lever.co/palantir/1439cab3-d610-40b5-aa1c-8e8d4356a9a7",
+          "https://jobs.lever.co/palantir/63c99ec3-928f-47f6-b7dc-571e9e5a3686",
+          "https://jobs.lever.co/palantir/8dccc67f-08e0-491c-a1ac-99eff4de5f30",
+          "https://jobs.lever.co/palantir/e60cc127-e85f-495c-b491-64e73f9b62c0",
+          "https://jobs.lever.co/palantir/103022cd-4977-4725-8f24-5a2e622ca507",
+          "https://jobs.lever.co/palantir/059bea06-12df-4015-82c1-51e53938f24e",
+          "https://jobs.lever.co/palantir/f77d4993-914c-436f-91ef-94f2ee757e40",
+          "https://jobs.lever.co/palantir/fa2ed0ba-1910-4418-a1c5-0097182343da",
+          "https://jobs.lever.co/palantir/19a48259-a613-4cd8-8537-6e0767ce0076",
+          "https://jobs.lever.co/palantir/a56ae9a4-e569-433b-aeec-2928c84bfc4a",
+          "https://jobs.lever.co/palantir/dee02bf9-8dde-4131-91dc-49459b1f6974",
+          "https://jobs.lever.co/palantir/2051d3b4-501d-481b-953d-05420aab40ce",
+          "https://jobs.lever.co/palantir/31418dd7-3c9a-4a1e-84b1-2ec6a724eb19",
+          "https://jobs.lever.co/palantir/8683ccd4-de63-4146-b147-455968f64bad",
+          "https://jobs.lever.co/palantir/ac2f3ff2-2da5-423f-a519-75962bf205db",
+          "https://jobs.lever.co/palantir/791f4311-c7a9-4c39-a562-31aa1fa48fc8",
+          "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+          "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
+          "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
+          "https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
+          "https://jobs.lever.co/palantir/26e23f5d-083b-45aa-b223-1a6e43d960bf",
+          "https://jobs.lever.co/palantir/7f744341-9e34-44e8-915f-4f083a0c0d30",
+          "https://jobs.lever.co/palantir/c8d45e31-cf15-411e-b085-87d52f602d3c",
+          "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f",
+          "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
+          "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+          "https://jobs.lever.co/palantir/76a60923-bb49-40f5-b061-7c7eb1299602",
+          "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+          "https://jobs.lever.co/palantir/2fb19022-bb65-4af8-b6fa-31beb345c140",
+          "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+          "https://jobs.lever.co/palantir/3222146c-486a-4061-997f-adab721b496e",
+          "https://jobs.lever.co/palantir/30165b27-1948-4940-918c-00825c581079",
+          "https://jobs.lever.co/palantir/b02e258c-2c08-4364-aee1-9d1be905f2c6",
+          "https://jobs.lever.co/palantir/9140500e-82c2-41ea-8661-68c8c0c071dc",
+          "https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02",
+          "https://jobs.lever.co/palantir/004998de-36aa-4e4e-adf8-66813fc0ada3",
+          "https://jobs.lever.co/palantir/5174e95b-2e0a-46f8-8db7-e2c837a0ac94",
+          "https://jobs.lever.co/palantir/f07e9b81-9587-4172-b4ab-90d6b774795d",
+          "https://jobs.lever.co/palantir/a771a3d8-a99f-4df1-b250-a9a30c6dd070",
+          "https://jobs.lever.co/palantir/000b1a24-4b0f-436f-a6da-9a920e259925",
+          "https://jobs.lever.co/palantir/19d5e5f8-37a6-4a6f-b2ca-423370b3a1c2",
+          "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+          "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+          "https://jobs.lever.co/palantir/b4aa51a2-bc43-4d67-bf55-12db7feefb3a",
+          "https://jobs.lever.co/palantir/8dcdb586-46ae-4f94-9d05-7f1989400049",
+          "https://jobs.lever.co/palantir/73f6f11a-8165-4009-8dba-cc78ab9ca990",
+          "https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e",
+          "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+          "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+          "https://jobs.lever.co/palantir/3ab4284d-c1e6-4540-acc7-2cf5702a0534",
+          "https://jobs.lever.co/palantir/ae7fe1d6-bb4c-42dd-87f8-d3bd60b975a6",
+          "https://jobs.lever.co/palantir/63494bd6-3c41-4449-b01f-0932dc664fc4",
+          "https://jobs.lever.co/palantir/60226bee-1fae-4adb-bed0-c602b50cc0bd",
+          "https://jobs.lever.co/palantir/ee3bb5e5-4698-489f-91d4-3a72038f51fe",
+          "https://jobs.lever.co/palantir/0c8bfe2a-b4a2-42f0-ae85-88b491878bc5",
+          "https://jobs.lever.co/palantir/62f0a8ed-3402-40af-b8e5-18aa4ce02518",
+          "https://jobs.lever.co/palantir/d97dc6d7-b9bd-4a33-84cb-24addaf2b1b0",
+          "https://jobs.lever.co/palantir/8e311682-dab0-4f01-97e4-23481d580d7d",
+          "https://jobs.lever.co/palantir/a0423ad6-5026-4d01-979d-5129705b8c51",
+          "https://jobs.lever.co/palantir/88d8e5fa-c7d4-4e32-892d-2460d665dd32",
+          "https://jobs.lever.co/palantir/5fe5f3d3-5ec3-4cda-88ae-e36450b3ef61",
+          "https://jobs.lever.co/palantir/17949839-301b-4df8-bfea-9e052ede2ec8",
+          "https://jobs.lever.co/palantir/f8df815c-6a38-4d57-b75f-c4262b9311b4",
+          "https://jobs.lever.co/palantir/205c3184-4272-41a9-a1e2-5352d4d00910",
+          "https://jobs.lever.co/palantir/86641a6e-5abb-40c5-8cc3-d481f70350d7",
+          "https://jobs.lever.co/palantir/67655867-e6d0-4d3d-ae83-d4a64d38dcf4",
+          "https://jobs.lever.co/palantir/81ded406-e09c-42c4-a54d-175f2ddd246e",
+          "https://jobs.lever.co/palantir/a543d82a-a089-4b1c-afd1-4f30d3d8ee23",
+          "https://jobs.lever.co/palantir/3d315de7-b94f-4c29-bcbb-63d51b00325a",
+          "https://jobs.lever.co/palantir/e3d8dd16-5b86-470e-a5e9-7872627003ad",
+          "https://jobs.lever.co/palantir/ae1addd8-f7f2-4ff5-b963-7ffb63f496e0",
+          "https://jobs.lever.co/palantir/9675791e-59c3-4677-ac62-0c80c38da2eb",
+          "https://jobs.lever.co/palantir/45241c61-11af-45b5-86a0-a5302c028d6d",
+          "https://jobs.lever.co/palantir/12e174ac-e32a-4990-b21e-6abc49b5fb8d",
+          "https://jobs.lever.co/palantir/3af209ff-6733-4133-8b2d-b5558a40fcb1",
+          "https://jobs.lever.co/palantir/9fa3f452-67eb-494d-94fc-b7cd591ee0f7",
+          "https://jobs.lever.co/palantir/bdf20b54-1f57-4041-b22c-deca821f277c",
+          "https://jobs.lever.co/palantir/c2679984-a26f-47f2-acd8-3696f2998b3f",
+          "https://jobs.lever.co/palantir/9f3a082e-63be-4f9f-ba15-0ac4720b5a3d",
+          "https://jobs.lever.co/palantir/86752b45-c6a2-424b-a53b-3d927dd2593b",
+          "https://jobs.lever.co/palantir/2147c78e-5269-43fd-b5d6-a4ffc8cf1018",
+          "https://jobs.lever.co/palantir/671f5145-9a84-4691-b3b2-cb812ef551f3",
+          "https://jobs.lever.co/palantir/b007f7a0-9d41-4914-b475-37621999a7a0",
+          "https://jobs.lever.co/palantir/a3e60101-d927-4ef9-a472-28b8f2f25d0c",
+          "https://jobs.lever.co/palantir/7b216f28-87e5-47ce-8ffe-7343749c8b74",
+          "https://jobs.lever.co/palantir/9dcfbb77-f99c-45c4-8e1a-1af7aa91ca7b",
+          "https://jobs.lever.co/palantir/5675c771-630a-4575-9ab5-8169acdf8394",
+          "https://jobs.lever.co/palantir/3b3dde50-a12c-4706-bdd7-832d3aa2e0fa",
+          "https://jobs.lever.co/palantir/679c8a20-0777-43a5-ad37-eef1dad8eb95"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gZ0AiObJaCt8PBoNYkfHb",
+    "url": "https://jobs.lever.co/palantir/32579f9c-0088-40cb-bb0b-ed45a35bcb19",
+    "resource_path": "palantir_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "32579f9c-0088-40cb-bb0b-ed45a35bcb19",
+          "department": "Mission Operations /",
+          "title": "Program Manager - Commercial Deployments",
+          "job_description": "A World-Changing Company\n\n\nPalantir builds the world\u2019s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.\n\n\nThe Role\n\n\nAs a Program Manager within our Commercial business, you are the operational engine behind Palantir\u2019s forward deployed engineering teams. You partner with Forward Deployed Engineers, Deployment Strategists, and others to optimize our product implementation processes for customers. You own the operational success of the team from end to end by aligning strategy with execution, building constructive client relationships, spotting risks that others have missed, and bridging gaps to ensure engineers can operate effectively. Your creative approach to problem solving centers around frameworks that enable rapid iteration while operating in harmony with the team\u2019s vision and the end users\u2019 needs.\n\n\nThis position requires a combination of project and team management, process optimization, customer relationship management, and execution skills. You are a person who loves identifying and fixing problems, and embraces the opportunity that an obstacle presents. Core Responsibilities\nBe the first responder when things go wrong. If a problem is outside your area of expertise, you know how to move both collaboratively and independently toward a solution while optimally using team resources.\nSynthesize concrete goals from client needs, prioritizing your deployment\u2019s strategy, and optimizing for outsized impact, end-user\u2019s needs, and long-term client relationship durability.\nDirectly own and run aspects of Palantir operations that are critical to your team\u2019s outcomes and often the difference between failure and success, from individual processes to broader work streams.\nIdentify, evaluate, and help prioritize growth opportunities and pain points with clear structure and rigor.\nDevelop and execute client-specific or cross-functional strategic initiatives to drive growth and create/scale operations.\nMaintain broad and complete state of everything involving or related to your team. Pre-empt and resolve any issues that may steer projects off course.\nOptimize cross-team collaboration. Calibrate a room of peers and/or customers to align across shared objectives. This may include engaging internal teams such as product, finance, legal, or sales that support deployments.\u00a0 What We Value\nProven success managing complex projects in high-stakes environments.\nExcellent problem solving skills, sound judgment, and composure in high-pressure situations.\nAn appetite for grittiness. You are eager to roll up your sleeves and can pivot from a high-level view to a granular perspective to ensure our world-class solutions are delivered without issue.\nDemonstrating a high level of action-oriented empathy to understand and respond to end-users.\nAn ability to develop and cultivate strong rapport within our product development teams. You are willing to invest in learning technical concepts and can engage in technical discussion. What We Require\nAbility to travel 25-50% required. Varies by location and team.\n3+ years of project/program management experience, preferably in a fast-paced or dynamic environment.\n\n\n\n\nOur benefits aim to promote health and wellbeing across all areas of Palantirians\u2019 lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies. Benefits\nMedical, dental, and vision insurance\nLife and disability coverage\nPaid leave for new parents and emergency back-up care for all parents\nFamily planning support, including fertility, adoption, and surrogacy assistance\nStipend to help with expenses that come with a new child\nCommuter benefits\nRelocation assistance\nUnlimited paid time off\n2 weeks paid time off built into the end of each year Salary\n\n\nThe estimated salary range for this position is estimated to be $93,000 - $160,000/year. Total compensation for this position may also include Restricted Stock units, sign-on bonus and other potential future incentives. Further note that total compensation for this position will be determined by each individual\u2019s relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any potential sign-on bonus; the value of any benefits offered; and the potential future value of any long-term incentives.\n\n\nLife at Palantir\n\n\nWe want every Palantirian to achieve their best outcomes, that\u2019s why we celebrate individuals\u2019 strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians\u2019 lives is just one of the ways we\u2019re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.\n\n\nIn keeping consistent with Palantir\u2019s values and culture, we believe employees are \u201cbetter together\u201d and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for \u201cRemote\u201d work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.\n\n\n\n\nPalantir is committed to promoting a culture of diversity, equity, and inclusion and is proud to be an Equal Employment Opportunity and Affirmative Action employer. We believe that all Palantirians share the responsibility of upholding our commitment to these values and encourage candidates from a wide range of backgrounds, perspectives, and lived experiences to join us in solving the world\u2019s hardest problems. Palantir does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. Palantir is committed to working with and providing reasonable accommodations to qualified individuals with physical and mental disabilities. Please see the United States Department of Labor\u2019s EEO poster, EEO poster supplement and Pay Transparency Notice for additional information.\n\n\nPalantir is committed to making the job application process accessible to everyone. If you are living with a disability (visible or not visible) and need to request a reasonable accommodation for any part of the application or hiring process, please reach out and let us know how we can help. APPLY FOR THIS JOB",
+          "locations": [
+            "New York, NY"
+          ],
+          "job_type": "Hybrid",
+          "date_posted": null,
+          "apply_url": "https://jobs.lever.co/palantir/32579f9c-0088-40cb-bb0b-ed45a35bcb19/apply",
+          "job_benefits": "Medical, dental, and vision insuranceLife and disability coveragePaid leave for new parents and emergency back-up care for all parentsFamily planning support, including fertility, adoption, and surrogacy assistanceStipend to help with expenses that come with a new childCommuter benefitsRelocation assistanceUnlimited paid time off2 weeks paid time off built into the end of each year",
+          "qualifications": "Ability to travel 25-50% required. Varies by location and team.3+ years of project/program management experience, preferably in a fast-paced or dynamic environment.Our benefits aim to promote health and wellbeing across all areas of Palantirians\u2019 lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies.",
+          "preferred_skills": "Proven success managing complex projects in high-stakes environments.Excellent problem solving skills, sound judgment, and composure in high-pressure situations.An appetite for grittiness. You are eager to roll up your sleeves and can pivot from a high-level view to a granular perspective to ensure our world-class solutions are delivered without issue. Demonstrating a high level of action-oriented empathy to understand and respond to end-users.An ability to develop and cultivate strong rapport within our product development teams. You are willing to invest in learning technical concepts and can engage in technical discussion.",
+          "skills": "Be the first responder when things go wrong. If a problem is outside your area of expertise, you know how to move both collaboratively and independently toward a solution while optimally using team resources.Synthesize concrete goals from client needs, prioritizing your deployment\u2019s strategy, and optimizing for outsized impact, end-user\u2019s needs, and long-term client relationship durability.Directly own and run aspects of Palantir operations that are critical to your team\u2019s outcomes and often the difference between failure and success, from individual processes to broader work streams.Identify, evaluate, and help prioritize growth opportunities and pain points with clear structure and rigor.Develop and execute client-specific or cross-functional strategic initiatives to drive growth and create/scale operations.Maintain broad and complete state of everything involving or related to your team. Pre-empt and resolve any issues that may steer projects off course.Optimize cross-team collaboration. Calibrate a room of peers and/or customers to align across shared objectives. This may include engaging internal teams such as product, finance, legal, or sales that support deployments.\u00a0",
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "English",
+          "employment_type": "Full-time /",
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "s2wKyjr8ZDeo4JIXPyA2o",
+    "url": "https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798",
+    "resource_path": "palantir_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "ff1029bd-bb6d-4d78-a03e-5f9744d0b798",
+          "department": "Delta /",
+          "title": "Forward Deployed AI Engineer",
+          "job_description": "A World-Changing Company\n\n\nPalantir builds the world\u2019s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.\n\n\nThe Role\n\n\nForward Deployed AI Engineers work directly with customers owning Gen AI strategy and implementation. On a daily basis, you will build end-to-end workflows, take them to production, and solve real world problems at the largest scale. You will have ample opportunity to contribute learnings from the field back to the Palantir AIP product suite.\n\n\nYou will be on the forefront of extending Palantir's existing footprint and strategy into new markets and problem spaces opened up by Gen AI.\n\n\nCore Responsibilities\n\n\nForward Deployed AI Engineers\u2019 responsibilities look similar to those of a hands-on AI startup CTO: you\u2019ll work in small teams to own delivery of high stakes projects with clients. A day\u2019s work may include building LLM workflows on a large scale, interacting with customers to understand their needs and set their AI strategy, but the most impact will be driven by implementing solutions into the real world of our partner's organisations.\n\n\nDo you aspire to be an entrepreneur or an Applied AI leader? We believe Palantir is the best place \u2014 with the best colleagues \u2014 to learn how! What We Value\nEngineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.\nSolving real business problems, not academic benchmarks.\nAbility to collaborate efficiently in teams of technical and non-technical individuals.\nComfort working in a dynamic environment with evolving objectives and direct iteration with users. What We Require\nPast experience building solutions with LLMs and a deep understanding of overall Gen AI landscape.\nStrong foundation in Machine Learning basics (Evaluation, Training, Problem Decomposition).\nStrong engineering background. Preferred fields include but are not limited to Computer Science, Mathematics, Software Engineering, Physics, and Machine Learning.\nStrong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.\nAbility and interest in travelling up to 25%, as needed to client sites, but flexible based on personal preferences. Life at Palantir\n\n\nWe want every Palantirian to achieve their best outcomes, that\u2019s why we celebrate individuals\u2019 strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians\u2019 lives is just one of the ways we\u2019re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.\n\n\nIn keeping consistent with Palantir\u2019s values and culture, we believe employees are \u201cbetter together\u201d and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for \u201cRemote\u201d work on an exceptional basis. If you are applying for one of these roles, you must work from the city and or country in which you are employed. If the posting is specified as Onsite, you are required to work from an office.\n\n\n\n\nPalantir is committed to promoting a culture of diversity, equity, and inclusion. We believe that all Palantirians share the responsibility of upholding our commitment to these values and encourage candidates from a wide range of backgrounds, perspectives, and lived experiences to join us in solving the world\u2019s hardest problems.\n\n\nPalantir is committed to making the job application process accessible to everyone. If you are living with a disability (visible or not visible) and need to request a reasonable accommodation for any part of the application or hiring process, please reach out and let us know how we can help. APPLY FOR THIS JOB",
+          "locations": [
+            "London, United Kingdom"
+          ],
+          "job_type": "Hybrid",
+          "date_posted": null,
+          "apply_url": "https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798/apply",
+          "job_benefits": null,
+          "qualifications": "Past experience building solutions with LLMs and a deep understanding of overall Gen AI landscape.Strong foundation in Machine Learning basics (Evaluation, Training, Problem Decomposition).Strong engineering background. Preferred fields include but are not limited to Computer Science, Mathematics, Software Engineering, Physics, and Machine Learning.Strong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.Ability and interest in travelling up to 25%, as needed to client sites, but flexible based on personal preferences.",
+          "preferred_skills": "Engineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.Solving real business problems, not academic benchmarks.Ability to collaborate efficiently in teams of technical and non-technical individuals. Comfort working in a dynamic environment with evolving objectives and direct iteration with users.",
+          "skills": "Engineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.Solving real business problems, not academic benchmarks.Ability to collaborate efficiently in teams of technical and non-technical individuals. Comfort working in a dynamic environment with evolving objectives and direct iteration with users.",
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "English",
+          "employment_type": "Full-time /",
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "0cLbigmRWVmsd0UXN8wLk",
+    "url": "https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488",
+    "resource_path": "palantir_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "636fc05c-d348-4a06-be51-597cb9e07488",
+          "department": "Delta /",
+          "title": "Forward Deployed AI Engineer",
+          "job_description": "A World-Changing Company\n\n\nPalantir builds the world\u2019s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.\n\n\nThe Role\n\n\nForward Deployed AI Engineers work directly with customers owning Gen AI strategy and implementation. On a daily basis, you will build end-to-end workflows, take them to production, and solve real world problems at the largest scale. You will have ample opportunity to contribute learnings from the field back to the Palantir AIP product suite.\n\n\nYou will be on the forefront of extending Palantir's existing footprint and strategy into new markets and problem spaces opened up by Gen AI.\n\n\nCore Responsibilities\n\n\nForward Deployed AI Engineers\u2019 responsibilities look similar to those of a hands-on AI startup CTO: you\u2019ll work in small teams to own delivery of high stakes projects with clients. A day\u2019s work may include building LLM workflows on a large scale, interacting with customers to understand their needs and set their AI strategy, but the most impact will be driven by implementing solutions into the real world of our partner's organizations.\n\n\nDo you aspire to be an entrepreneur or an Applied AI leader? We believe Palantir is the best place \u2014 with the best colleagues \u2014 to learn how! What We Value\nEngineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.\nSolving real business problems, not academic benchmarks.\nAbility to collaborate efficiently in teams of technical and non-technical individuals.\nComfort working in a dynamic environment with evolving objectives and direct iteration with users. What We Require\nPast experience building solutions with LLMs and a deep understanding of overall Gen AI landscape.\nStrong foundation in Machine Learning basics (Evaluation, Training, Problem Decomposition).\nStrong engineering background. Preferred fields include but are not limited to Computer Science, Mathematics, Software Engineering, Physics, and Machine Learning.\nStrong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.\nAbility and interest in traveling up to 25%, as needed to client sites, but flexible based on personal preferences.\n\n\n\n\nOur benefits aim to promote health and wellbeing across all areas of Palantirians\u2019 lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies. Benefits\nMedical, dental, and vision insurance\nLife and disability coverage\nPaid leave for new parents and emergency back-up care for all parents\nFamily planning support, including fertility, adoption, and surrogacy assistance\nStipend to help with expenses that come with a new child\nCommuter benefits\nUnlimited paid time off\n2 weeks paid time off built into the end of each year Salary\n\n\nThe estimated salary range for this position is estimated to be $135,000 - $200,000/year. Total compensation for this position may also include Restricted Stock units, sign-on bonus and other potential future incentives. Further note that total compensation for this position will be determined by each individual\u2019s relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any potential sign-on bonus; the value of any benefits offered; and the potential future value of any long-term incentives.\n\n\nLife at Palantir\n\n\nWe want every Palantirian to achieve their best outcomes, that\u2019s why we celebrate individuals\u2019 strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians\u2019 lives is just one of the ways we\u2019re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.\n\n\nIn keeping consistent with Palantir\u2019s values and culture, we believe employees are \u201cbetter together\u201d and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for \u201cRemote\u201d work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.\n\n\n\n\nPalantir is committed to promoting a culture of diversity, equity, and inclusion and is proud to be an Equal Employment Opportunity and Affirmative Action employer. We believe that all Palantirians share the responsibility of upholding our commitment to these values and encourage candidates from a wide range of backgrounds, perspectives, and lived experiences to join us in solving the world\u2019s hardest problems. Palantir does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. Palantir is committed to working with and providing reasonable accommodations to qualified individuals with physical and mental disabilities. Please see the United States Department of Labor\u2019s EEO poster, EEO poster supplement and Pay Transparency Notice for additional information.\n\n\nPalantir is committed to making the job application process accessible to everyone. If you are living with a disability (visible or not visible) and need to request a reasonable accommodation for any part of the application or hiring process, please reach out and let us know how we can help. APPLY FOR THIS JOB",
+          "locations": [
+            "New York, NY"
+          ],
+          "job_type": "Hybrid",
+          "date_posted": null,
+          "apply_url": "https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488/apply",
+          "job_benefits": "Medical, dental, and vision insuranceLife and disability coveragePaid leave for new parents and emergency back-up care for all parentsFamily planning support, including fertility, adoption, and surrogacy assistanceStipend to help with expenses that come with a new childCommuter benefitsUnlimited paid time off2 weeks paid time off built into the end of each year",
+          "qualifications": "Past experience building solutions with LLMs and a deep understanding of overall Gen AI landscape.Strong foundation in Machine Learning basics (Evaluation, Training, Problem Decomposition).Strong engineering background. Preferred fields include but are not limited to Computer Science, Mathematics, Software Engineering, Physics, and Machine Learning.Strong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.Ability and interest in traveling up to 25%, as needed to client sites, but flexible based on personal preferences.Our benefits aim to promote health and wellbeing across all areas of Palantirians\u2019 lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies.",
+          "preferred_skills": "Engineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.Solving real business problems, not academic benchmarks.Ability to collaborate efficiently in teams of technical and non-technical individuals. Comfort working in a dynamic environment with evolving objectives and direct iteration with users.",
+          "skills": "Engineering mindset, focused on delivering production solutions with Gen AI, data processing pipelines, and advanced analytics tools.Solving real business problems, not academic benchmarks.Ability to collaborate efficiently in teams of technical and non-technical individuals. Comfort working in a dynamic environment with evolving objectives and direct iteration with users.",
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "English",
+          "employment_type": "Full-time /",
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "ZRSzJwUmdNvs54bQMiZqH",
+    "url": "https://vgcareers.virgingalactic.com/global/en/search-results",
+    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "links",
+    "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://vgcareers.virgingalactic.com/global/en/job/1525/IT-Support-Specialist-II",
+          "https://vgcareers.virgingalactic.com/global/en/job/1470/Regulatory-Specialist",
+          "https://vgcareers.virgingalactic.com/global/en/job/1561/Sr-Buyer",
+          "https://vgcareers.virgingalactic.com/global/en/job/1419/Principal-Engineer-Reliability-Maintainability-Survivability",
+          "https://vgcareers.virgingalactic.com/global/en/job/1418/Sr-Manager-Compensation",
+          "https://vgcareers.virgingalactic.com/global/en/job/1582/Specialist-Engineer-High-Performance-Computing",
+          "https://vgcareers.virgingalactic.com/global/en/job/1552/Sr-Engineer-Structural-Design",
+          "https://vgcareers.virgingalactic.com/global/en/job/1337/Sr-Engineer-Avionics-Mechanical-Design",
+          "https://vgcareers.virgingalactic.com/global/en/job/1436/Sr-Engineer-Fly-By-Wire",
+          "https://vgcareers.virgingalactic.com/global/en/job/1550/Software-Quality-Assurance-Engineer-II",
+          "https://vgcareers.virgingalactic.com/global/en/job/1566/Sr-Manager-Engineering",
+          "https://vgcareers.virgingalactic.com/global/en/job/1563/Sr-Commodity-Manager",
+          "https://vgcareers.virgingalactic.com/global/en/job/1509/Manager-Stress-Engineering",
+          "https://vgcareers.virgingalactic.com/global/en/job/1484/Specialist-Stress-Engineer-Test-Support",
+          "https://vgcareers.virgingalactic.com/global/en/job/1468/Principal-Engineer-Loads",
+          "https://vgcareers.virgingalactic.com/global/en/job/1385/Test-Specialist-Engineer-Iron-Bird",
+          "https://vgcareers.virgingalactic.com/global/en/job/1562/Data-Analyst-Operational-Excellence",
+          "https://vgcareers.virgingalactic.com/global/en/job/1564/Sr-Engineer-Design-Verification",
+          "https://vgcareers.virgingalactic.com/global/en/job/1517/Application-Support-Specialist-II",
+          "https://vgcareers.virgingalactic.com/global/en/job/1547/Sr-Engineer-Test",
+          "https://vgcareers.virgingalactic.com/global/en/job/1483/Specialist-Stress-Engineer-Test-Support",
+          "https://vgcareers.virgingalactic.com/global/en/job/1478/Sr-Engineer-Actuators",
+          "https://vgcareers.virgingalactic.com/global/en/job/1503/Commodity-Manager",
+          "https://vgcareers.virgingalactic.com/global/en/job/1514/Sr-Engineer-Ground-Test",
+          "https://vgcareers.virgingalactic.com/global/en/job/1581/Executive-Assistant",
+          "https://vgcareers.virgingalactic.com/global/en/job/1335/Specialist-Engineer-Stress",
+          "https://vgcareers.virgingalactic.com/global/en/job/1528/Sr-Engineer",
+          "https://vgcareers.virgingalactic.com/global/en/job/1516/Supervisor-Facilities",
+          "https://vgcareers.virgingalactic.com/global/en/job/1567/Manager-Build",
+          "https://vgcareers.virgingalactic.com/global/en/job/1583/Sr-Buyer",
+          "https://vgcareers.virgingalactic.com/global/en/job/1526/Sr-Engineer",
+          "https://vgcareers.virgingalactic.com/global/en/job/1469/Commodity-Manager",
+          "https://vgcareers.virgingalactic.com/global/en/job/1541/Sr-Engineer-Embedded-Systems-Test",
+          "https://vgcareers.virgingalactic.com/global/en/job/1527/Sr-Engineer",
+          "https://vgcareers.virgingalactic.com/global/en/job/1362/Specialist-Engineer-Reliability-Maintainability-and-Serviceability",
+          "https://vgcareers.virgingalactic.com/global/en/job/1542/Program-Planning-Scheduling-Principal",
+          "https://vgcareers.virgingalactic.com/global/en/job/1425/Configuration-Manager-I",
+          "https://vgcareers.virgingalactic.com/global/en/job/1551/Materials-Handler",
+          "https://vgcareers.virgingalactic.com/global/en/job/1585/Materials-Handler-First-Shift",
+          "https://vgcareers.virgingalactic.com/global/en/job/1584/Program-Director-Cabin-Experience",
+          "https://vgcareers.virgingalactic.com/global/en/job/1586/Materials-Handler-Second-Shift",
+          "https://vgcareers.virgingalactic.com/global/en/job/1548/Program-Manager-Test-Evaluation-Spaceship-Delta",
+          "https://vgcareers.virgingalactic.com/global/en/job/1535/Sr-Conceptual-Design-Engineer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JOz99g9VvjBB828WG3Sik",
+    "url": "https://vgcareers.virgingalactic.com/global/en/job/1525/IT-Support-Specialist-II",
+    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "1525",
+          "department": "Corporate Functions",
+          "title": "IT SUPPORT SPECIALIST II",
+          "job_description": "We are looking for an\u00a0IT Support Specialist II to work 4x a week from our corporate office in Tustin CA.\u00a0\n\nRESPONSIBILITIES\nProactive, motivated and have a genuine passion for IT and customer service\nMicrosoft 365 administration, installation and troubleshooting\nResolve escalated software issues pertaining to Windows 10 and associated software\nAssign/manage/troubleshoot remote access remotely and\\or onsite\nTroubleshoot and resolve software issues both remotely and onsite\nEnsure quick response times to facilitate maximum uptime for all users and systems\nConfigure, deploy, fix, and provide troubleshooting support based on either documented procedures or directive for the following hardware and software:\nDesktop, Laptop, and Tablet Computers (Windows and MacOS)\nMobile Devices\nOutlook\\Teams\\Zoom\\OneDrive\\Sharepoint\nAD and 365 administration functions such as password resets, create and update user profiles, and group changes.\nAssist users with supported software and hardware with the approach of understanding of technology from a user\u2019s perspective while providing an excellent level of customer service\nEscalate unknown/unsolved issues to appropriate internal or external support resources\nEffectively use and troubleshoot all MS Office 365 applications\nUse and support remote meeting software\nCollaborate\u00a0with co-workers to share expertise, information and solve problems\nOther duties as assigned by Team Lead/Manager/Director\n\n\u00a0\n\nRequired Skills and Experience\n\nMinimum 3 years of IT experience supporting a company size of 500+ employees.\nWillingness to learn new processes and technologies\nAbility to work in a fast-paced environment\nUnderstands the importance of confidentiality\nAttention to detail\nAbility to independently analyse and solve problems.\nStrong interpersonal and communication skills and the ability to interact effectively with all levels in the organization.\nExperience\u00a0with the following software and hardware: Active Directory, Exchange 365, Office 365, WAN/LAN topology, Antivirus, various\u00a0wireless services & equipment support\nPrevious experience with ticketing systems\nExperience imaging PCs via Acronis or related software\nKnowledge of all Microsoft Windows and Mac OS & Office technologies (MacOS, Windows 10 & Office 365)\nCreate a high level of user satisfaction through accurate and timely follow-up & strong technical skills\nMust demonstrate organizational and time management skills\n\n\u00a0\n\nSuggestions for Education/Certifications\n\nMicrosoft or CompTIA certificates in relevant technologies\n\n*The Employer retains the right to change or assign other duties to this position.\n\n\u00a0\n\nPhysical and/or Additional Requirements\n\nMust be able to work flexible hours outside of normal business hours\nBe part of on call rotation\nMust be able to sit or stand for extended periods.\nMust be able to stoop, bend, crawl, and being able to maneuver in tight spaces.\nAbility to routinely lift 20-30 lbs. and occasionally lift and move 40 lbs (unassisted).\n\nThe annual U.S. base salary range for this full-time position is\u00a0$56,160.00\u2013$78,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits\n\nWho We Are\n\nVirgin Galactic is transforming humanity\u2019s relationship with space. By making it more open and accessible, we are connecting the world to the love, wonder and awe inspired by space travel, helping to create new opportunities for the benefit of life on Earth. Whether it\u2019s supporting cutting-edge research missions for scientists and students, or offering life-changing experiences for the adventurers among us, Virgin Galactic is\u00a0THE\u00a0spaceline for Earth. Such an audacious vision requires a team as driven as they are curious - one capable of redefining the boundaries of what\u2019s possible.\u00a0\n\nExport Requirements\u00a0\nTo conform to U.S. Government export regulations, applicant must be a U.S. Person (either a U.S. citizen, a lawful permanent resident or a protected individual as defined 8 U.S.C. 1324b(a)(3) or be able to obtain the required authorization from either the U.S. Department of State or the U.S. Department of Commerce. The applicant must also not be included in the list of Specifically Designated Nationals and Blocked Persons maintained by the Office of Foreign Assets Control. See list\u00a0here.\n\nEEO Statement\nVirgin Galactic is an Equal Opportunity Employer; employment with Virgin Galactic is governed on the basis of merit, competence and qualifications and will not be influenced in any manner by race, color, religion, gender, national origin/ethnicity, veteran status, disability status, age, sexual orientation, marital status, mental or physical disability or any other legally protected status.\u00a0\n\nDRUG FREE WORKPLACE\nVirgin Galactic is committed to a Drug Free Workplace. \u00a0All applicants post offer and active teammates are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies. This can include pre-employment, random, reasonable suspicion, and accident related drug and alcohol testing.\u00a0",
+          "locations": [
+            " Tustin, California"
+          ],
+          "job_type": null,
+          "date_posted": null,
+          "apply_url": "https://vgcareers.virgingalactic.com/global/en/apply?jobSeqNo=VGNVGEUS1525EXTERNALENGLOBAL",
+          "job_benefits": "The annual U.S. base salary range for this full-time position is\u00a0$56,160.00\u2013$78,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits",
+          "qualifications": "Minimum 3 years of IT experience supporting a company size of 500+ employees.Willingness to learn new processes and technologiesAbility to work in a fast-paced environment Understands the importance of confidentialityAttention to detailAbility to independently analyse and solve problems. Strong interpersonal and communication skills and the ability to interact effectively with all levels in the organization.Experience\u00a0with the following software and hardware: Active Directory, Exchange 365, Office 365, WAN/LAN topology, Antivirus, various\u00a0wireless services & equipment supportPrevious experience with ticketing systemsExperience imaging PCs via Acronis or related softwareKnowledge of all Microsoft Windows and Mac OS & Office technologies (MacOS, Windows 10 & Office 365)Create a high level of user satisfaction through accurate and timely follow-up & strong technical skillsMust demonstrate organizational and time management skills",
+          "preferred_skills": "Minimum 3 years of IT experience supporting a company size of 500+ employees.Willingness to learn new processes and technologiesAbility to work in a fast-paced environment Understands the importance of confidentialityAttention to detailAbility to independently analyse and solve problems. Strong interpersonal and communication skills and the ability to interact effectively with all levels in the organization.Experience\u00a0with the following software and hardware: Active Directory, Exchange 365, Office 365, WAN/LAN topology, Antivirus, various\u00a0wireless services & equipment supportPrevious experience with ticketing systemsExperience imaging PCs via Acronis or related softwareKnowledge of all Microsoft Windows and Mac OS & Office technologies (MacOS, Windows 10 & Office 365)Create a high level of user satisfaction through accurate and timely follow-up & strong technical skillsMust demonstrate organizational and time management skills",
+          "skills": "Proactive, motivated and have a genuine passion for IT and customer serviceMicrosoft 365 administration, installation and troubleshootingResolve escalated software issues pertaining to Windows 10 and associated softwareAssign/manage/troubleshoot remote access remotely and\\or onsiteTroubleshoot and resolve software issues both remotely and onsiteEnsure quick response times to facilitate maximum uptime for all users and systemsConfigure, deploy, fix, and provide troubleshooting support based on either documented procedures or directive for the following hardware and software:Desktop, Laptop, and Tablet Computers (Windows and MacOS)Mobile DevicesOutlook\\Teams\\Zoom\\OneDrive\\SharepointAD and 365 administration functions such as password resets, create and update user profiles, and group changes.Assist users with supported software and hardware with the approach of understanding of technology from a user\u2019s perspective while providing an excellent level of customer serviceEscalate unknown/unsolved issues to appropriate internal or external support resourcesEffectively use and troubleshoot all MS Office 365 applicationsUse and support remote meeting softwareCollaborate\u00a0with co-workers to share expertise, information and solve problemsOther duties as assigned by Team Lead/Manager/Director",
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "en",
+          "employment_type": "Full-Time",
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SgVAFm8E7UwpXSC5vCKux",
+    "url": "https://vgcareers.virgingalactic.com/global/en/job/1470/Regulatory-Specialist",
+    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "1470",
+          "department": "Space Missions and Safety",
+          "title": "REGULATORY SPECIALIST",
+          "job_description": "As a Project Specialist supporting the Regulatory team at Virgin Galactic you will support critical activities towards establishing and ensuring compliance with regulatory requirements related to our vehicles and mission operations. You will act as the team focal for ensuring that all activities are planned, tracked, and closed per program schedules.\u00a0\n\n\u00a0\n\nDuties & Responsibilities\n\u2022Act as team liaison with stakeholders to develop long-term project schedules, timelines, and deliverables and ensure those goals are met throughout the project's lifetime.\n\u2022Facilitate communication between all project stakeholders and collaborators.\n\u2022Run project update meetings with agendas and synthesize information into coherent report outs.\n\u2022Monitor project risks (both technical and business) and work with collaborators to develop mitigation plans.\n\u2022Ensure project artifacts are organized, maintained, stored, and shared with project team members for efficient retrieval and use. This will include establishing traceability and relationships between artifacts and data objects as required in our regulatory model.\n\u2022Work with data architects to develop and continually refine our regulatory model.\n\u2022Coordinate with stakeholders in the preparation of data packages as may be required for documenting compliance activities.\n\u2022Prepare data packages and compile artifacts in support of varied licensing, certification, and reporting standards as may be required by regulators (FAA, FCC, etc.).\u00a0\n\u2022Demonstrate high level of teamwork and collaboration in communicating, planning, negotiating, decision-making, and leadership.\n\u2022Foster partnerships and relationships with key stakeholders and communities.\n\n\u00a0\n\nQualifications:\n\u2022Experience: Minimum of 3 years\u2019 experience in aerospace or similar industry having technical regulatory requirements. Flight, manufacturing, or maintenance operations experience within an aerospace organization is a plus.\n\u2022Associate degree or better\n\u2022Demonstrated project management skills (Certified Associate Project Manager/CAPM or similar certification a plus)\n\u2022Ability to multitask and effectively manage several parallel subprojects concurrently\n\u2022Excellent written and verbal communication skills\u00a0\n\u2022Must have above-average software skills: MS Word, MS Excel, MS Outlook\n\u2022Experience in relational database management or data modeling a plus\n\u00a0\n\nThe annual U.S. base salary range for this full-time position is\u00a0$79,300.00\u2013$121,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits\n\n\u00a0\n\nWho We Are\n\nVirgin Galactic is transforming humanity\u2019s relationship with space. By making it more open and accessible, we are connecting the world to the love, wonder and awe inspired by space travel, helping to create new opportunities for the benefit of life on Earth. Whether it\u2019s supporting cutting-edge research missions for scientists and students, or offering life-changing experiences for the adventurers among us, Virgin Galactic is\u00a0THE\u00a0spaceline for Earth. Such an audacious vision requires a team as driven as they are curious - one capable of redefining the boundaries of what\u2019s possible.\u00a0\n\n\u00a0\n\nExport Requirements\u00a0\nTo conform to U.S. Government export regulations, applicant must be a U.S. Person (either a U.S. citizen, a lawful permanent resident or a protected individual as defined 8 U.S.C. 1324b(a)(3) or be able to obtain the required authorization from either the U.S. Department of State or the U.S. Department of Commerce. The applicant must also not be included in the list of Specifically Designated Nationals and Blocked Persons maintained by the Office of Foreign Assets Control. See list\u00a0here.\n\n\u00a0\n\nEEO Statement\nVirgin Galactic is an Equal Opportunity Employer; employment with Virgin Galactic is governed on the basis of merit, competence and qualifications and will not be influenced in any manner by race, color, religion, gender, national origin/ethnicity, veteran status, disability status, age, sexual orientation, marital status, mental or physical disability or any other legally protected status.\u00a0\n\n\u00a0\n\nDRUG FREE WORKPLACE\nVirgin Galactic is committed to a Drug Free Workplace. \u00a0All applicants post offer and active teammates are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies. This can include pre-employment, random, reasonable suspicion, and accident related drug and alcohol testing.\u00a0",
+          "locations": [
+            " Tustin, California"
+          ],
+          "job_type": null,
+          "date_posted": null,
+          "apply_url": "https://vgcareers.virgingalactic.com/global/en/apply?jobSeqNo=VGNVGEUS1470EXTERNALENGLOBAL",
+          "job_benefits": "The annual U.S. base salary range for this full-time position is\u00a0$79,300.00\u2013$121,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits",
+          "qualifications": null,
+          "preferred_skills": null,
+          "skills": null,
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "en",
+          "employment_type": "Full-Time",
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "EdejnJ9zmz6bg4pNOKyla",
+    "url": "https://vgcareers.virgingalactic.com/global/en/job/1561/Sr-Buyer",
+    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "source": "har",
+    "category": "software",
+    "subcategory": "careers",
+    "type": "fetch",
+    "goal": {
+      "job_id": {
+        "type": "string",
+        "description": "Unique alphanumeric identifier for the job posting."
+      },
+      "company_name": {
+        "type": "string",
+        "description": "Name of the company offering the job."
+      },
+      "company_description": {
+        "type": "string",
+        "description": "A brief description of the company within the job post."
+      },
+      "department": {
+        "type": "string",
+        "description": "The department or team name within the company for the job position."
+      },
+      "job_title": {
+        "type": "string",
+        "description": "The entire job title, including team name or specialization if present in the title."
+      },
+      "job_description": {
+        "type": "string",
+        "description": "Comprehensive job description including all its sentences."
+      },
+      "location": {
+        "type": "string",
+        "description": "Entire location of the job."
+      },
+      "salary_range": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "string",
+            "description": "Minimum salary offered."
+          },
+          "max": {
+            "type": "string",
+            "description": "Maximum salary offered."
+          },
+          "currency": {
+            "type": "string",
+            "description": "The currency of the salary."
+          }
+        }
+      },
+      "date_posted": {
+        "type": "string",
+        "description": "Date posted, only if present on the page."
+      },
+      "apply_url": {
+        "type": "string",
+        "description": "The URL where applicants can apply for the job."
+      },
+      "job_benefits": {
+        "type": "string",
+        "description": "A list of benefits provided with the job."
+      },
+      "qualifications": {
+        "type": "string",
+        "description": "A list of required qualifications or certifications for the job."
+      },
+      "preferred_qualifications": {
+        "type": "string",
+        "description": "A list of preferred (but not mandatory) qualifications for the job."
+      },
+      "role": {
+        "type": "string",
+        "description": "Details about the role including responsibilities and required skills."
+      },
+      "skills": {
+        "type": "string",
+        "description": "A list of knowledge, skills or abilities required for the job."
+      },
+      "recruiter_email": {
+        "type": "string",
+        "description": "Email address of the recruiter or hiring manager for contact."
+      },
+      "application_deadline": {
+        "type": "string",
+        "description": "The deadline for submitting job applications."
+      },
+      "employment_type": {
+        "type": "string",
+        "description": "The type of employment (e.g., full-time, part-time, contract)."
+      }
+    },
+    "fetch_id": "job_posting",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "job_id": "1561",
+          "department": "Engineering",
+          "title": "SR. BUYER",
+          "job_description": "As a Sr. Buyer, you will be responsible for coordinating activities involved with procuring, tracking, and expediting goods and services such as raw materials, equipment, tools, parts and supplies at a competitive price, delivery, and quality via the issuance of a purchase order The Senior Buyer identifies varied sources of commodities and services, assists Commodity Managers with evaluating bids for RFPs, , establishes purchase orders, maintains contact with vendors, and maintains comprehensive descriptions of available products and current prices. The Sr. Buyer expedites the ordering and delivery process for commodities or services and assures invoice payment by monitoring the process from initiation of a purchase order through the receipt of the goods or services and billing from the vendor or supplier. The Sr. Buyer may be required to train and assist Buyers on the procurement processes including ERP/MRP systems and provide guidance related to the supply chain policy. He/She should be capable of working independently with minimal supervision and should have at least 5 + years of purchasing experience.\u00a0\u00a0\n\n\u00a0\n\nSr. Buyer will work from our Las Cruces NM office 3x per week.\u00a0\n\n\u00a0\n\nJob Responsibilities:\n\nTrack and manage purchase orders from award of procurement to receipt, including Aircraft On Ground (AOG) and expedited requests\nWork with accounting to reconcile vendor accounts and invoices, ensuring there is a 3-way or 2-way match\nIssue purchase orders in accordance with contracts or agreements\nDevelop and maintain relationships with assigned vendors and suppliers\nManages and reports to Supervisor for metrics including on-time delivery, quality ratings, purchase price variances.\u00a0\nResearch and analyze buying trends, markets, styles, and products, and assessing the financial risks of purchases\nTrack and analyze data to identify trends and recommend purchasing strategies\nMaintain records in accordance with established policies, procedures, and audit guidelines\nEnsure company and supplier compliance to Non-Disclosure Agreements, Export Compliance, and Contracts\nWHAT YOU BRING\nKnowledge of the industry and aerospace manufacturing\nMinimum 5 years procurement experience in a dynamic environment.\nMinimum of a Bachelor\u2019s degree from an accredited institution or a combination of education and work experience, preference given to supply chain or business degrees\nEnergetic, passionate and organized team member ready to support complex factory and operational procurement activities\nAble to manage multiple tasks simultaneously and thrive in a complex product development environment with multiple priorities as well as a disciplined production setting\nExperience with IMP/IMS, risk management, configuration management, requirements management processes\nUnderstanding of Product Lifecycle Management, Configuration Management, Configuration Control, ERP and MRP systems.\nExcellent verbal and written communication,\u00a0excellent computer skills including Microsoft Word, Excel, Project and PowerPoint.\nStrong analytical and problem-solving skills with a high attention to detail.\nTeam player with excellent organizational and interpersonal skills.\nExperience with Oracle or ERP/MRP demand management systems\nWorking knowledge of global supply chain management issues and practices.\nStrong ability to communicate effectively both verbally and in writing with various internal and external stakeholders.\nKnowledge of negotiation practices/methodology for commodities.\nAbility to handle multiple tasks while maintaining attention to detail and accuracy and working under tight time deadlines.\nAbility, willingness to travel 25-30% depending on business needs and engage with suppliers\n\n\u00a0\n\nPreferences:\n\nA general understanding of Aerospace drawings, specifications, and manufacturing processes\nSix Sigma Certification\nCPSM\nPMP Certification\n\nThe annual U.S. base salary range for this full-time position is\u00a0$79,300.00\u2013$121,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits\n\nWho We Are\n\nVirgin Galactic is transforming humanity\u2019s relationship with space. By making it more open and accessible, we are connecting the world to the love, wonder and awe inspired by space travel, helping to create new opportunities for the benefit of life on Earth. Whether it\u2019s supporting cutting-edge research missions for scientists and students, or offering life-changing experiences for the adventurers among us, Virgin Galactic is\u00a0THE\u00a0spaceline for Earth. Such an audacious vision requires a team as driven as they are curious - one capable of redefining the boundaries of what\u2019s possible.\u00a0\n\nExport Requirements\u00a0\nTo conform to U.S. Government export regulations, applicant must be a U.S. Person (either a U.S. citizen, a lawful permanent resident or a protected individual as defined 8 U.S.C. 1324b(a)(3) or be able to obtain the required authorization from either the U.S. Department of State or the U.S. Department of Commerce. The applicant must also not be included in the list of Specifically Designated Nationals and Blocked Persons maintained by the Office of Foreign Assets Control. See list\u00a0here.\n\nEEO Statement\nVirgin Galactic is an Equal Opportunity Employer; employment with Virgin Galactic is governed on the basis of merit, competence and qualifications and will not be influenced in any manner by race, color, religion, gender, gender identity, national origin/ethnicity, veteran status, disability status, age, sexual orientation, marital status, mental or physical disability or any other legally protected status.\u00a0\n\nDRUG FREE WORKPLACE\nVirgin Galactic is committed to a Drug Free Workplace. \u00a0All applicants post offer and active teammates are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies. This can include pre-employment, random, reasonable suspicion, and accident related drug and alcohol testing.\u00a0\n\nPHOENIX EMPLOYMENT REQUIREMENTS\nFor individuals seeking employment at our Phoenix Mesa Gateway Airport facility, employment is contingent upon you obtaining and maintaining a TSA authorized security badge.\u00a0 This includes initial and annual mandatory background checks that are governed by TSA, and conducted by the Phoenix Mesa Gateway Airport badging office.",
+          "locations": [
+            " Las Cruces, New Mexico"
+          ],
+          "job_type": null,
+          "date_posted": null,
+          "apply_url": "https://vgcareers.virgingalactic.com/global/en/apply?jobSeqNo=VGNVGEUS1561EXTERNALENGLOBAL",
+          "job_benefits": "The annual U.S. base salary range for this full-time position is\u00a0$79,300.00\u2013$121,000.00. The base pay actually offered will vary depending on job-related knowledge, skills, location, and experience and take into account internal equity. Other forms of pay (e.g., bonus or long term incentive) may be provided as part of the compensation package, in addition to a full range of medical, financial, and other benefits, dependent on the position offered. For more information regarding Virgin Galactic benefits, please visit https://vgcareers.virgingalactic.com/global/en/benefits",
+          "qualifications": "Track and manage purchase orders from award of procurement to receipt, including Aircraft On Ground (AOG) and expedited requestsWork with accounting to reconcile vendor accounts and invoices, ensuring there is a 3-way or 2-way matchIssue purchase orders in accordance with contracts or agreementsDevelop and maintain relationships with assigned vendors and suppliersManages and reports to Supervisor for metrics including on-time delivery, quality ratings, purchase price variances.\u00a0 Research and analyze buying trends, markets, styles, and products, and assessing the financial risks of purchasesTrack and analyze data to identify trends and recommend purchasing strategiesMaintain records in accordance with established policies, procedures, and audit guidelinesEnsure company and supplier compliance to Non-Disclosure Agreements, Export Compliance, and Contracts",
+          "preferred_skills": "A general understanding of Aerospace drawings, specifications, and manufacturing processesSix Sigma CertificationCPSMPMP Certification",
+          "skills": "Track and manage purchase orders from award of procurement to receipt, including Aircraft On Ground (AOG) and expedited requestsWork with accounting to reconcile vendor accounts and invoices, ensuring there is a 3-way or 2-way matchIssue purchase orders in accordance with contracts or agreementsDevelop and maintain relationships with assigned vendors and suppliersManages and reports to Supervisor for metrics including on-time delivery, quality ratings, purchase price variances.\u00a0 Research and analyze buying trends, markets, styles, and products, and assessing the financial risks of purchasesTrack and analyze data to identify trends and recommend purchasing strategiesMaintain records in accordance with established policies, procedures, and audit guidelinesEnsure company and supplier compliance to Non-Disclosure Agreements, Export Compliance, and Contracts",
+          "recruiter_email": null,
+          "application_deadline": null,
+          "language": "en",
+          "employment_type": "Full-Time",
+          "tags": []
+        }
+      }
+    ]
   }
 ]
