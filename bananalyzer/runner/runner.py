@@ -84,6 +84,7 @@ async def page():
             ignore_https_errors=True,
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         )
+        {f"await context.route_from_har('{test_content.example.har_file_path}', not_found='abort', update=False)" if test_content.example.source == "har" else ""}
         page = await context.new_page()
         await stealth_async(page)
         yield page

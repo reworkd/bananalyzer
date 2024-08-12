@@ -152,7 +152,7 @@ async def create_end2end_examples(
         Example(
             id=create_nano_id(),
             url=base_url,
-            resource_path=f"./static/{domain}/index.har",
+            resource_path=f"{domain}/index.har",
             source="har",
             category=metadata["category"],
             subcategory=metadata["subcategory"],
@@ -173,7 +173,7 @@ async def create_end2end_examples(
             Example(
                 id=create_nano_id(),
                 url=url,
-                resource_path=f"./static/{domain}/index.har",
+                resource_path=f"{domain}/index.har",
                 source="har",
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],

@@ -45,6 +45,8 @@ class HostedWebsiteResponder(WebsiteResponder):
 def get_website_responder(example: Example) -> WebsiteResponder:
     if example.source == "mhtml":
         return MHTMLWebsiteResponder(get_examples_path())
+    elif example.source == "har":
+        return HostedWebsiteResponder() # HTTP requests are routed to the HAR file
     elif example.source == "hosted":
         return HostedWebsiteResponder()
     else:

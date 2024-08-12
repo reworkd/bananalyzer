@@ -20877,7 +20877,7 @@
   {
     "id": "TSpNt8AwAPpuGuQt1GAdQ",
     "url": "https://www.nike.com/w/clothing-6ymx6",
-    "resource_path": "./static/nike_com/index.har",
+    "resource_path": "nike_com/index.har",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -20918,7 +20918,7 @@
   {
     "id": "Fl6lm6MlkVitpW1wi3cJS",
     "url": "https://www.nike.com/t/team-usa-womens-jacket-zjlwwG/DZ3572-492",
-    "resource_path": "./static/nike_com/index.har",
+    "resource_path": "nike_com/index.har",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -20963,7 +20963,7 @@
   {
     "id": "2XvCA8DhLQ29cIQ0csbTL",
     "url": "https://www.nike.com/t/usa-mens-pants-JJRqqV/DZ3562-492",
-    "resource_path": "./static/nike_com/index.har",
+    "resource_path": "nike_com/index.har",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -21008,7 +21008,7 @@
   {
     "id": "SHvk7xStyab657ijsPQug",
     "url": "https://www.nike.com/t/team-usa-mens-jacket-MB00tL/DZ3559-492",
-    "resource_path": "./static/nike_com/index.har",
+    "resource_path": "nike_com/index.har",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
