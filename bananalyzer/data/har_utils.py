@@ -1,18 +1,17 @@
 import asyncio
-from typing import Any, Awaitable, Callable, Optional
-from datetime import datetime
+from typing import Any, Awaitable, Callable, Optional, cast
 import shutil
 import json
-import re
 import os
 from urllib.parse import urlparse
 import nanoid
 from playwright.async_api import async_playwright, Page, ElementHandle
 
-# from playwright.sync_api import sync_playwright, Page
 
 import harambe
 from harambe.observer import InMemoryObserver
+from harambe.contrib.playwright.impl import PlaywrightElementHandle
+from harambe.contrib.types import AbstractPage
 
 from bananalyzer.data.schemas import Example
 
@@ -100,7 +99,7 @@ def create_nano_id() -> str:
 
 
 async def create_har(
-    url: str, example_dir_path: str, scraper: Callable
+    url: str, example_dir_path: str, scraper: harambe.AsyncScraperType
 ) -> InMemoryObserver:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
@@ -114,7 +113,9 @@ async def create_har(
         await page.goto(url, wait_until="networkidle")
 
         observer = InMemoryObserver()
-        sdk = harambe.SDK(page, observer=observer)
+        sdk = harambe.SDK(
+            cast(AbstractPage[PlaywrightElementHandle], page), observer=observer
+        )
         sdk._scraper = scraper
         await scraper(sdk, url, {})
 
@@ -124,8 +125,11 @@ async def create_har(
 
 
 async def create_end2end_examples(
-    base_url: str, metadata: dict, listing_scraper: Callable, detail_scraper: Callable
-):
+    base_url: str,
+    metadata: dict[str, str],
+    listing_scraper: harambe.AsyncScraperType,
+    detail_scraper: harambe.AsyncScraperType,
+) -> None:
     domain = urlparse(base_url).netloc.replace("www.", "").replace(".", "_")
 
     observer = await create_har(base_url, f"./static/{domain}", listing_scraper)
@@ -189,14 +193,14 @@ async def scrape_listing(
 ) -> None:
     page: Page = sdk.page
     await page.wait_for_timeout(2000)
-    await page.wait_for_selector('.information')
-    faculty_rows = await page.query_selector_all('.information a.au-target')
+    await page.wait_for_selector(".information")
+    faculty_rows = await page.query_selector_all(".information a.au-target")
     for row in faculty_rows:
-        next_url = await row.get_attribute('href')
+        next_url = await row.get_attribute("href")
         if next_url:
             await sdk.enqueue(next_url)
 
-    async def pager():
+    async def pager() -> Optional[str | ElementHandle]:
         next_page_link = await page.query_selector(
             '.pagination > li > a[data-ph-tevent-attr-trait214="Next"]'
         )
@@ -204,25 +208,34 @@ async def scrape_listing(
 
     await sdk.paginate(pager)
 
+
 async def scrape_detail(
     sdk: harambe.SDK, current_url: str, *args: Any, **kwargs: Any
 ) -> None:
     page: Page = sdk.page
-    await page.wait_for_load_state('networkidle')
-    await page.wait_for_selector('h1.job-title')
+    await page.wait_for_load_state("networkidle")
+    await page.wait_for_selector("h1.job-title")
     title_element = await page.query_selector("h1.job-title")
-    department_element = await page.query_selector('.job-category')
-    job_id_element = await page.query_selector('.jobId')
-    job_description_element = await page.query_selector('.job-description')
-    locations_elements = await page.query_selector_all('.au-target.cityState')
-    employment_type_element = await page.query_selector('.au-target.type')
+    department_element = await page.query_selector(".job-category")
+    job_id_element = await page.query_selector(".jobId")
+    job_description_element = await page.query_selector(".job-description")
+    locations_elements = await page.query_selector_all(".au-target.cityState")
+    employment_type_element = await page.query_selector(".au-target.type")
     apply_url_element = await page.query_selector('a[title="Apply Now"]')
-    language_element = await page.query_selector('html')
-    skills_element = await page.query_selector('.job-description p:has-text("Responsibilities")')
-    qualifications_element = await page.query_selector('.job-description p:has-text("Required"), .job-description p:has-text("Requirements"), .job-description p:has-text("Qualifications")')
-    preferred_skills_element = await page.query_selector('.job-description p:has-text("Preferred")')
-    ul_elements = await page.query_selector_all('.job-description ul')
-    qualifications = await qualifications_element.evaluate('''(element) => {
+    language_element = await page.query_selector("html")
+    skills_element = await page.query_selector(
+        '.job-description p:has-text("Responsibilities")'
+    )
+    qualifications_element = await page.query_selector(
+        '.job-description p:has-text("Required"), .job-description p:has-text("Requirements"), .job-description p:has-text("Qualifications")'
+    )
+    preferred_skills_element = await page.query_selector(
+        '.job-description p:has-text("Preferred")'
+    )
+    ul_elements = await page.query_selector_all(".job-description ul")
+    qualifications = (
+        await qualifications_element.evaluate(
+            """(element) => {
         let nextSibling = element.nextElementSibling;
             while (nextSibling) {
                 if (nextSibling.tagName === "UL") {
@@ -231,9 +244,15 @@ async def scrape_detail(
                 nextSibling = nextSibling.nextElementSibling;
             }
             return null; // If no next <ul> tag is found
-        }''') if qualifications_element else None
+        }"""
+        )
+        if qualifications_element
+        else None
+    )
 
-    preferred_skills = await preferred_skills_element.evaluate('''(element) => {
+    preferred_skills = (
+        await preferred_skills_element.evaluate(
+            """(element) => {
         let nextSibling = element.nextElementSibling;
             while (nextSibling) {
                 if (nextSibling.tagName === "UL") {
@@ -242,9 +261,15 @@ async def scrape_detail(
                 nextSibling = nextSibling.nextElementSibling;
             }
             return null; // If no next <ul> tag is found
-        }''') if preferred_skills_element else None
+        }"""
+        )
+        if preferred_skills_element
+        else None
+    )
 
-    skills = await skills_element.evaluate('''(element) => {
+    skills = (
+        await skills_element.evaluate(
+            """(element) => {
         let nextSibling = element.nextElementSibling;
             while (nextSibling) {
                 if (nextSibling.tagName === "UL") {
@@ -253,29 +278,65 @@ async def scrape_detail(
                 nextSibling = nextSibling.nextElementSibling;
             }
             return null; // If no next <ul> tag is found
-        }''') if skills_element else None
+        }"""
+        )
+        if skills_element
+        else None
+    )
 
     if not qualifications:
-        qualifications = await ul_elements[1].text_content() if ul_elements and len(ul_elements) > 1 else None
+        qualifications = (
+            await ul_elements[1].text_content()
+            if ul_elements and len(ul_elements) > 1
+            else None
+        )
     if not skills:
         skills = await ul_elements[0].text_content() if ul_elements else None
     if not preferred_skills:
-        preferred_skills = await ul_elements[2].text_content() if ul_elements and len(ul_elements) > 2 else None
+        preferred_skills = (
+            await ul_elements[2].text_content()
+            if ul_elements and len(ul_elements) > 2
+            else None
+        )
 
     job_id = await job_id_element.inner_text() if job_id_element else None
     job_id = job_id.split("\n")[-1].strip() if job_id else job_id
     title = await title_element.inner_text() if title_element else None
     department = await department_element.inner_text() if department_element else None
     department = department.split("\n")[-1].strip() if department else department
-    job_description = await job_description_element.inner_text() if job_description_element else None
+    job_description = (
+        await job_description_element.inner_text() if job_description_element else None
+    )
     locations = [await x.inner_text() for x in locations_elements if x]
-    sub_points = job_description.split("\n\n")
+    sub_points = job_description.split("\n\n") if job_description else []
     sub_points = [x for x in sub_points if x.strip()]
-    job_benefits = " ".join([x for x in sub_points if "benefits" in x.lower() or "compensation" in x.lower()]) if [x for x in sub_points if "benefits" in x.lower() or "compensation" in x.lower()] else None
-    apply_url = await apply_url_element.get_attribute("href") if apply_url_element else None
-    employment_type = await employment_type_element.inner_text() if employment_type_element else None
-    employment_type = employment_type.split("\n")[-1].strip() if employment_type else employment_type
-    language = await language_element.get_attribute("lang") if language_element else None
+    job_benefits = (
+        " ".join(
+            [
+                x
+                for x in sub_points
+                if "benefits" in x.lower() or "compensation" in x.lower()
+            ]
+        )
+        if [
+            x
+            for x in sub_points
+            if "benefits" in x.lower() or "compensation" in x.lower()
+        ]
+        else None
+    )
+    apply_url = (
+        await apply_url_element.get_attribute("href") if apply_url_element else None
+    )
+    employment_type = (
+        await employment_type_element.inner_text() if employment_type_element else None
+    )
+    employment_type = (
+        employment_type.split("\n")[-1].strip() if employment_type else employment_type
+    )
+    language = (
+        await language_element.get_attribute("lang") if language_element else None
+    )
     await sdk.save_data(
         {
             "job_id": job_id,

@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from typing import Any, Dict, List, Literal, Optional, Type, Union
 
 import pytest
@@ -109,7 +110,9 @@ class Example(BaseModel):
         description="Local path of a HAR or remote URL of a HAR/MHTML if hosted on e.g. AWS S3",
         default=None,
     )
-    source: Literal["mhtml", "hosted", "har"] = Field(description="Source of the website")
+    source: Literal["mhtml", "hosted", "har"] = Field(
+        description="Source of the website"
+    )
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: GoalType = Field(
@@ -134,21 +137,28 @@ class Example(BaseModel):
         return get_website_responder(self).get_url(self)
 
     @property
-    def har_file_path(self) -> str:
+    def har_file_path(self) -> Path:
         from bananalyzer.data.examples import get_examples_path
-        
-        if self.source == "har" and self.resource_path is not None:
-            if self.resource_path.startswith("s3://"):
-                parts = self.resource_path.split('/')
-                har_subpath = '/'.join(parts[-2:])
-                har_path = get_examples_path() / har_subpath
 
-                if not os.path.exists(har_path):
-                    raise ValueError(f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location.")
+        if self.source == "har":
+            if self.resource_path is not None:
+                if self.resource_path.startswith("s3://"):
+                    parts = self.resource_path.split("/")
+                    har_subpath = "/".join(parts[-2:])
+                    har_path = get_examples_path() / har_subpath
 
-                return har_path
+                    if not os.path.exists(har_path):
+                        raise ValueError(
+                            f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
+                        )
+
+                    return har_path
+                else:
+                    return get_examples_path() / self.resource_path
             else:
-                return get_examples_path() / self.resource_path
+                raise ValueError("This example does not have a resource path")
+        else:
+            raise ValueError("This example is not a HAR file")
 
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
@@ -182,9 +192,10 @@ class Example(BaseModel):
         from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
 
         if fetch_id == "contact":
-            values["goal"] = (
-                f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n"
-                + str(values["goal"])
+            values[
+                "goal"
+            ] = f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n" + str(
+                values["goal"]
             )
         from bananalyzer.data.fetch_schemas import GOVERNMENT_CONTRACT_GOAL
 

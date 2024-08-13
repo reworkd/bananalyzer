@@ -46,13 +46,14 @@ def download_mhtml(url: str) -> str:
     else:
         raise NotImplementedError("Only s3:// URIs are currently supported")
 
+
 def download_har(har_dir_path: str, s3_url: str) -> None:
     s3 = boto3.client("s3", region_name="us-east-1")
 
-    parts = s3_url.split('/')
+    parts = s3_url.split("/")
     bucket_name = parts[2]
-    bucket = s3.Bucket(bucket_name) # TODO: make sure this S3 stuff works
-    s3_directory_prefix = '/'.join(parts[3:-1]) + '/'
+    bucket = s3.Bucket(bucket_name)  # TODO: test this S3 functionality
+    s3_directory_prefix = "/".join(parts[3:-1]) + "/"
 
     if not os.path.exists(har_dir_path):
         os.makedirs(har_dir_path)
