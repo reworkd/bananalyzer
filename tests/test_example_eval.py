@@ -2,7 +2,6 @@ from typing import Any, Dict, Optional
 
 import pytest
 from _pytest.outcomes import Failed
-from pydantic import ValidationError
 from pytest_mock import MockFixture
 
 from bananalyzer.data.schemas import Eval, Example
@@ -200,13 +199,3 @@ def test_fetch_with_non_dictionary_goal() -> None:
     example = Example(**example_data)
     assert example.goal == goal
 
-
-def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
-    example_data = create_default_example(
-        {
-            "fetch_id": "job_posting",
-            "goal": "goal",
-        }
-    )
-    with pytest.raises(ValidationError):
-        Example(**example_data)

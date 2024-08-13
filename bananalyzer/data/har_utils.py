@@ -1,5 +1,5 @@
 import asyncio
-from typing import Any, Awaitable, Callable, Optional, cast
+from typing import Any, Optional, cast
 import shutil
 import json
 import os
@@ -175,7 +175,7 @@ async def create_end2end_examples(
         [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
     )
 
-    with open(f"./static/examples.json", "r+") as file:
+    with open("./static/examples.json", "r+") as file:
         current_data = json.load(file)
         current_data.extend(
             [
