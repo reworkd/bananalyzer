@@ -1597,7 +1597,6 @@
           "https://apprhs.org/watauga-surgical/",
           "https://apprhs.org/wataugamedical/",
           "https://apprhs.org/heartcenter",
-          "https://apprhs.org/heartcenter",
           "https://apprhs.org/rehabcenter/",
           "https://apprhs.org/sleepcenter",
           "https://apprhs.org/paul-h-broyhill-wellness-center",
@@ -1605,7 +1604,6 @@
           "https://apprhs.org/breastcenter/",
           "https://apprhs.org/cannon/",
           "https://apprhs.org/rehabcenter/",
-          "https://apprhs.org/appalachian-regional-behavioral-health/",
           "https://apprhs.org/appalachian-regional-behavioral-health/"
         ]
       }
@@ -5018,93 +5016,91 @@
     "source": "mhtml",
     "category": "personal",
     "subcategory": "unstructured",
-    "type": "fetch",
-    "goal": "Fetch all of the experiences in the page and return it in the following schema: {\"experiences\": [{\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}]}",
+    "type": "links_fetch",
+    "goal": "Fetch all of the experiences on the page and return it as a list in the following schema: {\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}",
     "evals": [
       {
         "type": "json_match",
-        "expected": {
-          "experiences": [
-            {
-              "title": "Reworkd (YC S23)",
-              "description": "As Founding Research Engineer, I develop AI agents that automate business workflows.",
-              "url": "https://reworkd.ai/",
-              "image_url": "https://rpandey.tech/static/consulting/reworkd.png"
-            },
-            {
-              "title": "Ousia",
-              "description": "SEO content writers have to deeply research their topic to know what to write about. Ousia automates research.",
-              "url": "https://ousia.ai/",
-              "image_url": "https://rpandey.tech/static/consulting/ousia.png"
-            },
-            {
-              "title": "Carnegie Mellon University \u2014 MultiComp",
-              "description": "Vision-Language Models drastically fail to represent & align compositional structure (e.g. \"mug in grass\" vs \"grass in mug\").",
-              "url": "https://rpandey.tech/static/consulting/cacr.png",
-              "image_url": "https://rpandey.tech/static/consulting/cacr.png"
-            },
-            {
-              "title": "Microsoft AI",
-              "description": "The AI Platform group at Microsoft builds infrastructure for enterprise-scale machine learning lifecycles on Azure.",
-              "url": "https://www.microsoft.com/en-us/ai/ai-platform",
-              "image_url": "https://rpandey.tech/static/consulting/azureml.jpeg"
-            },
-            {
-              "title": "Carnegie Mellon University \u2014 NeuLab",
-              "description": "Are large language models just learning co-occurence statistics, or can they capture compositional relations as encoded by semantic formalisms?",
-              "url": "https://rpandey.tech/static/consulting/neulab.jpeg",
-              "image_url": "https://rpandey.tech/static/consulting/neulab.jpeg"
-            },
-            {
-              "title": "Vizerto",
-              "description": "Vizerto is a digital sales assistant that makes domain-specific knowledge easily available to B2B sellers.",
-              "url": "https://vizerto.com/",
-              "image_url": "https://rpandey.tech/static/consulting/vizerto.gif"
-            },
-            {
-              "title": "Language & Dialogue Systems Lab",
-              "description": "Our conversational socialbot interacted with thousands of Amazon Alexa users every day, maintaining the top average user rating for 2 months straight against teams from Stanford, USC, and more.",
-              "url": "https://arxiv.org/abs/2111.02519",
-              "image_url": "https://rpandey.tech/static/consulting/athena.png"
-            },
-            {
-              "title": "SapientX",
-              "description": "SapientX builds white label intelligent voice assistants for cars, phones, fridges, and stores.",
-              "url": "https://sapientx.com/",
-              "image_url": "https://rpandey.tech/static/consulting/sapientx.png"
-            },
-            {
-              "title": "Language, Logic, & Cognition Lab",
-              "description": "Can deep reinforcement learning model how humans learn to parse syntax trees from experience?",
-              "url": "https://openreview.net/forum?id=X0V7WmYAyOM",
-              "image_url": "https://rpandey.tech/static/consulting/laloco.png"
-            },
-            {
-              "title": "Wordcab",
-              "description": "Wordcab summarizes business meetings using the latest in abstractive neural summarization tech.",
-              "url": "https://wordcab.com/",
-              "image_url": "https://rpandey.tech/static/consulting/wordcab.png"
-            },
-            {
-              "title": "Intheon",
-              "description": "Intheon builds neural data processing infrastructure used by labs across the world to simplify their brainwave analysis pipelines.",
-              "url": "https://intheon.io/",
-              "image_url": "https://rpandey.tech/static/consulting/intheon.gif"
-            },
-            {
-              "title": "Applied Machine Learning Lab",
-              "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
-              "url": null,
-              "image_url": "https://rpandey.tech/static/consulting/amll.png"
-            },
-            {
-              "title": "Bunch Inc",
-              "description": "Bunch builds enterprise-grade video & computer vision software while exploring related high risk-reward projects.",
-              "url": "https://bunchenterprise.com/",
-              "image_url": "https://rpandey.tech/static/consulting/bunch.gif"
-            }
-          ]
-        }
+        "expected": [
+          {
+            "title": "Reworkd (YC S23)",
+            "description": "As Founding Research Engineer, I develop AI agents that automate business workflows.",
+            "url": "https://reworkd.ai/",
+            "image_url": "https://rpandey.tech/static/consulting/reworkd.png"
+          },
+          {
+            "title": "Ousia",
+            "description": "SEO content writers have to deeply research their topic to know what to write about. Ousia automates research.",
+            "url": "https://ousia.ai/",
+            "image_url": "https://rpandey.tech/static/consulting/ousia.png"
+          },
+          {
+            "title": "Carnegie Mellon University \u2014 MultiComp",
+            "description": "Vision-Language Models drastically fail to represent & align compositional structure (e.g. \"mug in grass\" vs \"grass in mug\").",
+            "url": "https://rpandey.tech/static/consulting/cacr.png",
+            "image_url": "https://rpandey.tech/static/consulting/cacr.png"
+          },
+          {
+            "title": "Microsoft AI",
+            "description": "The AI Platform group at Microsoft builds infrastructure for enterprise-scale machine learning lifecycles on Azure.",
+            "url": "https://www.microsoft.com/en-us/ai/ai-platform",
+            "image_url": "https://rpandey.tech/static/consulting/azureml.jpeg"
+          },
+          {
+            "title": "Carnegie Mellon University \u2014 NeuLab",
+            "description": "Are large language models just learning co-occurence statistics, or can they capture compositional relations as encoded by semantic formalisms?",
+            "url": "https://rpandey.tech/static/consulting/neulab.jpeg",
+            "image_url": "https://rpandey.tech/static/consulting/neulab.jpeg"
+          },
+          {
+            "title": "Vizerto",
+            "description": "Vizerto is a digital sales assistant that makes domain-specific knowledge easily available to B2B sellers.",
+            "url": "https://vizerto.com/",
+            "image_url": "https://rpandey.tech/static/consulting/vizerto.gif"
+          },
+          {
+            "title": "Language & Dialogue Systems Lab",
+            "description": "Our conversational socialbot interacted with thousands of Amazon Alexa users every day, maintaining the top average user rating for 2 months straight against teams from Stanford, USC, and more.",
+            "url": "https://arxiv.org/abs/2111.02519",
+            "image_url": "https://rpandey.tech/static/consulting/athena.png"
+          },
+          {
+            "title": "SapientX",
+            "description": "SapientX builds white label intelligent voice assistants for cars, phones, fridges, and stores.",
+            "url": "https://sapientx.com/",
+            "image_url": "https://rpandey.tech/static/consulting/sapientx.png"
+          },
+          {
+            "title": "Language, Logic, & Cognition Lab",
+            "description": "Can deep reinforcement learning model how humans learn to parse syntax trees from experience?",
+            "url": "https://openreview.net/forum?id=X0V7WmYAyOM",
+            "image_url": "https://rpandey.tech/static/consulting/laloco.png"
+          },
+          {
+            "title": "Wordcab",
+            "description": "Wordcab summarizes business meetings using the latest in abstractive neural summarization tech.",
+            "url": "https://wordcab.com/",
+            "image_url": "https://rpandey.tech/static/consulting/wordcab.png"
+          },
+          {
+            "title": "Intheon",
+            "description": "Intheon builds neural data processing infrastructure used by labs across the world to simplify their brainwave analysis pipelines.",
+            "url": "https://intheon.io/",
+            "image_url": "https://rpandey.tech/static/consulting/intheon.gif"
+          },
+          {
+            "title": "Applied Machine Learning Lab",
+            "description": "The AMLL lab applies novel ML research to social good issues primarily in psychology and neuroscience.",
+            "url": null,
+            "image_url": "https://rpandey.tech/static/consulting/amll.png"
+          },
+          {
+            "title": "Bunch Inc",
+            "description": "Bunch builds enterprise-grade video & computer vision software while exploring related high risk-reward projects.",
+            "url": "https://bunchenterprise.com/",
+            "image_url": "https://rpandey.tech/static/consulting/bunch.gif"
+          }
+        ]
       }
     ]
   },
@@ -20870,6 +20866,42 @@
         "type": "json_match",
         "expected": [
           "This example has a dynamic download. We should either make it an HREF or wait until we support dynamic downloads in evals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7RiCdEFYb6NEQnXWRXlOG",
+    "url": "https://todomvc.com/examples/react/dist/",
+    "source": "mhtml",
+    "category": "productivity",
+    "subcategory": "consumer",
+    "type": "fetch",
+    "goal": "Fetch a list of all of the to dos on the current page. Return as a list of objects of the following schema:\n{\"todo\":\n\t{\"type\": \"string\", \"description\": \"A single to do.\"}\n, \"is_complete\":\n\t{\"type\": \"boolean\"}\n}",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "todo": "walk the dog",
+            "is_complete": false
+          },
+          {
+            "todo": "write some code",
+            "is_complete": true
+          },
+          {
+            "todo": "drink coffee",
+            "is_complete": false
+          },
+          {
+            "todo": "bbq steak",
+            "is_complete": true
+          },
+          {
+            "todo": "wash car",
+            "is_complete": false
+          }
         ]
       }
     ]

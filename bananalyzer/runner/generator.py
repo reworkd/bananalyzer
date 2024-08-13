@@ -24,8 +24,15 @@ class {self._generate_class_name(example)}:
 
     @pytest_asyncio.fixture(scope="class")
     async def result(self, page, agent_constructor):
+        data = None
+        error = None
+        
         agent = agent_constructor()
-        yield await agent.run(page, self.example)
+        try:
+            data = await agent.run(page, self.example)
+        except Exception as e:
+            error = e
+        yield data, error
 
     {"".join(self._generate_eval_test(eval_, i, {
                 "category": example.category,
@@ -47,13 +54,20 @@ class {self._generate_class_name(example)}:
     {marks}
     @pytest.mark.parametrize("key", {list(eval_.expected.keys())})
     async def test_match_field(self, key, result) -> None:
-        self.example.evals[{i}].eval_results(None, result, field=key)
+        data, error = result
+        if error:
+            raise error
+
+        self.example.evals[{i}].eval_results(None, data, field=key)
 
 """
         return f"""
     {marks}
     async def test_{eval_.type}(self, page, result) -> None:
-        self.example.evals[{i}].eval_results(page, result)
+        data, error = result
+        if error:
+            raise error
+        self.example.evals[{i}].eval_results(page, data)
 
 """
 
@@ -69,4 +83,4 @@ class {self._generate_class_name(example)}:
         key = f"{example.type.capitalize()}{domain}"
         self._classnames[key] = self._classnames.get(key, -1) + 1
         suffix = "" if not self._classnames[key] else f"{self._classnames[key] + 1}"
-        return f"Test{key}{suffix}_{example.id.replace('-', '_')}"
+        return f"Test{key}{suffix}_{example.id}"

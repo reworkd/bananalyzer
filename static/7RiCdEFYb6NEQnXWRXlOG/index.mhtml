@@ -1,0 +1,235 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://todomvc.com/examples/react/dist/
+Subject: TodoMVC: React
+Date: Thu, 1 Aug 2024 11:37:07 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--T9EbfMwzW9iuTFs3k3FukfGW4P8tboqVNWcTvylF3j----"
+
+
+------MultipartBoundary--T9EbfMwzW9iuTFs3k3FukfGW4P8tboqVNWcTvylF3j----
+Content-Type: text/html
+Content-ID: <frame-BD2C191193A1B07EB8F79B449E04B6F0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://todomvc.com/examples/react/dist/
+
+<!DOCTYPE html><html lang=3D"en" data-framework=3D"react"><head><meta http-=
+equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><meta name=3D=
+"description" content=3D"A TodoMVC written in React."><meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width,initial-scale=3D1"><meta http-equiv=3D"X=
+-UA-Compatible" content=3D"ie=3Dedge"><title>TodoMVC: React</title><link hr=
+ef=3D"https://todomvc.com/examples/react/dist/app.css" rel=3D"stylesheet"><=
+/head><body><section class=3D"todoapp" id=3D"root"><header class=3D"header"=
+ data-testid=3D"header"><h1>todos</h1><div class=3D"input-container"><input=
+ class=3D"new-todo" id=3D"todo-input" type=3D"text" data-testid=3D"text-inp=
+ut" placeholder=3D"What needs to be done?" value=3D""><label class=3D"visua=
+lly-hidden" for=3D"todo-input">New Todo Input</label></div></header><main c=
+lass=3D"main" data-testid=3D"main"><div class=3D"toggle-all-container"><inp=
+ut class=3D"toggle-all" type=3D"checkbox" data-testid=3D"toggle-all"><label=
+ class=3D"toggle-all-label" for=3D"toggle-all">Toggle All Input</label></di=
+v><ul class=3D"todo-list" data-testid=3D"todo-list"><li class=3D"" data-tes=
+tid=3D"todo-item"><div class=3D"view"><input class=3D"toggle" type=3D"check=
+box" data-testid=3D"todo-item-toggle"><label data-testid=3D"todo-item-label=
+">walk the dog</label><button class=3D"destroy" data-testid=3D"todo-item-bu=
+tton"></button></div></li><li class=3D"completed" data-testid=3D"todo-item"=
+><div class=3D"view"><input class=3D"toggle" type=3D"checkbox" data-testid=
+=3D"todo-item-toggle"><label data-testid=3D"todo-item-label">write some cod=
+e</label><button class=3D"destroy" data-testid=3D"todo-item-button"></butto=
+n></div></li><li class=3D"" data-testid=3D"todo-item"><div class=3D"view"><=
+input class=3D"toggle" type=3D"checkbox" data-testid=3D"todo-item-toggle"><=
+label data-testid=3D"todo-item-label">drink coffee</label><button class=3D"=
+destroy" data-testid=3D"todo-item-button"></button></div></li><li class=3D"=
+completed" data-testid=3D"todo-item"><div class=3D"view"><input class=3D"to=
+ggle" type=3D"checkbox" data-testid=3D"todo-item-toggle"><label data-testid=
+=3D"todo-item-label">bbq steak</label><button class=3D"destroy" data-testid=
+=3D"todo-item-button"></button></div></li><li class=3D"" data-testid=3D"tod=
+o-item"><div class=3D"view"><input class=3D"toggle" type=3D"checkbox" data-=
+testid=3D"todo-item-toggle"><label data-testid=3D"todo-item-label">wash car=
+</label><button class=3D"destroy" data-testid=3D"todo-item-button"></button=
+></div></li></ul></main><footer class=3D"footer" data-testid=3D"footer"><sp=
+an class=3D"todo-count">3 items left!</span><ul class=3D"filters" data-test=
+id=3D"footer-navigation"><li><a class=3D"selected" href=3D"https://todomvc.=
+com/examples/react/dist/#/">All</a></li><li><a class=3D"" href=3D"https://t=
+odomvc.com/examples/react/dist/#/active">Active</a></li><li><a class=3D"" h=
+ref=3D"https://todomvc.com/examples/react/dist/#/completed">Completed</a></=
+li></ul><button class=3D"clear-completed">Clear completed</button></footer>=
+</section><footer class=3D"info"><p>Double-click to edit a todo</p><p>Creat=
+ed by the TodoMVC Team</p><p>Part of <a href=3D"http://todomvc.com/">TodoMV=
+C</a></p></footer></body></html>
+------MultipartBoundary--T9EbfMwzW9iuTFs3k3FukfGW4P8tboqVNWcTvylF3j----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://todomvc.com/examples/react/dist/app.css
+
+@charset "utf-8";
+
+.visually-hidden { clip: rect(0px, 0px, 0px, 0px); border: 0px; clip-path: =
+inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; posi=
+tion: absolute; white-space: nowrap; width: 1px; }
+
+.toggle-all { height: 60px !important; right: auto !important; width: 40px =
+!important; }
+
+.toggle-all-label { pointer-events: none; }
+
+body, button, html { margin: 0px; padding: 0px; }
+
+button { -webkit-font-smoothing: antialiased; appearance: none; background:=
+ none; border: 0px; color: inherit; font-family: inherit; font-size: 100%; =
+font-weight: inherit; vertical-align: baseline; }
+
+body, button { }
+
+body { -webkit-font-smoothing: antialiased; background: rgb(245, 245, 245);=
+ color: rgb(17, 17, 17); font: 300 14px / 1.4em "Helvetica Neue", Helvetica=
+, Arial, sans-serif; margin: 0px auto; max-width: 550px; min-width: 230px; =
+}
+
+.hidden { display: none; }
+
+.todoapp { background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0=
+px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 25px 50px 0px; margin: 130px 0px 40p=
+x; position: relative; }
+
+.todoapp input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.4); font=
+-style: italic; font-weight: 400; }
+
+.todoapp h1 { color: rgb(184, 63, 69); font-size: 80px; font-weight: 200; p=
+osition: absolute; text-align: center; text-rendering: optimizelegibility; =
+top: -140px; width: 100%; }
+
+.edit, .new-todo { -webkit-font-smoothing: antialiased; border: 1px solid r=
+gb(153, 153, 153); box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px 0px inset; b=
+ox-sizing: border-box; color: inherit; font-family: inherit; font-size: 24p=
+x; font-weight: inherit; line-height: 1.4em; margin: 0px; padding: 6px; pos=
+ition: relative; width: 100%; }
+
+.new-todo { background: rgba(0, 0, 0, 0.004); border: none; box-shadow: rgb=
+a(0, 0, 0, 0.03) 0px -2px 1px inset; height: 65px; padding: 16px 16px 16px =
+60px; }
+
+.main { border-top: 1px solid rgb(230, 230, 230); position: relative; z-ind=
+ex: 2; }
+
+.toggle-all { border: none; bottom: 100%; height: 1px; opacity: 0; position=
+: absolute; right: 100%; width: 1px; }
+
+.toggle-all + label { align-items: center; display: flex; font-size: 0px; h=
+eight: 65px; justify-content: center; left: 0px; position: absolute; top: -=
+65px; width: 45px; }
+
+.toggle-all + label::before { color: rgb(148, 148, 148); content: "=E2=9D=
+=AF"; display: inline-block; font-size: 22px; padding: 10px 27px; transform=
+: rotate(90deg); }
+
+.toggle-all:checked + label::before { color: rgb(72, 72, 72); }
+
+.todo-list { list-style: none; margin: 0px; padding: 0px; }
+
+.todo-list li { border-bottom: 1px solid rgb(237, 237, 237); font-size: 24p=
+x; position: relative; }
+
+.todo-list li:last-child { border-bottom: none; }
+
+.todo-list li.editing { border-bottom: none; padding: 0px; }
+
+.todo-list li.editing .edit { display: block; margin: 0px 0px 0px 43px; pad=
+ding: 12px 16px; width: calc(100% - 43px); }
+
+.todo-list li.editing .view { display: none; }
+
+.todo-list li .toggle { appearance: none; border: none; bottom: 0px; height=
+: auto; margin: auto 0px; opacity: 0; position: absolute; text-align: cente=
+r; top: 0px; width: 40px; }
+
+.todo-list li .toggle + label { background-image: url("data:image/svg+xml;u=
+tf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2240%22%=
+20height%3D%2240%22%20viewBox%3D%22-10%20-18%20100%20135%22%3E%3Ccircle%20c=
+x%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D=
+%22%23949494%22%20stroke-width%3D%223%22/%3E%3C/svg%3E"); background-positi=
+on: 0px center; background-repeat: no-repeat; }
+
+.todo-list li .toggle:checked + label { background-image: url("data:image/s=
+vg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20w=
+idth%3D%2240%22%20height%3D%2240%22%20viewBox%3D%22-10%20-18%20100%20135%22=
+%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22non=
+e%22%20stroke%3D%22%2359A193%22%20stroke-width%3D%223%22%2F%3E%3Cpath%20fil=
+l%3D%22%233EA390%22%20d%3D%22M72%2025L42%2071%2027%2056l-4%204%2020%2020%20=
+34-52z%22%2F%3E%3C%2Fsvg%3E"); }
+
+.todo-list li label { color: rgb(72, 72, 72); display: block; font-weight: =
+400; line-height: 1.2; padding: 15px 15px 15px 60px; transition: color 0.4s=
+; word-break: break-all; }
+
+.todo-list li.completed label { color: rgb(148, 148, 148); text-decoration:=
+ line-through; }
+
+.todo-list li .destroy { bottom: 0px; color: rgb(148, 148, 148); display: n=
+one; font-size: 30px; height: 40px; margin: auto 0px; position: absolute; r=
+ight: 10px; top: 0px; transition: color 0.2s ease-out; width: 40px; }
+
+.todo-list li .destroy:focus, .todo-list li .destroy:hover { color: rgb(193=
+, 133, 133); }
+
+.todo-list li .destroy::after { content: "=C3=97"; display: block; height: =
+100%; line-height: 1.1; }
+
+.todo-list li:hover .destroy { display: block; }
+
+.todo-list li .edit { display: none; }
+
+.todo-list li.editing:last-child { margin-bottom: -1px; }
+
+.footer { border-top: 1px solid rgb(230, 230, 230); font-size: 15px; height=
+: 20px; padding: 10px 15px; text-align: center; }
+
+.footer::before { bottom: 0px; box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px, =
+rgb(246, 246, 246) 0px 8px 0px -3px, rgba(0, 0, 0, 0.2) 0px 9px 1px -3px, r=
+gb(246, 246, 246) 0px 16px 0px -6px, rgba(0, 0, 0, 0.2) 0px 17px 2px -6px; =
+content: ""; height: 50px; left: 0px; overflow: hidden; position: absolute;=
+ right: 0px; }
+
+.todo-count { float: left; text-align: left; }
+
+.todo-count strong { font-weight: 300; }
+
+.filters { left: 0px; list-style: none; margin: 0px; padding: 0px; position=
+: absolute; right: 0px; }
+
+.filters li { display: inline; }
+
+.filters li a { border: 1px solid transparent; border-radius: 3px; color: i=
+nherit; margin: 3px; padding: 3px 7px; text-decoration: none; }
+
+.filters li a:hover { border-color: rgb(219, 118, 118); }
+
+.filters li a.selected { border-color: rgb(206, 70, 70); }
+
+.clear-completed, html .clear-completed:active { cursor: pointer; float: ri=
+ght; line-height: 19px; position: relative; text-decoration: none; }
+
+.clear-completed:hover { text-decoration: underline; }
+
+.info { color: rgb(77, 77, 77); font-size: 11px; margin: 65px auto 0px; tex=
+t-align: center; text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px; }
+
+.info p { line-height: 1; }
+
+.info a { color: inherit; font-weight: 400; text-decoration: none; }
+
+.info a:hover { text-decoration: underline; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .todo-list li .toggle, .toggle-all { background: none; }
+  .todo-list li .toggle { height: 40px; }
+}
+
+@media (max-width: 430px) {
+  .footer { height: 50px; }
+  .filters { bottom: 10px; }
+}
+
+.toggle-all:focus + label, .toggle:focus + label, :focus { box-shadow: rgb(=
+207, 125, 125) 0px 0px 2px 2px; outline: 0px; }
+------MultipartBoundary--T9EbfMwzW9iuTFs3k3FukfGW4P8tboqVNWcTvylF3j------

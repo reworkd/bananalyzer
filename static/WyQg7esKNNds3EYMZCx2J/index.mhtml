@@ -1247,14 +1247,6 @@ l;">
 ody_grdResults_ctl11_Label1"> <font size=3D"1">Zachary Barrick</font></span=
 >
                                                 </td>
-		</tr><tr class=3D"GridPager">
-			<td colspan=3D"12"><table>
-				<tbody><tr>
-					<td><span>1</span></td><td><a>2</a></td><td><a>3</a></td><td><a>4</a><=
-/td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td><td=
-><a>9</a></td><td><a>10</a></td><td><a>...</a></td>
-				</tr>
-			</tbody></table></td>
 		</tr>
 	</tbody></table>
 </div>
