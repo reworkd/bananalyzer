@@ -198,4 +198,3 @@ def test_fetch_with_non_dictionary_goal() -> None:
     example_data = create_default_example({"goal": goal})
     example = Example(**example_data)
     assert example.goal == goal
-
