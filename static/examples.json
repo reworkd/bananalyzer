@@ -20909,7 +20909,7 @@
   {
     "id": "TSpNt8AwAPpuGuQt1GAdQ",
     "url": "https://www.nike.com/w/clothing-6ymx6",
-    "resource_path": "nike_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/nike_com.tar.gz",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -20950,7 +20950,7 @@
   {
     "id": "Fl6lm6MlkVitpW1wi3cJS",
     "url": "https://www.nike.com/t/team-usa-womens-jacket-zjlwwG/DZ3572-492",
-    "resource_path": "nike_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/nike_com.tar.gz",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -20995,7 +20995,7 @@
   {
     "id": "2XvCA8DhLQ29cIQ0csbTL",
     "url": "https://www.nike.com/t/usa-mens-pants-JJRqqV/DZ3562-492",
-    "resource_path": "nike_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/nike_com.tar.gz",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -21040,7 +21040,7 @@
   {
     "id": "SHvk7xStyab657ijsPQug",
     "url": "https://www.nike.com/t/team-usa-mens-jacket-MB00tL/DZ3559-492",
-    "resource_path": "nike_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/nike_com.tar.gz",
     "source": "har",
     "category": "clothing",
     "subcategory": "commerce",
@@ -21085,7 +21085,7 @@
   {
     "id": "9gAPj4gMFiNXT3Xli0k5H",
     "url": "https://www.palantir.com/careers/",
-    "resource_path": "palantir_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/palantir_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21308,7 +21308,7 @@
   {
     "id": "gZ0AiObJaCt8PBoNYkfHb",
     "url": "https://jobs.lever.co/palantir/32579f9c-0088-40cb-bb0b-ed45a35bcb19",
-    "resource_path": "palantir_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/palantir_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21431,7 +21431,7 @@
   {
     "id": "s2wKyjr8ZDeo4JIXPyA2o",
     "url": "https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798",
-    "resource_path": "palantir_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/palantir_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21554,7 +21554,7 @@
   {
     "id": "0cLbigmRWVmsd0UXN8wLk",
     "url": "https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488",
-    "resource_path": "palantir_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/palantir_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21677,7 +21677,7 @@
   {
     "id": "ZRSzJwUmdNvs54bQMiZqH",
     "url": "https://vgcareers.virgingalactic.com/global/en/search-results",
-    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/vgcareers_virgingalactic_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21737,7 +21737,7 @@
   {
     "id": "JOz99g9VvjBB828WG3Sik",
     "url": "https://vgcareers.virgingalactic.com/global/en/job/1525/IT-Support-Specialist-II",
-    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/vgcareers_virgingalactic_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21860,7 +21860,7 @@
   {
     "id": "SgVAFm8E7UwpXSC5vCKux",
     "url": "https://vgcareers.virgingalactic.com/global/en/job/1470/Regulatory-Specialist",
-    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/vgcareers_virgingalactic_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
@@ -21983,7 +21983,7 @@
   {
     "id": "EdejnJ9zmz6bg4pNOKyla",
     "url": "https://vgcareers.virgingalactic.com/global/en/job/1561/Sr-Buyer",
-    "resource_path": "vgcareers_virgingalactic_com/index.har",
+    "resource_path": "s3://bananalyzer-examples/vgcareers_virgingalactic_com.tar.gz",
     "source": "har",
     "category": "software",
     "subcategory": "careers",
