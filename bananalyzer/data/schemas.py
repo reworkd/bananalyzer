@@ -140,27 +140,23 @@ class Example(BaseModel):
     def har_file_path(self) -> Path:
         from bananalyzer.data.examples import get_examples_path
 
-        if self.source == "har":
-            if self.resource_path is not None:
-                if self.resource_path.startswith(
-                    "s3://"
-                ) and self.resource_path.endswith(".tar.gz"):
-                    parts = self.resource_path.split("/")
-                    har_subpath = parts[-1].split(".")[0] + "/index.har"
-                    har_path = get_examples_path() / har_subpath
-
-                    if os.path.exists(har_path):
-                        return har_path
-                    else:
-                        raise ValueError(
-                            f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
-                        )
-                else:
-                    return get_examples_path() / self.resource_path
-            else:
-                raise ValueError("This example does not have a resource path")
-        else:
+        if self.source != "har":
             raise ValueError("This example is not a HAR file")
+        if self.resource_path is None:
+            raise ValueError("This example does not have a resource path")
+        if not self.resource_path.startswith("s3://") or not self.resource_path.endswith(".tar.gz"):
+            return get_examples_path() / self.resource_path
+
+        parts = self.resource_path.split("/")
+        har_subpath = parts[-1].split(".")[0] + "/index.har"
+        har_path = get_examples_path() / har_subpath
+
+        if os.path.exists(har_path):
+            return har_path
+        else:
+            raise ValueError(
+                f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
+            )
 
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
@@ -172,9 +168,6 @@ class Example(BaseModel):
 
         fetch_id: Optional[FetchId] = values.get("fetch_id")
         goal = values.get("goal")
-
-        # if fetch_id is not None and goal is not None:
-        #     raise ValueError("fetch_id and goal cannot both be provided")
 
         if fetch_id is None and goal is not None:
             return values

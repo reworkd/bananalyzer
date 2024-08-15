@@ -86,7 +86,6 @@ async def page():
         )
         {f"await context.route_from_har('{test_content.example.har_file_path}', not_found='abort', update=False)" if test_content.example.source == "har" else ""}
         page = await context.new_page()
-        {"await stealth_async(page)" if test_content.example.source != "har" else ""}
         yield page
         await browser.close()
 
