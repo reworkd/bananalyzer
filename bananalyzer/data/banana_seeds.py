@@ -1,6 +1,9 @@
 import json
 import os
 from typing import Any, Dict, List
+import tarfile
+import io
+import shutil
 import boto3
 
 
@@ -48,15 +51,23 @@ def download_mhtml(url: str) -> str:
 
 
 def download_har(har_dir_path: str, s3_url: str) -> None:
-    s3 = boto3.client("s3", region_name="us-east-1")
-
+    session = boto3.Session(profile_name="dev") # TODO: parameterize profile name
+    s3 = session.client("s3")
+    
     parts = s3_url.split("/")
     bucket_name = parts[2]
-    bucket = s3.Bucket(bucket_name)  # TODO: test this S3 functionality
-    s3_directory_prefix = "/".join(parts[3:-1]) + "/"
+    key = "/".join(parts[3:])
 
     if not os.path.exists(har_dir_path):
         os.makedirs(har_dir_path)
 
-    for obj in bucket.objects.filter(Prefix=s3_directory_prefix):
-        bucket.download_file(obj.key, har_dir_path)
+    response = s3.get_object(Bucket=bucket_name, Key=key)
+    tar_file = io.BytesIO(response['Body'].read())
+
+    with tarfile.open(fileobj=tar_file, mode='r:gz') as tar:
+        for member in tar.getmembers():
+            target_path = os.path.join(har_dir_path, os.path.basename(member.name))
+            source = tar.extractfile(member)
+            target = open(target_path, "wb")
+            with source, target:
+                shutil.copyfileobj(source, target)

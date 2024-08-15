@@ -334,16 +334,25 @@ def main() -> int:
                         file.write(mhtml_str)
             elif example.source == "har":
                 parts = example.resource_path.split("/")
-                har_subpath = "/".join(parts[-2:])
-                har_path = get_examples_path() / har_subpath
-                if not os.path.exists(har_path):
-                    if example.resource_path.startswith("s3://"):
+                if example.resource_path.startswith(
+                    "s3://"
+                ) and example.resource_path.endswith(".tar.gz"):
+                    har_subpath = parts[-1].split(".")[0] + "/index.har"
+                    har_path = get_examples_path() / har_subpath
+                    if not os.path.exists(har_path):
                         har_dir_path = os.path.dirname(har_path)
                         download_har(har_dir_path, example.resource_path)
-                    else:
+                elif example.resource_path.endswith("/index.har"):
+                    har_subpath = "/".join(parts[-2:])
+                    har_path = get_examples_path() / har_subpath
+                    if not os.path.exists(har_path):
                         raise ValueError(
                             f"Could not find HAR file at {har_path}. Please run `bananalyze --download` to download all example files. No S3 path is provided for this example."
                         )
+                else:
+                    raise ValueError(
+                        f"Could not find HAR resource at {example.resource_path}. Please ensure the example provides either the path to an index.har in a local bananalyzer examples subdirectory, or an S3 URL to a tar.gz of a HAR directory."
+                    )
 
     # Load the desired tests
     generator = PytestTestGenerator()

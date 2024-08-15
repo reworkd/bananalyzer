@@ -107,7 +107,7 @@ class Example(BaseModel):
     id: str
     url: str
     resource_path: Optional[str] = Field(
-        description="Local path of a HAR or remote URL of a HAR/MHTML if hosted on e.g. AWS S3",
+        description="Local path of a HAR, S3 URL of a HAR directory's tar.gz, or remote URL of MHTML",
         default=None,
     )
     source: Literal["mhtml", "hosted", "har"] = Field(
@@ -142,17 +142,19 @@ class Example(BaseModel):
 
         if self.source == "har":
             if self.resource_path is not None:
-                if self.resource_path.startswith("s3://"):
+                if self.resource_path.startswith(
+                    "s3://"
+                ) and self.resource_path.endswith(".tar.gz"):
                     parts = self.resource_path.split("/")
-                    har_subpath = "/".join(parts[-2:])
+                    har_subpath = parts[-1].split(".")[0] + "/index.har"
                     har_path = get_examples_path() / har_subpath
 
-                    if not os.path.exists(har_path):
+                    if os.path.exists(har_path):
+                        return har_path
+                    else:
                         raise ValueError(
                             f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
                         )
-
-                    return har_path
                 else:
                     return get_examples_path() / self.resource_path
             else:

@@ -4,9 +4,11 @@ import shutil
 import json
 import os
 from urllib.parse import urlparse
+from io import BytesIO
+import tarfile
+import boto3
 import nanoid
 from playwright.async_api import async_playwright, Page, ElementHandle
-
 
 import harambe
 from harambe.observer import InMemoryObserver
@@ -129,8 +131,10 @@ async def create_end2end_examples(
     metadata: dict[str, str],
     listing_scraper: harambe.AsyncScraperType,
     detail_scraper: harambe.AsyncScraperType,
+    s3_bucket_name: Optional[str] = None,
 ) -> None:
     domain = urlparse(base_url).netloc.replace("www.", "").replace(".", "_")
+    resource_path = f"s3://{s3_bucket_name}/{domain}.tar.gz" if s3_bucket_name else f"{domain}/index.har"
 
     observer = await create_har(base_url, f"./static/{domain}", listing_scraper)
     enqueued_urls = [url for url, context, options in observer.urls]
@@ -139,7 +143,7 @@ async def create_end2end_examples(
         Example(
             id=create_nano_id(),
             url=base_url,
-            resource_path=f"{domain}/index.har",
+            resource_path=resource_path,
             source="har",
             category=metadata["category"],
             subcategory=metadata["subcategory"],
@@ -160,7 +164,7 @@ async def create_end2end_examples(
             Example(
                 id=create_nano_id(),
                 url=url,
-                resource_path=f"{domain}/index.har",
+                resource_path=resource_path,
                 source="har",
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],
@@ -186,6 +190,26 @@ async def create_end2end_examples(
         file.seek(0)
         file.truncate()
         json.dump(current_data, file, indent=2)
+    
+    if s3_bucket_name:
+        upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
+
+
+def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str) -> None:
+    tar_buffer = BytesIO()
+    with tarfile.open(fileobj=tar_buffer, mode="w:gz") as tar:
+        for root, dirs, files in os.walk(har_dir_path):
+            for file in files:
+                file_path = os.path.join(root, file)
+                tar.add(file_path, arcname=os.path.relpath(file_path, har_dir_path))
+    tar_buffer.seek(0)
+
+    session = boto3.Session(profile_name="dev") # TODO: parameterize profile name
+    s3 = session.client("s3")
+    key = f"{os.path.basename(har_dir_path)}.tar.gz"
+
+    s3.upload_fileobj(tar_buffer, s3_bucket_name, key)
+    shutil.rmtree(har_dir_path)
 
 
 async def scrape_listing(
@@ -360,7 +384,7 @@ async def scrape_detail(
     )
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # run listing scraper
     #    output expected list of enqueued urls
     #    save har
@@ -373,14 +397,16 @@ if __name__ == "__main__":
     # write expected 1 listing & 3 detail examples to examples.json
     #    include subpage path for detail examples. no! just use url attribute
 
-    base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
-    metadata = {
-        "category": "software",
-        "subcategory": "careers",
-        "fetch_id": "job_posting",
-        "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
-    }
+    # base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
+    # metadata = {
+    #     "category": "software",
+    #     "subcategory": "careers",
+    #     "fetch_id": "job_posting",
+    #     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+    # }
 
-    asyncio.run(
-        create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail)
-    )
+    # asyncio.run(
+    #     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
+    # )
+
+    # upload_har_to_s3(f"./static/palantir_com", "bananalyzer-examples")
