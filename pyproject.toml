@@ -50,7 +50,7 @@ warn_unused_ignores = false
 warn_return_any = false
 namespace_packages = true
 files = "bananalyzer"
-exclude = ["tests", "venv"]
+exclude = ["tests", "venv", "static", "bananalytics"]
 
 [build-system]
 requires = ["poetry-core"]

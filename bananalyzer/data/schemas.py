@@ -1,9 +1,8 @@
 import json
-from typing import Any, Dict, List, Literal, Optional, Type, Union
-
 import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
+from typing import Any, Dict, List, Literal, Optional, Type, Union
 
 from bananalyzer.runner.evals import (
     AllowedJSON,
@@ -31,7 +30,7 @@ class Eval(BaseModel):
 
     type: Literal["json_match", "end_url_match"] = "json_match"
     expected: AllowedJSON | None = Field(default=None)
-    options: Optional[AllowedJSON] = Field(default=None)
+    options: Optional[list[AllowedJSON]] = Field(default=None)
 
     @model_validator(mode="before")
     def validate_expected_or_options(cls, values: Dict[str, Any]) -> Dict[str, Any]:

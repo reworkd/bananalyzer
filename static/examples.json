@@ -772,12 +772,20 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": {
-          "name": "CT Scanning",
-          "address": "MyMichigan Medical Center Clare\n 703 N. McEwan Street\nClare, MI 48617",
-          "phone": "(989) 633-5252",
-          "fax": null
-        }
+        "options": [
+          {
+            "name": "CT Scanning",
+            "address": "MyMichigan Medical Center Clare\n 703 N. McEwan Street\nClare, MI 48617",
+            "phone": "(989) 633-5252",
+            "fax": null
+          },
+          {
+            "name": "CT Scanning",
+            "address": "703 N. McEwan Street\nClare, MI 48617",
+            "phone": "(989) 633-5252",
+            "fax": null
+          }
+        ]
       }
     ]
   },
