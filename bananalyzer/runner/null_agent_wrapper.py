@@ -1,5 +1,4 @@
 import asyncio
-
 from playwright.async_api import Page
 
 from bananalyzer.data.schemas import Example
@@ -34,4 +33,4 @@ class NullAgentRunner(AgentRunner):
         if example.evals[0].expected is not None:
             return example.evals[0].expected  # type: ignore[return-value]
         else:
-            return example.evals[0].options  # type: ignore[return-value]
+            return example.evals[0].options[0]  # type: ignore[return-value]
