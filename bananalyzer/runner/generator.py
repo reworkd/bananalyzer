@@ -61,7 +61,12 @@ class {self._generate_class_name(example)}:
         self.example.evals[{i}].eval_results(None, data, field=key)
 
 """
-        if eval_.type == "json_match" and eval_.options and isinstance(eval_.options[0], dict):
+        if (
+            eval_.type == "json_match"
+            and eval_.options
+            and eval_.options[0]
+            and isinstance(eval_.options[0], dict)
+        ):
             return f"""
     {marks}
     @pytest.mark.parametrize("key", {list(eval_.options[0].keys())})

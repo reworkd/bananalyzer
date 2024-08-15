@@ -30,7 +30,7 @@ class Eval(BaseModel):
 
     type: Literal["json_match", "end_url_match"] = "json_match"
     expected: AllowedJSON | None = Field(default=None)
-    options: Optional[AllowedJSON] = Field(default=None)
+    options: Optional[list[AllowedJSON]] = Field(default=None)
 
     @model_validator(mode="before")
     def validate_expected_or_options(cls, values: Dict[str, Any]) -> Dict[str, Any]:
