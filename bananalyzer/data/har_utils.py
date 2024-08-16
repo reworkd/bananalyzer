@@ -195,7 +195,7 @@ async def create_end2end_examples(
         upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
 
 
-def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str, s3_profile_name: str = "dev") -> None:
+def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str) -> None:
     tar_buffer = BytesIO()
     with tarfile.open(fileobj=tar_buffer, mode="w:gz") as tar:
         for root, dirs, files in os.walk(har_dir_path):
@@ -204,8 +204,7 @@ def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str, s3_profile_name: st
                 tar.add(file_path, arcname=os.path.relpath(file_path, har_dir_path))
     tar_buffer.seek(0)
 
-    session = boto3.Session(profile_name=s3_profile_name)
-    s3 = session.client("s3")
+    s3 = boto3.client("s3")
     key = f"{os.path.basename(har_dir_path)}.tar.gz"
 
     s3.upload_fileobj(tar_buffer, s3_bucket_name, key)
