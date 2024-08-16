@@ -3,6 +3,8 @@ import os
 import shutil
 from pathlib import Path
 from typing import List
+from io import BytesIO
+import tarfile
 from unittest.mock import mock_open
 
 import pytest
@@ -20,6 +22,7 @@ from bananalyzer.data.examples import (
     local_examples_path,
 )
 from bananalyzer.data.schemas import Example
+from bananalyzer.data.banana_seeds import download_har
 
 
 def test_load_examples_at_path_success(mocker: MockFixture) -> None:
@@ -66,6 +69,62 @@ def test_download_examples() -> None:
 
     assert downloaded_examples_path.exists(), "Downloaded examples path does not exist."
     assert any(downloaded_examples_path.iterdir()), "Downloaded examples path is empty."
+
+
+@pytest.fixture
+def mock_s3_client(mocker):
+    mock = mocker.patch("boto3.client")
+    mock_instance = mock.return_value
+
+    def prepare_tar_buffer(contents):
+        tar_buffer = BytesIO()
+        with tarfile.open(fileobj=tar_buffer, mode="w:gz") as tar:
+            for content in contents:
+                tarinfo = tarfile.TarInfo(name=content["name"])
+                tarinfo.size = len(content["data"])
+                tar.addfile(tarinfo, BytesIO(content["data"]))
+        tar_buffer.seek(0)
+        return tar_buffer
+
+    return mock_instance, prepare_tar_buffer
+
+
+@pytest.mark.parametrize(
+    "contents, should_write",
+    [
+        ([{"name": "index.har", "data": b"dummy har content"}], True),
+        ([{"name": "largefile.bin", "data": b"x" * 10**6}], True),
+        ([], False),
+    ],
+)
+def test_download_har(mocker, mock_s3_client, contents, should_write):
+    mock_instance, prepare_tar_buffer = mock_s3_client
+    tar_buffer = prepare_tar_buffer(contents)
+    mock_instance.get_object.return_value = {"Body": tar_buffer}
+
+    har_dir_path = "/tmp/fake/dir"
+    s3_url = "s3://test-bucket/test_har.tar.gz"
+
+    m_open = mocker.mock_open()
+    mocker.patch("builtins.open", m_open)
+    mocker.patch("os.makedirs")
+
+    download_har(har_dir_path, s3_url, s3_profile_name=None)
+
+    mock_instance.get_object.assert_called_once_with(
+        Bucket="test-bucket", Key="test_har.tar.gz"
+    )
+
+    if should_write:
+        expected_calls = [
+            mocker.call(f"{har_dir_path}/{content['name']}", "wb")
+            for content in contents
+        ]
+        m_open.assert_has_calls(expected_calls, any_order=True)
+        handle = m_open()
+        handle.write.assert_called()
+    else:
+        m_open.assert_not_called()
 
 
 ##########################################################
