@@ -1,4 +1,3 @@
-import asyncio
 from typing import Any, Optional, cast
 import shutil
 import json
@@ -400,6 +399,7 @@ async def scrape_detail(
 # write expected 1 listing & 3 detail examples to examples.json
 #    include subpage path for detail examples. no! just use url attribute
 
+# import asyncio
 # base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
 # metadata = {
 #     "category": "software",
