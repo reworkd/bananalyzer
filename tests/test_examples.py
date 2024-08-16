@@ -142,6 +142,7 @@ def test_download_har_dont_write(mocker, mock_s3_client):
 
     m_open.assert_not_called()
 
+
 ##########################################################
 # The following tests use examples in the static folder. #
 ##########################################################
