@@ -144,18 +144,20 @@ class Example(BaseModel):
             raise ValueError("This example is not a HAR file")
         if not self.resource_path:
             raise ValueError("This example does not have a resource path")
-        if not self.resource_path.startswith("s3://") and not self.resource_path.endswith(".tar.gz"):
+        if not self.resource_path.startswith(
+            "s3://"
+        ) and not self.resource_path.endswith(".tar.gz"):
             return get_examples_path() / self.resource_path
 
         parts = self.resource_path.split("/")
-        har_subpath = '/'.join(parts[3:]).split(".")[0] + "/index.har"
+        har_subpath = "/".join(parts[3:]).split(".")[0] + "/index.har"
         har_path = get_examples_path() / har_subpath
 
         if not os.path.exists(har_path):
             raise ValueError(
                 f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
             )
-        
+
         return har_path
 
     @model_validator(mode="before")

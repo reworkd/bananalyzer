@@ -134,7 +134,11 @@ async def create_end2end_examples(
     s3_bucket_name: Optional[str] = None,
 ) -> None:
     domain = urlparse(base_url).netloc.replace("www.", "").replace(".", "_")
-    resource_path = f"s3://{s3_bucket_name}/{domain}.tar.gz" if s3_bucket_name else f"{domain}/index.har"
+    resource_path = (
+        f"s3://{s3_bucket_name}/{domain}.tar.gz"
+        if s3_bucket_name
+        else f"{domain}/index.har"
+    )
 
     observer = await create_har(base_url, f"./static/{domain}", listing_scraper)
     enqueued_urls = [url for url, context, options in observer.urls]
@@ -190,7 +194,7 @@ async def create_end2end_examples(
         file.seek(0)
         file.truncate()
         json.dump(current_data, file, indent=2)
-    
+
     if s3_bucket_name:
         upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
 
@@ -384,28 +388,28 @@ async def scrape_detail(
 
 
 # if __name__ == "__main__":
-    # run listing scraper
-    #    output expected list of enqueued urls
-    #    save har
-    # grab first 3 urls from enqueued urls
-    #    run detail scraper on each one
-    #    output expected detail data for each one
-    #    save har for each one
-    # fuse hars and save to static/
-    #    delete old har folders
-    # write expected 1 listing & 3 detail examples to examples.json
-    #    include subpage path for detail examples. no! just use url attribute
+# run listing scraper
+#    output expected list of enqueued urls
+#    save har
+# grab first 3 urls from enqueued urls
+#    run detail scraper on each one
+#    output expected detail data for each one
+#    save har for each one
+# fuse hars and save to static/
+#    delete old har folders
+# write expected 1 listing & 3 detail examples to examples.json
+#    include subpage path for detail examples. no! just use url attribute
 
-    # base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
-    # metadata = {
-    #     "category": "software",
-    #     "subcategory": "careers",
-    #     "fetch_id": "job_posting",
-    #     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
-    # }
+# base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
+# metadata = {
+#     "category": "software",
+#     "subcategory": "careers",
+#     "fetch_id": "job_posting",
+#     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+# }
 
-    # asyncio.run(
-    #     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
-    # )
+# asyncio.run(
+#     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
+# )
 
-    # upload_har_to_s3(f"./static/palantir_com", "bananalyzer-examples")
+# upload_har_to_s3(f"./static/palantir_com", "bananalyzer-examples")

@@ -65,8 +65,9 @@ def download_har(har_dir_path: str, s3_url: str) -> None:
 
     with tarfile.open(fileobj=tar_file, mode="r:gz") as tar:
         for member in tar.getmembers():
-            target_path = os.path.join(har_dir_path, os.path.basename(member.name))
-            source = tar.extractfile(member)
-            target = open(target_path, "wb")
-            with source, target:
-                shutil.copyfileobj(source, target)
+            if member.isfile():
+                target_path = os.path.join(har_dir_path, os.path.basename(member.name))
+                source = tar.extractfile(member)
+                if source:
+                    with open(target_path, "wb") as target:
+                        shutil.copyfileobj(source, target)

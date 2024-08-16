@@ -336,7 +336,9 @@ def main() -> int:
                     file.write(mhtml_str)
         elif example.source == "har":
             parts = example.resource_path.split("/")
-            if example.resource_path.startswith("s3://") and example.resource_path.endswith(".tar.gz"):
+            if example.resource_path.startswith(
+                "s3://"
+            ) and example.resource_path.endswith(".tar.gz"):
                 har_subpath = parts[-1].split(".")[0] + "/index.har"
                 har_path = get_examples_path() / har_subpath
                 if not os.path.exists(har_path):
