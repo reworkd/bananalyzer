@@ -3,6 +3,7 @@ from typing import Any, Dict, Optional
 import pytest
 from _pytest.outcomes import Failed
 from pytest_mock import MockFixture
+from pathlib import Path
 
 from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
@@ -198,3 +199,59 @@ def test_fetch_with_non_dictionary_goal() -> None:
     example_data = create_default_example({"goal": goal})
     example = Example(**example_data)
     assert example.goal == goal
+
+
+@pytest.mark.parametrize(
+    "overrides, expected_exception, expected_path",
+    [
+        # Test valid local HAR file path
+        (
+            {"resource_path": "example.har", "source": "har"},
+            None,
+            Path("path/to/example.har"),
+        ),
+        # Test non-HAR source with HAR file path
+        ({"resource_path": "example.har", "source": "mhtml"}, ValueError, None),
+        # Test missing resource path
+        ({"resource_path": None, "source": "har"}, ValueError, None),
+        # Test valid S3 path with nested directories
+        (
+            {
+                "resource_path": "s3://bucket_name/dir1/dir2/example.tar.gz",
+                "source": "har",
+            },
+            None,
+            Path("path/to/dir1/dir2/example/index.har"),
+        ),
+        # Test minimal S3 bucket path
+        (
+            {"resource_path": "s3://bucket_name/", "source": "har"},
+            ValueError,
+            None,
+        ),
+        # Test empty resource path
+        (
+            {"resource_path": "", "source": "har"},
+            ValueError,
+            None,
+        ),
+    ],
+)
+def test_har_file_path(overrides, expected_exception, expected_path, mocker):
+    mocker.patch(
+        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+    )
+    mocker.patch(
+        "os.path.exists",
+        return_value=True if expected_path else False
+    )
+
+    example_data = create_default_example(overrides)
+    example_data["fetch_id"] = "job_posting"
+    example = Example(**example_data)
+
+    if expected_exception:
+        with pytest.raises(expected_exception):
+            _ = example.har_file_path
+    else:
+        assert example.har_file_path == expected_path
