@@ -50,10 +50,10 @@ def download_mhtml(url: str) -> str:
         raise NotImplementedError("Only s3:// URIs are currently supported")
 
 
-def download_har(har_dir_path: str, s3_url: str) -> None:
-    session = boto3.Session(profile_name="dev") # TODO: parameterize profile name
+def download_har(har_dir_path: str, s3_url: str, s3_profile_name: str = "dev") -> None:
+    session = boto3.Session(profile_name=s3_profile_name)
     s3 = session.client("s3")
-    
+
     parts = s3_url.split("/")
     bucket_name = parts[2]
     key = "/".join(parts[3:])
@@ -62,9 +62,9 @@ def download_har(har_dir_path: str, s3_url: str) -> None:
         os.makedirs(har_dir_path)
 
     response = s3.get_object(Bucket=bucket_name, Key=key)
-    tar_file = io.BytesIO(response['Body'].read())
+    tar_file = io.BytesIO(response["Body"].read())
 
-    with tarfile.open(fileobj=tar_file, mode='r:gz') as tar:
+    with tarfile.open(fileobj=tar_file, mode="r:gz") as tar:
         for member in tar.getmembers():
             target_path = os.path.join(har_dir_path, os.path.basename(member.name))
             source = tar.extractfile(member)
