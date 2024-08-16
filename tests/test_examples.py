@@ -1,14 +1,13 @@
 import json
 import os
+import pytest
 import shutil
 from pathlib import Path
+from pytest_mock import MockFixture
 from typing import List
 from io import BytesIO
 import tarfile
 from unittest.mock import mock_open
-
-import pytest
-from pytest_mock import MockFixture
 
 from bananalyzer.data.examples import (
     download_examples,

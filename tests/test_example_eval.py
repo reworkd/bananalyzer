@@ -1,9 +1,8 @@
-from typing import Any, Dict, Optional
-
 import pytest
 from _pytest.outcomes import Failed
 from pytest_mock import MockFixture
 from pathlib import Path
+from typing import Any, Dict, Optional
 
 from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
@@ -73,8 +72,8 @@ def test_json_eval_1(mocker: MockFixture) -> None:
 
 def test_only_one_of_expected_or_options_can_be_provided() -> None:
     # Works fine
-    Eval(type="json_match", expected={"1": "1"}).dict()
-    Eval(type="json_match", options=[{"2": "2"}]).dict()
+    Eval(type="json_match", expected={"1": "1"}).model_dump()
+    Eval(type="json_match", options=[{"2": "2"}]).model_dump()
 
     # Both provided
     with pytest.raises(ValueError):
@@ -82,7 +81,7 @@ def test_only_one_of_expected_or_options_can_be_provided() -> None:
 
     # Neither provided
     with pytest.raises(ValueError):
-        Eval(type="json_match").dict()
+        Eval(type="json_match").model_dump()
 
 
 def test_json_eval_options(mocker: MockFixture) -> None:

@@ -70,6 +70,12 @@ def test_sanitize_string(input_str, expected):
             2,
             True,
         ),
+        (
+            "250 26th Street, Suite 120 Prairie du Sac, WI 53578",
+            "250 26th Street, Suite 120 / Prairie du Sac, WI 53578",
+            2,
+            True,
+        ),
     ],
 )
 def test_is_string_similar(actual, expected, tolerance, expected_result):

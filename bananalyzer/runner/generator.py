@@ -61,6 +61,23 @@ class {self._generate_class_name(example)}:
         self.example.evals[{i}].eval_results(None, data, field=key)
 
 """
+        if (
+            eval_.type == "json_match"
+            and eval_.options
+            and eval_.options[0]
+            and isinstance(eval_.options[0], dict)
+        ):
+            return f"""
+    {marks}
+    @pytest.mark.parametrize("key", {list(eval_.options[0].keys())})
+    async def test_match_field(self, key, result) -> None:
+        data, error = result
+        if error:
+            raise error
+
+        self.example.evals[{i}].eval_results(None, data, field=key)
+
+"""
         return f"""
     {marks}
     async def test_{eval_.type}(self, page, result) -> None:
