@@ -90,14 +90,13 @@ def mock_s3_client(mocker):
 
 
 @pytest.mark.parametrize(
-    "contents, should_write",
+    "contents",
     [
-        ([{"name": "index.har", "data": b"dummy har content"}], True),
-        ([{"name": "largefile.bin", "data": b"x" * 10**6}], True),
-        ([], False),
+        [{"name": "index.har", "data": b"dummy har content"}],
+        [{"name": "largefile.bin", "data": b"x" * 10**6}],
     ],
 )
-def test_download_har(mocker, mock_s3_client, contents, should_write):
+def test_download_har_write(mocker, mock_s3_client, contents):
     mock_instance, prepare_tar_buffer = mock_s3_client
     tar_buffer = prepare_tar_buffer(contents)
     mock_instance.get_object.return_value = {"Body": tar_buffer}
@@ -109,23 +108,40 @@ def test_download_har(mocker, mock_s3_client, contents, should_write):
     mocker.patch("builtins.open", m_open)
     mocker.patch("os.makedirs")
 
-    download_har(har_dir_path, s3_url, s3_profile_name=None)
+    download_har(har_dir_path, s3_url)
 
     mock_instance.get_object.assert_called_once_with(
         Bucket="test-bucket", Key="test_har.tar.gz"
     )
 
-    if should_write:
-        expected_calls = [
-            mocker.call(f"{har_dir_path}/{content['name']}", "wb")
-            for content in contents
-        ]
-        m_open.assert_has_calls(expected_calls, any_order=True)
-        handle = m_open()
-        handle.write.assert_called()
-    else:
-        m_open.assert_not_called()
+    expected_calls = [
+        mocker.call(f"{har_dir_path}/{content['name']}", "wb") for content in contents
+    ]
+    m_open.assert_has_calls(expected_calls, any_order=True)
+    handle = m_open()
+    handle.write.assert_called()
 
+
+def test_download_har_dont_write(mocker, mock_s3_client):
+    contents = []
+    mock_instance, prepare_tar_buffer = mock_s3_client
+    tar_buffer = prepare_tar_buffer(contents)
+    mock_instance.get_object.return_value = {"Body": tar_buffer}
+
+    har_dir_path = "/tmp/fake/dir"
+    s3_url = "s3://test-bucket/test_har.tar.gz"
+
+    m_open = mocker.mock_open()
+    mocker.patch("builtins.open", m_open)
+    mocker.patch("os.makedirs")
+
+    download_har(har_dir_path, s3_url)
+
+    mock_instance.get_object.assert_called_once_with(
+        Bucket="test-bucket", Key="test_har.tar.gz"
+    )
+
+    m_open.assert_not_called()
 
 ##########################################################
 # The following tests use examples in the static folder. #
