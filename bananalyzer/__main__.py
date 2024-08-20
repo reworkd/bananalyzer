@@ -356,6 +356,9 @@ def main() -> int:
                     f"Could not find HAR resource at {example.resource_path}. Please ensure the example provides either the path to an index.har in a local bananalyzer examples subdirectory, or an S3 URL to a tar.gz of a HAR directory."
                 )
 
+    # Cap the number of workers to the number of examples
+    args.xdist_args.n = min(len(examples), args.xdist_args.n)
+
     # Load the desired tests
     generator = PytestTestGenerator()
     tests = [generator.generate_test(e) for e in examples]

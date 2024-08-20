@@ -1,6 +1,5 @@
-from typing import Dict, Type, Union, Any
-
 from pydantic import BaseModel, Field
+from typing import Dict, Type, Union, Any
 
 from bananalyzer.data.schemas import FetchId
 
@@ -19,7 +18,7 @@ class ContactSchema(BaseModel):
         description="The COMPLETE address of the location using inner text of address elements. This value MUST be the combination of the building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. The building name may be placed above the other address elements. You MUST include the building name if it is available and presented this way. Do not forget ANY of the address elements. Filter out extra words at the begining like 'Address:' or extra words at the end like 'Phone', 'Fax', 'Directions', etc. Do not use value from additional locations.",
     )
     phone: str = Field(
-        description="The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or traling words like 'Phone'. Do not phone value from related locations. Ensure the used phone value is positioned close to other contact fields.",
+        description="The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or traling words like 'Phone'. Do not use the phone value from related locations. This phone value will probably be positioned close to other contact fields.",
     )
     fax: str = Field(
         description="The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or traling words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number. Do not use value from related locations.",

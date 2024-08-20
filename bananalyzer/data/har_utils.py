@@ -1,22 +1,23 @@
-from typing import Any, Optional, cast
-import shutil
-import json
-import os
-from urllib.parse import urlparse
-from io import BytesIO
-import tarfile
 import boto3
-import nanoid
-from playwright.async_api import async_playwright, Page, ElementHandle
-
 import harambe
-from harambe.observer import InMemoryObserver
+import json
+import nanoid
+import os
+import shutil
+import tarfile
 from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
+from harambe.observer import InMemoryObserver
+from io import BytesIO
+from playwright.async_api import async_playwright, Page, ElementHandle
+from typing import Any, Optional, cast
+from urllib.parse import urlparse
 
 from bananalyzer.data.schemas import Example
 
-
+"""
+TODO: Move to scripts outside bananalyzer to remove nanoid dependency
+"""
 def fuse_hars(base_har_path: str, target_har_paths: list[str]) -> None:
     """
     Takes a base HAR file path and a list of target HAR file paths, reads their content, and combines the target HARs into the base HAR.
