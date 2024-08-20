@@ -1,4 +1,7 @@
 import json
+import os
+from pathlib import Path
+
 import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
@@ -103,11 +106,13 @@ FetchId = Literal[
 class Example(BaseModel):
     id: str
     url: str
-    mhtml_url: Optional[str] = Field(
-        description="URL of the mhtml file if it is hosted on e.g. AWS S3",
+    resource_path: Optional[str] = Field(
+        description="Local path of a HAR, S3 URL of a HAR directory's tar.gz, or remote URL of MHTML",
         default=None,
     )
-    source: Literal["mhtml", "hosted"] = Field(description="Source of the website")
+    source: Literal["mhtml", "hosted", "har"] = Field(
+        description="Source of the website"
+    )
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: GoalType = Field(
@@ -131,6 +136,30 @@ class Example(BaseModel):
 
         return get_website_responder(self).get_url(self)
 
+    @property
+    def har_file_path(self) -> Path:
+        from bananalyzer.data.examples import get_examples_path
+
+        if self.source != "har":
+            raise ValueError("This example is not a HAR file")
+        if not self.resource_path:
+            raise ValueError("This example does not have a resource path")
+        if not self.resource_path.startswith(
+            "s3://"
+        ) and not self.resource_path.endswith(".tar.gz"):
+            return get_examples_path() / self.resource_path
+
+        parts = self.resource_path.split("/")
+        har_subpath = "/".join(parts[3:]).split(".")[0] + "/index.har"
+        har_path = get_examples_path() / har_subpath
+
+        if not os.path.exists(har_path):
+            raise ValueError(
+                f"Could not find HAR file at {har_path}. Please ensure it has been downloaded from S3 to the correct location."
+            )
+
+        return har_path
+
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         from bananalyzer.data.fetch_schemas import get_fetch_schema
@@ -141,9 +170,6 @@ class Example(BaseModel):
 
         fetch_id: Optional[FetchId] = values.get("fetch_id")
         goal = values.get("goal")
-
-        if fetch_id is not None and goal is not None:
-            raise ValueError("fetch_id and goal cannot both be provided")
 
         if fetch_id is None and goal is not None:
             return values

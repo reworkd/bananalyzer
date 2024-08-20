@@ -1,7 +1,7 @@
 import pytest
 from _pytest.outcomes import Failed
-from pydantic import ValidationError
 from pytest_mock import MockFixture
+from pathlib import Path
 from typing import Any, Dict, Optional
 
 from bananalyzer.data.schemas import Eval, Example
@@ -200,12 +200,57 @@ def test_fetch_with_non_dictionary_goal() -> None:
     assert example.goal == goal
 
 
-def test_fetch_with_fetch_id_and_goal_should_raise_validation_error() -> None:
-    example_data = create_default_example(
-        {
-            "fetch_id": "job_posting",
-            "goal": "goal",
-        }
+@pytest.mark.parametrize(
+    "overrides, expected_path",
+    [
+        # Test valid local HAR file path
+        (
+            {"resource_path": "example.har", "source": "har"},
+            Path("path/to/example.har"),
+        ),
+        # Test valid S3 path with nested directories
+        (
+            {
+                "resource_path": "s3://bucket_name/dir1/dir2/example.tar.gz",
+                "source": "har",
+            },
+            Path("path/to/dir1/dir2/example/index.har"),
+        ),
+    ],
+)
+def test_har_file_path_valid(overrides, expected_path, mocker):
+    mocker.patch(
+        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
     )
-    with pytest.raises(ValidationError):
-        Example(**example_data)
+    mocker.patch("os.path.exists", return_value=True)
+
+    example_data = create_default_example(overrides)
+    example_data["fetch_id"] = "job_posting"
+    example = Example(**example_data)
+    assert example.har_file_path == expected_path
+
+
+@pytest.mark.parametrize(
+    "overrides",
+    [
+        # Test non-HAR source with HAR file path
+        {"resource_path": "example.har", "source": "mhtml"},
+        # Test missing resource path
+        {"resource_path": None, "source": "har"},
+        # Test minimal S3 bucket path
+        {"resource_path": "s3://bucket_name/", "source": "har"},
+        # Test empty resource path
+        {"resource_path": "", "source": "har"},
+    ],
+)
+def test_har_file_path_invalid(overrides, mocker):
+    mocker.patch(
+        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+    )
+    mocker.patch("os.path.exists", return_value=False)
+
+    example_data = create_default_example(overrides)
+    example_data["fetch_id"] = "job_posting"
+    example = Example(**example_data)
+    with pytest.raises(ValueError):
+        _ = example.har_file_path

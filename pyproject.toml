@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.8.80"
+version = "0.9.0"
 
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>", "awtkns <hello@awtkns.com>"]
@@ -23,6 +23,7 @@ requests = "^2.32.3"
 boto3 = "^1.34.136"
 psutil = "^5.9.8"
 playwright-stealth = "^1.0.6"
+nanoid = "^2.0.0"
 
 [tool.poetry.group.test.dependencies]
 pytest-mock = "^3.14.0"
