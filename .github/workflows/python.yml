@@ -29,7 +29,7 @@ jobs:
               echo "::set-output name=should_publish::true"
           fi
 
-  black:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -41,8 +41,6 @@ jobs:
           cache: "poetry"
       - run: poetry install
       - name: Run lint check
-        run: poetry run ruff check
-      - name: Run black check
         run: poetry run ruff format --check
 
   mypy:
@@ -74,7 +72,7 @@ jobs:
         run: poetry run pytest -vv .
 
   publish:
-    needs: [check-version, black, mypy, pytest]
+    needs: [check-version, lint, mypy, pytest]
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && needs.check-version.outputs.should_publish == 'true'
     steps:
