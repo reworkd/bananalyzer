@@ -34,6 +34,7 @@ class Args(BaseModel):
     subcategory: Optional[str] = Field(default=None)
     skip: List[str]
     type: Optional[str] = Field(default=None)
+    source_type: Optional[str] = Field(default=None)
     download: bool
     examples_bucket: Optional[str] = Field(default=None)
     test: bool

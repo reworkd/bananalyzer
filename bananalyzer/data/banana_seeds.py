@@ -5,6 +5,8 @@ import tarfile
 import io
 import shutil
 import boto3
+from botocore import UNSIGNED
+from botocore.client import Config
 
 
 def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
@@ -49,9 +51,8 @@ def download_mhtml(url: str) -> str:
     else:
         raise NotImplementedError("Only s3:// URIs are currently supported")
 
-
 def download_har(har_dir_path: str, s3_url: str) -> None:
-    s3 = boto3.client("s3")
+    s3 = boto3.client("s3", region_name="us-east-1", config=Config(signature_version=UNSIGNED))
 
     parts = s3_url.split("/")
     bucket_name = parts[2]
