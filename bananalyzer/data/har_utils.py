@@ -125,11 +125,43 @@ async def create_har(
     return observer
 
 
+def write_examples_to_file(
+    examples: list[Example], file_name: str = "./static/examples.json"
+) -> None:
+    with open(file_name, "r+") as file:
+        current_data = json.load(file)
+        current_data.extend(
+            [
+                example.model_dump(exclude_unset=True, exclude_none=True)
+                for example in examples
+            ]
+        )
+        file.seek(0)
+        file.truncate()
+        json.dump(current_data, file, indent=2)
+
+
+def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str) -> None:
+    tar_buffer = BytesIO()
+    with tarfile.open(fileobj=tar_buffer, mode="w:gz") as tar:
+        for root, dirs, files in os.walk(har_dir_path):
+            for file in files:
+                file_path = os.path.join(root, file)
+                tar.add(file_path, arcname=os.path.relpath(file_path, har_dir_path))
+    tar_buffer.seek(0)
+
+    s3 = boto3.client("s3")
+    key = f"{os.path.basename(har_dir_path)}.tar.gz"
+
+    s3.upload_fileobj(tar_buffer, s3_bucket_name, key)
+    shutil.rmtree(har_dir_path)
+
+
 async def create_end2end_examples(
     base_url: str,
     metadata: dict[str, str],
     listing_scraper: harambe.AsyncScraperType,
-    detail_scraper: harambe.AsyncScraperType,
+    detail_scraper: Optional[harambe.AsyncScraperType],
     s3_bucket_name: Optional[str] = None,
 ) -> None:
     domain = urlparse(base_url).netloc.replace("www.", "").replace(".", "_")
@@ -142,6 +174,33 @@ async def create_end2end_examples(
     observer = await create_har(base_url, f"./static/{domain}", listing_scraper)
     enqueued_urls = [url for url, context, options in observer.urls]
 
+    if not enqueued_urls:
+        if not observer.data:
+            print("Listing enqueued no URLs and extracted no data. Exiting.")
+            return
+
+        data = observer.data
+        for row in data:
+            row.pop("__url", None)
+
+        print("Listing enqueued no URLs. Creating 1 links_fetch example.")
+        examples = [
+            Example(
+                id=create_nano_id(),
+                url=base_url,
+                resource_path=resource_path,
+                source="har",
+                category=metadata["category"],
+                subcategory=metadata["subcategory"],
+                type="links_fetch",
+                goal=metadata["goal"],
+                evals=[{"type": "json_match", "expected": data}],
+            )
+        ]
+
+        write_examples_to_file(examples)
+
+    print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 links example.")
     examples = [
         Example(
             id=create_nano_id(),
@@ -156,8 +215,13 @@ async def create_end2end_examples(
         )
     ]
 
+    if not detail_scraper:
+        write_examples_to_file(examples)
+        return
+
     enqueued_urls = enqueued_urls[:3]
 
+    print(f"Creating {len(enqueued_urls)} fetch examples from enqueued URLs.")
     for i, url in enumerate(enqueued_urls):
         observer = await create_har(url, f"./static/{domain}_detail{i}", detail_scraper)
         observer_data = observer.data[0]
@@ -182,222 +246,26 @@ async def create_end2end_examples(
         [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
     )
 
-    with open("./static/examples.json", "r+") as file:
-        current_data = json.load(file)
-        current_data.extend(
-            [
-                example.model_dump(exclude_unset=True, exclude_none=True)
-                for example in examples
-            ]
-        )
-        file.seek(0)
-        file.truncate()
-        json.dump(current_data, file, indent=2)
+    write_examples_to_file(examples)
 
     if s3_bucket_name:
         upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
 
 
-def upload_har_to_s3(har_dir_path: str, s3_bucket_name: str) -> None:
-    tar_buffer = BytesIO()
-    with tarfile.open(fileobj=tar_buffer, mode="w:gz") as tar:
-        for root, dirs, files in os.walk(har_dir_path):
-            for file in files:
-                file_path = os.path.join(root, file)
-                tar.add(file_path, arcname=os.path.relpath(file_path, har_dir_path))
-    tar_buffer.seek(0)
-
-    s3 = boto3.client("s3")
-    key = f"{os.path.basename(har_dir_path)}.tar.gz"
-
-    s3.upload_fileobj(tar_buffer, s3_bucket_name, key)
-    shutil.rmtree(har_dir_path)
-
-
-async def scrape_listing(
-    sdk: harambe.SDK, current_url: str, *args: Any, **kwargs: Any
-) -> None:
-    page: Page = sdk.page
-    await page.wait_for_timeout(2000)
-    await page.wait_for_selector(".information")
-    faculty_rows = await page.query_selector_all(".information a.au-target")
-    for row in faculty_rows:
-        next_url = await row.get_attribute("href")
-        if next_url:
-            await sdk.enqueue(next_url)
-
-    async def pager() -> Optional[str | ElementHandle]:
-        next_page_link = await page.query_selector(
-            '.pagination > li > a[data-ph-tevent-attr-trait214="Next"]'
-        )
-        return next_page_link
-
-    await sdk.paginate(pager)
-
-
-async def scrape_detail(
-    sdk: harambe.SDK, current_url: str, *args: Any, **kwargs: Any
-) -> None:
-    page: Page = sdk.page
-    await page.wait_for_load_state("networkidle")
-    await page.wait_for_selector("h1.job-title")
-    title_element = await page.query_selector("h1.job-title")
-    department_element = await page.query_selector(".job-category")
-    job_id_element = await page.query_selector(".jobId")
-    job_description_element = await page.query_selector(".job-description")
-    locations_elements = await page.query_selector_all(".au-target.cityState")
-    employment_type_element = await page.query_selector(".au-target.type")
-    apply_url_element = await page.query_selector('a[title="Apply Now"]')
-    language_element = await page.query_selector("html")
-    skills_element = await page.query_selector(
-        '.job-description p:has-text("Responsibilities")'
-    )
-    qualifications_element = await page.query_selector(
-        '.job-description p:has-text("Required"), .job-description p:has-text("Requirements"), .job-description p:has-text("Qualifications")'
-    )
-    preferred_skills_element = await page.query_selector(
-        '.job-description p:has-text("Preferred")'
-    )
-    ul_elements = await page.query_selector_all(".job-description ul")
-    qualifications = (
-        await qualifications_element.evaluate(
-            """(element) => {
-        let nextSibling = element.nextElementSibling;
-            while (nextSibling) {
-                if (nextSibling.tagName === "UL") {
-                    return nextSibling.textContent;
-                }
-                nextSibling = nextSibling.nextElementSibling;
-            }
-            return null; // If no next <ul> tag is found
-        }"""
-        )
-        if qualifications_element
-        else None
-    )
-
-    preferred_skills = (
-        await preferred_skills_element.evaluate(
-            """(element) => {
-        let nextSibling = element.nextElementSibling;
-            while (nextSibling) {
-                if (nextSibling.tagName === "UL") {
-                    return nextSibling.textContent;
-                }
-                nextSibling = nextSibling.nextElementSibling;
-            }
-            return null; // If no next <ul> tag is found
-        }"""
-        )
-        if preferred_skills_element
-        else None
-    )
-
-    skills = (
-        await skills_element.evaluate(
-            """(element) => {
-        let nextSibling = element.nextElementSibling;
-            while (nextSibling) {
-                if (nextSibling.tagName === "UL") {
-                    return nextSibling.textContent;
-                }
-                nextSibling = nextSibling.nextElementSibling;
-            }
-            return null; // If no next <ul> tag is found
-        }"""
-        )
-        if skills_element
-        else None
-    )
-
-    if not qualifications:
-        qualifications = (
-            await ul_elements[1].text_content()
-            if ul_elements and len(ul_elements) > 1
-            else None
-        )
-    if not skills:
-        skills = await ul_elements[0].text_content() if ul_elements else None
-    if not preferred_skills:
-        preferred_skills = (
-            await ul_elements[2].text_content()
-            if ul_elements and len(ul_elements) > 2
-            else None
-        )
-
-    job_id = await job_id_element.inner_text() if job_id_element else None
-    job_id = job_id.split("\n")[-1].strip() if job_id else job_id
-    title = await title_element.inner_text() if title_element else None
-    department = await department_element.inner_text() if department_element else None
-    department = department.split("\n")[-1].strip() if department else department
-    job_description = (
-        await job_description_element.inner_text() if job_description_element else None
-    )
-    locations = [await x.inner_text() for x in locations_elements if x]
-    sub_points = job_description.split("\n\n") if job_description else []
-    sub_points = [x for x in sub_points if x.strip()]
-    job_benefits = (
-        " ".join(
-            [
-                x
-                for x in sub_points
-                if "benefits" in x.lower() or "compensation" in x.lower()
-            ]
-        )
-        if [
-            x
-            for x in sub_points
-            if "benefits" in x.lower() or "compensation" in x.lower()
-        ]
-        else None
-    )
-    apply_url = (
-        await apply_url_element.get_attribute("href") if apply_url_element else None
-    )
-    employment_type = (
-        await employment_type_element.inner_text() if employment_type_element else None
-    )
-    employment_type = (
-        employment_type.split("\n")[-1].strip() if employment_type else employment_type
-    )
-    language = (
-        await language_element.get_attribute("lang") if language_element else None
-    )
-    await sdk.save_data(
-        {
-            "job_id": job_id,
-            "department": department,
-            "title": title,
-            "job_description": job_description,
-            "locations": locations,
-            "job_type": None,
-            "date_posted": None,
-            "apply_url": apply_url,
-            "job_benefits": job_benefits,
-            "qualifications": qualifications,
-            "preferred_skills": preferred_skills,
-            "skills": skills,
-            "recruiter_email": None,
-            "application_deadline": None,
-            "language": language,
-            "employment_type": employment_type,
-            "tags": [],
-        }
-    )
-
-
 # if __name__ == "__main__":
-# import asyncio
-# base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
-# metadata = {
-#     "category": "software",
-#     "subcategory": "careers",
-#     "fetch_id": "job_posting",
-#     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
-# }
+#     import asyncio
 
-# asyncio.run(
-#     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
-# )
+#     base_url = "https://horizon.adams12.org/our-school/staff-directory"
+#     metadata = {
+#         "category": "education",
+#         "subcategory": "contact",
+#         "fetch_id": "job_posting",
+#         "type": "links_fetch",
+#         "goal": 'Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {"first_name": {"type": "string"}, "last_name": {"type": "string"} "title": {"type": "string", "description": "The title or role of the individual within the school"}, "phone_number": {"type": "string", "description": "Keep phone number formatting but do not include irrelevant text"}, "email": {"type": "string", "description": "The email address of the individual"}}',
+#     }
 
-# upload_har_to_s3(f"./static/vgcareers_virgingalactic_com", "bananalyzer-examples")
+#     asyncio.run(
+#         create_end2end_examples(
+#             base_url, metadata, scrape_listing, None, "bananalyzer-examples"
+#         )
+#     )
