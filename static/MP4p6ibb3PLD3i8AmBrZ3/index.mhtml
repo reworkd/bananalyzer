@@ -601,8 +601,6 @@ r all filters</div>
 el-total=3D"Your search results ({0})" data-numpages-section=3D"5" data-lab=
 el-no-result=3D"<p>Your search did not match any results.</p>">
     <div class=3D"c-left__head">
-        <div class=3D"c-results__total"><span>Your search results (2051)</s=
-pan></div>
         <div class=3D"c-cloned__container">
             <div class=3D"c-cloned__sort-by"><div class=3D"c-results__sort"=
 >
@@ -2995,42 +2993,6 @@ ownload VCard</a>
                 </div>
             </div>
         </div>
-
-    <!-- PAGINATION HERE -->
-    <div class=3D"c-pagination">
-            <ul class=3D"c-pagination__list">
-
-                        <li class=3D"c-pagination__list-item">
-                            <a class=3D"c-pagination__link js-pagination-li=
-nk selected " data-pagenum=3D"1">1</a>
-                        </li>
-                        <li class=3D"c-pagination__list-item">
-                            <a class=3D"c-pagination__link js-pagination-li=
-nk " data-pagenum=3D"2">2</a>
-                        </li>
-                        <li class=3D"c-pagination__list-item">
-                            <a class=3D"c-pagination__link js-pagination-li=
-nk " data-pagenum=3D"3">3</a>
-                        </li>
-                        <li class=3D"c-pagination__list-item">
-                            <a class=3D"c-pagination__link js-pagination-li=
-nk " data-pagenum=3D"4">4</a>
-                        </li>
-                        <li class=3D"c-pagination__list-item">
-                            <a class=3D"c-pagination__link js-pagination-li=
-nk " data-pagenum=3D"5">5</a>
-                        </li>
-
-                    <li class=3D"c-pagination__list-item">
-                        <a class=3D"c-pagination__link js-pagination-link n=
-ext" data-pagenum=3D"6">&nbsp;</a>
-                    </li>
-                    <li class=3D"c-pagination__list-item">
-                        <a class=3D"c-pagination__link js-pagination-link l=
-ast" data-pagenum=3D"42">&nbsp;</a>
-                    </li>
-            </ul>
-</div>
 
     <!-- FACETS HERE -->
         <div class=3D"c-facets js-facets" data-json=3D"[{&quot;Name&quot;:&=

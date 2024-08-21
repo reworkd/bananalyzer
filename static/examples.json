@@ -1589,9 +1589,9 @@
         "type": "json_match",
         "expected": [
           "https://apprhs.org/arims/",
-          "http://apprhs.org/apppulmonology",
-          "https://apprhs.org/apprheumatology",
-          "https://apprhs.org/appfamily",
+          "https://apprhs.org/apppulmonology/",
+          "https://apprhs.org/apprheumatology/",
+          "https://apprhs.org/appfamily/",
           "https://apprhs.org/appgastro/",
           "https://apprhs.org/apportho/",
           "https://apprhs.org/baker/",
@@ -1604,14 +1604,13 @@
           "https://apprhs.org/tateclinic/",
           "https://apprhs.org/watauga-surgical/",
           "https://apprhs.org/wataugamedical/",
-          "https://apprhs.org/heartcenter",
+          "https://apprhs.org/heartcenter/",
           "https://apprhs.org/rehabcenter/",
-          "https://apprhs.org/sleepcenter",
-          "https://apprhs.org/paul-h-broyhill-wellness-center",
+          "https://apprhs.org/sleepcenter/",
+          "https://apprhs.org/paul-h-broyhill-wellness-center/",
           "https://apprhs.org/cancercenter/",
           "https://apprhs.org/breastcenter/",
           "https://apprhs.org/cannon/",
-          "https://apprhs.org/rehabcenter/",
           "https://apprhs.org/appalachian-regional-behavioral-health/"
         ]
       }
@@ -18814,6 +18813,7 @@
   {
     "id": "QxSSau0T34NCk6O1bq4Cd",
     "url": "https://jobs.senate.ca.gov/office-of-senator-becker-legislative-aide-530",
+    "mhtml_url": null,
     "source": "mhtml",
     "category": "government",
     "subcategory": "careers",
@@ -18852,6 +18852,7 @@
   {
     "id": "yXLMF4nocYqJnql2dt71R",
     "url": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Process-Improvement-PMO-II_R01128732",
+    "mhtml_url": null,
     "source": "mhtml",
     "category": "manufacturing",
     "subcategory": "careers",
@@ -18886,6 +18887,7 @@
   {
     "id": "NV6JL1wEHaTPuK65dKt6t",
     "url": "https://apply.jobappnetwork.com/clients/18760/posting/9615297/en?utm_source=google.com",
+    "mhtml_url": null,
     "source": "mhtml",
     "category": "retail",
     "subcategory": "careers",
