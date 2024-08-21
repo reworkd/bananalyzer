@@ -387,18 +387,6 @@ async def scrape_detail(
 
 
 # if __name__ == "__main__":
-# run listing scraper
-#    output expected list of enqueued urls
-#    save har
-# grab first 3 urls from enqueued urls
-#    run detail scraper on each one
-#    output expected detail data for each one
-#    save har for each one
-# fuse hars and save to static/
-#    delete old har folders
-# write expected 1 listing & 3 detail examples to examples.json
-#    include subpage path for detail examples. no! just use url attribute
-
 # import asyncio
 # base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
 # metadata = {
@@ -412,4 +400,4 @@ async def scrape_detail(
 #     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
 # )
 
-# upload_har_to_s3(f"./static/palantir_com", "bananalyzer-examples")
+# upload_har_to_s3(f"./static/vgcareers_virgingalactic_com", "bananalyzer-examples")
