@@ -105,12 +105,8 @@ def run_tests(
     single_browser_instance: bool = False,
 ) -> int:
     """
-    Create temporary test files based on intent, run them, and then delete them
+    Create temporary test files for each test, run them, and then delete them
     """
-    intents = {test.example.type for test in tests}
-    intent_separated_tests = [
-        [test for test in tests if test.example.type == intent] for intent in intents
-    ]
 
     cache_dir = Path(os.getcwd()) / ".banana_cache"
     cache_dir.mkdir(exist_ok=True)
@@ -122,14 +118,14 @@ def run_tests(
 
         test_file_names = [
             create_test_file(
-                tests,
-                f"{tests[0].example.type}_intent_",
+                [test],
+                f"{test.example.id}_",
                 temp_path,
                 runner,
                 headless,
                 single_browser_instance,
             )
-            for tests in intent_separated_tests
+            for test in tests
         ]
 
         args = (
