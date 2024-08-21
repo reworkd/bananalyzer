@@ -27,7 +27,7 @@ nanoid = "^2.0.0"
 
 [tool.poetry.group.test.dependencies]
 pytest-mock = "^3.14.0"
-pytest-cov = "^4.1.0"
+pytest-cov = ">=4.1,<6.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.10.1"
