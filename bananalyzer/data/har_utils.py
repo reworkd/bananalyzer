@@ -9,7 +9,7 @@ from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
 from harambe.observer import InMemoryObserver
 from io import BytesIO
-from playwright.async_api import async_playwright, Page, ElementHandle
+from playwright.async_api import ElementHandle, Page, async_playwright
 from typing import Any, Optional, cast
 from urllib.parse import urlparse
 
@@ -18,6 +18,8 @@ from bananalyzer.data.schemas import Example
 """
 TODO: Move to scripts outside bananalyzer to remove nanoid dependency
 """
+
+
 def fuse_hars(base_har_path: str, target_har_paths: list[str]) -> None:
     """
     Takes a base HAR file path and a list of target HAR file paths, reads their content, and combines the target HARs into the base HAR.
@@ -385,32 +387,3 @@ async def scrape_detail(
             "tags": [],
         }
     )
-
-
-# if __name__ == "__main__":
-# run listing scraper
-#    output expected list of enqueued urls
-#    save har
-# grab first 3 urls from enqueued urls
-#    run detail scraper on each one
-#    output expected detail data for each one
-#    save har for each one
-# fuse hars and save to static/
-#    delete old har folders
-# write expected 1 listing & 3 detail examples to examples.json
-#    include subpage path for detail examples. no! just use url attribute
-
-# import asyncio
-# base_url = "https://vgcareers.virgingalactic.com/global/en/search-results"
-# metadata = {
-#     "category": "software",
-#     "subcategory": "careers",
-#     "fetch_id": "job_posting",
-#     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
-# }
-
-# asyncio.run(
-#     create_end2end_examples(base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples")
-# )
-
-# upload_har_to_s3(f"./static/palantir_com", "bananalyzer-examples")

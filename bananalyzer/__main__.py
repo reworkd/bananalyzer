@@ -141,6 +141,12 @@ def parse_args() -> Args:
         help="Filter tests by a particular type",
     )
     parser.add_argument(
+        "--source_type",
+        type=str,
+        default=None,
+        help="Filter tests by a particular source type (e.g. mhtml, hosted, har)",
+    )
+    parser.add_argument(
         "--download",
         action="store_true",
         help="Will re-download training and test examples",
@@ -197,6 +203,7 @@ def parse_args() -> Args:
         skip=args.skip,
         single_browser_instance=args.single_browser_instance,
         type=args.type,
+        source_type=args.source_type,
         test=args.test,
         download=args.download,
         examples_bucket=args.examples_bucket,
@@ -301,6 +308,10 @@ def main() -> int:
         filters.append(lambda e: any(tag in e.tags for tag in args.tags or []))
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
+    if args.type:
+        filters.append(lambda e: e.type == args.type)
+    if args.source_type:
+        filters.append(lambda e: e.source.lower() == args.source_type.lower())  # type: ignore
     if args.domain:
         filters.append(
             lambda e: ".".join(urlparse(e.url).netloc.split(".")[-2:]) == args.domain
@@ -309,8 +320,6 @@ def main() -> int:
         filters.append(lambda e: e.category == args.category)
     if args.skip:
         filters.append(lambda e: e.id not in args.skip)
-    if args.type:
-        filters.append(lambda e: e.type == args.type)
     if args.subcategory:
         filters.append(lambda e: e.subcategory == args.subcategory)
 
