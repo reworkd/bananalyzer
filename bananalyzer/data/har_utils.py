@@ -15,7 +15,9 @@ from urllib.parse import urlparse
 
 from bananalyzer.data.schemas import Example
 
-
+"""
+TODO: Move to scripts outside bananalyzer to remove nanoid dependency
+"""
 def fuse_hars(base_har_path: str, target_har_paths: list[str]) -> None:
     """
     Takes a base HAR file path and a list of target HAR file paths, reads their content, and combines the target HARs into the base HAR.
