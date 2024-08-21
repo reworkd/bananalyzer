@@ -51,8 +51,11 @@ def download_mhtml(url: str) -> str:
     else:
         raise NotImplementedError("Only s3:// URIs are currently supported")
 
+
 def download_har(har_dir_path: str, s3_url: str) -> None:
-    s3 = boto3.client("s3", region_name="us-east-1", config=Config(signature_version=UNSIGNED))
+    s3 = boto3.client(
+        "s3", region_name="us-east-1", config=Config(signature_version=UNSIGNED)
+    )
 
     parts = s3_url.split("/")
     bucket_name = parts[2]
