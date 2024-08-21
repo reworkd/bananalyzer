@@ -40692,7 +40692,7 @@ x !important; }
  170, 170) solid thin !important; outline-offset: 2px !important; }
 
 @media (min-width: 1024px) {
-  #list-result-locations { overflow-y: auto; max-height: 550px; }
+  #list-result-locations { overflow-y: auto; max-height: 750px; }
 }
 
 @media (min-width: 1024px) {
