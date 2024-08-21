@@ -654,10 +654,7 @@ d-6 filter"><div id=3D"contractsTable_filter" class=3D"dataTables_filter"><=
 label>Search:<input type=3D"search" class=3D"form-control form-control-sm" =
 placeholder=3D"" aria-controls=3D"contractsTable"></label></div></div></div=
 ><div class=3D"row"><div class=3D"col-md-12"><div class=3D"dataTables_pagin=
-ate paging_numbers" id=3D"contractsTable_paginate"><ul class=3D"pagination"=
-><li class=3D"paginate_button page-item active"><a href=3D"https://apps.des=
-.wa.gov/DESContracts/#" aria-controls=3D"contractsTable" data-dt-idx=3D"0" =
-tabindex=3D"0" class=3D"page-link">1</a></li></ul></div></div></div><div cl=
+ate paging_numbers" id=3D"contractsTable_paginate"></div></div></div><div cl=
 ass=3D"row"><div class=3D"col-sm-12"><table id=3D"contractsTable" class=3D"=
 table table-striped table-bordered dataTable no-footer" style=3D"width: 100=
 %;" aria-describedby=3D"contractsTable_info" role=3D"grid"><thead><tr role=
