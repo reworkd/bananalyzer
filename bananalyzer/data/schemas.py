@@ -37,6 +37,7 @@ PossibleTags = Literal[
     "colliding-tags",
     "contract",
     "badly-formatted",
+    "urls",
 ]
 
 

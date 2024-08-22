@@ -27,6 +27,7 @@ class Args(BaseModel):
     single_browser_instance: bool
     id: Optional[List[str]] = Field(default=None)
     tags: Optional[List[str]] = Field(default=None)
+    skip_tags: Optional[List[str]] = Field(default=None)
     domain: Optional[str] = Field(default=None)
     intent: Optional[ExampleType] = Field(default=None)
     category: Optional[str] = Field(default=None)
