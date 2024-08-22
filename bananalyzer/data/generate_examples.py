@@ -145,11 +145,7 @@ async def main() -> None:
     tarsier_client = Tarsier(ocr_service)
 
     urls: List[str] = []
-    fetch_schema = get_fetch_schema("job_posting")
-    if not isinstance(fetch_schema, dict):
-        schema = fetch_schema.model_fields
-    else:
-        schema = fetch_schema
+    schema = get_fetch_schema("job_posting")
     metadata = {
         "category": "unknown",
         "subcategory": "careers",
