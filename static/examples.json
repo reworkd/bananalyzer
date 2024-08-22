@@ -4628,12 +4628,6 @@
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
-            "title": "Operating Systems I",
-            "units": 3,
-            "course_code": "CMPT 300",
-            "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
-          },
-          {
             "title": "Computer Simulation and Modelling",
             "units": 3,
             "course_code": "CMPT 305",
@@ -4790,12 +4784,6 @@
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
-            "title": "Data Structures and Algorithms",
-            "units": 3,
-            "course_code": "CMPT 307",
-            "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
-          },
-          {
             "title": "Computability and Complexity",
             "units": 3,
             "course_code": "CMPT 308",
@@ -4841,12 +4829,6 @@
             "title": "Introduction to Formal Languages and Automata with Applications",
             "units": 3,
             "course_code": "MACM 300",
-            "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
-          },
-          {
-            "title": "Numerical Analysis I",
-            "units": 3,
-            "course_code": "MACM 316",
             "url": "https://www.sfu.ca/students/calendar/2024/spring/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html#"
           },
           {
@@ -23065,6 +23047,21 @@
             "email": "zin027786@adams12.org"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "Rv9bX3ZqY8esHf4pD2mNT",
+    "url": "https://news.ycombinator.com/",
+    "source": "mhtml",
+    "category": "software",
+    "subcategory": "forum",
+    "type": "links_fetch",
+    "goal": "Fetch all of the links to the HN posts on the current page only. Return as a list of objects of the following schema:\"title\": {\n      \"type\": \"string\",\n      \"description\": \"The title of the post. Use the element that best captures the name.\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"The URL of the post.\"\n    },\n    \"num_upvotes\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of upvotes the post has received.\"\n    },\n    \"username\": {\n      \"type\": \"string\",\n      \"description\": \"The username of the post author.\"\n    },\n    \"num_comments\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of comments on the post.\"\n    },\n    \"posted_date\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time when the post was submitted.\"\n    }",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": []
       }
     ]
   }
