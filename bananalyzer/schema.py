@@ -1,8 +1,7 @@
+from pydantic import BaseModel, Field
 from typing import List, Literal, Optional, Union
 
-from pydantic import BaseModel, Field
-
-from bananalyzer.data.schemas import GoalType
+from bananalyzer.data.schemas import ExampleType
 
 XDistDistributionMode = Literal[
     "load", "loadscope", "loadfile", "loadgroup", "worksteal", "no"
@@ -29,7 +28,7 @@ class Args(BaseModel):
     id: Optional[List[str]] = Field(default=None)
     tags: Optional[List[str]] = Field(default=None)
     domain: Optional[str] = Field(default=None)
-    intent: Optional[GoalType] = Field(default=None)
+    intent: Optional[ExampleType] = Field(default=None)
     category: Optional[str] = Field(default=None)
     subcategory: Optional[str] = Field(default=None)
     skip: List[str]

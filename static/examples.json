@@ -2818,141 +2818,6 @@
     ]
   },
   {
-    "id": "tjZbbaKsgeNvjTOx9ETEv",
-    "url": "https://www.hackensackmeridianhealth.org/en/location-search#sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.hackensackmeridianhealth.org/en/location-search#first=10&sort=%40locationname%20ascending&f:@locationtype=[Hospitals%20and%20Emergency%20Departments]"
-      }
-    ]
-  },
-  {
-    "id": "CMGxGp3IXTZDdl09hdA3X",
-    "url": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=5",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.adventisthealthcare.com/locations/results/?searchId=7402b4ad-5a84-ee11-a85e-000d3a611ea2&sort=13&page=7"
-      }
-    ]
-  },
-  {
-    "id": "4hhqwjRQMUctutOLfCJbh",
-    "url": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=4",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.providence.org/locations?lookup=25d90ac1a9024e7298afb10aff38bd76&lookupvalue=Hospitals&postal=V3Z&latlng=49.1049,-122.824&page=6"
-      }
-    ]
-  },
-  {
-    "id": "VBKEzVG6mfbFtT1VJmEzN",
-    "url": "https://www.baptistfirst.org/find-a-location/?page=4&count=10",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.baptistfirst.org/find-a-location/?page=6&count=10"
-      }
-    ]
-  },
-  {
-    "id": "EcnRx0bwSr8Pv9uBQ3iCD",
-    "url": "https://www.mhs.net/locations?listPage=2",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.mhs.net/locations?listPage=4"
-      }
-    ]
-  },
-  {
-    "id": "j4Mx0OiqM1azrusOSagsu",
-    "url": "https://whs.org/locations-practices/search-results/",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://whs.org/locations-practices/search-results/?sf_paged=3"
-      }
-    ]
-  },
-  {
-    "id": "NnGtozxmMq4zG6bNcAb25",
-    "url": "https://www.shrinerschildrens.org/en/locations?listPage=1",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.shrinerschildrens.org/en/locations?listPage=4"
-      }
-    ]
-  },
-  {
-    "id": "vtzuumiiyTizSmvXa3PG4",
-    "url": "https://www.sih.net/locations?page=1&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.sih.net/locations?page=4&perpage=25&q=&serv=&dist=&zip=&sort=Ascending&view=list"
-      }
-    ]
-  },
-  {
-    "id": "zFg4TMrG6kjcRN0ngS9V8",
-    "url": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=54&count=9",
-    "source": "hosted",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "navigate",
-    "goal": "You are currently on a listing page. Use pagination controls to travel to the last available listing page if possible ",
-    "evals": [
-      {
-        "type": "end_url_match",
-        "expected": "https://www.mercyone.org/find-a-location/locations-results?LocationText=&page=58&count=9"
-      }
-    ]
-  },
-  {
     "id": "0orFfEesEVpe1BN7B114a",
     "url": "https://community.openai.com/t/how-to-address-a-gpt-in-its-instructions/513763",
     "source": "mhtml",
@@ -18270,7 +18135,7 @@
     "source": "hosted",
     "category": "government",
     "subcategory": "download",
-    "type": "pagination",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
     "evals": [
       {
@@ -18434,6 +18299,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "pagination"
     ]
   },
   {
@@ -18442,7 +18310,7 @@
     "source": "hosted",
     "category": "government",
     "subcategory": "download",
-    "type": "pagination",
+    "type": "links_fetch",
     "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
     "evals": [
       {
@@ -18786,6 +18654,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "pagination"
     ]
   },
   {
