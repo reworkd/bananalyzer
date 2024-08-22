@@ -88,6 +88,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -143,6 +146,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -189,6 +195,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -805,6 +814,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -851,6 +863,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -912,6 +927,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -958,6 +976,9 @@
           }
         ]
       }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
@@ -995,112 +1016,9 @@
           }
         ]
       }
-    ]
-  },
-  {
-    "id": "KcdDyakxnXva0VrmJi4Ez",
-    "url": "https://www.dukehealth.org/locations?sc=30&view=list",
-    "source": "mhtml",
-    "category": "healthcare",
-    "subcategory": "contact",
-    "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": [
-          {
-            "url": "https://www.dukehealth.org/locations/brier-creek-medical-pavilion"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-center-living-campus"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-adhd-clinic"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-adolescent-and-young-adult-medicine-north-durham"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-biofeedback-clinic"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-cardiology-croasdaile"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-cardiometabolic-prevention-south-durham"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-cardiopulmonary-rehabilitation-croasdaile"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-child-and-family-study-center"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-endocrinology-of-raleigh"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-gastroenterology-clinic-brier-creek"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-general-internal-medicine-north-durham"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-health-apex"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-childrens-healthy-lifestyles-north-durham"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-infectious-disease-south-durham"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-infusion-center-brier-creek"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-health-center-creekstone"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-rheumatology-clinic-brier-creek"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-orthopaedics-of-cary"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-pain-medicine-clinic"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-pediatric-neuropsychology-clinic"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-hillsborough"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-duke-pain-medicine"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-north-duke-street"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-meadowmont"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-sports-medicine-center-living"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-prep-clinic-hiv-prevention"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-radiology-patterson-place"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-raleigh-hospital-head-and-neck-oncology"
-          },
-          {
-            "url": "https://www.dukehealth.org/locations/duke-raleigh-hospital-imaging-services"
-          }
-        ]
-      }
+    ],
+    "tags": [
+      "urls"
     ]
   },
   {
