@@ -11,7 +11,7 @@ def test_generate_test_with_single_eval() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[Eval(type="json_match", expected={"key": "value"})],
         fetch_id="job_posting",
         goal=None,
@@ -28,7 +28,7 @@ def test_generate_test_with_multiple_evals() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[
             Eval(type="json_match", expected={"key": "value"}),
             Eval(type="end_url_match", expected="https://www.test.com"),
@@ -49,13 +49,13 @@ def test_generate_class_name_without_www() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[],
         fetch_id="job_posting",
         goal=None,
     )
     class_name = generator._generate_class_name(example)
-    assert class_name == "TestFetchTestCom_1"
+    assert class_name == "TestDetailTestCom_1"
 
 
 def test_generate_class_name_with_www() -> None:
@@ -66,13 +66,13 @@ def test_generate_class_name_with_www() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[],
         fetch_id="job_posting",
         goal=None,
     )
     class_name = generator._generate_class_name(example)
-    assert class_name == "TestFetchTestCom_1"
+    assert class_name == "TestDetailTestCom_1"
 
 
 def test_generate_class_name_with_multiple_categorys() -> None:
@@ -83,7 +83,7 @@ def test_generate_class_name_with_multiple_categorys() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[],
         fetch_id="job_posting",
         goal=None,
@@ -94,12 +94,12 @@ def test_generate_class_name_with_multiple_categorys() -> None:
         source="mhtml",
         category="test",
         subcategory="www",
-        type="fetch",
+        type="detail",
         evals=[],
         fetch_id="job_posting",
         goal=None,
     )
     class_name1 = generator._generate_class_name(example1)
     class_name2 = generator._generate_class_name(example2)
-    assert class_name1 == "TestFetchTestCom_1"
-    assert class_name2 == "TestFetchTestCom2_2"
+    assert class_name1 == "TestDetailTestCom_1"
+    assert class_name2 == "TestDetailTestCom2_2"

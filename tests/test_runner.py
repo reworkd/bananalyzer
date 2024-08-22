@@ -1,8 +1,7 @@
-from tempfile import NamedTemporaryFile
-from typing import Union
-
 import pytest
 from _pytest.config import ExitCode
+from tempfile import NamedTemporaryFile
+from typing import Union
 
 from bananalyzer import Example
 from bananalyzer.hooks import BananalyzerPytestPlugin
@@ -42,9 +41,9 @@ def example():
         id="test",
         url="https://example.com",
         subcategory="test",
-        type="links",
+        type="listing",
         category="test",
-        goal="links",
+        goal="goal",
         source="hosted",
         evals=[],
     )
@@ -67,7 +66,7 @@ def passing_test_with_marks(example):
         example=example,
         code=f"""
 import pytest
-@pytest.mark.{BananalyzerPytestPlugin.MARKER_PREFIX}intent("links")
+@pytest.mark.{BananalyzerPytestPlugin.MARKER_PREFIX}intent("listing")
 @pytest.mark.{BananalyzerPytestPlugin.MARKER_PREFIX}key("value")
 def test_passing_with_marks():
     pass
@@ -161,7 +160,7 @@ def test_xml_report_has_properties(
 
         # Test case level
         assert '<property name="key" value="value" />' in xml
-        assert '<property name="intent" value="links" />' in xml
+        assert '<property name="intent" value="listing" />' in xml
 
         # Test suite level
         assert '<property name="bananalyzer_version" value="1.2.3" />' in xml
