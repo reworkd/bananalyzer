@@ -11,31 +11,81 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.mmchs.org/directory/locations/alden-street-facility/",
-          "https://www.mmchs.org/directory/locations/cambridge-springs-health-center/",
-          "https://www.mmchs.org/directory/locations/cochranton-family-practice/",
-          "https://www.mmchs.org/directory/locations/conneaut-lake-health-center/",
-          "https://www.mmchs.org/directory/locations/conneaut-valley-health-center/",
-          "https://www.mmchs.org/directory/locations/dr-candyce-lucian-do/",
-          "https://www.mmchs.org/directory/locations/french-creek-internal-medicine/",
-          "https://www.mmchs.org/directory/locations/grove-street-facility/",
-          "https://www.mmchs.org/directory/locations/hospice-of-crawford-county/",
-          "https://www.mmchs.org/directory/locations/kennedy-street-facility/",
-          "https://www.mmchs.org/directory/locations/liberty-street-facility/",
-          "https://www.mmchs.org/directory/locations/liberty-street-medical-arts-building/",
-          "https://www.mmchs.org/directory/locations/meadville-dermatology-and-skin-surgery-institute/",
-          "https://www.mmchs.org/directory/locations/mmc-foundation/",
-          "https://www.mmchs.org/directory/locations/meadville-pain-management/",
-          "https://www.mmchs.org/directory/locations/mill-run-community-pharmacy/",
-          "https://www.mmchs.org/directory/locations/mind-body-wellness-center/",
-          "https://www.mmchs.org/directory/locations/one-vernon-place/",
-          "https://www.mmchs.org/directory/locations/poplar-street-medical-arts/",
-          "https://www.mmchs.org/directory/locations/primary-care-services/",
-          "https://www.mmchs.org/directory/locations/saegertown-medical-associates/",
-          "https://www.mmchs.org/directory/locations/terrace-street-facility/",
-          "https://www.mmchs.org/directory/locations/valley-dental-center/",
-          "https://www.mmchs.org/directory/locations/vernon-expresscare/",
-          "https://www.mmchs.org/directory/locations/yolanda-g-barco-oncology-institute/"
+          {
+            "url": "https://www.mmchs.org/directory/locations/alden-street-facility/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/cambridge-springs-health-center/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/cochranton-family-practice/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/conneaut-lake-health-center/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/conneaut-valley-health-center/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/dr-candyce-lucian-do/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/french-creek-internal-medicine/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/grove-street-facility/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/hospice-of-crawford-county/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/kennedy-street-facility/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/liberty-street-facility/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/liberty-street-medical-arts-building/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/meadville-dermatology-and-skin-surgery-institute/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/mmc-foundation/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/meadville-pain-management/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/mill-run-community-pharmacy/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/mind-body-wellness-center/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/one-vernon-place/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/poplar-street-medical-arts/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/primary-care-services/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/saegertown-medical-associates/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/terrace-street-facility/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/valley-dental-center/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/vernon-expresscare/"
+          },
+          {
+            "url": "https://www.mmchs.org/directory/locations/yolanda-g-barco-oncology-institute/"
+          }
         ]
       }
     ]
@@ -52,19 +102,45 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.mhsystem.org/belpremedicalcampus",
-          "https://www.mhsystem.org/mariettamemorialhospitalcampus",
-          "https://www.mhsystem.org/selbygeneralhospitalcampus",
-          "https://www.mhsystem.org/sistersville",
-          "https://www.mhsystem.org/physicianscareexpress",
-          "https://www.mhsystem.org/belpremedicalcampus",
-          "https://www.mhsystem.org/broughtonmedicalcampus",
-          "https://www.mhsystem.org/homehealthandhospice",
-          "https://www.mhsystem.org/memorialhealthsystemfrontier",
-          "https://www.mhsystem.org/waynestreetmedicalcampus",
-          "https://www.mhsystem.org/athensphysicians",
-          "https://www.mhsystem.org/athensprimarycare",
-          "https://www.mhsystem.org/athensclinic"
+          {
+            "url": "https://www.mhsystem.org/belpremedicalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/mariettamemorialhospitalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/selbygeneralhospitalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/sistersville"
+          },
+          {
+            "url": "https://www.mhsystem.org/physicianscareexpress"
+          },
+          {
+            "url": "https://www.mhsystem.org/belpremedicalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/broughtonmedicalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/homehealthandhospice"
+          },
+          {
+            "url": "https://www.mhsystem.org/memorialhealthsystemfrontier"
+          },
+          {
+            "url": "https://www.mhsystem.org/waynestreetmedicalcampus"
+          },
+          {
+            "url": "https://www.mhsystem.org/athensphysicians"
+          },
+          {
+            "url": "https://www.mhsystem.org/athensprimarycare"
+          },
+          {
+            "url": "https://www.mhsystem.org/athensclinic"
+          }
         ]
       }
     ]
@@ -81,16 +157,36 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.mhs.net/locations/memorial-pembroke/er",
-          "https://www.mhs.net/locations/mhs-joe-dimaggio-childrens-hospital",
-          "https://www.mhs.net/locations/aventura-cardiac",
-          "https://www.mhs.net/locations/memorial-home-infusion",
-          "https://www.mhs.net/locations/memorial-hospital-miramar",
-          "https://www.mhs.net/locations/memorial-hospital-miramar-mob-2",
-          "https://www.mhs.net/locations/memorial-pembroke",
-          "https://www.mhs.net/locations/memorial-west",
-          "https://www.mhs.net/locations/memorial-manor",
-          "https://www.mhs.net/locations/memorial-orthopaedic-surgery-and-sports-medicine-center"
+          {
+            "url": "https://www.mhs.net/locations/memorial-pembroke/er"
+          },
+          {
+            "url": "https://www.mhs.net/locations/mhs-joe-dimaggio-childrens-hospital"
+          },
+          {
+            "url": "https://www.mhs.net/locations/aventura-cardiac"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-home-infusion"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-hospital-miramar"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-hospital-miramar-mob-2"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-pembroke"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-west"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-manor"
+          },
+          {
+            "url": "https://www.mhs.net/locations/memorial-orthopaedic-surgery-and-sports-medicine-center"
+          }
         ]
       }
     ]
@@ -107,206 +203,606 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.memorialcare.org/locations/long-beach-medical-center",
-          "https://www.memorialcare.org/locations/saddleback-medical-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group",
-          "https://www.memorialcare.org/locations/miller-childrens-womens-hospital-long-beach",
-          "https://www.memorialcare.org/locations/orange-coast-medical-center",
-          "https://www.memorialcare.org/locations/wave-imaging-san-clemente",
-          "https://www.memorialcare.org/locations/memorialcare-imaging-center-childrens",
-          "https://www.memorialcare.org/locations/memorialcare-imaging-center-saddleback",
-          "https://www.memorialcare.org/locations/wave-imaging-huntington-beach",
-          "https://www.memorialcare.org/locations/wave-imaging-irvine-barranca",
-          "https://www.memorialcare.org/locations/wave-imaging-newport-beach",
-          "https://www.memorialcare.org/locations/wave-imaging-saddleback",
-          "https://www.memorialcare.org/locations/wave-imaging-fountain-valley",
-          "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-saddleback-medical-center",
-          "https://www.memorialcare.org/locations/memorialcare-cancer-institute-todd-cancer-pavilion",
-          "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/memorialcare-orthopedic-institute",
-          "https://www.memorialcare.org/locations/memorialcare-rehabilitation-institute-lbmc",
-          "https://www.memorialcare.org/locations/memorialcare-cancer-institute",
-          "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-orange-coast-medical-center",
-          "https://www.memorialcare.org/locations/memorialcare-cancer-institute-saddleback",
-          "https://www.memorialcare.org/locations/lung-program",
-          "https://www.memorialcare.org/locations/gynecologic-oncology-program",
-          "https://www.memorialcare.org/cancer-care/memorialcare-cancer-institute-colorectal-cancer-program",
-          "https://www.memorialcare.org/locations/memorialcare-cancer-institute-colorectal-cancer-screening-program",
-          "https://www.memorialcare.org/locations/memorialcare-neuroscience-institute",
-          "https://www.memorialcare.org/locations/laboratory-services-ocmc",
-          "https://www.memorialcare.org/locations/laboratory-services-smc",
-          "https://www.memorialcare.org/locations/laboratory-services-lbmc",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-westminster",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-san-juan-capistrano-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-los-altos-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-adams-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-specialty-pharmacy-services",
-          "https://www.memorialcare.org/locations/infusion-care-pharmacy",
-          "https://www.memorialcare.org/locations/memorialcare-pharmacy-inpatient-and-outpatient",
-          "https://www.memorialcare.org/locations/childrens-pharmacy",
-          "https://www.memorialcare.org/locations/infusion-care-pharmacy-0",
-          "https://www.memorialcare.org/locations/saddleback-medical-center-pharmacy-outpatient",
-          "https://www.memorialcare.org/locations/pharmacy-residency-program",
-          "https://www.memorialcare.org/locations/orange-coast-medical-center-pharmacy-outpatient",
-          "https://www.memorialcare.org/locations/memorialcare-outpatient-surgical-center-long-beach",
-          "https://www.memorialcare.org/locations/memorialcare-surgical-center-orange-coast",
-          "https://www.memorialcare.org/locations/la-veta-surgery-center",
-          "https://www.memorialcare.org/locations/barranca-surgery-center",
-          "https://www.memorialcare.org/locations/memorialcare-surgical-center-laguna-woods",
-          "https://www.memorialcare.org/locations/digestive-care-center-saddleback",
-          "https://www.memorialcare.org/locations/surgical-center-saddleback",
-          "https://www.memorialcare.org/locations/laguna-niguel-surgery-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-westminster-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-los-altos",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-health-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-anaheim",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-costa-mesa",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-dana-point",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-cardiothoracic-surgery",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-warner",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-adams-ave",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-beach-blvd",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca-pediatrics",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-obgyn",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-atlantic-ave",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-family-medicine-residency",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-douglas-park",
-          "https://www.memorialcare.org/locations/adult-multi-specialty-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-mission-viejo",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-rancho-mission-viejo",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-rancho-santa-margarita",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-san-clemente",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-san-juan-capistrano",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-santa-ana",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-torrance",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-tustin",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-cardiothoracic-surgery",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-cardiovascular-surgery",
-          "https://www.memorialcare.org/locations/trauma-acute-care-surgery-memorialcare-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/gastrointestinal-gi-lab-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/blood-donor-center-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/blood-donation-center-orange-coast-medical-center",
-          "https://www.memorialcare.org/locations/blood-donor-center-saddleback-medical-center",
-          "https://www.memorialcare.org/locations/low-vision-therapy-program",
-          "https://www.memorialcare.org/locations/department-hyperbaric-medicine",
-          "https://www.memorialcare.org/locations/outpatient-wound-healing-center",
-          "https://www.memorialcare.org/services/cancer-care/jean-howard-infusion-center",
-          "https://www.memorialcare.org/locations/cherese-mari-laulhere-birthcare-center",
-          "https://www.memorialcare.org/locations/childbirth-center",
-          "https://www.memorialcare.org/locations/womens-hospital",
-          "https://www.memorialcare.org/locations/obgyn-clinic-outpatient-clinic",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-sand-canyon",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-barranca",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-laguna-hills",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-orange-coast",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-long-beach",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-los-alamitos",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-san-juan-capistrano",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-westminster-hospital-circle",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-westminster-goldenwest",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-garden-grove-blvd-garden-grove",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-harbor-blvd-garden-grove",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-norwalk-east",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-carson",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-laguna-canyon-irvine",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-santa-ana",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-huntington-beach",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-long-beach",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-fountain-valley",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-rancho-mission-viejo",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-newport-beach",
-          "https://www.memorialcare.org/locations/memorialcare-breast-center-huntington-beach",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-woods",
-          "https://www.memorialcare.org/services/spinal-care/spine-center-OCMC",
-          "https://www.memorialcare.org/locations/spine-center-SMC",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-culver-health-center",
-          "https://www.memorialcare.org/services/weight-loss-surgery/memorialcare-surgical-weight-loss-center",
-          "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center-orange-coast",
-          "https://www.memorialcare.org/locations/memorialcare-imaging-center",
-          "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center",
-          "https://www.memorialcare.org/locations/memorialcare-stroke-center-lbmc",
-          "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/spine-center-LBMC",
-          "https://www.memorialcare.org/locations/memorialcare-imaging-center-long-beach-medical-center",
-          "https://www.memorialcare.org/locations/family-care-centers-costa-mesa",
-          "https://www.memorialcare.org/locations/family-care-centers-fountain-valley",
-          "https://www.memorialcare.org/locations/family-care-centers-barranca",
-          "https://www.memorialcare.org/locations/av-family-medicine-urgent-care-laguna-hills",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-breast-surgery",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-culver",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-lakewood",
-          "https://www.memorialcare.org/locations/yorba-linda-physical-therapy",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-huntington-beach",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-beverly-hills",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-long-beach",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-downey",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-corona",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-san-juan-capistrano",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-mauchly",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-brea",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-west-covina",
-          "https://www.memorialcare.org/locations/torrance-physical-therapy",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-anaheim",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-newport-beach",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-santa-ana",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-mission-viejo-lapaz",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-anaheim-hills",
-          "https://www.memorialcare.org/locations/childrens-specialty-center-torrance",
-          "https://www.memorialcare.org/locations/childrens-specialty-center-fountain-valley",
-          "https://www.memorialcare.org/locations/wave-imaging-torrance-advanced",
-          "https://www.memorialcare.org/locations/wave-imaging-santa-ana",
-          "https://www.memorialcare.org/locations/wave-imaging-signal-hill",
-          "https://www.memorialcare.org/locations/wave-imaging-beach-cities",
-          "https://www.memorialcare.org/locations/wave-imaging-orange",
-          "https://www.memorialcare.org/locations/breastlink-womens-imaging-long-beach",
-          "https://www.memorialcare.org/locations/wave-imaging-long-beach",
-          "https://www.memorialcare.org/locations/wave-imaging-laguna-woods",
-          "https://www.memorialcare.org/locations/wave-imaging-garden-grove",
-          "https://www.memorialcare.org/locations/wave-imaging-anaheim",
-          "https://www.memorialcare.org/locations/memorialcare-pet-imaging-center",
-          "https://www.memorialcare.org/locations/long-beach-medical-center-imaging",
-          "https://www.memorialcare.org/locations/orange-coast-medical-center-imaging",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-east-first-tustin",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-fullerton",
-          "https://www.memorialcare.org/locations/digestive-care-center-orange-coast",
-          "https://www.memorialcare.org/locations/zouras-family-infusion-center",
-          "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca-obgyn",
-          "https://www.memorialcare.org/locations/wave-imaging-irvine-sand-canyon",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-san-clemente",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-fountain-valley-warner",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-fountain-valley-brookhurst",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-barranca",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-laguna-niguel",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-costa-mesa",
-          "https://www.memorialcare.org/locations/beach-family-doctors-huntington-beach",
-          "https://www.memorialcare.org/locations/beach-family-doctors-newport-beach",
-          "https://www.memorialcare.org/locations/breastlink-womens-imaging-garden-grove",
-          "https://www.memorialcare.org/locations/breastlink-womens-imaging-orange",
-          "https://www.memorialcare.org/locations/breastlink-womens-imaging-santa-ana",
-          "https://www.memorialcare.org/locations/breastlink-womens-imaging-newport-beach",
-          "https://www.memorialcare.org/locations/cherese-mari-laulhere-childrens-village",
-          "https://www.memorialcare.org/locations/balance-vestibular-rehabilitation-program",
-          "https://www.memorialcare.org/locations/outpatient-rehabilitation-services",
-          "https://www.memorialcare.org/locations/memorialcare-stroke-center-smc",
-          "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-laguna-hills",
-          "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-seal-beach",
-          "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-irvine",
-          "https://www.memorialcare.org/locations/memorialcare-rehabilitation-institute-smc",
-          "https://www.memorialcare.org/locations/advanced-wound-healing-hyperbaric-medicine-center",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-north-los-altos",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-santa-margarita",
-          "https://www.memorialcare.org/locations/wave-imaging-mission-viejo",
-          "https://www.memorialcare.org/locations/newport-coast-surgical-institute",
-          "https://www.memorialcare.org/locations/orange-county-home",
-          "https://www.memorialcare.org/locations/fresenius-kidney-care-paramount-hope",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-norwalk",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-michele",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-mission-viejo-alicia",
-          "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-cypress"
+          {
+            "url": "https://www.memorialcare.org/locations/long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/saddleback-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/miller-childrens-womens-hospital-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/orange-coast-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-san-clemente"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-imaging-center-childrens"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-imaging-center-saddleback"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-huntington-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-irvine-barranca"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-newport-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-saddleback"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-fountain-valley"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-saddleback-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-cancer-institute-todd-cancer-pavilion"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-orthopedic-institute"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-rehabilitation-institute-lbmc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-cancer-institute"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-heart-vascular-institute-orange-coast-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-cancer-institute-saddleback"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/lung-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/gynecologic-oncology-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/cancer-care/memorialcare-cancer-institute-colorectal-cancer-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-cancer-institute-colorectal-cancer-screening-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-neuroscience-institute"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/laboratory-services-ocmc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/laboratory-services-smc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/laboratory-services-lbmc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-westminster"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-san-juan-capistrano-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-los-altos-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-adams-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-specialty-pharmacy-services"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/infusion-care-pharmacy"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-pharmacy-inpatient-and-outpatient"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/childrens-pharmacy"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/infusion-care-pharmacy-0"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/saddleback-medical-center-pharmacy-outpatient"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/pharmacy-residency-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/orange-coast-medical-center-pharmacy-outpatient"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-outpatient-surgical-center-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-surgical-center-orange-coast"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/la-veta-surgery-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/barranca-surgery-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-surgical-center-laguna-woods"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/digestive-care-center-saddleback"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/surgical-center-saddleback"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/laguna-niguel-surgery-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-westminster-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-los-altos"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-anaheim"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-costa-mesa"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-dana-point"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-cardiothoracic-surgery"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-fountain-valley-warner"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-adams-ave"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-huntington-beach-beach-blvd"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca-pediatrics"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-obgyn"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-atlantic-ave"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-family-medicine-residency"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-douglas-park"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/adult-multi-specialty-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-mission-viejo"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-rancho-mission-viejo"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-rancho-santa-margarita"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-san-clemente"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-san-juan-capistrano"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-santa-ana"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-torrance"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-tustin"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-cardiothoracic-surgery"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-long-beach-cardiovascular-surgery"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/trauma-acute-care-surgery-memorialcare-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/gastrointestinal-gi-lab-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/blood-donor-center-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/blood-donation-center-orange-coast-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/blood-donor-center-saddleback-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/low-vision-therapy-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/department-hyperbaric-medicine"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/outpatient-wound-healing-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/services/cancer-care/jean-howard-infusion-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/cherese-mari-laulhere-birthcare-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/childbirth-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/womens-hospital"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/obgyn-clinic-outpatient-clinic"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-sand-canyon"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-barranca"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-laguna-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-orange-coast"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-los-alamitos"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-san-juan-capistrano"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-westminster-hospital-circle"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-westminster-goldenwest"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-garden-grove-blvd-garden-grove"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-harbor-blvd-garden-grove"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-norwalk-east"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-carson"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-laguna-canyon-irvine"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-santa-ana"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-huntington-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-fountain-valley"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-rancho-mission-viejo"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-newport-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-breast-center-huntington-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-woods"
+          },
+          {
+            "url": "https://www.memorialcare.org/services/spinal-care/spine-center-OCMC"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/spine-center-SMC"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-culver-health-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/services/weight-loss-surgery/memorialcare-surgical-weight-loss-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center-orange-coast"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-imaging-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-stroke-center-lbmc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-joint-replacement-center-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/spine-center-LBMC"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-imaging-center-long-beach-medical-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/family-care-centers-costa-mesa"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/family-care-centers-fountain-valley"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/family-care-centers-barranca"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/av-family-medicine-urgent-care-laguna-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-laguna-hills-breast-surgery"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-culver"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-lakewood"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/yorba-linda-physical-therapy"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-huntington-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-beverly-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-downey"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-corona"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-san-juan-capistrano"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-mauchly"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-brea"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-west-covina"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/torrance-physical-therapy"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-anaheim"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-newport-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-santa-ana"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-mission-viejo-lapaz"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-anaheim-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/childrens-specialty-center-torrance"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/childrens-specialty-center-fountain-valley"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-torrance-advanced"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-santa-ana"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-signal-hill"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-beach-cities"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-orange"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/breastlink-womens-imaging-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-long-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-laguna-woods"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-garden-grove"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-anaheim"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-pet-imaging-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/long-beach-medical-center-imaging"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/orange-coast-medical-center-imaging"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-east-first-tustin"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-fullerton"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/digestive-care-center-orange-coast"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/zouras-family-infusion-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-medical-group-irvine-barranca-obgyn"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-irvine-sand-canyon"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-san-clemente"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-fountain-valley-warner"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-fountain-valley-brookhurst"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-barranca"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-laguna-niguel"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-costa-mesa"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/beach-family-doctors-huntington-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/beach-family-doctors-newport-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/breastlink-womens-imaging-garden-grove"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/breastlink-womens-imaging-orange"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/breastlink-womens-imaging-santa-ana"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/breastlink-womens-imaging-newport-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/cherese-mari-laulhere-childrens-village"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/balance-vestibular-rehabilitation-program"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/outpatient-rehabilitation-services"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-stroke-center-smc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-laguna-hills"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-seal-beach"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/complete-balance-solutions-neuro-irvine"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/memorialcare-rehabilitation-institute-smc"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/advanced-wound-healing-hyperbaric-medicine-center"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-north-los-altos"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-santa-margarita"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/wave-imaging-mission-viejo"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/newport-coast-surgical-institute"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/orange-county-home"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/fresenius-kidney-care-paramount-hope"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-norwalk"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-irvine-michele"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-mission-viejo-alicia"
+          },
+          {
+            "url": "https://www.memorialcare.org/locations/california-rehabilitation-sports-therapy-cypress"
+          }
         ]
       }
     ]
@@ -323,16 +819,36 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.mercy.net/practice/mercy-clinic-primary-care-north-st-louis",
-          "https://www.mercy.net/practice/mercy-eye-care-hampton-village",
-          "https://www.gohealthuc.com/mercy-st-louis/locations/hampton-village",
-          "https://www.mercy.net/practice/mercy-clinic-oncology-and-hematology-chippewa",
-          "https://www.mercy.net/practice/mercy-infusion-center-chippewa",
-          "https://www.mercy.net/practice/mercy-clinic-primary-care-chippewa",
-          "https://www.mercy.net/practice/mercy-pharmacy-dierbergs-mackenzie-pointe",
-          "https://www.gohealthuc.com/mercy-st-louis/locations/maplewood",
-          "https://www.mercy.net/practice/mercy-clinic-heart-and-vascular-electrophysiology-7345-watson",
-          "https://www.mercy.net/practice/mercy-heart-and-vascular-testing-7345-watson"
+          {
+            "url": "https://www.mercy.net/practice/mercy-clinic-primary-care-north-st-louis"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-eye-care-hampton-village"
+          },
+          {
+            "url": "https://www.gohealthuc.com/mercy-st-louis/locations/hampton-village"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-clinic-oncology-and-hematology-chippewa"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-infusion-center-chippewa"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-clinic-primary-care-chippewa"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-pharmacy-dierbergs-mackenzie-pointe"
+          },
+          {
+            "url": "https://www.gohealthuc.com/mercy-st-louis/locations/maplewood"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-clinic-heart-and-vascular-electrophysiology-7345-watson"
+          },
+          {
+            "url": "https://www.mercy.net/practice/mercy-heart-and-vascular-testing-7345-watson"
+          }
         ]
       }
     ]
@@ -349,21 +865,51 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.methodisthealth.org/locations/methodist-university-hospital",
-          "https://www.methodisthealth.org/locations/methodist-university-radiology-department",
-          "https://www.methodisthealth.org/locations/methodist-blood-and-marrow-transplant-center",
-          "https://www.methodisthealth.org/locations/methodist-comprehensive-sickle-cell-center",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-medical-oncology-university",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-otolaryngology-ent-",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-rheumatology",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-surgical-oncology-1265-union-avenue",
-          "https://www.methodisthealth.org/locations/methodist-transplant-institute",
-          "https://www.methodisthealth.org/locations/ut-methodist-physicians-cardiology-1211-union-ste-400",
-          "https://www.methodisthealth.org/locations/ut-methodist-physicians-cardiology-1211-union-ste-965",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-cardiovascular-surgery-midtown",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-general-surgery-1325-eastmoreland-avenue",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-infectious-disease-1325-eastmoreland-avenue",
-          "https://www.methodisthealth.org/locations/methodist-medical-group-neurology"
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-university-hospital"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-university-radiology-department"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-blood-and-marrow-transplant-center"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-comprehensive-sickle-cell-center"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-medical-oncology-university"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-otolaryngology-ent-"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-rheumatology"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-surgical-oncology-1265-union-avenue"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-transplant-institute"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/ut-methodist-physicians-cardiology-1211-union-ste-400"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/ut-methodist-physicians-cardiology-1211-union-ste-965"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-cardiovascular-surgery-midtown"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-general-surgery-1325-eastmoreland-avenue"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-infectious-disease-1325-eastmoreland-avenue"
+          },
+          {
+            "url": "https://www.methodisthealth.org/locations/methodist-medical-group-neurology"
+          }
         ]
       }
     ]
@@ -380,16 +926,36 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.mymichigan.org/locations/profile/?id=3152&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=2763&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=1831&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=2880&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=2878&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=2879&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=2881&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=3226&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=3471&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10",
-          "https://www.mymichigan.org/locations/profile/?id=3122&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=3152&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=2763&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=1831&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=2880&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=2878&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=2879&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=2881&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=3226&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=3471&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          },
+          {
+            "url": "https://www.mymichigan.org/locations/profile/?id=3122&searchId=ddaa5079-508a-ee11-a864-000d3a61151d&sort=11&page=1&pageSize=10"
+          }
         ]
       }
     ]
@@ -406,13 +972,27 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.duncanregional.com/locations/duncan-regional-hospital/",
-          "https://www.duncanregional.com/locations/jefferson-county-hospital/",
-          "https://www.duncanregional.com/locations/advanced-medical-supply/",
-          "https://www.duncanregional.com/locations/chisholm-trail-hospice/",
-          "https://www.duncanregional.com/locations/drh-imaging-center/",
-          "https://www.duncanregional.com/locations/drh-wound-center/",
-          "https://www.duncanregional.com/locations/inspirations/"
+          {
+            "url": "https://www.duncanregional.com/locations/duncan-regional-hospital/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/jefferson-county-hospital/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/advanced-medical-supply/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/chisholm-trail-hospice/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/drh-imaging-center/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/drh-wound-center/"
+          },
+          {
+            "url": "https://www.duncanregional.com/locations/inspirations/"
+          }
         ]
       }
     ]
@@ -429,36 +1009,96 @@
       {
         "type": "json_match",
         "expected": [
-          "https://www.dukehealth.org/locations/brier-creek-medical-pavilion",
-          "https://www.dukehealth.org/locations/duke-center-living-campus",
-          "https://www.dukehealth.org/locations/duke-adhd-clinic",
-          "https://www.dukehealth.org/locations/duke-adolescent-and-young-adult-medicine-north-durham",
-          "https://www.dukehealth.org/locations/duke-biofeedback-clinic",
-          "https://www.dukehealth.org/locations/duke-cardiology-croasdaile",
-          "https://www.dukehealth.org/locations/duke-cardiometabolic-prevention-south-durham",
-          "https://www.dukehealth.org/locations/duke-cardiopulmonary-rehabilitation-croasdaile",
-          "https://www.dukehealth.org/locations/duke-child-and-family-study-center",
-          "https://www.dukehealth.org/locations/duke-endocrinology-of-raleigh",
-          "https://www.dukehealth.org/locations/duke-gastroenterology-clinic-brier-creek",
-          "https://www.dukehealth.org/locations/duke-general-internal-medicine-north-durham",
-          "https://www.dukehealth.org/locations/duke-health-apex",
-          "https://www.dukehealth.org/locations/duke-childrens-healthy-lifestyles-north-durham",
-          "https://www.dukehealth.org/locations/duke-infectious-disease-south-durham",
-          "https://www.dukehealth.org/locations/duke-infusion-center-brier-creek",
-          "https://www.dukehealth.org/locations/duke-health-center-creekstone",
-          "https://www.dukehealth.org/locations/duke-rheumatology-clinic-brier-creek",
-          "https://www.dukehealth.org/locations/duke-orthopaedics-of-cary",
-          "https://www.dukehealth.org/locations/duke-pain-medicine-clinic",
-          "https://www.dukehealth.org/locations/duke-pediatric-neuropsychology-clinic",
-          "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-hillsborough",
-          "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-duke-pain-medicine",
-          "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-north-duke-street",
-          "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-meadowmont",
-          "https://www.dukehealth.org/locations/duke-physical-therapy-sports-medicine-center-living",
-          "https://www.dukehealth.org/locations/duke-prep-clinic-hiv-prevention",
-          "https://www.dukehealth.org/locations/duke-radiology-patterson-place",
-          "https://www.dukehealth.org/locations/duke-raleigh-hospital-head-and-neck-oncology",
-          "https://www.dukehealth.org/locations/duke-raleigh-hospital-imaging-services"
+          {
+            "url": "https://www.dukehealth.org/locations/brier-creek-medical-pavilion"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-center-living-campus"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-adhd-clinic"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-adolescent-and-young-adult-medicine-north-durham"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-biofeedback-clinic"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-cardiology-croasdaile"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-cardiometabolic-prevention-south-durham"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-cardiopulmonary-rehabilitation-croasdaile"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-child-and-family-study-center"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-endocrinology-of-raleigh"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-gastroenterology-clinic-brier-creek"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-general-internal-medicine-north-durham"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-health-apex"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-childrens-healthy-lifestyles-north-durham"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-infectious-disease-south-durham"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-infusion-center-brier-creek"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-health-center-creekstone"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-rheumatology-clinic-brier-creek"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-orthopaedics-of-cary"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-pain-medicine-clinic"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-pediatric-neuropsychology-clinic"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-hillsborough"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-duke-pain-medicine"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-north-duke-street"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-and-occupational-therapy-meadowmont"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-physical-therapy-sports-medicine-center-living"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-prep-clinic-hiv-prevention"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-radiology-patterson-place"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-raleigh-hospital-head-and-neck-oncology"
+          },
+          {
+            "url": "https://www.dukehealth.org/locations/duke-raleigh-hospital-imaging-services"
+          }
         ]
       }
     ]
@@ -469,7 +1109,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -489,7 +1129,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -509,7 +1149,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -529,7 +1169,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -549,7 +1189,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -569,7 +1209,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -589,7 +1229,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -609,7 +1249,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -629,7 +1269,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
@@ -649,7 +1289,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "detail",
+    "type": "fetch",
     "fetch_id": "contact",
     "evals": [
       {
