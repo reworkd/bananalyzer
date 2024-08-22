@@ -2,12 +2,11 @@ import asyncio
 import json
 import os
 import uuid
-from pathlib import Path
-from typing import Any, Dict, List
-
 from openai import OpenAI
+from pathlib import Path
 from playwright.async_api import async_playwright
 from tarsier import GoogleVisionOCRService, Tarsier
+from typing import Any, Dict, List
 
 from bananalyzer.data.examples import convert_to_crlf
 from bananalyzer.data.fetch_schemas import get_fetch_schema
@@ -48,7 +47,7 @@ async def generate_fetch_example(
         source="mhtml",
         category=metadata["category"],
         subcategory=metadata["subcategory"],
-        type="fetch",
+        type="detail",
         fetch_id=metadata["fetch_id"],
         evals=[eval],
         goal=None,

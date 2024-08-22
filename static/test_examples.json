@@ -5,7 +5,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -46,7 +46,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -75,7 +75,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -101,7 +101,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -317,7 +317,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -343,7 +343,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -374,7 +374,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -400,7 +400,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -423,7 +423,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "links",
+    "type": "listing_detail",
     "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page",
     "evals": [
       {
@@ -469,7 +469,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -489,7 +489,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -509,7 +509,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -529,7 +529,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -549,7 +549,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -569,7 +569,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -589,7 +589,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -609,7 +609,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -629,7 +629,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {
@@ -649,7 +649,7 @@
     "source": "mhtml",
     "category": "healthcare",
     "subcategory": "contact",
-    "type": "fetch",
+    "type": "detail",
     "fetch_id": "contact",
     "evals": [
       {

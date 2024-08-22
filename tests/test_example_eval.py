@@ -164,7 +164,7 @@ def create_default_example(
         "source": "mhtml",
         "category": "category",
         "subcategory": "subcategory",
-        "type": "fetch",
+        "type": "detail",
         "evals": [],
         "fetch_id": None,  # Set as None by default
         "goal": None,  # Set as None by default
@@ -175,12 +175,12 @@ def create_default_example(
 
 
 def test_non_fetch_with_goal() -> None:
-    example_data = create_default_example({"type": "links", "goal": "goal"})
+    example_data = create_default_example({"type": "listing_detail", "goal": "goal"})
     Example(**example_data)
 
 
 def test_fetch_without_fetch_id_exception() -> None:
-    example_data = create_default_example({"type": "fetch", "fetch_id": None})
+    example_data = create_default_example({"type": "detail", "fetch_id": None})
     # Since fetch_id is None by default, no need to override it
     with pytest.raises(Exception):
         Example(**example_data)

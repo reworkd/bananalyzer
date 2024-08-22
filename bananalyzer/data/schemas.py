@@ -14,9 +14,9 @@ from bananalyzer.runner.evals import (
 )
 
 ExampleType = Literal[
-    "fetch",
-    "links",
-    "links_fetch",
+    "listing",
+    "detail",
+    "listing_detail",
 ]
 
 FetchId = Literal[
@@ -166,7 +166,7 @@ class Example(BaseModel):
         from bananalyzer.data.fetch_schemas import get_fetch_schema
 
         goal_type = values.get("type")
-        if goal_type != "fetch":
+        if goal_type != "detail":
             return values
 
         fetch_id: Optional[FetchId] = values.get("fetch_id")

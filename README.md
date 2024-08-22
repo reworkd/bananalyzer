@@ -61,13 +61,16 @@ plan is to translate existing datasets like Mind2Web and WebArena into this form
 
 ### Test intents
 
-We have defined a set of test intents that an agent can be evaluated on. These intents are defined in the `GoalType`
+We have defined a set of page types and test intents an agent can be evaluated on. These types are defined in the `ExampleType`
 enum in [schemas.py](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/schemas.py).
 
-- **fetch**: The agent must retrieve specific JSON information from the page. This is the most common test type.
-- **links**: The agent must scrape all detail page links from a page
-- **links_fetch**: The agent must scrape all detail page links from a page and additionally extract JSON information
-  for each link
+- **listing**: The example starts on a listing page but must scrape all detail page links and the information from those detail pages. 
+Note that currently, we only test that all of the detail page URLs were captured.
+- **detail**: The example starts on a detail page and the agent must retrieve specific JSON information from the page. This is the most common test type.
+- **listing_detail**: The agent is on a listing page and must scrape all information from the current page. 
+All of the required information is available on the current page. The agent need not visit the detail page.
+
+Separately, there are specific `tags` that can be used further filter test intents
 - **pagination**: Must fetch data across pages. Either links or fetch for now.
 
 
@@ -144,6 +147,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 - [x] Agent interface required for running the tool
 - [x] Pytest wrapper to enable CLI testing with additional arguments
 - [x] Document a majority of the repo
+- [x] Functions to serve complicated pages via HAR
 
 ##### Features
 
@@ -175,7 +179,7 @@ This notebook will load a site with Playwright and use the chrome developer API 
 bibtex
 @misc{reworkd2023bananalyzer,
   title        = {Bananalyzer},
-  author       = {Asim Shrestha and Adam Watkins and Rohan Pandey and Srijan Subedi},
+  author       = {Asim Shrestha and Adam Watkins and Rohan Pandey and Srijan Subedi and Sunshine},
   year         = {2023},
   howpublished = {GitHub},
   url          = {https://github.com/reworkd/bananalyzer}
