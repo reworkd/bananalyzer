@@ -195,7 +195,7 @@ async def create_end2end_examples(
                 source="har",
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],
-                type="links_fetch",
+                type="listing_detail",
                 goal=metadata["goal"],
                 evals=[{"type": "json_match", "expected": data}],
             )
@@ -212,7 +212,7 @@ async def create_end2end_examples(
             source="har",
             category=metadata["category"],
             subcategory=metadata["subcategory"],
-            type="links",
+            type="listing_detail",
             goal=metadata["goal"],
             evals=[{"type": "json_match", "expected": enqueued_urls}],
         )
@@ -238,7 +238,7 @@ async def create_end2end_examples(
                 source="har",
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],
-                type="fetch",
+                type="detail",
                 fetch_id=metadata["fetch_id"],
                 evals=[{"type": "json_match", "expected": observer_data}],
             )
@@ -263,7 +263,7 @@ async def create_end2end_examples(
 #         "category": "education",
 #         "subcategory": "contact",
 #         "fetch_id": "job_posting",
-#         "type": "links_fetch",
+#         "type": "listing_detail",
 #         "goal": 'Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {"first_name": {"type": "string"}, "last_name": {"type": "string"} "title": {"type": "string", "description": "The title or role of the individual within the school"}, "phone_number": {"type": "string", "description": "Keep phone number formatting but do not include irrelevant text"}, "email": {"type": "string", "description": "The email address of the individual"}}',
 #     }
 
