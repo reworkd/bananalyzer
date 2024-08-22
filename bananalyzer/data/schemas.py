@@ -1,8 +1,7 @@
 import json
 import os
-from pathlib import Path
-
 import pytest
+from pathlib import Path
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
 from typing import Any, Dict, List, Literal, Optional, Type, Union
@@ -14,15 +13,30 @@ from bananalyzer.runner.evals import (
     validate_json_match,
 )
 
-GoalType = Literal[
-    "fetch",  # Scrape specific JSON information from a single page. Does not require navigation
-    "links",  # Scrape all detail page links from a single listing page
-    "links_fetch",  # Scrape all detail page links from a single listing page along with JSON information
-    "pagination",  # Must fetch data across pages. Either links or fetch for now.
-    "click",  # Make a single click on a page
-    "navigate",  # Travel to a new page
-    "search",  # Search for the answer to a specific query
-    "multiple",  # Perform multiple intents
+ExampleType = Literal[
+    "fetch",
+    "links",
+    "links_fetch",
+]
+
+FetchId = Literal[
+    "job_posting",
+    "manufacturing_commerce",
+    "contact",
+    "contract",
+    "forum",
+    "attorney",
+    "attorney_job_listing",
+]
+
+PossibleTags = Literal[
+    "regression",
+    "single-output",
+    "accordion",
+    "pagination",
+    "colliding-tags",
+    "contract",
+    "badly-formatted",
 ]
 
 
@@ -92,17 +106,6 @@ class Eval(BaseModel):
             pytest.fail(str(exceptions[0]))
 
 
-FetchId = Literal[
-    "job_posting",
-    "manufacturing_commerce",
-    "contact",
-    "contract",
-    "forum",
-    "attorney",
-    "attorney_job_listing",
-]
-
-
 class Example(BaseModel):
     id: str
     url: str
@@ -115,9 +118,7 @@ class Example(BaseModel):
     )
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
-    type: GoalType = Field(
-        description="The high level goal intent the agent is aiming to do"
-    )
+    type: ExampleType = Field(description="The stage of the current page")
     goal: Optional[Union[str, Dict[str, Any]]] = Field(
         description="The goal of the agent for this specific example",
         default=None,
@@ -129,7 +130,7 @@ class Example(BaseModel):
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
     )
-    tags: List[str] = Field(default=[])
+    tags: List[Literal[PossibleTags]] = Field(default=[])
 
     def get_static_url(self) -> str:
         from bananalyzer.runner.website_responder import get_website_responder

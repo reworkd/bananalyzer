@@ -1,7 +1,7 @@
 import pytest
 from _pytest.outcomes import Failed
-from pytest_mock import MockFixture
 from pathlib import Path
+from pytest_mock import MockFixture
 from typing import Any, Dict, Optional
 
 from bananalyzer.data.schemas import Eval, Example
@@ -175,7 +175,7 @@ def create_default_example(
 
 
 def test_non_fetch_with_goal() -> None:
-    example_data = create_default_example({"type": "multiple", "goal": "goal"})
+    example_data = create_default_example({"type": "links", "goal": "goal"})
     Example(**example_data)
 
 
