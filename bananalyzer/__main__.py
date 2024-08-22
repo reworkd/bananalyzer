@@ -81,6 +81,13 @@ def parse_args() -> Args:
         help="Filter tests by tag. Can be passed as a comma-separated list.",
     )
     parser.add_argument(
+        "-skip_tags",
+        "--skip_tags",
+        type=lambda s: s.split(","),
+        default=None,
+        help="Tags to avoid selecting. Can be passed as a comma-separated list.",
+    )
+    parser.add_argument(
         "-d",
         "--domain",
         type=str,
@@ -218,6 +225,7 @@ def parse_args() -> Args:
             dist=args.dist,
         ),
         tags=args.tags,
+        skip_tags = args.skip_tags
     )
 
 
@@ -306,6 +314,8 @@ def main() -> int:
         filters.append(lambda e: e.id in args.id if args.id else True)
     if args.tags:
         filters.append(lambda e: any(tag in e.tags for tag in args.tags or []))
+    if args.skip_tags:
+        filters.append(lambda e: not any(tag in e.tags for tag in args.skip_tags or []))
     if args.intent:
         filters.append(lambda e: e.type == args.intent)
     if args.type:
