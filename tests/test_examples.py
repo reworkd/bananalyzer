@@ -22,6 +22,7 @@ from bananalyzer.data.examples import (
 )
 from bananalyzer.data.schemas import Example
 from bananalyzer.data.banana_seeds import download_har
+from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
 
 
 def test_load_examples_at_path_success(mocker: MockFixture) -> None:
@@ -141,6 +142,53 @@ def test_download_har_dont_write(mocker, mock_s3_client):
     )
 
     m_open.assert_not_called()
+
+
+@pytest.mark.parametrize(
+    "fetch_id, expected",
+    [
+        ("valid_id", {"schema": "details"}),
+        ("another_valid_id", {"schema": "more_details"}),
+    ],
+)
+def test_get_fetch_schema_success(mocker: MockFixture, fetch_id, expected):
+    mocker.patch("builtins.open", mock_open(read_data=json.dumps({fetch_id: expected})))
+    assert get_fetch_schema(fetch_id) == expected
+
+
+@pytest.mark.parametrize(
+    "fetch_id",
+    ["invalid_id", "nonexistent_id"],
+)
+def test_get_fetch_schema_failure(mocker: MockFixture, fetch_id):
+    mocker.patch(
+        "builtins.open",
+        mock_open(read_data=json.dumps({"real_id": {"schema": "details"}})),
+    )
+    with pytest.raises(ValueError):
+        get_fetch_schema(fetch_id)
+
+
+@pytest.mark.parametrize(
+    "fetch_id, expected",
+    [("valid_id", "Complete the task"), ("another_valid_id", "Achieve the goal")],
+)
+def test_get_goal_success(mocker: MockFixture, fetch_id, expected):
+    mocker.patch("builtins.open", mock_open(read_data=json.dumps({fetch_id: expected})))
+    assert get_goal(fetch_id) == expected
+
+
+@pytest.mark.parametrize(
+    "fetch_id",
+    ["invalid_id", "nonexistent_id"],
+)
+def test_get_goal_failure(mocker: MockFixture, fetch_id):
+    mocker.patch(
+        "builtins.open",
+        mock_open(read_data=json.dumps({"real_id": {"schema": "details"}})),
+    )
+    with pytest.raises(ValueError):
+        get_goal(fetch_id)
 
 
 ##########################################################
