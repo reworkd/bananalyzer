@@ -180,26 +180,19 @@ class Example(BaseModel):
 
         fetch_schema = get_fetch_schema(fetch_id)
         values["goal"] = (
-            json.dumps(model_to_dict(fetch_schema), indent=4)
+            json.dumps(fetch_schema, indent=4)
             if not isinstance(fetch_schema, Dict)
             and issubclass(fetch_schema, BaseModel)
             else fetch_schema
         )
 
         # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
-        from bananalyzer.data.fetch_schemas import CONTACT_SCHEMA_GOAL
+        from bananalyzer.data.fetch_schemas import get_goal
 
-        if fetch_id == "contact":
-            values["goal"] = (
-                f"{CONTACT_SCHEMA_GOAL} Return data in the following schema:\n"
-                + str(values["goal"])
-            )
-        from bananalyzer.data.fetch_schemas import GOVERNMENT_CONTRACT_GOAL
-
-        if fetch_id == "contract":
-            values["goal"] = (
-                f"{GOVERNMENT_CONTRACT_GOAL} Return data in the following schema:\n"
-                + str(values["goal"])
+        if fetch_id in ("contact", "contract"):
+            goal = get_goal(fetch_id)
+            values["goal"] = f"{goal} Return data in the following schema:\n" + str(
+                values["goal"]
             )
 
         return values
