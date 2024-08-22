@@ -225,7 +225,7 @@ def parse_args() -> Args:
             dist=args.dist,
         ),
         tags=args.tags,
-        skip_tags = args.skip_tags
+        skip_tags=args.skip_tags,
     )
 
 
