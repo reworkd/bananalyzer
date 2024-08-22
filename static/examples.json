@@ -6,7 +6,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -44,7 +44,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -82,7 +82,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -120,7 +120,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -158,7 +158,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -196,7 +196,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -234,7 +234,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -272,7 +272,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -310,7 +310,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -348,7 +348,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -386,7 +386,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -424,7 +424,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -462,7 +462,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -500,7 +500,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -538,7 +538,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -576,7 +576,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -614,7 +614,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -652,7 +652,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -690,7 +690,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -728,7 +728,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -748,7 +748,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -768,7 +768,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -796,7 +796,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -816,7 +816,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1803,7 +1803,7 @@
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -1820,7 +1820,7 @@
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -1837,7 +1837,7 @@
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -1854,7 +1854,7 @@
     "category": "manufacturing",
     "subcategory": "commerce",
     "type": "fetch",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -2363,7 +2363,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2384,7 +2384,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2404,7 +2404,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2425,7 +2425,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2445,7 +2445,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2465,7 +2465,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2486,7 +2486,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2507,7 +2507,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2528,7 +2528,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2548,7 +2548,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2568,7 +2568,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2588,7 +2588,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2609,7 +2609,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2632,7 +2632,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2661,7 +2661,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2681,7 +2681,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2702,7 +2702,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2722,7 +2722,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2742,7 +2742,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2763,7 +2763,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2783,7 +2783,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2804,7 +2804,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "fetch",
-    "fetch_id": "contact",
+    "schema_name": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -2824,7 +2824,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2847,7 +2847,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2870,7 +2870,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2892,7 +2892,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2914,7 +2914,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2937,7 +2937,7 @@
     "category": "travel",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2960,7 +2960,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -2983,7 +2983,7 @@
     "category": "education",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3006,7 +3006,7 @@
     "category": "e-commerce",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3029,7 +3029,7 @@
     "category": "automotive",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3052,7 +3052,7 @@
     "category": "healthcare",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3075,7 +3075,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3098,7 +3098,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3121,7 +3121,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3144,7 +3144,7 @@
     "category": "software",
     "subcategory": "forum",
     "type": "fetch",
-    "fetch_id": "forum",
+    "schema_name": "forum",
     "evals": [
       {
         "type": "json_match",
@@ -3167,7 +3167,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3205,7 +3205,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3243,7 +3243,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3281,7 +3281,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3319,7 +3319,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3357,7 +3357,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3395,7 +3395,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -3433,7 +3433,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -11333,7 +11333,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11430,7 +11430,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11481,7 +11481,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11518,7 +11518,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11566,7 +11566,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11629,7 +11629,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11692,7 +11692,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11752,7 +11752,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11794,7 +11794,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11848,7 +11848,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11903,7 +11903,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -11952,7 +11952,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15469,7 +15469,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15534,7 +15534,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15570,7 +15570,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15633,7 +15633,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15668,7 +15668,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15694,7 +15694,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15734,7 +15734,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15755,7 +15755,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15808,7 +15808,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15875,7 +15875,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15933,7 +15933,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -15987,7 +15987,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16019,7 +16019,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16052,7 +16052,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16101,7 +16101,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16132,7 +16132,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16210,7 +16210,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16243,7 +16243,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16284,7 +16284,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16353,7 +16353,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16368,7 +16368,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16443,7 +16443,7 @@
     "category": "legal",
     "subcategory": "attorney_details",
     "type": "fetch",
-    "fetch_id": "attorney",
+    "schema_name": "attorney",
     "evals": [
       {
         "type": "json_match",
@@ -16506,7 +16506,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16530,7 +16530,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16557,7 +16557,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16581,7 +16581,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16596,7 +16596,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16623,7 +16623,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16645,7 +16645,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16660,7 +16660,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16687,7 +16687,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16714,7 +16714,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16735,7 +16735,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16762,7 +16762,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16787,7 +16787,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16811,7 +16811,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16826,7 +16826,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16853,7 +16853,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16881,7 +16881,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16904,7 +16904,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16948,7 +16948,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -16992,7 +16992,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17036,7 +17036,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17080,7 +17080,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17124,7 +17124,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17168,7 +17168,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17212,7 +17212,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17256,7 +17256,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17300,7 +17300,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17344,7 +17344,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17388,7 +17388,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17432,7 +17432,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17476,7 +17476,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17520,7 +17520,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17564,7 +17564,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17608,7 +17608,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17652,7 +17652,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17696,7 +17696,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17740,7 +17740,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17784,7 +17784,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17828,7 +17828,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17872,7 +17872,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17916,7 +17916,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -17960,7 +17960,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -18004,7 +18004,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -18048,7 +18048,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -18092,7 +18092,7 @@
     "category": "legal",
     "subcategory": "attorney_job_listing",
     "type": "fetch",
-    "fetch_id": "attorney_job_listing",
+    "schema_name": "attorney_job_listing",
     "evals": [
       {
         "type": "json_match",
@@ -18666,7 +18666,7 @@
     "category": "government",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -18704,7 +18704,7 @@
     "category": "manufacturing",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -18738,7 +18738,7 @@
     "category": "retail",
     "subcategory": "careers",
     "type": "fetch",
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -19538,7 +19538,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "links_fetch",
-    "fetch_id": "contract",
+    "schema_name": "contract",
     "evals": [
       {
         "type": "json_match",
@@ -20812,7 +20812,7 @@
     "subcategory": "commerce",
     "type": "fetch",
     "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -20857,7 +20857,7 @@
     "subcategory": "commerce",
     "type": "fetch",
     "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -20902,7 +20902,7 @@
     "subcategory": "commerce",
     "type": "fetch",
     "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
-    "fetch_id": "manufacturing_commerce",
+    "schema_name": "manufacturing_commerce",
     "evals": [
       {
         "type": "json_match",
@@ -21256,7 +21256,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -21379,7 +21379,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -21502,7 +21502,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -21685,7 +21685,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -21808,7 +21808,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
@@ -21931,7 +21931,7 @@
         "description": "The type of employment (e.g., full-time, part-time, contract)."
       }
     },
-    "fetch_id": "job_posting",
+    "schema_name": "job_posting",
     "evals": [
       {
         "type": "json_match",
