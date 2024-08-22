@@ -1,0 +1,4 @@
+{
+    "contact": "Fetch the main hospital location contact information on the current page. There may be multiple location information or sub location information on the page. Only fetch the main location information which should be at the top of the page.",
+    "contract": "Fetch the main government contract/notice/solicitation information on the current website."
+}
