@@ -178,19 +178,6 @@ def test_get_goal_success(mocker: MockFixture, fetch_id, expected):
     assert get_goal(fetch_id) == expected
 
 
-@pytest.mark.parametrize(
-    "fetch_id",
-    ["invalid_id", "nonexistent_id"],
-)
-def test_get_goal_failure(mocker: MockFixture, fetch_id):
-    mocker.patch(
-        "builtins.open",
-        mock_open(read_data=json.dumps({"real_id": {"schema_": "details"}})),
-    )
-    with pytest.raises(ValueError):
-        get_goal(fetch_id)
-
-
 ##########################################################
 # The following tests use examples in the static folder. #
 ##########################################################

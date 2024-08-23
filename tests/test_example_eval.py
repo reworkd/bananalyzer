@@ -174,30 +174,37 @@ def create_default_example(
     return default_example
 
 
-def test_non_fetch_with_goal() -> None:
-    example_data = create_default_example({"type": "listing_detail", "goal": "goal"})
-    Example(**example_data)
+def test_no_goal_and_no_schema_set_defaults() -> None:
+    example_data = create_default_example()
+    example = Example(**example_data)
+    assert example.goal and example.schema_
 
 
-def test_fetch_without_schema_exception() -> None:
-    example_data = create_default_example({"type": "detail", "schema_": None})
-    # Since schema is None by default, no need to override it
+def test_with_goal_and_no_schema() -> None:
+    goal = "this is my goal"
+    example_data = create_default_example({"goal": goal})
+    example = Example(**example_data)
+    assert example.goal == goal
+
+
+def test_with_schema_and_no_goal() -> None:
+    schema = {"key": "value"}
+    example_data = create_default_example({"schema_": schema})
+    example = Example(**example_data)
+    assert example.schema_ == schema
+
+
+def test_with_schema_name() -> None:
+    schema_name = "job_posting"
+    example_data = create_default_example({"schema_": schema_name})
+    example = Example(**example_data)
+    assert isinstance(example.schema_, dict)
+
+
+def test_goal_non_str() -> None:
+    example_data = create_default_example({"goal": {"this goal": "is a dict"}})
     with pytest.raises(Exception):
         Example(**example_data)
-
-
-def test_fetch_with_goal_and_no_schema() -> None:
-    goal = {"test": "test"}
-    example_data = create_default_example({"goal": goal})
-    example = Example(**example_data)
-    assert example.goal == goal
-
-
-def test_fetch_with_non_dictionary_goal() -> None:
-    goal = "THIS SHOULD BE FINE"
-    example_data = create_default_example({"goal": goal})
-    example = Example(**example_data)
-    assert example.goal == goal
 
 
 @pytest.mark.parametrize(
