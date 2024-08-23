@@ -988,14 +988,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "W8QTUDItaXJSOaBOZGAE8",
@@ -1075,14 +1068,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "pk7eEZ2sweN4YzzFVK217",
@@ -1153,14 +1139,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "JaVENaBu8Iu7yYoUNrORW",
@@ -1216,14 +1195,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "OWLWiq0ePIJmx5VmtquOD",
@@ -1270,14 +1242,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "aLnmhAeCwsHCd3dM53rwG",
@@ -1333,14 +1298,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "9rolWTrS4XJZnlgFRbqGM",
@@ -1651,14 +1609,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "Vo8MreF9aVq5bE45XqaMz",
@@ -1753,14 +1704,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "MIZDQx8G6Gn562lO5hFQb",
@@ -1810,14 +1754,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "1JWoJWs3uZMt8Wa5ql6pr",
@@ -2443,14 +2380,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "4Zdz7larhE43CYvvaV902",
@@ -2563,14 +2493,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "CsjbrXOwtX1rRqggZALRB",
@@ -2647,14 +2570,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "VogIUZw1FJlCEiBzTUwYR",
@@ -2689,14 +2605,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "LuM2bHYg5mnBvjhttTDlh",
@@ -2747,14 +2656,7 @@
       "regression",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "NHWkSmdwXKQb9oe9vVGZf",
@@ -2846,14 +2748,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "n28tTMFEZfIyMXsCxO6Ra",
@@ -3017,14 +2912,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "qyZjOcbaiHuVq4FpOB26b",
@@ -3053,14 +2941,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "KTcoPSidqLGESp29nQtLv",
@@ -3186,14 +3067,7 @@
       "regression",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "pNsTF6muOdSesbhNTFI9g",
@@ -3234,14 +3108,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "qgEjcl77WINh8ltNc9NoC",
@@ -3270,14 +3137,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "gKfAQGripVAFa87dehr5m",
@@ -3395,14 +3255,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "jH56yUizuVbTYWAIwSJkM",
@@ -3464,14 +3317,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "7JjuuOO8Ibt83UkNQA2bG",
@@ -3597,14 +3443,7 @@
       "regression",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "wqGtmRYz4PWe4LCxAW4UI",
@@ -3657,14 +3496,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "uibGV6FB4gcYvY93AIWJe",
@@ -3789,14 +3621,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "RVotqLcMUyKXULUTqYCvm",
@@ -4167,14 +3992,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "TQyvtLuRcbSStSHq1seCq",
@@ -4224,14 +4042,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "JAiFFb1qWlEVk48Ny32ND",
@@ -4281,14 +4092,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "qtRibcsG6iq09TyGQoYhv",
@@ -4500,14 +4304,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "VqSaCh7ffPXKh1IymN8Oo",
@@ -4590,14 +4387,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "A85loHyz9QIVgy8vypV59",
@@ -5758,19 +5548,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "v7hgryy94evdLb0aHzDtY",
@@ -5799,19 +5577,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "2HauD8zfTdDq75G7WRJzB",
@@ -5848,19 +5614,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "FSfE85pVbn96ntVl1qEGp",
@@ -5914,19 +5668,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "rKCkTGVbx4Mpi0BAnKCRd",
@@ -6000,19 +5742,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "YuBInhOP8OdQAfy4Htvre",
@@ -6049,19 +5779,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "NSVMR9p35Pku7LUyPCMHY",
@@ -6166,19 +5884,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "7xlvZTTi21A1s7k3AoBOS",
@@ -6299,19 +6005,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "9O72sF7l80n4jlISiASUi",
@@ -6408,19 +6102,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "D9gQh8jKW2L2ZA610FvSN",
@@ -6501,19 +6183,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "CYi5NWLkH2RTe0J0qvHVX",
@@ -6590,19 +6260,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "yzwuXotaBr52CyG4mUDhy",
@@ -7668,19 +7326,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "BBofvHlOP5C5aSVJknz1C",
@@ -8361,19 +8007,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "9tW9ErOPFHXcnIZRLwuno",
@@ -8453,19 +8087,7 @@
     "tags": [
       "colliding-tags"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Xixe0WiedsLB1KFcKpv2r",
@@ -8513,19 +8135,7 @@
     "tags": [
       "regression"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "q3jMY8P01UJCw3ggDs1OJ",
@@ -8663,19 +8273,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "1z50b4syZzf7J1kQt2k7W",
@@ -8797,19 +8395,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "3vDNIHFXtjcnarvJQWdd7",
@@ -8930,19 +8516,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Ey2q7uEroarG84e6YZnym",
@@ -9027,19 +8601,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "S8AKJlRl5F8Vci1UiLU1a",
@@ -9092,19 +8654,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "rgCTp6HulNEsEqEupEUZN",
@@ -9237,19 +8787,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "apscD5vWHBV1dvAX6K7Vt",
@@ -9290,19 +8828,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "LOnORRBp7zDQifntNAcFO",
@@ -9463,19 +8989,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "I8Bj6okah8nrfPEinahWH",
@@ -9516,19 +9030,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "AlIKugApq7lSB3dcM4aOT",
@@ -9553,19 +9055,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "cMPCNSczVAPhdXJxBIBEd",
@@ -9598,19 +9088,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "NUkrUYwOJuYfv5SC3GHTE",
@@ -9647,19 +9125,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "ijJbuKPqEOkA4OK0BzLPk",
@@ -9692,19 +9158,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "nxkcxrThdmaRX01YRXtho",
@@ -11233,19 +10687,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "tV4VsHCiYAA3o6oKYyXVk",
@@ -11302,19 +10744,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "HleEA9DcP1jBVN5cBEmFT",
@@ -11339,19 +10769,7 @@
       "regression",
       "single-output"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "gg5AAaFekWGXPdKtYBoer",
@@ -11660,19 +11078,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "L6BOPpJEJhhN5JHfWj4g1",
@@ -11714,19 +11120,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "eKKvQ3OZG6H0jjTIRINPs",
@@ -11783,19 +11177,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "LNMVWWtQRcjkj54ONLebI",
@@ -11824,19 +11206,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "vgTQTZN0Efl4vXQ0I9Iy8",
@@ -11881,19 +11251,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "HixdQTqLbSa6zIaKmxxE1",
@@ -12050,19 +11408,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "ogRf0dLwJKiDJUQnzz4pn",
@@ -12099,19 +11445,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "eSG6HgfI2R9JpZQRozsSV",
@@ -12208,19 +11542,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "oEAjw9fv6UXmS63CIzZlU",
@@ -12345,19 +11667,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "oBJMkbpRqNM02wNlOTP3N",
@@ -12394,19 +11704,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "gdtUqXUos3CdM6zVlMbbC",
@@ -13223,19 +12521,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "O3kSfBi6P0CQBJTCmjV7B",
@@ -13904,19 +13190,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "F5AaImEw3SHGkneXd36eH",
@@ -13952,19 +13226,7 @@
     "tags": [
       "regression"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "4pBdo1yehg1kXCW8fvzHB",
@@ -13993,19 +13255,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "TG8dn0Xi3SJC0VHjWRH1P",
@@ -14066,19 +13316,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "O3t7Of3CTP2WUj71YddFO",
@@ -14215,19 +13453,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "NJouZuI4JTRsMz3KYK1cV",
@@ -14264,19 +13490,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "SlMfqkoK2KeAp31dHr88F",
@@ -14982,19 +14196,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "TLxVvFZ6MRB0nbSBWl8ym",
@@ -15027,19 +14229,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "wXhQ0YobLZ4z1BAZesBUF",
@@ -15264,19 +14454,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Std6TTbgilRTiLDGJOezx",
@@ -15321,19 +14499,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Ql2B37FdNugeJ09WjopGa",
@@ -15622,19 +14788,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "awL4PUmAj9TIIqR6L95fq",
@@ -16139,19 +15293,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "KNyomEvINtDSbA7cKRr1F",
@@ -16417,19 +15559,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "x9tCDlr2WOazDKVrF3njD",
@@ -16462,19 +15592,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "rZQpVHDs30D7WbTFIiXCr",
@@ -16647,19 +15765,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "ecqQm32DLMtTUWt2AQxhm",
@@ -16704,19 +15810,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "TKUFwwdmB0ioMyUXvozpu",
@@ -17624,12 +16718,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": "string"
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "7dhL1dij4AsT9qWCbWBHq",
@@ -21753,12 +20842,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": "string"
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "bOVNaNsrc6UrCdlhHLxGy",
@@ -21814,12 +20898,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": "string"
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "MP4p6ibb3PLD3i8AmBrZ3",
@@ -21989,12 +21068,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": "string"
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "tIowzAEvZcWH9ukP4Aofa",
@@ -22074,12 +21148,7 @@
     "tags": [
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": "string"
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "QlAWMyjvSxPHh4E5Fkjfs",
@@ -24922,19 +23991,7 @@
     "tags": [
       "pagination"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "UHzYnlqTRgCUgGgNXEln2",
@@ -25290,19 +24347,7 @@
     "tags": [
       "pagination"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "QxSSau0T34NCk6O1bq4Cd",
@@ -25431,18 +24476,7 @@
     "tags": [
       "accordion"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "GuFznteaPUy3yrETrOh4Y",
@@ -25461,18 +24495,7 @@
     "tags": [
       "accordion"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Ly1DY8GL7cV5mWnxr1DH5",
@@ -25512,18 +24535,7 @@
     "tags": [
       "accordion"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "NZoqFzLNm1OJsS96Pyxbi",
@@ -25651,18 +24663,7 @@
     "tags": [
       "accordion"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "Dr8xyZLYbHhbQlzYTIbDY",
@@ -25681,18 +24682,7 @@
     "tags": [
       "accordion"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "zKVOGYYHXR3uskE0WcG1A",
@@ -26160,14 +25150,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "cFcnDQSGQgDeyHBnZtrU8",
@@ -26413,14 +25396,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "FeRDLVQyg3Y1l62axB6az",
@@ -26465,14 +25441,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "u3fjwZRjKUEcvr8kkmy5v",
@@ -27006,14 +25975,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "WyQg7esKNNds3EYMZCx2J",
@@ -27064,14 +26026,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "MQOPSYI3SU7EEQRbHUMHr",
@@ -27137,14 +26092,7 @@
       "contract",
       "urls"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_url"
   },
   {
     "id": "xkEtVvkl3HDnC827Flk3g",
@@ -27320,29 +26268,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "prf1dSczRpaoWLrEMseB1",
@@ -27488,29 +26414,7 @@
     "tags": [
       "badly-formatted"
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "nXWHr3UoycfzFqubWTUpn",
@@ -27526,29 +26430,7 @@
         "expected": []
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "tbRxihP0jtq5O12zVhvEF",
@@ -27600,29 +26482,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "R99SMT2jvCjJRqRGra2g6",
@@ -27779,29 +26639,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "lBTRjkiZqEdNvCSjTmoWG",
@@ -28113,29 +26951,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "DftOgPW7iPtFR5MoeyKtH",
@@ -28461,29 +27277,7 @@
       }
     ],
     "tags": [],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "OlYrsJi04Czdu7Uvl1mIF",
@@ -28501,18 +27295,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "name": {
-          "type": "string",
-          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    }
+    "schema": "listing_document"
   },
   {
     "id": "7RiCdEFYb6NEQnXWRXlOG",
@@ -30750,29 +29533,7 @@
         ]
       }
     ],
-    "schema": {
-      "type": "array",
-      "items": {
-        "first_name": {
-          "type": "string"
-        },
-        "last_name": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string",
-          "description": "The title or role of the individual within the school"
-        },
-        "phone_number": {
-          "type": "string",
-          "description": "Keep phone number formatting but do not include irrelevant text"
-        },
-        "email": {
-          "type": "string",
-          "description": "The email address of the individual"
-        }
-      }
-    }
+    "schema": "listing_education_contact"
   },
   {
     "id": "Rv9bX3ZqY8esHf4pD2mNT",
