@@ -22,8 +22,8 @@ def download_examples_from_s3(examples_bucket: str) -> List[Dict[str, Any]]:
             file_content = response["Body"].read().decode("utf-8")
             example = json.loads(file_content)
 
-            if example["schema"] == "":
-                del example["schema"]
+            if example["schema_"] == "":
+                del example["schema_"]
 
             for row in example["evals"][0]["expected"]:
                 row = {k: v for k, v in row.items() if not k.startswith("__")}

@@ -166,7 +166,7 @@ def create_default_example(
         "subcategory": "subcategory",
         "type": "detail",
         "evals": [],
-        "schema": None,  # Set as None by default
+        "schema_": None,  # Set as None by default
         "goal": None,  # Set as None by default
     }
     if overrides:
@@ -180,7 +180,7 @@ def test_non_fetch_with_goal() -> None:
 
 
 def test_fetch_without_schema_exception() -> None:
-    example_data = create_default_example({"type": "detail", "schema": None})
+    example_data = create_default_example({"type": "detail", "schema_": None})
     # Since schema is None by default, no need to override it
     with pytest.raises(Exception):
         Example(**example_data)
@@ -225,7 +225,7 @@ def test_har_file_path_valid(overrides, expected_path, mocker):
     mocker.patch("os.path.exists", return_value=True)
 
     example_data = create_default_example(overrides)
-    example_data["schema"] = "job_posting"
+    example_data["schema_"] = "job_posting"
     example = Example(**example_data)
     assert example.har_file_path == expected_path
 
@@ -250,7 +250,7 @@ def test_har_file_path_invalid(overrides, mocker):
     mocker.patch("os.path.exists", return_value=False)
 
     example_data = create_default_example(overrides)
-    example_data["schema"] = "job_posting"
+    example_data["schema_"] = "job_posting"
     example = Example(**example_data)
     with pytest.raises(ValueError):
         _ = example.har_file_path

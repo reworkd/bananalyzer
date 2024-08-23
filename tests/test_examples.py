@@ -147,8 +147,8 @@ def test_download_har_dont_write(mocker, mock_s3_client):
 @pytest.mark.parametrize(
     "fetch_id, expected",
     [
-        ("valid_id", {"schema": "details"}),
-        ("another_valid_id", {"schema": "more_details"}),
+        ("valid_id", {"schema_": "details"}),
+        ("another_valid_id", {"schema_": "more_details"}),
     ],
 )
 def test_get_fetch_schema_success(mocker: MockFixture, fetch_id, expected):
@@ -163,7 +163,7 @@ def test_get_fetch_schema_success(mocker: MockFixture, fetch_id, expected):
 def test_get_fetch_schema_failure(mocker: MockFixture, fetch_id):
     mocker.patch(
         "builtins.open",
-        mock_open(read_data=json.dumps({"real_id": {"schema": "details"}})),
+        mock_open(read_data=json.dumps({"real_id": {"schema_": "details"}})),
     )
     with pytest.raises(ValueError):
         get_fetch_schema(fetch_id)
@@ -185,7 +185,7 @@ def test_get_goal_success(mocker: MockFixture, fetch_id, expected):
 def test_get_goal_failure(mocker: MockFixture, fetch_id):
     mocker.patch(
         "builtins.open",
-        mock_open(read_data=json.dumps({"real_id": {"schema": "details"}})),
+        mock_open(read_data=json.dumps({"real_id": {"schema_": "details"}})),
     )
     with pytest.raises(ValueError):
         get_goal(fetch_id)

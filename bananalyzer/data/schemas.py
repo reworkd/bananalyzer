@@ -125,7 +125,7 @@ class Example(BaseModel):
         description="The goal of the agent for this specific example",
         default=None,
     )
-    schema: Optional[Dict[str, Any]] = Field(
+    schema_: Optional[Dict[str, Any]] = Field(
         description="The JSON schema of the data to be extracted",
         default=None,
     )
@@ -166,12 +166,13 @@ class Example(BaseModel):
     @model_validator(mode="before")
     def set_goal_if_schema_name_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
+
         # TODO: this will change once we strip schema out of goals
 
         schema_name = None
-        if type(values.get("schema")) == str:
-            schema_name = values["schema"]
-            values["schema"] = get_fetch_schema(schema_name)
+        if type(values.get("schema_")) == str:
+            schema_name = values["schema_"]
+            values["schema_"] = get_fetch_schema(schema_name)
 
         goal_type = values.get("type")
         if goal_type != "detail":
@@ -185,7 +186,7 @@ class Example(BaseModel):
         if schema_name is None:
             raise ValueError("schema_name must be provided if goal is not provided")
 
-        detail_schema = values["schema"]
+        detail_schema = values["schema_"]
         values["goal"] = (
             json.dumps(detail_schema, indent=4)
             if not isinstance(detail_schema, Dict)
