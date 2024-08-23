@@ -1,17 +1,17 @@
-import boto3
-import harambe
-import json
-import nanoid
 import os
 import shutil
 import tarfile
+from io import BytesIO
+from typing import Any, Optional, cast
+from urllib.parse import urlparse
+
+import boto3
+import harambe
+import nanoid
 from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
 from harambe.observer import InMemoryObserver
-from io import BytesIO
-from playwright.async_api import ElementHandle, Page, async_playwright
-from typing import Any, Optional, cast
-from urllib.parse import urlparse
+from playwright.async_api import Page, async_playwright
 
 from bananalyzer.data.schemas import Example
 

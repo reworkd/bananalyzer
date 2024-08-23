@@ -1,10 +1,10 @@
-import json
 import os
-import pytest
 from pathlib import Path
+from typing import Any, Dict, List, Literal, Optional, Type
+
+import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
-from typing import Any, Dict, List, Literal, Optional, Type
 
 from bananalyzer.runner.evals import (
     AllowedJSON,

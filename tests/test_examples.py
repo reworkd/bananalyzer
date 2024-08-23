@@ -1,14 +1,16 @@
 import json
 import os
-import pytest
 import shutil
-from pathlib import Path
-from pytest_mock import MockFixture
-from typing import List
-from io import BytesIO
 import tarfile
+from io import BytesIO
+from pathlib import Path
+from typing import List
 from unittest.mock import mock_open
 
+import pytest
+from pytest_mock import MockFixture
+
+from bananalyzer.data.banana_seeds import download_har
 from bananalyzer.data.examples import (
     download_examples,
     downloaded_examples_path,
@@ -20,9 +22,8 @@ from bananalyzer.data.examples import (
     load_examples_at_path,
     local_examples_path,
 )
-from bananalyzer.data.schemas import Example
-from bananalyzer.data.banana_seeds import download_har
 from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
+from bananalyzer.data.schemas import Example
 
 
 def test_load_examples_at_path_success(mocker: MockFixture) -> None:
@@ -142,6 +143,15 @@ def test_download_har_dont_write(mocker, mock_s3_client):
     )
 
     m_open.assert_not_called()
+
+
+def test_example_with_known_contract_ids() -> None:
+    contract_goal_id = "e2gmBRbTWoWAh8xpNAoqw"
+    example = [
+        example for example in get_all_examples() if example.id == contract_goal_id
+    ][0]
+    assert get_goal("contract") in example.goal
+    assert example.fetch_id == "contract"
 
 
 @pytest.mark.parametrize(
