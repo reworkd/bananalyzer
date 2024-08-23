@@ -4,8 +4,7 @@ import pytest
 from pathlib import Path
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
-from typing import Any, Dict, List, Literal, Optional, Type, Union
-from bananalyzer.data.fetch_schemas import get_fetch_schema
+from typing import Any, Dict, List, Literal, Optional, Type
 
 from bananalyzer.runner.evals import (
     AllowedJSON,
@@ -121,13 +120,9 @@ class Example(BaseModel):
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: ExampleType = Field(description="The stage of the current page")
-    goal: Optional[str] = Field(
-        description="The goal of the agent for this specific example",
-        default=None,
-    )
-    schema_: Optional[Dict[str, Any]] = Field(
-        description="The JSON schema of the data to be extracted",
-        default=None,
+    goal: str = Field(description="The goal of the agent for this specific example")
+    schema_: Dict[str, Any] = Field(
+        description="The JSON schema of the data to be extracted"
     )
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
@@ -167,39 +162,16 @@ class Example(BaseModel):
     def set_goal_if_schema_name_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
 
-        # TODO: this will change once we strip schema out of goals
+        if values.get("schema_") is None:
+            values["schema_"] = {"data": {"type": "object"}}
 
         schema_name = None
         if type(values.get("schema_")) == str:
             schema_name = values["schema_"]
             values["schema_"] = get_fetch_schema(schema_name)
 
-        goal_type = values.get("type")
-        if goal_type != "detail":
-            return values
-
-        goal = values.get("goal")
-
-        if schema_name is None and goal is not None:
-            return values
-
-        if schema_name is None:
-            raise ValueError("schema_name must be provided if goal is not provided")
-
-        detail_schema = values["schema_"]
-        values["goal"] = (
-            json.dumps(detail_schema, indent=4)
-            if not isinstance(detail_schema, Dict)
-            and issubclass(detail_schema, BaseModel)
-            else detail_schema
-        )
-
-        # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
-        if schema_name in ("contact", "contract"):
-            goal = get_goal(schema_name)
-            values["goal"] = f"{goal} Return data in the following schema:\n" + str(
-                values["goal"]
-            )
+        if values.get("goal") is None:
+            values["goal"] = get_goal(schema_name)
 
         return values
 

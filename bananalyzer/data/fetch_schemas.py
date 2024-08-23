@@ -26,6 +26,6 @@ def get_goal(schema_name: SchemaName) -> str:
         goals = json.load(file)
 
     if schema_name not in goals:
-        raise ValueError(f"Invalid schema_name: {schema_name}")
+        return "Extract data from the page in the format specified by the schema."
 
     return goals[schema_name]
