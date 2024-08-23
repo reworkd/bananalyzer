@@ -7163,21 +7163,25 @@
       }
     ],
     "schema": {
-      "title": {
-        "type": "string",
-        "description": "The title of the course, excluding units and course code."
-      },
-      "units": {
-        "type": "number",
-        "description": "The number of units the course is worth."
-      },
-      "course_code": {
-        "type": "string",
-        "description": "The course code, such as 'CMPT 999' or 'MACM 999'."
-      },
-      "url": {
-        "type": "string",
-        "description": "The URL to the course details."
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": {
+          "type": "string",
+          "description": "The title of the course, excluding units and course code."
+        },
+        "units": {
+          "type": "number",
+          "description": "The number of units the course is worth."
+        },
+        "course_code": {
+          "type": "string",
+          "description": "The course code, such as 'CMPT 999' or 'MACM 999'."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the course details."
+        }
       }
     }
   },
