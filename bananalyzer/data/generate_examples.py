@@ -48,7 +48,7 @@ async def generate_fetch_example(
         category=metadata["category"],
         subcategory=metadata["subcategory"],
         type="detail",
-        fetch_id=metadata["fetch_id"],
+        schema=metadata["schema"],
         evals=[eval],
         goal=None,
     )
@@ -148,7 +148,7 @@ async def main() -> None:
     metadata = {
         "category": "unknown",
         "subcategory": "careers",
-        "fetch_id": "job_posting",
+        "schema": "job_posting",
     }
     await add_examples_to_json(urls, schema, metadata, tarsier_client, openai_client)
 

@@ -6228,11 +6228,22 @@
     "category": "software",
     "subcategory": "unstructured",
     "type": "detail",
-    "goal": {
-      "company_name": "string",
-      "title": "string",
-      "backers": "List[string]",
-      "careers_url": "string"
+    "schema": {
+      "company_name": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "backers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "careers_url": {
+        "type": "string"
+      }
     },
     "evals": [
       {

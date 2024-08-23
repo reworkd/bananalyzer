@@ -13,7 +13,7 @@ def test_generate_test_with_single_eval() -> None:
         subcategory="www",
         type="detail",
         evals=[Eval(type="json_match", expected={"key": "value"})],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     test = generator.generate_test(example)
@@ -33,7 +33,7 @@ def test_generate_test_with_multiple_evals() -> None:
             Eval(type="json_match", expected={"key": "value"}),
             Eval(type="end_url_match", expected="https://www.test.com"),
         ],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     test = generator.generate_test(example)
@@ -51,7 +51,7 @@ def test_generate_class_name_without_www() -> None:
         subcategory="www",
         type="detail",
         evals=[],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     class_name = generator._generate_class_name(example)
@@ -68,7 +68,7 @@ def test_generate_class_name_with_www() -> None:
         subcategory="www",
         type="detail",
         evals=[],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     class_name = generator._generate_class_name(example)
@@ -85,7 +85,7 @@ def test_generate_class_name_with_multiple_categorys() -> None:
         subcategory="www",
         type="detail",
         evals=[],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     example2 = Example(
@@ -96,7 +96,7 @@ def test_generate_class_name_with_multiple_categorys() -> None:
         subcategory="www",
         type="detail",
         evals=[],
-        fetch_id="job_posting",
+        schema="job_posting",
         goal=None,
     )
     class_name1 = generator._generate_class_name(example1)
