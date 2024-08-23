@@ -197,6 +197,7 @@ async def create_end2end_examples(
                 subcategory=metadata["subcategory"],
                 type="listing_detail",
                 goal=metadata["goal"],
+                schema_=metadata["schema_"],
                 evals=[{"type": "json_match", "expected": data}],
             )
         ]
@@ -214,6 +215,7 @@ async def create_end2end_examples(
             subcategory=metadata["subcategory"],
             type="listing_detail",
             goal=metadata["goal"],
+            schema_=metadata["schema_"],
             evals=[{"type": "json_match", "expected": enqueued_urls}],
         )
     ]
@@ -239,6 +241,7 @@ async def create_end2end_examples(
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],
                 type="detail",
+                goal=metadata["goal"],
                 schema_=metadata["schema_"],
                 evals=[{"type": "json_match", "expected": observer_data}],
             )
