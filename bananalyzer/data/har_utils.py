@@ -4,6 +4,7 @@ import tarfile
 from io import BytesIO
 from typing import Any, Optional, cast
 from urllib.parse import urlparse
+import json
 
 import boto3
 import harambe
