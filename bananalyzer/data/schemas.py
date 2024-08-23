@@ -159,7 +159,7 @@ class Example(BaseModel):
         return har_path
 
     @model_validator(mode="before")
-    def set_goal_if_schema_name_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+    def set_schema_and_goal(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
 
         if values.get("schema_") is None:
