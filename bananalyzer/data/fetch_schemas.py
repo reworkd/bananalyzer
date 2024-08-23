@@ -9,7 +9,7 @@ This file maps a schema_name to a JSON schema or goal string.
 """
 
 
-def get_fetch_schema(schema_name: SchemaName) -> Dict[str, Any]:
+def get_fetch_schema(schema_name: str) -> Dict[str, Any]:
     schemas_path = get_examples_path() / "schemas.json"
     with open(schemas_path, "r") as file:
         fetch_schemas = json.load(file)
@@ -20,7 +20,7 @@ def get_fetch_schema(schema_name: SchemaName) -> Dict[str, Any]:
     return fetch_schemas[schema_name]
 
 
-def get_goal(schema_name: SchemaName) -> str:
+def get_goal(schema_name: str) -> str:
     goals_path = get_examples_path() / "goals.json"
     with open(goals_path, "r") as file:
         goals = json.load(file)

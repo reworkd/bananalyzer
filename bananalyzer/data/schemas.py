@@ -165,7 +165,7 @@ class Example(BaseModel):
         if values.get("schema_") is None:
             values["schema_"] = {"data": {"type": "object"}}
 
-        schema_name = None
+        schema_name = ""
         if type(values.get("schema_")) == str:
             schema_name = values["schema_"]
             values["schema_"] = get_fetch_schema(schema_name)
