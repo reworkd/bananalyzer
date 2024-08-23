@@ -987,7 +987,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "W8QTUDItaXJSOaBOZGAE8",
@@ -1066,7 +1074,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "pk7eEZ2sweN4YzzFVK217",
@@ -1136,7 +1152,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "JaVENaBu8Iu7yYoUNrORW",
@@ -1191,7 +1215,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "OWLWiq0ePIJmx5VmtquOD",
@@ -1237,7 +1269,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "aLnmhAeCwsHCd3dM53rwG",
@@ -1292,7 +1332,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "9rolWTrS4XJZnlgFRbqGM",
@@ -1602,7 +1650,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "Vo8MreF9aVq5bE45XqaMz",
@@ -1696,7 +1752,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "MIZDQx8G6Gn562lO5hFQb",
@@ -1745,7 +1809,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "1JWoJWs3uZMt8Wa5ql6pr",
@@ -2370,7 +2442,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "4Zdz7larhE43CYvvaV902",
@@ -2482,7 +2562,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "CsjbrXOwtX1rRqggZALRB",
@@ -2558,7 +2646,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "VogIUZw1FJlCEiBzTUwYR",
@@ -2592,7 +2688,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "LuM2bHYg5mnBvjhttTDlh",
@@ -2642,7 +2746,15 @@
     "tags": [
       "regression",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "NHWkSmdwXKQb9oe9vVGZf",
@@ -2733,7 +2845,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "n28tTMFEZfIyMXsCxO6Ra",
@@ -2896,7 +3016,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "qyZjOcbaiHuVq4FpOB26b",
@@ -2924,7 +3052,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "KTcoPSidqLGESp29nQtLv",
@@ -3049,7 +3185,15 @@
     "tags": [
       "regression",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "pNsTF6muOdSesbhNTFI9g",
@@ -3089,7 +3233,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "qgEjcl77WINh8ltNc9NoC",
@@ -3117,7 +3269,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "gKfAQGripVAFa87dehr5m",
@@ -3234,7 +3394,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "jH56yUizuVbTYWAIwSJkM",
@@ -3295,7 +3463,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "7JjuuOO8Ibt83UkNQA2bG",
@@ -3420,7 +3596,15 @@
     "tags": [
       "regression",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "wqGtmRYz4PWe4LCxAW4UI",
@@ -3472,7 +3656,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "uibGV6FB4gcYvY93AIWJe",
@@ -3596,7 +3788,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "RVotqLcMUyKXULUTqYCvm",
@@ -3966,7 +4166,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "TQyvtLuRcbSStSHq1seCq",
@@ -4015,7 +4223,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "JAiFFb1qWlEVk48Ny32ND",
@@ -4064,7 +4280,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "qtRibcsG6iq09TyGQoYhv",
@@ -4275,7 +4499,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "VqSaCh7ffPXKh1IymN8Oo",
@@ -4357,7 +4589,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "A85loHyz9QIVgy8vypV59",
@@ -5517,7 +5757,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "v7hgryy94evdLb0aHzDtY",
@@ -5545,7 +5798,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "2HauD8zfTdDq75G7WRJzB",
@@ -5581,7 +5847,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "FSfE85pVbn96ntVl1qEGp",
@@ -5634,7 +5913,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "rKCkTGVbx4Mpi0BAnKCRd",
@@ -5707,7 +5999,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "YuBInhOP8OdQAfy4Htvre",
@@ -5743,7 +6048,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "NSVMR9p35Pku7LUyPCMHY",
@@ -5847,7 +6165,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "7xlvZTTi21A1s7k3AoBOS",
@@ -5967,7 +6298,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "9O72sF7l80n4jlISiASUi",
@@ -6063,7 +6407,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "D9gQh8jKW2L2ZA610FvSN",
@@ -6143,7 +6500,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "CYi5NWLkH2RTe0J0qvHVX",
@@ -6219,7 +6589,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "yzwuXotaBr52CyG4mUDhy",
@@ -6778,7 +7161,25 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "title": {
+        "type": "string",
+        "description": "The title of the course, excluding units and course code."
+      },
+      "units": {
+        "type": "number",
+        "description": "The number of units the course is worth."
+      },
+      "course_code": {
+        "type": "string",
+        "description": "The course code, such as 'CMPT 999' or 'MACM 999'."
+      },
+      "url": {
+        "type": "string",
+        "description": "The URL to the course details."
+      }
+    }
   },
   {
     "id": "JNOSAEEZO4j2unWHPFBdO",
@@ -6814,7 +7215,17 @@
           ]
         }
       }
-    ]
+    ],
+    "schema": {
+      "title": "string",
+      "content": "string",
+      "page_links": [
+        {
+          "title": "string",
+          "url": "string"
+        }
+      ]
+    }
   },
   {
     "id": "KuDD2GuMDlbuKO4ozdbDA",
@@ -6872,7 +7283,29 @@
           ]
         }
       }
-    ]
+    ],
+    "schema": {
+      "comments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "author": {
+              "type": "string",
+              "description": "The name of the author of the comment."
+            },
+            "message": {
+              "type": "string",
+              "description": "The content of the comment."
+            }
+          },
+          "required": [
+            "author",
+            "message"
+          ]
+        }
+      }
+    }
   },
   {
     "id": "GQfYTjppPhTgYtsuFUbXF",
@@ -6966,7 +7399,16 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "title": "string",
+        "description": "string",
+        "url": "string",
+        "image_url": "string"
+      }
+    }
   },
   {
     "id": "K88O7OW0FJoCfdVUD4xXH",
@@ -7085,7 +7527,15 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "title": "string",
+        "url": "string",
+        "author": "string"
+      }
+    }
   },
   {
     "id": "xCHAOXtOYz47HfNY9LeZq",
@@ -7213,7 +7663,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "BBofvHlOP5C5aSVJknz1C",
@@ -7893,7 +8356,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "9tW9ErOPFHXcnIZRLwuno",
@@ -7972,7 +8448,20 @@
     ],
     "tags": [
       "colliding-tags"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "Xixe0WiedsLB1KFcKpv2r",
@@ -8019,7 +8508,20 @@
     ],
     "tags": [
       "regression"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "q3jMY8P01UJCw3ggDs1OJ",
@@ -8156,7 +8658,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "1z50b4syZzf7J1kQt2k7W",
@@ -8277,7 +8792,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "3vDNIHFXtjcnarvJQWdd7",
@@ -8397,7 +8925,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "Ey2q7uEroarG84e6YZnym",
@@ -8481,7 +9022,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "S8AKJlRl5F8Vci1UiLU1a",
@@ -8533,7 +9087,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "rgCTp6HulNEsEqEupEUZN",
@@ -8665,7 +9232,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "apscD5vWHBV1dvAX6K7Vt",
@@ -8705,7 +9285,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "LOnORRBp7zDQifntNAcFO",
@@ -8865,7 +9458,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "I8Bj6okah8nrfPEinahWH",
@@ -8905,7 +9511,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "AlIKugApq7lSB3dcM4aOT",
@@ -8929,7 +9548,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "cMPCNSczVAPhdXJxBIBEd",
@@ -8961,7 +9593,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "NUkrUYwOJuYfv5SC3GHTE",
@@ -8997,7 +9642,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "ijJbuKPqEOkA4OK0BzLPk",
@@ -9029,7 +9687,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "nxkcxrThdmaRX01YRXtho",
@@ -10557,7 +11228,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "tV4VsHCiYAA3o6oKYyXVk",
@@ -10613,7 +11297,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "HleEA9DcP1jBVN5cBEmFT",
@@ -10637,7 +11334,20 @@
     "tags": [
       "regression",
       "single-output"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "gg5AAaFekWGXPdKtYBoer",
@@ -10945,7 +11655,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "L6BOPpJEJhhN5JHfWj4g1",
@@ -10986,7 +11709,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "eKKvQ3OZG6H0jjTIRINPs",
@@ -11042,7 +11778,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "LNMVWWtQRcjkj54ONLebI",
@@ -11070,7 +11819,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "vgTQTZN0Efl4vXQ0I9Iy8",
@@ -11114,7 +11876,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "HixdQTqLbSa6zIaKmxxE1",
@@ -11270,7 +12045,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "ogRf0dLwJKiDJUQnzz4pn",
@@ -11306,7 +12094,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "eSG6HgfI2R9JpZQRozsSV",
@@ -11402,7 +12203,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "oEAjw9fv6UXmS63CIzZlU",
@@ -11526,7 +12340,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "oBJMkbpRqNM02wNlOTP3N",
@@ -11562,7 +12389,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "gdtUqXUos3CdM6zVlMbbC",
@@ -12378,7 +13218,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "O3kSfBi6P0CQBJTCmjV7B",
@@ -13046,7 +13899,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "F5AaImEw3SHGkneXd36eH",
@@ -13081,7 +13947,20 @@
     ],
     "tags": [
       "regression"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "4pBdo1yehg1kXCW8fvzHB",
@@ -13109,7 +13988,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "TG8dn0Xi3SJC0VHjWRH1P",
@@ -13169,7 +14061,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "O3t7Of3CTP2WUj71YddFO",
@@ -13305,7 +14210,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "NJouZuI4JTRsMz3KYK1cV",
@@ -13341,7 +14259,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "SlMfqkoK2KeAp31dHr88F",
@@ -14046,7 +14977,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "TLxVvFZ6MRB0nbSBWl8ym",
@@ -14078,7 +15022,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "wXhQ0YobLZ4z1BAZesBUF",
@@ -14302,7 +15259,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "Std6TTbgilRTiLDGJOezx",
@@ -14346,7 +15316,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "Ql2B37FdNugeJ09WjopGa",
@@ -14634,7 +15617,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "awL4PUmAj9TIIqR6L95fq",
@@ -15138,7 +16134,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "KNyomEvINtDSbA7cKRr1F",
@@ -15403,7 +16412,20 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "x9tCDlr2WOazDKVrF3njD",
@@ -15435,7 +16457,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "rZQpVHDs30D7WbTFIiXCr",
@@ -15607,7 +16642,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "ecqQm32DLMtTUWt2AQxhm",
@@ -15651,7 +16699,20 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "TKUFwwdmB0ioMyUXvozpu",
@@ -16558,7 +17619,13 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": "string"
+      }
+    }
   },
   {
     "id": "7dhL1dij4AsT9qWCbWBHq",
@@ -20681,7 +21748,13 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": "string"
+      }
+    }
   },
   {
     "id": "bOVNaNsrc6UrCdlhHLxGy",
@@ -20736,7 +21809,13 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": "string"
+      }
+    }
   },
   {
     "id": "MP4p6ibb3PLD3i8AmBrZ3",
@@ -20905,7 +21984,13 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": "string"
+      }
+    }
   },
   {
     "id": "tIowzAEvZcWH9ukP4Aofa",
@@ -20984,7 +22069,13 @@
     ],
     "tags": [
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": "string"
+      }
+    }
   },
   {
     "id": "QlAWMyjvSxPHh4E5Fkjfs",
@@ -23826,7 +24917,20 @@
     ],
     "tags": [
       "pagination"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "UHzYnlqTRgCUgGgNXEln2",
@@ -24181,7 +25285,20 @@
     ],
     "tags": [
       "pagination"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+        },
+        "url": {
+          "type": "string",
+          "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+        }
+      }
+    }
   },
   {
     "id": "QxSSau0T34NCk6O1bq4Cd",
@@ -24309,7 +25426,19 @@
     ],
     "tags": [
       "accordion"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "GuFznteaPUy3yrETrOh4Y",
@@ -24327,7 +25456,19 @@
     ],
     "tags": [
       "accordion"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "Ly1DY8GL7cV5mWnxr1DH5",
@@ -24366,7 +25507,19 @@
     ],
     "tags": [
       "accordion"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "NZoqFzLNm1OJsS96Pyxbi",
@@ -24493,7 +25646,19 @@
     ],
     "tags": [
       "accordion"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "Dr8xyZLYbHhbQlzYTIbDY",
@@ -24511,7 +25676,19 @@
     ],
     "tags": [
       "accordion"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "zKVOGYYHXR3uskE0WcG1A",
@@ -24978,7 +26155,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "cFcnDQSGQgDeyHBnZtrU8",
@@ -25223,7 +26408,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "FeRDLVQyg3Y1l62axB6az",
@@ -25267,7 +26460,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "u3fjwZRjKUEcvr8kkmy5v",
@@ -25800,7 +27001,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "WyQg7esKNNds3EYMZCx2J",
@@ -25850,7 +27059,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "MQOPSYI3SU7EEQRbHUMHr",
@@ -25915,7 +27132,15 @@
     "tags": [
       "contract",
       "urls"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "xkEtVvkl3HDnC827Flk3g",
@@ -25942,7 +27167,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -26090,7 +27315,30 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "prf1dSczRpaoWLrEMseB1",
@@ -26099,7 +27347,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -26235,7 +27483,30 @@
     ],
     "tags": [
       "badly-formatted"
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "nXWHr3UoycfzFqubWTUpn",
@@ -26244,13 +27515,36 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
         "expected": []
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "tbRxihP0jtq5O12zVhvEF",
@@ -26259,7 +27553,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -26301,7 +27595,30 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "R99SMT2jvCjJRqRGra2g6",
@@ -26310,7 +27627,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -26457,7 +27774,30 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "lBTRjkiZqEdNvCSjTmoWG",
@@ -26466,7 +27806,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -26768,7 +28108,30 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "DftOgPW7iPtFR5MoeyKtH",
@@ -26777,7 +28140,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -27093,7 +28456,30 @@
         ]
       }
     ],
-    "tags": []
+    "tags": [],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "OlYrsJi04Czdu7Uvl1mIF",
@@ -27110,7 +28496,19 @@
           "This example has a dynamic download. We should either make it an HREF or wait until we support dynamic downloads in evals"
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string",
+          "description": "The name of the document. Note that may not always be the link text. Use the element that best captures the name"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
   },
   {
     "id": "7RiCdEFYb6NEQnXWRXlOG",
@@ -27146,7 +28544,16 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "todo": {
+        "type": "string",
+        "description": "A single to do."
+      },
+      "is_complete": {
+        "type": "boolean"
+      }
+    }
   },
   {
     "id": "TSpNt8AwAPpuGuQt1GAdQ",
@@ -28386,7 +29793,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
     "evals": [
       {
         "type": "json_match",
@@ -29338,7 +30745,30 @@
           }
         ]
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or role of the individual within the school"
+        },
+        "phone_number": {
+          "type": "string",
+          "description": "Keep phone number formatting but do not include irrelevant text"
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the individual"
+        }
+      }
+    }
   },
   {
     "id": "Rv9bX3ZqY8esHf4pD2mNT",
@@ -29353,6 +30783,13 @@
         "type": "json_match",
         "expected": []
       }
-    ]
+    ],
+    "schema": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "The title of the post. Use the element that best captures the name."
+      }
+    }
   }
 ]
