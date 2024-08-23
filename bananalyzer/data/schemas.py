@@ -1,10 +1,11 @@
 import json
 import os
-import pytest
 from pathlib import Path
+from typing import Any, Dict, List, Literal, Optional, Type, Union
+
+import pytest
 from playwright.async_api import Page
 from pydantic import BaseModel, Field, model_validator
-from typing import Any, Dict, List, Literal, Optional, Type, Union
 
 from bananalyzer.runner.evals import (
     AllowedJSON,
@@ -165,10 +166,6 @@ class Example(BaseModel):
     @model_validator(mode="before")
     def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         from bananalyzer.data.fetch_schemas import get_fetch_schema
-
-        goal_type = values.get("type")
-        if goal_type != "detail":
-            return values
 
         fetch_id: Optional[FetchId] = values.get("fetch_id")
         goal = values.get("goal")
