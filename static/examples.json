@@ -29565,7 +29565,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing",
-    "fetch_id": "contract",
+    "schema_": "contract",
     "tags": [
       "contract",
       "pagination"
@@ -29779,7 +29779,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "fetch_id": "contract",
+    "schema_": "contract",
     "tags": [
       "contract",
       "pagination"
@@ -30096,7 +30096,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "fetch_id": "contract",
+    "schema_": "contract",
     "evals": [
       {
         "type": "json_match",

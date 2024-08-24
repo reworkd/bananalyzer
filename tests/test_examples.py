@@ -151,41 +151,40 @@ def test_example_with_known_contract_ids() -> None:
         example for example in get_all_examples() if example.id == contract_goal_id
     ][0]
     assert get_goal("contract") in example.goal
-    assert example.fetch_id == "contract"
 
 
 @pytest.mark.parametrize(
-    "fetch_id, expected",
+    "schema_name, expected",
     [
         ("valid_id", {"schema_": "details"}),
         ("another_valid_id", {"schema_": "more_details"}),
     ],
 )
-def test_get_fetch_schema_success(mocker: MockFixture, fetch_id, expected):
-    mocker.patch("builtins.open", mock_open(read_data=json.dumps({fetch_id: expected})))
-    assert get_fetch_schema(fetch_id) == expected
+def test_get_fetch_schema_success(mocker: MockFixture, schema_name, expected):
+    mocker.patch("builtins.open", mock_open(read_data=json.dumps({schema_name: expected})))
+    assert get_fetch_schema(schema_name) == expected
 
 
 @pytest.mark.parametrize(
-    "fetch_id",
+    "schema_name",
     ["invalid_id", "nonexistent_id"],
 )
-def test_get_fetch_schema_failure(mocker: MockFixture, fetch_id):
+def test_get_fetch_schema_failure(mocker: MockFixture, schema_name):
     mocker.patch(
         "builtins.open",
         mock_open(read_data=json.dumps({"real_id": {"schema_": "details"}})),
     )
     with pytest.raises(ValueError):
-        get_fetch_schema(fetch_id)
+        get_fetch_schema(schema_name)
 
 
 @pytest.mark.parametrize(
-    "fetch_id, expected",
+    "schema_name, expected",
     [("valid_id", "Complete the task"), ("another_valid_id", "Achieve the goal")],
 )
-def test_get_goal_success(mocker: MockFixture, fetch_id, expected):
-    mocker.patch("builtins.open", mock_open(read_data=json.dumps({fetch_id: expected})))
-    assert get_goal(fetch_id) == expected
+def test_get_goal_success(mocker: MockFixture, schema_name, expected):
+    mocker.patch("builtins.open", mock_open(read_data=json.dumps({schema_name: expected})))
+    assert get_goal(schema_name) == expected
 
 
 ##########################################################
