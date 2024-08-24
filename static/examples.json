@@ -6308,7 +6308,7 @@
     "category": "education",
     "subcategory": "details",
     "type": "listing_detail",
-    "goal": "Fetch ALL of the links to courses on the current page. For each link, fetch the following object: {title: string (Course title EXCLUDING the units and course code such as `Computational Geometry`. Do NOT return `Computational Geometry (3)` for example), units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
+    "goal": "Fetch ALL of the links to courses on the current page.",
     "schema_": {
       "type": "array",
       "items": {
@@ -6850,13 +6850,19 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "detail",
-    "goal": "Fetch information of the following schema:\n{\"title\": \"string\", \"content\": \"string\", \"page_links\": [{\"title\": \"string\", \"url\": \"string\"}]}",
     "schema_": {
       "title": "string",
       "content": "string",
       "page_links": [
         {
           "title": "string",
+          "content": "string",
+          "page_links": [
+            {
+              "title": "string",
+              "url": "string"
+            }
+          ],
           "url": "string"
         }
       ]
@@ -6896,7 +6902,23 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "listing_detail",
-    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
+    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes.",
+    "schema_": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "type": "string",
+            "description": "The name of the individual that said the quote"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string"
+          }
+        }
+      }
+    },
     "evals": [
       {
         "type": "json_match",
@@ -6924,7 +6946,7 @@
     "category": "software",
     "subcategory": "unstructured",
     "type": "detail",
-    "goal": "Fetch all comments on the page and return the results in the following schema: {comments: [{author: string, message: string}]}",
+    "goal": "Fetch all comments on the page.",
     "schema_": {
       "comments": {
         "type": "array",
@@ -6976,7 +6998,7 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "listing_detail",
-    "goal": "Fetch all of the experiences on the page and return it as a list in the following schema: {\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}",
+    "goal": "Fetch all of the experiences on the page.",
     "schema_": {
       "type": "array",
       "items": {
@@ -7079,7 +7101,7 @@
     "category": "articles",
     "subcategory": "blog",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the articles on the current page. Return as a list of objects of the following schema:{\"title\": \"string\", \"url\": \"string\", \"author\": \"string\"}",
+    "goal": "Fetch all of the links to the articles on the current page.",
     "tags": [
       "urls"
     ],
@@ -11454,7 +11476,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -27304,7 +27326,7 @@
     "category": "productivity",
     "subcategory": "consumer",
     "type": "detail",
-    "goal": "Fetch a list of all of the to dos on the current page. Return as a list of objects of the following schema:\n{\"todo\":\n\t{\"type\": \"string\", \"description\": \"A single to do.\"}\n, \"is_complete\":\n\t{\"type\": \"boolean\"}\n}",
+    "goal": "Fetch a list of all of the to dos on the current page.",
     "schema_": {
       "todo": {
         "type": "string",
@@ -29539,12 +29561,31 @@
     "category": "software",
     "subcategory": "forum",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the HN posts on the current page only. Return as a list of objects of the following schema:\"title\": {\n      \"type\": \"string\",\n      \"description\": \"The title of the post. Use the element that best captures the name.\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"The URL of the post.\"\n    },\n    \"num_upvotes\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of upvotes the post has received.\"\n    },\n    \"username\": {\n      \"type\": \"string\",\n      \"description\": \"The username of the post author.\"\n    },\n    \"num_comments\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of comments on the post.\"\n    },\n    \"posted_date\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time when the post was submitted.\"\n    }",
+    "goal": "Fetch all of the links to the HN posts on the current page only.",
     "schema_": {
-      "type": "array",
-      "items": {
+      "title": {
         "type": "string",
         "description": "The title of the post. Use the element that best captures the name."
+      },
+      "url": {
+        "type": "string",
+        "description": "The URL of the post."
+      },
+      "num_upvotes": {
+        "type": "integer",
+        "description": "The number of upvotes the post has received."
+      },
+      "username": {
+        "type": "string",
+        "description": "The username of the post author."
+      },
+      "num_comments": {
+        "type": "integer",
+        "description": "The number of comments on the post."
+      },
+      "posted_date": {
+        "type": "string",
+        "description": "The date and time when the post was submitted."
       }
     },
     "evals": [
