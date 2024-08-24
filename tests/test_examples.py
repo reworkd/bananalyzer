@@ -161,7 +161,9 @@ def test_example_with_known_contract_ids() -> None:
     ],
 )
 def test_get_fetch_schema_success(mocker: MockFixture, schema_name, expected):
-    mocker.patch("builtins.open", mock_open(read_data=json.dumps({schema_name: expected})))
+    mocker.patch(
+        "builtins.open", mock_open(read_data=json.dumps({schema_name: expected}))
+    )
     assert get_fetch_schema(schema_name) == expected
 
 
@@ -183,7 +185,9 @@ def test_get_fetch_schema_failure(mocker: MockFixture, schema_name):
     [("valid_id", "Complete the task"), ("another_valid_id", "Achieve the goal")],
 )
 def test_get_goal_success(mocker: MockFixture, schema_name, expected):
-    mocker.patch("builtins.open", mock_open(read_data=json.dumps({schema_name: expected})))
+    mocker.patch(
+        "builtins.open", mock_open(read_data=json.dumps({schema_name: expected}))
+    )
     assert get_goal(schema_name) == expected
 
 
