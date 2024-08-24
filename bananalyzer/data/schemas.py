@@ -1,7 +1,6 @@
-import json
 import os
 from pathlib import Path
-from typing import Any, Dict, List, Literal, Optional, Type, Union
+from typing import Any, Dict, List, Literal, Optional, Type
 
 import pytest
 from playwright.async_api import Page
@@ -20,7 +19,7 @@ ExampleType = Literal[
     "listing_detail",
 ]
 
-FetchId = Literal[
+SchemaName = Literal[
     "job_posting",
     "manufacturing_commerce",
     "contact",
@@ -121,13 +120,9 @@ class Example(BaseModel):
     category: str = Field(description="Category of the website")
     subcategory: str = Field(description="Subcategory of the website")
     type: ExampleType = Field(description="The stage of the current page")
-    goal: Optional[Union[str, Dict[str, Any]]] = Field(
-        description="The goal of the agent for this specific example",
-        default=None,
-    )
-    fetch_id: Optional[FetchId] = Field(
-        description="If it is a fetch type, we can infer the goal based on this id to avoid large schemas in json",
-        default=None,
+    goal: str = Field(description="The goal of the agent for this specific example")
+    schema_: Dict[str, Any] = Field(
+        description="The JSON schema of the data to be extracted"
     )
     evals: List[Eval] = Field(
         description="Various evaluations to test for within the example"
@@ -164,34 +159,19 @@ class Example(BaseModel):
         return har_path
 
     @model_validator(mode="before")
-    def set_goal_if_fetch_id_provided(cls, values: Dict[str, Any]) -> Dict[str, Any]:
-        from bananalyzer.data.fetch_schemas import get_fetch_schema
+    def set_schema_and_goal(cls, values: Dict[str, Any]) -> Dict[str, Any]:
+        from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
 
-        fetch_id: Optional[FetchId] = values.get("fetch_id")
-        goal = values.get("goal")
+        if values.get("schema_") is None:
+            values["schema_"] = {"data": {"type": "object"}}
 
-        if fetch_id is None and goal is not None:
-            return values
+        schema_name = ""
+        if type(values.get("schema_")) == str:
+            schema_name = values["schema_"]
+            values["schema_"] = get_fetch_schema(schema_name)
 
-        if fetch_id is None:
-            raise ValueError("fetch_id must be provided if goal is not provided")
-
-        fetch_schema = get_fetch_schema(fetch_id)
-        values["goal"] = (
-            json.dumps(fetch_schema, indent=4)
-            if not isinstance(fetch_schema, Dict)
-            and issubclass(fetch_schema, BaseModel)
-            else fetch_schema
-        )
-
-        # TODO: Fix this hack and construct all common goals from code and place schema in a different attribute
-        from bananalyzer.data.fetch_schemas import get_goal
-
-        if fetch_id in ("contact", "contract"):
-            goal = get_goal(fetch_id)
-            values["goal"] = f"{goal} Return data in the following schema:\n" + str(
-                values["goal"]
-            )
+        if values.get("goal") is None:
+            values["goal"] = get_goal(schema_name)
 
         return values
 

@@ -1028,7 +1028,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1048,7 +1048,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1068,7 +1068,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1088,7 +1088,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1108,7 +1108,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1128,7 +1128,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1148,7 +1148,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1168,7 +1168,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1188,7 +1188,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
@@ -1208,7 +1208,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "detail",
-    "fetch_id": "contact",
+    "schema_": "contact",
     "evals": [
       {
         "type": "json_match",
