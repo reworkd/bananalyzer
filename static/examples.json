@@ -27372,6 +27372,7 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "listing_detail",
+    "schema_": "listing_url",
     "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
     "tags": [
       "urls"
@@ -27596,6 +27597,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "listing_detail",
+    "schema_": "listing_url",
     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
     "tags": [
       "urls"
@@ -28343,6 +28345,7 @@
     "subcategory": "careers",
     "type": "listing_detail",
     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+    "schema_": "listing_url",
     "tags": [
       "urls"
     ],
