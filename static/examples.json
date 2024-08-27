@@ -30147,7 +30147,6 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "contact",
     "schema_": "contact",
     "tags": [
       "pagination"
