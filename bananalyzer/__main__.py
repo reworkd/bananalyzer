@@ -342,12 +342,13 @@ def main() -> int:
         print("=======================================================================")
         return 0
 
+    examples_path = get_examples_path()
     for example in examples:
         if example.resource_path is None:
             continue
 
         if example.source == "mhtml":
-            mhtml_path = get_examples_path() / example.id / "index.mhtml"
+            mhtml_path = examples_path / example.id / "index.mhtml"
             if not mhtml_path.exists():
                 mhtml_str = download_mhtml(example.resource_path)
                 mhtml_path.parent.mkdir(parents=True, exist_ok=True)
@@ -359,13 +360,13 @@ def main() -> int:
                 "s3://"
             ) and example.resource_path.endswith(".tar.gz"):
                 har_subpath = parts[-1].split(".")[0] + "/index.har"
-                har_path = get_examples_path() / har_subpath
+                har_path = examples_path / har_subpath
                 if not os.path.exists(har_path):
                     har_dir_path = os.path.dirname(har_path)
                     download_har(har_dir_path, example.resource_path)
             elif example.resource_path.endswith("/index.har"):
                 har_subpath = "/".join(parts[-2:])
-                har_path = get_examples_path() / har_subpath
+                har_path = examples_path / har_subpath
                 if not os.path.exists(har_path):
                     raise ValueError(
                         f"Could not find HAR file at {har_path}. Please run `bananalyze --download` to download all example files. No S3 path is provided for this example."

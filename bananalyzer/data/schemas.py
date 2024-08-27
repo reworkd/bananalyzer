@@ -163,6 +163,7 @@ class Example(BaseModel):
         from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
 
         if values.get("schema_") is None:
+            print(f"Warning: Schema not found for Example {values['id']}")
             values["schema_"] = {"data": {"type": "object"}}
 
         schema_name = ""

@@ -2,6 +2,7 @@
 name = "bananalyzer"
 version = "0.9.17"
 
+
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
 authors = ["asim-shrestha <asim.shrestha@hotmail.com>", "awtkns <hello@awtkns.com>"]
 readme = "README.md"
