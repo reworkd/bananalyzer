@@ -202,7 +202,9 @@ async def create_end2end_examples(
             )
         ]
     else:
-        print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 listing example.")
+        print(
+            f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 listing example."
+        )
         examples = [
             Example(
                 id=create_nano_id(),
@@ -223,7 +225,9 @@ async def create_end2end_examples(
 
         print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
         for i, url in enumerate(enqueued_urls):
-            observer = await create_har(url, f"./static/{domain}_detail{i}", detail_scraper)
+            observer = await create_har(
+                url, f"./static/{domain}_detail{i}", detail_scraper
+            )
             observer_data = observer.data[0]
             observer_data.pop("__url")
 
@@ -245,7 +249,10 @@ async def create_end2end_examples(
         print("Fusing HARs and writing examples to examples.json")
         fuse_hars(
             f"./static/{domain}/index.har",
-            [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
+            [
+                f"./static/{domain}_detail{i}/index.har"
+                for i in range(len(enqueued_urls))
+            ],
         )
 
     write_examples_to_file(examples)
