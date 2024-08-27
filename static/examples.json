@@ -29819,7 +29819,7 @@
     "source": "har",
     "category": "government",
     "subcategory": "contract",
-    "type": "listing_detail",
+    "type": "listing",
     "schema_": "contract",
     "tags": [
       "contract",
@@ -30136,7 +30136,7 @@
     "source": "har",
     "category": "government",
     "subcategory": "contract",
-    "type": "listing_detail",
+    "type": "listing",
     "schema_": "contract",
     "evals": [
       {
