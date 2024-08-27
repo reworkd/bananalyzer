@@ -30148,7 +30148,7 @@
     "subcategory": "contact",
     "type": "listing_detail",
     "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
-    "schema_": "contact",
+    "schema_": "listing_education_contact",
     "tags": [
       "pagination"
     ],
