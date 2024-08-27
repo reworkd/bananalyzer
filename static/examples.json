@@ -30879,5 +30879,238 @@
         ]
       }
     ]
+  },
+  {
+    "id": "W0DvxCkecSfk1jJNBtmeW",
+    "url": "https://beachwaver.com/collections/shop-all-products",
+    "resource_path": "s3://bananalyzer-examples/beachwaver_com.tar.gz",
+    "source": "har",
+    "category": "e-commerce",
+    "subcategory": "commerce",
+    "type": "listing",
+    "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    "schema_": "ecommerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://beachwaver.com/collections/shop-all-products/products/wide-tooth-comb",
+          "https://beachwaver.com/collections/shop-all-products/products/shine-squad-shine-spray-rr1170",
+          "https://beachwaver.com/collections/shop-all-products/products/half-up",
+          "https://beachwaver.com/collections/shop-all-products/products/root-therapy-scalp-massager-pink-lg-bw2209",
+          "https://beachwaver.com/collections/shop-all-products/products/good-vibes-shampoo",
+          "https://beachwaver.com/collections/shop-all-products/products/deep-conditioning-protein-hair-treatment-masque-8oz",
+          "https://beachwaver.com/collections/shop-all-products/products/be-strong-pre-shampoo-foam",
+          "https://beachwaver.com/collections/shop-all-products/products/charcoal-bar",
+          "https://beachwaver.com/collections/shop-all-products/products/flexible-hold-natural-styling-gel-4oz",
+          "https://beachwaver.com/collections/shop-all-products/products/m-wrap-up",
+          "https://beachwaver.com/collections/shop-all-products/products/be-confident-co-wash",
+          "https://beachwaver.com/collections/shop-all-products/products/floral-headband",
+          "https://beachwaver.com/collections/shop-all-products/products/clawclip-set-of-2-pink-and-black-bw104",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-baseball-cap",
+          "https://beachwaver.com/collections/shop-all-products/products/floral-flower-pin-3pk",
+          "https://beachwaver.com/collections/shop-all-products/products/oversized-scrunchie-classically-cassidy-pink-bwcc01",
+          "https://beachwaver.com/collections/shop-all-products/products/pearl-velvet-headband-light-pink-h22001",
+          "https://beachwaver.com/collections/shop-all-products/products/whistler-winter-pine-candle",
+          "https://beachwaver.com/collections/shop-all-products/products/velvet-bow-hook-small-black-h22012",
+          "https://beachwaver.com/collections/shop-all-products/products/knotted-headband-black-h22003",
+          "https://beachwaver.com/collections/shop-all-products/products/oversized-scrunchie-classically-cassidy-mustard-bwcc02",
+          "https://beachwaver.com/collections/shop-all-products/products/rhinestone-cluster-velvet-headband-black-h22004",
+          "https://beachwaver.com/collections/shop-all-products/products/velvet-bow-hook-large-black-h22010",
+          "https://beachwaver.com/collections/shop-all-products/products/silky-scrunchy-with-tail-blacksilky-scrunchy-with-tail-black-h22007",
+          "https://beachwaver.com/collections/shop-all-products/products/silky-oversized-bow-with-snap-clip-black-with-crystal-h22005",
+          "https://beachwaver.com/collections/shop-all-products/products/scalp-massager-small",
+          "https://beachwaver.com/collections/shop-all-products/products/knotted-headband-rose-pink-h22002",
+          "https://beachwaver.com/collections/shop-all-products/products/velvet-bow-hook-large-rose-pink-h22011",
+          "https://beachwaver.com/collections/shop-all-products/products/hair-scarf",
+          "https://beachwaver.com/collections/shop-all-products/products/brb-shampoo",
+          "https://beachwaver.com/collections/shop-all-products/products/darby-clips-1",
+          "https://beachwaver.com/collections/shop-all-products/products/travel-size-set-of-2-great-barrier-second-chance",
+          "https://beachwaver.com/collections/shop-all-products/products/keep-it-calm-styling-cream-se1350",
+          "https://beachwaver.com/collections/shop-all-products/products/prep-brush-black-bwprepb",
+          "https://beachwaver.com/collections/shop-all-products/products/prep-brush-pink-bwprep",
+          "https://beachwaver.com/collections/shop-all-products/products/mini-on-set-brush-pink-bwmosp",
+          "https://beachwaver.com/collections/shop-all-products/products/mini-on-set-brush-black-bwosb",
+          "https://beachwaver.com/collections/shop-all-products/products/on-set-brush-black-bwosb",
+          "https://beachwaver.com/collections/shop-all-products/products/on-set-brush-pink-bwosp",
+          "https://beachwaver.com/collections/shop-all-products/products/brb-blonde-purple-shampoo-conditioner-3oz-pouches",
+          "https://beachwaver.com/collections/shop-all-products/products/brb-blonde-purple-conditioner-3oz-pouch-mw1233",
+          "https://beachwaver.com/collections/shop-all-products/products/brb-blonde-purple-shampoo-3oz-pouch-mw1223",
+          "https://beachwaver.com/collections/shop-all-products/products/team-texture-dry-finishing-spray-mw1270a",
+          "https://beachwaver.com/collections/shop-all-products/products/darby-clips-set-of-2-wavy-west-black-cow-print",
+          "https://beachwaver.com/collections/shop-all-products/products/octopus-claw-clip-wavy-west-cow-print-bwfabcow",
+          "https://beachwaver.com/collections/shop-all-products/products/octopus-claw-clip-pretty-pastels-lilac-bwclawl",
+          "https://beachwaver.com/collections/shop-all-products/products/darby-clips-set-of-2-pretty-pastels-sage-bw2226",
+          "https://beachwaver.com/collections/shop-all-products/products/darby-clips-set-of-2-pastel-sky-bw2225",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-b-series",
+          "https://beachwaver.com/collections/shop-all-products/products/b-bungalow-by-beachwaver-co-diffusers",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-co-pink-backpack-bwbpack",
+          "https://beachwaver.com/collections/shop-all-products/products/scrunchies-1",
+          "https://beachwaver.com/collections/shop-all-products/products/major-moment-strong-brushable-hairspray-se1380",
+          "https://beachwaver.com/collections/shop-all-products/products/classically-cassidy-pink-on-set-pro-brush-bwcc08",
+          "https://beachwaver.com/collections/shop-all-products/products/gift-card",
+          "https://beachwaver.com/collections/shop-all-products/products/marula-scalp-treatment-oil-2oz",
+          "https://beachwaver.com/collections/shop-all-products/products/copy-of-polynesian-pink-sugar-fragrance",
+          "https://beachwaver.com/collections/shop-all-products/products/copy-of-bondi-beach-day-fragrance",
+          "https://beachwaver.com/collections/shop-all-products/products/me-my-curls-creamy-curl-mousse",
+          "https://beachwaver.com/collections/shop-all-products/products/curly-girl-bundle-hcbcgb",
+          "https://beachwaver.com/collections/shop-all-products/products/claw-clips",
+          "https://beachwaver.com/collections/shop-all-products/products/argan-keratin-smoothing-serum-2oz",
+          "https://beachwaver.com/collections/shop-all-products/products/coast-pro-ceramic-flat-iron-1",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-pro-1-copy",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-backstage-dryer-midnight-rose-copy",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-blow-brush",
+          "https://beachwaver.com/collections/shop-all-products/products/beachwaver-s-series",
+          "https://beachwaver.com/collections/shop-all-products/products/whistler-winter-pine-diffuser",
+          "https://beachwaver.com/collections/shop-all-products/products/darby-clips-set-of-2-pretty-pastels-lilac",
+          "https://beachwaver.com/collections/shop-all-products/products/multi-barrel-beachwaver",
+          "https://beachwaver.com/collections/shop-all-products/products/braid-balm-pre-braid-prep",
+          "https://beachwaver.com/collections/shop-all-products/products/stay-safe-hand-sanitizer",
+          "https://beachwaver.com/collections/shop-all-products/products/flex-your-strength",
+          "https://beachwaver.com/collections/shop-all-products/products/buy-neon-b1-get-pink-sunset-b1-25-free-1",
+          "https://beachwaver.com/collections/shop-all-products/products/catwalk-fabric-clawclip-lg-bw101",
+          "https://beachwaver.com/collections/shop-all-products/products/copy-of-storage-pouch-1",
+          "https://beachwaver.com/collections/shop-all-products/products/onset-pro-brush",
+          "https://beachwaver.com/collections/shop-all-products/products/prep-brush-1",
+          "https://beachwaver.com/collections/shop-all-products/products/bali-beach-night-fragrance",
+          "https://beachwaver.com/collections/shop-all-products/products/travel-great-barrier-travel-shine-squad-ts2gbss",
+          "https://beachwaver.com/collections/shop-all-products/products/double-the-shine",
+          "https://beachwaver.com/collections/shop-all-products/products/holiday-glitter-3b-wavers",
+          "https://beachwaver.com/collections/shop-all-products/products/second-chance-dry-shampoo-se1392",
+          "https://beachwaver.com/collections/shop-all-products/products/great-barrier-heat-protectant-hair-spray-second-chance-dry-shampoo-bundle",
+          "https://beachwaver.com/collections/shop-all-products/products/reveal-your-inner-confidence",
+          "https://beachwaver.com/collections/shop-all-products/products/great-barrier-heat-protectant-hair-spray-se1362",
+          "https://beachwaver.com/collections/shop-all-products/products/dream-big-volumizing-mousse-7-0oz-se1340"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SqpK4NFVCQENnoSyteatD",
+    "url": "https://beachwaver.com/collections/shop-all-products/products/wide-tooth-comb",
+    "resource_path": "s3://bananalyzer-examples/beachwaver_com.tar.gz",
+    "source": "har",
+    "category": "e-commerce",
+    "subcategory": "commerce",
+    "type": "detail",
+    "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    "schema_": "ecommerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "7181405257901",
+          "product_name": "Wide Tooth Comb",
+          "categories": [],
+          "product_description": "Why You'll Love It\n\nThe perfect wide tooth comb for detangling, styling or combing through your hair!\u00a0\n\nAvailable in Pink Petal, Black, and Sage\u00a0\n\nReg. MSRP $12",
+          "price": 12.0,
+          "discounted_price": null,
+          "size": [],
+          "color": [
+            "Black",
+            "Sage",
+            "Pink"
+          ],
+          "images": [
+            "//beachwaver.com/cdn/shop/products/image.jpg?v=1693334972&width=320",
+            "//beachwaver.com/cdn/shop/files/luxeleavein_combing_ecom_98363fd6-bb02-4ca9-af59-7e2c37dbb032.png?v=1719950313&width=320",
+            "//beachwaver.com/cdn/shop/products/pc1.jpg?v=1719950313&width=320",
+            "//beachwaver.com/cdn/shop/files/preview_images/9cf8227b849344e4b6ac0c485a536cfa.thumbnail.0000000000.jpg?v=1684361719&width=320",
+            "//beachwaver.com/cdn/shop/products/SageSkyComb.jpg?v=1719950313&width=320",
+            "//beachwaver.com/cdn/shop/products/Pink-Petalscomb.jpg?v=1719950313&width=320"
+          ],
+          "availability": null,
+          "shipping_details": "\n                Expedited orders containing Dry Shampoo, Hairspray, or Mousse are required by carriers to ship ground. The order will be split and a surcharge of $9.99 will be added to cover the ground shipping on the order. These will receive 2 orders and 2 tracking numbers.\n\n                Order processing time is currently 7 to 10 business days before you will receive the tracking email. Then it will be an additional 5+ days to deliver.\n\n                No order changes will be allowed once you place your order - including shipping addresses and order cancellations,  so please check your order details before submitting.\n\n                All shipping charges include handling, order processing, item selection, packaging and transportation of items. All times are estimates and can vary, particularly during holidays. \n\n                Total delivery time includes processing and carrier transit time. Delivery dates are estimates and do not include carrier or weather delays. Not responsible for delays caused by shipping carriers. Business days do not include Saturdays, Sundays, or holidays.  If an order is placed after 5pm, CST, the day does not count as a business day. ",
+          "return_policy": null,
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "hFn5QCR32Gi5GDuZelWJA",
+    "url": "https://beachwaver.com/collections/shop-all-products/products/shine-squad-shine-spray-rr1170",
+    "resource_path": "s3://bananalyzer-examples/beachwaver_com.tar.gz",
+    "source": "har",
+    "category": "e-commerce",
+    "subcategory": "commerce",
+    "type": "detail",
+    "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    "schema_": "ecommerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "7264518308013",
+          "product_name": "Shine Squad Shine Spray",
+          "categories": [],
+          "product_description": "Why You\u2019ll Love It\u00a0\u00a0\n\nShine Squad is great for all hair types! Our Shine Spray, infused with HIx Bond Multipliers, adds strength to your strands while providing gorgeous shine.\u00a0The spray allows the shine enhancing formula to evenly coat the hair for a lightweight, touchable, shiny look.\n\nFinal Sale. Orders including this item cannot be expedited, or shipped to Alaska, Hawaii, or Puerto Rico.",
+          "price": 28.0,
+          "discounted_price": null,
+          "size": [],
+          "color": [],
+          "images": [
+            "//beachwaver.com/cdn/shop/products/ShineSquad_1000.jpg?v=1680281622&width=320",
+            "//beachwaver.com/cdn/shop/files/Copy_of_HIX_Video_1.gif?v=1722276719&width=320",
+            "//beachwaver.com/cdn/shop/files/ShineSquad_d129f257-e227-4c07-851a-81019966dd0d.jpg?v=1721228269&width=320",
+            "//beachwaver.com/cdn/shop/files/Strengthenwhileyoustyle_haircare_pinkbackground_dbbc1c8c-2e88-4255-a2b9-83473be6b8cf.png?v=1721228275&width=320",
+            "//beachwaver.com/cdn/shop/files/ShineSquad_Benefits_GIifile.gif?v=1721228319&width=320",
+            "//beachwaver.com/cdn/shop/products/ShineSquad.jpg?v=1721228319&width=320",
+            "//beachwaver.com/cdn/shop/files/ShineSquadBA_2.png?v=1721228319&width=320",
+            "//beachwaver.com/cdn/shop/files/ShineSquad_Split_1x1_f0ca802d-c461-480c-ae8d-c5bef9a7748b.png?v=1721228284&width=320",
+            "//beachwaver.com/cdn/shop/files/ShineSquad_HaircareBenefits_1000x1000_e12c1d08-b36a-4cc7-aad1-7af9f56127a9.png?v=1721228275&width=320",
+            "//beachwaver.com/cdn/shop/files/veganingredients_stacked_9ab91f6d-f6b5-4e1d-ada1-dfe6624987d4.png?v=1721228275&width=320",
+            "//beachwaver.com/cdn/shop/files/shinesquadtravel_ecom_1.png?v=1724698635&width=320"
+          ],
+          "availability": null,
+          "shipping_details": "\n                Expedited orders containing Dry Shampoo, Hairspray, or Mousse are required by carriers to ship ground. The order will be split and a surcharge of $9.99 will be added to cover the ground shipping on the order. These will receive 2 orders and 2 tracking numbers.\n\n                Order processing time is currently 7 to 10 business days before you will receive the tracking email. Then it will be an additional 5+ days to deliver.\n\n                No order changes will be allowed once you place your order - including shipping addresses and order cancellations,  so please check your order details before submitting.\n\n                All shipping charges include handling, order processing, item selection, packaging and transportation of items. All times are estimates and can vary, particularly during holidays. \n\n                Total delivery time includes processing and carrier transit time. Delivery dates are estimates and do not include carrier or weather delays. Not responsible for delays caused by shipping carriers. Business days do not include Saturdays, Sundays, or holidays.  If an order is placed after 5pm, CST, the day does not count as a business day. ",
+          "return_policy": null,
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "W96H2G4kKJX4wYh3MlTH1",
+    "url": "https://beachwaver.com/collections/shop-all-products/products/half-up",
+    "resource_path": "s3://bananalyzer-examples/beachwaver_com.tar.gz",
+    "source": "har",
+    "category": "e-commerce",
+    "subcategory": "commerce",
+    "type": "detail",
+    "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    "schema_": "ecommerce",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "product_id": "301514413",
+          "product_name": "Half Up",
+          "categories": [],
+          "product_description": "Why You'll Love It\n\nThe Half Up is the mini version of the popular\u00a0Wrap Up\u00ae. Create a red carpet worthy half up style or a petite bun with this simple user friendly hairstyling tool. It is the perfect size to make a cute, stylish bun for fine hair, shorter hair, or even a quick half up look on longer hair. No bobby pins required!\n\nAvailable in Black, Blonde, and Brunette\n\n\n\n\u00a0\n\nReg. MSRP $5",
+          "price": 5.0,
+          "discounted_price": null,
+          "size": [],
+          "color": [
+            "Black",
+            "Brunette",
+            "Blonde"
+          ],
+          "images": [
+            "//beachwaver.com/cdn/shop/products/Beachwaver_Co_-_Half_Up_Black-_High_Res.jpg?v=1605727030&width=320",
+            "//beachwaver.com/cdn/shop/products/WU.gif?v=1605752496&width=320",
+            "//beachwaver.com/cdn/shop/products/WUHU50_Promotion_IG_100818_4_1.png?v=1605728307&width=320",
+            "//beachwaver.com/cdn/shop/products/Beachwaver_Co_-_Half_Up_Blonde_-_High_Res.jpg?v=1605728307&width=320",
+            "//beachwaver.com/cdn/shop/products/Beachwaver_Co_-_Half_Up_Brunette-_High_Res_eec28ca9-553e-42e5-82d3-386218aa3a8d.jpg?v=1605728307&width=320",
+            "//beachwaver.com/cdn/shop/products/DSC3862.jpg?v=1605728307&width=320",
+            "//beachwaver.com/cdn/shop/products/DSC38451.jpg?v=1605728307&width=320"
+          ],
+          "availability": null,
+          "shipping_details": "\n                Expedited orders containing Dry Shampoo, Hairspray, or Mousse are required by carriers to ship ground. The order will be split and a surcharge of $9.99 will be added to cover the ground shipping on the order. These will receive 2 orders and 2 tracking numbers.\n\n                Order processing time is currently 7 to 10 business days before you will receive the tracking email. Then it will be an additional 5+ days to deliver.\n\n                No order changes will be allowed once you place your order - including shipping addresses and order cancellations,  so please check your order details before submitting.\n\n                All shipping charges include handling, order processing, item selection, packaging and transportation of items. All times are estimates and can vary, particularly during holidays. \n\n                Total delivery time includes processing and carrier transit time. Delivery dates are estimates and do not include carrier or weather delays. Not responsible for delays caused by shipping carriers. Business days do not include Saturdays, Sundays, or holidays.  If an order is placed after 5pm, CST, the day does not count as a business day. ",
+          "return_policy": null,
+          "tags": []
+        }
+      }
+    ]
   }
 ]
