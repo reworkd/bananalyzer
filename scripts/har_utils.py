@@ -13,7 +13,7 @@ from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
 from harambe.observer import InMemoryObserver
 from harambe import SDK
-from playwright.async_api import Page, async_playwright
+from playwright.async_api import Page, async_playwright, ElementHandle
 
 from bananalyzer.data.schemas import Example
 
@@ -201,57 +201,52 @@ async def create_end2end_examples(
                 evals=[{"type": "json_match", "expected": data}],
             )
         ]
-
-        write_examples_to_file(examples)
-
-    print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 listing example.")
-    examples = [
-        Example(
-            id=create_nano_id(),
-            url=base_url,
-            resource_path=resource_path,
-            source="har",
-            category=metadata["category"],
-            subcategory=metadata["subcategory"],
-            type="listing",
-            goal=metadata["goal"],
-            schema_=metadata["schema_"],
-            evals=[{"type": "json_match", "expected": enqueued_urls}],
-        )
-    ]
-
-    if not detail_scraper:
-        write_examples_to_file(examples)
-        return
-
-    enqueued_urls = enqueued_urls[:3]
-
-    print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
-    for i, url in enumerate(enqueued_urls):
-        observer = await create_har(url, f"./static/{domain}_detail{i}", detail_scraper)
-        observer_data = observer.data[0]
-        observer_data.pop("__url")
-
-        examples.append(
+    else:
+        print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 listing example.")
+        examples = [
             Example(
                 id=create_nano_id(),
-                url=url,
+                url=base_url,
                 resource_path=resource_path,
                 source="har",
                 category=metadata["category"],
                 subcategory=metadata["subcategory"],
-                type="detail",
+                type="listing",
                 goal=metadata["goal"],
                 schema_=metadata["schema_"],
-                evals=[{"type": "json_match", "expected": observer_data}],
+                evals=[{"type": "json_match", "expected": enqueued_urls}],
             )
-        )
+        ]
 
-    print("Fusing HARs and writing examples to examples.json")
-    fuse_hars(
-        f"./static/{domain}/index.har",
-        [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
-    )
+    if detail_scraper and enqueued_urls:
+        enqueued_urls = enqueued_urls[:3]
+
+        print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
+        for i, url in enumerate(enqueued_urls):
+            observer = await create_har(url, f"./static/{domain}_detail{i}", detail_scraper)
+            observer_data = observer.data[0]
+            observer_data.pop("__url")
+
+            examples.append(
+                Example(
+                    id=create_nano_id(),
+                    url=url,
+                    resource_path=resource_path,
+                    source="har",
+                    category=metadata["category"],
+                    subcategory=metadata["subcategory"],
+                    type="detail",
+                    goal=metadata["goal"],
+                    schema_=metadata["schema_"],
+                    evals=[{"type": "json_match", "expected": observer_data}],
+                )
+            )
+
+        print("Fusing HARs and writing examples to examples.json")
+        fuse_hars(
+            f"./static/{domain}/index.har",
+            [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
+        )
 
     write_examples_to_file(examples)
 
