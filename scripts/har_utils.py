@@ -12,6 +12,7 @@ import nanoid
 from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
 from harambe.observer import InMemoryObserver
+from harambe import SDK
 from playwright.async_api import Page, async_playwright
 
 from bananalyzer.data.schemas import Example
