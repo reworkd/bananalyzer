@@ -108,6 +108,7 @@ class NullAgentRunner(AgentRunner):
 
 - Run `bananalyze ./tests/banalyzer.py` to run the test suite
 - You can also run `bananalyze .` to run all tests in the current directory
+- To run local examples (from the repo's `static` folder) on MacOS, please run `unix2dos static/*/*.mhtml` to convert CRLF formatting in MHTML files
 
 #### Arguments
 
