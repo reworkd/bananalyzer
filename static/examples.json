@@ -31112,5 +31112,57 @@
         }
       }
     ]
+  },
+  {
+    "id": "AB9n9YILwMZ34D5Hga0QG",
+    "url": "https://pwdroads.assam.gov.in/documents/rules",
+    "resource_path": "s3://bananalyzer-examples/pwdroads_assam_gov_in.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "download",
+    "type": "listing",
+    "goal": "Fetch all of the links to government/legal documents on the page along with their names. Ensure you paginate as necessary. Pagination may be a `Load More` button or traditional pagination controls with page numbers or a next page button at the bottom of the page. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
+    "schema_": "listing_document",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://pwdroads.assam.gov.in/documents-detail/assamminormineralconcessionrules2013",
+          "https://pwdroads.assam.gov.in/documents-detail/assam-public-works-grade-iv-service-rules-2021-0",
+          "https://pwdroads.assam.gov.in/documents-detail/the-assam-public-works-directorate-ministerial-establishment-service-rules-2021-0",
+          "https://pwdroads.assam.gov.in/documents-detail/assam-ministerial-staff-district-establishment-public-works-roads-department-0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lXMI9r0tB74qNE3ILzG5w",
+    "url": "https://socialwelfare.assam.gov.in/documents/acts",
+    "resource_path": "s3://bananalyzer-examples/socialwelfare_assam_gov_in.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "download",
+    "type": "listing",
+    "goal": "Fetch all of the links to government/legal documents on the page along with their names. Ensure you paginate as necessary. Pagination may be a `Load More` button or traditional pagination controls with page numbers or a next page button at the bottom of the page. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
+    "schema_": "listing_document",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://socialwelfare.assam.gov.in/documents-detail/the-protection-of-women-from-domestic-violence-act-2005-0",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-transgender-persons-protection-of-rights-bill-2018",
+          "https://socialwelfare.assam.gov.in/documents-detail/pranam-act-2017",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-child-labour-prohibition-and-regulation-amendment-act-2016",
+          "https://socialwelfare.assam.gov.in/documents-detail/prohibition-of-child-marriage-act",
+          "https://socialwelfare.assam.gov.in/documents-detail/pocso-act-2012",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-juvenile-justice-care-and-protection-of-children-central-model-rules-2016",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-juvenile-justice-care-and-protection-of-children-act-2015",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-protection-of-women-from-domestic-violence-act-2005",
+          "https://socialwelfare.assam.gov.in/documents-detail/domesticviolence-rules-2005",
+          "https://socialwelfare.assam.gov.in/documents-detail/gazette-notification-dated-19042017-regarding-rpwd-act-2016",
+          "https://socialwelfare.assam.gov.in/documents-detail/the-rights-of-persons-with-disabilities-act-2016"
+        ]
+      }
+    ]
   }
 ]
