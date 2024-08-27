@@ -40,7 +40,6 @@ PossibleTags = Literal[
     "urls",
 ]
 
-
 class Eval(BaseModel):
     """
     Base class for all evals. Evals are used to determine if an action or result is correct
