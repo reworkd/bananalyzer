@@ -836,7 +836,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -997,7 +997,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1077,7 +1077,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1148,7 +1148,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1204,7 +1204,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1251,7 +1251,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1307,7 +1307,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1618,7 +1618,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1713,7 +1713,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -1763,7 +1763,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2389,7 +2389,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2502,7 +2502,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2579,7 +2579,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2614,7 +2614,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "regression",
       "urls"
@@ -2665,7 +2665,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2757,7 +2757,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2921,7 +2921,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -2950,7 +2950,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "regression",
       "urls"
@@ -3076,7 +3076,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3117,7 +3117,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3214,7 +3214,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3264,7 +3264,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3326,7 +3326,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "regression",
       "urls"
@@ -3452,7 +3452,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3505,7 +3505,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -3630,7 +3630,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -4001,7 +4001,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -4051,7 +4051,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -4101,7 +4101,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -4313,7 +4313,7 @@
     "category": "healthcare",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number. Return as a list of objects of the following schema:\n{\"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "You are viewing a listing page of a website that aggregates information about clinics. Your goal is to scrape all of the links to the detail pages of clinics on the current page. This should be a page with more information about the clinic. This should not be a google maps link or telephone number.",
     "tags": [
       "urls"
     ],
@@ -5504,7 +5504,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -5557,7 +5557,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -5586,7 +5586,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -5623,7 +5623,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -5677,7 +5677,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -5751,7 +5751,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -5788,7 +5788,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -5893,7 +5893,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -6014,7 +6014,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -6111,7 +6111,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -6192,7 +6192,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -6308,7 +6308,7 @@
     "category": "education",
     "subcategory": "details",
     "type": "listing_detail",
-    "goal": "Fetch ALL of the links to courses on the current page. For each link, fetch the following object: {title: string (Course title EXCLUDING the units and course code such as `Computational Geometry`. Do NOT return `Computational Geometry (3)` for example), units: number, course_code: string (example is `CMPT 999` or `MACM 999`. Do not include full course name), url: string}",
+    "goal": "Fetch ALL of the links to courses on the current page.",
     "schema_": {
       "type": "array",
       "items": {
@@ -6850,13 +6850,19 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "detail",
-    "goal": "Fetch information of the following schema:\n{\"title\": \"string\", \"content\": \"string\", \"page_links\": [{\"title\": \"string\", \"url\": \"string\"}]}",
     "schema_": {
       "title": "string",
       "content": "string",
       "page_links": [
         {
           "title": "string",
+          "content": "string",
+          "page_links": [
+            {
+              "title": "string",
+              "url": "string"
+            }
+          ],
           "url": "string"
         }
       ]
@@ -6896,7 +6902,23 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "listing_detail",
-    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes. Return the data as an object the following schema: {{\"author\": \"{\"type\": \"string\", \"description\": \"The name of the individual that said the quote\"},  \"quote\": \"{\"type\": \"string\", \"description\": \"Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string\"}}",
+    "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes.",
+    "schema_": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "type": "string",
+            "description": "The name of the individual that said the quote"
+          },
+          "quote": {
+            "type": "string",
+            "description": "Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string"
+          }
+        }
+      }
+    },
     "evals": [
       {
         "type": "json_match",
@@ -6924,7 +6946,7 @@
     "category": "software",
     "subcategory": "unstructured",
     "type": "detail",
-    "goal": "Fetch all comments on the page and return the results in the following schema: {comments: [{author: string, message: string}]}",
+    "goal": "Fetch all comments on the page.",
     "schema_": {
       "comments": {
         "type": "array",
@@ -6976,7 +6998,7 @@
     "category": "personal",
     "subcategory": "unstructured",
     "type": "listing_detail",
-    "goal": "Fetch all of the experiences on the page and return it as a list in the following schema: {\"title\": \"string\", \"description\": \"string\", \"url\": \"string\", \"image_url\": \"string\"}",
+    "goal": "Fetch all of the experiences on the page.",
     "schema_": {
       "type": "array",
       "items": {
@@ -7079,7 +7101,7 @@
     "category": "articles",
     "subcategory": "blog",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the articles on the current page. Return as a list of objects of the following schema:{\"title\": \"string\", \"url\": \"string\", \"author\": \"string\"}",
+    "goal": "Fetch all of the links to the articles on the current page.",
     "tags": [
       "urls"
     ],
@@ -7206,7 +7228,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -7335,7 +7357,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8016,7 +8038,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "colliding-tags"
     ],
@@ -8096,7 +8118,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "regression"
     ],
@@ -8144,7 +8166,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -8282,7 +8304,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -8404,7 +8426,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8525,7 +8547,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8610,7 +8632,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8663,7 +8685,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8796,7 +8818,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8837,7 +8859,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -8998,7 +9020,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -9039,7 +9061,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -9064,7 +9086,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -9097,7 +9119,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -9134,7 +9156,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -9167,7 +9189,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -10696,7 +10718,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -10753,7 +10775,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "regression",
       "single-output"
@@ -10778,7 +10800,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11087,7 +11109,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -11129,7 +11151,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11186,7 +11208,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11215,7 +11237,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11260,7 +11282,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11417,7 +11439,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11454,7 +11476,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to the text/pdf document detail pages on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11551,7 +11573,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11676,7 +11698,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -11713,7 +11735,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -12530,7 +12552,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -13199,7 +13221,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "regression"
     ],
@@ -13235,7 +13257,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -13264,7 +13286,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -13325,7 +13347,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -13462,7 +13484,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14180,7 +14202,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14205,7 +14227,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14238,7 +14260,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14463,7 +14485,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14508,7 +14530,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -14797,7 +14819,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -15302,7 +15324,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [],
     "schema_": "listing_document",
     "evals": [
@@ -15568,7 +15590,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -15601,7 +15623,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -15774,7 +15796,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -15819,7 +15841,7 @@
     "category": "legal",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the detail pages of attorneys. Return the data in the following schema {\"url\": \"string\"}",
+    "goal": "Fetch all of the links to the detail pages of attorneys.",
     "tags": [
       "urls"
     ],
@@ -16727,7 +16749,7 @@
     "category": "legal",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the detail pages of attorneys. Return the data in the following schema {\"url\": \"string\"}",
+    "goal": "Fetch all of the links to the detail pages of attorneys.",
     "tags": [
       "urls"
     ],
@@ -20851,7 +20873,7 @@
     "category": "legal",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the detail pages of attorneys. Return the data in the following schema {\"url\": \"string\"}",
+    "goal": "Fetch all of the links to the detail pages of attorneys.",
     "tags": [
       "urls"
     ],
@@ -20907,7 +20929,7 @@
     "category": "legal",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the detail pages of attorneys. Return the data in the following schema {\"url\": \"string\"}",
+    "goal": "Fetch all of the links to the detail pages of attorneys.",
     "tags": [
       "urls"
     ],
@@ -21077,7 +21099,7 @@
     "category": "legal",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the detail pages of attorneys. Return the data in the following schema {\"url\": \"string\"}",
+    "goal": "Fetch all of the links to the detail pages of attorneys.",
     "tags": [
       "urls"
     ],
@@ -23824,7 +23846,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "pagination"
     ],
@@ -24000,7 +24022,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons.\"}\n, \"url\":\n\t{\"type\": \"string\", \"description\": \"The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link\" }\n}",
+    "goal": "Fetch all of the links to government/legal documents on the current page along with their names. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "tags": [
       "pagination"
     ],
@@ -24466,7 +24488,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "tags": [
       "accordion"
     ],
@@ -24485,7 +24507,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "tags": [
       "accordion"
     ],
@@ -24504,7 +24526,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "tags": [
       "accordion"
     ],
@@ -24544,7 +24566,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "tags": [
       "accordion"
     ],
@@ -24672,7 +24694,7 @@
     "category": "government",
     "subcategory": "download",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "tags": [
       "accordion"
     ],
@@ -24691,7 +24713,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -25159,7 +25181,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -25405,7 +25427,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -25450,7 +25472,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -25984,7 +26006,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -26035,7 +26057,7 @@
     "category": "government",
     "subcategory": "contract",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row. Return as a list of objects of the following schema:\n{\"url\":{\"type\": \"string\"}}",
+    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
     "tags": [
       "contract",
       "urls"
@@ -26119,7 +26141,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "tags": [],
     "schema_": "listing_education_contact",
     "evals": [
@@ -26277,7 +26299,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "tags": [
       "badly-formatted"
     ],
@@ -26423,7 +26445,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "schema_": "listing_education_contact",
     "evals": [
       {
@@ -26439,7 +26461,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "schema_": "listing_education_contact",
     "evals": [
       {
@@ -26491,7 +26513,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "schema_": "listing_education_contact",
     "evals": [
       {
@@ -26648,7 +26670,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "tags": [],
     "schema_": "listing_education_contact",
     "evals": [
@@ -26960,7 +26982,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "tags": [],
     "schema_": "listing_education_contact",
     "evals": [
@@ -27286,7 +27308,7 @@
     "category": "test",
     "subcategory": "test",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page. Return as a list of objects of the following schema:\n{\"name\":\n\t{\"type\": \"string\", \"description\": \"The name of the document. Note that may not always be the link text. Use the element that best captures the name\"}\n, \"url\":\n\t{\"type\": \"string\"}\n}",
+    "goal": "Fetch all of the links to the documents on the current page.",
     "schema_": "listing_document",
     "evals": [
       {
@@ -27304,7 +27326,7 @@
     "category": "productivity",
     "subcategory": "consumer",
     "type": "detail",
-    "goal": "Fetch a list of all of the to dos on the current page. Return as a list of objects of the following schema:\n{\"todo\":\n\t{\"type\": \"string\", \"description\": \"A single to do.\"}\n, \"is_complete\":\n\t{\"type\": \"boolean\"}\n}",
+    "goal": "Fetch a list of all of the to dos on the current page.",
     "schema_": {
       "todo": {
         "type": "string",
@@ -27350,6 +27372,7 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "listing_detail",
+    "schema_": "listing_url",
     "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
     "tags": [
       "urls"
@@ -27442,7 +27465,6 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
     "schema_": "manufacturing_commerce",
     "evals": [
       {
@@ -27487,7 +27509,6 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
     "schema_": "manufacturing_commerce",
     "evals": [
       {
@@ -27532,7 +27553,6 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "goal": "{\n    \"mpn\": {\n        \"type\": \"str\"\n    },\n    \"alias_mpns\": {\n        \"type\": \"List[str]\",\n        \"description\": \"Other MPNs that this part is known by\"\n    },\n    \"manufacturer\": {\n        \"type\": \"str\"\n    },\n    \"classifications\": {\n        \"type\": \"List[str]\"\n    },\n    \"description\": {\n        \"type\": \"str\"\n    },\n    \"hero_image\": {\n        \"type\": \"str\"\n    },\n    \"series\": {\n        \"type\": \"str\"\n    },\n    \"lifecycle_status\": {\n        \"type\": \"str\"\n    },\n    \"country_of_origin\": {\n        \"type\": \"str\"\n    },\n    \"aecq_status\": {\n        \"type\": \"str\"\n    },\n    \"reach_status\": {\n        \"type\": \"str\"\n    },\n    \"rohs_status\": {\n        \"type\": \"str\"\n    },\n    \"export_control_class_number\": {\n        \"type\": \"str\"\n    },\n    \"packaging\": {\n        \"type\": \"str\"\n    },\n    \"power_rating\": {\n        \"type\": \"str\"\n    },\n    \"voltage_rating\": {\n        \"type\": \"str\"\n    },\n    \"mount_type\": {\n        \"type\": \"str\"\n    },\n    \"moisture_sensitivity_level\": {\n        \"type\": \"str\"\n    },\n    \"tolerance\": {\n        \"type\": \"str\"\n    },\n    \"inductance\": {\n        \"type\": \"str\"\n    },\n    \"capacitance\": {\n        \"type\": \"str\"\n    },\n    \"resistance\": {\n        \"type\": \"str\"\n    },\n    \"min_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"max_operating_temperature\": {\n        \"type\": \"str\"\n    },\n    \"leadfree\": {\n        \"type\": \"str\"\n    },\n    \"termination_type\": {\n        \"type\": \"str\"\n    },\n    \"num_terminations\": {\n        \"type\": \"int\"\n    },\n    \"specs\": {\n        \"type\": \"List[Specification]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"label\": {\n                    \"type\": \"str\"\n                },\n                \"value\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"product_change_notification_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"reach_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"rohs_compliance_documents\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"datasheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"specsheets\": {\n        \"type\": \"List[Document]\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"url\": {\n                    \"type\": \"str\"\n                },\n                \"filename\": {\n                    \"type\": \"str\"\n                }\n            }\n        }\n    },\n    \"suggested_alternative_mpns\": {\n        \"type\": \"List[str]\"\n    }\n}",
     "schema_": "manufacturing_commerce",
     "evals": [
       {
@@ -27577,6 +27597,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "listing_detail",
+    "schema_": "listing_url",
     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
     "tags": [
       "urls"
@@ -28324,6 +28345,7 @@
     "subcategory": "careers",
     "type": "listing_detail",
     "goal": "Extract the job posting information from the given URL. You do not have to navigate to other pages as the URL contains all the necessary job details. Ensure you paginate if the site has multiple pages of job listings. Pagination controls can look like a series of numbers in a row at the bottom of job lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single job posting should be clustered together.",
+    "schema_": "listing_url",
     "tags": [
       "urls"
     ],
@@ -28580,7 +28602,7 @@
     "category": "education",
     "subcategory": "contact",
     "type": "listing_detail",
-    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"}, \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
     "schema_": "listing_education_contact",
     "evals": [
       {
@@ -29542,12 +29564,31 @@
     "category": "software",
     "subcategory": "forum",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the HN posts on the current page only. Return as a list of objects of the following schema:\"title\": {\n      \"type\": \"string\",\n      \"description\": \"The title of the post. Use the element that best captures the name.\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"The URL of the post.\"\n    },\n    \"num_upvotes\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of upvotes the post has received.\"\n    },\n    \"username\": {\n      \"type\": \"string\",\n      \"description\": \"The username of the post author.\"\n    },\n    \"num_comments\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of comments on the post.\"\n    },\n    \"posted_date\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time when the post was submitted.\"\n    }",
+    "goal": "Fetch all of the links to the HN posts on the current page only.",
     "schema_": {
-      "type": "array",
-      "items": {
+      "title": {
         "type": "string",
         "description": "The title of the post. Use the element that best captures the name."
+      },
+      "url": {
+        "type": "string",
+        "description": "The URL of the post."
+      },
+      "num_upvotes": {
+        "type": "integer",
+        "description": "The number of upvotes the post has received."
+      },
+      "username": {
+        "type": "string",
+        "description": "The username of the post author."
+      },
+      "num_comments": {
+        "type": "integer",
+        "description": "The number of comments on the post."
+      },
+      "posted_date": {
+        "type": "string",
+        "description": "The date and time when the post was submitted."
       }
     },
     "evals": [
