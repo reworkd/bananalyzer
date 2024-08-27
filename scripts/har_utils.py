@@ -115,12 +115,10 @@ async def create_har(
         har_path = os.path.abspath(f"{example_dir_path}/index.har")
 
         await page.route_from_har(har_path, update=True)
-        await page.goto(url, wait_until="networkidle")
+        await page.goto(url)
 
         observer = InMemoryObserver()
-        sdk = harambe.SDK(
-            cast(AbstractPage[PlaywrightElementHandle], page), observer=observer
-        )
+        sdk = SDK(cast(AbstractPage[PlaywrightElementHandle], page), observer=observer)
         sdk._scraper = scraper
         await scraper(sdk, url, {})
 
@@ -187,7 +185,7 @@ async def create_end2end_examples(
         for row in data:
             row.pop("__url", None)
 
-        print("Listing enqueued no URLs. Creating 1 links_fetch example.")
+        print("Listing enqueued no URLs. Creating 1 listing_detail example.")
         examples = [
             Example(
                 id=create_nano_id(),
@@ -205,7 +203,7 @@ async def create_end2end_examples(
 
         write_examples_to_file(examples)
 
-    print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 links example.")
+    print(f"Listing enqueued {len(enqueued_urls)} URLs. Creating 1 listing example.")
     examples = [
         Example(
             id=create_nano_id(),
@@ -214,7 +212,7 @@ async def create_end2end_examples(
             source="har",
             category=metadata["category"],
             subcategory=metadata["subcategory"],
-            type="listing_detail",
+            type="listing",
             goal=metadata["goal"],
             schema_=metadata["schema_"],
             evals=[{"type": "json_match", "expected": enqueued_urls}],
@@ -227,7 +225,7 @@ async def create_end2end_examples(
 
     enqueued_urls = enqueued_urls[:3]
 
-    print(f"Creating {len(enqueued_urls)} fetch examples from enqueued URLs.")
+    print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
     for i, url in enumerate(enqueued_urls):
         observer = await create_har(url, f"./static/{domain}_detail{i}", detail_scraper)
         observer_data = observer.data[0]
@@ -248,6 +246,7 @@ async def create_end2end_examples(
             )
         )
 
+    print('Fusing HARs and writing examples to examples.json')
     fuse_hars(
         f"./static/{domain}/index.har",
         [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
@@ -256,6 +255,7 @@ async def create_end2end_examples(
     write_examples_to_file(examples)
 
     if s3_bucket_name:
+        print(f"Uploading {domain}.tar.gz to S3 bucket {s3_bucket_name}")
         upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
 
 
