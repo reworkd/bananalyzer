@@ -641,7 +641,7 @@
                 "type": "string"
             },
             "phone_number": {
-                "description": "Keep phone number formatting but do not include irrelevant text",
+                "description": "Phone number of the individual within the school. Do not include irrelevant text.",
                 "type": "string"
             },
             "title": {
