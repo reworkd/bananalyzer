@@ -10,6 +10,7 @@ This file maps a schema_name to a JSON schema or goal string.
 
 examples_path = get_examples_path()
 
+
 def get_fetch_schema(schema_name: str) -> Dict[str, Any]:
     schemas_path = examples_path / "schemas.json"
     with open(schemas_path, "r") as file:
