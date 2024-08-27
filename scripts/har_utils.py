@@ -247,7 +247,7 @@ async def create_end2end_examples(
             )
         )
 
-    print('Fusing HARs and writing examples to examples.json')
+    print("Fusing HARs and writing examples to examples.json")
     fuse_hars(
         f"./static/{domain}/index.har",
         [f"./static/{domain}_detail{i}/index.har" for i in range(len(enqueued_urls))],
