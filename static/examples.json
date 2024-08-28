@@ -31164,5 +31164,352 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Ozz8jvyDij3c3xzMHC1TC",
+    "url": "https://www.scsdoh.org/o/fe/staff",
+    "resource_path": "s3://bananalyzer-examples/scsdoh_org.tar.gz",
+    "source": "har",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "listing_detail",
+    "goal": "Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {\"first_name\": {\"type\": \"string\"}, \"last_name\": {\"type\": \"string\"} \"title\": {\"type\": \"string\", \"description\": \"The title or role of the individual within the school\"}, \"phone_number\": {\"type\": \"string\", \"description\": \"Keep phone number formatting but do not include irrelevant text\"}, \"email\": {\"type\": \"string\", \"description\": \"The email address of the individual\"}}",
+    "schema_": "listing_education_contact",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "first_name": "DEBORAH",
+            "last_name": "HOWARD",
+            "title": "Principal",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "SUSAN",
+            "last_name": "ALTHOUSE",
+            "title": "Teacher - 2nd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JOHANNA",
+            "last_name": "ANDERSON",
+            "title": "Teacher - 4th Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "KIMBERLY",
+            "last_name": "BARCLAY",
+            "title": "Head Cook Elementary 2",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "SHIRLEY",
+            "last_name": "BARNETT",
+            "title": "Teacher - 5th Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "HARRIETTA",
+            "last_name": "BARTNICK",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "LISA",
+            "last_name": "BEAIR",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "CARMEN",
+            "last_name": "BEVERLY",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "ANDREA",
+            "last_name": "BOGGS",
+            "title": "Teacher - Physical Education",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "TERRA",
+            "last_name": "BYRD-GRUPE",
+            "title": "Teacher - 1st Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "SHAWN",
+            "last_name": "CARUTHERS",
+            "title": "Teacher - 6th Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "ROY",
+            "last_name": "CHEROL",
+            "title": "Teacher - Art",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "KRISTIN",
+            "last_name": "COLE",
+            "title": "Student Support Facilitator",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "PENNY",
+            "last_name": "COLWELL",
+            "title": "Assistant Custodian",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "ALLISON",
+            "last_name": "CONLEY",
+            "title": "Teacher - 3rd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "LEXY",
+            "last_name": "COPELAND MARTINEZ",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JONATHAN",
+            "last_name": "CUSTER",
+            "title": "Teacher - Music",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "TANA",
+            "last_name": "ELLIOTT",
+            "title": "Cook Helper/Cashier",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "KATHLEEN",
+            "last_name": "HALEY",
+            "title": "Instructional Coach",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "TRICIA",
+            "last_name": "HANNAHS",
+            "title": "Teacher - 1st Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JOAN",
+            "last_name": "HENDERSON",
+            "title": "Intervention Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "LINDSAY",
+            "last_name": "HENDERSON",
+            "title": "Teacher - Project Lead the Way",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "CANDI",
+            "last_name": "HIGHMILLER",
+            "title": "Elementary Library Technician",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "ERIKA",
+            "last_name": "HUNTER",
+            "title": "Teacher - 2nd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JALEESA",
+            "last_name": "HUTCHINSON",
+            "title": "Intervention Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "VERLINDA",
+            "last_name": "JOHNSON",
+            "title": "Teacher - Kindergarten",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "BETHANNE",
+            "last_name": "LINDEN",
+            "title": "Registered Nurse",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "DEMETRIUS",
+            "last_name": "MCCOMMONS",
+            "title": "Assistant Custodian",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "ROSHELLE",
+            "last_name": "MCGUIRE",
+            "title": "Intervention Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "MOLLY",
+            "last_name": "MEYERS",
+            "title": "Teacher - 3rd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "COURTNEY",
+            "last_name": "MONTGOMERY",
+            "title": "Instructional Coach",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "MARY",
+            "last_name": "O'BRIEN",
+            "title": "Teacher - 1st Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "NICOLE",
+            "last_name": "PALMER",
+            "title": "Instructional Reading Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "SHANNON",
+            "last_name": "PEARSON",
+            "title": "Teacher - 2nd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "MOSES",
+            "last_name": "PETERSON",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "TAMI",
+            "last_name": "PIGGUE-FRENCH",
+            "title": "Intervention Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "VALERIE",
+            "last_name": "POORE MASSEY",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "BRITTANI",
+            "last_name": "ROE",
+            "title": "Secretary - Elementary",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "COURTNEY",
+            "last_name": "ROE",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "BRITTANY",
+            "last_name": "SANNING",
+            "title": "Teacher - 4th Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "MICHELLE",
+            "last_name": "SAUNDERS",
+            "title": "Teacher - 3rd Grade",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JENNIFER",
+            "last_name": "SMITH",
+            "title": "Intervention Specialist",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "JENNIFER",
+            "last_name": "THORNTON",
+            "title": "Teacher - Kindergarten",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "APRIL",
+            "last_name": "TURNER",
+            "title": "Counselor, Elementary",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "DAVON",
+            "last_name": "VANCE",
+            "title": "Paraprofessional",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "SAMUEL",
+            "last_name": "WHITAKER",
+            "title": "Head Custodian Elementary",
+            "phone_number": null,
+            "email": null
+          },
+          {
+            "first_name": "MELISSA",
+            "last_name": "WILLIAMS",
+            "title": "Cook Helper/Cashier",
+            "phone_number": null,
+            "email": null
+          }
+        ]
+      }
+    ]
   }
 ]
