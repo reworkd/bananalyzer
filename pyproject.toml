@@ -53,6 +53,9 @@ namespace_packages = true
 files = "bananalyzer"
 exclude = ["tests", "venv", "static", "bananalytics"]
 
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "session"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
