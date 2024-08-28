@@ -649,5 +649,59 @@
                 "type": "string"
             }
         }
+    },
+    "ecommerce": {
+        "product_id": {
+            "type": "string",
+            "description": "A unique identifier for each product."
+        },
+        "product_name": {
+            "type": "string",
+            "description": "The name of the product."
+        },
+        "categories": {
+            "type": "array",
+            "description": "The categories the product falls under. E.g. Shoes, Jeans, Activewear."
+        },
+        "product_description": {
+            "type": "string",
+            "description": "A detailed description of the product, usually under the details section."
+        },
+        "price": {
+            "type": "number",
+            "description": "The price of the product."
+        },
+        "discounted_price": {
+            "type": "number",
+            "description": "The discounted price of the product, if available."
+        },
+        "size": {
+            "type": "array",
+            "description": "The sizes available for the product, if applicable."
+        },
+        "color": {
+            "type": "array",
+            "description": "The colors available for the product."
+        },
+        "images": {
+            "type": "array",
+            "description": "A list of URLs pointing to images of the product."
+        },
+        "availability": {
+            "type": "string",
+            "description": "The availability status of the product (e.g., out of stock, pre-order). Leave blank if no specific status is shown."
+        },
+        "shipping_details": {
+            "type": "string",
+            "description": "Information related to shipping, including delivery estimates, cost, etc."
+        },
+        "return_policy": {
+            "type": "string",
+            "description": "Description of the return policy for the product."
+        },
+        "tags": {
+            "type": "array",
+            "description": "Keywords or phrases related to the product for categorization and searchability."
+        }
     }
 }
