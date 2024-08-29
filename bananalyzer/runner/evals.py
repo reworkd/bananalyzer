@@ -51,25 +51,27 @@ def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
         return value
 
 
-def sort_keys_based_on_expected(actual: AllowedJSON, expected: AllowedJSON) -> AllowedJSON:
+def sort_keys_based_on_expected(
+    actual: AllowedJSON, expected: AllowedJSON
+) -> AllowedJSON:
     if isinstance(expected, dict) and isinstance(actual, dict):
-        result = {}
+        result_dict = {}
         # First, add all items from expected
         for k, v in expected.items():
-            result[k] = sort_keys_based_on_expected(actual.get(k), v)
+            result_dict[k] = sort_keys_based_on_expected(actual.get(k), v)
         # Then, add any remaining items from actual
         for k, v in actual.items():
-            if k not in result:
-                result[k] = v
-        return result
+            if k not in result_dict:
+                result_dict[k] = v
+        return result_dict
     elif isinstance(expected, list) and isinstance(actual, list):
-        result = []
+        result_list: list[AllowedJSON] = []
         for i in range(max(len(expected), len(actual))):
             if i < len(expected) and i < len(actual):
-                result.append(sort_keys_based_on_expected(actual[i], expected[i]))
+                result_list.append(sort_keys_based_on_expected(actual[i], expected[i]))
             elif i < len(actual):
-                result.append(actual[i])
-        return result
+                result_list.append(actual[i])
+        return result_list  # type: ignore[return-value]
     else:
         return actual
 
