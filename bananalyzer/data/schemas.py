@@ -91,6 +91,7 @@ class Eval(BaseModel):
                     self.type == "json_match"
                     and field is not None
                     and isinstance(option, dict)
+                    and isinstance(result, dict)
                 ):
                     return validate_field_match(option, result, field)
 

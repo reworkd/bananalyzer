@@ -31,13 +31,9 @@ def test_json_eval_field(mocker: MockFixture) -> None:
     }
     evaluation = Eval(type="json_match", expected=json)
 
-    evaluation.eval_results(
-        page, {"last_name": "Savage"}, field="last_name"
-    )
+    evaluation.eval_results(page, {"last_name": "Savage"}, field="last_name")
 
-    evaluation.eval_results(
-        page, {"last_name": "Savage\n"}, field="last_name"
-    )
+    evaluation.eval_results(page, {"last_name": "Savage\n"}, field="last_name")
 
     evaluation.eval_results(page, {"email": ""}, field="email")
 
@@ -81,29 +77,36 @@ def test_json_eval_lists(mocker: MockFixture) -> None:
     evaluation.handle_json_match(json, field=None)
 
     # Order doesn't matter
-    evaluation.handle_json_match([{"key": "three"}, {"key": "one\none"}, {"key": "two"}], field=None)
+    evaluation.handle_json_match(
+        [{"key": "three"}, {"key": "one\none"}, {"key": "two"}], field=None
+    )
 
     # New lines converted into spaces
-    evaluation.handle_json_match([{"key": "one one"}, {"key": "two"}, {"key": "three"}], field=None)
+    evaluation.handle_json_match(
+        [{"key": "one one"}, {"key": "two"}, {"key": "three"}], field=None
+    )
 
     # Added new lines don't matter
-    evaluation.handle_json_match([{"key": "one\none"}, {"key": "two"}, {"key": "three\n"}], field=None)
+    evaluation.handle_json_match(
+        [{"key": "one\none"}, {"key": "two"}, {"key": "three\n"}], field=None
+    )
 
     # Different values in list
     with pytest.raises(Failed):
-        evaluation.handle_json_match([{"key": "one\none"}, {"key": "two"}, {"key": "four"}], field=None)
+        evaluation.handle_json_match(
+            [{"key": "one\none"}, {"key": "two"}, {"key": "four"}], field=None
+        )
 
     # Having additional list items fails
     with pytest.raises(Failed):
         evaluation.handle_json_match(
-            [{"key": "one\none"}, {"key": "two"}, {"key": "three"}, {"key": "four"}], field=None,
+            [{"key": "one\none"}, {"key": "two"}, {"key": "three"}, {"key": "four"}],
+            field=None,
         )
 
     # Too few list items fails
     with pytest.raises(Failed):
-        evaluation.handle_json_match(
-            [{"key": "one\none"}, {"key": "two"}], field=None
-        )
+        evaluation.handle_json_match([{"key": "one\none"}, {"key": "two"}], field=None)
 
 
 def test_only_one_of_expected_or_options_can_be_provided() -> None:

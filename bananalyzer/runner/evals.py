@@ -5,7 +5,7 @@ from typing import Any, Dict, List
 import pytest
 from deepdiff import DeepDiff
 
-AllowedJSON = Dict[str, Any] | List[str] | List[Dict[str, Any]] | str | None
+AllowedJSON = Dict[str, Any] | str | None | List["AllowedJSON"]
 
 Result = Dict[str, Any]
 
@@ -63,7 +63,6 @@ def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
     actual = pre_process(actual)
 
     if isinstance(expected, Dict) and isinstance(actual, Dict):
-
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
         if isinstance(expected, dict) and isinstance(actual, dict):
