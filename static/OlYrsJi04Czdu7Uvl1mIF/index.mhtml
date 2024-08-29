@@ -209,11 +209,11 @@ co-c224=3D"" fd-list-byline=3D"" class=3D"fd-list__byline"><div _ngcontent-=
 oco-c224=3D"" class=3D"status-current-expired">Current - Expired</div></div=
 ></div></a><!----></li><!----></ul></div><div _ngcontent-oco-c224=3D"" clas=
 s=3D"certification-detail"><div _ngcontent-oco-c224=3D"" class=3D"certifica=
-tion-img-border"><button _ngcontent-oco-c224=3D"" fd-button=3D"" glyph=3D"d=
+tion-img-border"><a href=3D"https://www.regulation-documents.com/iso14001-certified.pdf" _ngcontent-oco-c224=3D"" fd-button=3D"" glyph=3D"d=
 ownload" fdcompact=3D"" scapptrack=3D"" trackingid=3D"certification-downloa=
 d" class=3D"fd-button fd-button--standard download-button is-compact" title=
 =3D"Download" type=3D"button" aria-label=3D"Download"><fd-icon class=3D"sap=
--icon--download"></fd-icon><!----><!----><!----><!----><!----></button><div=
+-icon--download"></fd-icon><!----><!----><!----><!----><!----></a><div=
  _ngcontent-oco-c224=3D"" class=3D"certification-img-container"><img _ngcon=
 tent-oco-c224=3D"" alt=3D"Certificate preview image" class=3D"certification=
 -img" src=3D"data:application/octet-stream;base64,/9j/4AAQSkZJRgABAgAAAQABA=
