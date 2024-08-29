@@ -1,8 +1,9 @@
+from pathlib import Path
+from typing import Any, Dict, Optional
+
 import pytest
 from _pytest.outcomes import Failed
-from pathlib import Path
 from pytest_mock import MockFixture
-from typing import Any, Dict, Optional
 
 from bananalyzer.data.schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
@@ -24,19 +25,21 @@ def test_json_eval_field(mocker: MockFixture) -> None:
     page = mocker.Mock()
     json = {
         "first_name": "Brett",
-        "last_name": "Olavage",
+        "last_name": "Savage",
         "title": "Specialist",
         "email": None,
     }
     evaluation = Eval(type="json_match", expected=json)
 
     evaluation.eval_results(
-        page, {"last_name": "Olavage"}, field="last_name"
-    )  # Exact match
+        page, {"last_name": "Savage"}, field="last_name"
+    )
+
     evaluation.eval_results(
-        page, {"last_name": "Olavage\n"}, field="last_name"
-    )  # With new line
-    evaluation.eval_results(page, {"email": ""}, field="email")  # With new line
+        page, {"last_name": "Savage\n"}, field="last_name"
+    )
+
+    evaluation.eval_results(page, {"email": ""}, field="email")
 
 
 def test_json_eval_1(mocker: MockFixture) -> None:
@@ -67,6 +70,39 @@ def test_json_eval_1(mocker: MockFixture) -> None:
     with pytest.raises(Failed):
         evaluation.eval_results(
             page, {"one": "one", "two": "two\ntwo", "three": None, "four": "four"}
+        )
+
+
+def test_json_eval_lists(mocker: MockFixture) -> None:
+    json = [{"key": "one\none"}, {"key": "two"}, {"key": "three"}]
+    evaluation = Eval(type="json_match", expected=json)
+
+    # Exact match
+    evaluation.handle_json_match(json, field=None)
+
+    # Order doesn't matter
+    evaluation.handle_json_match([{"key": "three"}, {"key": "one\none"}, {"key": "two"}], field=None)
+
+    # New lines converted into spaces
+    evaluation.handle_json_match([{"key": "one one"}, {"key": "two"}, {"key": "three"}], field=None)
+
+    # Added new lines don't matter
+    evaluation.handle_json_match([{"key": "one\none"}, {"key": "two"}, {"key": "three\n"}], field=None)
+
+    # Different values in list
+    with pytest.raises(Failed):
+        evaluation.handle_json_match([{"key": "one\none"}, {"key": "two"}, {"key": "four"}], field=None)
+
+    # Having additional list items fails
+    with pytest.raises(Failed):
+        evaluation.handle_json_match(
+            [{"key": "one\none"}, {"key": "two"}, {"key": "three"}, {"key": "four"}], field=None,
+        )
+
+    # Too few list items fails
+    with pytest.raises(Failed):
+        evaluation.handle_json_match(
+            [{"key": "one\none"}, {"key": "two"}], field=None
         )
 
 

@@ -80,7 +80,7 @@ class Eval(BaseModel):
 
         raise NotImplementedError("No evaluation type implemented")
 
-    def handle_json_match(self, result: Dict[str, Any], field: Optional[str]) -> None:
+    def handle_json_match(self, result: AllowedJSON, field: Optional[str]) -> None:
         options = self.options or [self.expected]
         exceptions: list[ValueError] = []
 
