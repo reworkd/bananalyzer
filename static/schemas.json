@@ -607,24 +607,18 @@
     }
   },
   "listing_document": {
-    "type": "array",
-    "items": {
-      "name": {
-        "type": "string",
-        "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-      },
-      "url": {
-        "type": "string",
-        "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-      }
+    "name": {
+      "type": "string",
+      "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+    },
+    "url": {
+      "type": "string",
+      "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
     }
   },
   "listing_url": {
-    "type": "array",
-    "items": {
-      "url": {
-        "type": "string"
-      }
+    "url": {
+      "type": "string"
     }
   },
   "listing_education_contact": {
