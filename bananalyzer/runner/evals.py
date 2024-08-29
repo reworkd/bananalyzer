@@ -5,7 +5,7 @@ from typing import Any, Dict, List
 import pytest
 from deepdiff import DeepDiff
 
-AllowedJSON = Dict[str, Any] | str | None | List["AllowedJSON"]
+AllowedJSON = Dict[str, Any] | str | List[Dict[str, Any]] | List[str] | None
 
 Result = Dict[str, Any]
 
@@ -32,7 +32,7 @@ def trim_strings(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: trim_strings(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [trim_strings(elem) for elem in value]
+        return [trim_strings(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str):
         return value.strip()
     else:
@@ -44,7 +44,7 @@ def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: replace_empty_strings_with_none(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [replace_empty_strings_with_none(elem) for elem in value]
+        return [replace_empty_strings_with_none(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str) and value == "":
         return None
     else:
@@ -95,7 +95,7 @@ def format_new_lines(value: AllowedJSON) -> AllowedJSON:
     if isinstance(value, dict):
         return {k: format_new_lines(v) for k, v in value.items()}
     elif isinstance(value, list):
-        return [format_new_lines(elem) for elem in value]
+        return [format_new_lines(elem) for elem in value]  # type: ignore[return-value]
     elif isinstance(value, str):
         return value.replace("\n", " ")
     else:
