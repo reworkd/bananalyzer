@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List
 
 from playwright.async_api import Page
 
 from bananalyzer.data.schemas import Example
+from bananalyzer.runner.evals import AllowedJSON
 
-AgentResult = Dict[str, Any] | List[Dict[str, Any]] | List[str] | str | None
+AgentResult = AllowedJSON
 
 
 class AgentRunner(ABC):

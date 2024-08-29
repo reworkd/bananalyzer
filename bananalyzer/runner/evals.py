@@ -5,7 +5,7 @@ from typing import Any, Dict, List
 import pytest
 from deepdiff import DeepDiff
 
-AllowedJSON = Dict[str, Any] | List[str] | List[Dict[str, Any]] | str | None
+AllowedJSON = Dict[str, Any] | str | List[Dict[str, Any]] | List[str] | None
 
 Result = Dict[str, Any]
 
@@ -51,15 +51,18 @@ def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
         return value
 
 
-def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
-    if isinstance(expected, Dict) and isinstance(actual, Dict):
-        expected = format_new_lines(expected)
-        expected = trim_strings(expected)
-        expected = replace_empty_strings_with_none(expected)
-        actual = format_new_lines(actual)
-        actual = trim_strings(actual)
-        actual = replace_empty_strings_with_none(actual)
+def pre_process(value: AllowedJSON) -> AllowedJSON:
+    value = format_new_lines(value)
+    value = trim_strings(value)
+    value = replace_empty_strings_with_none(value)
+    return value
 
+
+def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
+    expected = pre_process(expected)
+    actual = pre_process(actual)
+
+    if isinstance(expected, Dict) and isinstance(actual, Dict):
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
         # Adding missing keys in actual with None if they are expected to be None
         if isinstance(expected, dict) and isinstance(actual, dict):
@@ -74,7 +77,6 @@ def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
         report_repetition=True,
     )
     if diff:
-        # Pretty print both expected and actual results
         pretty_expected = json.dumps(expected, indent=4)
         pretty_actual = json.dumps(actual, indent=4)
 
@@ -88,17 +90,16 @@ def validate_end_url_match(expected: str, actual: str) -> None:
         pytest.fail(f"URLEval mismatch!\n{diff_msg}")
 
 
-def format_new_lines(d: Result) -> Result:
+def format_new_lines(value: AllowedJSON) -> AllowedJSON:
     """Recursively replace newlines in strings with spaces."""
-    new_dict: Result = {}
-    for k, v in d.items():
-        if isinstance(v, dict):
-            new_dict[k] = format_new_lines(v)
-        elif isinstance(v, str):
-            new_dict[k] = v.replace("\n", " ")
-        else:
-            new_dict[k] = v
-    return new_dict
+    if isinstance(value, dict):
+        return {k: format_new_lines(v) for k, v in value.items()}
+    elif isinstance(value, list):
+        return [format_new_lines(elem) for elem in value]  # type: ignore[return-value]
+    elif isinstance(value, str):
+        return value.replace("\n", " ")
+    else:
+        return value
 
 
 def sanitize_string(input_str: str) -> str:
