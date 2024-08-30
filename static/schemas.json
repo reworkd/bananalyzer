@@ -1,707 +1,698 @@
 {
-    "contact": {
-        "name": {
-            "type": "string",
-            "description": "Name of the location, facility, or the service provided by the clinic. Typically available at the top of the page or in the contact section. Do NOT use the address as the name which may be street/ state like 'Henry Adams, SF'. Double check that this is not the case"
-        },
-        "address": {
-            "type": "string",
-            "description": "The COMPLETE address of the location using inner text of address elements. This value MUST be the combination of the building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. The building name may be placed above the other address elements. You MUST include the building name if it is available and presented this way. Do not forget ANY of the address elements. Filter out extra words at the beginning like 'Address:' or extra words at the end like 'Phone', 'Fax', 'Directions', etc. Do not use value from additional locations."
-        },
-        "phone": {
-            "type": "string",
-            "description": "The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or trailing words like 'Phone'. Do not use the phone value from related locations. This phone value will probably be positioned close to other contact fields."
-        },
-        "fax": {
-            "type": "string",
-            "description": "The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or trailing words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number. Do not use value from related locations."
-        }
+  "contact": {
+    "name": {
+      "type": "string",
+      "description": "Name of the location, facility, or the service provided by the clinic. Typically available at the top of the page or in the contact section. Do NOT use the address as the name which may be street/ state like 'Henry Adams, SF'. Double check that this is not the case"
     },
-    "job_posting": {
-        "job_id": {
-            "type": "string",
-            "description": "Unique alphanumeric identifier for the job posting."
-        },
-        "company_name": {
-            "type": "string",
-            "description": "Name of the company offering the job."
-        },
-        "company_description": {
-            "type": "string",
-            "description": "A brief description of the company within the job post."
-        },
-        "department": {
-            "type": "string",
-            "description": "The department or team name within the company for the job position."
-        },
-        "job_title": {
-            "type": "string",
-            "description": "The entire job title, including team name or specialization if present in the title."
-        },
-        "job_description": {
-            "type": "string",
-            "description": "Comprehensive job description including all its sentences."
-        },
-        "location": {
-            "type": "string",
-            "description": "Entire location of the job."
-        },
-        "salary_range": {
-            "type": "object",
-            "properties": {
-                "min": {
-                    "type": "string",
-                    "description": "Minimum salary offered."
-                },
-                "max": {
-                    "type": "string",
-                    "description": "Maximum salary offered."
-                },
-                "currency": {
-                    "type": "string",
-                    "description": "The currency of the salary."
-                }
-            }
-        },
-        "date_posted": {
-            "type": "string",
-            "description": "Date posted, only if present on the page."
-        },
-        "apply_url": {
-            "type": "string",
-            "description": "The URL where applicants can apply for the job."
-        },
-        "job_benefits": {
-            "type": "string",
-            "description": "A list of benefits provided with the job."
-        },
-        "qualifications": {
-            "type": "string",
-            "description": "A list of required qualifications or certifications for the job."
-        },
-        "preferred_qualifications": {
-            "type": "string",
-            "description": "A list of preferred (but not mandatory) qualifications for the job."
-        },
-        "role": {
-            "type": "string",
-            "description": "Details about the role including responsibilities and required skills."
-        },
-        "skills": {
-            "type": "string",
-            "description": "A list of knowledge, skills or abilities required for the job."
-        },
-        "recruiter_email": {
-            "type": "string",
-            "description": "Email address of the recruiter or hiring manager for contact."
-        },
-        "application_deadline": {
-            "type": "string",
-            "description": "The deadline for submitting job applications."
-        },
-        "employment_type": {
-            "type": "string",
-            "description": "The type of employment (e.g., full-time, part-time, contract)."
-        }
+    "address": {
+      "type": "string",
+      "description": "The COMPLETE address of the location using inner text of address elements. This value MUST be the combination of the building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. The building name may be placed above the other address elements. You MUST include the building name if it is available and presented this way. Do not forget ANY of the address elements. Filter out extra words at the beginning like 'Address:' or extra words at the end like 'Phone', 'Fax', 'Directions', etc. Do not use value from additional locations."
     },
-    "contract": {
-        "id": {
-            "type": "string",
-            "description": "Unique identifier for the contract"
-        },
-        "title": {
-            "type": "string",
-            "description": "Title or name of the contract"
-        },
-        "description": {
-            "type": "string",
-            "description": "Description or synopsis field. Combine the solicitation summary and additional instructions section / process."
-        },
-        "location": {
-            "type": "string",
-            "description": "Location of the issuer. May be a combination of city and state"
-        },
-        "type": {
-            "type": "string",
-            "description": "Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field"
-        },
-        "category": {
-            "type": "string",
-            "description": "Category the contract falls under if given"
-        },
-        "posted_date": {
-            "type": "string",
-            "description": "Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date."
-        },
-        "due_date": {
-            "type": "string",
-            "description": "Date the contract closes for bidding. NOT the end term date."
-        },
-        "buyer_name": {
-            "type": "string",
-            "description": "Name of the company, organization, or agency that issued the contract. NOT a person's name."
-        },
-        "buyer_contact_name": {
-            "type": "string",
-            "description": "Name of the specific individual that is leading the contract, if available"
-        },
-        "buyer_contact_number": {
-            "type": "string",
-            "description": "Contact number of the issuer"
-        },
-        "buyer_contact_email": {
-            "type": "string",
-            "description": "Contact email of the issuer"
-        },
-        "attachments": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                }
-            },
-            "description": "A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)"
-        }
+    "phone": {
+      "type": "string",
+      "description": "The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or trailing words like 'Phone'. Do not use the phone value from related locations. This phone value will probably be positioned close to other contact fields."
     },
-    "manufacturing_commerce": {
-        "mpn": {
-            "type": "string"
-        },
-        "alias_mpns": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Other MPNs that this part is known by"
-        },
-        "manufacturer": {
-            "type": "string"
-        },
-        "classifications": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "description": {
-            "type": "string"
-        },
-        "hero_image": {
-            "type": "string"
-        },
-        "series": {
-            "type": "string"
-        },
-        "lifecycle_status": {
-            "type": "string"
-        },
-        "country_of_origin": {
-            "type": "string"
-        },
-        "aecq_status": {
-            "type": "string"
-        },
-        "reach_status": {
-            "type": "string"
-        },
-        "rohs_status": {
-            "type": "string"
-        },
-        "export_control_class_number": {
-            "type": "string"
-        },
-        "packaging": {
-            "type": "string"
-        },
-        "power_rating": {
-            "type": "string"
-        },
-        "voltage_rating": {
-            "type": "string"
-        },
-        "mount_type": {
-            "type": "string"
-        },
-        "moisture_sensitivity_level": {
-            "type": "string"
-        },
-        "tolerance": {
-            "type": "string"
-        },
-        "inductance": {
-            "type": "string"
-        },
-        "capacitance": {
-            "type": "string"
-        },
-        "resistance": {
-            "type": "string"
-        },
-        "min_operating_temperature": {
-            "type": "string"
-        },
-        "max_operating_temperature": {
-            "type": "string"
-        },
-        "leadfree": {
-            "type": "string"
-        },
-        "termination_type": {
-            "type": "string"
-        },
-        "num_terminations": {
-            "type": "integer"
-        },
-        "specs": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "label": {
-                        "type": "string"
-                    },
-                    "value": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "product_change_notification_documents": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    },
-                    "filename": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "reach_compliance_documents": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    },
-                    "filename": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "rohs_compliance_documents": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    },
-                    "filename": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "datasheets": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    },
-                    "filename": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "specsheets": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    },
-                    "filename": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "suggested_alternative_mpns": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        }
-    },
-    "forum": {
-        "author": {
-            "type": "string",
-            "description": "Author of the main or original post"
-        },
-        "title": {
-            "type": "string",
-            "description": "Title of the original post"
-        },
-        "post_date": {
-            "type": "string"
-        },
-        "content": {
-            "type": "string",
-            "description": "Entire content of the original post, including all sentences"
-        },
-        "up_votes": {
-            "type": "integer",
-            "description": "Number of likes, upvotes, etc on the original post"
-        },
-        "down_votes": {
-            "type": "integer"
-        },
-        "views": {
-            "type": "integer"
-        },
-        "num_comments": {
-            "type": "integer",
-            "description": "Number of comments or responses, not including the original post"
-        }
-    },
-    "attorney": {
-        "website": {
-            "type": "string",
-            "description": "URL of the attorney's profile page"
-        },
-        "name": {
-            "type": "string",
-            "description": "Full name of the attorney"
-        },
-        "title": {
-            "type": "string",
-            "description": "Title of the attorney, such as Associate, Counsel, or Partner"
-        },
-        "practice_areas_main": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Primary practice areas of the attorney"
-        },
-        "practice_areas_all": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Complete list of practice areas"
-        },
-        "specialties": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Specialized industry sectors"
-        },
-        "email": {
-            "type": "string",
-            "description": "Email address of the attorney"
-        },
-        "location": {
-            "type": "string",
-            "description": "Office location of the attorney"
-        },
-        "phone": {
-            "type": "string",
-            "description": "Direct phone number of the attorney"
-        },
-        "bio": {
-            "type": "string",
-            "description": "Main bio description of the attorney"
-        },
-        "experience": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string",
-                        "description": "Title at the previous law firm"
-                    },
-                    "firm": {
-                        "type": "string",
-                        "description": "Name of the law firm"
-                    },
-                    "dates": {
-                        "type": "string",
-                        "description": "Duration of employment at the law firm"
-                    }
-                }
-            },
-            "description": "Past work history at other law firms"
-        },
-        "matters": {
-            "type": "string",
-            "description": "List of past cases and work done by the attorney"
-        },
-        "bar_admissions": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "state": {
-                        "type": "string",
-                        "description": "State of bar admission"
-                    },
-                    "year": {
-                        "type": "string",
-                        "description": "Year of bar admission"
-                    },
-                    "country": {
-                        "type": "string",
-                        "description": "Country of bar admission",
-                        "default": "USA"
-                    }
-                }
-            },
-            "description": "Bar admissions of the attorney"
-        },
-        "law_school": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "school": {
-                        "type": "string",
-                        "description": "Name of the educational institution"
-                    },
-                    "year": {
-                        "type": "string",
-                        "description": "Year of graduation"
-                    },
-                    "degree": {
-                        "type": "string",
-                        "description": "Type of degree obtained"
-                    },
-                    "honors": {
-                        "type": "string",
-                        "description": "Honors received during education"
-                    }
-                }
-            },
-            "description": "Law school information of the attorney"
-        },
-        "other_schools": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "school": {
-                        "type": "string",
-                        "description": "Name of the educational institution"
-                    },
-                    "year": {
-                        "type": "string",
-                        "description": "Year of graduation"
-                    },
-                    "degree": {
-                        "type": "string",
-                        "description": "Type of degree obtained"
-                    },
-                    "honors": {
-                        "type": "string",
-                        "description": "Honors received during education"
-                    }
-                }
-            },
-            "description": "Other education details of the attorney"
-        },
-        "awards": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "date": {
-                        "type": "string",
-                        "description": "Date or duration when the award was received"
-                    },
-                    "award": {
-                        "type": "string",
-                        "description": "Name of the award"
-                    },
-                    "url": {
-                        "type": "string",
-                        "description": "URL link to the award recognition"
-                    }
-                }
-            },
-            "description": "Awards and recognitions received by the attorney"
-        },
-        "pdf_url": {
-            "type": "string",
-            "description": "Link to a PDF bio of the attorney"
-        },
-        "photo_url": {
-            "type": "string",
-            "description": "Link to the photo of the attorney"
-        },
-        "news": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Links to news articles involving the attorney",
-            "default": []
-        }
-    },
-    "attorney_job_listing": {
-        "website": {
-            "type": "string",
-            "description": "URL of the job listing. May or may not be unique to this job."
-        },
-        "tier": {
-            "type": "string",
-            "description": "Categorize into: Associate (general), Junior Associate, Mid-Level Associate, Senior Associate, Partner, Other (catch all if unsure)."
-        },
-        "department": {
-            "type": "string",
-            "description": "Department, only if explicitly stated."
-        },
-        "title": {
-            "type": "string",
-            "description": "Job title. Remove location but keep everything else."
-        },
-        "description": {
-            "type": "string",
-            "description": "Job description."
-        },
-        "locations": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "description": "Offices/cities/locations where this job is being offered."
-        },
-        "salary_range": {
-            "type": "string",
-            "description": "Pay range specifically stated in the listing."
-        },
-        "experience": {
-            "type": "string",
-            "description": "Required experience specifically stated in the listing."
-        },
-        "full": {
-            "type": "string",
-            "description": "Complete information related to this job including HTML content for links."
-        }
-    },
-    "listing_document": {
-        "type": "array",
-        "items": {
-            "name": {
-                "type": "string",
-                "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
-            },
-            "url": {
-                "type": "string",
-                "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
-            }
-        }
-    },
-    "listing_url": {
-        "type": "array",
-        "items": {
-            "url": {
-                "type": "string"
-            }
-        }
-    },
-    "listing_education_contact": {
-        "type": "array",
-        "items": {
-            "email": {
-                "description": "The email address of the individual",
-                "type": "string"
-            },
-            "first_name": {
-                "type": "string"
-            },
-            "last_name": {
-                "type": "string"
-            },
-            "phone_number": {
-                "description": "Phone number of the individual within the school. Do not include irrelevant text.",
-                "type": "string"
-            },
-            "title": {
-                "description": "The title or role of the individual within the school",
-                "type": "string"
-            }
-        }
-    },
-    "ecommerce": {
-        "product_id": {
-            "type": "string",
-            "description": "A unique identifier for each product."
-        },
-        "product_name": {
-            "type": "string",
-            "description": "The name of the product."
-        },
-        "categories": {
-            "type": "array",
-            "description": "The categories the product falls under. E.g. Shoes, Jeans, Activewear."
-        },
-        "product_description": {
-            "type": "string",
-            "description": "A detailed description of the product, usually under the details section."
-        },
-        "price": {
-            "type": "number",
-            "description": "The price of the product."
-        },
-        "discounted_price": {
-            "type": "number",
-            "description": "The discounted price of the product, if available."
-        },
-        "size": {
-            "type": "array",
-            "description": "The sizes available for the product, if applicable."
-        },
-        "color": {
-            "type": "array",
-            "description": "The colors available for the product."
-        },
-        "images": {
-            "type": "array",
-            "description": "A list of URLs pointing to images of the product."
-        },
-        "availability": {
-            "type": "string",
-            "description": "The availability status of the product (e.g., out of stock, pre-order). Leave blank if no specific status is shown."
-        },
-        "shipping_details": {
-            "type": "string",
-            "description": "Information related to shipping, including delivery estimates, cost, etc."
-        },
-        "return_policy": {
-            "type": "string",
-            "description": "Description of the return policy for the product."
-        },
-        "tags": {
-            "type": "array",
-            "description": "Keywords or phrases related to the product for categorization and searchability."
-        }
+    "fax": {
+      "type": "string",
+      "description": "The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or trailing words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number. Do not use value from related locations."
     }
+  },
+  "job_posting": {
+    "job_id": {
+      "type": "string",
+      "description": "Unique alphanumeric identifier for the job posting."
+    },
+    "company_name": {
+      "type": "string",
+      "description": "Name of the company offering the job."
+    },
+    "company_description": {
+      "type": "string",
+      "description": "A brief description of the company within the job post."
+    },
+    "department": {
+      "type": "string",
+      "description": "The department or team name within the company for the job position."
+    },
+    "job_title": {
+      "type": "string",
+      "description": "The entire job title, including team name or specialization if present in the title."
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Comprehensive job description including all its sentences."
+    },
+    "location": {
+      "type": "string",
+      "description": "Entire location of the job."
+    },
+    "salary_range": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "string",
+          "description": "Minimum salary offered."
+        },
+        "max": {
+          "type": "string",
+          "description": "Maximum salary offered."
+        },
+        "currency": {
+          "type": "string",
+          "description": "The currency of the salary."
+        }
+      }
+    },
+    "date_posted": {
+      "type": "string",
+      "description": "Date posted, only if present on the page."
+    },
+    "apply_url": {
+      "type": "string",
+      "description": "The URL where applicants can apply for the job."
+    },
+    "job_benefits": {
+      "type": "string",
+      "description": "A list of benefits provided with the job."
+    },
+    "qualifications": {
+      "type": "string",
+      "description": "A list of required qualifications or certifications for the job."
+    },
+    "preferred_qualifications": {
+      "type": "string",
+      "description": "A list of preferred (but not mandatory) qualifications for the job."
+    },
+    "role": {
+      "type": "string",
+      "description": "Details about the role including responsibilities and required skills."
+    },
+    "skills": {
+      "type": "string",
+      "description": "A list of knowledge, skills or abilities required for the job."
+    },
+    "recruiter_email": {
+      "type": "string",
+      "description": "Email address of the recruiter or hiring manager for contact."
+    },
+    "application_deadline": {
+      "type": "string",
+      "description": "The deadline for submitting job applications."
+    },
+    "employment_type": {
+      "type": "string",
+      "description": "The type of employment (e.g., full-time, part-time, contract)."
+    }
+  },
+  "contract": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the contract"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title or name of the contract"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description or synopsis field. Combine the solicitation summary and additional instructions section / process."
+    },
+    "location": {
+      "type": "string",
+      "description": "Location of the issuer. May be a combination of city and state"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of contract. May be placed under `Solicitation Type`, `Opportunity Type`, `Market Type`, etc. Not a 'status' field"
+    },
+    "category": {
+      "type": "string",
+      "description": "Category the contract falls under if given"
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date."
+    },
+    "due_date": {
+      "type": "string",
+      "description": "Date the contract closes for bidding. NOT the end term date."
+    },
+    "buyer_name": {
+      "type": "string",
+      "description": "Name of the company, organization, or agency that issued the contract. NOT a person's name."
+    },
+    "buyer_contact_name": {
+      "type": "string",
+      "description": "Name of the specific individual that is leading the contract, if available"
+    },
+    "buyer_contact_number": {
+      "type": "string",
+      "description": "Contact number of the issuer"
+    },
+    "buyer_contact_email": {
+      "type": "string",
+      "description": "Contact email of the issuer"
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)"
+    }
+  },
+  "manufacturing_commerce": {
+    "mpn": {
+      "type": "string"
+    },
+    "alias_mpns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other MPNs that this part is known by"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "classifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "hero_image": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "lifecycle_status": {
+      "type": "string"
+    },
+    "country_of_origin": {
+      "type": "string"
+    },
+    "aecq_status": {
+      "type": "string"
+    },
+    "reach_status": {
+      "type": "string"
+    },
+    "rohs_status": {
+      "type": "string"
+    },
+    "export_control_class_number": {
+      "type": "string"
+    },
+    "packaging": {
+      "type": "string"
+    },
+    "power_rating": {
+      "type": "string"
+    },
+    "voltage_rating": {
+      "type": "string"
+    },
+    "mount_type": {
+      "type": "string"
+    },
+    "moisture_sensitivity_level": {
+      "type": "string"
+    },
+    "tolerance": {
+      "type": "string"
+    },
+    "inductance": {
+      "type": "string"
+    },
+    "capacitance": {
+      "type": "string"
+    },
+    "resistance": {
+      "type": "string"
+    },
+    "min_operating_temperature": {
+      "type": "string"
+    },
+    "max_operating_temperature": {
+      "type": "string"
+    },
+    "leadfree": {
+      "type": "string"
+    },
+    "termination_type": {
+      "type": "string"
+    },
+    "num_terminations": {
+      "type": "integer"
+    },
+    "specs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "product_change_notification_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "reach_compliance_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rohs_compliance_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "datasheets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "specsheets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "suggested_alternative_mpns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "forum": {
+    "author": {
+      "type": "string",
+      "description": "Author of the main or original post"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the original post"
+    },
+    "post_date": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "description": "Entire content of the original post, including all sentences"
+    },
+    "up_votes": {
+      "type": "integer",
+      "description": "Number of likes, upvotes, etc on the original post"
+    },
+    "down_votes": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "num_comments": {
+      "type": "integer",
+      "description": "Number of comments or responses, not including the original post"
+    }
+  },
+  "attorney": {
+    "website": {
+      "type": "string",
+      "description": "URL of the attorney's profile page"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the attorney"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the attorney, such as Associate, Counsel, or Partner"
+    },
+    "practice_areas_main": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Primary practice areas of the attorney"
+    },
+    "practice_areas_all": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Complete list of practice areas"
+    },
+    "specialties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Specialized industry sectors"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address of the attorney"
+    },
+    "location": {
+      "type": "string",
+      "description": "Office location of the attorney"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Direct phone number of the attorney"
+    },
+    "bio": {
+      "type": "string",
+      "description": "Main bio description of the attorney"
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title at the previous law firm"
+          },
+          "firm": {
+            "type": "string",
+            "description": "Name of the law firm"
+          },
+          "dates": {
+            "type": "string",
+            "description": "Duration of employment at the law firm"
+          }
+        }
+      },
+      "description": "Past work history at other law firms"
+    },
+    "matters": {
+      "type": "string",
+      "description": "List of past cases and work done by the attorney"
+    },
+    "bar_admissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "string",
+            "description": "State of bar admission"
+          },
+          "year": {
+            "type": "string",
+            "description": "Year of bar admission"
+          },
+          "country": {
+            "type": "string",
+            "description": "Country of bar admission",
+            "default": "USA"
+          }
+        }
+      },
+      "description": "Bar admissions of the attorney"
+    },
+    "law_school": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "school": {
+            "type": "string",
+            "description": "Name of the educational institution"
+          },
+          "year": {
+            "type": "string",
+            "description": "Year of graduation"
+          },
+          "degree": {
+            "type": "string",
+            "description": "Type of degree obtained"
+          },
+          "honors": {
+            "type": "string",
+            "description": "Honors received during education"
+          }
+        }
+      },
+      "description": "Law school information of the attorney"
+    },
+    "other_schools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "school": {
+            "type": "string",
+            "description": "Name of the educational institution"
+          },
+          "year": {
+            "type": "string",
+            "description": "Year of graduation"
+          },
+          "degree": {
+            "type": "string",
+            "description": "Type of degree obtained"
+          },
+          "honors": {
+            "type": "string",
+            "description": "Honors received during education"
+          }
+        }
+      },
+      "description": "Other education details of the attorney"
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "Date or duration when the award was received"
+          },
+          "award": {
+            "type": "string",
+            "description": "Name of the award"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL link to the award recognition"
+          }
+        }
+      },
+      "description": "Awards and recognitions received by the attorney"
+    },
+    "pdf_url": {
+      "type": "string",
+      "description": "Link to a PDF bio of the attorney"
+    },
+    "photo_url": {
+      "type": "string",
+      "description": "Link to the photo of the attorney"
+    },
+    "news": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Links to news articles involving the attorney",
+      "default": []
+    }
+  },
+  "attorney_job_listing": {
+    "website": {
+      "type": "string",
+      "description": "URL of the job listing. May or may not be unique to this job."
+    },
+    "tier": {
+      "type": "string",
+      "description": "Categorize into: Associate (general), Junior Associate, Mid-Level Associate, Senior Associate, Partner, Other (catch all if unsure)."
+    },
+    "department": {
+      "type": "string",
+      "description": "Department, only if explicitly stated."
+    },
+    "title": {
+      "type": "string",
+      "description": "Job title. Remove location but keep everything else."
+    },
+    "description": {
+      "type": "string",
+      "description": "Job description."
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Offices/cities/locations where this job is being offered."
+    },
+    "salary_range": {
+      "type": "string",
+      "description": "Pay range specifically stated in the listing."
+    },
+    "experience": {
+      "type": "string",
+      "description": "Required experience specifically stated in the listing."
+    },
+    "full": {
+      "type": "string",
+      "description": "Complete information related to this job including HTML content for links."
+    }
+  },
+  "listing_document": {
+    "name": {
+      "type": "string",
+      "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
+    },
+    "url": {
+      "type": "string",
+      "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
+    }
+  },
+  "listing_url": {
+    "url": {
+      "type": "string"
+    }
+  },
+  "listing_education_contact": {
+    "email": {
+      "description": "The email address of the individual",
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "description": "Phone number of the individual within the school. Do not include irrelevant text.",
+      "type": "string"
+    },
+    "title": {
+      "description": "The title or role of the individual within the school",
+      "type": "string"
+    }
+  },
+  "ecommerce": {
+    "product_id": {
+      "type": "string",
+      "description": "A unique identifier for each product."
+    },
+    "product_name": {
+      "type": "string",
+      "description": "The name of the product."
+    },
+    "categories": {
+      "type": "array",
+      "description": "The categories the product falls under. E.g. Shoes, Jeans, Activewear."
+    },
+    "product_description": {
+      "type": "string",
+      "description": "A detailed description of the product, usually under the details section."
+    },
+    "price": {
+      "type": "number",
+      "description": "The price of the product."
+    },
+    "discounted_price": {
+      "type": "number",
+      "description": "The discounted price of the product, if available."
+    },
+    "size": {
+      "type": "array",
+      "description": "The sizes available for the product, if applicable."
+    },
+    "color": {
+      "type": "array",
+      "description": "The colors available for the product."
+    },
+    "images": {
+      "type": "array",
+      "description": "A list of URLs pointing to images of the product."
+    },
+    "availability": {
+      "type": "string",
+      "description": "The availability status of the product (e.g., out of stock, pre-order). Leave blank if no specific status is shown."
+    },
+    "shipping_details": {
+      "type": "string",
+      "description": "Information related to shipping, including delivery estimates, cost, etc."
+    },
+    "return_policy": {
+      "type": "string",
+      "description": "Description of the return policy for the product."
+    },
+    "tags": {
+      "type": "array",
+      "description": "Keywords or phrases related to the product for categorization and searchability."
+    }
+  }
 }

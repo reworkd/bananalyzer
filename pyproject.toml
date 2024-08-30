@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bananalyzer"
-version = "0.9.17"
+version = "0.10.1"
 
 
 description = "Open source AI Agent evaluation framework for web tasks 🐒🍌"
@@ -11,29 +11,29 @@ readme = "README.md"
 bananalyze = "bananalyzer.__main__:main"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-playwright = "^1.44.0"
-pydantic = "^2.7.4"
-pytest-asyncio = "^0.21.2"
-deepdiff = "^6.7.1"
-pytest = "^7.4.4"
+python = ">=3.11"
+playwright = "^1.46.0"
+pydantic = "^2.8.2"
+pytest-asyncio = "^0.24.0"
+deepdiff = "^8.0.0"
+pytest = "^8.3.2"
 pytest-html = "^4.1.1"
 pytest-xdist = "^3.6.1"
 tabulate = "^0.9.0"
 requests = "^2.32.3"
-boto3 = "^1.34.136"
-psutil = "^5.9.8"
-playwright-stealth = "^1.0.6"
+boto3 = "^1.35.8"
+psutil = "^6.0.0"
+numpy = "^2.1.0"
 
 [tool.poetry.group.test.dependencies]
 pytest-mock = "^3.14.0"
-pytest-cov = "^4.1.0"
+pytest-cov = "^5.0.0"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.10.1"
-types-requests = "^2.32.0.20240622"
+mypy = "^1.11.2"
+types-requests = "^2.32.0.20240712"
 types-tabulate = "^0.9.0.20240106"
-ruff = "^0.6.1"
+ruff = "^0.6.2"
 
 [tool.mypy]
 plugins = [
@@ -52,6 +52,9 @@ warn_return_any = false
 namespace_packages = true
 files = "bananalyzer"
 exclude = ["tests", "venv", "static", "bananalytics"]
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "session"
 
 [build-system]
 requires = ["poetry-core"]

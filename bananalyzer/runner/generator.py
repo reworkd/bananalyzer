@@ -14,7 +14,7 @@ class PytestTestGenerator:
     def generate_test(self, example: Example) -> BananalyzerTest:
         return BananalyzerTest(
             code=f"""
-@pytest.mark.asyncio
+@pytest.mark.asyncio(loop_scope="session")
 class {self._generate_class_name(example)}:
 
     @classmethod
@@ -22,11 +22,11 @@ class {self._generate_class_name(example)}:
         cls.example = get_example_by_url("{example.url}")
 
 
-    @pytest_asyncio.fixture(scope="class")
+    @pytest_asyncio.fixture(scope="class", loop_scope="session")
     async def result(self, page, agent_constructor):
         data = None
         error = None
-        
+
         agent = agent_constructor()
         try:
             data = await agent.run(page, self.example)

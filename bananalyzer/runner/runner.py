@@ -45,7 +45,6 @@ import asyncio
 
 from bananalyzer.data.examples import get_example_by_url
 from playwright.async_api import async_playwright
-from playwright_stealth import stealth_async
 
 @pytest.fixture(scope="session")
 def event_loop():
