@@ -246,7 +246,7 @@ async def create_end2end_examples(
                 )
             )
 
-        print("Fusing HARs and writing examples to examples.json")
+        print("Fusing HARs.")
         fuse_hars(
             f"./static/{domain}/index.har",
             [
@@ -255,6 +255,7 @@ async def create_end2end_examples(
             ],
         )
 
+    print("Writing examples to examples.json.")
     write_examples_to_file(examples)
 
     if s3_bucket_name:
