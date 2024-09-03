@@ -25402,51 +25402,6 @@
     ]
   },
   {
-    "id": "FeRDLVQyg3Y1l62axB6az",
-    "url": "https://www.ok.gov/dcs/solicit/app/solicitationSearch.php?status=open-pending",
-    "source": "mhtml",
-    "category": "government",
-    "subcategory": "contract",
-    "type": "listing_detail",
-    "goal": "Fetch all of the links to the contract or solicitation detail pages on the current page. This may be presented as a table with header elements above row elements. The link may be the id of the item, name, or the entire row.",
-    "tags": [
-      "contract",
-      "urls"
-    ],
-    "schema_": "listing_url",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": [
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4258"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4544"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3853"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3998"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4648"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4510"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4457"
-          },
-          {
-            "url": "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=2674"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "u3fjwZRjKUEcvr8kkmy5v",
     "url": "https://apps.des.wa.gov/DESContracts/",
     "source": "mhtml",
@@ -32353,5 +32308,27 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "MdzableUezz4UEfbfAycj",
+    "url": "https://www.ok.gov/dcs/solicit/app/solicitationSearch.php?status=open-pending",
+    "resource_path": "s3://bananalyzer-examples/ok_gov.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "contract",
+    "type": "listing",
+    "schema_": "contract",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4544",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3853",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=3998",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=4648",
+          "https://www.ok.gov/dcs/solicit/app/solicitationDetail.php?solID=2674"
+        ]
+      }
+    ]
+  },
 ]
