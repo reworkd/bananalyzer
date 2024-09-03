@@ -32331,4 +32331,95 @@
       }
     ]
   },
+  {
+    "id": "UEKprFHbLGNoq5jsP5ZpX",
+    "url": "https://beaumonttexas.ionwave.net/SourcingEvents.aspx?SourceType=1",
+    "resource_path": "s3://bananalyzer-examples/beaumonttexas_ionwave_net.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "download",
+    "type": "listing",
+    "goal": "Extract the government contract opportunity information",
+    "schema_": "contract",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=303&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=309&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=308&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=301&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=302&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=306&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=298&SourceType=1",
+          "https://beaumonttexas.ionwave.net/PublicDetail.aspx?bidID=291&SourceType=1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BVWWn9saaOqFMeW20lnNG",
+    "url": "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/list/SourcingEvent.OpenForBid?csk.CHP=LMPROC&csk.SupplierGroup=100&menu=EventManagement.BrowseOpenEvents",
+    "resource_path": "s3://bananalyzer-examples/bexarprod-lm01_cloud_infor_com:1442.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "download",
+    "type": "listing",
+    "goal": "Extract the government contract opportunity information",
+    "schema_": "contract",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/form/SourcingEvent(100%2C967).Summary?action=_open&list=SourcingEvent(_niu_%2C_niu_).OpenForBid&csk.SupplierGroup=100&csk.CHP=LMPROC",
+          "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/form/SourcingEvent(100%2C1112).Summary?action=_open&list=SourcingEvent(_niu_%2C_niu_).OpenForBid&csk.SupplierGroup=100&csk.CHP=LMPROC",
+          "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/form/SourcingEvent(100%2C1114).Summary?action=_open&list=SourcingEvent(_niu_%2C_niu_).OpenForBid&csk.SupplierGroup=100&csk.CHP=LMPROC",
+          "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/form/SourcingEvent(100%2C1115).Summary?action=_open&list=SourcingEvent(_niu_%2C_niu_).OpenForBid&csk.SupplierGroup=100&csk.CHP=LMPROC",
+          "https://bexarprod-lm01.cloud.infor.com:1442/lmscm/SourcingSupplier/form/SourcingEvent(100%2C1116).Summary?action=_open&list=SourcingEvent(_niu_%2C_niu_).OpenForBid&csk.SupplierGroup=100&csk.CHP=LMPROC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JTA8cA2o1n9oQa55SFXA1",
+    "url": "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/",
+    "resource_path": "s3://bananalyzer-examples/gsa_acgov_org.tar.gz",
+    "source": "har",
+    "category": "government",
+    "subcategory": "download",
+    "type": "listing",
+    "goal": "Extract the government contract opportunity information",
+    "schema_": "contract",
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2816",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2955",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2947",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2908",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2841",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2954",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2964",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2953",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2958",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2093",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2960",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2951",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2956",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2959",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=1960",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2965",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2966",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2963",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2961",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2962",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2948",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2950",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2967",
+          "https://gsa.acgov.org/do-business-with-us/contracting-opportunities/current-bid/?bidid=2696"
+        ]
+      }
+    ]
+  }
 ]
