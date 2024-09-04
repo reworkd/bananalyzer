@@ -89,7 +89,7 @@ class {self._generate_class_name(example)}:
 """
 
     def _generate_class_name(self, example: Example) -> str:
-        domain = urlparse(example.url).netloc
+        domain = urlparse(example.url).hostname
         domain = domain.replace(".", "_")
         domain = domain.replace("-", "_")
         if domain.startswith("www_"):

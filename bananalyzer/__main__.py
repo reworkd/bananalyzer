@@ -324,7 +324,7 @@ def main() -> int:
         filters.append(lambda e: e.source.lower() == args.source_type.lower())  # type: ignore
     if args.domain:
         filters.append(
-            lambda e: ".".join(urlparse(e.url).netloc.split(".")[-2:]) == args.domain
+            lambda e: ".".join(urlparse(e.url).hostname.split(".")[-2:]) == args.domain
         )
     if args.category:
         filters.append(lambda e: e.category == args.category)
