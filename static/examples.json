@@ -32793,36 +32793,6 @@
     ]
   },
   {
-    "id": "9lPZRRRyDJWGPkRRnse85",
-    "url": "https://arkansas.ionwave.net/SourcingEvents.aspx?SourceType=1",
-    "resource_path": "s3://bananalyzer-examples/arkansas_ionwave_net.tar.gz",
-    "source": "har",
-    "category": "government",
-    "subcategory": "download",
-    "type": "listing",
-    "goal": "Extract the government contract opportunity information",
-    "schema_": "contract",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": [
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1161&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1162&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1163&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1177&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1174&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1179&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1158&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1166&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1170&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1167&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1172&SourceType=1",
-          "https://arkansas.ionwave.net/PublicDetail.aspx?bidID=1149&SourceType=1"
-        ]
-      }
-    ]
-  },
-  {
     "id": "GBsfLUPLH6EWKnPnEPa9q",
     "url": "https://www.northmiamifl.gov/Bids.aspx",
     "resource_path": "s3://bananalyzer-examples/northmiamifl_gov.tar.gz",
