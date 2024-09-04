@@ -32300,6 +32300,9 @@
     "subcategory": "contract",
     "type": "listing",
     "schema_": "contract",
+    "tags": [
+      "regression"
+    ],
     "evals": [
       {
         "type": "json_match",
