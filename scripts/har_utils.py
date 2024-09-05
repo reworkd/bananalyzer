@@ -167,7 +167,11 @@ async def create_end2end_examples(
     detail_scraper: Optional[harambe.AsyncScraperType],
     s3_bucket_name: Optional[str] = None,
 ) -> None:
-    domain = urlparse(base_url).hostname.replace("www.", "").replace(".", "_")
+    domain = urlparse(base_url).hostname
+    if not domain:
+        raise ValueError(f"Invalid URL (no domain name): {base_url}")
+    
+    domain = domain.replace("www.", "").replace(".", "_")
     resource_path = (
         f"s3://{s3_bucket_name}/{domain}.tar.gz"
         if s3_bucket_name
