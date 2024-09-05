@@ -38,7 +38,7 @@ PossibleTags = Literal[
     "contract",
     "badly-formatted",
     "urls",
-    "enqueue"
+    "enqueue",
 ]
 
 
