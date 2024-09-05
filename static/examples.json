@@ -32301,6 +32301,7 @@
     "type": "listing",
     "schema_": "contract",
     "tags": [
+      "enqueue",
       "regression"
     ],
     "evals": [
@@ -32326,6 +32327,9 @@
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
     "schema_": "contract",
+    "tags": [
+      "enqueue"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -32805,6 +32809,10 @@
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
     "schema_": "contract",
+    "tags": [
+      "enqueue",
+      "regression"
+    ],
     "evals": [
       {
         "type": "json_match",
