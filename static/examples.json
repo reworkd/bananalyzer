@@ -33063,7 +33063,7 @@
     "subcategory": "download",
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
-    "schema_": "contract",
+    "schema_": "contract_2",
     "evals": [
       {
         "type": "json_match",
@@ -33084,7 +33084,7 @@
     "subcategory": "download",
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
-    "schema_": "contract",
+    "schema_": "contract_2",
     "evals": [
       {
         "type": "json_match",
