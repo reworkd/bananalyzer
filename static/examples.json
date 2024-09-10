@@ -30106,6 +30106,9 @@
     "subcategory": "contract",
     "type": "listing",
     "schema_": "contract",
+    "tags": [
+      "pagination"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -31113,6 +31116,9 @@
     "type": "listing",
     "goal": "Fetch all of the links to government/legal documents on the page along with their names. Ensure you paginate as necessary. Pagination may be a `Load More` button or traditional pagination controls with page numbers or a next page button at the bottom of the page. This information should be clustered together. It will also typically be in a table structure or list and will often be near a posted date, author name, file size, or description if these are available.",
     "schema_": "listing_document",
+    "tags": [
+      "pagination"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -31329,6 +31335,9 @@
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
     "schema_": "contract",
+    "tags": [
+      "infinite-scroll"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -32172,6 +32181,9 @@
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
     "schema_": "contract",
+    "tags": [
+      "pagination"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -33085,6 +33097,9 @@
     "type": "listing",
     "goal": "Extract the government contract opportunity information",
     "schema_": "contract_2",
+    "tags": [
+      "pagination"
+    ],
     "evals": [
       {
         "type": "json_match",
