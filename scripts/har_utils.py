@@ -5,6 +5,8 @@ from io import BytesIO
 from typing import Any, Optional, cast
 from urllib.parse import urlparse
 import json
+import re
+import requests
 
 import boto3
 import harambe
@@ -13,7 +15,13 @@ from harambe.contrib.playwright.impl import PlaywrightElementHandle
 from harambe.contrib.types import AbstractPage
 from harambe.observer import InMemoryObserver
 from harambe import SDK
-from playwright.async_api import Page, async_playwright, ElementHandle
+from playwright.async_api import (
+    Page,
+    async_playwright,
+    ElementHandle,
+    TimeoutError as PlaywrightTimeoutError,
+)
+from harambe import PlaywrightUtils as Pu
 
 from bananalyzer.data.schemas import Example
 
@@ -267,20 +275,113 @@ async def create_end2end_examples(
         upload_har_to_s3(f"./static/{domain}", s3_bucket_name)
 
 
-# if __name__ == "__main__":
-#     import asyncio
+DEFAULT_IMPORTS = """
+import asyncio
+import datetime
+import json
+import math
+import random
+import re
+import requests
+import urllib
 
-#     base_url = "https://horizon.adams12.org/our-school/staff-directory"
-#     metadata = {
-#         "category": "education",
-#         "subcategory": "contact",
-#         "schema_": "job_posting",
-#         "type": "listing_detail",
-#         "goal": 'Extract the contact information of all members of the school faculty from the given URL. You do not have to navigate to the staff directory page as the URL is the staff directory page. Ensure you paginate. Pagination controls can look like a series of numbers in a row at the bottom of data lists. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together. Retrieve information with the following schema {"first_name": {"type": "string"}, "last_name": {"type": "string"} "title": {"type": "string", "description": "The title or role of the individual within the school"}, "phone_number": {"type": "string", "description": "Keep phone number formatting but do not include irrelevant text"}, "email": {"type": "string", "description": "The email address of the individual"}}',
-#     }
+from harambe import PlaywrightUtils as Pu
+from harambe import SDK
+from playwright.async_api import Page, ElementHandle, TimeoutError
+from typing import Any, Dict, List, Union, Callable, Optional
+"""
 
-#     asyncio.run(
-#         create_end2end_examples(
-#             base_url, metadata, scrape_listing, None, "bananalyzer-examples"
-#         )
-#     )
+api_url = "https://api.reworkd.dev/"
+
+
+def fetch_scraper_code(job_id: str, stage: str, token: str) -> Optional[str]:
+    url = f"{api_url}/api/scrapers/{job_id}/{stage}"
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        return data["code"]
+    except requests.HTTPError as e:
+        print(f"Failed to fetch {stage} scraper: {e}")
+        return None
+
+
+def fetch_scraper_metadata(job_id: str, token: str) -> Optional[dict]:
+    url = f"{api_url}/api/jobs/{job_id}"
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        return {
+            "url": data["url"],
+            "schema_": data["group"]["schema_"],
+            "goal": data["group"]["goal"],
+        }
+    except requests.HTTPError as e:
+        print(f"Failed to fetch job metadata: {e}")
+        return None
+
+
+def download_scrapers(job_id: str, token: str) -> dict[str, Any]:
+    file_path = "temp_har_generation_scrapers.py"
+    with open(file_path, "w") as file:
+        file.write(DEFAULT_IMPORTS + "\n\n")
+        scraper_data = fetch_scraper_metadata(job_id, token)
+
+        for stage in ["listing", "detail"]:
+            code = fetch_scraper_code(job_id, stage, token)
+            if not code:
+                continue
+
+            modified_code = re.sub(
+                r"async def scrape\(", f"async def scrape_{stage}(", code
+            )
+            file.write(modified_code + "\n\n")
+
+            scraper_data[f"scraper_{stage}"] = True
+
+    if "scraper_listing" in scraper_data:
+        from temp_har_generation_scrapers import scrape_listing
+
+        scraper_data["scraper_listing"] = scrape_listing
+    if "scraper_detail" in scraper_data:
+        from temp_har_generation_scrapers import scrape_detail
+
+        scraper_data["scraper_detail"] = scrape_detail
+
+    return scraper_data
+
+
+if __name__ == "__main__":
+    import asyncio
+
+    job_id = ""
+    reworkd_api_token = ""
+    default_metadata = {
+        "category": "government",
+        "subcategory": "download",
+        "type": "listing",
+    }
+
+    metadata = download_scrapers(job_id, reworkd_api_token)
+    metadata.update(default_metadata)
+
+    base_url = metadata["url"]
+    scrape_listing = metadata.pop("scraper_listing", None)
+    scrape_detail = metadata.pop("scraper_detail", None)
+    
+    asyncio.run(
+        create_end2end_examples(
+            base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples"
+        )
+    )
+
+    # metadata = {
+    #     "category": "e-commerce",
+    #     "subcategory": "commerce",
+    #     "schema_": "ecommerce",
+    #     "type": "listing",
+    #     "goal": "Extract the product information from the given URL of an e-commerce site. You do not have to navigate to other pages as the URL contains all the necessary product details. Ensure you paginate if the site has multiple pages of products. Pagination controls can look like a series of numbers in a row at the bottom of product lists. Do not click random buttons. If the data is not on the page, then leave it as null. The information for a single product should be clustered together.",
+    # }
