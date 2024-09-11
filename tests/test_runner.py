@@ -22,7 +22,7 @@ def pytest_args():
     return PytestArgs(
         s=False,
         n=None,
-        q=False,
+        v=False,
         xml=None,
     )
 
