@@ -272,6 +272,122 @@
       "description": "The pre-proposal location of the document."
     }
   },
+  "contract_3": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier for the document",
+      "primary_key": true
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of the document",
+      "primary_key": false
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the document",
+      "primary_key": true
+    },
+    "status": {
+      "type": "string",
+      "description": "The status of the document",
+      "primary_key": false
+    },
+    "category": {
+      "type": "string",
+      "description": "The category of the document",
+      "primary_key": false
+    },
+    "due_date": {
+      "type": "string",
+      "description": "The due date of the document",
+      "primary_key": false
+    },
+    "location": {
+      "type": "string",
+      "description": "The location of the document",
+      "primary_key": false
+    },
+    "buyer_name": {
+      "type": "string",
+      "description": "The name of the buyer",
+      "primary_key": false
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "url",
+            "actions": {
+              "download": true
+            },
+            "primary_key": false
+          },
+          "title": {
+            "type": "string",
+            "primary_key": false
+          }
+        },
+        "primary_key": false
+      },
+      "description": "An array of attachments",
+      "primary_key": false
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the document",
+      "primary_key": false
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "The date the document was posted",
+      "primary_key": false
+    },
+    "procurement_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "primary_key": false
+          },
+          "code_type": {
+            "type": "string",
+            "primary_key": false
+          },
+          "description": {
+            "type": "string",
+            "primary_key": false
+          },
+          "code_description": {
+            "type": "string",
+            "primary_key": false
+          }
+        },
+        "primary_key": false
+      },
+      "description": "An array of procurement items",
+      "primary_key": false
+    },
+    "buyer_contact_name": {
+      "type": "string",
+      "description": "The name of the buyer contact",
+      "primary_key": false
+    },
+    "buyer_contact_email": {
+      "type": "string",
+      "description": "The email of the buyer contact",
+      "primary_key": false
+    },
+    "buyer_contact_number": {
+      "type": "string",
+      "description": "The phone number of the buyer contact",
+      "primary_key": false
+    }
+  },
   "manufacturing_commerce": {
     "mpn": {
       "type": "string"
