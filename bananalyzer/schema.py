@@ -10,7 +10,7 @@ XDistDistributionMode = Literal[
 
 class PytestArgs(BaseModel):
     s: bool
-    q: bool
+    v: bool
     xml: Optional[str] = Field(description="Path to the xml report file")
 
 

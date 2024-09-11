@@ -129,10 +129,10 @@ def parse_args() -> Args:
         help="A list of ids to skip tests on, separated by commas",
     )
     parser.add_argument(
-        "-q",
-        "--quiet",
+        "-v",
+        "--verbose",
         action="store_true",
-        help="Will decrease the verbosity of pytest. By default we run with the `--v` pytest param.",
+        help="Will increase the verbosity of pytest.",
     )
     parser.add_argument(
         "--single_browser_instance",
@@ -217,7 +217,7 @@ def parse_args() -> Args:
         count=args.count,
         pytest_args=PytestArgs(
             s=args.s,
-            q=args.quiet,
+            v=args.verbose,
             xml=args.junitxml,
         ),
         xdist_args=XDistArgs(

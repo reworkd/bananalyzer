@@ -130,7 +130,7 @@ def run_tests(
         args = (
             test_file_names
             + ["-s"] * pytest_args.s
-            + (["-q"] if pytest_args.q else ["-vvv"])
+            + (["-vvv"] if pytest_args.v else ["-v"])
             + ["-n", str(xdist_args.n)]
             + ["--dist", xdist_args.dist]
             + [f"--junitxml={pytest_args.xml}"] * bool(pytest_args.xml)
