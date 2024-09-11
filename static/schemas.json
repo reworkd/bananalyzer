@@ -169,6 +169,109 @@
       "description": "A list of all of the files/documents attached to the contract (e.g. hyperlinks to PDF's)"
     }
   },
+  "contract_2": {
+    "title": {
+      "type": "string",
+      "description": "The title of the document."
+    },
+    "status": {
+      "type": "string",
+      "description": "The status of the document."
+    },
+    "due_date": {
+      "type": "datetime",
+      "description": "The due date of the document. This should be a required field. On some websites, it may be listed as \"opening date\". This date should always be greater than posted_date."
+    },
+    "attachments": {
+      "type": "array",
+      "description": "An array of attachments associated with the document.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "url",
+            "description": "The URL of the attachment.",
+            "actions": {
+              "download": true
+            }
+          },
+          "title": {
+            "type": "string",
+            "description": "The title of the attachment."
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the document."
+    },
+    "posted_date": {
+      "type": "datetime",
+      "description": "The date the document was posted. This date should always be less than due_date"
+    },
+    "contact_name": {
+      "type": "string",
+      "description": "The name of the buyer related to the document."
+    },
+    "contact_email": {
+      "type": "string",
+      "description": "The email address of the buyer."
+    },
+    "contact_number": {
+      "type": "string",
+      "description": "The contact number of the buyer."
+    },
+    "industry_items": {
+      "type": "array",
+      "description": "An array of procurement industry items related to the opportunity",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "The code associated with the procurement item."
+          },
+          "code_type": {
+            "type": "string",
+            "description": "The type of code for the procurement item. This could be NIGP, UNSPC, etc"
+          },
+          "description": {
+            "type": "string",
+            "description": "A description of the procurement item itself"
+          },
+          "code_description": {
+            "type": "string",
+            "description": "The detailed description of the code itself and the category it represents."
+          }
+        }
+      }
+    },
+    "issuing_entity": {
+      "type": "string",
+      "description": "The organization that issued the solicitation."
+    },
+    "solicitation_id": {
+      "type": "string",
+      "description": "The provided solicitation ID of the document."
+    },
+    "pre_proposal_time": {
+      "type": "datetime",
+      "description": "The pre-proposal time of the document."
+    },
+    "solicitation_type": {
+      "type": "string",
+      "description": "The type of the document. RFP/RFC/etc"
+    },
+    "solicitation_stage": {
+      "type": "string",
+      "description": "The current stage of the solicitation"
+    },
+    "pre_proposal_description": {
+      "type": "string",
+      "description": "The pre-proposal location of the document."
+    }
+  },
   "manufacturing_commerce": {
     "mpn": {
       "type": "string"
