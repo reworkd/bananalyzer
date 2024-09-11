@@ -113,12 +113,12 @@ def create_nano_id() -> str:
 
 
 async def create_har(
-    url: str, example_dir_path: str, scraper: harambe.AsyncScraperType
+    url: str, example_dir_path: str, scraper: harambe.AsyncScraperType, context: dict[str, Any] = {}
 ) -> InMemoryObserver:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
-        context = await browser.new_context(service_workers="block")
-        page = await context.new_page()
+        browser_context = await browser.new_context(service_workers="block")
+        page = await browser_context.new_page()
 
         os.makedirs(example_dir_path, exist_ok=True)
         har_path = os.path.abspath(f"{example_dir_path}/index.har")
@@ -129,9 +129,9 @@ async def create_har(
         observer = InMemoryObserver()
         sdk = SDK(cast(AbstractPage[PlaywrightElementHandle], page), observer=observer)
         sdk._scraper = scraper
-        await scraper(sdk, url, {})
+        await scraper(sdk, url, context)
 
-        await context.close()
+        await browser_context.close()
 
     return observer
 
@@ -234,11 +234,12 @@ async def create_end2end_examples(
 
     if detail_scraper and enqueued_urls:
         enqueued_urls = enqueued_urls[:3]
+        enqueued_contexts = [context for url, context, options in observer.urls[:3]]
 
         print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
         for i, url in enumerate(enqueued_urls):
             observer = await create_har(
-                url, f"./static/{domain}_detail{i}", detail_scraper
+                url, f"./static/{domain}_detail{i}", detail_scraper, enqueued_contexts[i]
             )
             observer_data = observer.data[0]
             observer_data.pop("__url")
@@ -291,7 +292,7 @@ from playwright.async_api import Page, ElementHandle, TimeoutError
 from typing import Any, Dict, List, Union, Callable, Optional
 """
 
-api_url = "https://api.reworkd.dev/"
+api_url = "https://api.reworkd.dev"
 
 
 def fetch_scraper_code(job_id: str, stage: str, token: str) -> Optional[str]:
