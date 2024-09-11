@@ -113,7 +113,10 @@ def create_nano_id() -> str:
 
 
 async def create_har(
-    url: str, example_dir_path: str, scraper: harambe.AsyncScraperType, context: dict[str, Any] = {}
+    url: str,
+    example_dir_path: str,
+    scraper: harambe.AsyncScraperType,
+    context: dict[str, Any] = {},
 ) -> InMemoryObserver:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
@@ -239,7 +242,10 @@ async def create_end2end_examples(
         print(f"Creating {len(enqueued_urls)} detail examples from enqueued URLs.")
         for i, url in enumerate(enqueued_urls):
             observer = await create_har(
-                url, f"./static/{domain}_detail{i}", detail_scraper, enqueued_contexts[i]
+                url,
+                f"./static/{domain}_detail{i}",
+                detail_scraper,
+                enqueued_contexts[i],
             )
             observer_data = observer.data[0]
             observer_data.pop("__url")
@@ -371,7 +377,7 @@ if __name__ == "__main__":
     base_url = metadata["url"]
     scrape_listing = metadata.pop("scraper_listing", None)
     scrape_detail = metadata.pop("scraper_detail", None)
-    
+
     asyncio.run(
         create_end2end_examples(
             base_url, metadata, scrape_listing, scrape_detail, "bananalyzer-examples"
