@@ -308,7 +308,7 @@ def fetch_scraper_code(job_id: str, stage: str, token: str) -> Optional[str]:
         return None
 
 
-def fetch_scraper_metadata(job_id: str, token: str) -> Optional[dict]:
+def fetch_scraper_metadata(job_id: str, token: str) -> dict[str, Any]:
     url = f"{api_url}/api/jobs/{job_id}"
     headers = {"Authorization": f"Bearer {token}"}
     try:
@@ -321,8 +321,7 @@ def fetch_scraper_metadata(job_id: str, token: str) -> Optional[dict]:
             "goal": data["group"]["goal"],
         }
     except requests.HTTPError as e:
-        print(f"Failed to fetch job metadata: {e}")
-        return None
+        raise ValueError(f"Failed to fetch scraper metadata: {e}")
 
 
 def download_scrapers(job_id: str, token: str) -> dict[str, Any]:
