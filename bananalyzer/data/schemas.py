@@ -39,7 +39,7 @@ PossibleTags = Literal[
     "badly-formatted",
     "urls",
     "enqueue",
-    "infinite-scroll"
+    "infinite-scroll",
 ]
 
 
