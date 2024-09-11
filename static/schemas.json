@@ -272,6 +272,99 @@
       "description": "The pre-proposal location of the document."
     }
   },
+  "contract_3": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier for the document"
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of the document"
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the document"
+    },
+    "status": {
+      "type": "string",
+      "description": "The status of the document"
+    },
+    "category": {
+      "type": "string",
+      "description": "The category of the document"
+    },
+    "due_date": {
+      "type": "string",
+      "description": "The due date of the document"
+    },
+    "location": {
+      "type": "string",
+      "description": "The location of the document"
+    },
+    "buyer_name": {
+      "type": "string",
+      "description": "The name of the buyer"
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "url",
+            "actions": {
+              "download": true
+            }
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "An array of attachments"
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the document"
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "The date the document was posted"
+    },
+    "procurement_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "code_type": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "code_description": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "An array of procurement items"
+    },
+    "buyer_contact_name": {
+      "type": "string",
+      "description": "The name of the buyer contact"
+    },
+    "buyer_contact_email": {
+      "type": "string",
+      "description": "The email of the buyer contact"
+    },
+    "buyer_contact_number": {
+      "type": "string",
+      "description": "The phone number of the buyer contact"
+    }
+  },
   "manufacturing_commerce": {
     "mpn": {
       "type": "string"
