@@ -825,7 +825,7 @@
       "type": "string"
     },
     "title": {
-      "description": "The title or role of the individual within the school",
+      "description": "The job title/role/department of the individual within the school. Example: Social Studies Teacher",
       "type": "string"
     },
     "email": {
