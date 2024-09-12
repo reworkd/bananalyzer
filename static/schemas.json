@@ -818,22 +818,22 @@
     }
   },
   "listing_education_contact": {
-    "email": {
-      "description": "The email address of the individual",
-      "type": "string"
-    },
     "first_name": {
       "type": "string"
     },
     "last_name": {
       "type": "string"
     },
-    "phone_number": {
-      "description": "Phone number of the individual within the school. Do not include irrelevant text.",
-      "type": "string"
-    },
     "title": {
       "description": "The title or role of the individual within the school",
+      "type": "string"
+    },
+    "email": {
+      "description": "The email address of the individual",
+      "type": "string"
+    },
+    "phone_number": {
+      "description": "Phone number of the individual within the school. Do not include irrelevant text.",
       "type": "string"
     }
   },
