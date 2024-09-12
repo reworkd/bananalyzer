@@ -38154,5 +38154,441 @@
         }
       }
     ]
+  },
+  {
+    "id": "pN2PuojJCxJErZleGSFh1",
+    "url": "https://www.milforded.org/o/mathewson/staff",
+    "resource_path": "s3://bananalyzer-examples/milforded_org.tar.gz",
+    "source": "har",
+    "category": "education",
+    "subcategory": "contact",
+    "type": "listing_detail",
+    "goal": "Extract the contact information of all members of the school faculty from the page. Do not click random buttons. If the data is not on the page then leave it as null. The information of a single individual should be clustered together.",
+    "schema_": "listing_education_contact",
+    "tags": [
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "AMY ANDREWS",
+            "title": "Resource Teacher",
+            "email": "aandrews@milforded.org"
+          },
+          {
+            "name": "JILL ARONIN",
+            "title": "",
+            "email": "jaronin@milforded.org"
+          },
+          {
+            "name": "KRISTINA BACHMAN",
+            "title": "Kitchen Manager",
+            "email": "kbachman@milforded.org"
+          },
+          {
+            "name": "SOULA BARKAS",
+            "title": "Grade 4 Teacher",
+            "email": "sbarkas@milforded.org"
+          },
+          {
+            "name": "ERIN BARRY",
+            "title": "Speech Pathologist",
+            "email": "ebarry@milforded.org"
+          },
+          {
+            "name": "ANNE BERNACCHIA",
+            "title": "Paraprofessional",
+            "email": "abernacchia@milforded.org"
+          },
+          {
+            "name": "SHANNON BLOMBERG",
+            "title": "Grade 3 Teacher",
+            "email": "sblomberg@milforded.org"
+          },
+          {
+            "name": "RACHEL BOLES",
+            "title": "Instructional Coach",
+            "email": "rboles@milforded.org"
+          },
+          {
+            "name": "BRIAN BOOTS",
+            "title": "Music Teacher",
+            "email": "bboots@milforded.org"
+          },
+          {
+            "name": "CHRISTOPHER BREWSTER",
+            "title": "Intern",
+            "email": "cbrewster@milforded.org"
+          },
+          {
+            "name": "ELIZABETH BUCKHOLZ",
+            "title": "Grade 2 Teacher",
+            "email": "ebuckholz@milforded.org"
+          },
+          {
+            "name": "AMY BUGGE",
+            "title": "Grade 2 Teacher",
+            "email": "abugge@milforded.org"
+          },
+          {
+            "name": "DAVID CALDERON",
+            "title": "Custodian",
+            "email": "dcalderon@milforded.org"
+          },
+          {
+            "name": "REBECCA CAMPERLENGO",
+            "title": "Grade 3 Teacher",
+            "email": "bcamperlengo@milforded.org"
+          },
+          {
+            "name": "PETRINA CANEVARI",
+            "title": "Grade 1 Teacher",
+            "email": "pcanevari@milforded.org"
+          },
+          {
+            "name": "KYLIE CARINO",
+            "title": "Intern",
+            "email": "kcarino@milforded.org"
+          },
+          {
+            "name": "RHIANNON CRANDLEY",
+            "title": "Building Substitute Teacher",
+            "email": "rcrandley@milforded.org"
+          },
+          {
+            "name": "MELISSA CURRIER",
+            "title": "Principal",
+            "email": "mcurrier@milforded.org"
+          },
+          {
+            "name": "JESSICA CURTIS",
+            "title": "Instructional Coach",
+            "email": "jcurtis@milforded.org"
+          },
+          {
+            "name": "JOANNE CYR",
+            "title": "Social Worker",
+            "email": "jcyr@milforded.org"
+          },
+          {
+            "name": "MICHELLE D'AIUTO",
+            "title": "Music Teacher",
+            "email": "mdaiuto@milforded.org"
+          },
+          {
+            "name": "CAITLYN DECROSTA",
+            "title": "School Counselor",
+            "email": "cdecrosta@milforded.org"
+          },
+          {
+            "name": "FRANCES DOW",
+            "title": "OT/PT",
+            "email": "fdow@milforded.org"
+          },
+          {
+            "name": "KARA DOYLE",
+            "title": "Speech Pathologist",
+            "email": "kdoyle@milforded.org"
+          },
+          {
+            "name": "ROBIN FEHR",
+            "title": "Music Teacher",
+            "email": "rfehr@milforded.org"
+          },
+          {
+            "name": "MEGHAN FITZSIMONS",
+            "title": "Grade 1 Teacher",
+            "email": "mfitzsimons@milforded.org"
+          },
+          {
+            "name": "TRACY FRATARCANGELI",
+            "title": "Paraprofessional",
+            "email": "tfratarcangeli@milforded.org"
+          },
+          {
+            "name": "KAREN GALLANT",
+            "title": "Lunch Aide",
+            "email": "kgallant@milforded.org"
+          },
+          {
+            "name": "WILLIAM GARRY",
+            "title": "Custodian",
+            "email": "wgarry@milforded.org"
+          },
+          {
+            "name": "WILLIAM GATES",
+            "title": "Custodian",
+            "email": "wgates@milforded.org"
+          },
+          {
+            "name": "MARCY GONSKI",
+            "title": "Secretary",
+            "email": "mgonski@milforded.org"
+          },
+          {
+            "name": "JENNIFER GREEN",
+            "title": "Physical Education Teacher",
+            "email": "jgreen@milforded.org"
+          },
+          {
+            "name": "ANGELA HARDISON",
+            "title": "Paraprofessional",
+            "email": "ahardison@milforded.org"
+          },
+          {
+            "name": "JACQUELYN HEFFERNAN",
+            "title": "Paraprofessional",
+            "email": "jheffernan@milforded.org"
+          },
+          {
+            "name": "MICHAEL HENTHORN SR",
+            "title": "Custodian",
+            "email": "michaelhenthorn@milforded.org"
+          },
+          {
+            "name": "KIMBERLY HILTON-JULIEN",
+            "title": "Behaviorist",
+            "email": "khiltonjulien@milforded.org"
+          },
+          {
+            "name": "MELANIE HORN",
+            "title": "Special Education Teacher",
+            "email": "mhorn@milforded.org"
+          },
+          {
+            "name": "KELSEY HUNTER",
+            "title": "Special Education Teacher",
+            "email": "khunter@milforded.org"
+          },
+          {
+            "name": "NICOLE ISAAC",
+            "title": "Grade 5 Teacher",
+            "email": "nisaac@milforded.org"
+          },
+          {
+            "name": "ANGELA JAGGERS",
+            "title": "Grade 1 Teacher",
+            "email": "ajaggers@milforded.org"
+          },
+          {
+            "name": "ELIZABETH KELLER",
+            "title": "Special Education Teacher",
+            "email": "ekeller@milforded.org"
+          },
+          {
+            "name": "MARIA KINGSLEY",
+            "title": "Paraprofessional",
+            "email": "ekingsley@milforded.org"
+          },
+          {
+            "name": "JACLYN KLEIN",
+            "title": "ESL Teacher",
+            "email": "jklein@milforded.org"
+          },
+          {
+            "name": "MANJUSHA KOTHARI",
+            "title": "Greeter",
+            "email": "mkothari@milforded.org"
+          },
+          {
+            "name": "EMILY KOWALSKI",
+            "title": "Paraprofessional",
+            "email": "ekowalski@milforded.org"
+          },
+          {
+            "name": "JOANNA LAPHAM",
+            "title": "World Language Teacher",
+            "email": "jlapham@milforded.org"
+          },
+          {
+            "name": "MARC LAPIERRE",
+            "title": "Grade 5 Teacher",
+            "email": "mlapierre@milforded.org"
+          },
+          {
+            "name": "DENISE LORENZO",
+            "title": "STEM Educator/Teacher",
+            "email": "dlorenzo@milforded.org"
+          },
+          {
+            "name": "ANDREW MAGAZINE",
+            "title": "Instructional Coach",
+            "email": "amagazine@milforded.org"
+          },
+          {
+            "name": "KAYLEIGH MANN",
+            "title": "Psychologist",
+            "email": "kmann@milforded.org"
+          },
+          {
+            "name": "LAURA MARINELLI",
+            "title": "Grade 5 Teacher",
+            "email": "lmarinelli@milforded.org"
+          },
+          {
+            "name": "MONICA MARKOVICS",
+            "title": "Grade 3 Teacher",
+            "email": "mmarkovics@milforded.org"
+          },
+          {
+            "name": "JESSICA MCCLURE",
+            "title": "Intern",
+            "email": "jmcclure@milforded.org"
+          },
+          {
+            "name": "SUSANNE MCKEEVER",
+            "title": "Paraprofessional",
+            "email": "smckeever@milforded.org"
+          },
+          {
+            "name": "JOSEPH MESSINA",
+            "title": "Instructional Coach",
+            "email": "joemessina@milforded.org"
+          },
+          {
+            "name": "ROSA MOHRMANN",
+            "title": "Paraprofessional",
+            "email": "rmohrmann@milforded.org"
+          },
+          {
+            "name": "MEGAN MORAN",
+            "title": "Special Education Teacher",
+            "email": "meganmoran@milforded.org"
+          },
+          {
+            "name": "VICTORIA MORRIS",
+            "title": "Resource Teacher",
+            "email": "vmorris@milforded.org"
+          },
+          {
+            "name": "LAURA MURPHY",
+            "title": "Kindergarten Teacher",
+            "email": "lmurphy@milforded.org"
+          },
+          {
+            "name": "LOUISA NANN",
+            "title": "Intern",
+            "email": "lnann@milforded.org"
+          },
+          {
+            "name": "SHANNON NICHOLS",
+            "title": "Teacher Leader",
+            "email": "snichols@milforded.org"
+          },
+          {
+            "name": "CAROLYN O'BRIEN",
+            "title": "Lunch Aide",
+            "email": "cobrien@milforded.org"
+          },
+          {
+            "name": "DONNA OLEYAR",
+            "title": "Lunch Aide",
+            "email": "doleyar@milforded.org"
+          },
+          {
+            "name": "ANNE RAUCCI",
+            "title": "Kindergarten Teacher",
+            "email": "araucci@milforded.org"
+          },
+          {
+            "name": "PAIGE RAUCCI",
+            "title": "Special Education Teacher",
+            "email": "paigeraucci@milforded.org"
+          },
+          {
+            "name": "ANGELA RIZZO",
+            "title": "Social Worker",
+            "email": "angelarizzo@milforded.org"
+          },
+          {
+            "name": "SUSAN RODRIGUES",
+            "title": "Kindergarten Teacher",
+            "email": "srodrigues@milforded.org"
+          },
+          {
+            "name": "ERICA RUSCH",
+            "title": "Paraprofessional",
+            "email": "erusch@milforded.org"
+          },
+          {
+            "name": "MICHELLE SCHERBACK",
+            "title": "Paraprofessional",
+            "email": "mscherback@milforded.org"
+          },
+          {
+            "name": "MEGAN SCHUMANN",
+            "title": "Instructional Coach",
+            "email": "mschumann@milforded.org"
+          },
+          {
+            "name": "CARA SEWARD",
+            "title": "Grade 4 Teacher",
+            "email": "cseward@milforded.org"
+          },
+          {
+            "name": "SAMANTHA SIMONE",
+            "title": "Nurse",
+            "email": "ssimone@milfordct.gov"
+          },
+          {
+            "name": "KARA SINSKI",
+            "title": "Art Teacher",
+            "email": "ksinski@milforded.org"
+          },
+          {
+            "name": "ALISON SPEARS",
+            "title": "Paraprofessional",
+            "email": "aspears@milforded.org"
+          },
+          {
+            "name": "THOMAS STACK",
+            "title": "Enrichment Teacher",
+            "email": "TStack@milforded.org"
+          },
+          {
+            "name": "DIANDRA SWALLER",
+            "title": "Kindergarten Teacher",
+            "email": "dswaller@milforded.org"
+          },
+          {
+            "name": "PATRICIA TADDEI",
+            "title": "Paraprofessional",
+            "email": "ptaddei@milforded.org"
+          },
+          {
+            "name": "KYLE TRAPP",
+            "title": "Custodian",
+            "email": "ktrapp@milforded.org"
+          },
+          {
+            "name": "ROSANNE TUOZZOLA",
+            "title": "Grade 2 Teacher",
+            "email": "rtuozzola@milforded.org"
+          },
+          {
+            "name": "MARISSA VALENTI",
+            "title": "Intern",
+            "email": "mvalenti@milforded.org"
+          },
+          {
+            "name": "KATHERINE WETMORE",
+            "title": "Media Specialist/Teacher",
+            "email": "kwetmore@milforded.org"
+          },
+          {
+            "name": "MARY-KATHRYN WILLIAMS",
+            "title": "Community Connections Centers Coordinator",
+            "email": "mwilliams@milforded.org"
+          },
+          {
+            "name": "LAUREL WYPYCHOSKI",
+            "title": "OT/PT",
+            "email": "lwypychoski@milforded.org"
+          }
+        ]
+      }
+    ]
   }
 ]
