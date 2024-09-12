@@ -38173,419 +38173,585 @@
         "type": "json_match",
         "expected": [
           {
-            "name": "AMY ANDREWS",
+            "first_name": "AMY",
+            "last_name": "ANDREWS",
             "title": "Resource Teacher",
-            "email": "aandrews@milforded.org"
+            "email": "aandrews@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JILL ARONIN",
-            "title": "",
-            "email": "jaronin@milforded.org"
+            "first_name": "JILL",
+            "last_name": "ARONIN",
+            "title": null,
+            "email": "jaronin@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KRISTINA BACHMAN",
+            "first_name": "KRISTINA",
+            "last_name": "BACHMAN",
             "title": "Kitchen Manager",
-            "email": "kbachman@milforded.org"
+            "email": "kbachman@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SOULA BARKAS",
+            "first_name": "SOULA",
+            "last_name": "BARKAS",
             "title": "Grade 4 Teacher",
-            "email": "sbarkas@milforded.org"
+            "email": "sbarkas@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ERIN BARRY",
+            "first_name": "ERIN",
+            "last_name": "BARRY",
             "title": "Speech Pathologist",
-            "email": "ebarry@milforded.org"
+            "email": "ebarry@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANNE BERNACCHIA",
+            "first_name": "ANNE",
+            "last_name": "BERNACCHIA",
             "title": "Paraprofessional",
-            "email": "abernacchia@milforded.org"
+            "email": "abernacchia@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SHANNON BLOMBERG",
+            "first_name": "SHANNON",
+            "last_name": "BLOMBERG",
             "title": "Grade 3 Teacher",
-            "email": "sblomberg@milforded.org"
+            "email": "sblomberg@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "RACHEL BOLES",
+            "first_name": "RACHEL",
+            "last_name": "BOLES",
             "title": "Instructional Coach",
-            "email": "rboles@milforded.org"
+            "email": "rboles@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "BRIAN BOOTS",
+            "first_name": "BRIAN",
+            "last_name": "BOOTS",
             "title": "Music Teacher",
-            "email": "bboots@milforded.org"
+            "email": "bboots@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "CHRISTOPHER BREWSTER",
+            "first_name": "CHRISTOPHER",
+            "last_name": "BREWSTER",
             "title": "Intern",
-            "email": "cbrewster@milforded.org"
+            "email": "cbrewster@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ELIZABETH BUCKHOLZ",
+            "first_name": "ELIZABETH",
+            "last_name": "BUCKHOLZ",
             "title": "Grade 2 Teacher",
-            "email": "ebuckholz@milforded.org"
+            "email": "ebuckholz@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "AMY BUGGE",
+            "first_name": "AMY",
+            "last_name": "BUGGE",
             "title": "Grade 2 Teacher",
-            "email": "abugge@milforded.org"
+            "email": "abugge@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "DAVID CALDERON",
+            "first_name": "DAVID",
+            "last_name": "CALDERON",
             "title": "Custodian",
-            "email": "dcalderon@milforded.org"
+            "email": "dcalderon@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "REBECCA CAMPERLENGO",
+            "first_name": "REBECCA",
+            "last_name": "CAMPERLENGO",
             "title": "Grade 3 Teacher",
-            "email": "bcamperlengo@milforded.org"
+            "email": "bcamperlengo@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "PETRINA CANEVARI",
+            "first_name": "PETRINA",
+            "last_name": "CANEVARI",
             "title": "Grade 1 Teacher",
-            "email": "pcanevari@milforded.org"
+            "email": "pcanevari@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KYLIE CARINO",
+            "first_name": "KYLIE",
+            "last_name": "CARINO",
             "title": "Intern",
-            "email": "kcarino@milforded.org"
+            "email": "kcarino@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "RHIANNON CRANDLEY",
+            "first_name": "RHIANNON",
+            "last_name": "CRANDLEY",
             "title": "Building Substitute Teacher",
-            "email": "rcrandley@milforded.org"
+            "email": "rcrandley@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MELISSA CURRIER",
+            "first_name": "MELISSA",
+            "last_name": "CURRIER",
             "title": "Principal",
-            "email": "mcurrier@milforded.org"
+            "email": "mcurrier@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JESSICA CURTIS",
+            "first_name": "JESSICA",
+            "last_name": "CURTIS",
             "title": "Instructional Coach",
-            "email": "jcurtis@milforded.org"
+            "email": "jcurtis@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JOANNE CYR",
+            "first_name": "JOANNE",
+            "last_name": "CYR",
             "title": "Social Worker",
-            "email": "jcyr@milforded.org"
+            "email": "jcyr@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MICHELLE D'AIUTO",
+            "first_name": "MICHELLE",
+            "last_name": "D'AIUTO",
             "title": "Music Teacher",
-            "email": "mdaiuto@milforded.org"
+            "email": "mdaiuto@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "CAITLYN DECROSTA",
+            "first_name": "CAITLYN",
+            "last_name": "DECROSTA",
             "title": "School Counselor",
-            "email": "cdecrosta@milforded.org"
+            "email": "cdecrosta@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "FRANCES DOW",
+            "first_name": "FRANCES",
+            "last_name": "DOW",
             "title": "OT/PT",
-            "email": "fdow@milforded.org"
+            "email": "fdow@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KARA DOYLE",
+            "first_name": "KARA",
+            "last_name": "DOYLE",
             "title": "Speech Pathologist",
-            "email": "kdoyle@milforded.org"
+            "email": "kdoyle@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ROBIN FEHR",
+            "first_name": "ROBIN",
+            "last_name": "FEHR",
             "title": "Music Teacher",
-            "email": "rfehr@milforded.org"
+            "email": "rfehr@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MEGHAN FITZSIMONS",
+            "first_name": "MEGHAN",
+            "last_name": "FITZSIMONS",
             "title": "Grade 1 Teacher",
-            "email": "mfitzsimons@milforded.org"
+            "email": "mfitzsimons@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "TRACY FRATARCANGELI",
+            "first_name": "TRACY",
+            "last_name": "FRATARCANGELI",
             "title": "Paraprofessional",
-            "email": "tfratarcangeli@milforded.org"
+            "email": "tfratarcangeli@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KAREN GALLANT",
+            "first_name": "KAREN",
+            "last_name": "GALLANT",
             "title": "Lunch Aide",
-            "email": "kgallant@milforded.org"
+            "email": "kgallant@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "WILLIAM GARRY",
+            "first_name": "WILLIAM",
+            "last_name": "GARRY",
             "title": "Custodian",
-            "email": "wgarry@milforded.org"
+            "email": "wgarry@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "WILLIAM GATES",
+            "first_name": "WILLIAM",
+            "last_name": "GATES",
             "title": "Custodian",
-            "email": "wgates@milforded.org"
+            "email": "wgates@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MARCY GONSKI",
+            "first_name": "MARCY",
+            "last_name": "GONSKI",
             "title": "Secretary",
-            "email": "mgonski@milforded.org"
+            "email": "mgonski@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JENNIFER GREEN",
+            "first_name": "JENNIFER",
+            "last_name": "GREEN",
             "title": "Physical Education Teacher",
-            "email": "jgreen@milforded.org"
+            "email": "jgreen@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANGELA HARDISON",
+            "first_name": "ANGELA",
+            "last_name": "HARDISON",
             "title": "Paraprofessional",
-            "email": "ahardison@milforded.org"
+            "email": "ahardison@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JACQUELYN HEFFERNAN",
+            "first_name": "JACQUELYN",
+            "last_name": "HEFFERNAN",
             "title": "Paraprofessional",
-            "email": "jheffernan@milforded.org"
+            "email": "jheffernan@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MICHAEL HENTHORN SR",
+            "first_name": "MICHAEL",
+            "last_name": "HENTHORN SR",
             "title": "Custodian",
-            "email": "michaelhenthorn@milforded.org"
+            "email": "michaelhenthorn@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KIMBERLY HILTON-JULIEN",
+            "first_name": "KIMBERLY",
+            "last_name": "HILTON-JULIEN",
             "title": "Behaviorist",
-            "email": "khiltonjulien@milforded.org"
+            "email": "khiltonjulien@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MELANIE HORN",
+            "first_name": "MELANIE",
+            "last_name": "HORN",
             "title": "Special Education Teacher",
-            "email": "mhorn@milforded.org"
+            "email": "mhorn@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KELSEY HUNTER",
+            "first_name": "KELSEY",
+            "last_name": "HUNTER",
             "title": "Special Education Teacher",
-            "email": "khunter@milforded.org"
+            "email": "khunter@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "NICOLE ISAAC",
+            "first_name": "NICOLE",
+            "last_name": "ISAAC",
             "title": "Grade 5 Teacher",
-            "email": "nisaac@milforded.org"
+            "email": "nisaac@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANGELA JAGGERS",
+            "first_name": "ANGELA",
+            "last_name": "JAGGERS",
             "title": "Grade 1 Teacher",
-            "email": "ajaggers@milforded.org"
+            "email": "ajaggers@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ELIZABETH KELLER",
+            "first_name": "ELIZABETH",
+            "last_name": "KELLER",
             "title": "Special Education Teacher",
-            "email": "ekeller@milforded.org"
+            "email": "ekeller@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MARIA KINGSLEY",
+            "first_name": "MARIA",
+            "last_name": "KINGSLEY",
             "title": "Paraprofessional",
-            "email": "ekingsley@milforded.org"
+            "email": "ekingsley@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JACLYN KLEIN",
+            "first_name": "JACLYN",
+            "last_name": "KLEIN",
             "title": "ESL Teacher",
-            "email": "jklein@milforded.org"
+            "email": "jklein@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MANJUSHA KOTHARI",
+            "first_name": "MANJUSHA",
+            "last_name": "KOTHARI",
             "title": "Greeter",
-            "email": "mkothari@milforded.org"
+            "email": "mkothari@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "EMILY KOWALSKI",
+            "first_name": "EMILY",
+            "last_name": "KOWALSKI",
             "title": "Paraprofessional",
-            "email": "ekowalski@milforded.org"
+            "email": "ekowalski@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JOANNA LAPHAM",
+            "first_name": "JOANNA",
+            "last_name": "LAPHAM",
             "title": "World Language Teacher",
-            "email": "jlapham@milforded.org"
+            "email": "jlapham@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MARC LAPIERRE",
+            "first_name": "MARC",
+            "last_name": "LAPIERRE",
             "title": "Grade 5 Teacher",
-            "email": "mlapierre@milforded.org"
+            "email": "mlapierre@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "DENISE LORENZO",
+            "first_name": "DENISE",
+            "last_name": "LORENZO",
             "title": "STEM Educator/Teacher",
-            "email": "dlorenzo@milforded.org"
+            "email": "dlorenzo@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANDREW MAGAZINE",
+            "first_name": "ANDREW",
+            "last_name": "MAGAZINE",
             "title": "Instructional Coach",
-            "email": "amagazine@milforded.org"
+            "email": "amagazine@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KAYLEIGH MANN",
+            "first_name": "KAYLEIGH",
+            "last_name": "MANN",
             "title": "Psychologist",
-            "email": "kmann@milforded.org"
+            "email": "kmann@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "LAURA MARINELLI",
+            "first_name": "LAURA",
+            "last_name": "MARINELLI",
             "title": "Grade 5 Teacher",
-            "email": "lmarinelli@milforded.org"
+            "email": "lmarinelli@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MONICA MARKOVICS",
+            "first_name": "MONICA",
+            "last_name": "MARKOVICS",
             "title": "Grade 3 Teacher",
-            "email": "mmarkovics@milforded.org"
+            "email": "mmarkovics@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JESSICA MCCLURE",
+            "first_name": "JESSICA",
+            "last_name": "MCCLURE",
             "title": "Intern",
-            "email": "jmcclure@milforded.org"
+            "email": "jmcclure@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SUSANNE MCKEEVER",
+            "first_name": "SUSANNE",
+            "last_name": "MCKEEVER",
             "title": "Paraprofessional",
-            "email": "smckeever@milforded.org"
+            "email": "smckeever@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "JOSEPH MESSINA",
+            "first_name": "JOSEPH",
+            "last_name": "MESSINA",
             "title": "Instructional Coach",
-            "email": "joemessina@milforded.org"
+            "email": "joemessina@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ROSA MOHRMANN",
+            "first_name": "ROSA",
+            "last_name": "MOHRMANN",
             "title": "Paraprofessional",
-            "email": "rmohrmann@milforded.org"
+            "email": "rmohrmann@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MEGAN MORAN",
+            "first_name": "MEGAN",
+            "last_name": "MORAN",
             "title": "Special Education Teacher",
-            "email": "meganmoran@milforded.org"
+            "email": "meganmoran@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "VICTORIA MORRIS",
+            "first_name": "VICTORIA",
+            "last_name": "MORRIS",
             "title": "Resource Teacher",
-            "email": "vmorris@milforded.org"
+            "email": "vmorris@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "LAURA MURPHY",
+            "first_name": "LAURA",
+            "last_name": "MURPHY",
             "title": "Kindergarten Teacher",
-            "email": "lmurphy@milforded.org"
+            "email": "lmurphy@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "LOUISA NANN",
+            "first_name": "LOUISA",
+            "last_name": "NANN",
             "title": "Intern",
-            "email": "lnann@milforded.org"
+            "email": "lnann@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SHANNON NICHOLS",
+            "first_name": "SHANNON",
+            "last_name": "NICHOLS",
             "title": "Teacher Leader",
-            "email": "snichols@milforded.org"
+            "email": "snichols@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "CAROLYN O'BRIEN",
+            "first_name": "CAROLYN",
+            "last_name": "O'BRIEN",
             "title": "Lunch Aide",
-            "email": "cobrien@milforded.org"
+            "email": "cobrien@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "DONNA OLEYAR",
+            "first_name": "DONNA",
+            "last_name": "OLEYAR",
             "title": "Lunch Aide",
-            "email": "doleyar@milforded.org"
+            "email": "doleyar@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANNE RAUCCI",
+            "first_name": "ANNE",
+            "last_name": "RAUCCI",
             "title": "Kindergarten Teacher",
-            "email": "araucci@milforded.org"
+            "email": "araucci@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "PAIGE RAUCCI",
+            "first_name": "PAIGE",
+            "last_name": "RAUCCI",
             "title": "Special Education Teacher",
-            "email": "paigeraucci@milforded.org"
+            "email": "paigeraucci@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ANGELA RIZZO",
+            "first_name": "ANGELA",
+            "last_name": "RIZZO",
             "title": "Social Worker",
-            "email": "angelarizzo@milforded.org"
+            "email": "angelarizzo@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SUSAN RODRIGUES",
+            "first_name": "SUSAN",
+            "last_name": "RODRIGUES",
             "title": "Kindergarten Teacher",
-            "email": "srodrigues@milforded.org"
+            "email": "srodrigues@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ERICA RUSCH",
+            "first_name": "ERICA",
+            "last_name": "RUSCH",
             "title": "Paraprofessional",
-            "email": "erusch@milforded.org"
+            "email": "erusch@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MICHELLE SCHERBACK",
+            "first_name": "MICHELLE",
+            "last_name": "SCHERBACK",
             "title": "Paraprofessional",
-            "email": "mscherback@milforded.org"
+            "email": "mscherback@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MEGAN SCHUMANN",
+            "first_name": "MEGAN",
+            "last_name": "SCHUMANN",
             "title": "Instructional Coach",
-            "email": "mschumann@milforded.org"
+            "email": "mschumann@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "CARA SEWARD",
+            "first_name": "CARA",
+            "last_name": "SEWARD",
             "title": "Grade 4 Teacher",
-            "email": "cseward@milforded.org"
+            "email": "cseward@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "SAMANTHA SIMONE",
+            "first_name": "SAMANTHA",
+            "last_name": "SIMONE",
             "title": "Nurse",
-            "email": "ssimone@milfordct.gov"
+            "email": "ssimone@milfordct.gov",
+            "phone_number": null
           },
           {
-            "name": "KARA SINSKI",
+            "first_name": "KARA",
+            "last_name": "SINSKI",
             "title": "Art Teacher",
-            "email": "ksinski@milforded.org"
+            "email": "ksinski@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ALISON SPEARS",
+            "first_name": "ALISON",
+            "last_name": "SPEARS",
             "title": "Paraprofessional",
-            "email": "aspears@milforded.org"
+            "email": "aspears@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "THOMAS STACK",
+            "first_name": "THOMAS",
+            "last_name": "STACK",
             "title": "Enrichment Teacher",
-            "email": "TStack@milforded.org"
+            "email": "TStack@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "DIANDRA SWALLER",
+            "first_name": "DIANDRA",
+            "last_name": "SWALLER",
             "title": "Kindergarten Teacher",
-            "email": "dswaller@milforded.org"
+            "email": "dswaller@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "PATRICIA TADDEI",
+            "first_name": "PATRICIA",
+            "last_name": "TADDEI",
             "title": "Paraprofessional",
-            "email": "ptaddei@milforded.org"
+            "email": "ptaddei@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KYLE TRAPP",
+            "first_name": "KYLE",
+            "last_name": "TRAPP",
             "title": "Custodian",
-            "email": "ktrapp@milforded.org"
+            "email": "ktrapp@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "ROSANNE TUOZZOLA",
+            "first_name": "ROSANNE",
+            "last_name": "TUOZZOLA",
             "title": "Grade 2 Teacher",
-            "email": "rtuozzola@milforded.org"
+            "email": "rtuozzola@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MARISSA VALENTI",
+            "first_name": "MARISSA",
+            "last_name": "VALENTI",
             "title": "Intern",
-            "email": "mvalenti@milforded.org"
+            "email": "mvalenti@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "KATHERINE WETMORE",
+            "first_name": "KATHERINE",
+            "last_name": "WETMORE",
             "title": "Media Specialist/Teacher",
-            "email": "kwetmore@milforded.org"
+            "email": "kwetmore@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "MARY-KATHRYN WILLIAMS",
+            "first_name": "MARY-KATHRYN",
+            "last_name": "WILLIAMS",
             "title": "Community Connections Centers Coordinator",
-            "email": "mwilliams@milforded.org"
+            "email": "mwilliams@milforded.org",
+            "phone_number": null
           },
           {
-            "name": "LAUREL WYPYCHOSKI",
+            "first_name": "LAUREL",
+            "last_name": "WYPYCHOSKI",
             "title": "OT/PT",
-            "email": "lwypychoski@milforded.org"
+            "email": "lwypychoski@milforded.org",
+            "phone_number": null
           }
         ]
       }
