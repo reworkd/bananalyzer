@@ -39529,7 +39529,7 @@
     "source": "html",
     "category": "synthetic",
     "subcategory": "synthetic",
-    "type": "image",
+    "type": "detail",
     "goal": "Extract image URL and the alt text",
     "schema_": {
       "image_url": {
@@ -39541,7 +39541,7 @@
     },
     "tags": [
       "synthetic",
-      "image"
+      "images"
     ],
     "evals": [
       {
