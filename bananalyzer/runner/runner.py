@@ -45,6 +45,7 @@ import asyncio
 
 from bananalyzer.data.examples import get_example_by_url
 from playwright.async_api import async_playwright
+from harambe.parser.parser import PydanticSchemaParser
 
 @pytest.fixture(scope="session")
 def event_loop():

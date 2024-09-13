@@ -30,6 +30,12 @@ class {self._generate_class_name(example)}:
         agent = agent_constructor()
         try:
             data = await agent.run(page, self.example)
+            validator = PydanticSchemaParser(self.example.schema_)
+            if self.example.type == "detail":
+                validator.validate(data, self.example.url)
+            elif self.example.type == "listing_detail":
+                for d in data:
+                    validator.validate(d, self.example.url)
         except Exception as e:
             error = e
         yield data, error
