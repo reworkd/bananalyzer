@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .pagination button {
+            margin: 0 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .pagination button.active {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .pagination button:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="productList"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        const products = [
+            {"id": "P001", "name": "Ergonomic Chair", "description": "Comfortable office chair with lumbar support"},
+            {"id": "P002", "name": "Wireless Mouse", "description": "High-precision wireless mouse with long battery life"},
+            {"id": "P003", "name": "Mechanical Keyboard", "description": "Tactile mechanical keyboard with RGB backlighting"},
+            {"id": "P004", "name": "4K Monitor", "description": "Ultra-high definition monitor with wide color gamut"},
+            {"id": "P005", "name": "Noise-Cancelling Headphones", "description": "Over-ear headphones with active noise cancellation"},
+            {"id": "P006", "name": "Laptop Stand", "description": "Adjustable aluminum laptop stand for better ergonomics"},
+            {"id": "P007", "name": "Desk Lamp", "description": "LED desk lamp with adjustable color temperature"},
+            {"id": "P008", "name": "External SSD", "description": "Fast and portable solid-state drive for extra storage"},
+            {"id": "P009", "name": "Webcam", "description": "Full HD webcam with built-in microphone"},
+            {"id": "P010", "name": "USB Hub", "description": "Multi-port USB hub with power delivery"},
+            {"id": "P011", "name": "Graphics Tablet", "description": "Digital drawing tablet with pressure sensitivity"},
+            {"id": "P012", "name": "Wireless Charger", "description": "Qi-compatible wireless charging pad"},
+            {"id": "P013", "name": "Document Scanner", "description": "Portable document scanner with OCR functionality"},
+            {"id": "P014", "name": "Desk Organizer", "description": "Multi-compartment organizer for office supplies"},
+            {"id": "P015", "name": "Ergonomic Mouse Pad", "description": "Gel-filled mouse pad with wrist support"},
+            {"id": "P016", "name": "Portable Projector", "description": "Mini LED projector for presentations on-the-go"},
+            {"id": "P017", "name": "Smart Power Strip", "description": "Wi-Fi enabled power strip with individual outlet control"},
+            {"id": "P018", "name": "Cable Management Kit", "description": "Set of cable clips and sleeves for tidy workspaces"},
+            {"id": "P019", "name": "Desk Fan", "description": "USB-powered desk fan with adjustable speed"},
+            {"id": "P020", "name": "Blue Light Glasses", "description": "Computer glasses that filter out harmful blue light"},
+            {"id": "P021", "name": "Wireless Presenter", "description": "Remote control for presentations with laser pointer"},
+            {"id": "P022", "name": "Laptop Cooling Pad", "description": "Laptop stand with built-in cooling fans"},
+            {"id": "P023", "name": "USB Microphone", "description": "Cardioid condenser microphone for clear audio recording"},
+            {"id": "P024", "name": "Desk Pad", "description": "Large mouse pad that covers the entire desk area"},
+            {"id": "P025", "name": "Portable Monitor", "description": "Slim and lightweight secondary monitor for laptops"}
+        ];
+
+        const itemsPerPage = 5;
+        let currentPage = 1;
+
+        function displayProducts(page) {
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageProducts = products.slice(start, end);
+
+            const productList = document.getElementById('productList');
+            productList.innerHTML = pageProducts.map(product => `
+                <div>
+                    <h3>${product.name}</h3>
+                    <p>ID: ${product.id}</p>
+                    <p>${product.description}</p>
+                </div>
+            `).join('');
+        }
+
+        function setupPagination() {
+            const pageCount = Math.ceil(products.length / itemsPerPage);
+            const pagination = document.getElementById('pagination');
+            pagination.innerHTML = '';
+
+            for (let i = 1; i <= pageCount; i++) {
+                const button = document.createElement('button');
+                button.innerText = i;
+                button.onclick = () => changePage(i);
+                if (i === currentPage) {
+                    button.classList.add('active');
+                    button.disabled = true;
+                }
+                pagination.appendChild(button);
+            }
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            displayProducts(currentPage);
+            setupPagination();
+        }
+
+        displayProducts(currentPage);
+        setupPagination();
+    </script>
+</body>
+</html>
