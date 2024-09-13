@@ -39530,7 +39530,7 @@
     "category": "synthetic",
     "subcategory": "synthetic",
     "type": "detail",
-    "goal": "Extract image URL and the alt text",
+    "goal": "Extract image src attribute and the alt text",
     "schema_": {
       "image_url": {
         "type": "string"
@@ -39548,7 +39548,7 @@
         "type": "json_match",
         "expected": [
           {
-            "image_url": "https://claude.site/artifacts/13c937f7-2a43-406c-8369-e2d2852fea9b",
+            "image_url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjgwIiBmaWxsPSIjMzQ5OGRiIi8+CiAgICA8cmVjdCB4PSI2MCIgeT0iNjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgZmlsbD0iI2U3NGMzYyIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIxMDAsNDAgMTIwLDcwIDgwLDcwIiBmaWxsPSIjMmVjYzcxIi8+Cjwvc3ZnPg==",
             "alt_text": "Geometric shapes: blue circle, red square, green triangle"
           }
         ]
