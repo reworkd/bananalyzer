@@ -39377,7 +39377,7 @@
           {
             "some_value": "Banana",
             "another_value": 20,
-            "a_third_value": 42
+            "a_third_value": "42"
           },
           {
             "some_value": "Cherry",
@@ -39387,7 +39387,7 @@
           {
             "some_value": "Date",
             "another_value": 40,
-            "a_third_value": 7
+            "a_third_value": "7"
           },
           {
             "some_value": "Elderberry",
@@ -39397,7 +39397,7 @@
           {
             "some_value": "Fig",
             "another_value": 60,
-            "a_third_value": 3.14
+            "a_third_value": "3.14"
           },
           {
             "some_value": "Grape",
@@ -39407,7 +39407,7 @@
           {
             "some_value": "Honeydew",
             "another_value": 80,
-            "a_third_value": 18
+            "a_third_value": "18"
           },
           {
             "some_value": "Imbe",
@@ -39417,7 +39417,7 @@
           {
             "some_value": "Jackfruit",
             "another_value": 100,
-            "a_third_value": 55
+            "a_third_value": "55"
           },
           {
             "some_value": "Kiwi",
@@ -39427,7 +39427,7 @@
           {
             "some_value": "Lemon",
             "another_value": 120,
-            "a_third_value": 2.5
+            "a_third_value": "2.5"
           },
           {
             "some_value": "Mango",
@@ -39437,7 +39437,7 @@
           {
             "some_value": "Nectarine",
             "another_value": 140,
-            "a_third_value": 9
+            "a_third_value": "9"
           },
           {
             "some_value": "Orange",
@@ -39452,7 +39452,7 @@
           {
             "some_value": "Quince",
             "another_value": 170,
-            "a_third_value": 4.8
+            "a_third_value": "4.8"
           },
           {
             "some_value": "Raspberry",
@@ -39462,7 +39462,7 @@
           {
             "some_value": "Strawberry",
             "another_value": 190,
-            "a_third_value": 22
+            "a_third_value": "22"
           },
           {
             "some_value": "Tangerine",
@@ -39477,7 +39477,7 @@
           {
             "some_value": "Vanilla",
             "another_value": 220,
-            "a_third_value": 1.2
+            "a_third_value": "1.2"
           },
           {
             "some_value": "Watermelon",
@@ -39487,7 +39487,7 @@
           {
             "some_value": "Xigua",
             "another_value": 240,
-            "a_third_value": 33
+            "a_third_value": "33"
           },
           {
             "some_value": "Yuzu",
@@ -39497,7 +39497,7 @@
           {
             "some_value": "Zucchini",
             "another_value": 260,
-            "a_third_value": 6
+            "a_third_value": "6"
           },
           {
             "some_value": "Apricot",
@@ -39507,7 +39507,7 @@
           {
             "some_value": "Blackberry",
             "another_value": 280,
-            "a_third_value": 15
+            "a_third_value": "15"
           },
           {
             "some_value": "Coconut",
@@ -39517,7 +39517,7 @@
           {
             "some_value": "Dragonfruit",
             "another_value": 300,
-            "a_third_value": 8.4
+            "a_third_value": "8.4"
           }
         ]
       }
