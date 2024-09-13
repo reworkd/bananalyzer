@@ -70,9 +70,9 @@
             const productList = document.getElementById('productList');
             productList.innerHTML = pageProducts.map(product => `
                 <div>
-                    <h3>${product.name}</h3>
-                    <p>ID: ${product.id}</p>
-                    <p>${product.description}</p>
+                    <h3 class="name">${product.name}</h3>
+                    <strong>id:</strong><p class="product-id">${product.id}</p>
+                    <p class="description">${product.description}</p>
                 </div>
             `).join('');
         }

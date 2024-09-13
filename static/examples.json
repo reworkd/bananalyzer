@@ -39546,7 +39546,8 @@
     "description": "Paginated data with only next and previous page buttons. The pagination occurs client side",
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
@@ -39653,7 +39654,8 @@
     "description": "Paginated product data with numbered page buttons. The current page button is disabled and has an 'active' CSS class. The pagination occurs client side using JavaScript.",
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
