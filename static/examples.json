@@ -39554,5 +39554,54 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rZxVXdF4puP0VaRmMB1Sj",
+    "url": "https://claude.site/artifacts/1d1446ca-3e29-4000-b9d2-fdd5605061a9",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "detail",
+    "goal": "Extract all the image src attributes and their alt text",
+    "schema_": {
+      "image_url": {
+          "type": "string"
+      },
+      "alt_text": {
+          "type": "string"
+      }
+    },
+    "tags": ["synthetic", "images"],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Crect width='200' height='150' fill='%233498db'/%3E%3Ctext x='100' y='75' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 1%3C/text%3E%3C/svg%3E",
+            "alt_text": "Blue Rectangle"
+          },
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Ccircle cx='100' cy='75' r='70' fill='%23e74c3c'/%3E%3Ctext x='100' y='75' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 2%3C/text%3E%3C/svg%3E",
+            "alt_text": "Red Circle"
+          },
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Cpolygon points='100,20 180,130 20,130' fill='%232ecc71'/%3E%3Ctext x='100' y='95' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 3%3C/text%3E%3C/svg%3E",
+            "alt_text": "Green Triangle"
+          },
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Cellipse cx='100' cy='75' rx='90' ry='60' fill='%23f39c12'/%3E%3Ctext x='100' y='75' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 4%3C/text%3E%3C/svg%3E",
+            "alt_text": "Orange Ellipse"
+          },
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Crect x='25' y='25' width='150' height='100' fill='%239b59b6'/%3E%3Ctext x='100' y='75' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 5%3C/text%3E%3C/svg%3E",
+            "alt_text": "Purple Rectangle"
+          },
+          {
+            "image_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150'%3E%3Cpath d='M100 20 L180 130 H20 Z' fill='%231abc9c'/%3E%3Ctext x='100' y='95' font-family='Arial' font-size='18' fill='white' text-anchor='middle' dominant-baseline='middle'%3EImage 6%3C/text%3E%3C/svg%3E",
+            "alt_text": "Teal Triangle"
+          }
+        ]
+      }
+    ]
   }
 ]
