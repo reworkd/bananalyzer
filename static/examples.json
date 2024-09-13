@@ -39531,7 +39531,7 @@
     "category": "synthetic",
     "subcategory": "synthetic",
     "type": "listing_detail",
-    "goal": "Extract all job listing information including role, company, city, and description",
+    "goal": "Extract all job listing information",
     "schema_": {
       "role": {
         "type": "string"
@@ -39546,7 +39546,7 @@
         "type": "string"
       }
     },
-    "description": "Paginated data with only next and previous page buttons. The pagination occurs client side, cycling through pages in a circular manner regardless of the current page. Each page displays 5 job listings with role title, company, city, and a brief description.",
+    "description": "Paginated data with only next and previous page buttons. The buttons always work regardless if the end page is hit and will cycle through the data in a circular manner.",
     "tags": [
       "synthetic",
       "pagination"
