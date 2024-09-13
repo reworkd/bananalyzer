@@ -39363,7 +39363,8 @@
     },
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
@@ -39524,6 +39525,113 @@
     ]
   },
   {
+    "id": "f3Qm9tXk2pLgbJMwySHd7",
+    "url": "https://claude.site/artifacts/763bbd05-edcd-4309-a820-11e02111cbd2",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all contact information",
+    "schema_": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The pagination occurs client side",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "first_name": "John",
+            "last_name": "Doe",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Alice",
+            "last_name": "Johnson",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Charlie",
+            "last_name": "Davis",
+            "phone": "567-890-1234"
+          },
+          {
+            "first_name": "Diana",
+            "last_name": "Wilson",
+            "phone": "678-901-2345"
+          },
+          {
+            "first_name": "Edward",
+            "last_name": "Moore",
+            "phone": "789-012-3456"
+          },
+          {
+            "first_name": "Fiona",
+            "last_name": "Taylor",
+            "phone": "890-123-4567"
+          },
+          {
+            "first_name": "George",
+            "last_name": "Anderson",
+            "phone": "901-234-5678"
+          },
+          {
+            "first_name": "Hannah",
+            "last_name": "Thomas",
+            "phone": "012-345-6789"
+          },
+          {
+            "first_name": "Ian",
+            "last_name": "Jackson",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Julia",
+            "last_name": "White",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Harris",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Laura",
+            "last_name": "Martin",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Thompson",
+            "phone": "567-890-1234"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "rWSVXdF4puP0VaRmMB1Sj",
     "url": "https://claude.site/artifacts/13c937f7-2a43-406c-8369-e2d2852fea9b",
     "source": "html",
@@ -39565,13 +39673,16 @@
     "goal": "Extract all the image src attributes and their alt text",
     "schema_": {
       "image_url": {
-          "type": "string"
+        "type": "string"
       },
       "alt_text": {
-          "type": "string"
+        "type": "string"
       }
     },
-    "tags": ["synthetic", "images"],
+    "tags": [
+      "synthetic",
+      "images"
+    ],
     "evals": [
       {
         "type": "json_match",
