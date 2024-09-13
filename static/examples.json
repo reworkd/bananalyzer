@@ -39525,6 +39525,131 @@
     ]
   },
   {
+    "id": "t9Hy6mZx4wKfRqNcBvLd3",
+    "url": "https://claude.site/artifacts/2581250d-f049-418f-b04c-a75e2c736d3e",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all job listing information including role, company, city, and description",
+    "schema_": {
+      "role": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The pagination occurs client side, cycling through pages in a circular manner regardless of the current page. Each page displays 5 job listings with role title, company, city, and a brief description.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "role": "Software Engineer",
+            "company": "TechCorp",
+            "city": "San Francisco",
+            "description": "Develop cutting-edge web applications"
+          },
+          {
+            "role": "Data Analyst",
+            "company": "DataInsights",
+            "city": "new york",
+            "description": "Analyze complex datasets to drive business decisions"
+          },
+          {
+            "role": "Product Manager",
+            "company": "InnovateTech",
+            "city": "Seattle",
+            "description": "Lead product development from conception to launch"
+          },
+          {
+            "role": "UX Designer",
+            "company": "DesignHub",
+            "city": "Austin",
+            "description": "Create intuitive and engaging user experiences"
+          },
+          {
+            "role": "Marketing Specialist",
+            "company": "BrandBoost",
+            "city": "Chicago",
+            "description": "Develop and execute marketing strategies"
+          },
+          {
+            "role": "DevOps Engineer",
+            "company": "CloudSystems",
+            "city": "Boston",
+            "description": "Optimize and maintain cloud infrastructure"
+          },
+          {
+            "role": "Sales Representative",
+            "company": "SalesPro",
+            "city": "Los Angeles",
+            "description": "Drive revenue growth through client acquisition"
+          },
+          {
+            "role": "Financial Analyst",
+            "company": "MoneyMatters",
+            "city": "Miami",
+            "description": "Perform financial modeling and forecasting"
+          },
+          {
+            "role": "Content Writer",
+            "company": "WordCraft",
+            "city": "Portland",
+            "description": "Create compelling content for various platforms"
+          },
+          {
+            "role": "HR Manager",
+            "company": "PeopleFirst",
+            "city": "Denver",
+            "description": "Oversee all aspects of human resources"
+          },
+          {
+            "role": "Mobile App Developer",
+            "company": "AppWizards",
+            "city": "San Diego",
+            "description": "Build innovative mobile applications"
+          },
+          {
+            "role": "Business Analyst",
+            "company": "StrategyPlus",
+            "city": "Washington D.C.",
+            "description": "Analyze business processes and recommend improvements"
+          },
+          {
+            "role": "Graphic Designer",
+            "company": "VisualArts",
+            "city": "Nashville",
+            "description": "Create visually appealing designs for various media"
+          },
+          {
+            "role": "Network Administrator",
+            "company": "NetSolutions",
+            "city": "Phoenix",
+            "description": "Maintain and optimize network infrastructure"
+          },
+          {
+            "role": "Customer Success Manager",
+            "company": "ClientCare",
+            "city": "Atlanta",
+            "description": "Ensure client satisfaction and retention"
+          }
+        ]
+      }
+    ]
+},
+  {
     "id": "f3Qm9tXk2pLgbJMwySHd7",
     "url": "https://claude.site/artifacts/763bbd05-edcd-4309-a820-11e02111cbd2",
     "source": "html",

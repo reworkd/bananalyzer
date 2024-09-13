@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .job-listing { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }
+        .pagination { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; }
+        button { padding: 10px 20px; }
+        .page-info { font-weight: bold; }
+        .role-title { font-weight: bold; font-size: 1.2em; margin-bottom: 5px; }
+        .company, .city { margin: 2px 0; }
+        .description { font-style: italic; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Job Listings</h1>
+    <div id="jobListings"></div>
+    <div class="pagination">
+        <button onclick="changePage(-1)">Previous</button>
+        <span class="page-info" id="pageInfo"></span>
+        <button onclick="changePage(1)">Next</button>
+    </div>
+
+    <script>
+        const jobListings = [
+            {"role": "Software Engineer", "company": "TechCorp", "city": "San Francisco", "description": "Develop cutting-edge web applications"},
+            {"role": "Data Analyst", "company": "DataInsights", "city": "new york", "description": "Analyze complex datasets to drive business decisions"},
+            {"role": "Product Manager", "company": "InnovateTech", "city": "Seattle", "description": "Lead product development from conception to launch"},
+            {"role": "UX Designer", "company": "DesignHub", "city": "Austin", "description": "Create intuitive and engaging user experiences"},
+            {"role": "Marketing Specialist", "company": "BrandBoost", "city": "Chicago", "description": "Develop and execute marketing strategies"},
+            {"role": "DevOps Engineer", "company": "CloudSystems", "city": "Boston", "description": "Optimize and maintain cloud infrastructure"},
+            {"role": "Sales Representative", "company": "SalesPro", "city": "Los Angeles", "description": "Drive revenue growth through client acquisition"},
+            {"role": "Financial Analyst", "company": "MoneyMatters", "city": "Miami", "description": "Perform financial modeling and forecasting"},
+            {"role": "Content Writer", "company": "WordCraft", "city": "Portland", "description": "Create compelling content for various platforms"},
+            {"role": "HR Manager", "company": "PeopleFirst", "city": "Denver", "description": "Oversee all aspects of human resources"},
+            {"role": "Mobile App Developer", "company": "AppWizards", "city": "San Diego", "description": "Build innovative mobile applications"},
+            {"role": "Business Analyst", "company": "StrategyPlus", "city": "Washington D.C.", "description": "Analyze business processes and recommend improvements"},
+            {"role": "Graphic Designer", "company": "VisualArts", "city": "Nashville", "description": "Create visually appealing designs for various media"},
+            {"role": "Network Administrator", "company": "NetSolutions", "city": "Phoenix", "description": "Maintain and optimize network infrastructure"},
+            {"role": "Customer Success Manager", "company": "ClientCare", "city": "Atlanta", "description": "Ensure client satisfaction and retention"}
+        ];
+
+        const itemsPerPage = 5;
+        let currentPage = 0;
+
+        function displayJobs() {
+            const startIndex = (currentPage * itemsPerPage) % jobListings.length;
+            const endIndex = Math.min(startIndex + itemsPerPage, jobListings.length);
+            const jobsToDisplay = jobListings.slice(startIndex, endIndex);
+
+            const jobListingsDiv = document.getElementById('jobListings');
+            jobListingsDiv.innerHTML = '';
+
+            jobsToDisplay.forEach(job => {
+                const jobDiv = document.createElement('div');
+                jobDiv.className = 'job-listing';
+                jobDiv.innerHTML = `
+                    <p class="role-title">${job.role}</p>
+                    <p class="company">${job.company}</p>
+                    <p class="city">${job.city}</p>
+                    <p class="description">${job.description}</p>
+                `;
+                jobListingsDiv.appendChild(jobDiv);
+            });
+
+            updatePageInfo();
+        }
+
+        function changePage(direction) {
+            currentPage = (currentPage + direction + Math.ceil(jobListings.length / itemsPerPage)) % Math.ceil(jobListings.length / itemsPerPage);
+            displayJobs();
+        }
+
+        function updatePageInfo() {
+            const pageInfo = document.getElementById('pageInfo');
+            pageInfo.textContent = `Page ${currentPage + 1} of ${Math.ceil(jobListings.length / itemsPerPage)}`;
+        }
+
+        displayJobs();
+    </script>
+</body>
+</html>
