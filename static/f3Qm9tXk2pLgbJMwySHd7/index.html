@@ -94,8 +94,8 @@
                 contactElement.innerHTML = `
                     <div class="avatar">${contact.firstName[0]}${contact.lastName[0]}</div>
                     <div>
-                        <strong>${contact.firstName} ${contact.lastName}</strong><br>
-                        ${contact.phone}
+                        <p class="name">${contact.firstName} ${contact.lastName}</p>
+                        <p class="phone">${contact.phone}</p>
                     </div>
                 `;
                 contactsList.appendChild(contactElement);
