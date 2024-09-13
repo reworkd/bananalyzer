@@ -39341,5 +39341,186 @@
         ]
       }
     ]
+  },
+  {
+    "id": "z8Yp7sWv0sRhdnNryRLc9",
+    "url": "https://claude.site/artifacts/82e9d819-b977-44f8-99f8-618c21459090",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract the information within the table component",
+    "schema_": {
+      "some_value": {
+        "type": "string"
+      },
+      "another_value": {
+        "type": "number"
+      },
+      "a_third_value": {
+        "type": "string"
+      }
+    },
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "some_value": "Apple",
+            "another_value": 10,
+            "a_third_value": "Red"
+          },
+          {
+            "some_value": "Banana",
+            "another_value": 20,
+            "a_third_value": 42
+          },
+          {
+            "some_value": "Cherry",
+            "another_value": 30,
+            "a_third_value": "Sweet"
+          },
+          {
+            "some_value": "Date",
+            "another_value": 40,
+            "a_third_value": 7
+          },
+          {
+            "some_value": "Elderberry",
+            "another_value": 50,
+            "a_third_value": "Purple"
+          },
+          {
+            "some_value": "Fig",
+            "another_value": 60,
+            "a_third_value": 3.14
+          },
+          {
+            "some_value": "Grape",
+            "another_value": 70,
+            "a_third_value": "Green"
+          },
+          {
+            "some_value": "Honeydew",
+            "another_value": 80,
+            "a_third_value": 18
+          },
+          {
+            "some_value": "Imbe",
+            "another_value": 90,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Jackfruit",
+            "another_value": 100,
+            "a_third_value": 55
+          },
+          {
+            "some_value": "Kiwi",
+            "another_value": 110,
+            "a_third_value": "Fuzzy"
+          },
+          {
+            "some_value": "Lemon",
+            "another_value": 120,
+            "a_third_value": 2.5
+          },
+          {
+            "some_value": "Mango",
+            "another_value": 130,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Nectarine",
+            "another_value": 140,
+            "a_third_value": 9
+          },
+          {
+            "some_value": "Orange",
+            "another_value": 150,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Papaya",
+            "another_value": 160,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Quince",
+            "another_value": 170,
+            "a_third_value": 4.8
+          },
+          {
+            "some_value": "Raspberry",
+            "another_value": 180,
+            "a_third_value": "Berry"
+          },
+          {
+            "some_value": "Strawberry",
+            "another_value": 190,
+            "a_third_value": 22
+          },
+          {
+            "some_value": "Tangerine",
+            "another_value": 200,
+            "a_third_value": "Orange"
+          },
+          {
+            "some_value": "Ugli Fruit",
+            "another_value": 210,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Vanilla",
+            "another_value": 220,
+            "a_third_value": 1.2
+          },
+          {
+            "some_value": "Watermelon",
+            "another_value": 230,
+            "a_third_value": "Large"
+          },
+          {
+            "some_value": "Xigua",
+            "another_value": 240,
+            "a_third_value": 33
+          },
+          {
+            "some_value": "Yuzu",
+            "another_value": 250,
+            "a_third_value": "Sour"
+          },
+          {
+            "some_value": "Zucchini",
+            "another_value": 260,
+            "a_third_value": 6
+          },
+          {
+            "some_value": "Apricot",
+            "another_value": 270,
+            "a_third_value": "Orange"
+          },
+          {
+            "some_value": "Blackberry",
+            "another_value": 280,
+            "a_third_value": 15
+          },
+          {
+            "some_value": "Coconut",
+            "another_value": 290,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Dragonfruit",
+            "another_value": 300,
+            "a_third_value": 8.4
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -40,6 +40,8 @@ PossibleTags = Literal[
     "urls",
     "enqueue",
     "infinite-scroll",
+    "synthetic",
+    "images",
 ]
 
 
@@ -117,7 +119,7 @@ class Example(BaseModel):
         description="Local path of a HAR, S3 URL of a HAR directory's tar.gz, or remote URL of MHTML",
         default=None,
     )
-    source: Literal["mhtml", "hosted", "har"] = Field(
+    source: Literal["html", "mhtml", "hosted", "har"] = Field(
         description="Source of the website"
     )
     category: str = Field(description="Category of the website")
