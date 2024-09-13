@@ -38561,7 +38561,7 @@
             {
               "first_name": "ROSA",
               "last_name": "MOHRMANN",
-              "title": "Paraprofessional",
+                "title": "Paraprofessional",
               "email": "rmohrmann@milforded.org",
               "phone_number": null
             },
@@ -39518,6 +39518,38 @@
             "some_value": "Dragonfruit",
             "another_value": 300,
             "a_third_value": 8.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rWSVXdF4puP0VaRmMB1Sj",
+    "url": "https://claude.site/artifacts/13c937f7-2a43-406c-8369-e2d2852fea9b",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "image",
+    "goal": "Extract image URL and the alt text",
+    "schema_": {
+      "image_url": {
+        "type": "string"
+      },
+      "alt_text": {
+        "type": "string"
+      }
+    },
+    "tags": [
+      "synthetic",
+      "image"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "image_url": "https://claude.site/artifacts/13c937f7-2a43-406c-8369-e2d2852fea9b",
+            "alt_text": "Geometric shapes: blue circle, red square, green triangle"
           }
         ]
       }
