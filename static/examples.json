@@ -39954,7 +39954,7 @@
     "source": "html",
     "category": "synthetic",
     "subcategory": "synthetic",
-    "type": "detail",
+    "type": "listing_detail",
     "goal": "Extract all the image src attributes and their alt text",
     "schema_": {
       "image_url": {
@@ -39999,7 +39999,7 @@
     "source": "html",
     "category": "synthetic",
     "subcategory": "e-commerce",
-    "type": "detail",
+    "type": "listing_detail",
     "goal": "Extract information from the product listings. We need the image src attributes, their alt text, the product name of from the listing, the description from the listing, and the product ID from the listing. ",
     "schema_": {
       "image_url": {
