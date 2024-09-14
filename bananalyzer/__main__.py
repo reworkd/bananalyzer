@@ -378,8 +378,9 @@ def main() -> int:
 
     # Cap the number of workers to the number of examples
     if isinstance(args.xdist_args.n, int):
-        count = min(args.count or 1, 1)
-        args.xdist_args.n = min(len(examples) * count, args.xdist_args.n)
+        count = max(args.count or 1, 1)
+        multiplied_count = len(examples) * count
+        args.xdist_args.n = min(multiplied_count, args.xdist_args.n)
 
     # Load the desired tests
     generator = PytestTestGenerator()

@@ -39363,7 +39363,8 @@
     },
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
@@ -39524,6 +39525,397 @@
     ]
   },
   {
+    "id": "t9Hy6mZx4wKfRqNcBvLd3",
+    "url": "https://claude.site/artifacts/2581250d-f049-418f-b04c-a75e2c736d3e",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all job listing information",
+    "schema_": {
+      "role": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The buttons always work regardless if the end page is hit and will cycle through the data in a circular manner.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "role": "Software Engineer",
+            "company": "TechCorp",
+            "city": "San Francisco",
+            "description": "Develop cutting-edge web applications"
+          },
+          {
+            "role": "Data Analyst",
+            "company": "DataInsights",
+            "city": "new york",
+            "description": "Analyze complex datasets to drive business decisions"
+          },
+          {
+            "role": "Product Manager",
+            "company": "InnovateTech",
+            "city": "Seattle",
+            "description": "Lead product development from conception to launch"
+          },
+          {
+            "role": "UX Designer",
+            "company": "DesignHub",
+            "city": "Austin",
+            "description": "Create intuitive and engaging user experiences"
+          },
+          {
+            "role": "Marketing Specialist",
+            "company": "BrandBoost",
+            "city": "Chicago",
+            "description": "Develop and execute marketing strategies"
+          },
+          {
+            "role": "DevOps Engineer",
+            "company": "CloudSystems",
+            "city": "Boston",
+            "description": "Optimize and maintain cloud infrastructure"
+          },
+          {
+            "role": "Sales Representative",
+            "company": "SalesPro",
+            "city": "Los Angeles",
+            "description": "Drive revenue growth through client acquisition"
+          },
+          {
+            "role": "Financial Analyst",
+            "company": "MoneyMatters",
+            "city": "Miami",
+            "description": "Perform financial modeling and forecasting"
+          },
+          {
+            "role": "Content Writer",
+            "company": "WordCraft",
+            "city": "Portland",
+            "description": "Create compelling content for various platforms"
+          },
+          {
+            "role": "HR Manager",
+            "company": "PeopleFirst",
+            "city": "Denver",
+            "description": "Oversee all aspects of human resources"
+          },
+          {
+            "role": "Mobile App Developer",
+            "company": "AppWizards",
+            "city": "San Diego",
+            "description": "Build innovative mobile applications"
+          },
+          {
+            "role": "Business Analyst",
+            "company": "StrategyPlus",
+            "city": "Washington D.C.",
+            "description": "Analyze business processes and recommend improvements"
+          },
+          {
+            "role": "Graphic Designer",
+            "company": "VisualArts",
+            "city": "Nashville",
+            "description": "Create visually appealing designs for various media"
+          },
+          {
+            "role": "Network Administrator",
+            "company": "NetSolutions",
+            "city": "Phoenix",
+            "description": "Maintain and optimize network infrastructure"
+          },
+          {
+            "role": "Customer Success Manager",
+            "company": "ClientCare",
+            "city": "Atlanta",
+            "description": "Ensure client satisfaction and retention"
+          }
+        ]
+      }
+    ]
+},
+  {
+    "id": "f3Qm9tXk2pLgbJMwySHd7",
+    "url": "https://claude.site/artifacts/763bbd05-edcd-4309-a820-11e02111cbd2",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all contact information",
+    "schema_": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The pagination occurs client side",
+    "tags": [
+      "synthetic",
+      "pagination",
+      "regression"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "first_name": "John",
+            "last_name": "Doe",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Alice",
+            "last_name": "Johnson",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Charlie",
+            "last_name": "Davis",
+            "phone": "567-890-1234"
+          },
+          {
+            "first_name": "Diana",
+            "last_name": "Wilson",
+            "phone": "678-901-2345"
+          },
+          {
+            "first_name": "Edward",
+            "last_name": "Moore",
+            "phone": "789-012-3456"
+          },
+          {
+            "first_name": "Fiona",
+            "last_name": "Taylor",
+            "phone": "890-123-4567"
+          },
+          {
+            "first_name": "George",
+            "last_name": "Anderson",
+            "phone": "901-234-5678"
+          },
+          {
+            "first_name": "Hannah",
+            "last_name": "Thomas",
+            "phone": "012-345-6789"
+          },
+          {
+            "first_name": "Ian",
+            "last_name": "Jackson",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Julia",
+            "last_name": "White",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Harris",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Laura",
+            "last_name": "Martin",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Thompson",
+            "phone": "567-890-1234"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h7Kp2rNj9wLmCzFxVqTb4",
+    "url": "https://claude.site/artifacts/bdf20e24-2fbd-432f-9fa4-774dea8a5436",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all product information",
+    "schema_": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated product data with numbered page buttons. The current page button is disabled and has an 'active' CSS class. The pagination occurs client side using JavaScript.",
+    "tags": [
+      "synthetic",
+      "pagination",
+      "regression"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "id": "P001",
+            "name": "Ergonomic Chair",
+            "description": "Comfortable office chair with lumbar support"
+          },
+          {
+            "id": "P002",
+            "name": "Wireless Mouse",
+            "description": "High-precision wireless mouse with long battery life"
+          },
+          {
+            "id": "P003",
+            "name": "Mechanical Keyboard",
+            "description": "Tactile mechanical keyboard with RGB backlighting"
+          },
+          {
+            "id": "P004",
+            "name": "4K Monitor",
+            "description": "Ultra-high definition monitor with wide color gamut"
+          },
+          {
+            "id": "P005",
+            "name": "Noise-Cancelling Headphones",
+            "description": "Over-ear headphones with active noise cancellation"
+          },
+          {
+            "id": "P006",
+            "name": "Laptop Stand",
+            "description": "Adjustable aluminum laptop stand for better ergonomics"
+          },
+          {
+            "id": "P007",
+            "name": "Desk Lamp",
+            "description": "LED desk lamp with adjustable color temperature"
+          },
+          {
+            "id": "P008",
+            "name": "External SSD",
+            "description": "Fast and portable solid-state drive for extra storage"
+          },
+          {
+            "id": "P009",
+            "name": "Webcam",
+            "description": "Full HD webcam with built-in microphone"
+          },
+          {
+            "id": "P010",
+            "name": "USB Hub",
+            "description": "Multi-port USB hub with power delivery"
+          },
+          {
+            "id": "P011",
+            "name": "Graphics Tablet",
+            "description": "Digital drawing tablet with pressure sensitivity"
+          },
+          {
+            "id": "P012",
+            "name": "Wireless Charger",
+            "description": "Qi-compatible wireless charging pad"
+          },
+          {
+            "id": "P013",
+            "name": "Document Scanner",
+            "description": "Portable document scanner with OCR functionality"
+          },
+          {
+            "id": "P014",
+            "name": "Desk Organizer",
+            "description": "Multi-compartment organizer for office supplies"
+          },
+          {
+            "id": "P015",
+            "name": "Ergonomic Mouse Pad",
+            "description": "Gel-filled mouse pad with wrist support"
+          },
+          {
+            "id": "P016",
+            "name": "Portable Projector",
+            "description": "Mini LED projector for presentations on-the-go"
+          },
+          {
+            "id": "P017",
+            "name": "Smart Power Strip",
+            "description": "Wi-Fi enabled power strip with individual outlet control"
+          },
+          {
+            "id": "P018",
+            "name": "Cable Management Kit",
+            "description": "Set of cable clips and sleeves for tidy workspaces"
+          },
+          {
+            "id": "P019",
+            "name": "Desk Fan",
+            "description": "USB-powered desk fan with adjustable speed"
+          },
+          {
+            "id": "P020",
+            "name": "Blue Light Glasses",
+            "description": "Computer glasses that filter out harmful blue light"
+          },
+          {
+            "id": "P021",
+            "name": "Wireless Presenter",
+            "description": "Remote control for presentations with laser pointer"
+          },
+          {
+            "id": "P022",
+            "name": "Laptop Cooling Pad",
+            "description": "Laptop stand with built-in cooling fans"
+          },
+          {
+            "id": "P023",
+            "name": "USB Microphone",
+            "description": "Cardioid condenser microphone for clear audio recording"
+          },
+          {
+            "id": "P024",
+            "name": "Desk Pad",
+            "description": "Large mouse pad that covers the entire desk area"
+          },
+          {
+            "id": "P025",
+            "name": "Portable Monitor",
+            "description": "Slim and lightweight secondary monitor for laptops"
+          }
+        ]
+      }
+    ]
+},
+  {
     "id": "rWSVXdF4puP0VaRmMB1Sj",
     "url": "https://claude.site/artifacts/f3060ec4-4564-427d-a887-0d478ad9c489",
     "source": "html",
@@ -39566,14 +39958,17 @@
     "goal": "Extract all the image src attributes and their alt text",
     "schema_": {
       "image_url": {
-          "type": "string"
+        "type": "string"
       },
       "alt_text": {
-          "type": "string"
+        "type": "string"
       }
     },
     "description": "A page with a bunch of images to test that we can get all of the image URLs/src attributes along with their alt text",
-    "tags": ["synthetic", "images"],
+    "tags": [
+      "synthetic",
+      "images"
+    ],
     "evals": [
       {
         "type": "json_match",
@@ -39627,7 +40022,10 @@
       }
     },
     "description": "A mock e-commerce style page to test that we get product information along with the image URL, alt text. Should have product id, name, description, price",
-    "tags": ["synthetic", "images"],
+    "tags": [
+      "synthetic",
+      "images"
+    ],
     "evals": [
       {
         "type": "json_match",

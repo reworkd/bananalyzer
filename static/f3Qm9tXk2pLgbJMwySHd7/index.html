@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginated Contacts List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .avatar {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contacts List</h1>
+    <div id="contacts-list"></div>
+    <div class="pagination">
+        <button id="prev-btn" onclick="changePage(-1)" disabled>Previous</button>
+        <button id="next-btn" onclick="changePage(1)">Next</button>
+    </div>
+
+    <script>
+        const contacts = [
+            { firstName: "John", lastName: "Doe", phone: "123-456-7890" },
+            { firstName: "Jane", lastName: "Smith", phone: "234-567-8901" },
+            { firstName: "Alice", lastName: "Johnson", phone: "345-678-9012" },
+            { firstName: "Bob", lastName: "Brown", phone: "456-789-0123" },
+            { firstName: "Charlie", lastName: "Davis", phone: "567-890-1234" },
+            { firstName: "Diana", lastName: "Wilson", phone: "678-901-2345" },
+            { firstName: "Edward", lastName: "Moore", phone: "789-012-3456" },
+            { firstName: "Fiona", lastName: "Taylor", phone: "890-123-4567" },
+            { firstName: "George", lastName: "Anderson", phone: "901-234-5678" },
+            { firstName: "Hannah", lastName: "Thomas", phone: "012-345-6789" },
+            { firstName: "Ian", lastName: "Jackson", phone: "123-456-7890" },
+            { firstName: "Julia", lastName: "White", phone: "234-567-8901" },
+            { firstName: "Kevin", lastName: "Harris", phone: "345-678-9012" },
+            { firstName: "Laura", lastName: "Martin", phone: "456-789-0123" },
+            { firstName: "Michael", lastName: "Thompson", phone: "567-890-1234" }
+        ];
+
+        const contactsPerPage = 5;
+        let currentPage = 1;
+
+        function displayContacts() {
+            const contactsList = document.getElementById('contacts-list');
+            contactsList.innerHTML = '';
+
+            const startIndex = (currentPage - 1) * contactsPerPage;
+            const endIndex = startIndex + contactsPerPage;
+            const pageContacts = contacts.slice(startIndex, endIndex);
+
+            pageContacts.forEach(contact => {
+                const contactElement = document.createElement('div');
+                contactElement.className = 'contact';
+                contactElement.innerHTML = `
+                    <div class="avatar">${contact.firstName[0]}${contact.lastName[0]}</div>
+                    <div>
+                        <p class="name">${contact.firstName} ${contact.lastName}</p>
+                        <p class="phone">${contact.phone}</p>
+                    </div>
+                `;
+                contactsList.appendChild(contactElement);
+            });
+
+            updatePaginationButtons();
+        }
+
+        function updatePaginationButtons() {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            prevBtn.disabled = currentPage === 1;
+            nextBtn.disabled = currentPage === Math.ceil(contacts.length / contactsPerPage);
+        }
+
+        function changePage(direction) {
+            currentPage += direction;
+            displayContacts();
+        }
+
+        displayContacts();
+    </script>
+</body>
+</html>
