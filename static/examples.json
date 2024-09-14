@@ -40036,7 +40036,7 @@
             "product_name": "Smartphone X1",
             "description": "Next-gen smartphone with 5G capability and AI-powered camera.",
             "product_id": "SP-X1-5G",
-            "price": "799.99"
+            "price": "$799.99"
           },
           {
             "image_url": "https://plus.unsplash.com/premium_photo-1681702156223-ea59bfbf1065?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -40044,7 +40044,7 @@
             "product_name": "Ultra-thin Laptop Pro",
             "description": "Powerful laptop with 4K display and 1TB SSD storage.",
             "product_id": "LT-PRO-4K",
-            "price": "1299.99"
+            "price": "$1299.99"
           },
           {
             "image_url": "https://images.unsplash.com/photo-1590658165737-15a047b7c0b0?q=80&w=3131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -40052,7 +40052,7 @@
             "product_name": "Wireless Earbuds Elite",
             "description": "True wireless earbuds with active noise cancellation.",
             "product_id": "WE-ELITE-ANC",
-            "price": "149.99"
+            "price": "$149.99"
           },
           {
             "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -40060,7 +40060,7 @@
             "product_name": "Smart Home Hub 2.0",
             "description": "Central control for all your smart home devices.",
             "product_id": "SH-HUB-2",
-            "price": "199.99"
+            "price": "$199.99"
           }
         ]
       }
@@ -40111,7 +40111,7 @@
         "expected": [
           {
             "product_name": "Luxury Chronograph Watch",
-            "price": "1,999.99",
+            "price": "$1,999.99",
             "description": "Elegant and sophisticated, this luxury chronograph watch features a stainless steel case, sapphire crystal, and Swiss movement. Water-resistant up to 100 meters.",
             "features": [
               "Stainless steel case and bracelet",
