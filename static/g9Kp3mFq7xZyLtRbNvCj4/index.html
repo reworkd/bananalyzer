@@ -70,10 +70,6 @@
         .pagination button:hover {
             background-color: #1e5c1e;
         }
-        .pagination button:disabled {
-            background-color: #a0c9a0;
-            cursor: not-allowed;
-        }
         .page-info {
             font-size: 1em;
             color: #2c7c2c;
@@ -83,16 +79,10 @@
 </head>
 <body>
     <h1>Fresh Grocery Mart</h1>
-    <div id="productList" class="product-grid"></div>
+    <div class="product-grid"></div>
     <ul class="pagination">
-        <li class="pagination" style="display: none;">
-            <button class="page-button" onclick="changePage(-1)"><</button>
-        </li>
         <li class="page-info">
-            Page <span id="currentPageNum">1</span> of <span id="totalPages"></span>
-        </li>
-        <li class="pagination">
-            <button class="page-button" onclick="changePage(1)">></button>
+            Page <span class="current-page">1</span> of <span class="total-pages"></span>
         </li>
     </ul>
 
@@ -120,10 +110,10 @@
         const totalPages = Math.ceil(products.length / productsPerPage);
 
         function displayProducts() {
-            const productList = document.getElementById('productList');
+            const productList = document.querySelector('.product-grid');
             productList.innerHTML = '';
             const start = currentPage * productsPerPage;
-            const end = start + productsPerPage;
+            const end = Math.min(start + productsPerPage, products.length);
             const pageProducts = products.slice(start, end);
 
             pageProducts.forEach(product => {
@@ -145,24 +135,39 @@
         }
 
         function updatePaginationButtons() {
-            const paginationItems = document.querySelectorAll('.pagination li');
-            const buttons = document.querySelectorAll('.page-button');
+            const paginationList = document.querySelector('.pagination');
 
-            paginationItems[0].style.display = currentPage > 0 ? 'block' : 'none';
-            buttons[0].disabled = currentPage === 0;
+            // Remove all existing pagination buttons
+            paginationList.querySelectorAll('li.pagination').forEach(li => li.remove());
 
-            paginationItems[2].style.display = currentPage < totalPages - 1 ? 'block' : 'none';
-            buttons[1].disabled = currentPage >= totalPages - 1;
+            // Add previous button if not on the first page
+            if (currentPage > 0) {
+                const prevLi = document.createElement('li');
+                prevLi.className = 'pagination';
+                prevLi.innerHTML = '<button class="page-button" onclick="changePage(-1)"><</button>';
+                paginationList.insertBefore(prevLi, paginationList.firstChild);
+            }
+
+            // Add next button if not on the last page
+            if (currentPage < totalPages - 1) {
+                const nextLi = document.createElement('li');
+                nextLi.className = 'pagination';
+                nextLi.innerHTML = '<button class="page-button" onclick="changePage(1)">></button>';
+                paginationList.appendChild(nextLi);
+            }
         }
 
         function updatePageInfo() {
-            document.getElementById('currentPageNum').textContent = currentPage + 1;
-            document.getElementById('totalPages').textContent = totalPages;
+            document.querySelector('.current-page').textContent = currentPage + 1;
+            document.querySelector('.total-pages').textContent = totalPages;
         }
 
         function changePage(direction) {
-            currentPage += direction;
-            displayProducts();
+            const newPage = currentPage + direction;
+            if (newPage >= 0 && newPage < totalPages) {
+                currentPage = newPage;
+                displayProducts();
+            }
         }
 
         displayProducts();
