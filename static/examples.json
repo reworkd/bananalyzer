@@ -38561,7 +38561,7 @@
             {
               "first_name": "ROSA",
               "last_name": "MOHRMANN",
-                "title": "Paraprofessional",
+              "title": "Paraprofessional",
               "email": "rmohrmann@milforded.org",
               "phone_number": null
             },
@@ -39648,7 +39648,7 @@
         ]
       }
     ]
-},
+  },
   {
     "id": "f3Qm9tXk2pLgbJMwySHd7",
     "url": "https://claude.site/artifacts/763bbd05-edcd-4309-a820-11e02111cbd2",
@@ -39914,7 +39914,7 @@
         ]
       }
     ]
-},
+  },
   {
     "id": "rWSVXdF4puP0VaRmMB1Sj",
     "url": "https://claude.site/artifacts/f3060ec4-4564-427d-a887-0d478ad9c489",
@@ -40001,22 +40001,22 @@
     "goal": "Extract information from the product listings. We need the image src attributes, their alt text, the product name of from the listing, the description from the listing, and the product ID from the listing. ",
     "schema_": {
       "image_url": {
-          "type": "string"
+        "type": "string"
       },
       "alt_text": {
-          "type": "string"
+        "type": "string"
       },
       "product_name": {
-          "type": "string"
+        "type": "string"
       },
       "description": {
-          "type": "string"
+        "type": "string"
       },
       "product_id": {
-          "type": "string"
+        "type": "string"
       },
       "price": {
-          "type": "string"
+        "type": "string"
       }
     },
     "description": "A mock e-commerce style page to test that we get product information along with the image URL, alt text. Should have product id, name, description, price",
@@ -40126,6 +40126,131 @@
               "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80",
               "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w7Ht5xRm1nZqKcVbPfLj2",
+    "url": "https://claude.site/artifacts/2ef6ea4c-1d8a-4274-9a61-1263d7e55fbf",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all wine product information",
+    "schema_": {
+      "name": {
+        "type": "string"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number"
+      }
+    },
+    "description": "Paginated data` with only next and previous page icon buttons. The pagination occurs client-side using JavaScript.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Château Margaux",
+            "sku": "CM2015",
+            "country": "France",
+            "price": 699.99
+          },
+          {
+            "name": "Opus One",
+            "sku": "OO2018",
+            "country": "USA",
+            "price": 349.99
+          },
+          {
+            "name": "Penfolds Grange",
+            "sku": "PG2017",
+            "country": "Australia",
+            "price": 599.99
+          },
+          {
+            "name": "Sassicaia",
+            "sku": "SS2016",
+            "country": "Italy",
+            "price": 249.99
+          },
+          {
+            "name": "Vega Sicilia Unico",
+            "sku": "VSU2011",
+            "country": "Spain",
+            "price": 449.99
+          },
+          {
+            "name": "Screaming Eagle",
+            "sku": "SE2019",
+            "country": "USA",
+            "price": 2999.99
+          },
+          {
+            "name": "Domaine de la Romanée-Conti",
+            "sku": "DRC2018",
+            "country": "France",
+            "price": 19999.99
+          },
+          {
+            "name": "Tignanello",
+            "sku": "TG2017",
+            "country": "Italy",
+            "price": 149.99
+          },
+          {
+            "name": "Almaviva",
+            "sku": "AL2018",
+            "country": "Chile",
+            "price": 129.99
+          },
+          {
+            "name": "Château Lafite Rothschild",
+            "sku": "CLR2016",
+            "country": "France",
+            "price": 899.99
+          },
+          {
+            "name": "Henschke Hill of Grace",
+            "sku": "HHG2015",
+            "country": "Australia",
+            "price": 799.99
+          },
+          {
+            "name": "Ornellaia",
+            "sku": "ORN2017",
+            "country": "Italy",
+            "price": 239.99
+          },
+          {
+            "name": "Château Mouton Rothschild",
+            "sku": "CMR2015",
+            "country": "France",
+            "price": 749.99
+          },
+          {
+            "name": "Masseto",
+            "sku": "MAS2018",
+            "country": "Italy",
+            "price": 699.99
+          },
+          {
+            "name": "Harlan Estate",
+            "sku": "HE2016",
+            "country": "USA",
+            "price": 1499.99
           }
         ]
       }
