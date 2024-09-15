@@ -79,11 +79,11 @@
     <h1>Fresh Grocery Mart</h1>
     <div id="productList" class="product-grid"></div>
     <ul class="pagination">
-        <li class="pagination" id="prevPageLi" style="display: none;">
-            <button id="prevPage" onclick="changePage(-1)">Previous</button>
+        <li class="pagination" style="display: none;">
+            <button class="page-button" onclick="changePage(-1)">Previous</button>
         </li>
-        <li class="pagination" id="nextPageLi">
-            <button id="nextPage" onclick="changePage(1)">Next</button>
+        <li class="pagination">
+            <button class="page-button" onclick="changePage(1)">Next</button>
         </li>
     </ul>
 
@@ -134,17 +134,15 @@
         }
 
         function updatePaginationButtons() {
-            const prevPageLi = document.getElementById('prevPageLi');
-            const nextPageLi = document.getElementById('nextPageLi');
-            const prevPageBtn = document.getElementById('prevPage');
-            const nextPageBtn = document.getElementById('nextPage');
+            const paginationItems = document.querySelectorAll('.pagination li');
+            const buttons = document.querySelectorAll('.page-button');
 
-            prevPageLi.style.display = currentPage > 0 ? 'block' : 'none';
-            prevPageBtn.disabled = currentPage === 0;
+            paginationItems[0].style.display = currentPage > 0 ? 'block' : 'none';
+            buttons[0].disabled = currentPage === 0;
 
             const lastPage = Math.ceil(products.length / productsPerPage) - 1;
-            nextPageLi.style.display = currentPage < lastPage ? 'block' : 'none';
-            nextPageBtn.disabled = currentPage >= lastPage;
+            paginationItems[1].style.display = currentPage < lastPage ? 'block' : 'none';
+            buttons[1].disabled = currentPage >= lastPage;
         }
 
         function changePage(direction) {
