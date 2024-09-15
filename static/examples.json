@@ -39940,8 +39940,8 @@
       {
         "type": "json_match",
         "expected": {
-            "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "alt_text": "Smart Home Hub 2.0"
+          "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt_text": "Smart Home Hub 2.0"
         }
       }
     ]
@@ -40251,6 +40251,131 @@
             "sku": "HE2016",
             "country": "USA",
             "price": 1499.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g9Kp3mFq7xZyLtRbNvCj4",
+    "url": "https://claude.site/artifacts/9269eead-3e18-43c4-bb9e-df23ee6cbf9a",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all grocery product information",
+    "schema_": {
+      "name": {
+        "type": "string"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number"
+      }
+    },
+    "description": "The Next button is always visible initially, while the Previous button only appears after navigating to the second page. Both buttons have the class 'li.pagination'.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Organic Bananas",
+            "sku": "FR001",
+            "category": "Fruits",
+            "price": 1.99
+          },
+          {
+            "name": "Whole Wheat Bread",
+            "sku": "BK001",
+            "category": "Bakery",
+            "price": 3.49
+          },
+          {
+            "name": "Free-Range Eggs",
+            "sku": "DR001",
+            "category": "Dairy",
+            "price": 4.99
+          },
+          {
+            "name": "Almond Milk",
+            "sku": "DR002",
+            "category": "Dairy",
+            "price": 3.79
+          },
+          {
+            "name": "Ground Coffee",
+            "sku": "BV001",
+            "category": "Beverages",
+            "price": 7.99
+          },
+          {
+            "name": "Tomatoes",
+            "sku": "VG001",
+            "category": "Vegetables",
+            "price": 2.49
+          },
+          {
+            "name": "Chicken Breast",
+            "sku": "MT001",
+            "category": "Meat",
+            "price": 8.99
+          },
+          {
+            "name": "Greek Yogurt",
+            "sku": "DR003",
+            "category": "Dairy",
+            "price": 5.49
+          },
+          {
+            "name": "Spinach",
+            "sku": "VG002",
+            "category": "Vegetables",
+            "price": 3.29
+          },
+          {
+            "name": "Salmon Fillet",
+            "sku": "SF001",
+            "category": "Seafood",
+            "price": 12.99
+          },
+          {
+            "name": "Avocado",
+            "sku": "FR002",
+            "category": "Fruits",
+            "price": 1.79
+          },
+          {
+            "name": "Olive Oil",
+            "sku": "GR001",
+            "category": "Grocery",
+            "price": 8.99
+          },
+          {
+            "name": "Quinoa",
+            "sku": "GR002",
+            "category": "Grocery",
+            "price": 6.49
+          },
+          {
+            "name": "Blueberries",
+            "sku": "FR003",
+            "category": "Fruits",
+            "price": 4.99
+          },
+          {
+            "name": "Whole Chicken",
+            "sku": "MT002",
+            "category": "Meat",
+            "price": 9.99
           }
         ]
       }
