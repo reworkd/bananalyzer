@@ -49,6 +49,7 @@
         .pagination {
             display: flex;
             justify-content: center;
+            align-items: center;
             margin-top: 30px;
             list-style-type: none;
             padding: 0;
@@ -73,6 +74,11 @@
             background-color: #a0c9a0;
             cursor: not-allowed;
         }
+        .page-info {
+            font-size: 1em;
+            color: #2c7c2c;
+            margin: 0 20px;
+        }
     </style>
 </head>
 <body>
@@ -80,10 +86,13 @@
     <div id="productList" class="product-grid"></div>
     <ul class="pagination">
         <li class="pagination" style="display: none;">
-            <button class="page-button" onclick="changePage(-1)">Previous</button>
+            <button class="page-button" onclick="changePage(-1)"><</button>
+        </li>
+        <li class="page-info">
+            Page <span id="currentPageNum">1</span> of <span id="totalPages"></span>
         </li>
         <li class="pagination">
-            <button class="page-button" onclick="changePage(1)">Next</button>
+            <button class="page-button" onclick="changePage(1)">></button>
         </li>
     </ul>
 
@@ -108,6 +117,7 @@
 
         let currentPage = 0;
         const productsPerPage = 5;
+        const totalPages = Math.ceil(products.length / productsPerPage);
 
         function displayProducts() {
             const productList = document.getElementById('productList');
@@ -131,6 +141,7 @@
             });
 
             updatePaginationButtons();
+            updatePageInfo();
         }
 
         function updatePaginationButtons() {
@@ -140,9 +151,13 @@
             paginationItems[0].style.display = currentPage > 0 ? 'block' : 'none';
             buttons[0].disabled = currentPage === 0;
 
-            const lastPage = Math.ceil(products.length / productsPerPage) - 1;
-            paginationItems[1].style.display = currentPage < lastPage ? 'block' : 'none';
-            buttons[1].disabled = currentPage >= lastPage;
+            paginationItems[2].style.display = currentPage < totalPages - 1 ? 'block' : 'none';
+            buttons[1].disabled = currentPage >= totalPages - 1;
+        }
+
+        function updatePageInfo() {
+            document.getElementById('currentPageNum').textContent = currentPage + 1;
+            document.getElementById('totalPages').textContent = totalPages;
         }
 
         function changePage(direction) {
