@@ -23953,7 +23953,7 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "schema_": "manufacturing_commerce",
+    "schema_": "ecommerce",
     "evals": [
       {
         "type": "json_match",
@@ -23997,7 +23997,7 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "schema_": "manufacturing_commerce",
+    "schema_": "ecommerce",
     "evals": [
       {
         "type": "json_match",
@@ -24041,7 +24041,7 @@
     "category": "clothing",
     "subcategory": "commerce",
     "type": "detail",
-    "schema_": "manufacturing_commerce",
+    "schema_": "ecommerce",
     "evals": [
       {
         "type": "json_match",
@@ -24724,7 +24724,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "detail",
-    "schema_": "job_posting",
+    "schema_": "job_posting_2",
     "evals": [
       {
         "type": "json_match",
@@ -24760,7 +24760,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "detail",
-    "schema_": "job_posting",
+    "schema_": "job_posting_2",
     "evals": [
       {
         "type": "json_match",
@@ -24796,7 +24796,7 @@
     "category": "software",
     "subcategory": "careers",
     "type": "detail",
-    "schema_": "job_posting",
+    "schema_": "job_posting_2",
     "evals": [
       {
         "type": "json_match",
@@ -27701,7 +27701,7 @@
     "subcategory": "download",
     "type": "detail",
     "goal": "Extract the government contract opportunity information",
-    "schema_": "contract_2",
+    "schema_": "contract_3",
     "evals": [
       {
         "type": "json_match",
@@ -27756,7 +27756,7 @@
     "subcategory": "download",
     "type": "detail",
     "goal": "Extract the government contract opportunity information",
-    "schema_": "contract_2",
+    "schema_": "contract_3",
     "evals": [
       {
         "type": "json_match",
@@ -27805,7 +27805,7 @@
     "subcategory": "download",
     "type": "detail",
     "goal": "Extract the government contract opportunity information",
-    "schema_": "contract_2",
+    "schema_": "contract_3",
     "evals": [
       {
         "type": "json_match",
