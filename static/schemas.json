@@ -104,6 +104,82 @@
       "description": "The type of employment (e.g., full-time, part-time, contract)."
     }
   },
+  "job_posting_2": {
+    "job_id": {
+      "type": "string",
+      "description": "Unique identifier for the job posting."
+    },
+    "department": {
+      "type": "string",
+      "description": "Department within the company where the job is located."
+    },
+    "title": {
+      "type": "string",
+      "description": "Job title for the posting."
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Detailed description of the job responsibilities and duties."
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of job locations."
+    },
+    "job_type": {
+      "type": "string",
+      "description": "Type of employment (e.g., full-time, part-time, contract)."
+    },
+    "date_posted": {
+      "type": "datetime",
+      "description": "Date when the job was posted."
+    },
+    "apply_url": {
+      "type": "url",
+      "description": "URL where applicants can submit their applications."
+    },
+    "job_benefits": {
+      "type": "string",
+      "description": "Description of benefits associated with the job."
+    },
+    "qualifications": {
+      "type": "string",
+      "description": "Required qualifications for the job."
+    },
+    "preferred_skills": {
+      "type": "string",
+      "description": "Preferred but not mandatory skills for the job."
+    },
+    "skills": {
+      "type": "string",
+      "description": "List of necessary skills required for the job."
+    },
+    "recruiter_email": {
+      "type": "email",
+      "description": "Email address of the recruiter or hiring manager."
+    },
+    "application_deadline": {
+      "type": "datetime",
+      "description": "Deadline for submitting job applications."
+    },
+    "language": {
+      "type": "string",
+      "description": "Primary language of the job posting."
+    },
+    "employment_type": {
+      "type": "string",
+      "description": "Type of employment (e.g., full-time, part-time, contract)."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags related to the job posting for search optimization."
+    }
+  },
   "contract": {
     "id": {
       "type": "string",
