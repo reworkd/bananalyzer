@@ -6779,21 +6779,26 @@
     "subcategory": "unstructured",
     "type": "detail",
     "schema_": {
-      "title": "string",
-      "content": "string",
-      "page_links": [
-        {
-          "title": "string",
-          "content": "string",
-          "page_links": [
-            {
-              "title": "string",
-              "url": "string"
+      "name": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string"
+      },
+      "page_links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "url"
             }
-          ],
-          "url": "string"
+          }
         }
-      ]
+      }
     },
     "evals": [
       {
@@ -6922,10 +6927,18 @@
     "type": "listing_detail",
     "goal": "Fetch all of the experiences on the page.",
     "schema_": {
-      "title": "string",
-      "description": "string",
-      "url": "string",
-      "image_url": "string"
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "url": {
+        "type": "url"
+      },
+      "image_url": {
+        "type": "url"
+      }
     },
     "evals": [
       {
@@ -7025,9 +7038,15 @@
       "urls"
     ],
     "schema_": {
-      "title": "string",
-      "url": "string",
-      "author": "string"
+      "title": {
+        "type": "string"
+      },
+      "url": {
+        "type": "url"
+      },
+      "author": {
+        "type": "string"
+      }
     },
     "evals": [
       {
@@ -23792,7 +23811,7 @@
     "source": "mhtml",
     "category": "productivity",
     "subcategory": "consumer",
-    "type": "detail",
+    "type": "listing_detail",
     "goal": "Fetch a list of all of the to dos on the current page.",
     "schema_": {
       "todo": {
