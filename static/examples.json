@@ -3140,74 +3140,6 @@
     ]
   },
   {
-    "id": "gKfAQGripVAFa87dehr5m",
-    "url": "https://www.seielect.com/?stockcheck=ASR1JA330R",
-    "source": "mhtml",
-    "category": "manufacturing",
-    "subcategory": "commerce",
-    "type": "detail",
-    "schema_": "manufacturing_commerce",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": {
-          "TODO": "Finish this"
-        }
-      }
-    ]
-  },
-  {
-    "id": "JwUW9qdzk0NgtnK2Y2BSS",
-    "url": "https://www.kemet.com/en/us/capacitors/ceramic/product/CGP5C472MHWDAA7301.html",
-    "source": "mhtml",
-    "category": "manufacturing",
-    "subcategory": "commerce",
-    "type": "detail",
-    "schema_": "manufacturing_commerce",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": {
-          "TODO": "Finish this"
-        }
-      }
-    ]
-  },
-  {
-    "id": "DO21Wl1gBl1g4qBs7oddP",
-    "url": "https://www.infineon.com/cms/en/product/power/mosfet/silicon-carbide/modules/df14mr12w1m1hf_b67/",
-    "source": "mhtml",
-    "category": "manufacturing",
-    "subcategory": "commerce",
-    "type": "detail",
-    "schema_": "manufacturing_commerce",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": {
-          "TODO": "Finish this"
-        }
-      }
-    ]
-  },
-  {
-    "id": "MQrMR8W7oJtlUc056qZ6L",
-    "url": "https://www.nexperia.com/products/diodes/automotive-diodes/automotive-zener-diodes/BZX585-C6V8-Q.html",
-    "source": "mhtml",
-    "category": "manufacturing",
-    "subcategory": "commerce",
-    "type": "detail",
-    "schema_": "manufacturing_commerce",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": {
-          "TODO": "Finish this"
-        }
-      }
-    ]
-  },
-  {
     "id": "kvcH8Q2BG1SPgWSAN3f2h",
     "url": "https://www.capecodhealth.org/locations/",
     "source": "mhtml",
@@ -23850,24 +23782,6 @@
             "phone_number": null,
             "email": null
           }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "OlYrsJi04Czdu7Uvl1mIF",
-    "url": "https://mu.ariba.com/profile/public/certification/84d90260-ca95-e347-1800-c652cd6042c4?anId=AN01012014512&sourceApplication=SBN",
-    "source": "mhtml",
-    "category": "test",
-    "subcategory": "test",
-    "type": "listing_detail",
-    "goal": "Fetch all of the links to the documents on the current page.",
-    "schema_": "listing_document",
-    "evals": [
-      {
-        "type": "json_match",
-        "expected": [
-          "This example has a dynamic download. We should either make it an HREF or wait until we support dynamic downloads in evals"
         ]
       }
     ]
