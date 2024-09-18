@@ -11,7 +11,7 @@ readme = "README.md"
 bananalyze = "bananalyzer.__main__:main"
 
 [tool.poetry.dependencies]
-python = ">=3.11"
+python = ">=3.11,<4.0"
 playwright = "^1.46.0"
 pydantic = "^2.8.2"
 pytest-asyncio = "^0.24.0"
@@ -24,6 +24,7 @@ requests = "^2.32.3"
 boto3 = "^1.35.8"
 psutil = "^6.0.0"
 numpy = "^2.1.0"
+harambe-sdk = "^0.28.1"
 
 [tool.poetry.group.test.dependencies]
 pytest-mock = "^3.14.0"
