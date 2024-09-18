@@ -6310,25 +6310,21 @@
     "type": "listing_detail",
     "goal": "Fetch ALL of the links to courses on the current page.",
     "schema_": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "title": {
-          "type": "string",
-          "description": "The title of the course, excluding units and course code."
-        },
-        "units": {
-          "type": "number",
-          "description": "The number of units the course is worth."
-        },
-        "course_code": {
-          "type": "string",
-          "description": "The course code, such as 'CMPT 999' or 'MACM 999'."
-        },
-        "url": {
-          "type": "string",
-          "description": "The URL to the course details."
-        }
+      "title": {
+        "type": "string",
+        "description": "The title of the course, excluding units and course code."
+      },
+      "units": {
+        "type": "number",
+        "description": "The number of units the course is worth."
+      },
+      "course_code": {
+        "type": "string",
+        "description": "The course code, such as 'CMPT 999' or 'MACM 999'."
+      },
+      "url": {
+        "type": "string",
+        "description": "The URL to the course details."
       }
     },
     "evals": [
@@ -6904,19 +6900,13 @@
     "type": "listing_detail",
     "goal": "Fetch all of the quotes on the page. Remove quotation marks from the quote. Note: These may be special unicode characters for left and right quotes.",
     "schema_": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "author": {
-            "type": "string",
-            "description": "The name of the individual that said the quote"
-          },
-          "quote": {
-            "type": "string",
-            "description": "Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string"
-          }
-        }
+      "author": {
+        "type": "string",
+        "description": "The name of the individual that said the quote"
+      },
+      "quote": {
+        "type": "string",
+        "description": "Purely the plaintext string of the quote. Do NOT include surrounding quotation marks within this string"
       }
     },
     "evals": [
@@ -7000,13 +6990,10 @@
     "type": "listing_detail",
     "goal": "Fetch all of the experiences on the page.",
     "schema_": {
-      "type": "array",
-      "items": {
-        "title": "string",
-        "description": "string",
-        "url": "string",
-        "image_url": "string"
-      }
+      "title": "string",
+      "description": "string",
+      "url": "string",
+      "image_url": "string"
     },
     "evals": [
       {
@@ -7106,12 +7093,9 @@
       "urls"
     ],
     "schema_": {
-      "type": "array",
-      "items": {
-        "title": "string",
-        "url": "string",
-        "author": "string"
-      }
+      "title": "string",
+      "url": "string",
+      "author": "string"
     },
     "evals": [
       {
