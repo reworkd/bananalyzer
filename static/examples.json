@@ -35895,5 +35895,1044 @@
         ]
       }
     ]
+  },
+  {
+    "id": "z8Yp7sWv0sRhdnNryRLc9",
+    "url": "https://claude.site/artifacts/82e9d819-b977-44f8-99f8-618c21459090",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract the information within the table component",
+    "schema_": {
+      "some_value": {
+        "type": "string"
+      },
+      "another_value": {
+        "type": "number"
+      },
+      "a_third_value": {
+        "type": "string"
+      }
+    },
+    "tags": [
+      "synthetic",
+      "pagination",
+      "regression"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "some_value": "Apple",
+            "another_value": 10,
+            "a_third_value": "Red"
+          },
+          {
+            "some_value": "Banana",
+            "another_value": 20,
+            "a_third_value": "42"
+          },
+          {
+            "some_value": "Cherry",
+            "another_value": 30,
+            "a_third_value": "Sweet"
+          },
+          {
+            "some_value": "Date",
+            "another_value": 40,
+            "a_third_value": "7"
+          },
+          {
+            "some_value": "Elderberry",
+            "another_value": 50,
+            "a_third_value": "Purple"
+          },
+          {
+            "some_value": "Fig",
+            "another_value": 60,
+            "a_third_value": "3.14"
+          },
+          {
+            "some_value": "Grape",
+            "another_value": 70,
+            "a_third_value": "Green"
+          },
+          {
+            "some_value": "Honeydew",
+            "another_value": 80,
+            "a_third_value": "18"
+          },
+          {
+            "some_value": "Imbe",
+            "another_value": 90,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Jackfruit",
+            "another_value": 100,
+            "a_third_value": "55"
+          },
+          {
+            "some_value": "Kiwi",
+            "another_value": 110,
+            "a_third_value": "Fuzzy"
+          },
+          {
+            "some_value": "Lemon",
+            "another_value": 120,
+            "a_third_value": "2.5"
+          },
+          {
+            "some_value": "Mango",
+            "another_value": 130,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Nectarine",
+            "another_value": 140,
+            "a_third_value": "9"
+          },
+          {
+            "some_value": "Orange",
+            "another_value": 150,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Papaya",
+            "another_value": 160,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Quince",
+            "another_value": 170,
+            "a_third_value": "4.8"
+          },
+          {
+            "some_value": "Raspberry",
+            "another_value": 180,
+            "a_third_value": "Berry"
+          },
+          {
+            "some_value": "Strawberry",
+            "another_value": 190,
+            "a_third_value": "22"
+          },
+          {
+            "some_value": "Tangerine",
+            "another_value": 200,
+            "a_third_value": "Orange"
+          },
+          {
+            "some_value": "Ugli Fruit",
+            "another_value": 210,
+            "a_third_value": "Citrus"
+          },
+          {
+            "some_value": "Vanilla",
+            "another_value": 220,
+            "a_third_value": "1.2"
+          },
+          {
+            "some_value": "Watermelon",
+            "another_value": 230,
+            "a_third_value": "Large"
+          },
+          {
+            "some_value": "Xigua",
+            "another_value": 240,
+            "a_third_value": "33"
+          },
+          {
+            "some_value": "Yuzu",
+            "another_value": 250,
+            "a_third_value": "Sour"
+          },
+          {
+            "some_value": "Zucchini",
+            "another_value": 260,
+            "a_third_value": "6"
+          },
+          {
+            "some_value": "Apricot",
+            "another_value": 270,
+            "a_third_value": "Orange"
+          },
+          {
+            "some_value": "Blackberry",
+            "another_value": 280,
+            "a_third_value": "15"
+          },
+          {
+            "some_value": "Coconut",
+            "another_value": 290,
+            "a_third_value": "Tropical"
+          },
+          {
+            "some_value": "Dragonfruit",
+            "another_value": 300,
+            "a_third_value": "8.4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t9Hy6mZx4wKfRqNcBvLd3",
+    "url": "https://claude.site/artifacts/2581250d-f049-418f-b04c-a75e2c736d3e",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all job listing information",
+    "schema_": {
+      "role": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The buttons always work regardless if the end page is hit and will cycle through the data in a circular manner.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "role": "Software Engineer",
+            "company": "TechCorp",
+            "city": "San Francisco",
+            "description": "Develop cutting-edge web applications"
+          },
+          {
+            "role": "Data Analyst",
+            "company": "DataInsights",
+            "city": "new york",
+            "description": "Analyze complex datasets to drive business decisions"
+          },
+          {
+            "role": "Product Manager",
+            "company": "InnovateTech",
+            "city": "Seattle",
+            "description": "Lead product development from conception to launch"
+          },
+          {
+            "role": "UX Designer",
+            "company": "DesignHub",
+            "city": "Austin",
+            "description": "Create intuitive and engaging user experiences"
+          },
+          {
+            "role": "Marketing Specialist",
+            "company": "BrandBoost",
+            "city": "Chicago",
+            "description": "Develop and execute marketing strategies"
+          },
+          {
+            "role": "DevOps Engineer",
+            "company": "CloudSystems",
+            "city": "Boston",
+            "description": "Optimize and maintain cloud infrastructure"
+          },
+          {
+            "role": "Sales Representative",
+            "company": "SalesPro",
+            "city": "Los Angeles",
+            "description": "Drive revenue growth through client acquisition"
+          },
+          {
+            "role": "Financial Analyst",
+            "company": "MoneyMatters",
+            "city": "Miami",
+            "description": "Perform financial modeling and forecasting"
+          },
+          {
+            "role": "Content Writer",
+            "company": "WordCraft",
+            "city": "Portland",
+            "description": "Create compelling content for various platforms"
+          },
+          {
+            "role": "HR Manager",
+            "company": "PeopleFirst",
+            "city": "Denver",
+            "description": "Oversee all aspects of human resources"
+          },
+          {
+            "role": "Mobile App Developer",
+            "company": "AppWizards",
+            "city": "San Diego",
+            "description": "Build innovative mobile applications"
+          },
+          {
+            "role": "Business Analyst",
+            "company": "StrategyPlus",
+            "city": "Washington D.C.",
+            "description": "Analyze business processes and recommend improvements"
+          },
+          {
+            "role": "Graphic Designer",
+            "company": "VisualArts",
+            "city": "Nashville",
+            "description": "Create visually appealing designs for various media"
+          },
+          {
+            "role": "Network Administrator",
+            "company": "NetSolutions",
+            "city": "Phoenix",
+            "description": "Maintain and optimize network infrastructure"
+          },
+          {
+            "role": "Customer Success Manager",
+            "company": "ClientCare",
+            "city": "Atlanta",
+            "description": "Ensure client satisfaction and retention"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f3Qm9tXk2pLgbJMwySHd7",
+    "url": "https://claude.site/artifacts/763bbd05-edcd-4309-a820-11e02111cbd2",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all contact information",
+    "schema_": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated data with only next and previous page buttons. The pagination occurs client side",
+    "tags": [
+      "synthetic",
+      "pagination",
+      "regression"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "first_name": "John",
+            "last_name": "Doe",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Alice",
+            "last_name": "Johnson",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Charlie",
+            "last_name": "Davis",
+            "phone": "567-890-1234"
+          },
+          {
+            "first_name": "Diana",
+            "last_name": "Wilson",
+            "phone": "678-901-2345"
+          },
+          {
+            "first_name": "Edward",
+            "last_name": "Moore",
+            "phone": "789-012-3456"
+          },
+          {
+            "first_name": "Fiona",
+            "last_name": "Taylor",
+            "phone": "890-123-4567"
+          },
+          {
+            "first_name": "George",
+            "last_name": "Anderson",
+            "phone": "901-234-5678"
+          },
+          {
+            "first_name": "Hannah",
+            "last_name": "Thomas",
+            "phone": "012-345-6789"
+          },
+          {
+            "first_name": "Ian",
+            "last_name": "Jackson",
+            "phone": "123-456-7890"
+          },
+          {
+            "first_name": "Julia",
+            "last_name": "White",
+            "phone": "234-567-8901"
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Harris",
+            "phone": "345-678-9012"
+          },
+          {
+            "first_name": "Laura",
+            "last_name": "Martin",
+            "phone": "456-789-0123"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Thompson",
+            "phone": "567-890-1234"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h7Kp2rNj9wLmCzFxVqTb4",
+    "url": "https://claude.site/artifacts/bdf20e24-2fbd-432f-9fa4-774dea8a5436",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all product information",
+    "schema_": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "description": "Paginated product data with numbered page buttons. The current page button is disabled and has an 'active' CSS class. The pagination occurs client side using JavaScript.",
+    "tags": [
+      "synthetic",
+      "pagination",
+      "regression"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "id": "P001",
+            "name": "Ergonomic Chair",
+            "description": "Comfortable office chair with lumbar support"
+          },
+          {
+            "id": "P002",
+            "name": "Wireless Mouse",
+            "description": "High-precision wireless mouse with long battery life"
+          },
+          {
+            "id": "P003",
+            "name": "Mechanical Keyboard",
+            "description": "Tactile mechanical keyboard with RGB backlighting"
+          },
+          {
+            "id": "P004",
+            "name": "4K Monitor",
+            "description": "Ultra-high definition monitor with wide color gamut"
+          },
+          {
+            "id": "P005",
+            "name": "Noise-Cancelling Headphones",
+            "description": "Over-ear headphones with active noise cancellation"
+          },
+          {
+            "id": "P006",
+            "name": "Laptop Stand",
+            "description": "Adjustable aluminum laptop stand for better ergonomics"
+          },
+          {
+            "id": "P007",
+            "name": "Desk Lamp",
+            "description": "LED desk lamp with adjustable color temperature"
+          },
+          {
+            "id": "P008",
+            "name": "External SSD",
+            "description": "Fast and portable solid-state drive for extra storage"
+          },
+          {
+            "id": "P009",
+            "name": "Webcam",
+            "description": "Full HD webcam with built-in microphone"
+          },
+          {
+            "id": "P010",
+            "name": "USB Hub",
+            "description": "Multi-port USB hub with power delivery"
+          },
+          {
+            "id": "P011",
+            "name": "Graphics Tablet",
+            "description": "Digital drawing tablet with pressure sensitivity"
+          },
+          {
+            "id": "P012",
+            "name": "Wireless Charger",
+            "description": "Qi-compatible wireless charging pad"
+          },
+          {
+            "id": "P013",
+            "name": "Document Scanner",
+            "description": "Portable document scanner with OCR functionality"
+          },
+          {
+            "id": "P014",
+            "name": "Desk Organizer",
+            "description": "Multi-compartment organizer for office supplies"
+          },
+          {
+            "id": "P015",
+            "name": "Ergonomic Mouse Pad",
+            "description": "Gel-filled mouse pad with wrist support"
+          },
+          {
+            "id": "P016",
+            "name": "Portable Projector",
+            "description": "Mini LED projector for presentations on-the-go"
+          },
+          {
+            "id": "P017",
+            "name": "Smart Power Strip",
+            "description": "Wi-Fi enabled power strip with individual outlet control"
+          },
+          {
+            "id": "P018",
+            "name": "Cable Management Kit",
+            "description": "Set of cable clips and sleeves for tidy workspaces"
+          },
+          {
+            "id": "P019",
+            "name": "Desk Fan",
+            "description": "USB-powered desk fan with adjustable speed"
+          },
+          {
+            "id": "P020",
+            "name": "Blue Light Glasses",
+            "description": "Computer glasses that filter out harmful blue light"
+          },
+          {
+            "id": "P021",
+            "name": "Wireless Presenter",
+            "description": "Remote control for presentations with laser pointer"
+          },
+          {
+            "id": "P022",
+            "name": "Laptop Cooling Pad",
+            "description": "Laptop stand with built-in cooling fans"
+          },
+          {
+            "id": "P023",
+            "name": "USB Microphone",
+            "description": "Cardioid condenser microphone for clear audio recording"
+          },
+          {
+            "id": "P024",
+            "name": "Desk Pad",
+            "description": "Large mouse pad that covers the entire desk area"
+          },
+          {
+            "id": "P025",
+            "name": "Portable Monitor",
+            "description": "Slim and lightweight secondary monitor for laptops"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rWSVXdF4puP0VaRmMB1Sj",
+    "url": "https://claude.site/artifacts/f3060ec4-4564-427d-a887-0d478ad9c489",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "detail",
+    "goal": "Extract image src attribute and the alt text",
+    "schema_": {
+      "image_url": {
+        "type": "string"
+      },
+      "alt_text": {
+        "type": "string"
+      }
+    },
+    "description": "A page with a single image to test that we can get the image URLs/src attribute along with its alt text",
+    "tags": [
+      "synthetic",
+      "images"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": {
+          "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt_text": "Smart Home Hub 2.0"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rZxVXdF4puP0VaRmMB1Sj",
+    "url": "https://claude.site/artifacts/6d1b27f9-b91a-4db2-988b-1e9990728f71",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all the image src attributes and their alt text",
+    "schema_": {
+      "image_url": {
+        "type": "string"
+      },
+      "alt_text": {
+        "type": "string"
+      }
+    },
+    "description": "A page with a bunch of images to test that we can get all of the image URLs/src attributes along with their alt text",
+    "tags": [
+      "synthetic",
+      "images"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80%22",
+            "alt_text": "Smartphone X1"
+          },
+          {
+            "image_url": "https://plus.unsplash.com/premium_photo-1681702156223-ea59bfbf1065?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Ultra-thin Laptop Pro"
+          },
+          {
+            "image_url": "https://images.unsplash.com/photo-1590658165737-15a047b7c0b0?q=80&w=3131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Wireless Earbuds Elite"
+          },
+          {
+            "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Smart Home Hub 2.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "relVXdF4puP0VaRmMB1Sj",
+    "url": "https://claude.site/artifacts/e1fe64dd-ae05-410f-9bfa-752f71e6f33c",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "e-commerce",
+    "type": "listing_detail",
+    "goal": "Extract information from the product listings. We need the image src attributes, their alt text, the product name of from the listing, the description from the listing, and the product ID from the listing. ",
+    "schema_": {
+      "image_url": {
+        "type": "string"
+      },
+      "alt_text": {
+        "type": "string"
+      },
+      "product_name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "product_id": {
+        "type": "string"
+      },
+      "price": {
+        "type": "string"
+      }
+    },
+    "description": "A mock e-commerce style page to test that we get product information along with the image URL, alt text. Should have product id, name, description, price",
+    "tags": [
+      "synthetic",
+      "images"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80%22",
+            "alt_text": "Smartphone X1",
+            "product_name": "Smartphone X1",
+            "description": "Next-gen smartphone with 5G capability and AI-powered camera.",
+            "product_id": "SP-X1-5G",
+            "price": "$799.99"
+          },
+          {
+            "image_url": "https://plus.unsplash.com/premium_photo-1681702156223-ea59bfbf1065?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Ultra-thin Laptop Pro",
+            "product_name": "Ultra-thin Laptop Pro",
+            "description": "Powerful laptop with 4K display and 1TB SSD storage.",
+            "product_id": "LT-PRO-4K",
+            "price": "$1299.99"
+          },
+          {
+            "image_url": "https://images.unsplash.com/photo-1590658165737-15a047b7c0b0?q=80&w=3131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Wireless Earbuds Elite",
+            "product_name": "Wireless Earbuds Elite",
+            "description": "True wireless earbuds with active noise cancellation.",
+            "product_id": "WE-ELITE-ANC",
+            "price": "$149.99"
+          },
+          {
+            "image_url": "https://plus.unsplash.com/premium_photo-1661297461253-ae1968b5d46c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt_text": "Smart Home Hub 2.0",
+            "product_name": "Smart Home Hub 2.0",
+            "description": "Central control for all your smart home devices.",
+            "product_id": "SH-HUB-2",
+            "price": "$199.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m9Tz4xBq7fLcVwKyPdHn2",
+    "url": "https://claude.site/artifacts/8f903ffa-c84d-4fd8-8f00-dbfd0ae188d2",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all product information including main image, additional images, and product details",
+    "schema_": {
+      "product_name": {
+        "type": "string"
+      },
+      "price": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "features": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "main_image": {
+        "type": "string"
+      },
+      "additional_images": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "description": "E-commerce product page with a main product image and additional thumbnail images from Unsplash. The task is to extract both the main product image and the list of additional images, along with other product information.",
+    "tags": [
+      "synthetic",
+      "images"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "product_name": "Luxury Chronograph Watch",
+            "price": "$1,999.99",
+            "description": "Elegant and sophisticated, this luxury chronograph watch features a stainless steel case, sapphire crystal, and Swiss movement. Water-resistant up to 100 meters.",
+            "features": [
+              "Stainless steel case and bracelet",
+              "Sapphire crystal",
+              "Swiss automatic movement",
+              "Chronograph function",
+              "Date display",
+              "100m water resistance"
+            ],
+            "main_image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+            "additional_images": [
+              "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80",
+              "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80",
+              "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80",
+              "https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "w7Ht5xRm1nZqKcVbPfLj2",
+    "url": "https://claude.site/artifacts/2ef6ea4c-1d8a-4274-9a61-1263d7e55fbf",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all wine product information",
+    "schema_": {
+      "name": {
+        "type": "string"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number"
+      }
+    },
+    "description": "Paginated data` with only next and previous page icon buttons. The pagination occurs client-side using JavaScript.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Château Margaux",
+            "sku": "CM2015",
+            "country": "France",
+            "price": 699.99
+          },
+          {
+            "name": "Opus One",
+            "sku": "OO2018",
+            "country": "USA",
+            "price": 349.99
+          },
+          {
+            "name": "Penfolds Grange",
+            "sku": "PG2017",
+            "country": "Australia",
+            "price": 599.99
+          },
+          {
+            "name": "Sassicaia",
+            "sku": "SS2016",
+            "country": "Italy",
+            "price": 249.99
+          },
+          {
+            "name": "Vega Sicilia Unico",
+            "sku": "VSU2011",
+            "country": "Spain",
+            "price": 449.99
+          },
+          {
+            "name": "Screaming Eagle",
+            "sku": "SE2019",
+            "country": "USA",
+            "price": 2999.99
+          },
+          {
+            "name": "Domaine de la Romanée-Conti",
+            "sku": "DRC2018",
+            "country": "France",
+            "price": 19999.99
+          },
+          {
+            "name": "Tignanello",
+            "sku": "TG2017",
+            "country": "Italy",
+            "price": 149.99
+          },
+          {
+            "name": "Almaviva",
+            "sku": "AL2018",
+            "country": "Chile",
+            "price": 129.99
+          },
+          {
+            "name": "Château Lafite Rothschild",
+            "sku": "CLR2016",
+            "country": "France",
+            "price": 899.99
+          },
+          {
+            "name": "Henschke Hill of Grace",
+            "sku": "HHG2015",
+            "country": "Australia",
+            "price": 799.99
+          },
+          {
+            "name": "Ornellaia",
+            "sku": "ORN2017",
+            "country": "Italy",
+            "price": 239.99
+          },
+          {
+            "name": "Château Mouton Rothschild",
+            "sku": "CMR2015",
+            "country": "France",
+            "price": 749.99
+          },
+          {
+            "name": "Masseto",
+            "sku": "MAS2018",
+            "country": "Italy",
+            "price": 699.99
+          },
+          {
+            "name": "Harlan Estate",
+            "sku": "HE2016",
+            "country": "USA",
+            "price": 1499.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g9Kp3mFq7xZyLtRbNvCj4",
+    "url": "https://claude.site/artifacts/9269eead-3e18-43c4-bb9e-df23ee6cbf9a",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all grocery product information",
+    "schema_": {
+      "name": {
+        "type": "string"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number"
+      }
+    },
+    "description": "The Next button is always visible initially, while the Previous button only appears after navigating to the second page. Both buttons have the class 'li.pagination'.",
+    "tags": [
+      "synthetic",
+      "pagination"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Organic Bananas",
+            "sku": "FR001",
+            "category": "Fruits",
+            "price": 1.99
+          },
+          {
+            "name": "Whole Wheat Bread",
+            "sku": "BK001",
+            "category": "Bakery",
+            "price": 3.49
+          },
+          {
+            "name": "Free-Range Eggs",
+            "sku": "DR001",
+            "category": "Dairy",
+            "price": 4.99
+          },
+          {
+            "name": "Almond Milk",
+            "sku": "DR002",
+            "category": "Dairy",
+            "price": 3.79
+          },
+          {
+            "name": "Ground Coffee",
+            "sku": "BV001",
+            "category": "Beverages",
+            "price": 7.99
+          },
+          {
+            "name": "Tomatoes",
+            "sku": "VG001",
+            "category": "Vegetables",
+            "price": 2.49
+          },
+          {
+            "name": "Chicken Breast",
+            "sku": "MT001",
+            "category": "Meat",
+            "price": 8.99
+          },
+          {
+            "name": "Greek Yogurt",
+            "sku": "DR003",
+            "category": "Dairy",
+            "price": 5.49
+          },
+          {
+            "name": "Spinach",
+            "sku": "VG002",
+            "category": "Vegetables",
+            "price": 3.29
+          },
+          {
+            "name": "Salmon Fillet",
+            "sku": "SF001",
+            "category": "Seafood",
+            "price": 12.99
+          },
+          {
+            "name": "Avocado",
+            "sku": "FR002",
+            "category": "Fruits",
+            "price": 1.79
+          },
+          {
+            "name": "Olive Oil",
+            "sku": "GR001",
+            "category": "Grocery",
+            "price": 8.99
+          },
+          {
+            "name": "Quinoa",
+            "sku": "GR002",
+            "category": "Grocery",
+            "price": 6.49
+          },
+          {
+            "name": "Blueberries",
+            "sku": "FR003",
+            "category": "Fruits",
+            "price": 4.99
+          },
+          {
+            "name": "Whole Chicken",
+            "sku": "MT002",
+            "category": "Meat",
+            "price": 9.99
+          }
+        ]
+      }
+    ]
   }
 ]

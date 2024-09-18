@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginated Table Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .pagination button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .pagination button.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .pagination button:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Paginated Table Demo</h1>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>some_value</th>
+                <th>another_value</th>
+                <th>a_third_value</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        const data = [
+            { some_value: "Apple", another_value: 10, a_third_value: "Red" },
+            { some_value: "Banana", another_value: 20, a_third_value: 42 },
+            { some_value: "Cherry", another_value: 30, a_third_value: "Sweet" },
+            { some_value: "Date", another_value: 40, a_third_value: 7 },
+            { some_value: "Elderberry", another_value: 50, a_third_value: "Purple" },
+            { some_value: "Fig", another_value: 60, a_third_value: 3.14 },
+            { some_value: "Grape", another_value: 70, a_third_value: "Green" },
+            { some_value: "Honeydew", another_value: 80, a_third_value: 18 },
+            { some_value: "Imbe", another_value: 90, a_third_value: "Citrus" },
+            { some_value: "Jackfruit", another_value: 100, a_third_value: 55 },
+            { some_value: "Kiwi", another_value: 110, a_third_value: "Fuzzy" },
+            { some_value: "Lemon", another_value: 120, a_third_value: 2.5 },
+            { some_value: "Mango", another_value: 130, a_third_value: "Tropical" },
+            { some_value: "Nectarine", another_value: 140, a_third_value: 9 },
+            { some_value: "Orange", another_value: 150, a_third_value: "Citrus" },
+            { some_value: "Papaya", another_value: 160, a_third_value: "Tropical" },
+            { some_value: "Quince", another_value: 170, a_third_value: 4.8 },
+            { some_value: "Raspberry", another_value: 180, a_third_value: "Berry" },
+            { some_value: "Strawberry", another_value: 190, a_third_value: 22 },
+            { some_value: "Tangerine", another_value: 200, a_third_value: "Orange" },
+            { some_value: "Ugli Fruit", another_value: 210, a_third_value: "Citrus" },
+            { some_value: "Vanilla", another_value: 220, a_third_value: 1.2 },
+            { some_value: "Watermelon", another_value: 230, a_third_value: "Large" },
+            { some_value: "Xigua", another_value: 240, a_third_value: 33 },
+            { some_value: "Yuzu", another_value: 250, a_third_value: "Sour" },
+            { some_value: "Zucchini", another_value: 260, a_third_value: 6 },
+            { some_value: "Apricot", another_value: 270, a_third_value: "Orange" },
+            { some_value: "Blackberry", another_value: 280, a_third_value: 15 },
+            { some_value: "Coconut", another_value: 290, a_third_value: "Tropical" },
+            { some_value: "Dragonfruit", another_value: 300, a_third_value: 8.4 }
+        ];
+
+        const itemsPerPage = 10; // Set to 10 items per page
+        let currentPage = 1;
+
+        function displayTable(page) {
+            const tableBody = document.querySelector("#dataTable tbody");
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const paginatedData = data.slice(start, end);
+
+            tableBody.innerHTML = "";
+            for (let item of paginatedData) {
+                const row = tableBody.insertRow();
+                row.insertCell().textContent = item.some_value;
+                row.insertCell().textContent = item.another_value;
+                row.insertCell().textContent = item.a_third_value;
+            }
+        }
+
+        function setupPagination() {
+            const pageCount = Math.ceil(data.length / itemsPerPage);
+            const paginationElement = document.getElementById("pagination");
+            paginationElement.innerHTML = "";
+
+            const prevButton = document.createElement("button");
+            prevButton.textContent = "Previous";
+            prevButton.disabled = currentPage === 1;
+            prevButton.addEventListener("click", () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displayTable(currentPage);
+                    setupPagination();
+                }
+            });
+            paginationElement.appendChild(prevButton);
+
+            for (let i = 1; i <= pageCount; i++) {
+                const button = document.createElement("button");
+                button.textContent = i;
+                if (i === currentPage) {
+                    button.classList.add("active");
+                }
+                button.addEventListener("click", () => {
+                    currentPage = i;
+                    displayTable(currentPage);
+                    setupPagination();
+                });
+                paginationElement.appendChild(button);
+            }
+
+            const nextButton = document.createElement("button");
+            nextButton.textContent = "Next";
+            nextButton.disabled = currentPage === pageCount;
+            nextButton.addEventListener("click", () => {
+                if (currentPage < pageCount) {
+                    currentPage++;
+                    displayTable(currentPage);
+                    setupPagination();
+                }
+            });
+            paginationElement.appendChild(nextButton);
+        }
+
+        displayTable(currentPage);
+        setupPagination();
+    </script>
+</body>
+</html>

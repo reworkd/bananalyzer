@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exquisite Wine Collection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f7f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #8E2323;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product h2 {
+            color: #8E2323;
+            margin-top: 0;
+            font-size: 1.4em;
+        }
+        .product-info {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .sku, .country, .price {
+            margin-bottom: 5px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .pagination button {
+            background-color: #8E2323;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        .pagination button:hover {
+            background-color: #6E1A1A;
+        }
+        .pagination button:disabled {
+            background-color: #D3A2A2;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exquisite Wine Collection</h1>
+    <div id="productList" class="product-grid"></div>
+    <div class="pagination">
+        <button id="prevPage" onclick="changePage(-1)" aria-label="Previous page">&#8592;</button>
+        <button id="nextPage" onclick="changePage(1)" aria-label="Next page">&#8594;</button>
+    </div>
+
+    <script>
+        const products = [
+            {"name": "Château Margaux", "sku": "CM2015", "country": "France", "price": 699.99},
+            {"name": "Opus One", "sku": "OO2018", "country": "USA", "price": 349.99},
+            {"name": "Penfolds Grange", "sku": "PG2017", "country": "Australia", "price": 599.99},
+            {"name": "Sassicaia", "sku": "SS2016", "country": "Italy", "price": 249.99},
+            {"name": "Vega Sicilia Unico", "sku": "VSU2011", "country": "Spain", "price": 449.99},
+            {"name": "Screaming Eagle", "sku": "SE2019", "country": "USA", "price": 2999.99},
+            {"name": "Domaine de la Romanée-Conti", "sku": "DRC2018", "country": "France", "price": 19999.99},
+            {"name": "Tignanello", "sku": "TG2017", "country": "Italy", "price": 149.99},
+            {"name": "Almaviva", "sku": "AL2018", "country": "Chile", "price": 129.99},
+            {"name": "Château Lafite Rothschild", "sku": "CLR2016", "country": "France", "price": 899.99},
+            {"name": "Henschke Hill of Grace", "sku": "HHG2015", "country": "Australia", "price": 799.99},
+            {"name": "Ornellaia", "sku": "ORN2017", "country": "Italy", "price": 239.99},
+            {"name": "Château Mouton Rothschild", "sku": "CMR2015", "country": "France", "price": 749.99},
+            {"name": "Masseto", "sku": "MAS2018", "country": "Italy", "price": 699.99},
+            {"name": "Harlan Estate", "sku": "HE2016", "country": "USA", "price": 1499.99}
+        ];
+
+        let currentPage = 0;
+        const productsPerPage = 5;
+
+        function displayProducts() {
+            const productList = document.getElementById('productList');
+            productList.innerHTML = '';
+            const start = currentPage * productsPerPage;
+            const end = start + productsPerPage;
+            const pageProducts = products.slice(start, end);
+
+            pageProducts.forEach(product => {
+                const productDiv = document.createElement('div');
+                productDiv.className = 'product';
+                productDiv.innerHTML = `
+                    <h2>${product.name}</h2>
+                    <div class="product-info">
+                        <div class="sku">${product.sku}</div>
+                        <div class="country">${product.country}</div>
+                        <div class="price">$${product.price.toFixed(2)}</div>
+                    </div>
+                `;
+                productList.appendChild(productDiv);
+            });
+
+            document.getElementById('prevPage').disabled = currentPage === 0;
+            document.getElementById('nextPage').disabled = end >= products.length;
+        }
+
+        function changePage(direction) {
+            currentPage += direction;
+            displayProducts();
+        }
+
+        displayProducts();
+    </script>
+</body>
+</html>

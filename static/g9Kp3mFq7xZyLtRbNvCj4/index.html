@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Grocery Mart</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f8f0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c7c2c;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product h2 {
+            color: #2c7c2c;
+            margin-top: 0;
+            font-size: 1.4em;
+        }
+        .product-info {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .sku, .category, .price {
+            margin-bottom: 5px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .pagination li {
+            margin: 0 10px;
+        }
+        .pagination button {
+            background-color: #2c7c2c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .pagination button:hover {
+            background-color: #1e5c1e;
+        }
+        .page-info {
+            font-size: 1em;
+            color: #2c7c2c;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fresh Grocery Mart</h1>
+    <div class="product-grid"></div>
+    <ul class="pagination">
+        <li class="page-info">
+            Page <span class="current-page">1</span> of <span class="total-pages"></span>
+        </li>
+    </ul>
+
+    <script>
+        const products = [
+            {"name": "Organic Bananas", "sku": "FR001", "category": "Fruits", "price": 1.99},
+            {"name": "Whole Wheat Bread", "sku": "BK001", "category": "Bakery", "price": 3.49},
+            {"name": "Free-Range Eggs", "sku": "DR001", "category": "Dairy", "price": 4.99},
+            {"name": "Almond Milk", "sku": "DR002", "category": "Dairy", "price": 3.79},
+            {"name": "Ground Coffee", "sku": "BV001", "category": "Beverages", "price": 7.99},
+            {"name": "Tomatoes", "sku": "VG001", "category": "Vegetables", "price": 2.49},
+            {"name": "Chicken Breast", "sku": "MT001", "category": "Meat", "price": 8.99},
+            {"name": "Greek Yogurt", "sku": "DR003", "category": "Dairy", "price": 5.49},
+            {"name": "Spinach", "sku": "VG002", "category": "Vegetables", "price": 3.29},
+            {"name": "Salmon Fillet", "sku": "SF001", "category": "Seafood", "price": 12.99},
+            {"name": "Avocado", "sku": "FR002", "category": "Fruits", "price": 1.79},
+            {"name": "Olive Oil", "sku": "GR001", "category": "Grocery", "price": 8.99},
+            {"name": "Quinoa", "sku": "GR002", "category": "Grocery", "price": 6.49},
+            {"name": "Blueberries", "sku": "FR003", "category": "Fruits", "price": 4.99},
+            {"name": "Whole Chicken", "sku": "MT002", "category": "Meat", "price": 9.99}
+        ];
+
+        let currentPage = 0;
+        const productsPerPage = 5;
+        const totalPages = Math.ceil(products.length / productsPerPage);
+
+        function displayProducts() {
+            const productList = document.querySelector('.product-grid');
+            productList.innerHTML = '';
+            const start = currentPage * productsPerPage;
+            const end = Math.min(start + productsPerPage, products.length);
+            const pageProducts = products.slice(start, end);
+
+            pageProducts.forEach(product => {
+                const productDiv = document.createElement('div');
+                productDiv.className = 'product';
+                productDiv.innerHTML = `
+                    <h2>${product.name}</h2>
+                    <div class="product-info">
+                        <div class="sku">${product.sku}</div>
+                        <div class="category">${product.category}</div>
+                        <div class="price">$${product.price.toFixed(2)}</div>
+                    </div>
+                `;
+                productList.appendChild(productDiv);
+            });
+
+            updatePaginationButtons();
+            updatePageInfo();
+        }
+
+        function updatePaginationButtons() {
+            const paginationList = document.querySelector('.pagination');
+
+            // Remove all existing pagination buttons
+            paginationList.querySelectorAll('li.pagination').forEach(li => li.remove());
+
+            // Add previous button if not on the first page
+            if (currentPage > 0) {
+                const prevLi = document.createElement('li');
+                prevLi.className = 'pagination';
+                prevLi.innerHTML = '<button class="page-button" onclick="changePage(-1)"><</button>';
+                paginationList.insertBefore(prevLi, paginationList.firstChild);
+            }
+
+            // Add next button if not on the last page
+            if (currentPage < totalPages - 1) {
+                const nextLi = document.createElement('li');
+                nextLi.className = 'pagination';
+                nextLi.innerHTML = '<button class="page-button" onclick="changePage(1)">></button>';
+                paginationList.appendChild(nextLi);
+            }
+        }
+
+        function updatePageInfo() {
+            document.querySelector('.current-page').textContent = currentPage + 1;
+            document.querySelector('.total-pages').textContent = totalPages;
+        }
+
+        function changePage(direction) {
+            const newPage = currentPage + direction;
+            if (newPage >= 0 && newPage < totalPages) {
+                currentPage = newPage;
+                displayProducts();
+            }
+        }
+
+        displayProducts();
+    </script>
+</body>
+</html>

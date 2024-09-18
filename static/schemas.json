@@ -900,7 +900,7 @@
       "type": "string"
     },
     "title": {
-      "description": "The job title/role/department of the individual within the school. Example: Social Studies Teacher",
+      "description": "The specific job title/role/department of the individual within the school. Example: Social Studies Teacher",
       "type": "string"
     },
     "email": {
@@ -908,7 +908,7 @@
       "type": "email"
     },
     "phone_number": {
-      "description": "Phone number of the individual within the school. Do not include irrelevant text.",
+      "description": "The specific phone number of the individual within the school. Do not include irrelevant text. Do not use the main school phone number.",
       "type": "phone_number"
     }
   },
