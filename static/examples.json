@@ -4891,7 +4891,7 @@
           "post_date": "5 days ago",
           "content": "I have tried multiple different scripts ranging from simply \"hello world\" prints to more complex ones in GA4/GTM Custom Javascript Events. I had a jscript developer look at it as is stumped so was wondering if theres any hints or tips or ideas? Current example is to try and build a script that grabs the pageloadtime for example function() { if (window.performance && window.performance.getEntriesByType) { var entries = window.performance.getEntriesByType(\"navigation\"); if (entries.length > 0) { var navTiming = entries[0]; var pageLoadTime = navTiming.loadEventEnd - navTiming.startTime; return Math.round(((pageLoadTime / 1000) + Number.EPSILON) * 100) / 100; } } } however when I test in preview... the response is always the sane \"undefined\". As the devs also stumped is there something in ga4 config or something in GA that perhaps I need to do? ps... the tag is linked to the trigger and i've even opened up the trigger to fire on all pages all the time...no joy. really appreciate any advice... ps.. ive also used about 5 different scripts so i'm sure its not the script but something either blocked or not switched on but console works fine with \"window.performance.timing.loadEventEnd - window.performance.timing.navigationStart\" multiple different scripts ranging from \"hello world\" prints to the pageload one included above... Ive looked at console and tested (it works)..... looked at GTM preview (\"undefined\" response\").... Network collect looks fine.... no obvious 404 or failures in network console notices no obvious blocking of jscript but it feels like this is the issue as no script works.",
           "up_votes": 0,
-          "views": "19 times",
+          "views": 19,
           "num_comments": null
         }
       }
@@ -21017,7 +21017,11 @@
           "job_title": "Process Improvement PMO II",
           "job_description": "As a Process Improvement PMO II in Enterprise Customer Operations, you will oversee value creation, continuous improvement processes and project management activities in a global organization while keeping leadership informed of outcomes and project risks or blockers. We count on this position to lead or collaborate in projects of different scale, for multiple teams and be able to provide directional guidance and support in the development and adoption of CI/PM practices across the organization.",
           "location": "CR, Asuncion De Belen\nPL, Warsaw, Virtual",
-          "salary_range": null,
+          "salary_range": {
+            "min": null,
+            "max": null,
+            "currency": null
+          },
           "date_posted": "4 Days Ago",
           "apply_url": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Process-Improvement-PMO-II_R01128732/apply",
           "job_benefits": "3M offers many programs to help you live your best life \u2013 both physically and financially. To ensure competitive pay and benefits, 3M regularly benchmarks with other companies that are comparable in size and scope. ",
@@ -34527,17 +34531,7 @@
             "//philosophy.com/cdn/shop/products/01_PHB_AG_23_Digital_firming_body_emulsion_model_3786_v3_1550x15500_b0612273-cd92-4052-a01c-ff1c9fa9d68b.jpg?width=1200",
             "//philosophy.com/cdn/shop/products/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_8oz_v1_1550x1550_cb965756-9db3-4340-946d-e12e18f35b79.jpg?width=1200",
             "//philosophy.com/cdn/shop/products/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_24oz_v1_1550x1550_81257936-93ef-4919-843d-2f85270a6ebd.jpg?width=1200",
-            "//philosophy.com/cdn/shop/products/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_32oz.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_v4_1550x1550_51a769a3-222a-4fa7-8466-393b82384c59.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_16oz.jpg?width=1200",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            "//philosophy.com/cdn/shop/products/11_PHB_AG_23_Digital_firming_body_emulsion_group_001_32oz.jpg?width=1200"
           ],
           "availability": "InStock",
           "shipping_details": "free shipping on all orders $50 or more!",
@@ -34614,14 +34608,7 @@
             "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_SG_hero_16oz_1500x1500_6a4372d4-3a7c-49ec-b4db-dab71390eac8.jpg?width=1200",
             "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_CPS_Ingredient_Multi_Infographic_SG_16oz_1x1.psd-JPG-300dpi-1550px.jpg?width=1200",
             "//philosophy.com/cdn/shop/files/PHB_SG_24_Digital_Visual_Key_Claims_Model_1x1.psd-JPG-300dpi-1550px_743a1a6a-a80a-481a-9ae6-2f335f588fd3.webp?width=1200",
-            "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_SG_macro_1500x1500_c0e1fd3b-b827-41a9-8ba7-5d8537d7a3e3.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_CPS_SG_Range_16oz_32oz_1x1.psd-JPG-300dpi-1550px.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_SG_hero_16oz_1500x1500_6a4372d4-3a7c-49ec-b4db-dab71390eac8.jpg?width=1200",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            "//philosophy.com/cdn/shop/files/PHF_AG_24_Digital_SG_macro_1500x1500_c0e1fd3b-b827-41a9-8ba7-5d8537d7a3e3.jpg?width=1200"
           ],
           "availability": "InStock",
           "shipping_details": "free shipping on all orders $50 or more!",
@@ -34687,11 +34674,7 @@
           "color": [],
           "images": [
             "//philosophy.com/cdn/shop/files/PHS_UMW_23_Digital_Visual_Infographic_Moisturizer_Claim_1x1.psd-JPG-300dpi-1550px.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/27_Philo_Hero_multi-rejuvenating-moisturizer-spf-30_v3_1550X1550_df5b0a40-3a55-424a-bf31-5a9f19d5b14c.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/PHS_UMW_23_Digital_Visual_Infographic_Moisturizer_Claim_1x1.psd-JPG-300dpi-1550px.jpg?width=1200",
-            "//philosophy.com/cdn/shop/files/27_Philo_Hero_multi-rejuvenating-moisturizer-spf-30_v3_1550X1550_df5b0a40-3a55-424a-bf31-5a9f19d5b14c.jpg?width=1200",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            "//philosophy.com/cdn/shop/files/27_Philo_Hero_multi-rejuvenating-moisturizer-spf-30_v3_1550X1550_df5b0a40-3a55-424a-bf31-5a9f19d5b14c.jpg?width=1200"
           ],
           "availability": "InStock",
           "shipping_details": "free shipping on all orders $50 or more!",
