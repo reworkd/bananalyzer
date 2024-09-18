@@ -641,11 +641,10 @@
       "type": "integer",
       "description": "Number of likes, upvotes, etc on the original post"
     },
-    "down_votes": {
-      "type": "integer"
-    },
     "views": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Number of views on the original post",
+      "optional": true
     },
     "num_comments": {
       "type": "integer",
@@ -924,6 +923,9 @@
     },
     "categories": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The categories the product falls under. E.g. Shoes, Jeans, Activewear."
     },
     "product_description": {
@@ -940,10 +942,16 @@
     },
     "size": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The sizes available for the product, if applicable."
     },
     "color": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The colors available for the product."
     },
     "images": {
@@ -967,6 +975,9 @@
     },
     "tags": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "Keywords or phrases related to the product for categorization and searchability."
     }
   }
