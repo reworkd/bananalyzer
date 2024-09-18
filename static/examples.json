@@ -4845,7 +4845,8 @@
           "post_date": "10 hours ago",
           "content": null,
           "up_votes": 150,
-          "num_comments": 43
+          "num_comments": 43,
+          "views": null
         }
       }
     ]
@@ -4867,7 +4868,8 @@
           "post_date": "1 month ago",
           "content": "Theres demo here. some of them played it say its good. I have not played demo yet will play soon.",
           "up_votes": null,
-          "num_comments": 53
+          "num_comments": 53,
+          "views": null
         }
       }
     ]
