@@ -64,7 +64,7 @@
       }
     },
     "date_posted": {
-      "type": "datetime",
+      "type": "string",
       "description": "Date posted, only if present on the page."
     },
     "apply_url": {
@@ -96,7 +96,7 @@
       "description": "Email address of the recruiter or hiring manager for contact."
     },
     "application_deadline": {
-      "type": "datetime",
+      "type": "string",
       "description": "The deadline for submitting job applications."
     },
     "employment_type": {
@@ -133,7 +133,7 @@
       "description": "Type of employment (e.g., full-time, part-time, contract)."
     },
     "date_posted": {
-      "type": "datetime",
+      "type": "string",
       "description": "Date when the job was posted."
     },
     "apply_url": {
