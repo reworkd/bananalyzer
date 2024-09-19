@@ -36488,7 +36488,8 @@
     "description": "A page with a single image to test that we can get the image URLs/src attribute along with its alt text",
     "tags": [
       "synthetic",
-      "images"
+      "images",
+      "regression"
     ],
     "evals": [
       {
@@ -36519,7 +36520,8 @@
     "description": "A page with a bunch of images to test that we can get all of the image URLs/src attributes along with their alt text",
     "tags": [
       "synthetic",
-      "images"
+      "images",
+      "regression"
     ],
     "evals": [
       {
