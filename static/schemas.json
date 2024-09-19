@@ -643,8 +643,7 @@
     },
     "views": {
       "type": "integer",
-      "description": "Number of views on the original post",
-      "optional": true
+      "description": "Number of views on the original post"
     },
     "num_comments": {
       "type": "integer",
