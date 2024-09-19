@@ -10721,11 +10721,19 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": [
-          {
-            "name": "Glossary of Terms",
-            "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Glossary-of-Terms/Glossary-of-Terms-Eng.pdf"
-          }
+        "options": [
+          [
+            {
+              "name": "Glossary of Terms",
+              "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Glossary-of-Terms/Glossary-of-Terms-Eng.pdf"
+            }
+          ],
+          [
+            {
+              "name": "Glossary of Terms V 3.1",
+              "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Glossary-of-Terms/Glossary-of-Terms-Eng.pdf"
+            }
+          ]
         ]
       }
     ]
