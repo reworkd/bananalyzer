@@ -9,11 +9,11 @@
       "description": "The COMPLETE address of the location using inner text of address elements. This value MUST be the combination of the building name or medical center name, street, city, state, and ZIP. EXAMPLE: `John Ivy Medical Center\n199 Test Street\nTest, CA 94103.` Concatenate multiple elements together as needed and retain formatting if possible. The building name may be placed above the other address elements. You MUST include the building name if it is available and presented this way. Do not forget ANY of the address elements. Filter out extra words at the beginning like 'Address:' or extra words at the end like 'Phone', 'Fax', 'Directions', etc. Do not use value from additional locations."
     },
     "phone": {
-      "type": "string",
+      "type": "phone_number",
       "description": "The primary phone number of the primary location. Ensure it is the phone number of the main location. This should be positioned higher than other phone numbers. Only include the number but retain its formatting. Strip all leading or trailing words like 'Phone'. Do not use the phone value from related locations. This phone value will probably be positioned close to other contact fields."
     },
     "fax": {
-      "type": "string",
+      "type": "phone_number",
       "description": "The primary FAX number of the location. Only include the number but retain its formatting by stripping all leading or trailing words like 'Fax'. Ensure the fax number you select is LABELED as a FAX number on the page via text or an icon. If there is no number labeled as fax on the page, this value MUST be left as NULL. Never assume unlabeled numbers are the fax number. Do not use value from related locations."
     }
   },
@@ -50,11 +50,11 @@
       "type": "object",
       "properties": {
         "min": {
-          "type": "string",
+          "type": "currency",
           "description": "Minimum salary offered."
         },
         "max": {
-          "type": "string",
+          "type": "currency",
           "description": "Maximum salary offered."
         },
         "currency": {
@@ -68,7 +68,7 @@
       "description": "Date posted, only if present on the page."
     },
     "apply_url": {
-      "type": "string",
+      "type": "url",
       "description": "The URL where applicants can apply for the job."
     },
     "job_benefits": {
@@ -92,7 +92,7 @@
       "description": "A list of knowledge, skills or abilities required for the job."
     },
     "recruiter_email": {
-      "type": "string",
+      "type": "email",
       "description": "Email address of the recruiter or hiring manager for contact."
     },
     "application_deadline": {
@@ -102,6 +102,82 @@
     "employment_type": {
       "type": "string",
       "description": "The type of employment (e.g., full-time, part-time, contract)."
+    }
+  },
+  "job_posting_2": {
+    "job_id": {
+      "type": "string",
+      "description": "Unique identifier for the job posting."
+    },
+    "department": {
+      "type": "string",
+      "description": "Department within the company where the job is located."
+    },
+    "title": {
+      "type": "string",
+      "description": "Job title for the posting."
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Detailed description of the job responsibilities and duties."
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of job locations."
+    },
+    "job_type": {
+      "type": "string",
+      "description": "Type of employment (e.g., full-time, part-time, contract)."
+    },
+    "date_posted": {
+      "type": "string",
+      "description": "Date when the job was posted."
+    },
+    "apply_url": {
+      "type": "url",
+      "description": "URL where applicants can submit their applications."
+    },
+    "job_benefits": {
+      "type": "string",
+      "description": "Description of benefits associated with the job."
+    },
+    "qualifications": {
+      "type": "string",
+      "description": "Required qualifications for the job."
+    },
+    "preferred_skills": {
+      "type": "string",
+      "description": "Preferred but not mandatory skills for the job."
+    },
+    "skills": {
+      "type": "string",
+      "description": "List of necessary skills required for the job."
+    },
+    "recruiter_email": {
+      "type": "email",
+      "description": "Email address of the recruiter or hiring manager."
+    },
+    "application_deadline": {
+      "type": "datetime",
+      "description": "Deadline for submitting job applications."
+    },
+    "language": {
+      "type": "string",
+      "description": "Primary language of the job posting."
+    },
+    "employment_type": {
+      "type": "string",
+      "description": "Type of employment (e.g., full-time, part-time, contract)."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags related to the job posting for search optimization."
     }
   },
   "contract": {
@@ -130,11 +206,11 @@
       "description": "Category the contract falls under if given"
     },
     "posted_date": {
-      "type": "string",
+      "type": "datetime",
       "description": "Date the contract was made available for bidding. NOT the 'effective', 'start', or 'award' date."
     },
     "due_date": {
-      "type": "string",
+      "type": "datetime",
       "description": "Date the contract closes for bidding. NOT the end term date."
     },
     "buyer_name": {
@@ -146,11 +222,11 @@
       "description": "Name of the specific individual that is leading the contract, if available"
     },
     "buyer_contact_number": {
-      "type": "string",
+      "type": "phone_number",
       "description": "Contact number of the issuer"
     },
     "buyer_contact_email": {
-      "type": "string",
+      "type": "email",
       "description": "Contact email of the issuer"
     },
     "attachments": {
@@ -162,7 +238,7 @@
             "type": "string"
           },
           "url": {
-            "type": "string"
+            "type": "url"
           }
         }
       },
@@ -215,11 +291,11 @@
       "description": "The name of the buyer related to the document."
     },
     "contact_email": {
-      "type": "string",
+      "type": "email",
       "description": "The email address of the buyer."
     },
     "contact_number": {
-      "type": "string",
+      "type": "phone_number",
       "description": "The contact number of the buyer."
     },
     "industry_items": {
@@ -294,7 +370,7 @@
       "description": "The category of the document"
     },
     "due_date": {
-      "type": "string",
+      "type": "datetime",
       "description": "The due date of the document"
     },
     "location": {
@@ -328,7 +404,7 @@
       "description": "The description of the document"
     },
     "posted_date": {
-      "type": "string",
+      "type": "datetime",
       "description": "The date the document was posted"
     },
     "procurement_items": {
@@ -357,11 +433,11 @@
       "description": "The name of the buyer contact"
     },
     "buyer_contact_email": {
-      "type": "string",
+      "type": "email",
       "description": "The email of the buyer contact"
     },
     "buyer_contact_number": {
-      "type": "string",
+      "type": "phone_number",
       "description": "The phone number of the buyer contact"
     }
   },
@@ -474,7 +550,7 @@
         "type": "object",
         "properties": {
           "url": {
-            "type": "string"
+            "type": "url"
           },
           "filename": {
             "type": "string"
@@ -488,7 +564,7 @@
         "type": "object",
         "properties": {
           "url": {
-            "type": "string"
+            "type": "url"
           },
           "filename": {
             "type": "string"
@@ -502,7 +578,7 @@
         "type": "object",
         "properties": {
           "url": {
-            "type": "string"
+            "type": "url"
           },
           "filename": {
             "type": "string"
@@ -516,7 +592,7 @@
         "type": "object",
         "properties": {
           "url": {
-            "type": "string"
+            "type": "url"
           },
           "filename": {
             "type": "string"
@@ -530,7 +606,7 @@
         "type": "object",
         "properties": {
           "url": {
-            "type": "string"
+            "type": "url"
           },
           "filename": {
             "type": "string"
@@ -565,11 +641,9 @@
       "type": "integer",
       "description": "Number of likes, upvotes, etc on the original post"
     },
-    "down_votes": {
-      "type": "integer"
-    },
     "views": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Number of views on the original post"
     },
     "num_comments": {
       "type": "integer",
@@ -578,7 +652,7 @@
   },
   "attorney": {
     "website": {
-      "type": "string",
+      "type": "url",
       "description": "URL of the attorney's profile page"
     },
     "name": {
@@ -611,7 +685,7 @@
       "description": "Specialized industry sectors"
     },
     "email": {
-      "type": "string",
+      "type": "email",
       "description": "Email address of the attorney"
     },
     "location": {
@@ -619,7 +693,7 @@
       "description": "Office location of the attorney"
     },
     "phone": {
-      "type": "string",
+      "type": "phone_number",
       "description": "Direct phone number of the attorney"
     },
     "bio": {
@@ -729,7 +803,7 @@
         "type": "object",
         "properties": {
           "date": {
-            "type": "string",
+            "type": "datetime",
             "description": "Date or duration when the award was received"
           },
           "award": {
@@ -737,7 +811,7 @@
             "description": "Name of the award"
           },
           "url": {
-            "type": "string",
+            "type": "url",
             "description": "URL link to the award recognition"
           }
         }
@@ -745,11 +819,11 @@
       "description": "Awards and recognitions received by the attorney"
     },
     "pdf_url": {
-      "type": "string",
+      "type": "url",
       "description": "Link to a PDF bio of the attorney"
     },
     "photo_url": {
-      "type": "string",
+      "type": "url",
       "description": "Link to the photo of the attorney"
     },
     "news": {
@@ -763,7 +837,7 @@
   },
   "attorney_job_listing": {
     "website": {
-      "type": "string",
+      "type": "url",
       "description": "URL of the job listing. May or may not be unique to this job."
     },
     "tier": {
@@ -808,13 +882,13 @@
       "description": "The name of the document. Can be a the text of a name/title element on the page, the combination of text of two elements, link text, or title attribute. Use the option that best captures the name for all output data. Ensure your selection doesn't lead to null or incorrect names for output rows. Do not use generic link text as the name such as a download or read more buttons."
     },
     "url": {
-      "type": "string",
+      "type": "url",
       "description": "The URL to the document. This could be a pdf, xls, webpage, etc. If and only if there are multiple link choices for a single document, prefer the PDF link"
     }
   },
   "listing_url": {
     "url": {
-      "type": "string"
+      "type": "url"
     }
   },
   "listing_education_contact": {
@@ -830,11 +904,11 @@
     },
     "email": {
       "description": "The email address of the individual",
-      "type": "string"
+      "type": "email"
     },
     "phone_number": {
       "description": "The specific phone number of the individual within the school. Do not include irrelevant text. Do not use the main school phone number.",
-      "type": "string"
+      "type": "phone_number"
     }
   },
   "ecommerce": {
@@ -848,6 +922,9 @@
     },
     "categories": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The categories the product falls under. E.g. Shoes, Jeans, Activewear."
     },
     "product_description": {
@@ -855,24 +932,33 @@
       "description": "A detailed description of the product, usually under the details section."
     },
     "price": {
-      "type": "number",
+      "type": "currency",
       "description": "The price of the product."
     },
     "discounted_price": {
-      "type": "number",
+      "type": "currency",
       "description": "The discounted price of the product, if available."
     },
     "size": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The sizes available for the product, if applicable."
     },
     "color": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "The colors available for the product."
     },
     "images": {
       "type": "array",
-      "description": "A list of URLs pointing to images of the product."
+      "description": "A list of URLs pointing to images of the product.",
+      "items": {
+        "type": "url"
+      }
     },
     "availability": {
       "type": "string",
@@ -888,6 +974,9 @@
     },
     "tags": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "description": "Keywords or phrases related to the product for categorization and searchability."
     }
   }
