@@ -36111,7 +36111,8 @@
     "description": "Paginated data with only next and previous page buttons. The buttons always work regardless if the end page is hit and will cycle through the data in a circular manner.",
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
@@ -36720,7 +36721,8 @@
     "description": "Paginated data` with only next and previous page icon buttons. The pagination occurs client-side using JavaScript.",
     "tags": [
       "synthetic",
-      "pagination"
+      "pagination",
+      "regression"
     ],
     "evals": [
       {
@@ -36940,6 +36942,78 @@
             "sku": "MT002",
             "category": "Meat",
             "price": 9.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k7Lm2pXr9sNbCvFqHjWd4",
+    "url": "https://claude.site/artifacts/07516af4-22f2-4429-ac44-7e989aa64e8d",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all federal grant opportunity information",
+    "schema_": {
+      "opportunity_number": {
+        "type": "string"
+      },
+      "opportunity_title": {
+        "type": "string"
+      },
+      "agency": {
+        "type": "string"
+      },
+      "close_date": {
+        "type": "string"
+      },
+      "estimated_funding": {
+        "type": "string"
+      }
+    },
+    "description": "Data that looks paginated because it has show more information but no actual pagination buttons",
+    "tags": [
+      "synthetic"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "opportunity_number": "GRANT-2024-001",
+            "opportunity_title": "Community Development Block Grant",
+            "agency": "Department of Housing and Urban Development",
+            "close_date": "2024-12-31",
+            "estimated_funding": "$500,000"
+          },
+          {
+            "opportunity_number": "GRANT-2024-002",
+            "opportunity_title": "Small Business Innovation Research",
+            "agency": "Small Business Administration",
+            "close_date": "2024-11-30",
+            "estimated_funding": "$750,000"
+          },
+          {
+            "opportunity_number": "GRANT-2024-003",
+            "opportunity_title": "Environmental Education Grants",
+            "agency": "Environmental Protection Agency",
+            "close_date": "2024-10-15",
+            "estimated_funding": "$300,000"
+          },
+          {
+            "opportunity_number": "GRANT-2024-004",
+            "opportunity_title": "Rural Business Development Grants",
+            "agency": "Department of Agriculture",
+            "close_date": "2024-09-30",
+            "estimated_funding": "$1,000,000"
+          },
+          {
+            "opportunity_number": "GRANT-2024-005",
+            "opportunity_title": "Healthy Communities Grant Program",
+            "agency": "Department of Health and Human Services",
+            "close_date": "2024-08-31",
+            "estimated_funding": "$250,000"
           }
         ]
       }
