@@ -6899,10 +6899,6 @@
               "description": "The content of the comment."
             }
           },
-          "required": [
-            "author",
-            "message"
-          ]
         }
       }
     },
@@ -7049,13 +7045,16 @@
     ],
     "schema_": {
       "title": {
-        "type": "string"
+        "type": "string",
+        "required": true
       },
       "url": {
-        "type": "url"
+        "type": "url",
+        "required": true
       },
       "author": {
-        "type": "string"
+        "type": "string",
+        "required": true
       }
     },
     "evals": [
