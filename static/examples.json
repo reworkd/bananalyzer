@@ -7039,7 +7039,7 @@
     "category": "articles",
     "subcategory": "blog",
     "type": "listing_detail",
-    "goal": "Fetch all of the links to the articles on the current page.",
+    "goal": "Fetch all of the links to the articles on the current page. Do not fetch from the trending articles at the top of the page.",
     "tags": [
       "urls"
     ],
