@@ -44,7 +44,7 @@ https://github.com/reworkd/bananalyzer/assets/50181239/4587615c-a5b4-472d-bca9-3
 
 Banana-lyzer is a CLI tool that runs a set of evaluations against a set of example websites.
 The examples are defined
-in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/bananalyzer/data/examples.json) using a schema
+in [examples.json](https://github.com/reworkd/bananalyzer/blob/main/static/examples.json) using a schema
 similar to [Mind2Web](https://osu-nlp-group.github.io/Mind2Web/) and [WebArena](https://webarena.dev/). The examples
 store metadata like the agent goal and the expected agent output in addition to snapshots of urls via mhtml to ensure
 the page is not changed over time. Note all examples today expect structured JSON output using data directly extracted
