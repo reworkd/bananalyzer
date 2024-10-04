@@ -37025,5 +37025,93 @@
         ]
       }
     ]
+  },
+  {
+    "id": "zlX2pXr9sNbCvFqHjWd4",
+    "url": "https://claude.site/artifacts/0245b19e-be7c-4adc-a198-795c4a74ccbd",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing",
+    "goal": "Extract all the page numbers and their URLs.",
+    "schema_": {
+      "page_number": {
+        "type": "string"
+      },
+      "page_url": {
+        "type": "string"
+      },
+    },
+    "description": "Page numbers that are very tall and close together designed to confuse OCR",
+    "tags": [
+      "synthetic", "pagination", "ocr_confusion"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "page_number": "1",
+            "page_url": "#",
+          },
+          {
+            "page_number": "2",
+            "page_url": "#",
+          },
+          {
+            "page_number": "3",
+            "page_url": "#",
+          },
+          {
+            "page_number": "4",
+            "page_url": "",
+          },
+          {
+            "page_number": "5",
+            "page_url": "#",
+          },
+          {
+            "page_number": "6",
+            "page_url": "#",
+          },
+          {
+            "page_number": "7",
+            "page_url": "#",
+          },
+          {
+            "page_number": "42",
+            "page_url": "#",
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "z2wq1pXr9sNbCvFqHjWd4",
+    "url": "https://claude.site/artifacts/9618aae7-3e2b-454f-bcb9-293935afb30c",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing",
+    "goal": "Extract the text content from the page.",
+    "schema_": {
+      "text_content": {
+        "type": "string"
+      },
+    },
+    "description": "Page text will be covered by tarsier tag in the OCR'd page text",
+    "tags": [
+      "synthetic", "ocr_confusion"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "text_content": "This is some small text",
+          },
+        ]
+      }
+    ]
   }
 ]

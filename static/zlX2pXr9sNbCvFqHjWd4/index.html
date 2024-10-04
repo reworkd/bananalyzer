@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px; }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .pagination a, span {
+            color: black;
+            text-decoration: none;
+            transform: scale(0.7, 1.5);
+            display: grid;
+        }
+        .arrow { transform: none; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="pagination">
+        <a href="#" class="arrow">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <span>4</span>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <span class="ellipsis">...</span>
+        <a href="#">42</a>
+        <a href="#" class="arrow">&raquo;</a>
+    </div>
+</body>
+</html>
