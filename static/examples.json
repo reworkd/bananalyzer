@@ -37040,7 +37040,7 @@
       },
       "page_url": {
         "type": "string"
-      },
+      }
     },
     "description": "Page numbers that are very tall and close together designed to confuse OCR",
     "tags": [
@@ -37052,35 +37052,35 @@
         "expected": [
           {
             "page_number": "1",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "2",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "3",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "4",
-            "page_url": "",
+            "page_url": ""
           },
           {
             "page_number": "5",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "6",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "7",
-            "page_url": "#",
+            "page_url": "#"
           },
           {
             "page_number": "42",
-            "page_url": "#",
+            "page_url": "#"
           }
         ]
       }
@@ -37097,7 +37097,7 @@
     "schema_": {
       "text_content": {
         "type": "string"
-      },
+      }
     },
     "description": "Page text will be covered by tarsier tag in the OCR'd page text",
     "tags": [
@@ -37108,8 +37108,8 @@
         "type": "json_match",
         "expected": [
           {
-            "text_content": "This is some small text",
-          },
+            "text_content": "This is some small text"
+          }
         ]
       }
     ]
