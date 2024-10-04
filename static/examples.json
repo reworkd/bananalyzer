@@ -37033,10 +37033,10 @@
     "category": "synthetic",
     "subcategory": "synthetic",
     "type": "listing",
-    "goal": "Extract all the page numbers and their URLs. If a page number does not have a URL, then extract the number and leave the  URL as an empty string.",
+    "goal": "Extract all the page numbers and their URLs. If a page number does not have a URL, then extract the number and leave the  URL as null.",
     "schema_": {
       "page_number": {
-        "type": "string"
+        "type": "number"
       },
       "page_url": {
         "type": "string"
@@ -37051,35 +37051,35 @@
         "type": "json_match",
         "expected": [
           {
-            "page_number": "1",
+            "page_number": 1,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "2",
+            "page_number": 2,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "3",
+            "page_number": 3,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "4",
-            "page_url": ""
+            "page_number": 4,
+            "page_url": null
           },
           {
-            "page_number": "5",
+            "page_number": 5,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "6",
+            "page_number": 6,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "7",
+            "page_number": 7,
             "page_url": "https://www.validurl.com/"
           },
           {
-            "page_number": "42",
+            "page_number": 42,
             "page_url": "https://www.validurl.com/"
           }
         ]
