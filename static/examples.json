@@ -37108,7 +37108,7 @@
         "type": "json_match",
         "expected": [
           {
-            "text_content": "This is some small text"
+            "text_content": "small text"
           }
         ]
       }
