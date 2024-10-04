@@ -37044,7 +37044,7 @@
     },
     "description": "Page numbers that are very tall and close together designed to confuse OCR",
     "tags": [
-      "synthetic", "pagination", "ocr_confusion"
+      "synthetic", "pagination"
     ],
     "evals": [
       {
@@ -37101,7 +37101,7 @@
     },
     "description": "Page text will be covered by tarsier tag in the OCR'd page text",
     "tags": [
-      "synthetic", "ocr_confusion"
+      "synthetic"
     ],
     "evals": [
       {
