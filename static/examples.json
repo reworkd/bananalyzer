@@ -37033,7 +37033,7 @@
     "category": "synthetic",
     "subcategory": "synthetic",
     "type": "listing",
-    "goal": "Extract all the page numbers and their URLs. If a page number does not have a URL, then extract the number and leave the  URL as null.",
+    "goal": "Extract all the page numbers and their URLs. If a page number does not have a URL, then extract the number and leave the  URL as an empty string.",
     "schema_": {
       "page_number": {
         "type": "string"
