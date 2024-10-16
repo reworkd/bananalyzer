@@ -12,7 +12,7 @@ bananalyze = "bananalyzer.__main__:main"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
-playwright = "^1.47.0"
+playwright = ">=1.47.0"
 pydantic = "^2.8.2"
 pytest-asyncio = "^0.24.0"
 deepdiff = "^8.0.0"
