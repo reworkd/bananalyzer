@@ -42,6 +42,7 @@ PossibleTags = Literal[
     "infinite-scroll",
     "synthetic",
     "images",
+    "text-nodes",
 ]
 
 

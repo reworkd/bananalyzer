@@ -37111,5 +37111,43 @@
         }
       }
     ]
-  }
+  },
+  {
+    "id": "x7Ht6mRk9nWqLpFcZvB3Y",
+    "url": "https://claude.site/artifacts/10d2b69d-8787-427a-99a2-c956746c862e",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "detail",
+    "goal": "Extract the contact information on the page. Extract the full address as is.",
+    "schema_": {
+      "address": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "fax": {
+        "type": "string"
+      }
+    },
+    "description": "Address information split across text nodes for fields",
+    "tags": [
+      "synthetic",
+      "text-nodes"
+    ],
+    "evals": [
+      {
+
+        "type": "json_match",
+        "expected": [
+          {
+            "address": "1295 Bandana Boulevard West, Suite 310 & 210, St. Paul, MN 55108",
+            "phone": "651-645-5323",
+            "fax": "651-621-8490"
+          }
+        ]
+      }
+    ]
+}
 ]
