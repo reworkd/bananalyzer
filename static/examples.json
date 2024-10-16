@@ -37044,7 +37044,8 @@
     },
     "description": "Page numbers that are very tall and close together designed to confuse OCR",
     "tags": [
-      "synthetic", "pagination"
+      "synthetic",
+      "pagination"
     ],
     "evals": [
       {
@@ -37107,7 +37108,7 @@
       {
         "type": "json_match",
         "expected": {
-            "text_content": "small text"
+          "text_content": "small text"
         }
       }
     ]
@@ -37138,7 +37139,6 @@
     ],
     "evals": [
       {
-
         "type": "json_match",
         "expected": [
           {
@@ -37149,5 +37149,34 @@
         ]
       }
     ]
-}
+  },
+  {
+    "id": "k7Lp5wRz9xNcHqTvFyAe3",
+    "url": "https://claude.site/artifacts/7b3f0129-ad1c-4810-a317-075bbb553f1e",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "detail",
+    "goal": "Extract only the fax number information. Extract just the number itself. Ensure there is no additional text.",
+    "schema_": {
+      "fax": {
+        "type": "string"
+      }
+    },
+    "description": "Single field but the required value is a text node within the element.",
+    "tags": [
+      "synthetic",
+      "text-nodes"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "fax": "404-252-1196"
+          }
+        ]
+      }
+    ]
+  }
 ]
