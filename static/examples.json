@@ -37164,7 +37164,8 @@
     "description": "Single field but the required value is a text node within the element.",
     "tags": [
       "synthetic",
-      "text-nodes"
+      "text-nodes",
+      "regression"
     ],
     "evals": [
       {
@@ -37172,6 +37173,47 @@
         "expected": {
           "fax": "404-252-1196"
         }
+      }
+    ]
+  },
+  {
+    "id": "mN7cQ2wP9xLfRzTh5DjBv",
+    "url": "https://www.test.com",
+    "source": "html",
+    "category": "synthetic",
+    "subcategory": "synthetic",
+    "type": "listing_detail",
+    "goal": "Extract all the contact information on the page",
+    "schema_": {
+      "name": {
+        "type": "string"
+      },
+      "address": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "fax": {
+        "type": "string"
+      }
+    },
+    "description": "Long address field with un-necessary ('Get Directions') text at the end of it",
+    "tags": [
+      "synthetic",
+      "text-nodes"
+    ],
+    "evals": [
+      {
+        "type": "json_match",
+        "expected": [
+          {
+            "name": "Sunshine Valley Medical Center",
+            "address": "Sunshine Valley Hospital\n5678 Healing Lane\n3rd Floor\nMeadowbrook, CA 90210",
+            "phone": "555.123.4567",
+            "fax": "555.987.6543"
+          }
+        ]
       }
     ]
   }
