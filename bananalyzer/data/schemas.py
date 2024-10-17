@@ -115,7 +115,7 @@ class Eval(BaseModel):
 
 class Example(BaseModel):
     id: str
-    url: str
+    url: str | None
     resource_path: Optional[str] = Field(
         description="Local path of a HAR, S3 URL of a HAR directory's tar.gz, or remote URL of MHTML",
         default=None,

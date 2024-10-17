@@ -37140,13 +37140,11 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": [
-          {
-            "address": "1295 Bandana Boulevard West, Suite 310 & 210, St. Paul, MN 55108",
-            "phone": "651-645-5323",
-            "fax": "651-621-8490"
-          }
-        ]
+        "expected": {
+          "address": "1295 Bandana Boulevard West, Suite 310 & 210, St. Paul, MN 55108",
+          "phone": "651-645-5323",
+          "fax": "651-621-8490"
+        }
       }
     ]
   },
@@ -37171,11 +37169,9 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": [
-          {
-            "fax": "404-252-1196"
-          }
-        ]
+        "expected": {
+          "fax": "404-252-1196"
+        }
       }
     ]
   }
