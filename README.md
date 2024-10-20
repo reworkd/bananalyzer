@@ -85,8 +85,7 @@ Separately, there are specific `tags` that can be used further filter test inten
 ```python
 import asyncio
 from playwright.async_api import BrowserContext
-from bananalyzer.data.schemas import Example
-from bananalyzer.runner.agent_runner import AgentResult, AgentRunner
+from bananalyzer import AgentResult, AgentRunner, Example
 
 
 class NullAgentRunner(AgentRunner):

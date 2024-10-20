@@ -7,7 +7,7 @@ from typing import Awaitable, Callable, List
 import pytest
 from pydantic import BaseModel
 
-from bananalyzer.data.schemas import Example
+from bananalyzer.data.example_schemas import Example
 from bananalyzer.hooks import BananalyzerPytestPlugin
 from bananalyzer.junit import enrich_report
 from bananalyzer.schema import AgentRunnerClass, PytestArgs, XDistArgs
@@ -43,7 +43,7 @@ import pytest
 import pytest_asyncio
 import asyncio
 
-from bananalyzer.data.examples import get_example_by_url
+from bananalyzer.data.example_fetching import get_example_by_url
 from playwright.async_api import async_playwright
 
 @pytest.fixture(scope="session")

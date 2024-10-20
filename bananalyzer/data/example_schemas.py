@@ -115,7 +115,7 @@ class Eval(BaseModel):
 
 class Example(BaseModel):
     id: str
-    url: str | None
+    url: str
     resource_path: Optional[str] = Field(
         description="Local path of a HAR, S3 URL of a HAR directory's tar.gz, or remote URL of MHTML",
         default=None,
@@ -142,7 +142,7 @@ class Example(BaseModel):
 
     @property
     def har_file_path(self) -> Path:
-        from bananalyzer.data.examples import get_examples_path
+        from bananalyzer.data.example_fetching import get_examples_path
 
         if self.source != "har":
             raise ValueError("This example is not a HAR file")
@@ -166,7 +166,7 @@ class Example(BaseModel):
 
     @model_validator(mode="before")
     def set_schema_and_goal(cls, values: Dict[str, Any]) -> Dict[str, Any]:
-        from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
+        from bananalyzer.data.example_detail_schemas import get_fetch_schema, get_goal
 
         if values.get("schema_") is None:
             print(f"Warning: Schema not found for Example {values['id']}")

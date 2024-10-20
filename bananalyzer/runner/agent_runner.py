@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 from playwright.async_api import Page
 
-from bananalyzer.data.schemas import Example
+from bananalyzer import Example
 from bananalyzer.runner.evals import AllowedJSON
 
 AgentResult = AllowedJSON

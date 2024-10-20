@@ -1,7 +1,8 @@
-from pydantic import BaseModel, Field
 from typing import List, Literal, Optional, Union
 
-from bananalyzer.data.schemas import ExampleType
+from pydantic import BaseModel, Field
+
+from bananalyzer.data.example_schemas import ExampleType
 
 XDistDistributionMode = Literal[
     "load", "loadscope", "loadfile", "loadgroup", "worksteal", "no"

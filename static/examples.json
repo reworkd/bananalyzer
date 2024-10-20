@@ -37206,10 +37206,16 @@
     "evals": [
       {
         "type": "json_match",
-        "expected": [
+        "options": [
           {
             "name": "Sunshine Valley Medical Center",
             "address": "Sunshine Valley Hospital\n5678 Healing Lane\n3rd Floor\nMeadowbrook, CA 90210",
+            "phone": "555.123.4567",
+            "fax": "555.987.6543"
+          },
+          {
+            "name": "Sunshine Valley Medical Center",
+            "address": "Sunshine Valley Hospital, 5678 Healing Lane, 3rd Floor, Meadowbrook, CA 90210",
             "phone": "555.123.4567",
             "fax": "555.987.6543"
           }

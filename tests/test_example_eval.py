@@ -5,7 +5,7 @@ import pytest
 from _pytest.outcomes import Failed
 from pytest_mock import MockFixture
 
-from bananalyzer.data.schemas import Eval, Example
+from bananalyzer.data.example_schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
 
 
@@ -266,7 +266,8 @@ def test_goal_non_str() -> None:
 )
 def test_har_file_path_valid(overrides, expected_path, mocker):
     mocker.patch(
-        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+        "bananalyzer.data.example_fetching.get_examples_path",
+        return_value=Path("path/to"),
     )
     mocker.patch("os.path.exists", return_value=True)
 
@@ -291,7 +292,8 @@ def test_har_file_path_valid(overrides, expected_path, mocker):
 )
 def test_har_file_path_invalid(overrides, mocker):
     mocker.patch(
-        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+        "bananalyzer.data.example_fetching.get_examples_path",
+        return_value=Path("path/to"),
     )
     mocker.patch("os.path.exists", return_value=False)
 

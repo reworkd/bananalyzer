@@ -1,7 +1,7 @@
 import pytest
 from pytest_mock import MockFixture
 
-from bananalyzer.data.schemas import Example
+from bananalyzer.data.example_schemas import Example
 from bananalyzer.runner.website_responder import (
     HostedWebsiteResponder,
     StaticFileResponder,

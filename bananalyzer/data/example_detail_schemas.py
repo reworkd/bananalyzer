@@ -1,8 +1,7 @@
 import json
 from typing import Dict, Any
 
-from bananalyzer.data.schemas import SchemaName
-from bananalyzer.data.examples import get_examples_path
+from bananalyzer.data.example_fetching import get_examples_path
 
 """
 This file maps a schema_name to a JSON schema or goal string.
