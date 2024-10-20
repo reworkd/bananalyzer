@@ -266,7 +266,7 @@ def test_goal_non_str() -> None:
 )
 def test_har_file_path_valid(overrides, expected_path, mocker):
     mocker.patch(
-        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+        "bananalyzer.data.example_fetching.get_examples_path", return_value=Path("path/to")
     )
     mocker.patch("os.path.exists", return_value=True)
 
@@ -291,7 +291,7 @@ def test_har_file_path_valid(overrides, expected_path, mocker):
 )
 def test_har_file_path_invalid(overrides, mocker):
     mocker.patch(
-        "bananalyzer.data.examples.get_examples_path", return_value=Path("path/to")
+        "bananalyzer.data.example_fetching.get_examples_path", return_value=Path("path/to")
     )
     mocker.patch("os.path.exists", return_value=False)
 
