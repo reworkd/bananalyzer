@@ -11,13 +11,13 @@ from typing import List
 from urllib.parse import urlparse
 
 from bananalyzer import AgentRunner
-from bananalyzer.data.banana_seeds import download_har, download_mhtml
-from bananalyzer.data.examples import (
+from bananalyzer.data.example_fetching import (
     download_examples,
     get_examples_path,
     get_test_examples,
     get_training_examples,
 )
+from bananalyzer.data.example_s3 import download_har, download_mhtml
 from bananalyzer.runner.generator import PytestTestGenerator
 from bananalyzer.runner.runner import run_tests
 from bananalyzer.schema import AgentRunnerClass, Args, PytestArgs, XDistArgs

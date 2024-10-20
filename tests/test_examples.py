@@ -10,8 +10,8 @@ from unittest.mock import mock_open
 import pytest
 from pytest_mock import MockFixture
 
-from bananalyzer.data.banana_seeds import download_har
-from bananalyzer.data.examples import (
+from bananalyzer.data.example_detail_schemas import get_fetch_schema, get_goal
+from bananalyzer.data.example_fetching import (
     download_examples,
     downloaded_examples_path,
     get_all_examples,
@@ -22,8 +22,8 @@ from bananalyzer.data.examples import (
     load_examples_at_path,
     local_examples_path,
 )
-from bananalyzer.data.fetch_schemas import get_fetch_schema, get_goal
-from bananalyzer.data.schemas import Example
+from bananalyzer.data.example_s3 import download_har
+from bananalyzer.data.example_schemas import Example
 
 
 def test_load_examples_at_path_success(mocker: MockFixture) -> None:

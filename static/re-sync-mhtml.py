@@ -4,8 +4,8 @@ from typing import Any, List
 
 from playwright.async_api import async_playwright
 
-from bananalyzer.data.examples import get_all_examples
-from bananalyzer.data.schemas import Example
+from bananalyzer.data.example_fetching import get_all_examples
+from bananalyzer.data.example_schemas import Example
 
 """
 Test script to re-load websites and save them as MHTML files.

@@ -5,7 +5,7 @@ import pytest
 from _pytest.outcomes import Failed
 from pytest_mock import MockFixture
 
-from bananalyzer.data.schemas import Eval, Example
+from bananalyzer.data.example_schemas import Eval, Example
 from bananalyzer.runner.evals import format_new_lines
 
 

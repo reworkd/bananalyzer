@@ -1,6 +1,6 @@
 from bananalyzer.__version import VERSION
-from bananalyzer.data.examples import get_all_examples
-from bananalyzer.data.schemas import Example, ExampleType
+from bananalyzer.data.example_fetching import get_all_examples
+from bananalyzer.data.example_schemas import ExampleType, Example
 from bananalyzer.runner.agent_runner import AgentRunner, AgentResult
 from bananalyzer.runner.evals import check_match, AllowedJSON
 

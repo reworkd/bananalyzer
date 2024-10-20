@@ -1,5 +1,5 @@
 from bananalyzer import Example
-from bananalyzer.data.schemas import Eval
+from bananalyzer.data.example_schemas import Eval
 from bananalyzer.runner.generator import PytestTestGenerator
 
 
