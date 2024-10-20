@@ -51,6 +51,31 @@ def replace_empty_strings_with_none(value: AllowedJSON) -> AllowedJSON:
         return value
 
 
+def sort_keys_based_on_expected(
+    actual: AllowedJSON, expected: AllowedJSON
+) -> AllowedJSON:
+    if isinstance(expected, dict) and isinstance(actual, dict):
+        result_dict = {}
+        # First, add all items from expected
+        for k, v in expected.items():
+            result_dict[k] = sort_keys_based_on_expected(actual.get(k), v)
+        # Then, add any remaining items from actual
+        for k, v in actual.items():
+            if k not in result_dict:
+                result_dict[k] = v
+        return result_dict
+    elif isinstance(expected, list) and isinstance(actual, list):
+        result_list: list[AllowedJSON] = []
+        for i in range(max(len(expected), len(actual))):
+            if i < len(expected) and i < len(actual):
+                result_list.append(sort_keys_based_on_expected(actual[i], expected[i]))
+            elif i < len(actual):
+                result_list.append(actual[i])
+        return result_list  # type: ignore[return-value]
+    else:
+        return actual
+
+
 def pre_process(value: AllowedJSON) -> AllowedJSON:
     value = format_new_lines(value)
     value = trim_strings(value)
@@ -61,6 +86,7 @@ def pre_process(value: AllowedJSON) -> AllowedJSON:
 def validate_json_match(expected: AllowedJSON, actual: AllowedJSON) -> None:
     expected = pre_process(expected)
     actual = pre_process(actual)
+    actual = sort_keys_based_on_expected(actual, expected)
 
     if isinstance(expected, Dict) and isinstance(actual, Dict):
         # TODO: Pass in schema in the backend and handle this OUTSIDE of tests
