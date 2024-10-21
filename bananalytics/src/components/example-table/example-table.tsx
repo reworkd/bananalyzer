@@ -68,8 +68,8 @@ export function ExampleTable() {
       </TableBody>
       <TableFooter>
         <TableRow>
-          <TableCell colSpan={3}>Total</TableCell>
-          <TableCell className="text-right">$2,500.00</TableCell>
+          <TableCell colSpan={3}>Perfect success percent</TableCell>
+          <TableCell className="text-right">20%</TableCell>
         </TableRow>
       </TableFooter>
     </Table>
