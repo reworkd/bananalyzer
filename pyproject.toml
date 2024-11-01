@@ -27,7 +27,7 @@ numpy = "^2.1.0"
 
 [tool.poetry.group.test.dependencies]
 pytest-mock = "^3.14.0"
-pytest-cov = "^5.0.0"
+pytest-cov = ">=5,<7"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.11.2"
