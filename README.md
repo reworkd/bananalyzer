@@ -34,7 +34,7 @@ We've created our own evals repo because:
 - We have specific evaluation criteria and agent use cases focusing on structured and direct information retrieval
   across websites.
 - There exists valuable web task datasets and evaluations that we'd like to unify in a single
-  repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), etc).
+  repo ([Mind2Web](https://osu-nlp-group.github.io/Mind2Web/), [WebArena](https://webarena.dev/), [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench), etc).
 
 https://github.com/reworkd/bananalyzer/assets/50181239/4587615c-a5b4-472d-bca9-334594130af1
 
